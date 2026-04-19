@@ -16,7 +16,8 @@ Append-only record of ingests, queries, and maintenance.
 ## [2026-04-19] ingest | studenti_vese2.md - 0100.md (Integrazione PRAXIS Studenti Batch S2)
 ## [2026-04-19] ingest | studenti_osta30.md - 0150.md (Integrazione PRAXIS Studenti Batch S3)
 ## [2026-04-19] ingest | studenti_ieri23.md - 0200.md (Integrazione PRAXIS Studenti Batch S4)
-## [2026-04-19] ingest | studenti_inti23.md - 0250.md (Integrazione PRAXIS Studenti Batch S5)
+## [2026-04-19] ingest | studenti_0201.md - 0250.md (Integrazione PRAXIS Studenti Batch S5)
+## [2026-04-19] ingest | studenti_0251.md - 0273.md (Integrazione PRAXIS Studenti Batch S6 — FINALE) ✅
 ## [2026-04-19] ingest | studenti_erto07.md - 0273.md (Finale Studenti Batch S6)
 ## [2026-04-19] maintenance | studenti — aggancio batch file orfani (206 file scansionati, 32 con contenuto)
 Aggiornate 9 sotto-pagine: uso-strumentale-evasivo, interrogatore-e-autovalutazione, profili-di-non-uso-1-6, profili-di-non-uso-7-9, adequacy-of-support-studenti, supporto-vs-sostituzione, autonomia-cognitiva-a-rischio, sfiducia-tecnica-e-strutturale, evoluzione-del-tabu, zone-di-esclusione-s6. Nessuna nuova sotto-pagina creata. Pattern nuovi: sfiducia epistemica assoluta, vuoto cognitivo differito, identità arcaica auto-dichiarata, Consensus come strumento bibliografico, prompt multi-componente esplicito.
