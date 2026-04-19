@@ -20,4 +20,7 @@ FROM nginx:alpine
 # Copia il sito generato
 COPY --from=builder /quartz/public /usr/share/nginx/html
 
+# Configurazione Nginx per URL senza estensione .html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
