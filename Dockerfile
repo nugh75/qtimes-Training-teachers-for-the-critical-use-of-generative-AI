@@ -9,7 +9,7 @@ RUN git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git . \
     && npm ci
 
 # Copia il contenuto del vault Obsidian
-COPY ./#qtimes/ /quartz/content/
+COPY ./Praxis-ql/ /quartz/content/
 
 # Build del sito statico
 RUN npx quartz build

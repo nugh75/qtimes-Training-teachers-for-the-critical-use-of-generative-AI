@@ -1,10 +1,10 @@
 ---
-title: "#QTimes"
+title: "Praxis-ql"
 ---
 
-# #QTimes Wiki
+# Praxis-ql Wiki
 
-Benvenuto nel wiki del progetto #QTimes.
+Benvenuto nel wiki del progetto Praxis-ql.
 
 ## Sezioni
 

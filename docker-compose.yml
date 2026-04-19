@@ -1,8 +1,23 @@
 services:
-  qtimes-wiki:
+  builder:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.builder
+    volumes:
+      - ./Praxis-ql:/quartz/content:ro
+      - site-data:/output
+
+  qtimes-wiki:
+    image: nginx:alpine
     ports:
       - "8080:80"
+    volumes:
+      - site-data:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     restart: unless-stopped
+    depends_on:
+      builder:
+        condition: service_completed_successfully
+
+volumes:
+  site-data:
