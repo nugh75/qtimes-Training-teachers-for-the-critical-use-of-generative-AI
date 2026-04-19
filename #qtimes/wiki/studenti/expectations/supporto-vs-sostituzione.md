@@ -1,0 +1,38 @@
+# Supporto vs. sostituzione
+**Dimensione**: eXpectations (X)
+**Popolazione**: Studenti
+
+
+**Summary**: Sotto-tema che esplora supporto vs. sostituzione secondo le evidenze qualitative raccolte.
+**Sources**: 31 risposte raw (vedi citazioni nel testo).
+**Last updated**: 2026-04-19
+
+---
+
+Frame dominante: distinzione binaria **supporto vs. sostituzione**. La pigrizia cognitiva è il counter universale (S3-S4) — "*Il rischio principale per me è l'abuso, rischiando di sostituire ciò che potrebbe essere svolto da noi*" (source: [ucci19](../../../raw/studenti_ucci19.md)); "*si riduce il quoziente intellettivo dello studente*" (source: [ucci31](../../../raw/studenti_ucci31.md)). In S5 emergono due nuovi vettori: (a) la **fantasia e l'individualità** come valori a rischio distinti dal pensiero critico — "*Pro si apprende contro fa diminuire la fantasia*" (source: [Vito21](../../../raw/studenti_vito21.md)) e "*limitano molto la creatività e l'individualità*" (source: [tisti14](../../../raw/studenti_tisti14.md)); (b) l'**autonomia esecutiva** come valore specifico: l'IA può *privare della capacità di fare le cose da soli in futuro* — "*come contro mi verrebbe da dire che non ci si impegna più come si sarebbe fatto senza*" (source: [gemi14](../../../raw/studenti_gemi14.md)). La **dipendenza percepita come fatto compiuto** — "*I pro sono la facilità di fruizione, i contro e che ora non si può far senza!*" (source: [Izzi02](../../../raw/studenti_izzi02.md)); "*i pro che mi aiuta molto i contro che crea dipendenza*" (source: [gelo25](../../../raw/studenti_gelo25.md)); "*il cervello non si sforza più a fare da sé perché abbiamo già tutto servito e quindi si perdono anche le capacità di ragionamento proprio*" (source: [uida30](../../../raw/studenti_uida30.md)) (source: [ciuc31](../../../raw/studenti_ciuc31.md)) (source: [Ayed027](../../../raw/studenti_ayed027.md)).
+
+Il tema della sostituzione emerge anche come paura viscerale, non solo critica razionale: AZZO23 teme che "il cervello possa essere sostituito da una macchina" e che l'IA tolga "una parte fondamentale del processo di studio: leggere, comprendere, spremere le meningi" (source: [AZZO23](../../../raw/studenti_azzo23.md)). La sostituzione è percepita come violenta anche da eppe03: "*il maggiore contro è che spesso l'ia sostituisce in maniera troppo brutale l'operato degli esseri umani*" (source: [eppe03](../../../raw/studenti_eppe03.md)). Glia01 articola la distinzione nel piano dell'apprendimento: l'IA "*sostituisce l'apprendimento attivo e critico*" (source: [Glia01](../../../raw/studenti_glia01.md)). Iosi26 sposta il focus sull'**impegno come valore umano**: l'IA "*può sostituire l'impegno, caratteristica dell'essere umano*" (source: [iosi26](../../../raw/studenti_iosi26.md)). Rone11 introduce la metafora del **superamento**: paura che l'IA "*scavalchi le possibilità umane e le risorse preziose che abbiamo*" (source: [rone11](../../../raw/studenti_rone11.md)). Silla25, in spagnolo, sintetizza con la formula della resistenza culturale all'abitudine: "*no debemos acostumbrarnos*" — non dobbiamo abituarci (source: [silla25](../../../raw/studenti_silla25.md)).
+
+
+### Ulteriori evidenze dalle fonti
+
+
+Diversi rispondenti pongono l'accento su **il timore che l'IA possa sostituire il ruolo del docente o ridurre i posti di lavoro**. Come osserva Anzo27: "*Il pro è avere un sistema che possa rispondere anche ai dubbi più semplici. Il contro è ovviamente l’utilizzo improprio dello strumento per fare le cose al posto nostro come la produzione di un testo o un lavoro*" (source: [Anzo27](../../../raw/studenti_anzo27.md)). Nelle parole di Lman28: "*Pro: aiuto sostanziale  contro: forse c’è una semplificazione del lavoro, l’impegno è fortemente ridotto.*" (source: [Lman28](../../../raw/studenti_lman28.md)). Lupi31 afferma: "*L’intelligenza artificiale può comportare ripercussioni positive o negative, in base all’utilizzo che si fa di essa. Può essere utile per amplificare le conoscenze o approfondire un argomento, ma sempre nei limiti, facendo in modo che non vada a sostituire i libri cartacei.*" (source: [Lupi31](../../../raw/studenti_lupi31.md)).
+
+Due rispondenti pongono l'accento su **gli strumenti e le piattaforme utilizzati**. Secondo Enti09: "*Sicuramente è un buono strumento per la preparazione di progetti e programmi però può portare a distrazioni frequenti*" (source: [Enti09](../../../raw/studenti_enti09.md)). Tese28 sottolinea: "*Non la utilizzo poiché è uno strumento discriminatorio, creatore di pregiudizi contro donne e minoranze. È uno strumento che non supporto poiché creato da maschi bianchi occidentali, che sessualizzano e oggettificano le donne. È uno strumento pericoloso anche per i dati che raccoglie e per la loro distribuzione a terze parti.*" (source: [Tese28](../../../raw/studenti_tese28.md)).
+
+Diversi rispondenti pongono l'accento su **il rischio di impoverimento delle capacità cognitive e dell'autonomia di pensiero**. glia18 evidenzia: "*i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi*" (source: [glia18](../../../raw/studenti_glia18.md)). Itti17 rileva: "*Perché sono stata abituata ad uno studio tradizionale e personale.  Mancanza di fiducia nello strumento*" (source: [Itti17](../../../raw/studenti_itti17.md)). A questo proposito, niro27 dichiara: "*Non lo ha completamente migliorato, ma ha fornito supporto in situazioni di blocco o confusione nello studio di una materia*" (source: [niro27](../../../raw/studenti_niro27.md)). Come testimonia Ummo22: "*Può essere usata come supporto ma senza esagerare perché altrimenti non sfruttiamo a pieno le nostre capacità*" (source: [Ummo22](../../../raw/studenti_ummo22.md)).
+
+Un rispondente pone l'accento su **l'uso dell'IA nella pratica didattica quotidiana**. glia24 spiega: "*aiuto con gli esercizi, mi è utile perchè se non capisco chiedo all'intelligenza artificiale*" (source: [glia24](../../../raw/studenti_glia24.md)).
+
+Un rispondente pone l'accento su **i vantaggi in termini di velocità e semplificazione del lavoro**. iase11 riferisce: "*I pro sono sicuramente la velocità e le varie attività a disposizione che aiutano lo studio. L'unico contro che posso riscontrare è proprio la facilità di ricerca e aiuto, che possono sfociare in un abuso dell'IA con diminuzione di autonomia e iniziativa nello studio.*" (source: [iase11](../../../raw/studenti_iase11.md)).
+
+Due rispondenti pongono l'accento su **l'inaffidabilità e gli errori dell'IA**. masu24 commenta: "*pro aiuta ad avere un modo di parlare più sicuro contro può farti sbagliare*" (source: [masu24](../../../raw/studenti_masu24.md)). Come nota nzio14: "*per  esempio chat gpt, é molto utile per ricerche, a volte é utilizzato in modo sbagliato*" (source: [nzio14](../../../raw/studenti_nzio14.md)).
+
+Un rispondente pone l'accento su **il rischio di plagio e disonestà accademica**. orno24 precisa: "*svolgere completamente alcuni compiti  perchè dovrebbe essere uno strumento di supporto secondo me*" (source: [orno24](../../../raw/studenti_orno24.md)).
+
+Emergono inoltre ulteriori prospettive. In tal senso, auje28 indica: "*I pro sono che può essere molto utile il contro invece che un giorno si userà solo quella*" (source: [auje28](../../../raw/studenti_auje28.md)).
+
+## Pagine correlate
+- [Indice Expectations](expectations-studenti.md)
+- [Indice studenti](../index-studenti.md)

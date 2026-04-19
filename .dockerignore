@@ -1,0 +1,7 @@
+node_modules
+.venv
+.obsidian
+.DS_Store
+dati
+*.pyc
+__pycache__

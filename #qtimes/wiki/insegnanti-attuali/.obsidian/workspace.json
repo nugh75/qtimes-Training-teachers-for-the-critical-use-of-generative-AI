@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "63ad9534016b1720",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8a4c38624003522",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a4295b98723d3f5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29e1c2caaf8abebc",
+    "type": "split",
+    "children": [
+      {
+        "id": "00b24f4b50b9b66a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9519d83077646405",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "bda6bd0a4740c48e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "1593e03275433902",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d520a384f10f7be",
+    "type": "split",
+    "children": [
+      {
+        "id": "65fdc4a16877aa73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddd7d81f39a4b730",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "b60b97e3563bdf07",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "0591aa091c18df84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "d50b6fefc3bc7c2d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "77650d9894b45a7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "0a4295b98723d3f5",
+  "lastOpenFiles": [
+    "expectations/inclusione-digitale.md",
+    "expectations/peggioramento-efficace.md",
+    "expectations/expectations-insegnanti-attuali.md",
+    "expectations",
+    "index-insegnanti-attuali.md",
+    "practice-patterns/practice-patterns-insegnanti-attuali.md",
+    "interpersonal-trust/interpersonal-trust-insegnanti-attuali.md",
+    "skepticisms/skepticisms-insegnanti-attuali.md",
+    "adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
+    "interpersonal-trust/index.md",
+    "interpersonal-trust/paradosso-digitale.md",
+    "interpersonal-trust/filosofia-della-fatica.md",
+    "interpersonal-trust/bias-e-allucinazione.md",
+    "interpersonal-trust",
+    "adequacy-of-support/resistenza-manageriale.md",
+    "adequacy-of-support/paywall.md",
+    "adequacy-of-support/logistica-e-dispositivi.md",
+    "adequacy-of-support/index.md",
+    "adequacy-of-support",
+    "skepticisms/index.md",
+    "skepticisms/impoverimento-cognitivo.md",
+    "skepticisms/crollo-relazionale.md",
+    "skepticisms/ansia-occupazionale.md",
+    "skepticisms",
+    "practice-patterns/udl-e-gamification.md",
+    "practice-patterns/strumenti-settoriali.md",
+    "practice-patterns/prompt-engineering.md",
+    "practice-patterns/piattaforme-e-role-playing.md",
+    "practice-patterns/nai-e-traduzione.md",
+    "practice-patterns/individualizzazione-bes-dsa.md",
+    "practice-patterns",
+    "modelli-uso"
+  ]
+}

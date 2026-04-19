@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "0df6f840bbb1034f",
+    "type": "split",
+    "children": [
+      {
+        "id": "afd3922528a2e73e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "166c86e8eb666b30",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77e1bc504130646e",
+    "type": "split",
+    "children": [
+      {
+        "id": "406b6ef84a9929c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff47083a6714dd06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "046a809fe65e0f13",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "8e791aea858295eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba93ddd638cd92ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "54002a2f0e145714",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec5ba0f832cd266f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "1f028c395caf9c22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "52ded4634cf57320",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "f7183b2c767f61eb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "f43ae22bd7ea6a2e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "166c86e8eb666b30",
+  "lastOpenFiles": [
+    "index-studenti.md",
+    "practice-patterns/practice-patterns-studenti.md",
+    "expectations/expectations-studenti.md",
+    "interpersonal-trust/interpersonal-trust-studenti.md",
+    "skepticisms/skepticisms-studenti.md",
+    "readiness-beliefs/readiness-beliefs-studenti.md",
+    "practice-patterns-studenti.md",
+    "skepticisms/zone-di-esclusione-s6.md",
+    "skepticisms/index.md",
+    "skepticisms/evoluzione-del-tabu.md",
+    "skepticisms",
+    "interpersonal-trust/sfiducia-tecnica-e-strutturale.md",
+    "interpersonal-trust/index.md",
+    "interpersonal-trust/conferma-sfiducia-e-privacy.md",
+    "interpersonal-trust",
+    "expectations/supporto-vs-sostituzione.md",
+    "expectations/index.md",
+    "expectations/autonomia-cognitiva-a-rischio.md",
+    "expectations",
+    "readiness-beliefs/profili-di-non-uso-7-9.md",
+    "readiness-beliefs/profili-di-non-uso-1-6.md",
+    "readiness-beliefs/index.md",
+    "readiness-beliefs",
+    "practice-patterns/uso-strumentale-evasivo.md",
+    "practice-patterns/interrogatore-e-autovalutazione.md",
+    "practice-patterns/index.md",
+    "practice-patterns"
+  ]
+}
