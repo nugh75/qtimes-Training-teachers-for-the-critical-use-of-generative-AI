@@ -3,7 +3,7 @@
 **Popolazione**: Studenti
 
 **Summary**: Il pattern d'uso più sofisticato del corpus studenti: l'IA usata per simulare esami, generare domande di autovalutazione, condurre interrogazioni orali via chat vocale, creare casi clinici. Un repertorio di strumenti diversificato e prompt progressivamente più strutturati.
-**Sources**: 25 risposte raw (vedi citazioni nel testo).
+**Sources**: 17 risposte raw (vedi citazioni nel testo).
 **Last updated**: 2026-04-19
 
 ---

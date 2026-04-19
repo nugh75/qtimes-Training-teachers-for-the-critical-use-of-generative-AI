@@ -10,11 +10,11 @@
 
 ## Dimensioni PRAXIS
 
-- [P - Practice patterns](practice-patterns/practice-patterns-studenti.md) — IA come interrogatore simulato, partner di autovalutazione, uso strumentale-evasivo nei batch più giovani.
+- [P - Practice patterns](practice-patterns/practice-patterns-studenti.md) — Polarizzazione tra uso strumentale-evasivo (dominante) e interrogatore-autovalutativo (minoranza). Due assi: come si usa e per cosa si studia.
 - [R - Readiness beliefs](readiness-beliefs/readiness-beliefs-studenti.md) — Nove profili di non-uso: dall'orgoglio competitivo al lock-in cognitivo.
 - [A - Adequacy of support](adequacy-of-support-studenti.md) — Uso compensativo istituzionale: IA come safety net per materiale didattico lacunoso.
 - [X - eXpectations](expectations/expectations-studenti.md) — Supporto vs. sostituzione; dipendenza percepita come fatto compiuto; autonomia cognitiva a rischio.
-- [I - Interpersonal & Institutional trust](interpersonal-trust/interpersonal-trust-studenti.md) — Sfiducia tecnica, strutturale e ontologica; paywall; lingue classiche come banco di prova.
+- [I - Interpersonal & Institutional trust](interpersonal-trust/interpersonal-trust-studenti.md) — Sfiducia tecnica (allucinazioni), strutturale (paywall, privacy) ed epistemica (paura esistenziale). Verifica come prassi obbligatoria.
 - [S - Skepticisms](skepticisms/skepticisms-studenti.md) — Zone di esclusione: writing, problem solving, lingue classiche, esami, consulenza clinica, relazioni umane.
 
 ## Pagine correlate

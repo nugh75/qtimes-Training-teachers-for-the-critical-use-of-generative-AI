@@ -162,3 +162,48 @@ Aggiornato `wiki/practice-patterns-insegnanti-attuali.md` con le pagine `insegna
 
 ### Nota metodologica
 Per tutte le dimensioni: ogni citazione verificata tramite grep sui file raw/insegnanti_futuri_*.md. Eliminate citazioni misclassificate e fabbricate. Struttura meccanica sostituita con narrativa analitica. Formato pagine conforme a page-format.md e citation-rules.md.
+
+
+## 2026-04-19 — Studenti: tutte le 6 dimensioni PRAXIS
+
+### Practice patterns (P)
+- **Scope**: 3 file in `wiki/studenti/practice-patterns/`
+- **Modifiche**:
+  1. Indice riscritto con introduzione sulla polarizzazione tra uso strumentale-evasivo (dominante) e interrogatore-autovalutativo (minoranza)
+  2. `uso-strumentale-evasivo.md`: da 110 fonti a 33 fonti pertinenti in 6 sezioni (riassunto come funzione egemone, semplificazione pedagogica, traduzione e delega, logica della velocità, triage per noia, eccezione euristica)
+  3. `interrogatore-e-autovalutazione.md`: conteggio fonti corretto da 25 a 17
+
+### Expectations (X)
+- **Scope**: 3 file in `wiki/studenti/expectations/`
+- **Modifiche**:
+  1. Indice riscritto con summary analitico su supporto vs. sostituzione come preoccupazione centrale
+  2. `supporto-vs-sostituzione.md`: riscrittura con 22 fonti in 4 sezioni (cornice binaria, fantasia a rischio, dipendenza come destino, sostituzione come minaccia). Integrate 6 citazioni da Ulteriori evidenze, eliminate 9 misclassificate
+  3. `autonomia-cognitiva-a-rischio.md`: riscrittura con 19 fonti in 3 sezioni (impoverimento quadridimensionale, autonomia come identità, delega come meccanismo). Integrate 5 citazioni da Ulteriori evidenze, eliminate 3 misclassificate
+
+### Skepticisms (S)
+- **Scope**: 3 file in `wiki/studenti/skepticisms/`
+- **Modifiche**:
+  1. Indice riscritto con tabù come concetto organizzatore
+  2. `evoluzione-del-tabu.md`: riscrittura con 30 fonti in 4 sezioni (tabù produzione testuale, esercizi delega e plagio, libro che non basta, lingue classiche e zone professionali). Eliminata OSTA30 (misclassificata), rimossi riferimenti batch
+  3. `zone-di-esclusione-s6.md`: riscrittura con 13 fonti in 4 sezioni (espressioni matematiche, scrittura come atto irriducibile, relazioni umane e zone professionali, rifiuto globale). Integrata coll01, eliminate Roni18 e zano18 (expectations). Rimosso "S6" dal titolo
+
+### Interpersonal trust (I)
+- **Scope**: 3 file in `wiki/studenti/interpersonal-trust/`
+- **Modifiche**:
+  1. Indice riscritto con tre livelli di sfiducia (tecnica, strutturale, epistemica)
+  2. `sfiducia-tecnica-e-strutturale.md`: riscrittura con 24 fonti in 5 sezioni (allucinazioni, verifica obbligatoria, paywall e fiducia inversa, privacy e sfiducia strutturale, sfiducia epistemica). Integrate lico31 e nini09, eliminata Rosi06 (practice patterns)
+  3. `conferma-sfiducia-e-privacy.md`: riscrittura con 7 fonti in 4 sezioni (errori confermati, privacy fotocamera, paywall come segnale inverso, relazioni umane come confine). Eliminate Ello18 e nani19 (practice patterns)
+
+### Readiness beliefs (R)
+- **Scope**: 3 file in `wiki/studenti/readiness-beliefs/`
+- **Modifiche**:
+  1. Indice riscritto con summary analitico sulla tassonomia dei nove profili di non-uso e il lock-in cognitivo. Eliminate citazioni misclassificate (ioni10 → expectations, Vese2 → skepticisms)
+  2. `profili-di-non-uso-1-6.md`: riscrittura con 21 fonti in 6 sezioni (orgoglio competitivo, barriere pratiche, scelta epistemica, procrastinazione adattiva, uso cinico consapevole, intrappolamento da dipendenza). Integrate Alessandra aprile 28 e ecco19/09/81 da Ulteriori evidenze
+  3. `profili-di-non-uso-7-9.md`: riscrittura con 17 fonti in 4 sezioni (preferenza materiale, analfabetismo funzionale, rifiuto per protezione cognitiva, lock-in cognitivo). Integrata asio30, eliminata ele07 (misclassificata: skepticisms). Rimossi riferimenti batch ("S6")
+
+### Adequacy of support (A)
+- **File**: `wiki/studenti/adequacy-of-support-studenti.md`
+- **Intervento**: Riscrittura completa con 7 fonti in 3 sezioni (IA come safety net, uso compensativo tacito, ecologia dei dispositivi). Integrata Mili08 da Ulteriori, eliminate azza13 (troppo generica) e Mele08 (misclassificata)
+
+### Nota metodologica
+Per tutte le dimensioni: eliminate sezioni meccaniche "Ulteriori evidenze dalle fonti", summary generici "Sotto-tema che esplora...", pattern ripetitivi "Diversi rispondenti pongono l'accento su...". Citazioni misclassificate rimosse (non trasferite). Riferimenti batch (S1-S6) eliminati. Ogni citazione mantenuta verificata tramite grep su raw/studenti_*.md.

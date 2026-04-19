@@ -1,27 +1,20 @@
 # R — Readiness beliefs (Competenza percepita)
 **Popolazione**: Studenti
 
+**Summary**: La dimensione della competenza percepita si organizza intorno a una tassonomia di nove profili di non-uso, dal volontario al subìto. L'orgoglio competitivo ("so farcela da solo") coesiste con l'analfabetismo funzionale ("non so usarla"). La scelta epistemica — rifiutare le scorciatoie come opportunità mancate di crescita — si oppone all'intrappolamento da dipendenza: chi vorrebbe smettere ma non ci riesce. Il lock-in cognitivo è il dato emergente: la difficoltà di tornare indietro dopo l'adozione.
 
-**Summary**: Sotto-tema che esplora r — readiness beliefs (competenza percepita) secondo le evidenze qualitative raccolte.
-**Sources**: 5 risposte raw (vedi citazioni nel testo).
+**Sources**: vedi sotto-temi.
+
 **Last updated**: 2026-04-19
 
 ---
 
+I profili di non-uso non sono omogenei: vanno dalla resistenza identitaria alla barriera pratica, dall'indifferenza temporanea alla trappola della dipendenza. I [profili 1-6](profili-di-non-uso-1-6.md) coprono l'arco dall'orgoglio competitivo all'intrappolamento: lo studente che rifiuta l'IA per fierezza coesiste con quello che la usa sapendo che lo danneggia e con quello che vorrebbe smettere ma non può. Il transfer gap — l'IA funziona a casa ma non in verifica — è il nodo irrisolto. I [profili 7-9](profili-di-non-uso-7-9.md) aggiungono tre motori del non-uso: la preferenza materiale (libri e appunti), l'analfabetismo funzionale (non saper usare lo strumento) e il rifiuto per protezione cognitiva (difendere il proprio cervello). Il lock-in cognitivo — l'impossibilità di tornare a lavorare senza IA dopo averla adottata — emerge come preoccupazione specifica.
+
 ## Sotto-temi
 
-- [Profili di non-uso 1–6](profili-di-non-uso-1-6.md) — Orgoglio competitivo, barriere pratiche, scelta epistemica, procrastinazione, uso cinico, intrappolamento.
-- [Profili di non-uso 7–9 e lock-in](profili-di-non-uso-7-9.md) — Preferenza materiale, analfabetismo funzionale, rifiuto protettivo, transfer gap, lock-in cognitivo.
-
-
-### Ulteriori evidenze dalle fonti
-
-
-Due rispondenti pongono l'accento su **la necessità di formazione e competenze adeguate**. Come osserva ARDI01: "*Pro: se usato in modo corretto può aiutare a comprendere meglio o a imparare nuove cose. Contro: un abuso può limitare le proprie conoscenze e competenze, affidandosi troppo ai sistemi di ia.*" (source: [ARDI01](../../../raw/studenti_ardi01.md)). Nelle parole di ella14: "*non ho esperienza in questo campo*" (source: [ella14](../../../raw/studenti_ella14.md)).
-
-Due rispondenti pongono l'accento su **il rischio di impoverimento delle capacità cognitive e dell'autonomia di pensiero**. ioni10 afferma: "*Usare troppo spesso piattaforme come Chat GPT impedisce di sforarci a ragionare.*" (source: [ioni10](../../../raw/studenti_ioni10.md)). Secondo Vese2: "*Per me non vi è nessuna pratica che non dovrebbe essere usata se è utile per l'insegnamento o per lo studio*" (source: [Vese2](../../../raw/studenti_vese2.md)).
-
-Un rispondente pone l'accento su **i vantaggi in termini di velocità e semplificazione del lavoro**. uzzi27 sottolinea: "*i pro solo il risparmio del tempo, la praticità e la concretezza, i contro sono la difficoltà a tornare a metodi più dispendiosi, non solo economicamente ma anche su piano temporale*" (source: [uzzi27](../../../raw/studenti_uzzi27.md)).
+- [Profili di non-uso 1-6](profili-di-non-uso-1-6.md) — 21 fonti. Orgoglio competitivo, barriere pratiche, scelta epistemica, procrastinazione, uso cinico, intrappolamento.
+- [Profili di non-uso 7-9 e lock-in](profili-di-non-uso-7-9.md) — 17 fonti. Preferenza materiale, analfabetismo funzionale, rifiuto protettivo, lock-in cognitivo.
 
 ## Pagine correlate
 - [Indice studenti](../index-studenti.md)

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e6256bee18c62730",
+        "id": "c2b90497835b547f",
         "type": "tabs",
         "children": [
           {
-            "id": "3145cda11beeeaf6",
+            "id": "37a46b80de07ad56",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -37,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Esplora risorse"
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -176,44 +176,44 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "3145cda11beeeaf6",
+  "active": "37a46b80de07ad56",
   "lastOpenFiles": [
     "wiki/studenti.md",
+    "wiki/sintesi-cross-coorte.md",
     "index.md",
-    "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md",
-    "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
-    "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing.md",
-    "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy.md",
-    "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri.md",
-    "instructions/lint-and-maintenance.md",
-    "instructions/language-and-style.md",
-    "instructions/page-format.md",
-    "instructions/citation-rules.md",
-    "instructions/query.md",
     "instructions/ingest.md",
+    "instructions/lint-and-maintenance.md",
+    "instructions/query.md",
+    "instructions/page-format.md",
+    "instructions/language-and-style.md",
+    "instructions/citation-rules.md",
     "instructions",
-    "raw/insegnanti_futuri_pina54.md",
+    "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione.md",
+    "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa.md",
+    "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale.md",
+    "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
+    "raw/insegnanti_futuri_iano06.md",
+    "raw/insegnanti_futuri_onti28.md",
+    "raw/insegnanti_futuri_oni11.md",
+    "raw/insegnanti_futuri_ioni07.md",
+    "raw/insegnanti_futuri_tino71.md",
+    "raw/insegnanti_futuri_sati03.md",
+    "raw/insegnanti_futuri_cino-09-07-1968.md",
     "raw/insegnanti_futuri_lupi09.md",
     "raw/insegnanti_futuri_ioli28.md",
-    "raw/insegnanti_futuri_affa02.md",
-    "raw/insegnanti_futuri_poli03.md",
-    "raw/insegnanti_futuri_sser26.md",
-    "raw/insegnanti_futuri_acca02.md",
-    "raw/insegnanti_futuri_bello20.md",
-    "raw/insegnanti_futuri_sani26.md",
-    "raw/insegnanti_futuri_irra61.md",
-    "raw/insegnanti_futuri_hini07.md",
-    "raw/insegnanti_futuri_pina06.md",
-    "raw/insegnanti_futuri_cato20.md",
-    "wiki/insegnanti-futuri/interpersonal-trust",
+    "raw/insegnanti_futuri_ino18.md",
+    "raw/insegnanti_futuri_ente12.md",
+    "raw/insegnanti_futuri_glia03.md",
+    "raw/insegnanti_futuri_buri03.md",
     "wiki/insegnanti-futuri/expectations",
     "wiki/insegnanti-attuali/expectations",
-    "wiki/studenti/skepticisms",
-    "wiki/studenti/interpersonal-trust",
-    "wiki/studenti/expectations",
+    "wiki/insegnanti-futuri/interpersonal-trust",
     "wiki/studenti/readiness-beliefs",
     "wiki/studenti/practice-patterns",
-    "wiki/insegnanti-futuri/skepticisms",
+    "wiki/studenti/skepticisms",
+    "wiki/studenti/expectations",
+    "wiki/studenti/interpersonal-trust",
+    "wiki/insegnanti-futuri/practice-patterns",
     "Senza nome.canvas"
   ]
 }
