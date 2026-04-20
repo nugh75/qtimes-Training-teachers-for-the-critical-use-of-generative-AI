@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T11:28:10.327759+00:00",
+    "generated_at": "2026-04-20T11:45:41.312188+00:00",
     "nodes_total": 68,
     "edges_total": 149
   },
@@ -10,12 +10,30 @@
     "insegnanti-futuri": 16,
     "studenti": 17
   },
+  "groups": {
+    "_root": 10,
+    "insegnanti-attuali": 25,
+    "insegnanti-futuri": 16,
+    "studenti": 17
+  },
+  "praxis_elements": {
+    "_index": 17,
+    "adequacy-of-support": 4,
+    "expectations": 9,
+    "interpersonal-trust": 10,
+    "practice-patterns": 14,
+    "readiness-beliefs": 3,
+    "skepticisms": 11
+  },
   "nodes": [
     {
       "id": "wiki/albero-temi",
       "title": "Albero dei temi — LLM Wiki",
       "path": "wiki/albero-temi.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "albero-temi",
       "degree": 0,
       "out_degree": 0,
       "in_degree": 0
@@ -25,6 +43,9 @@
       "title": "Grafo Dimensioni PRAXIS",
       "path": "wiki/grafo-dimensioni-praxis.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "grafo-dimensioni-praxis",
       "degree": 3,
       "out_degree": 1,
       "in_degree": 2
@@ -34,6 +55,9 @@
       "title": "Grafo Wiki",
       "path": "wiki/grafo-wiki.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "grafo-wiki",
       "degree": 2,
       "out_degree": 1,
       "in_degree": 1
@@ -43,6 +67,9 @@
       "title": "LLM Wiki Index",
       "path": "wiki/index-wiki.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "index-wiki",
       "degree": 8,
       "out_degree": 7,
       "in_degree": 1
@@ -52,6 +79,9 @@
       "title": "A — Adequacy of support (Adeguatezza del supporto)",
       "path": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "adequacy-of-support",
+      "subtheme": "adequacy-of-support-insegnanti-attuali",
       "degree": 12,
       "out_degree": 6,
       "in_degree": 6
@@ -61,6 +91,9 @@
       "title": "Logistica e dispositivi",
       "path": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "adequacy-of-support",
+      "subtheme": "logistica-e-dispositivi",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -70,6 +103,9 @@
       "title": "Paywall",
       "path": "wiki/insegnanti-attuali/adequacy-of-support/paywall.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "adequacy-of-support",
+      "subtheme": "paywall",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -79,6 +115,9 @@
       "title": "Resistenza manageriale",
       "path": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "adequacy-of-support",
+      "subtheme": "resistenza-manageriale",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -88,6 +127,9 @@
       "title": "X — eXpectations (Cambiamento percepito)",
       "path": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "expectations",
+      "subtheme": "expectations-insegnanti-attuali",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -97,6 +139,9 @@
       "title": "Inclusione digitale",
       "path": "wiki/insegnanti-attuali/expectations/inclusione-digitale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "expectations",
+      "subtheme": "inclusione-digitale",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
@@ -106,6 +151,9 @@
       "title": "Peggioramento efficace",
       "path": "wiki/insegnanti-attuali/expectations/peggioramento-efficace.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "expectations",
+      "subtheme": "peggioramento-efficace",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
@@ -115,6 +163,9 @@
       "title": "Insegnanti Attuali",
       "path": "wiki/insegnanti-attuali/index-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "_index",
+      "subtheme": "index-insegnanti-attuali",
       "degree": 36,
       "out_degree": 9,
       "in_degree": 27
@@ -124,6 +175,9 @@
       "title": "Rischio bias e allucinazione",
       "path": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "interpersonal-trust",
+      "subtheme": "bias-e-allucinazione",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -133,6 +187,9 @@
       "title": "Filosofia della fatica",
       "path": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "interpersonal-trust",
+      "subtheme": "filosofia-della-fatica",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -142,6 +199,9 @@
       "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
       "path": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "interpersonal-trust",
+      "subtheme": "interpersonal-trust-insegnanti-attuali",
       "degree": 12,
       "out_degree": 6,
       "in_degree": 6
@@ -151,6 +211,9 @@
       "title": "Paradosso digitale",
       "path": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "interpersonal-trust",
+      "subtheme": "paradosso-digitale",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -160,6 +223,9 @@
       "title": "CAA e autismo non verbale",
       "path": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "caa-autismo-non-verbale",
       "degree": 8,
       "out_degree": 4,
       "in_degree": 4
@@ -169,6 +235,9 @@
       "title": "Individualizzazione BES/DSA e prove INVALSI",
       "path": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "individualizzazione-bes-dsa",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -178,6 +247,9 @@
       "title": "NAI e traduzione",
       "path": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "nai-e-traduzione",
       "degree": 6,
       "out_degree": 4,
       "in_degree": 2
@@ -187,6 +259,9 @@
       "title": "Piattaforme e role-playing pedagogico",
       "path": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "piattaforme-e-role-playing",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -196,6 +271,9 @@
       "title": "P — Practice patterns",
       "path": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "practice-patterns-insegnanti-attuali",
       "degree": 20,
       "out_degree": 10,
       "in_degree": 10
@@ -205,6 +283,9 @@
       "title": "Prompt engineering avanzato",
       "path": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "prompt-engineering",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -214,6 +295,9 @@
       "title": "Strumenti settoriali",
       "path": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "strumenti-settoriali",
       "degree": 6,
       "out_degree": 4,
       "in_degree": 2
@@ -223,6 +307,9 @@
       "title": "UDL e gamification",
       "path": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "practice-patterns",
+      "subtheme": "udl-e-gamification",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -232,6 +319,9 @@
       "title": "R - Readiness beliefs (Competenza percepita)",
       "path": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "_index",
+      "subtheme": "readiness-beliefs-insegnanti-attuali",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -241,6 +331,9 @@
       "title": "Ansia occupazionale",
       "path": "wiki/insegnanti-attuali/skepticisms/ansia-occupazionale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "skepticisms",
+      "subtheme": "ansia-occupazionale",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -250,6 +343,9 @@
       "title": "Crollo relazionale e didattico",
       "path": "wiki/insegnanti-attuali/skepticisms/crollo-relazionale.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "skepticisms",
+      "subtheme": "crollo-relazionale",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -259,6 +355,9 @@
       "title": "Impoverimento cognitivo",
       "path": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "skepticisms",
+      "subtheme": "impoverimento-cognitivo",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -268,6 +367,9 @@
       "title": "S — Skepticisms (Preoccupazioni)",
       "path": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "skepticisms",
+      "subtheme": "skepticisms-insegnanti-attuali",
       "degree": 13,
       "out_degree": 6,
       "in_degree": 7
@@ -277,6 +379,9 @@
       "title": "A - Adequacy of support (Adeguatezza del supporto)",
       "path": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "_index",
+      "subtheme": "adequacy-of-support-insegnanti-futuri",
       "degree": 7,
       "out_degree": 3,
       "in_degree": 4
@@ -286,6 +391,9 @@
       "title": "Cambiamento positivo condizionato",
       "path": "wiki/insegnanti-futuri/expectations/cambiamento-positivo.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "expectations",
+      "subtheme": "cambiamento-positivo",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -295,6 +403,9 @@
       "title": "X — eXpectations (Cambiamento percepito)",
       "path": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "expectations",
+      "subtheme": "expectations-insegnanti-futuri",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -304,6 +415,9 @@
       "title": "Timori di omologazione",
       "path": "wiki/insegnanti-futuri/expectations/omologazione.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "expectations",
+      "subtheme": "omologazione",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -313,6 +427,9 @@
       "title": "Insegnanti Futuri",
       "path": "wiki/insegnanti-futuri/index-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "_index",
+      "subtheme": "index-insegnanti-futuri",
       "degree": 27,
       "out_degree": 9,
       "in_degree": 18
@@ -322,6 +439,9 @@
       "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
       "path": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "interpersonal-trust",
+      "subtheme": "interpersonal-trust-insegnanti-futuri",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -331,6 +451,9 @@
       "title": "Centralità della relazione educativa",
       "path": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "interpersonal-trust",
+      "subtheme": "relazione-educativa",
       "degree": 4,
       "out_degree": 2,
       "in_degree": 2
@@ -340,6 +463,9 @@
       "title": "Timore della sostituzione del docente",
       "path": "wiki/insegnanti-futuri/interpersonal-trust/sostituzione-docente.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "interpersonal-trust",
+      "subtheme": "sostituzione-docente",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -349,6 +475,9 @@
       "title": "Facilitazione accademica personale",
       "path": "wiki/insegnanti-futuri/practice-patterns/facilitazione-accademica.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "practice-patterns",
+      "subtheme": "facilitazione-accademica",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -358,6 +487,9 @@
       "title": "P — Practice patterns (Modelli d'uso)",
       "path": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "practice-patterns",
+      "subtheme": "practice-patterns-insegnanti-futuri",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -367,6 +499,9 @@
       "title": "Uso cross-disciplinare e progettazione",
       "path": "wiki/insegnanti-futuri/practice-patterns/uso-cross-disciplinare.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "practice-patterns",
+      "subtheme": "uso-cross-disciplinare",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -376,6 +511,9 @@
       "title": "R — Readiness beliefs (Competenza percepita)",
       "path": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "_index",
+      "subtheme": "readiness-beliefs-insegnanti-futuri",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
@@ -385,6 +523,9 @@
       "title": "Copyright e proprietà intellettuale",
       "path": "wiki/insegnanti-futuri/skepticisms/copyright.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "skepticisms",
+      "subtheme": "copyright",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -394,6 +535,9 @@
       "title": "Impoverimento cognitivo e dipendenza",
       "path": "wiki/insegnanti-futuri/skepticisms/omologazione.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "skepticisms",
+      "subtheme": "omologazione",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -403,6 +547,9 @@
       "title": "Plagio e disonestà accademica",
       "path": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "skepticisms",
+      "subtheme": "plagio-e-disonesta",
       "degree": 5,
       "out_degree": 2,
       "in_degree": 3
@@ -412,6 +559,9 @@
       "title": "S — Skepticisms (Preoccupazioni)",
       "path": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "skepticisms",
+      "subtheme": "skepticisms-insegnanti-futuri",
       "degree": 12,
       "out_degree": 6,
       "in_degree": 6
@@ -421,6 +571,9 @@
       "title": "Labels PRAXIS",
       "path": "wiki/labels-praxis.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "labels-praxis",
       "degree": 3,
       "out_degree": 1,
       "in_degree": 2
@@ -430,6 +583,9 @@
       "title": "Wiki Maintenance Log",
       "path": "wiki/log.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "log",
       "degree": 0,
       "out_degree": 0,
       "in_degree": 0
@@ -439,6 +595,9 @@
       "title": "PRAXIS Framework",
       "path": "wiki/praxis-framework.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "praxis-framework",
       "degree": 4,
       "out_degree": 0,
       "in_degree": 4
@@ -448,6 +607,9 @@
       "title": "PRAXIS Labels",
       "path": "wiki/praxis-labels.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "praxis-labels",
       "degree": 0,
       "out_degree": 0,
       "in_degree": 0
@@ -457,6 +619,9 @@
       "title": "Sintesi Cross-Coorte (PRAXIS)",
       "path": "wiki/sintesi-cross-coorte.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "sintesi-cross-coorte",
       "degree": 0,
       "out_degree": 0,
       "in_degree": 0
@@ -466,6 +631,9 @@
       "title": "A — Adequacy of support (Adeguatezza del supporto)",
       "path": "wiki/studenti/adequacy-of-support-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "_index",
+      "subtheme": "adequacy-of-support-studenti",
       "degree": 6,
       "out_degree": 3,
       "in_degree": 3
@@ -475,6 +643,9 @@
       "title": "Autonomia cognitiva a rischio",
       "path": "wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "expectations",
+      "subtheme": "autonomia-cognitiva-a-rischio",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -484,6 +655,9 @@
       "title": "X — eXpectations (Cambiamento percepito)",
       "path": "wiki/studenti/expectations/expectations-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "expectations",
+      "subtheme": "expectations-studenti",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -493,6 +667,9 @@
       "title": "Supporto vs. sostituzione",
       "path": "wiki/studenti/expectations/supporto-vs-sostituzione.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "expectations",
+      "subtheme": "supporto-vs-sostituzione",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
@@ -502,6 +679,9 @@
       "title": "Studenti",
       "path": "wiki/studenti/index-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "_index",
+      "subtheme": "index-studenti",
       "degree": 28,
       "out_degree": 9,
       "in_degree": 19
@@ -511,6 +691,9 @@
       "title": "Conferma sfiducia, privacy e paywall",
       "path": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "interpersonal-trust",
+      "subtheme": "conferma-sfiducia-e-privacy",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -520,6 +703,9 @@
       "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
       "path": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "interpersonal-trust",
+      "subtheme": "interpersonal-trust-studenti",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -529,6 +715,9 @@
       "title": "Sfiducia tecnica e strutturale",
       "path": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "interpersonal-trust",
+      "subtheme": "sfiducia-tecnica-e-strutturale",
       "degree": 4,
       "out_degree": 2,
       "in_degree": 2
@@ -538,6 +727,9 @@
       "title": "IA come interrogatore simulato e partner di studio",
       "path": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "practice-patterns",
+      "subtheme": "interrogatore-e-autovalutazione",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
@@ -547,6 +739,9 @@
       "title": "P — Practice patterns (Modelli d'uso)",
       "path": "wiki/studenti/practice-patterns/practice-patterns-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "practice-patterns",
+      "subtheme": "practice-patterns-studenti",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -556,6 +751,9 @@
       "title": "Uso strumentale-evasivo",
       "path": "wiki/studenti/practice-patterns/uso-strumentale-evasivo.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "practice-patterns",
+      "subtheme": "uso-strumentale-evasivo",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
@@ -565,6 +763,9 @@
       "title": "Profili di non-uso 1–6",
       "path": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "readiness-beliefs",
+      "subtheme": "profili-di-non-uso-1-6",
       "degree": 4,
       "out_degree": 2,
       "in_degree": 2
@@ -574,6 +775,9 @@
       "title": "Profili di non-uso 7–9 e lock-in cognitivo",
       "path": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "readiness-beliefs",
+      "subtheme": "profili-di-non-uso-7-9",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -583,6 +787,9 @@
       "title": "R — Readiness beliefs (Competenza percepita)",
       "path": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "readiness-beliefs",
+      "subtheme": "readiness-beliefs-studenti",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -592,6 +799,9 @@
       "title": "Evoluzione del tabù",
       "path": "wiki/studenti/skepticisms/evoluzione-del-tabu.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "skepticisms",
+      "subtheme": "evoluzione-del-tabu",
       "degree": 4,
       "out_degree": 2,
       "in_degree": 2
@@ -601,6 +811,9 @@
       "title": "S — Skepticisms (Preoccupazioni)",
       "path": "wiki/studenti/skepticisms/skepticisms-studenti.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "skepticisms",
+      "subtheme": "skepticisms-studenti",
       "degree": 10,
       "out_degree": 5,
       "in_degree": 5
@@ -610,6 +823,9 @@
       "title": "Zone di esclusione",
       "path": "wiki/studenti/skepticisms/zone-di-esclusione-s6.md",
       "section": "studenti",
+      "group": "studenti",
+      "praxis": "skepticisms",
+      "subtheme": "zone-di-esclusione-s6",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
@@ -619,6 +835,9 @@
       "title": "Studenti (Sintesi PRAXIS — FINALE)",
       "path": "wiki/studenti.md",
       "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "studenti",
       "degree": 0,
       "out_degree": 0,
       "in_degree": 0

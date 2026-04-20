@@ -27,6 +27,9 @@ class Page:
     node_id: str
     title: str
     section: str
+    group: str
+    praxis: str
+    subtheme: str
 
 
 def parse_args() -> argparse.Namespace:
@@ -66,6 +69,14 @@ def detect_section(path: Path, wiki_dir: Path) -> str:
     return rel_parts[0]
 
 
+def detect_levels(path: Path, wiki_dir: Path) -> tuple[str, str, str]:
+    parts = path.relative_to(wiki_dir).parts
+    group = parts[0] if len(parts) >= 2 else "_root"
+    praxis = parts[1] if len(parts) >= 3 else "_index"
+    subtheme = path.stem
+    return group, praxis, subtheme
+
+
 def load_pages(wiki_dir: Path) -> list[Page]:
     pages: list[Page] = []
     for path in sorted(wiki_dir.rglob("*.md")):
@@ -73,6 +84,7 @@ def load_pages(wiki_dir: Path) -> list[Page]:
         fallback = path.stem.replace("-", " ")
         title = detect_title(text, fallback=fallback)
         rel = path.relative_to(ROOT_DIR).as_posix()
+        group, praxis, subtheme = detect_levels(path, wiki_dir)
         pages.append(
             Page(
                 path=path,
@@ -80,6 +92,9 @@ def load_pages(wiki_dir: Path) -> list[Page]:
                 node_id=page_node_id(path, wiki_dir),
                 title=title,
                 section=detect_section(path, wiki_dir),
+                group=group,
+                praxis=praxis,
+                subtheme=subtheme,
             )
         )
     return pages
@@ -166,6 +181,8 @@ def build_graph(pages: list[Page], wiki_dir: Path) -> dict:
             undirected_edges[(left, right)] += 1
 
     section_counts = Counter(page.section for page in pages)
+    group_counts = Counter(page.group for page in pages)
+    praxis_counts = Counter(page.praxis for page in pages)
     nodes = []
     for page in pages:
         out_degree = len(outgoing_map.get(page.node_id, set()))
@@ -177,6 +194,9 @@ def build_graph(pages: list[Page], wiki_dir: Path) -> dict:
                 "title": page.title,
                 "path": page.rel,
                 "section": page.section,
+                "group": page.group,
+                "praxis": page.praxis,
+                "subtheme": page.subtheme,
                 "degree": degree,
                 "out_degree": out_degree,
                 "in_degree": in_degree,
@@ -197,6 +217,8 @@ def build_graph(pages: list[Page], wiki_dir: Path) -> dict:
             "edges_total": len(edges),
         },
         "sections": dict(sorted(section_counts.items())),
+        "groups": dict(sorted(group_counts.items())),
+        "praxis_elements": dict(sorted(praxis_counts.items())),
         "nodes": nodes,
         "edges": edges,
     }

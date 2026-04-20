@@ -4,7 +4,7 @@
 
 **Summary**: Una parte significativa dei docenti esprime una sfiducia verso l'IA radicata in una convinzione pedagogica profonda: lo sforzo cognitivo è un valore in sé, non un ostacolo da rimuovere. L'IA, eliminando la fatica, elimina l'apprendimento. Questo sotto-tema raccoglie le voci che vedono nella facilità offerta dall'IA una minaccia alla crescita intellettuale degli studenti — dalla visione montessoriana dell'intelligenza incarnata nella mano, alla metafora della "narcotizzazione del cervello", fino al principio del "minimo sforzo massimo profitto" come degenerazione educativa.
 
-**Sources**: 13 risposte raw (vedi citazioni nel testo).
+**Sources**: 12 risposte raw (vedi citazioni nel testo). Sovrapposizione tematica con [Impoverimento cognitivo](../skepticisms/impoverimento-cognitivo.md) (dimensione S): la filosofia della fatica è qui inquadrata come **sfiducia fiduciaria** (non ci si fida che l'IA preservi la relazione apprendimento-sforzo), mentre in S il focus è sul danno cognitivo percepito come **preoccupazione** epistemica.
 
 **Last updated**: 2026-04-19
 
@@ -18,7 +18,7 @@ La posizione più radicale e filosoficamente strutturata viene da iani07, che ri
 
 Se iani07 fonda la sfiducia su una filosofia dell'educazione, altri docenti la fondano sull'osservazione empirica dei danni. Bone29 usa una metafora potente: il contro dell'IA è che "*un abuso di questo mezzo ci porta quasi a 'narcotizzare' il nostro cervello, abituandoci al tutto e subito, facendoci perdere la capacità di ragionamento e di creazione*" (source: [Bone29](../../../raw/insegnanti_attuali_bone29.md)). L'immagine della narcotizzazione implica un danno non reversibile: non è che lo studente sceglie di non pensare, è che *perde la capacità* di farlo.
 
-Vari16 conferma con una formulazione più analitica: "*Il contro è il rischio di un'atrofizzazione del pensiero critico in favore di un troppo facile affidamento ad essa*" (source: [vari16](../../../raw/insegnanti_attuali_vari16.md)). L'uso del termine "atrofizzazione" è significativo: come un muscolo che non viene usato, il pensiero critico si degrada. ANZO06 identifica un danno specifico anche per il docente: la velocità dell'IA "*ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante*" (source: [ANZO06](../../../raw/insegnanti_attuali_anzo06.md)). La fatica non è solo dell'alunno: è anche del docente, e la sua eliminazione produce omologazione.
+ANZO06 identifica un danno specifico anche per il docente: la velocità dell'IA "*ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante*" (source: [ANZO06](../../../raw/insegnanti_attuali_anzo06.md)). La fatica non è solo dell'alunno: è anche del docente, e la sua eliminazione produce omologazione. Sulla metafora dell'atrofizzazione cognitiva come danno irreversibile si rimanda al sotto-tema [Impoverimento cognitivo](../skepticisms/impoverimento-cognitivo.md) della dimensione Skepticisms, dove la stessa preoccupazione è articolata sul piano epistemico anziché fiduciario.
 
 ## La scorciatoia e la pigrizia
 

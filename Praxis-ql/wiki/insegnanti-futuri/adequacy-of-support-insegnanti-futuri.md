@@ -2,7 +2,7 @@
 **Popolazione**: Insegnanti Futuri
 
 **Summary**: Come i futuri insegnanti percepiscono il supporto formativo e istituzionale all'uso dell'IA: un panorama dominato dall'assenza — di corsi, di modelli nelle scuole di tirocinio e, spesso, della stessa percezione che ci sia qualcosa da imparare.
-**Sources**: 16 risposte raw (vedi citazioni nel testo).
+**Sources**: 10 risposte raw sul supporto istituzionale (vedi citazioni nel testo). Le dichiarazioni di incompetenza personale sono analizzate in [R — Readiness beliefs](readiness-beliefs-insegnanti-futuri.md): qui il focus è l'assenza di supporto sistemico (tirocinio muto, formazione universitaria assente, ecosistema IA non introdotto).
 **Last updated**: 2026-04-19
 
 ---
@@ -19,11 +19,7 @@ Per chi non è ancora entrato nella scuola nemmeno come tirocinante, la distanza
 
 ## Competenze non costruite nel percorso
 
-La dichiarazione di incompetenza è frequente, ma ha un tono diverso da quello degli insegnanti in servizio. Non è la frustrazione di chi avrebbe dovuto essere formato e non lo è stato, ma la constatazione pacata di chi semplicemente non ha mai incontrato l'oggetto: "Non la conosco, in quanto non ho avuto esperienza di utilizzarla in ambito didattico" (source: [ardi11](../../raw/insegnanti_futuri_ardi11.md)).
-
-"Non ho le competenze adeguate" (source: [elli07](../../raw/insegnanti_futuri_elli07.md)); "Non ho grandi competenze" (source: [ecca04](../../raw/insegnanti_futuri_ecca04.md)); "Non ho le competenze" (source: [sati03](../../raw/insegnanti_futuri_sati03.md)); "Non avendo molta competenza non la uso" (source: [oni11](../../raw/insegnanti_futuri_oni11.md)). C'è anche chi ammette il vuoto con una punta di autoconsapevolezza: "Non mi è capitato di sfruttarla, ma pensandoci bene perché non avrei neanche le competenze necessarie per farlo" (source: [ioli21](../../raw/insegnanti_futuri_ioli21.md)).
-
-Le difficoltà percepite vanno dalla "scarsa conoscenza personale" (source: [ioli28](../../raw/insegnanti_futuri_ioli28.md)) alla "poca conoscenza" (source: [fini10](../../raw/insegnanti_futuri_fini10.md)), fino all'identificazione di un problema più strutturale: la difficoltà starebbe nel "conoscere e saper utilizzare la grande varietà di strumenti a disposizione" (source: [erti16](../../raw/insegnanti_futuri_erti16.md)). In altre parole, la sfida non è apprendere un singolo tool, ma orientarsi in un ecosistema che cambia più rapidamente di qualunque curricolo universitario.
+La dichiarazione di incompetenza è frequente, ma ha un tono diverso da quello degli insegnanti in servizio: non è la frustrazione di chi avrebbe dovuto essere formato e non lo è stato, ma la constatazione pacata di chi semplicemente non ha mai incontrato l'oggetto. Le dichiarazioni individuali di autoefficacia insufficiente sono raccolte e analizzate nella dimensione R — [Readiness beliefs](readiness-beliefs-insegnanti-futuri.md). Qui interessa il dato strutturale che le accomuna: il vuoto formativo riguarda specificamente l'**ambito didattico**, non l'uso personale. La sfida dichiarata non è apprendere un singolo tool, ma orientarsi in un ecosistema che cambia più rapidamente di qualunque curricolo universitario — il problema del "*conoscere e saper utilizzare la grande varietà di strumenti a disposizione*" (source: [erti16](../../raw/insegnanti_futuri_erti16.md)) è una diagnosi di supporto, non di autoefficacia: nessun corso del percorso formativo affronta l'alfabetizzazione all'ecosistema IA.
 
 ## La necessità che non si presenta
 

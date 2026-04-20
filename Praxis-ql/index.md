@@ -20,4 +20,5 @@ Benvenuto nel wiki del progetto Praxis-ql.
 
 - [PRAXIS Labels (vista record)](wiki/labels-praxis.md)
 - [PRAXIS Graph (React)](wiki/grafo-dimensioni-praxis.md)
+- [Wiki Graph](wiki/grafo-wiki.md)
 - [PRAXIS Failures](praxis-labels/failures.md)

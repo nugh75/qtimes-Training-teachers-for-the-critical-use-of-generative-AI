@@ -35,4 +35,4 @@ Funge da porta d'ingresso fondamentale o "guardiano" per l'adozione sostanziale.
 Costituisce l'altra faccia della medaglia rispetto alla fiducia. È la dimensione in cui confluiscono le barriere psicologiche, i rischi percepiti, le perplessità etiche e le ansie legate all'innovazione. Può evolvere da paure egocentriche inziali ("Sarò in grado io?") per poi proiettarsi su preoccupazioni sistemiche ("Cosa succederà all'integrità accademica? L'IA limiterà il pensiero critico a lungo termine?").
 
 ## Related pages
-- [Metodologia](../metodologia.md)
+- [Metodologia](../raw/metodologia.md)

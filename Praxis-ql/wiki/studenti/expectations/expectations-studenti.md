@@ -11,6 +11,8 @@
 
 I due sotto-temi sono complementari ma distinti. Il primo — [supporto vs. sostituzione](supporto-vs-sostituzione.md) — cattura il frame binario con cui gli studenti interpretano l'IA: uno strumento che dovrebbe *aiutare* ma che rischia di *fare al posto di*. La pigrizia cognitiva è il contre-esempio universale, la dipendenza è percepita come fatto compiuto, la fantasia e l'individualità emergono come valori a rischio specifici, distinti dal pensiero critico. Il secondo — [autonomia cognitiva a rischio](autonomia-cognitiva-a-rischio.md) — approfondisce il meccanismo della perdita: gli studenti articolano un impoverimento quadridimensionale (linguaggio, espressione, pensiero critico, conoscenze) e alcuni scelgono il non-uso come difesa identitaria.
 
+**Nota dimensionale**: X (aspettative) e [S — Skepticisms](../skepticisms/skepticisms-studenti.md) sono empiricamente intrecciate: molti rispondenti citati qui (es. Glio26, etta07, fori04, Mar1946) compaiono anche tra le fonti dei tabù e zone d'esclusione. La distinzione operativa adottata: X codifica la *proiezione* del cambiamento percepito (cosa succederà), S codifica i *confini normativi* (dove l'IA non deve entrare). Quando la stessa citazione articola entrambe, è dual-coded.
+
 ## Sotto-temi
 
 - [Supporto vs. sostituzione](supporto-vs-sostituzione.md) — 22 fonti. Pigrizia cognitiva, fantasia e individualità a rischio, dipendenza percepita, sostituzione come minaccia viscerale.

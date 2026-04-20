@@ -2,26 +2,34 @@
   const h = React.createElement;
   const { useEffect, useMemo, useRef, useState } = React;
 
-  const SECTION_COLORS = [
-    "#e76f51",
-    "#2a9d8f",
-    "#577590",
-    "#f4a261",
-    "#43aa8b",
-    "#6c5ce7",
-    "#b56576",
-    "#3d8bfd",
-    "#ef476f",
-    "#06d6a0",
+  const GROUP_COLORS = {
+    "insegnanti-attuali": "#e76f51",
+    "insegnanti-futuri": "#43aa8b",
+    "studenti": "#3d8bfd",
+    "_root": "#8aa0b8",
+  };
+
+  const PRAXIS_COLORS = {
+    "expectations": "#f4a261",
+    "skepticisms": "#b56576",
+    "interpersonal-trust": "#6c5ce7",
+    "practice-patterns": "#2a9d8f",
+    "adequacy-of-support": "#ef476f",
+    "readiness-beliefs": "#06d6a0",
+    "_index": "#c7cfd8",
+  };
+
+  const FALLBACK_PALETTE = [
+    "#e76f51", "#2a9d8f", "#577590", "#f4a261",
+    "#43aa8b", "#6c5ce7", "#b56576", "#3d8bfd",
+    "#ef476f", "#06d6a0",
   ];
 
-  function createSectionColorMap(sections) {
-    const sorted = [...sections].sort((a, b) => a.localeCompare(b, "it"));
-    const out = {};
-    sorted.forEach((section, idx) => {
-      out[section] = SECTION_COLORS[idx % SECTION_COLORS.length];
-    });
-    return out;
+  function colorFor(key, registry) {
+    if (registry[key]) return registry[key];
+    let hash = 0;
+    for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) | 0;
+    return FALLBACK_PALETTE[Math.abs(hash) % FALLBACK_PALETTE.length];
   }
 
   function buildLayout(nodes, edges, width, height) {
@@ -121,6 +129,7 @@
     const [section, setSection] = useState("ALL");
     const [query, setQuery] = useState("");
     const [selectedNode, setSelectedNode] = useState(null);
+    const [hoveredNode, setHoveredNode] = useState(null);
     const [zoom, setZoom] = useState(1);
     const [pan, setPan] = useState({ x: 0, y: 0 });
     const [dragging, setDragging] = useState(false);
@@ -143,7 +152,14 @@
       if (!data) return [];
       return Object.keys(data.sections || {}).sort((a, b) => a.localeCompare(b, "it"));
     }, [data]);
-    const sectionColors = useMemo(() => createSectionColorMap(sections), [sections]);
+    const groups = useMemo(() => {
+      if (!data) return [];
+      return Object.keys(data.groups || {}).sort((a, b) => a.localeCompare(b, "it"));
+    }, [data]);
+    const praxisElements = useMemo(() => {
+      if (!data) return [];
+      return Object.keys(data.praxis_elements || {}).sort((a, b) => a.localeCompare(b, "it"));
+    }, [data]);
 
     const normalizedQuery = query.trim().toLowerCase();
 
@@ -235,6 +251,11 @@
           "p",
           null,
           "Solo pagine in wiki/ e solo link markdown. Un nodo per pagina."
+        ),
+        h(
+          "p",
+          { style: { marginTop: 8 } },
+          h("a", { href: "../", style: { color: "#3d8bfd", textDecoration: "none", fontWeight: 600 } }, "← Praxis Graph")
         )
       ),
       h(
@@ -283,12 +304,26 @@
         h(
           "div",
           { className: "legend" },
-          sections.map((s) =>
+          h("strong", { style: { fontSize: "0.82rem", color: "#4b5b6f", marginRight: 6 } }, "Gruppo (bordo):"),
+          groups.map((g) =>
             h(
               "div",
-              { key: s, className: "legend-item" },
-              h("span", { className: "sw", style: { background: sectionColors[s] || "#8aa0b8" } }),
-              h("span", null, `${s} · ${data.sections[s]}`)
+              { key: `g-${g}`, className: "legend-item" },
+              h("span", { className: "sw", style: { background: "#fff", border: `3px solid ${colorFor(g, GROUP_COLORS)}` } }),
+              h("span", null, `${g} · ${data.groups[g]}`)
+            )
+          )
+        ),
+        h(
+          "div",
+          { className: "legend", style: { marginTop: 6 } },
+          h("strong", { style: { fontSize: "0.82rem", color: "#4b5b6f", marginRight: 6 } }, "Praxis (riempimento):"),
+          praxisElements.map((p) =>
+            h(
+              "div",
+              { key: `p-${p}`, className: "legend-item" },
+              h("span", { className: "sw", style: { background: colorFor(p, PRAXIS_COLORS) } }),
+              h("span", null, `${p} · ${data.praxis_elements[p]}`)
             )
           )
         ),
@@ -334,21 +369,25 @@
               laidOut.map((node) => {
                 const active =
                   !selectedNode || selectedNode === node.id || nodeLinkedToSelected.has(node.id);
-                const showLabel = zoom >= 1.15 || selectedNode === node.id;
+                const showLabel = hoveredNode === node.id || selectedNode === node.id;
                 return h(
                   "g",
                   {
                     key: node.id,
                     style: { cursor: "pointer" },
                     onClick: () => setSelectedNode(selectedNode === node.id ? null : node.id),
+                    onPointerEnter: () => setHoveredNode(node.id),
+                    onPointerLeave: () => setHoveredNode((cur) => (cur === node.id ? null : cur)),
                   },
                   h("circle", {
                     className: "node",
                     cx: node.x,
                     cy: node.y,
                     r: node.r,
-                    fill: sectionColors[node.section] || "#8aa0b8",
+                    fill: colorFor(node.praxis || "_index", PRAXIS_COLORS),
                     fillOpacity: active ? 0.9 : 0.2,
+                    stroke: colorFor(node.group || "_root", GROUP_COLORS),
+                    strokeWidth: 2.5,
                   }),
                   showLabel
                     ? h(
@@ -362,7 +401,7 @@
                         node.title
                       )
                     : null,
-                  h("title", null, `${node.title}\n${node.path}`)
+                  h("title", null, `${node.title}\n${node.path}\ngruppo: ${node.group} · praxis: ${node.praxis}`)
                 );
               })
             )
@@ -371,7 +410,7 @@
         h(
           "div",
           { className: "note" },
-          "Interazione: rotella = zoom, trascina = pan, Reset = centra. Le etichette appaiono in zoom medio/alto o su nodo selezionato."
+          "Interazione: rotella = zoom, trascina = pan, Reset = centra. Etichette visibili solo al passaggio del mouse o su nodo selezionato."
         )
       )
     );

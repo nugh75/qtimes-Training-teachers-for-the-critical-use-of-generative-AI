@@ -11,6 +11,8 @@
 
 I due sotto-temi seguono un asse temporale ma sono leggibili anche in modo autonomo. L'[evoluzione del tabù](evoluzione-del-tabu.md) traccia la progressiva articolazione dei confini d'uso: dal rifiuto generico della produzione testuale fino alla distinzione operativa tra scaffolding e ghostwriting, con il paradosso del libro insufficiente — gli studenti usano l'IA *perché il testo scolastico non basta*, e questo erode il tabù. Le [zone di esclusione](zone-di-esclusione-s6.md) aggiungono tre frontiere: le espressioni matematiche (dove l'IA fallisce verificabilmente), la scrittura come atto irriducibile, e le relazioni umane — unica zona di esclusione non cognitiva ma relazionale.
 
+**Nota dimensionale**: S (preoccupazioni) e [X — eXpectations](../expectations/expectations-studenti.md) condividono rispondenti e temi (delega cognitiva, impoverimento, perdita di autonomia). Qui S è stata limitata ai *confini normativi* (dove l'IA non deve entrare) e alle *zone di esclusione* empiriche, mentre la proiezione del cambiamento percepito resta in X. Rispondenti che esprimono entrambe le dimensioni sono dual-coded.
+
 ## Sotto-temi
 
 - [Evoluzione del tabù](evoluzione-del-tabu.md) — 30 fonti. Produzione testuale, delega e plagio, libro insufficiente, lingue classiche, zone professionali.

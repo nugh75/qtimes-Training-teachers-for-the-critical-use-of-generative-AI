@@ -3,7 +3,7 @@
 **Summary**: Messa in dialogo delle tre coorti — Insegnanti Attuali (358), Insegnanti Futuri (99), Studenti (273) — attraverso le sei dimensioni PRAXIS. Obiettivo: identificare convergenze, divergenze e tensioni strutturali tra le prospettive.
 
 **Sources**: 
-- `wiki/insegnanti-attuali.md` · `wiki/insegnanti-futuri.md` · `wiki/studenti.md`
+- `wiki/insegnanti-attuali/index-insegnanti-attuali.md` · `wiki/insegnanti-futuri/index-insegnanti-futuri.md` · `wiki/studenti.md`
 
 **Last updated**: 2026-04-19
 

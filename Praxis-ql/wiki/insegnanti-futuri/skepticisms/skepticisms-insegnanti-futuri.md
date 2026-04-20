@@ -14,8 +14,10 @@ La gerarchia quantitativa è netta: il plagio e la disonestà accademica raccolg
 ## Sotto-temi
 
 - [Plagio e disonestà accademica](plagio-e-disonesta.md) — La preoccupazione dominante: compiti delegati all'IA, copia-incolla senza riflessione, verifiche invalidate. 11 fonti.
-- [Impoverimento cognitivo e dipendenza](omologazione.md) — Il danno più profondo temuto: perdita di ragionamento, creatività e autonomia intellettuale. 12 fonti.
+- [Impoverimento cognitivo e dipendenza](impoverimento-cognitivo.md) — Il danno più profondo temuto: perdita di ragionamento, creatività e autonomia intellettuale. 12 fonti.
 - [Copyright e proprietà intellettuale](copyright.md) — L'IA che "pesca senza rispettare i lavori altrui": una preoccupazione rara ma lucida. 1 fonte.
+
+**Nota dimensionale**: il tema dell'omologazione compare sia qui (appiattimento come preoccupazione) sia in [X — eXpectations](../expectations/expectations-insegnanti-futuri.md) (omologazione come cambiamento temuto). Qui S tiene i rispondenti che framano il danno come *preoccupazione epistemico-cognitiva presente*; X tiene la *proiezione del cambiamento percepito*.
 
 ## Pagine correlate
 - [Indice insegnanti futuri](../index-insegnanti-futuri.md)

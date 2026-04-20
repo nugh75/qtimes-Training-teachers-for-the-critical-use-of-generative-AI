@@ -90,7 +90,7 @@ wiki/
     │
     ├── skepticisms/
     │   ├── skepticisms-insegnanti-futuri.md — S — Skepticisms (Preoccupazioni)
-    │   ├── omologazione.md — Impoverimento cognitivo e dipendenza
+    │   ├── impoverimento-cognitivo.md — Impoverimento cognitivo e dipendenza
     │   ├── plagio-e-disonesta.md — Plagio e disonestà accademica
     │   └── copyright.md — Copyright e proprietà intellettuale
     │
