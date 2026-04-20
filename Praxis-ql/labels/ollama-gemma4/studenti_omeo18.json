@@ -1,0 +1,105 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_omeo18.md",
+  "source_name": "studenti_omeo18.md",
+  "title": "Risposta: Studenti - Record 116",
+  "group": "Studenti",
+  "record_code": "Omeo18",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:22:18.593166+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "S2",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'utente utilizza l'IA principalmente per semplificare concetti e per l'autovalutazione, ma è consapevole dei limiti etici e accademici (non usare per tesi).",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P4": 1,
+    "P5": 1,
+    "S2": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [],
+      "reason": "Risposta troppo generica (nome di uno strumento)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Integro concetti complessi in discorsi più semplici e per articolare meglio il discorso e genero domande per valutare la mia conoscenza",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Personalizza lo studio integrando concetti complessi in discorsi semplici e generando domande di valutazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il significato di …,  oppure riassumi questo paragrafo",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Gli esempi di prompt ('Spiegami il significato di...', 'riassumi questo paragrafo') rientrano nelle strategie operative di produzione (spiegazioni, riassunti)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplifica concetti difficili per renderli più comprensibili e  memorizzarli",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a semplificare concetti difficili per renderli più comprensibili e memorizzabili."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho approfondito la differenza tra alcune patologie per la materia di psicopatologia",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'approfondimento della differenza tra patologie è un esempio di utilizzo di materiali di studio (approfondimento)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Si possono generare domande per valutare le conoscenze",
+      "codes": [
+        "P4"
+      ],
+      "reason": "Generare domande per valutare le conoscenze è un esempio di supporto allo studio/autovalutazione."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non è indicato usare l’IA per svolgere tesi, temi o qualsiasi esercizio in cui bisogna applicare le proprie conoscenze",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Avverte che l'IA non deve essere usata per tesi o temi, che richiedono l'applicazione personale delle conoscenze."
+    }
+  ]
+}

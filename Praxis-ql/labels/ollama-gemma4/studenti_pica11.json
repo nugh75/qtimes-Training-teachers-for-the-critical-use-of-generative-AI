@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_pica11.md",
+  "source_name": "studenti_pica11.md",
+  "title": "Risposta: Studenti - Record 76",
+  "group": "Studenti",
+  "record_code": "pica11",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:25:12.037272+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S2",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per la sintesi e la creazione di materiali di studio (dispense), ma mostra consapevolezza dei suoi limiti (sintesi eccessiva, omissioni) e dei rischi etici (plagio).",
+  "code_counts": {
+    "I2": 2,
+    "P2": 1,
+    "P5": 4,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S7": 1,
+    "X1": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non mi serve nel quotidiano per quello che faccio",
+      "codes": [],
+      "reason": "Risposta non informativa sul non utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perchè mi aiuta a riassumere testi quando studio",
+      "codes": [
+        "P5",
+        "P6"
+      ],
+      "reason": "Usa ChatGPT per riassumere testi durante lo studio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Mi aiuta a creare delle dispense da cui ripetere",
+      "codes": [
+        "P2",
+        "P5"
+      ],
+      "reason": "L'IA aiuta a creare dispense per lo studio, personalizzando il materiale."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi riassumere questo file evidenziando la parte x in modo esauriente e completo",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Esempio di prompt per riassumere un file evidenziando una parte specifica."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza il processo di stesura delle dispense",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'IA velocizza il processo di stesura delle dispense."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Per preparare dispense",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Esempio di utilizzo per la preparazione di dispense."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte l’ IA non è abbastanza esauriente e sintetizza troppo, non riesce a individuare punti per me importanti",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Critica all'IA per la sintesi eccessiva e l'omissione di punti importanti."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Velocizza il processo di studio ma a volte omette parti importanti",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Riconosce la velocità ma anche l'omissione di parti importanti."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat gpt per fare tesi di laurea",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Non raccomanda l'uso di ChatGPT per fare tesi di laurea (plagio/sostituzione in ambito accademico)."
+    }
+  ]
+}

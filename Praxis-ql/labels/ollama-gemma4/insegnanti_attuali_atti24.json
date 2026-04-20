@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_atti24.md",
+  "source_name": "insegnanti_attuali_atti24.md",
+  "title": "Risposta: Insegnanti in servizio - Record 188",
+  "group": "Insegnanti in servizio",
+  "record_code": "atti24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:48:21.071896+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P3",
+    "S2",
+    "X4"
+  ],
+  "record_note": "Il docente riconosce l'uso dell'IA per la creazione di verifiche (P1) ma esprime preoccupazione per il rischio di delega e plagio (S2) e per l'impatto sulla produzione linguistica.",
+  "code_counts": {
+    "P1": 2,
+    "P3": 1,
+    "S2": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora dedicato del tempo alla programmazione di attività con IA. La utilizzo solamente nella creazione di verifiche in digitale ( su Piattaforma Socrative).",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'IA viene utilizzata per la creazione di verifiche digitali."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L' intelligenza artificiale viene usata in modo improprio dagli studenti, che delegano all'IA lo svolgimento di compiti, traduzione e  produzione di testi. In quanto docente di lingua non posso più assegnare a casa compiti di produzione scritta o traduzione . Può invece rappresentare un aiuto per gli alunni con Bes in quanto facilitatore.",
+      "codes": [
+        "S2",
+        "P3",
+        "X4"
+      ],
+      "reason": "Si evidenzia il rischio di delega di compiti (S2) e si menziona l'uso come facilitatore per alunni con Bes (P3, X4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi, traduzioni di testi per quanto concerne l'insegnamento delle lingue; gli alunni non sono in grado di assimilare le strutture linguistiche studiate e producono testi in lingua troppo complessi che non sono in grado di esporre o memorizzare.",
+      "codes": [
+        "S2",
+        "P1"
+      ],
+      "reason": "Si sconsiglia l'uso di IA per la produzione e traduzione di testi (S2), anche se l'uso di IA per la creazione di materiali è possibile (P1)."
+    }
+  ]
+}

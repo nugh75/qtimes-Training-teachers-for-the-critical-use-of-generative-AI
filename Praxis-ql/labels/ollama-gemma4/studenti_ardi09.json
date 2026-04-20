@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ardi09.md",
+  "source_name": "studenti_ardi09.md",
+  "title": "Risposta: Studenti - Record 106",
+  "group": "Studenti",
+  "record_code": "ARDI09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:54:28.433922+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "S4",
+    "S6",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Lo studente è consapevole dei limiti dell'IA (S4, S6) e ne utilizza strumenti specifici per supportare lo studio (P1, P2).",
+  "code_counts": {
+    "P1": 4,
+    "P2": 1,
+    "P4": 1,
+    "P5": 3,
+    "P6": 1,
+    "S4": 1,
+    "S6": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Li uso entrambi, gemini è più facilmente accessibile, chatgpt è più preciso",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (Gemini e ChatGPT) e ne confronta l'accessibilità e la precisione."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Risponde a domande su alcuni dubbi o mi aiuta a creare delle immagini con schemi e mappe",
+      "codes": [
+        "P2",
+        "P5",
+        "P1",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per rispondere a dubbi (P2) e per creare schemi e mappe (P5, P1)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi crearmi uno schema che rappresenti le cortecce somatosensitive",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Richiede la creazione di uno schema (mappa concettuale) su un argomento specifico."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Concettualizza argomenti chiave",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a concettualizzare argomenti chiave, migliorando la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Attraverso la creazione di mappe e soprattutto grazie alla creazione di domande utili su un dato argomento",
+      "codes": [
+        "P1",
+        "P4",
+        "X5"
+      ],
+      "reason": "Menziona la creazione di mappe (P1) e domande utili (P4), supportando l'apprendimento (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Alcuna",
+      "codes": [],
+      "reason": "Risposta troppo vaga e non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro in quanto facilita il mio lavoro, contro in quanto credo che facendo le mappe al mio posto imparo meno approfonditamente",
+      "codes": [
+        "P1",
+        "S4",
+        "X7"
+      ],
+      "reason": "Riconosce il beneficio (facilita il lavoro) ma il contro è che fare le mappe al posto suo riduce l'approfondimento (S4, X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Il fatto che sostituisca del tutto l’integrazione di manuali è sbagliato",
+      "codes": [
+        "P1",
+        "S6"
+      ],
+      "reason": "Sostiene che sostituire l'integrazione di manuali con l'IA è sbagliato (S6)."
+    }
+  ]
+}

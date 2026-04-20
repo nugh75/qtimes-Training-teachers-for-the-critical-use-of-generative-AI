@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_hesi09.md",
+  "source_name": "insegnanti_attuali_hesi09.md",
+  "title": "Risposta: Insegnanti in servizio - Record 75",
+  "group": "Insegnanti in servizio",
+  "record_code": "hesi09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:03:48.368251+00:00",
+  "record_dimensions": [
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S1",
+    "S7"
+  ],
+  "record_note": "L'insegnante mostra cautela nell'uso dell'IA, riconoscendo i rischi di delega eccessiva e limitando l'uso a ambiti specifici (come la stesura di PEI).",
+  "code_counts": {
+    "R5": 1,
+    "S1": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho ancora un'adeguata conoscenza degli strumenti a parte chatgpt",
+      "codes": [],
+      "reason": "Risposta che indica una conoscenza limitata, ma non specifica un uso o un rifiuto motivato da un codice specifico."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Al momento non necessito di utilizzarla, utilizzo altri strumenti, software e tecnologie",
+      "codes": [
+        "R5"
+      ],
+      "reason": "L'utente afferma di non necessitare di usare l'IA perché utilizza altri strumenti, indicando una scelta o un'alternativa consolidata."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un contro secondo me è la diffusa pratica che sta dilagando cioè quella di delegare molto all'AI",
+      "codes": [
+        "S1"
+      ],
+      "reason": "L'utente identifica la delega eccessiva all'AI come un contro, indicando il rischio di dipendenza o pigrizia."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Utilizzare Chat gpt per stilare i PEI",
+      "codes": [
+        "S7"
+      ],
+      "reason": ""
+    }
+  ]
+}

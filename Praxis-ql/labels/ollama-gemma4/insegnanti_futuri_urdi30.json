@@ -1,0 +1,60 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_urdi30.md",
+  "source_name": "insegnanti_futuri_urdi30.md",
+  "title": "Risposta: Insegnanti pre-service - Record 84",
+  "group": "Insegnanti pre-service",
+  "record_code": "urdi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:50:13.881610+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Il partecipante menziona l'uso di strumenti IA (Chat GPT) ma le risposte sono generiche, focalizzandosi su benefici operativi (velocità) e cognitivi (comprensione), senza descrivere processi didattici specifici.",
+  "code_counts": {
+    "S4": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gbt",
+      "codes": [],
+      "reason": "Risposta troppo generica e non specifica su strumenti o modalità d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Come supporto",
+      "codes": [],
+      "reason": "Risposta incompleta e non specifica su come l'IA viene usata per l'individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Migliorare la comprensione degli studenti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'obiettivo di 'migliorare la comprensione' è direttamente legato alla semplificazione e chiarificazione dei concetti."
+    },
+    {
+      "index": 4,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Velocizzare il lavoro, Carenza di stimolo nella propria formazione",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Velocizzare il lavoro indica efficienza (X1); la carenza di stimolo nella formazione suggerisce un potenziale rischio di erosione del pensiero critico (S4)."
+    }
+  ]
+}

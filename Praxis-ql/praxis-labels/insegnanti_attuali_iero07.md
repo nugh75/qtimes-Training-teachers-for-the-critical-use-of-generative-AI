@@ -1,0 +1,68 @@
+---
+title: "insegnanti_attuali_iero07.md"
+record_code: "Iero07"
+group: "Insegnanti in servizio"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:06:11.142643+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-in-servizio
+  - praxis/dim/a
+  - praxis/dim/i
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/a1
+  - praxis/code/i4
+  - praxis/code/s2
+  - praxis/code/s6
+  - praxis/code/x7
+---
+
+# Risposta: Insegnanti in servizio - Record 313
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_iero07.md`
+
+**Record note**: L'insegnante mostra cautela nell'uso dell'IA, attribuendo la sua limitata adozione alla mancanza di formazione e sottolineando la necessità di un uso controllato e critico.
+
+**Dimensions**: A, I, S, X
+
+**Subcodes**: A1, I4, S2, S6, X7
+**Subcodes estesi**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S6 — Sostituzione del docente o della relazione educativa.; X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
+
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X7**: Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
+
+## Items
+
+### Item 1 · `-`
+- **Codici estesi**: -
+
+- **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+- **A**: Poco pratica
+- **Reason**: Risposta non informativa.
+
+### Item 2 · `A1`
+- **Codici estesi**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+
+- **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+- **A**: Poco pratica è ancora poco formata in merito.
+- **Reason**: La partecipante cita la mancanza di formazione ('poco formata').
+
+### Item 3 · `X7, I4`
+- **Codici estesi**: X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: Sono favorevole ma in modo controllato e con una preparazione adeguata.
+- **Reason**: Manifesta favorevolezza ma in modo controllato e con preparazione adeguata, indicando la necessità di controllo umano e la centralità della relazione/giudizio umano.
+
+### Item 4 · `S2, S6`
+- **Codici estesi**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S6 — Sostituzione del docente o della relazione educativa.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: Per produrre testi e per fare i temi.
+- **Reason**: Non raccomanda l'uso dell'IA per produrre testi e per fare i temi, indicando il rischio di plagio e la potenziale sostituzione del lavoro dello studente/docente.

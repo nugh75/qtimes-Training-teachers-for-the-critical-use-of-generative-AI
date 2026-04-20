@@ -1,0 +1,69 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_iani22.md",
+  "source_name": "insegnanti_attuali_iani22.md",
+  "title": "Risposta: Insegnanti in servizio - Record 355",
+  "group": "Insegnanti in servizio",
+  "record_code": "Iani22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:04:19.384567+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S2",
+    "S4",
+    "S6",
+    "X6"
+  ],
+  "record_note": "L'insegnante mostra una forte diffidenza verso l'uso dell'IA in didattica, temendo che possa compromettere l'apprendimento autonomo e la relazione educativa.",
+  "code_counts": {
+    "I4": 1,
+    "S2": 2,
+    "S4": 1,
+    "S6": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non la conosco abbastanza bene",
+      "codes": [],
+      "reason": "Rifiuto di fornire dettagli sulla non-utilizzazione dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la utilizzo nella didattica in quanto ho paura che i miei studenti la utilizzino in maniera non opportuna quindi evito io per prima di utilizzarla",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Paura che gli studenti usino l'IA in modo non opportuno, portando a un rifiuto di utilizzarla in didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: maggiore coinvolgimento degli studenti Contro: utilizzo da parte degli studenti per la risoluzione di compiti",
+      "codes": [
+        "X6",
+        "S2"
+      ],
+      "reason": "Riconosce il potenziale di coinvolgimento (X6) ma anche il rischio di uso per la risoluzione di compiti (S2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ricerche effettuate tramite AI in quanto in questo modo gli studenti si trovano già il materiale pronto e non possono mettersi alla prova",
+      "codes": [
+        "S4",
+        "S2"
+      ],
+      "reason": "L'uso di AI per ricerche fornisce materiale pronto, impedendo agli studenti di mettersi alla prova e di sviluppare il pensiero critico."
+    }
+  ]
+}

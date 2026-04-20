@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_vina23.md",
+  "source_name": "insegnanti_attuali_vina23.md",
+  "title": "Risposta: Insegnanti in servizio - Record 171",
+  "group": "Insegnanti in servizio",
+  "record_code": "vina23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:36:37.268099+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'insegnante è consapevole dei limiti dell'IA, specialmente nel contesto del sostegno, dove sono necessarie attività fisiche e sensoriali non replicabili digitalmente.",
+  "code_counts": {
+    "P2": 1,
+    "S4": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne ho avuto grande esigenza",
+      "codes": [],
+      "reason": "Risposta non informativa o di rifiuto generico."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché al momento, lavorando sul sostegno ho necessità di creare attività che agiscano a livello sensoriale, soprattutto tattile.",
+      "codes": [
+        "P2"
+      ],
+      "reason": "Necessità di attività sensoriali e tattili, che implica l'adattamento al bisogno specifico dello studente."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro creare contenuti accattivanti, semplificare la pianificazione di attività che richiederebbero tempi molto lunghi. Tra i contro la possibilità di affidarsi completamente all' AI a sfavore delle capacità individuali.",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Vantaggi nella semplificazione e creazione di contenuti, ma rischio di affidarsi completamente all'IA a scapito delle capacità individuali."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La continua esposizione a contenuti digitali. I ragazzi sono molto attratti dalla tecnologia ma rischiano di sostituire l'AI al ragionamento se non educati al suo utilizzo.",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Rischio che l'esposizione digitale e l'uso dell'IA sostituiscano il ragionamento."
+    }
+  ]
+}

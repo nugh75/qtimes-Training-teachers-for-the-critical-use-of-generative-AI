@@ -1,0 +1,60 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ardi11.md",
+  "source_name": "insegnanti_futuri_ardi11.md",
+  "title": "Risposta: Insegnanti pre-service - Record 25",
+  "group": "Insegnanti pre-service",
+  "record_code": "ardi11",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:39:43.239952+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "S4",
+    "X1"
+  ],
+  "record_note": "Il partecipante non ha esperienza diretta con l'uso dell'IA in didattica, ma è consapevole dei potenziali benefici (produzione di materiali) e dei rischi (erosione del pensiero critico).",
+  "code_counts": {
+    "P1": 1,
+    "S4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la conosco",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non la conosco')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la conosco, in quanto non ho avuto esperienza di utilizzarla in ambito didattico",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non la conosco, in quanto non ho avuto esperienza...')."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro: facilitare la produzione di ricerche, di studio. Contro: eliminare alcune funzioni della mente umana come il ragionamento",
+      "codes": [
+        "P1",
+        "X1",
+        "S4"
+      ],
+      "reason": "Vede i pro (produzione di ricerche/studio, P1) e i contro (eliminare funzioni mentali come il ragionamento, S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non le uso nell'insegnamento",
+      "codes": [],
+      "reason": "Risposta che indica non utilizzo ('Non le uso nell'insegnamento')."
+    }
+  ]
+}

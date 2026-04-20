@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_pepe23.md",
+  "source_name": "insegnanti_attuali_pepe23.md",
+  "title": "Risposta: Insegnanti in servizio - Record 165",
+  "group": "Insegnanti in servizio",
+  "record_code": "Pepe23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:23:29.022150+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I4",
+    "P1",
+    "S6",
+    "X1",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra cautela sull'uso dell'IA, riconoscendone i potenziali benefici (risparmio di tempo, materiali) ma esprimendo forti riserve sulla sua capacità di sostituire il giudizio umano e la relazione educativa.",
+  "code_counts": {
+    "I1": 1,
+    "I4": 2,
+    "P1": 1,
+    "S6": 2,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non abbastanza tempo per conoscerla abbastanza da controllarla",
+      "codes": [
+        "I1"
+      ],
+      "reason": "L'incertezza sul controllo dell'IA è espressa come un limite tecnico/di fiducia."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ritengo sufficienti i vecchi metodi ma non demonizzo i nuovi finché non sfuggono al controllo e spengono la fantasia",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Si valorizza il metodo tradizionale e si teme che l'IA possa sostituire l'elemento umano (fantasia/controllo)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro, Dovrebbero fare risparmiare tempo e aiutare a creare contenuti e materiali di supporto alla didattica. Contro, bisogna conoscerlo bene e padroneggiarli.",
+      "codes": [
+        "P1",
+        "X1",
+        "X2"
+      ],
+      "reason": "Viene menzionato il risparmio di tempo e l'aiuto nella creazione di materiali e contenuti."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Delegarle completamente la didattica senZa le competenze emotive umane e la conoscenza degli alunni e dei contesti.",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Si critica l'uso dell'IA che delega completamente la didattica, ignorando le competenze emotive umane e la conoscenza del contesto."
+    }
+  ]
+}

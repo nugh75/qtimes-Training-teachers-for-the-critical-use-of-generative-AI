@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ieco10.md",
+  "source_name": "studenti_ieco10.md",
+  "title": "Risposta: Studenti - Record 98",
+  "group": "Studenti",
+  "record_code": "IECO10",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:10:33.950422+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per rielaborare e semplificare concetti complessi, percependo un beneficio di velocità e comprensione, ma mostra consapevolezza sui limiti (non usare per quiz).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 3,
+    "P6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché è l’unico che utilizzo",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Indica l'uso di uno strumento specifico (ChatGPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "facendo rielaborare i concetti quando sul libro sono troppo prolissi o di difficile comprensione",
+      "codes": [
+        "P2",
+        "P5",
+        "X2"
+      ],
+      "reason": "Rielaborare concetti complessi o prolissi per migliorarne la comprensione e l'adattamento."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi rielaborare questo concetto",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio fornito è un'istruzione di rielaborazione di un concetto."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendomi capire alcuni concetti in modo più veloce",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'obiettivo è capire concetti in modo più veloce, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "rielaborando concetti che facevo fatica a capire",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Rielaborare concetti difficili è una strategia di supporto che migliora la comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": ".",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro :alcune persone fanno abuso dell’IA, pro: può essere uno strumento utile che velocizza lo studio",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Riconosce che l'IA 'velocizza lo studio', indicando un beneficio di efficienza."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "le pratiche di risoluzione dei quiz",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Suggerisce di non usare l'IA per la risoluzione di quiz, un ambito che richiede pratica e non può essere sostituito."
+    }
+  ]
+}

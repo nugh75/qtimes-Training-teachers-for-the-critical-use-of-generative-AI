@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_pali25.md",
+  "source_name": "insegnanti_attuali_pali25.md",
+  "title": "Risposta: Insegnanti in servizio - Record 55",
+  "group": "Insegnanti in servizio",
+  "record_code": "pali25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:22:59.056573+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S4",
+    "S6",
+    "X1",
+    "X5"
+  ],
+  "record_note": "Il partecipante esprime una forte diffidenza verso l'uso dell'IA in didattica, focalizzandosi sui rischi di dipendenza e sulla perdita di autonomia e pensiero critico.",
+  "code_counts": {
+    "S4": 2,
+    "S6": 1,
+    "X1": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne sento la necessità",
+      "codes": [],
+      "reason": "Risposta non informativa o di rifiuto generico."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Voglio promuovere autonomia e spirito critico negli studenti.",
+      "codes": [
+        "S4",
+        "X5"
+      ],
+      "reason": "L'obiettivo è promuovere l'autonomia e lo spirito critico, indicando un rischio di erosione del pensiero critico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Solo contro: gli studenti si affidano totalmente all’intelligenza artificiale e non usano il proprio cervello. Per loro è solo la via più rapida per svolgere i compiti.",
+      "codes": [
+        "S4",
+        "X1"
+      ],
+      "reason": "Si evidenzia il rischio che gli studenti si affidino totalmente all'IA, vedendola solo come la via più rapida per i compiti."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere utilizzata a scuola.",
+      "codes": [
+        "S6"
+      ],
+      "reason": "L'affermazione che l'IA non dovrebbe essere utilizzata a scuola implica una critica al suo ruolo educativo generale."
+    }
+  ]
+}

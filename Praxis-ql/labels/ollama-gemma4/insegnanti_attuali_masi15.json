@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_masi15.md",
+  "source_name": "insegnanti_attuali_masi15.md",
+  "title": "Risposta: Insegnanti in servizio - Record 268",
+  "group": "Insegnanti in servizio",
+  "record_code": "Masi15",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:14:08.403846+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P3",
+    "P5",
+    "S2",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per rendere i contenuti più accessibili e comprensibili per studenti con BES, mostrando consapevolezza dei limiti etici (non far scrivere i testi agli studenti).",
+  "code_counts": {
+    "P2": 2,
+    "P3": 3,
+    "P5": 2,
+    "S2": 1,
+    "X2": 3,
+    "X3": 2,
+    "X4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Creazione mappe",
+      "codes": [
+        "P5"
+      ],
+      "reason": "La creazione di mappe rientra nelle strategie operative di produzione di materiali di supporto."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Rendere gli argomenti più accessibili per gli studenti con BES",
+      "codes": [
+        "P2",
+        "P3",
+        "X3",
+        "X4"
+      ],
+      "reason": "L'obiettivo è rendere gli argomenti più accessibili per studenti con BES, che è un'azione di personalizzazione e inclusione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Rendere gli argomenti più accessibili per gli studenti con BES",
+      "codes": [
+        "P2",
+        "P3",
+        "X3",
+        "X4"
+      ],
+      "reason": "L'obiettivo è rendere gli argomenti più accessibili per studenti con BES, che è un'azione di personalizzazione e inclusione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Rendi questo testo più a accessibile per uno studente con disabilità",
+      "codes": [
+        "P3",
+        "P5"
+      ],
+      "reason": "Il prompt mira a rendere il testo più accessibile per uno studente con disabilità, combinando l'inclusione e la riscrittura/semplificazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Facilitando gli argomenti di studio",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Il miglioramento dell'apprendimento è descritto in termini di facilitazione degli argomenti di studio, che implica maggiore comprensibilità."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Facilitando gli argomenti di studio",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Simile al punto 5, il beneficio è la facilitazione degli argomenti di studio, migliorando la comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Conoscenza nulla dello studente in questione",
+      "codes": [],
+      "reason": "La risposta è un'affermazione soggettiva e non descrive una difficoltà specifica legata all'uso degli strumenti."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Aiuto nel rendere più comprensibili i testi didattici",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'aiuto nel rendere più comprensibili i testi didattici si traduce in semplificazione e comprensione."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creare testi da parte degli studenti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Creare testi da parte degli studenti è un esempio di potenziale plagio o delega cognitiva eccessiva."
+    }
+  ]
+}

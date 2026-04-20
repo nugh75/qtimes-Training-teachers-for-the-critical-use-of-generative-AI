@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_curi05.md",
+  "source_name": "insegnanti_attuali_curi05.md",
+  "title": "Risposta: Insegnanti in servizio - Record 208",
+  "group": "Insegnanti in servizio",
+  "record_code": "curi05",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:52:44.657017+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S3",
+    "S4",
+    "X1"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sui rischi dell'IA, bilanciando i benefici (risparmio di tempo) con i rischi pedagogici (minore sforzo cognitivo, limitazione della creatività).",
+  "code_counts": {
+    "R5": 1,
+    "S3": 1,
+    "S4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Preferisco approfondire meglio le mie conoscenze.",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Il rifiuto di usare l'IA è motivato dal desiderio di approfondire le proprie conoscenze."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "vantaggi: risparmio di tempo. contro: minore sforzo cognitivo, mancanza dell'interazione sociale",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vantaggio citato è il risparmio di tempo (X1); contro è il minore sforzo cognitivo, che implica un rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "quelle che limitano la creatività di docenti e discenti",
+      "codes": [
+        "S3"
+      ],
+      "reason": "Le pratiche non raccomandate sono quelle che limitano la creatività di docenti e discenti, riferendosi all'appiattimento o omologazione (S3)."
+    }
+  ]
+}

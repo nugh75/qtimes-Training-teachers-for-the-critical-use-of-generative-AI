@@ -1,0 +1,136 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_atti22.md",
+  "source_name": "insegnanti_attuali_atti22.md",
+  "title": "Risposta: Insegnanti in servizio - Record 222",
+  "group": "Insegnanti in servizio",
+  "record_code": "atti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:48:19.365197+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S3",
+    "S4",
+    "S6",
+    "X1",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la differenziazione e l'organizzazione didattica, riconoscendone i benefici in termini di efficienza, ma esprimendo cautela sul rischio di standardizzazione e dipendenza.",
+  "code_counts": {
+    "I4": 1,
+    "P1": 1,
+    "P2": 3,
+    "P5": 2,
+    "P6": 1,
+    "S3": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 2,
+    "X3": 3,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt4o perché è quella che conosco meglio",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'utente menziona specificamente 'Chatgpt4o' come strumento preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La utilizzo per creare contenuti personalizzati che rispondano ai bisogni di apprendimento degli alunni.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA viene usata per creare contenuti personalizzati che rispondono ai bisogni di apprendimento degli alunni."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creo questionari, schede, sintesi di contenuti didattici complessi, presentzione di argomenti in modo creativo e stimolante",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Vengono creati questionari, schede, sintesi (P1, P5) e contenuti per coltivare potenzialità intellettive (P2, X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Lezione CLIL geografia con l' indicazione dell' argomento trattato",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio di prompt è la creazione di una lezione CLIL di geografia, che implica la strutturazione e la riorganizzazione di contenuti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha stimolato l'interesse e la curiosità, favorendo la progressione negli apprendimenti",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA ha stimolato l'interesse e la curiosità, favorendo la progressione negli apprendimenti, indicando arricchimento e coinvolgimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Facilita la predisposizione delle lezioni, favorendo l'organizzazione delle lezioni e riducendo i tempi di predisposizione delle attività.",
+      "codes": [
+        "X5",
+        "X1"
+      ],
+      "reason": "Aiuta a predisporre lezioni e a ridurre i tempi di preparazione, supportando l'organizzazione e l'efficienza."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "L'uso dell'IIA migliora con la pratica, pertanto i primi approcci si sono rivelati più difficoltosi e richiedevano più tempo. Ora con l'esercizio, l'IA sta diventando sempre più una buona pratica da spendere nella quotidianità.",
+      "codes": [],
+      "reason": "La risposta descrive un miglioramento con la pratica, ma non identifica codici specifici di difficoltà o vincoli."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono il risparmio di tempo e la possibilità di predisporre attività diversificate, funzionali e innovative.  I contro riguardano il rischio di eccessiva standardizzazione di alcune pratiche come ad esempio quelle valutative e tutte quelle che limitano il pensiero creativo e divergente. L'IA costituisce un supporto alla dittattica e al processo di insegnamento-apprendimento e mai un sostituto.",
+      "codes": [
+        "X1",
+        "P2",
+        "X3",
+        "S3",
+        "I4"
+      ],
+      "reason": "Vengono citati i pro (risparmio di tempo, attività diversificate/innovative) e i contro (rischio di standardizzazione/limitazione del pensiero creativo, ma l'IA è un supporto e non un sostituto dell'insegnante/relazione)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'IA non deve sostituire l'insegnante, inoltre non dovrebbe creare un'eccessiva dipendenza che potrebbe penalizzare il pensiero critico.",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Si sconsiglia l'uso dell'IA per sostituire l'insegnante (S6) e per evitare l'eccessiva dipendenza che penalizza il pensiero critico (S4)."
+    }
+  ]
+}

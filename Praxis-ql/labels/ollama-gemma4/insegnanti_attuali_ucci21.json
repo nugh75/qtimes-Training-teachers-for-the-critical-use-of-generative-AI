@@ -1,0 +1,37 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ucci21.md",
+  "source_name": "insegnanti_attuali_ucci21.md",
+  "title": "Risposta: Insegnanti in servizio - Record 3",
+  "group": "Insegnanti in servizio",
+  "record_code": "ucci21",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:34:11.301147+00:00",
+  "record_dimensions": [
+    "P"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P5",
+    "P6"
+  ],
+  "record_note": "None",
+  "code_counts": {
+    "P1": 1,
+    "P5": 1,
+    "P6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Generazione di tesi e immagini per tradurre concetti in contenuti multimediali",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "L'uso di strumenti per generare tesi e immagini per creare contenuti multimediali rientra nella produzione di materiali didattici (P1) e nell'uso di strumenti (P6)."
+    }
+  ]
+}

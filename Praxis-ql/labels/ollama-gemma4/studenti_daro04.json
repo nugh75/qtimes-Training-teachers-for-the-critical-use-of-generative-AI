@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_daro04.md",
+  "source_name": "studenti_daro04.md",
+  "title": "Risposta: Studenti - Record 246",
+  "group": "Studenti",
+  "record_code": "Daro04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:59:29.459134+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "S6",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Lo studente utilizza l'IA per supportare lo studio (mappe, testi) ma esprime preoccupazioni significative riguardo al rischio di dipendenza e alla perdita di pensiero critico.",
+  "code_counts": {
+    "P1": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 2,
+    "S6": 1,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Io la utilizzo",
+      "codes": [],
+      "reason": "Risposta affermativa generica, non specifica sull'uso o sulla modalità."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chiat got",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (Chat GPT) come preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per mappe",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per creare mappe è una strategia di supporto allo studio e personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat gpt",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Non fornisce un prompt specifico, ma menziona lo strumento (Chat GPT) che è il contesto di un prompt."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "I testi",
+      "codes": [
+        "P1"
+      ],
+      "reason": "Indica che l'IA aiuta con i testi, che rientrano nella produzione di materiali di studio."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non la migliorato",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro é che ti agevola i contro sono quelli che non usiamo più la testa per studiare",
+      "codes": [
+        "S4",
+        "X6"
+      ],
+      "reason": "Il pro è l'agevolazione (X6), ma il contro è la perdita di sforzo mentale ('non usiamo più la testa'), indicando un rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non deve essere usata perché sennò é tutto inutile che veniamo a scuola",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Suggerisce che l'IA non dovrebbe essere usata perché rende inutile l'esperienza scolastica, implicando la sostituzione del ruolo educativo e la perdita di apprendimento attivo."
+    }
+  ]
+}

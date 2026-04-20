@@ -1,0 +1,59 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_paro03.md",
+  "source_name": "insegnanti_attuali_paro03.md",
+  "title": "Risposta: Insegnanti in servizio - Record 317",
+  "group": "Insegnanti in servizio",
+  "record_code": "Paro03",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:23:00.424565+00:00",
+  "record_dimensions": [
+    "A",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "S2"
+  ],
+  "record_note": "Il partecipante esprime scetticismo e limita l'uso dell'IA a causa della mancanza di formazione e identifica rischi come il plagio/ghostwriting.",
+  "code_counts": {
+    "A1": 2,
+    "S2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non sono pratica",
+      "codes": [],
+      "reason": "Risposta non informativa ('Perché non sono pratica')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non sono ancora molto ferrata",
+      "codes": [
+        "A1"
+      ],
+      "reason": "La difficoltà nell'uso è attribuita alla mancanza di competenze o formazione ('non sono ancora molto ferrata')."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere utilizzata dopo un'adeguata formazione",
+      "codes": [
+        "A1"
+      ],
+      "reason": "L'uso è condizionato dalla necessità di un'adeguata formazione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creazione di testi",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'utente identifica la creazione di testi come pratica non raccomandata."
+    }
+  ]
+}

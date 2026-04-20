@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_illi30.md",
+  "source_name": "studenti_illi30.md",
+  "title": "Risposta: Studenti - Record 184",
+  "group": "Studenti",
+  "record_code": "Illi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:11:11.977750+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA per approfondire argomenti e migliorare lo studio, riconoscendone i benefici in termini di tempo e comprensione, ma è consapevole del rischio di dipendenza dallo studio autonomo.",
+  "code_counts": {
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per imparare I approfondire alcuni argomenti",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'uso dell'IA è finalizzato a imparare e approfondire argomenti specifici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini perché è gratis",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Il partecipante menziona Gemini come strumento preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo domande",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'IA viene usata per personalizzare lo studio attraverso la formulazione di domande."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi spiegare…",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Il partecipante fornisce un esempio di prompt ('Mi puoi spiegare...') che è un'istruzione o una domanda."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Facendo schemi",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'IA aiuta a migliorare l'apprendimento creando schemi."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Velocizzandomo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Il miglioramento dell'apprendimento è associato alla velocità ('Velocizzandomo')."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che accorcia il Tempo ed è precisa i contro sono che potrebbe smettere di farti studiare autonomamente",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "I pro includono il risparmio di tempo (X1), mentre i contro riguardano il rischio di non studiare autonomamente (S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

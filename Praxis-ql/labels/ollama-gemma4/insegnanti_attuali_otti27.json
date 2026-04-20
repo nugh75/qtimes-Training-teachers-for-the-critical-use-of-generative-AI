@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otti27.md",
+  "source_name": "insegnanti_attuali_otti27.md",
+  "title": "Risposta: Insegnanti in servizio - Record 282",
+  "group": "Insegnanti in servizio",
+  "record_code": "Otti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:21:36.896120+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R4",
+    "S2",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra consapevolezza dei rischi (S4, S2) e della necessità di migliorare le proprie competenze di prompting (R4).",
+  "code_counts": {
+    "R4": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Devo imparare bene ad usarla",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'utente esprime la necessità di imparare a usare l'IA, indicando un focus sull'acquisizione di competenze di prompting."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: rapidità nel trovare i concetti Contro: non si usa più il ragionamento rapido e la capacità di sintesi",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconosce la rapidità (X2) ma anche il rischio di atrofia del ragionamento e della sintesi (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Testi già pronti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Rifiuta l'uso di 'testi già pronti', che possono portare a plagio o a delegare la creazione del contenuto."
+    }
+  ]
+}

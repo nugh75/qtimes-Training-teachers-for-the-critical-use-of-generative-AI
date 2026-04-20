@@ -1,0 +1,44 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_nuti5.md",
+  "source_name": "insegnanti_futuri_nuti5.md",
+  "title": "Risposta: Insegnanti pre-service - Record 5",
+  "group": "Insegnanti pre-service",
+  "record_code": "Nuti5",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:46:39.016307+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Il partecipante esprime un senso di impreparazione e incertezza riguardo all'uso dell'IA in didattica.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono abbastanza preparata",
+      "codes": [],
+      "reason": "Risposta di insicurezza ('Non sono abbastanza preparata') che non indica un uso specifico di IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono molto preparata su questo",
+      "codes": [],
+      "reason": "Risposta di insicurezza ('Non sono molto preparata') che non indica un uso specifico di IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta di incertezza ('Non so') che non permette l'assegnazione di codici."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Italiano",
+      "codes": [],
+      "reason": "Risposta troppo generica ('Italiano') per assegnare codici specifici."
+    }
+  ]
+}

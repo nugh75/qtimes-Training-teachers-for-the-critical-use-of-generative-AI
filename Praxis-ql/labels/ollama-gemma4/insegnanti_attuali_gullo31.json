@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_gullo31.md",
+  "source_name": "insegnanti_attuali_gullo31.md",
+  "title": "Risposta: Insegnanti in servizio - Record 119",
+  "group": "Insegnanti in servizio",
+  "record_code": "Gullo31",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:03:30.423699+00:00",
+  "record_dimensions": [
+    "A",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "S2",
+    "S4",
+    "X1"
+  ],
+  "record_note": "L'insegnante esprime inizialmente un senso di inadeguatezza formativa e, pur riconoscendo i potenziali benefici (tempo), manifesta preoccupazioni riguardo all'uso eccessivo e alla produzione di contenuti da parte dell'IA.",
+  "code_counts": {
+    "A1": 1,
+    "S2": 1,
+    "S4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho ancora le competenze adeguate",
+      "codes": [],
+      "reason": "Risposta che indica mancanza di competenze, non un contenuto informativo da codificare."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono adeguatamente formata",
+      "codes": [
+        "A1"
+      ],
+      "reason": "La partecipante cita la mancanza di formazione adeguata per non utilizzare l'IA in didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro potrebbero essere legati alla tempistica, i contro all'uso eccessivo che se ne potrebbe fare.",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vede i pro nella gestione del tempo (tempistica) e i contro nell'uso eccessivo che potrebbe compromettere l'apprendimento (uso eccessivo)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La produzione di testi, riassumere...",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Riferimento alla produzione di testi e riassumere come pratiche non raccomandate, suggerendo un rischio di plagio o di non attribuire il lavoro."
+    }
+  ]
+}

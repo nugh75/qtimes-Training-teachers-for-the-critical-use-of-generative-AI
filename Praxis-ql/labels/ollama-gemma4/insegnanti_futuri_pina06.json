@@ -1,0 +1,44 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_pina06.md",
+  "source_name": "insegnanti_futuri_pina06.md",
+  "title": "Risposta: Insegnanti pre-service - Record 88",
+  "group": "Insegnanti pre-service",
+  "record_code": "Pina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:48:04.724839+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Il partecipante è un insegnante pre-service che esprime scetticismo o mancanza di esperienza sull'uso dell'IA in didattica.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non la ritengo necessaria",
+      "codes": [],
+      "reason": "Risposta di rifiuto o non utilizzo dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno e non credo sia necessaria",
+      "codes": [],
+      "reason": "Rifiuto di utilizzo dell'IA in quanto non è ancora in servizio e non ritiene sia necessaria."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "In base alla mia esperienza mi verrebbe da dire che ci sono solo contro ma forse scoprirò che ci sono anche dei pro",
+      "codes": [],
+      "reason": "Riflessione generale sui pro e contro, senza identificare pratiche specifiche o benefici chiari."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per quanto riguarda l'uso della AI nell'insegnamento non conosco le pratiche raccomandate o che non dovrebbero essere utilizzate",
+      "codes": [],
+      "reason": "Mancanza di conoscenza sulle pratiche raccomandate o non raccomandate."
+    }
+  ]
+}

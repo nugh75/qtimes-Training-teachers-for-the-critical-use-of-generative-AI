@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rise08.md",
+  "source_name": "insegnanti_attuali_rise08.md",
+  "title": "Risposta: Insegnanti in servizio - Record 232",
+  "group": "Insegnanti in servizio",
+  "record_code": "rise08",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:26:50.776479+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sull'uso dell'IA, riconoscendone i benefici operativi ma anche i limiti pedagogici e gli ambiti in cui non dovrebbe essere impiegata.",
+  "code_counts": {
+    "R5": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "perché utilizzo ciò che conosco e ciò che so fare.",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Motivazione di non utilizzo basata sulla propria competenza e conoscenza ('utilizzo ciò che conosco e ciò che so fare')."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "semplificare e velocizzare il lavoro del docente, ma potrebbe essere controproducente per il processo di apprendimento degli studenti",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Vede l'IA come strumento di semplificazione e velocizzazione del lavoro docente (X2), ma anche come potenziale ostacolo al processo di apprendimento (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nel processo di valutazione non dovrebbe essere usata perché risulta poco costruttiva e non efficace per il processo di apprendimento",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Non raccomanda l'uso dell'IA nel processo di valutazione perché non è costruttivo né efficace per l'apprendimento (ambito off-limits)."
+    }
+  ]
+}

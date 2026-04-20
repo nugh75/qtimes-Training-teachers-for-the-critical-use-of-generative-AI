@@ -1,0 +1,126 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ieri23.md",
+  "source_name": "studenti_ieri23.md",
+  "title": "Risposta: Studenti - Record 151",
+  "group": "Studenti",
+  "record_code": "ieri23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:10:55.188678+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Lo studente è consapevole dei benefici (organizzazione, chiarimento) ma anche dei rischi (errori, plagio) dell'IA.",
+  "code_counts": {
+    "I2": 2,
+    "P1": 1,
+    "P2": 2,
+    "P5": 4,
+    "P6": 1,
+    "S2": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "DeepSeek, perché è gratuito e più potente di Chatgpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona DeepSeek e ChatGPT come strumenti preferiti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Produrre scalette organizzative, avere delucidazioni su concetti che non capisco",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per produrre scalette organizzative e ottenere chiarimenti su concetti non compresi, indicando personalizzazione e supporto."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "spiegami questo concetto: *testo, immagine, file che non ho capito*",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio di prompt è chiedere di spiegare un concetto da testo, immagine o file."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Può fornire degli spunti di riflessione alternativi",
+      "codes": [
+        "P5",
+        "X6"
+      ],
+      "reason": "L'IA fornisce spunti di riflessione alternativi, arricchendo l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha dato la possibilità di comprendere delle nozioni riguardo i disturbi psicotici, che nelle slides non erano chiarissime, spiegandomi meglio alcune definizioni",
+      "codes": [
+        "P2",
+        "P1",
+        "X2"
+      ],
+      "reason": "L'IA ha permesso di comprendere nozioni complesse (disturbi psicotici) non chiare nelle slide, spiegando meglio definizioni."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte lo strumento non era in grado di rispondere in modo accurato ed adeguato alla richiesta",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Riconosce che lo strumento non è sempre in grado di rispondere in modo accurato e adeguato."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: risparmiare tempo, avere spiegazioni specifiche, avere un aiuto nell’organizzazione; contro: si può andare incontro ad errori, informazioni errate",
+      "codes": [
+        "X1",
+        "X2",
+        "P5",
+        "I2"
+      ],
+      "reason": "Vede i pro (risparmio tempo, spiegazioni, organizzazione) e i contro (errori, informazioni errate)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "utilizzarli per scrivere elaborati senza trarre semplicemente uno spunto e rielaborare, perché in questo modo si produce un testo che non è originale e personale",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia l'uso dell'IA per scrivere elaborati, suggerendo che si rischia di non produrre un testo originale e personale (plagio/perdita di originalità)."
+    }
+  ]
+}

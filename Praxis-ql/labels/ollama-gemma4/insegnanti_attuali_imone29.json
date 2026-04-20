@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_imone29.md",
+  "source_name": "insegnanti_attuali_imone29.md",
+  "title": "Risposta: Insegnanti in servizio - Record 326",
+  "group": "Insegnanti in servizio",
+  "record_code": "imone29",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:08:10.420283+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la personalizzazione e l'individualizzazione dei percorsi didattici per studenti con bisogni educativi speciali (PDP/BEA), ma mostra incertezza su altri aspetti e solleva preoccupazioni sull'affidabilità dell'IA.",
+  "code_counts": {
+    "I2": 1,
+    "P2": 3,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini Chatgtp",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenco di strumenti (Gemini, ChatGPT) utilizzati."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Individualizzare esempi di lezioni",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per 'individualizzare esempi di lezioni' implica l'adattamento dei contenuti e la generazione di materiali specifici per diversi livelli di studente."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per gli studenti con pdp",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per 'studenti con pdp' è un esempio di adattamento e personalizzazione dei percorsi didattici."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Che strategie posso mettere in campo per un alunno con bea?",
+      "codes": [
+        "P7",
+        "P2",
+        "R4"
+      ],
+      "reason": "La domanda è un esempio di prompt ('Che strategie posso mettere in campo per un alunno con bea?'), che richiede strategie di adattamento (P2) e dimostra la capacità di formulare un prompt specifico (R4)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non so')."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non so')."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non so')."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Essere attendibile",
+      "codes": [
+        "I2"
+      ],
+      "reason": "L'unica preoccupazione espressa è l'affidabilità ('Essere attendibile'), che si collega alla sfiducia tecnica."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non so')."
+    }
+  ]
+}

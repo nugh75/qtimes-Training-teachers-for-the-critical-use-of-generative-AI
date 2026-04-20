@@ -1,0 +1,144 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_eoni17.md",
+  "source_name": "insegnanti_attuali_eoni17.md",
+  "title": "Risposta: Insegnanti in servizio - Record 316",
+  "group": "Insegnanti in servizio",
+  "record_code": "Eoni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:59:02.360146+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "S3",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per personalizzare e supportare lo studio, ma evidenzia preoccupazioni sulla dipendenza e sulla perdita di autonomia creativa.",
+  "code_counts": {
+    "A3": 1,
+    "P1": 1,
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S3": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (Chat GPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Adatto gli esercizi ai diversi livelli di difficoltà",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adattare esercizi a diversi livelli di difficoltà è un esempio di individualizzazione e personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Diversificare le richieste agli studenti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Diversificare le richieste è una strategia di personalizzazione e individualizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Inventa un compito di realtà di geografia per ragazzi di scuola secondaria superiore indirizzo tecnico economico",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di compito di realtà che può essere usato come prompt."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Sicuramente ha migliorato le consegne dei compiti rendendoli più comprensibili",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Miglioramento della comprensibilità dei compiti è un supporto didattico e di semplificazione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Mi fornisce un supporto schematico dei contenuti",
+      "codes": [
+        "P5",
+        "X5"
+      ],
+      "reason": "Ricevere supporto schematico dei contenuti è una strategia di riassunto/schemi che supporta l'organizzazione dello studio."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "A volte non ho connessione a scuola",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Difficoltà legate alla connessione internet a scuola indicano vincoli infrastrutturali."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: snellisce la burocrazia, contro: un abuso non ci permette di usare le nostre abilità in quanto ci affidiamo solo a contenuti preconfezionati",
+      "codes": [
+        "X1",
+        "S3"
+      ],
+      "reason": "Vede un vantaggio nell'snellire la burocrazia (X1), ma un rischio di omologazione/perdita di abilità (S3)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Dovremmo essere capaci di formulare una nostra idea e non sostituirla con quella dell’intelligenza artificiale",
+      "codes": [
+        "S4",
+        "R4"
+      ],
+      "reason": "Sottolinea la necessità di formulare idee proprie, contrastando l'erosione del pensiero critico e implicando la necessità di migliorare la propria capacità di prompting."
+    }
+  ]
+}

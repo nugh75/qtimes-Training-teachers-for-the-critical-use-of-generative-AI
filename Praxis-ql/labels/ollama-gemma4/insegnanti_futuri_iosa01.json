@@ -1,0 +1,44 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_iosa01.md",
+  "source_name": "insegnanti_futuri_iosa01.md",
+  "title": "Risposta: Insegnanti pre-service - Record 33",
+  "group": "Insegnanti pre-service",
+  "record_code": "Iosa01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:45:08.691844+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Il partecipante non è un insegnante e le risposte fornite sono troppo brevi o non pertinenti per l'assegnazione di codici.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [],
+      "reason": "La risposta ('Non insegno') non fornisce contenuti relativi all'uso o al rifiuto dell'IA in didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo sapevo",
+      "codes": [],
+      "reason": "La risposta ('Non lo sapevo') non contiene contenuti analizzabili."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Si",
+      "codes": [],
+      "reason": "La risposta ('Si') è troppo breve e non fornisce dettagli sul perché o su quali pratiche non raccomandare."
+    }
+  ]
+}

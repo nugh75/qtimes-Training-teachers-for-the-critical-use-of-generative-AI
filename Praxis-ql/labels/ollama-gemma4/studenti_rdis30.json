@@ -1,0 +1,134 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rdis30.md",
+  "source_name": "studenti_rdis30.md",
+  "title": "Risposta: Studenti - Record 165",
+  "group": "Studenti",
+  "record_code": "Rdis30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:26:17.041128+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per supportare lo studio e la comprensione, ma è consapevole dei rischi di dipendenza e di erosione del pensiero critico.",
+  "code_counts": {
+    "P1": 2,
+    "P2": 1,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è semplice da utilizzare",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Indica l'uso di uno strumento specifico (ChatGPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Integro le spiegazioni fornite dall’intelligenza artificiale, utilizzo delle domande per ripetere, o degli schemi",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Personalizza lo studio integrando spiegazioni, usando domande per ripetere e schemi."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi spiegare questo concetto",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esemplifica un prompt semplice e dimostra la capacità di formulare richieste."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi offre una spiegazione semplice e riassuntiva alle mie domande",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Riceve spiegazioni semplici e riassuntive, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi permette di comprendere meglio un concetto difficile e di ricordarlo  Mi aiuta a creare delle mappe che strutturano e organizzano il mio studio",
+      "codes": [
+        "P5",
+        "P1",
+        "X2",
+        "X5"
+      ],
+      "reason": "Aiuta a comprendere concetti difficili, a ricordare e a creare mappe per strutturare lo studio."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Attualmente non ho riscontrato difficoltà",
+      "codes": [],
+      "reason": "Risposta che non menziona difficoltà."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo, i contro è che molte volte l’intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo",
+      "codes": [
+        "X1",
+        "X5",
+        "S4"
+      ],
+      "reason": "Vede il vantaggio di risparmiare tempo e facilitare il lavoro, ma il contro è che può portare a non impegnarsi e non provare a risolvere da soli."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nello svolgere compiti, verifiche, test ecc., in quanto l’uso dell’intelligenza artificiale non permette di andare a valutare correttamente il soggetto in base alle proprie conoscenze.",
+      "codes": [
+        "S4",
+        "P4"
+      ],
+      "reason": "Sconsiglia l'uso dell'IA per compiti e verifiche perché non permette di valutare correttamente le proprie conoscenze (impatto sul pensiero critico e sulla valutazione)."
+    }
+  ]
+}

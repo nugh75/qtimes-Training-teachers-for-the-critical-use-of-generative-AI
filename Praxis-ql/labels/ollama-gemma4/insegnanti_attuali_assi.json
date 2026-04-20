@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_assi.md",
+  "source_name": "insegnanti_attuali_assi.md",
+  "title": "Risposta: Insegnanti in servizio - Record 354",
+  "group": "Insegnanti in servizio",
+  "record_code": "Assi",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:46:58.648347+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P6",
+    "S4",
+    "S6",
+    "X1",
+    "X2"
+  ],
+  "record_note": "L'insegnante usa l'IA principalmente come strumento (ChatGPT) per migliorare l'organizzazione didattica, ma esprime preoccupazioni significative riguardo alla valutazione automatica e all'erosione del pensiero critico e del rapporto umano.",
+  "code_counts": {
+    "I4": 1,
+    "P6": 1,
+    "S4": 2,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché semplicemente è la prima che ho scoperto e utilizzato",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona ChatGPT come strumento preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non la utilizzo per individualizzare",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la utilizzo per personalizzare",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Non utilizzo pront specifici",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non saprei",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Scandendo meglio l orario della lezione ho notato che il risultato è migliore",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a migliorare l'apprendimento migliorando l'organizzazione dell'orario di lezione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non saprei",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizza Contro: non fa riflettere",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vede un pro (velocizzazione) e un contro (non fa riflettere)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me, non è raccomandato usare l’intelligenza artificiale per valutazioni automatiche senza un controllo umano, perché può non cogliere sfumature importanti come il contesto, l’impegno o le difficoltà individuali. Inoltre, delegare troppo all’IA rischia di ridurre il rapporto umano e il pensiero critico, che restano centrali nel processo educativo.",
+      "codes": [
+        "I4",
+        "S4",
+        "S6"
+      ],
+      "reason": "Sottolinea la necessità di controllo umano per la valutazione (I4), il rischio di ridurre il pensiero critico (S4) e il rischio di ridurre il rapporto umano (S6)."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ciuc31.md",
+  "source_name": "studenti_ciuc31.md",
+  "title": "Risposta: Studenti - Record 253",
+  "group": "Studenti",
+  "record_code": "ciuc31",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:58:47.970696+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P6",
+    "P7",
+    "R4",
+    "S3",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente è consapevole dei benefici (efficienza, riduzione dello stress) ma anche dei rischi (dipendenza, perdita di creatività/pensiero critico) dell'uso dell'IA.",
+  "code_counts": {
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S3": 2,
+    "S4": 1,
+    "X1": 2,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "telefono perchè è piu veloce e computer perchè contiene altre AI che servono per altre cose",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (telefono, computer) e la disponibilità di diverse AI su questi dispositivi."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"racconta la storia di FraCristoforo in poche parole\"",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt ('racconta la storia...') e dimostra la capacità di formulare un'istruzione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "evito i compiti noiosi che fanno perdere tempo e mi concentro su altro",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Evitare compiti noiosi che fanno perdere tempo (X1) e concentrarsi su altro (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi concentro sulle cose importanti e sono meno stressato",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Concentrarsi su cose importanti (X2) e sentirsi meno stressati (X1)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "il pro è evitare quei compiti noiosi contro può diventare una dipendenza in cui gli studenti non avranno piu creatività e capacità critica",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Riconosce il rischio di dipendenza che può portare a perdita di creatività e capacità critica."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "inventare i testi perchè si perde la creatività",
+      "codes": [
+        "S3"
+      ],
+      "reason": "Sconsiglia di 'inventare i testi' perché si perde la creatività."
+    }
+  ]
+}

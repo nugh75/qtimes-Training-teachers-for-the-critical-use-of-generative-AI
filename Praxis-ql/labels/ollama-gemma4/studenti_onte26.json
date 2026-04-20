@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_onte26.md",
+  "source_name": "studenti_onte26.md",
+  "title": "Risposta: Studenti - Record 32",
+  "group": "Studenti",
+  "record_code": "onte26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:22:47.789756+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "S3",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per supporto strutturale (bibliografia, riassunti, schemi) e per migliorare l'efficienza nello studio, ma è consapevole dei limiti creativi e di accuratezza.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 2,
+    "P5": 3,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S3": 1,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Mid journey",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menzione di uno strumento specifico (Mid journey)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trovare ulteriori riferimenti e suggerimenti di testi. Scrivere bibliografia.",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'IA viene usata per trovare riferimenti e suggerimenti di testi, e per scrivere bibliografia, indicando personalizzazione e supporto allo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Give me the citation of this book […] in this […] style",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico e dimostra la capacità di formulare istruzioni (citazione in stile specifico)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Riassunti",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "L'uso dell'IA per creare riassunti aiuta la comprensione e la sintesi dei contenuti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Schematizzare contenuti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'IA viene usata per schematizzare contenuti, che è una strategia operativa di produzione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Difficile reperire citazioni fedeli ai testi o che siano coerenti con ambiti di ricerca specifici",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Difficoltà nel reperire citazioni fedeli o coerenti con ambiti di ricerca specifici, indicando problemi di affidabilità."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro - velocizzare schematizzazione di concetti sempllici, forniire riferimenti,  traduzioni, parafrasi, adattamento della sintassi a determinati bisogni. compilare bibliografia. Contro: aiuto limitato nella stesura di testi specifici",
+      "codes": [
+        "P5",
+        "P2",
+        "X1",
+        "X2",
+        "X3"
+      ],
+      "reason": "Vantaggi come velocizzare schematizzazioni, fornire riferimenti, traduzioni, parafrasi e adattamento della sintassi, che migliorano l'efficienza, la comprensione e la personalizzazione."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nello studio di materie creative, fare affidamento all’ai per la fase di creazione limita molto il valore dell’esperienza anche a fronte di risultati decenti e limita immaginazione e potere creativo.",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Avvertenza che fare affidamento sull'IA nella fase creativa limita l'immaginazione e il potere creativo, indicando appiattimento e perdita di pensiero critico."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_orno24.md",
+  "source_name": "studenti_orno24.md",
+  "title": "Risposta: Studenti - Record 133",
+  "group": "Studenti",
+  "record_code": "orno24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:23:27.612270+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P4",
+    "P5",
+    "P7",
+    "S4",
+    "S6",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per semplificare concetti e riassumere materiali, ma mostra consapevolezza dei limiti e del ruolo di supporto dello strumento.",
+  "code_counts": {
+    "P2": 1,
+    "P4": 1,
+    "P5": 1,
+    "P7": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatGpt perchè non ne conosco altri",
+      "codes": [],
+      "reason": "Risposta generica e non specifica su strumenti o metodi."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "lo uso per capire meglio concetti complessi oppure per riassumere concetti troppo prolissi",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per capire concetti complessi e riassumere testi prolissi, indicando personalizzazione e semplificazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"traduci in inglese/italiano\", \"riassumi il seguente testo\", \"spiegami in parole semplici il seguente testo\"",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Esempi di prompt come 'traduci', 'riassumi' e 'spiegami in parole semplici' indicano strategie operative e prompting visibile."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facilita il mio studio risparmiando tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Il beneficio principale citato è il risparmio di tempo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non ricordo un esempio specifico",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa (nessuna difficoltà)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "permette di far fronte a difficoltà in maniera più semplice e facile ma a volte questa facilità potrebbe inibire la capacità di problem solving",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconosce la facilità (X2) ma anche il rischio che possa inibire la capacità di problem solving (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "svolgere completamente alcuni compiti  perchè dovrebbe essere uno strumento di supporto secondo me",
+      "codes": [
+        "P4",
+        "S6"
+      ],
+      "reason": "Svolgere completamente i compiti è sconsigliato, perché l'IA deve essere uno strumento di supporto, non un sostituto del processo di apprendimento."
+    }
+  ]
+}

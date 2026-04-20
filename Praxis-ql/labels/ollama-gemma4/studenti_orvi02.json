@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_orvi02.md",
+  "source_name": "studenti_orvi02.md",
+  "title": "Risposta: Studenti - Record 104",
+  "group": "Studenti",
+  "record_code": "Orvi02",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:23:52.895592+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P5",
+    "P7",
+    "S2",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente è consapevole sia dei benefici (velocità, chiarezza) che dei rischi (perdita di autonomia, plagio) dell'IA, mostrando un uso critico e riflessivo.",
+  "code_counts": {
+    "I2": 1,
+    "P5": 4,
+    "P7": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 2,
+    "X2": 3,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perchè essendo lenta nello studio mi velocizza",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'utente usa ChatGPT per velocizzare lo studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo riassunti",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "L'utente usa l'IA per fare riassunti, che è una forma di personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami in maniera elementare…",
+      "codes": [
+        "P7"
+      ],
+      "reason": "L'utente fornisce un esempio di prompt ('Spiegami in maniera elementare...')."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a rielaborare i pensieri",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a rielaborare i pensieri, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Se una parte di un libro per un esame non è chiara, chiedo di rielaborarla in maniera diversa e più chiara",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'utente chiede all'IA di rielaborare contenuti non chiari per migliorarne la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte il bot si inceppava non leggendo il documento inserito",
+      "codes": [
+        "I2"
+      ],
+      "reason": "L'utente segnala un problema tecnico (il bot si inceppa) che indica una limitazione dello strumento."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzazione comprensione testi, rielaborazione e sinonimi Contro: si perde l’autonomia di ragionamento, si tende a cercare la via più veloce (bot), riducendo lo span di attenzione",
+      "codes": [
+        "X1",
+        "X2",
+        "P5",
+        "S4"
+      ],
+      "reason": "Vengono menzionati i pro (velocizzazione, comprensione, rielaborazione) e i contro (perdita di autonomia di ragionamento, ricerca della via più veloce, riduzione dell'attenzione)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere tesi e temi importanti, poiché va a distorcere la visione generale sia da parte di chi valuta sia del valutato",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "L'utente sconsiglia l'uso dell'IA per scrivere tesi e temi importanti, perché distorce la visione generale (plagio/sviluppo del pensiero critico e sostituzione del lavoro dello studente)."
+    }
+  ]
+}

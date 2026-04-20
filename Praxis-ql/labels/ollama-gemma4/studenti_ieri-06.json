@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ieri-06.md",
+  "source_name": "studenti_ieri-06.md",
+  "title": "Risposta: Studenti - Record 177",
+  "group": "Studenti",
+  "record_code": "ieri 06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:10:52.008521+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente usa l'IA principalmente per riassumere e semplificare concetti, ma mostra consapevolezza dei limiti etici e accademici (plagio/produzione di testi).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 3,
+    "P6": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt,perché mi fa capire le cose in maniera semplice",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "Menziona l'uso di ChatGPT per semplificare la comprensione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "chiedere informazioni e mi riassume tutto",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per riassumere e ottenere informazioni, personalizzando lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "riassumi",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Indica 'riassumi' come esempio di prompt, che è una strategia di produzione."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "non mi aiuta molto",
+      "codes": [],
+      "reason": "Risposta negativa e non specifica."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "perché riassumd",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Ripete l'esempio di riassunto."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessunq",
+      "codes": [],
+      "reason": "Risposta negativa ('nessunq')."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro perchè nel momento del bisogno mi aiuta",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Riconosce l'utilità dell'IA 'nel momento del bisogno', supportando il percorso di studio."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per produrre testi",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Avverte che l'IA non dovrebbe essere usata per produrre testi, suggerendo problemi di plagio e erosione del pensiero critico."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ippa03.md",
+  "source_name": "studenti_ippa03.md",
+  "title": "Risposta: Studenti - Record 244",
+  "group": "Studenti",
+  "record_code": "ippa03",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:13:00.389375+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P4",
+    "P5",
+    "S5",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente percepisce l'IA come uno strumento efficace per l'accesso e la sintesi di informazioni, ma è consapevole del rischio di imprecisione.",
+  "code_counts": {
+    "P2": 1,
+    "P4": 1,
+    "P5": 1,
+    "S5": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "perché riesco a trovare informazioni che spesso non riesco a trovare su internet",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Trovare informazioni difficili da reperire su internet."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "lo uso per ricerche",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizzo dell'IA per ricerche, che è un modo di personalizzare lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedo di fare riassunti o ricerche o spiegazioni",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Richiesta di riassunti, ricerche o spiegazioni, che rientrano nelle strategie operative di produzione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "riesce ad abbreviare i tempi e mi trasmette le informazioni necessarie in modo chiaro",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA abbrevia i tempi e trasmette informazioni in modo chiaro, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "interrogazioni andate bene per ricerche fatte con l’IA",
+      "codes": [
+        "P4",
+        "X5"
+      ],
+      "reason": "L'IA aiuta con le interrogazioni, che è un supporto allo studio/allenamento."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro è che abbreviò i temi e ricevo molte informazioni necessarie i contro che magri a volte le info sono sbagliate",
+      "codes": [
+        "X2",
+        "S5"
+      ],
+      "reason": "Vantaggio (abbreviare temi/ricevere info necessarie) e svantaggio (info sbagliate)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non saprei",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

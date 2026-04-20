@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_cchi04.md",
+  "source_name": "insegnanti_attuali_cchi04.md",
+  "title": "Risposta: Insegnanti in servizio - Record 86",
+  "group": "Insegnanti in servizio",
+  "record_code": "cchi04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:51:05.189428+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "S4"
+  ],
+  "record_note": "Il partecipante esprime preoccupazioni sulla perdita di capacità critiche e sul rapporto umano, e identifica la mancanza di formazione come ostacolo all'uso dell'IA.",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"",
+      "codes": [],
+      "reason": "Risposta vuota o non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Dovrei svolgere dei corsi di formazione",
+      "codes": [
+        "A1"
+      ],
+      "reason": "Il partecipante cita la necessità di corsi di formazione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Limitazione delle proprie capacità di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto tra studente e insegnante",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Il partecipante menziona la limitazione delle capacità critiche (S4) e la riduzione del rapporto studente-insegnante (I4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'uso di  ChatGPT",
+      "codes": [],
+      "reason": "La risposta è troppo generica ('L'uso di ChatGPT') per assegnare codici specifici senza ulteriori dettagli."
+    }
+  ]
+}

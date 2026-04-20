@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_lisi21.md",
+  "source_name": "insegnanti_futuri_lisi21.md",
+  "title": "Risposta: Insegnanti pre-service - Record 27",
+  "group": "Insegnanti pre-service",
+  "record_code": "lisi21",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:45:47.139973+00:00",
+  "record_dimensions": [
+    "X"
+  ],
+  "record_subcodes": [
+    "X2",
+    "X4"
+  ],
+  "record_note": "Partecipante non è un insegnante e le sue risposte sono limitate dalla mancanza di esperienza diretta nell'ambito didattico.",
+  "code_counts": {
+    "X2": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per ora non ne sento la necessità ne l utilità nel mio ambito professionale e di vita quotidiana",
+      "codes": [],
+      "reason": "Risposta non informativa sul non utilizzo dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "codes": [],
+      "reason": "Risposta che esclude l'uso dell'IA perché non è un insegnante."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che potrebbe facilitare l apprendimento e offrire nuove possibilità agli studenti contro cyberbullismo e violazione della privacy",
+      "codes": [
+        "X2",
+        "X4"
+      ],
+      "reason": "Vede l'IA come facilitatrice dell'apprendimento e come potenziale strumento contro il cyberbullismo e la violazione della privacy."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non insegnando non so quali pratiche potrebbero non essere usate e non raccomandate nell insegnamento",
+      "codes": [],
+      "reason": "Non ha esperienza diretta sull'uso dell'IA nell'insegnamento."
+    }
+  ]
+}

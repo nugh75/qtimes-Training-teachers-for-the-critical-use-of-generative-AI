@@ -1,0 +1,69 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_asso25.md",
+  "source_name": "insegnanti_attuali_asso25.md",
+  "title": "Risposta: Insegnanti in servizio - Record 309",
+  "group": "Insegnanti in servizio",
+  "record_code": "ASSO25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:47:39.524662+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S2",
+    "S3",
+    "S6",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra una visione critica e scettica sull'uso dell'IA, privilegiando l'esperienza umana, la manualità e la spontaneità rispetto agli strumenti digitali.",
+  "code_counts": {
+    "I4": 1,
+    "S2": 1,
+    "S3": 1,
+    "S6": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la ritengo fondamentale nella fascia di età della mia professione 6-10 anni in cui preferisco privilegiare la spontaneità, la creatività e la manualità.",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Preferisce privilegiare la spontaneità e la manualità, ritenendo l'IA non fondamentale per la fascia d'età, implicando un valore superiore alla relazione umana e al processo educativo tradizionale."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Come pro, la possibilità di raggiungere grandi quantità di informazioni e simulazioni; come contro la disumanizzazione del processo educativo",
+      "codes": [
+        "X2",
+        "S6"
+      ],
+      "reason": "Riconosce l'IA per la possibilità di accedere a grandi quantità di informazioni e simulazioni (X2), ma evidenzia il rischio di disumanizzazione del processo educativo (S6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La possibilità di scrivere o di simulare testi musicali o dipinti famosi a costo di svalorizzare l'impegno e il genio umano",
+      "codes": [
+        "S2",
+        "S3"
+      ],
+      "reason": "Critica l'uso dell'IA per simulare opere d'arte o testi famosi, ritenendolo svalorizzante per l'impegno e il genio umano (S2, S3)."
+    }
+  ]
+}

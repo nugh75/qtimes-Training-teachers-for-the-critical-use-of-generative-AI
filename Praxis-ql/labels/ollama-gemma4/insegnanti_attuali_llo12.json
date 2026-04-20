@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_llo12.md",
+  "source_name": "insegnanti_attuali_llo12.md",
+  "title": "Risposta: Insegnanti in servizio - Record 241",
+  "group": "Insegnanti in servizio",
+  "record_code": "LLO12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:13:21.449307+00:00",
+  "record_dimensions": [
+    "I",
+    "P"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "P4",
+    "P5",
+    "P6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per supportare la valutazione e il tutoraggio, ma mostra consapevolezza dei limiti e dell'importanza del ruolo umano.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "P4": 5,
+    "P5": 1,
+    "P6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "SCRITTURA ,SEO,IMMAGINI,AUDIO,VIDEO,SOCIAL",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenco di strumenti e piattaforme (scrittura, SEO, immagini, audio, video, social)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PUò ASSISTERE IN COMPITI QUALI LA VALUTAZIONE",
+      "codes": [
+        "P4"
+      ],
+      "reason": "L'IA può assistere in compiti di valutazione, che rientrano nel supporto e nell'autovalutazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "PIATTAFORME;SISTEMI DI TUTORAGGIO;REALTà VIRTUALE",
+      "codes": [
+        "P2",
+        "P4"
+      ],
+      "reason": "Riferimento a piattaforme, sistemi di tutoraggio e realtà virtuale per personalizzare l'insegnamento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "RIASSUNTO DEL TESTO,ESTRAZIONE DI INFORMAZIONI,RISPOSTA ALLE DOMANDE,CONVERSAZIONE",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Esempi di prompt come riassunto, estrazione di informazioni e risposta a domande sono strategie operative di produzione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "PUò L'IA AUTOMATIZZARE IL PROCESSO DI VALUTAZIONE DEGLI ALUNNI",
+      "codes": [
+        "P4"
+      ],
+      "reason": "L'IA può automatizzare il processo di valutazione degli alunni, fornendo supporto di tutoraggio/autovalutazione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "RISPOSTE IMMEDIATE RISPOSTE A COMPITI E TEST FORNENDO FEEDBACK IMMEDIATI",
+      "codes": [
+        "P4"
+      ],
+      "reason": "Fornire feedback immediati su compiti e test è un supporto di tutoraggio e allenamento."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "CREAZIONE DI CONTENUTI INTELLIGENTI,SISTEMI DI TUTORAGGIO INTELLIGENTI",
+      "codes": [
+        "P4"
+      ],
+      "reason": "Difficoltà nell'implementazione di sistemi di tutoraggio intelligenti."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "INTELLIGENZA  E IL CYBERBULLISMO",
+      "codes": [],
+      "reason": "Il contenuto è troppo generico (intelligenza e cyberbullismo) per assegnare codici specifici."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I MIEI ALUNNI SONO ANCORA PICCOLI ED è CONSIGLIABILE L'USO DELL'IA IN PRESENZA DELL'ADULTO.",
+      "codes": [
+        "I4"
+      ],
+      "reason": "Raccomandazione di usare l'IA solo in presenza dell'adulto, sottolineando l'importanza della relazione umana."
+    }
+  ]
+}

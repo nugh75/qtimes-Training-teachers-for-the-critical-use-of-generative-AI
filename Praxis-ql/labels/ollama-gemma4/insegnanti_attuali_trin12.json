@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_trin12.md",
+  "source_name": "insegnanti_attuali_trin12.md",
+  "title": "Risposta: Insegnanti in servizio - Record 61",
+  "group": "Insegnanti in servizio",
+  "record_code": "trin12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:33:24.822157+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R4",
+    "S5",
+    "X2"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, riconoscendo di non aver ancora acquisito le competenze necessarie per utilizzarla efficacemente.",
+  "code_counts": {
+    "R4": 2,
+    "S5": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché ancora non ho imparato come utilizzarla al meglio",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Riconosce di non aver imparato a utilizzare l'IA al meglio, indicando un gap nella competenza di prompting."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho ancora imparato come utilizzarla",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Indica di non aver ancora imparato come utilizzare l'IA, riferendosi alla competenza di prompting."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Punti di forza: velocità nelle ricerche anche Punti di debolezza: non sempre le informazioni sono veritiere.",
+      "codes": [
+        "X2",
+        "S5"
+      ],
+      "reason": "Riconosce la velocità di ricerca (X2) ma anche che le informazioni non sono sempre veritiere (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

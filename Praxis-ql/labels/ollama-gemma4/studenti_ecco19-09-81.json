@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ecco19-09-81.md",
+  "source_name": "studenti_ecco19-09-81.md",
+  "title": "Risposta: Studenti - Record 41",
+  "group": "Studenti",
+  "record_code": "ecco19/09/81",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:00:23.420637+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Lo studente mostra una consapevolezza critica sull'uso dell'IA, esprimendo preferenza per l'autonomia del pensiero e riconoscendo i rischi di dipendenza eccessiva.",
+  "code_counts": {
+    "I4": 2,
+    "R5": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché preferisco usare la mia logica cosicché io possa affrontare ogni situazione senza dipendere da qualcosa/qualcuno.",
+      "codes": [
+        "R5",
+        "I4"
+      ],
+      "reason": "Preferisce usare la propria logica per non dipendere da fonti esterne, indicando un rifiuto consapevole e valorizzando l'autonomia del pensiero umano."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: risponde a qualsiasi dubbio tu possa avere  Contro: la gente tende ad affidarsi troppo",
+      "codes": [
+        "X2",
+        "S4",
+        "I4"
+      ],
+      "reason": "Riconosce l'utilità per i dubbi (X2) ma evidenzia il rischio di eccessiva dipendenza (S4) e la necessità di mantenere il giudizio umano (I4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": ".",
+      "codes": [],
+      "reason": "Risposta vuota e non informativa."
+    }
+  ]
+}

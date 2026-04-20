@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tino19.md",
+  "source_name": "insegnanti_attuali_tino19.md",
+  "title": "Risposta: Insegnanti in servizio - Record 62",
+  "group": "Insegnanti in servizio",
+  "record_code": "Tino19",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:32:18.577313+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I4",
+    "P2",
+    "P5",
+    "S1",
+    "S3",
+    "S4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'intervistato mostra scetticismo sull'uso dell'IA, preferendo metodi tradizionali e sottolineando i rischi di impigrità e perdita di creatività.",
+  "code_counts": {
+    "A3": 1,
+    "I4": 1,
+    "P2": 1,
+    "P5": 1,
+    "S1": 1,
+    "S3": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la considero mai tra le opzioni per un compito",
+      "codes": [],
+      "reason": "Risposta di rifiuto non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per qualsiasi informazione vado sempre su internet ma non utilizzo i software di AI perché sono meno personalizzabili anche se più veloci",
+      "codes": [
+        "P2",
+        "A3",
+        "X3"
+      ],
+      "reason": "Preferisce internet perché i software AI sono meno personalizzabili."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un pro è sicuramente la velocità di creare riassunti, immagini, risposte e informarsi. Un contro è che il cervello si impigrisce come quando usiamo la calcolatrice per le operazioni più elementari. Un altro è la poca \"umanità\" dei risultati e dei compiti svolti.",
+      "codes": [
+        "P5",
+        "S1",
+        "I4",
+        "X2"
+      ],
+      "reason": "Riconosce la velocità di creazione di riassunti (P5) ma teme l'impigrità del cervello (S1) e la mancanza di 'umanità' (I4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sicuramente le pratiche che richiedono creatività",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Indica che le pratiche che richiedono creatività non dovrebbero essere usate."
+    }
+  ]
+}

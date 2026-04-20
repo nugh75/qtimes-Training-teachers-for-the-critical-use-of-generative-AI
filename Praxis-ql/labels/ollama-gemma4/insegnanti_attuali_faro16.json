@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_faro16.md",
+  "source_name": "insegnanti_attuali_faro16.md",
+  "title": "Risposta: Insegnanti in servizio - Record 45",
+  "group": "Insegnanti in servizio",
+  "record_code": "Faro16",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:02:18.364096+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S4",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e per la personalizzazione degli esercizi, ma segnala una carenza di formazione formale.",
+  "code_counts": {
+    "A1": 1,
+    "P1": 6,
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini e chatgpt perché li utilizzo per creare esercitazioni",
+      "codes": [
+        "P6",
+        "P1"
+      ],
+      "reason": "Elenca strumenti (Gemini, ChatGPT) e li usa per creare esercitazioni (materiale didattico)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Cerco di creare esercizi diversificati in base alle esigenze degli alunni, inventare giochi",
+      "codes": [
+        "P1",
+        "P2",
+        "X3"
+      ],
+      "reason": "Crea esercizi diversificati e inventa giochi per rispondere alle esigenze degli alunni (individualizzazione/personalizzazione)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Predispongo delle mappe concettuale diversificati per le esigenza degli alunni",
+      "codes": [
+        "P1",
+        "P2",
+        "X3"
+      ],
+      "reason": "Predispone mappe concettuali diversificate per le esigenze degli alunni (personalizzazione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Elabora una serie di esercizi che contengono V/F,completamento, per una classe terza istituto turistico argomento i contratti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Fornisce un esempio di prompt per elaborare una serie di esercizi (V/F, completamento) su un argomento specifico."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Creando giochi ed esercizi",
+      "codes": [
+        "P1",
+        "X6"
+      ],
+      "reason": "Migliora l'apprendimento creando giochi ed esercizi (materiale didattico e arricchimento)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Mi supporta nel creare materiale didattico che tenga conto delle loro esigenze",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Supporto nella creazione di materiale didattico che tiene conto delle esigenze degli studenti (supporto e comprensione)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Pochi corsi",
+      "codes": [
+        "A1"
+      ],
+      "reason": "Indica la mancanza di corsi di formazione."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono sicuramente il supporto nel creare nuovi materiali.  Contro adagiarsi all’intelligenza artificiale",
+      "codes": [
+        "P1",
+        "S4"
+      ],
+      "reason": "Riconosce il supporto nel creare materiali (pro) ma anche il rischio di adagiarsi sull'IA (contro/erosione del pensiero critico)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me possono  essere usate tutte ma con attenzione",
+      "codes": [],
+      "reason": "Risposta generica e non specifica su pratiche da evitare."
+    }
+  ]
+}

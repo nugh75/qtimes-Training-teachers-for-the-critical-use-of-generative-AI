@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_unicam96.md",
+  "source_name": "insegnanti_attuali_unicam96.md",
+  "title": "Risposta: Insegnanti in servizio - Record 286",
+  "group": "Insegnanti in servizio",
+  "record_code": "Unicam96",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:34:26.465480+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S4",
+    "S6",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sui limiti dell'IA, valorizzando il ruolo insostituibile dell'interazione umana e del pensiero critico.",
+  "code_counts": {
+    "I4": 2,
+    "S4": 2,
+    "S6": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "IA non potrà mai sostituire il sapere umano",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "L'IA non può sostituire il sapere umano, indicando il valore insostituibile della relazione e del giudizio umano."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: semplifica il lavoro da svolgere. Contro: riduce notevolmente la preparazione poichè semplifica lo studio da svolgere.",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Vede l'IA come semplificatrice del lavoro (X2), ma riconosce che ciò riduce la preparazione (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "limitazione delle proprie capacità di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto tra studente e insegnante",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Riconosce la limitazione delle capacità critiche (S4) e la riduzione del rapporto studente-insegnante (I4)."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_allo13.md",
+  "source_name": "insegnanti_futuri_allo13.md",
+  "title": "Risposta: Insegnanti pre-service - Record 20",
+  "group": "Insegnanti pre-service",
+  "record_code": "allo13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:39:07.944926+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "X3"
+  ],
+  "record_note": "Il partecipante mostra un uso basilare e non critico degli strumenti di IA, focalizzandosi sull'individualizzazione, ma non approfondisce le strategie o i limiti.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "R4": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Il partecipante menziona uno strumento specifico (Chat GPT) senza descriverne l'uso didattico."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Descrivendo la situazione dell’ alunno in particolare",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per descrivere la situazione specifica dell'alunno è un esempio di individualizzazione e personalizzazione dell'insegnamento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti perfavore aiutarmi a creare..",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "La richiesta di aiuto per 'creare' qualcosa indica l'uso di strategie operative (P5) e una potenziale capacità di prompting (R4)."
+    },
+    {
+      "index": 4,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 5,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Vedo solo i pro",
+      "codes": [],
+      "reason": "Risposta troppo generica e non specifica su pro e contro."
+    },
+    {
+      "index": 6,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

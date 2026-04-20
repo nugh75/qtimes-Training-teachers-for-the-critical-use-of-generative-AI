@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_aria13.md",
+  "source_name": "insegnanti_futuri_aria13.md",
+  "title": "Risposta: Insegnanti pre-service - Record 36",
+  "group": "Insegnanti pre-service",
+  "record_code": "Aria13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:40:01.930392+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P5",
+    "P6",
+    "S2",
+    "X6"
+  ],
+  "record_note": "L'utente è un insegnante pre-service che utilizza strumenti di IA (C.ai) per la creazione di materiali didattici e la didattica attiva, ma mostra consapevolezza sui limiti etici e metodologici (S2, I4).",
+  "code_counts": {
+    "I4": 1,
+    "P1": 2,
+    "P5": 2,
+    "P6": 4,
+    "S2": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "C.ai",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'utente menziona uno strumento specifico (C.ai) come preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Tramite c.ai intervistamo degli autori per poi produrre power point",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "L'uso di c.ai per intervistare autori e produrre power point implica la produzione di materiali didattici e la riorganizzazione di contenuti (P1, P5) tramite uno strumento (P6)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Stessa risposta di prima",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "Risposta identica al punto 2, indicando la produzione di materiali didattici (P1) e riorganizzazione di contenuti (P5) tramite uno strumento (P6)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "C.ai",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'utente menziona solo lo strumento (C.ai) senza descrivere un prompt specifico."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha aumentato la loro curiosità",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'aumento della curiosità è un elemento di arricchimento e coinvolgimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Rendendo la didattica attiva",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Rendere la didattica attiva è un arricchimento e un miglioramento del processo educativo."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Finora nessuno",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende se sei tu a trascinare l'IA oppure il contrario",
+      "codes": [
+        "I4"
+      ],
+      "reason": "Il beneficio dipende dal fatto che sia l'utente a guidare l'IA o viceversa, sottolineando l'importanza del giudizio umano e del controllo (I4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per produrre testi",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'utente sconsiglia l'uso dell'IA per produrre testi, che può portare a problemi di plagio o di attribuzione (S2)."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ella14.md",
+  "source_name": "studenti_ella14.md",
+  "title": "Risposta: Studenti - Record 236",
+  "group": "Studenti",
+  "record_code": "ella14",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:01:21.019005+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'utente dimostra un approccio critico e di autovalutazione rispetto all'uso dell'IA, preferendo basarsi sulle proprie capacità.",
+  "code_counts": {
+    "R5": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "nello studio mi affido alle mie capacità e conoscenze per essere preparata maggiormente",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Affidamento alle proprie capacità e conoscenze, indicando un rifiuto consapevole dell'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che l’ai fornisce nozioni “universali”, ovvero ha una preparazione su tutte le materie e da risposte semplici da capire ma allo stesso tempo efficaci e corrette, un pro è che secondo me limita le capacità autonome degli alunni",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconosce la capacità di fornire nozioni semplici ed efficaci (X2), ma evidenzia il rischio di limitare le capacità autonome (S4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non ho esperienza in questo campo",
+      "codes": [],
+      "reason": "Risposta non informativa o mancanza di esperienza nel campo."
+    }
+  ]
+}

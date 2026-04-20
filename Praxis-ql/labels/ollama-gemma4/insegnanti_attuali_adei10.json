@@ -1,0 +1,133 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_adei10.md",
+  "source_name": "insegnanti_attuali_adei10.md",
+  "title": "Risposta: Insegnanti in servizio - Record 173",
+  "group": "Insegnanti in servizio",
+  "record_code": "adei10",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:42:42.618028+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3",
+    "X6",
+    "X7"
+  ],
+  "record_note": "L'insegnante di grafica vede l'IA come uno strumento inevitabile per il suo campo, ma esprime preoccupazione per l'abuso che potrebbe compromettere le capacità cognitive degli studenti.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "P6": 2,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"_\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('_')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Essendo un 'insegnante di grafica ,gli strumenti sono inevitabilmente i PC",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (PC) necessari per la sua professione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per realizzare finisch layout grafici più accattivanti.",
+      "codes": [
+        "P1",
+        "P5",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per creare layout grafici più accattivanti (produzione di materiali e semplificazione visiva)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Nel mio caso ,sono gli alunni ad utilizzare l'intelligenza artificiale per personalizzare  i loro lavori di grafica",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Gli studenti usano l'IA per personalizzare i propri lavori di grafica."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "software di grafica come: Firefly- Topaz labs",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca software di grafica (Firefly, Topaz labs) che sono strumenti esterni."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Hanno imparato ad utilizzare nuovi software di grafica per ottenere dei risultati eccellenti in poco tempo.",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'IA ha permesso agli studenti di ottenere risultati eccellenti in poco tempo."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Essendo un indirizzo di grafica ,è importante stare a passo con i tempi",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA è vista come un elemento necessario per rimanere aggiornati nel campo della grafica."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna è stato una implemazione naturale",
+      "codes": [],
+      "reason": "Risposta non informativa o non pertinente all'uso di IA."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende dalle materie che si insegnano, essendo una docente di grafica per me è inevitabile l'utilizzo nei laboratori, diverso e per le materie umanistiche e scientifiche, l'utilizzo ci deve essere ma non abusarne, perchè il problema e che gli alunni a lungo andare non avranno la capacità di apprendere, ragionare, risolvere problemi e prendere decisioni autonome.",
+      "codes": [
+        "S4",
+        "S6",
+        "X7"
+      ],
+      "reason": "Avverte che l'uso eccessivo può far perdere capacità di ragionamento autonomo (S4) e che l'IA non deve sostituire il processo di apprendimento (S6), suggerendo un uso critico (X7)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "È chiaro che l'intelligenza artificiale stia cambiando il mondo della scuola alla velocità della luce. Ma per sfruttare al meglio questa rivoluzione, dobbiamo rimboccarci le maniche e affrontare alcune sfide importanti, cogliendo allo stesso tempo le grandi opportunità che si aprono davanti a noi.",
+      "codes": [],
+      "reason": "Risposta generica che non specifica pratiche non raccomandate o i motivi."
+    }
+  ]
+}

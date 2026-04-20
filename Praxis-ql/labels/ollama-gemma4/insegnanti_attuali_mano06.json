@@ -1,0 +1,51 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_mano06.md",
+  "source_name": "insegnanti_attuali_mano06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 17",
+  "group": "Insegnanti in servizio",
+  "record_code": "mano06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:14:04.956913+00:00",
+  "record_dimensions": [
+    "S"
+  ],
+  "record_subcodes": [
+    "S4",
+    "S6"
+  ],
+  "record_note": "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica, ritenendola dannosa per la qualità dell'insegnamento e l'impegno personale.",
+  "code_counts": {
+    "S4": 1,
+    "S6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non è di alcun ausilio per l'insegnamento, e al più può abbassarne drasticamente la qualità",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Il partecipante ritiene che l'IA non sia utile per l'insegnamento, implicando un rifiuto del suo ruolo educativo."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ci sono pro",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Il partecipante afferma che non ci sono vantaggi nell'uso dell'IA nell'educazione."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Tutte quelle che limitano l'impegno personale",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il partecipante critica l'uso di IA che limita l'impegno personale, collegandolo all'erosione dello sforzo e del pensiero."
+    }
+  ]
+}

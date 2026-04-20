@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_azza13.md",
+  "source_name": "studenti_azza13.md",
+  "title": "Risposta: Studenti - Record 182",
+  "group": "Studenti",
+  "record_code": "azza13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:56:27.652936+00:00",
+  "record_dimensions": [
+    "P"
+  ],
+  "record_subcodes": [
+    "P5"
+  ],
+  "record_note": "Il partecipante non fornisce dettagli specifici sull'uso dell'IA, limitandosi a risposte generiche o non informative.",
+  "code_counts": {
+    "P5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "telefono",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "ok",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "traduci questo testo",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'utente fornisce un esempio di istruzione (tradurre un testo), che rientra nelle strategie operative di produzione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "molto facile",
+      "codes": [],
+      "reason": "Risposta troppo generica e non informativa."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "nel tradurre testi",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'utente cita la traduzione di testi come miglioramento dell'apprendimento, rientrando nelle strategie operative di produzione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "tutti pro",
+      "codes": [],
+      "reason": "Risposta troppo generica e non informativa."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

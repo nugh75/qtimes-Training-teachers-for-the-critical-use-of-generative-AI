@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_itti17.md",
+  "source_name": "studenti_itti17.md",
+  "title": "Risposta: Studenti - Record 113",
+  "group": "Studenti",
+  "record_code": "Itti17",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:13:29.386736+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R5",
+    "S4"
+  ],
+  "record_note": "Lo studente manifesta scetticismo e preferenza per lo studio tradizionale, esprimendo sfiducia nello strumento IA.",
+  "code_counts": {
+    "I4": 1,
+    "R5": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non ne ho la necessità",
+      "codes": [],
+      "reason": "Risposta non informativa, indica assenza di necessità."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché sono stata abituata ad uno studio tradizionale e personale.  Mancanza di fiducia nello strumento",
+      "codes": [
+        "R5",
+        "I4"
+      ],
+      "reason": "Motiva il non utilizzo per abitudine allo studio tradizionale e mancanza di fiducia nello strumento."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: approfondire tematiche  Contro: ridotto impegno personale",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Identifica il rischio di ridotto impegno personale come contro dell'uso dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat gbt",
+      "codes": [],
+      "reason": "Risposta incompleta e non specifica su pratiche da evitare."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otti15.md",
+  "source_name": "insegnanti_attuali_otti15.md",
+  "title": "Risposta: Insegnanti in servizio - Record 281",
+  "group": "Insegnanti in servizio",
+  "record_code": "otti15",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:21:24.451562+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'utente utilizza l'IA per supportare l'individualizzazione e la comprensione dei contenuti, ma mostra consapevolezza dei limiti critici (non sostituire la rielaborazione).",
+  "code_counts": {
+    "P1": 1,
+    "P2": 2,
+    "P5": 2,
+    "P6": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gtp",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'utente menziona uno strumento specifico (Chat gtp) senza descriverne l'uso didattico."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per alunni con BES",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'uso è specificato per alunni con BES, che è una forma di individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Mappe e schemi",
+      "codes": [
+        "P5",
+        "P2"
+      ],
+      "reason": "La creazione di mappe e schemi è una strategia di supporto (P5) usata per personalizzare l'insegnamento (P2)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Trova collegamenti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'azione di 'trovare collegamenti' è una strategia di rielaborazione o supporto allo studio (P5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Capacità di arrivare al punto",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'obiettivo è migliorare la capacità di arrivare al punto, indicando una semplificazione o focalizzazione dei concetti."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Visivo",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Il supporto visivo è un materiale didattico (P1) che aiuta la comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non molta",
+      "codes": [],
+      "reason": "La risposta è non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: maggior impatto alle conoscenze basilari  Contro: non deve sostituire capacità di rielaborazione",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il contro evidenzia che l'IA non deve sostituire la capacità di rielaborazione, indicando un rischio di erosione del pensiero critico."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Pratiche di copiatura durante le verifiche",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Le pratiche di copiatura durante le verifiche sono un esempio di uso improprio che porta a plagio o a spacciarsi il lavoro altrui."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_dini24.md",
+  "source_name": "insegnanti_attuali_dini24.md",
+  "title": "Risposta: Insegnanti in servizio - Record 150",
+  "group": "Insegnanti in servizio",
+  "record_code": "Dini24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:53:34.507667+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "R2",
+    "X3"
+  ],
+  "record_note": "L'insegnante mostra un approccio cauto e riflessivo verso l'IA, esprimendo la necessità di approfondire la conoscenza teorica e riconoscendo i limiti dell'IA, specialmente nell'ambito della personalizzazione che richiede un giudizio umano.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "R2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché ancora devo capire bene le sue varie applicazioni  inoltre è una situazione nuova e vorrei capirne meglio vantaggi e svantaggi",
+      "codes": [
+        "R2",
+        "X3"
+      ],
+      "reason": "L'utente esprime la necessità di comprendere meglio le applicazioni, vantaggi e svantaggi dell'IA, indicando una fase di apprendimento e riflessione critica."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Vorrei conoscere meglio l'IA per cominciare ad usarla nella didattica.",
+      "codes": [
+        "R2"
+      ],
+      "reason": "L'utente esprime il desiderio di conoscere meglio l'IA per poterla utilizzare in didattica, indicando una fase di apprendimento teorico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non la utilizzo ancora.",
+      "codes": [],
+      "reason": "Risposta non informativa o di rifiuto generico."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nel creare una didattica personalizzata o individualizzata non si dovrebbe ricorrere all'utilizzo della IA perché è un tipo di didattica che va creata su misura del bambino facendo molta attenzione al tipo di apprendimento dello stesso e alle sue peculiarità sia cognitive che emotive e non credo che l'IA sappia fare ciò.",
+      "codes": [
+        "P2",
+        "I4"
+      ],
+      "reason": "L'utente critica l'uso dell'IA per la didattica personalizzata, ritenendo che sia necessaria l'attenzione alle peculiarità cognitive ed emotive del bambino, un ambito che richiede giudizio umano (I4)."
+    }
+  ]
+}

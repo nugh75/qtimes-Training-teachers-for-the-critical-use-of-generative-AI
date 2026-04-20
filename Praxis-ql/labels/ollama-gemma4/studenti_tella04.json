@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tella04.md",
+  "source_name": "studenti_tella04.md",
+  "title": "Risposta: Studenti - Record 265",
+  "group": "Studenti",
+  "record_code": "tella04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:29:53.779272+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "P1",
+    "P6",
+    "P7",
+    "R4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per la ricerca di informazioni, riconoscendone i benefici ma anche i limiti (errori e ambiti non adatti).",
+  "code_counts": {
+    "I2": 2,
+    "I4": 1,
+    "P1": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S7": 1,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "per le ricerche",
+      "codes": [],
+      "reason": "Risposta generica ('per le ricerche') non specifica un uso didattico o di studio."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "copilot, perché fa bene le ricerche",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (Copilot) usato per la ricerca."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "non personalizzare il mio studio",
+      "codes": [],
+      "reason": "La risposta è un rifiuto di personalizzare lo studio, non fornendo dettagli o un'alternativa di supporto."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedo ricerche",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "L'uso di 'chiedo ricerche' è un esempio di prompting (R4) e indica un'attività di ricerca (P7)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "migliora la mia conoscenza",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Migliorare la conoscenza è un beneficio legato alla comprensione e all'acquisizione di informazioni."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "nella ricerche da più informazioni",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "L'uso dell'IA per la ricerca di più informazioni è un supporto alla produzione di materiali di studio (P1) e migliora la comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "alcuni errori negli esercizi",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Rileva difficoltà legate a 'alcuni errori negli esercizi', indicando sfiducia tecnica."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro che mi aiuta cin i compiti contro che alcuni li fa male",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Il pro è l'aiuto nei compiti (X2); il contro è che 'alcuni li fa male', indicando sfiducia tecnica (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per le relazioni umane",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Indica che l'IA non dovrebbe essere usata per 'le relazioni umane', che rientra negli ambiti off-limits (S7) e sottolinea l'importanza della relazione umana (I4)."
+    }
+  ]
+}

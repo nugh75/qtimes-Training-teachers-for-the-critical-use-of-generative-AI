@@ -1,0 +1,101 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_usso26.md",
+  "source_name": "studenti_usso26.md",
+  "title": "Risposta: Studenti - Record 245",
+  "group": "Studenti",
+  "record_code": "Usso26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:34:03.691423+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Lo studente utilizza l'IA per attività di studio (esercizi, personalizzazione) e ne percepisce un vantaggio in termini di tempo, ma mostra incertezza o limitazioni nell'uso di prompt e nella descrizione dettagliata dell'uso.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Boh",
+      "codes": [],
+      "reason": "Risposta non informativa ('Boh')."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'utente menziona l'uso di ChatGPT per personalizzare lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Boh",
+      "codes": [],
+      "reason": "Risposta non informativa ('Boh')."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Esercizi",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'utente cita l'uso di esercizi, che rientrano nella produzione di materiali didattici."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Sì ha migliorato",
+      "codes": [],
+      "reason": "Risposta troppo generica ('Sì ha migliorato')."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta di assenza di difficoltà ('Nessuno')."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro risparmi tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'utente cita il risparmio di tempo come pro."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Fare le versione di latino",
+      "codes": [
+        "S7"
+      ],
+      "reason": "L'utente sconsiglia l'uso dell'IA per fare versioni di latino, un ambito specifico."
+    }
+  ]
+}

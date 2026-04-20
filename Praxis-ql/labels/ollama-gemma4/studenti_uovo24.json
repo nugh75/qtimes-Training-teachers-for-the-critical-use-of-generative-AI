@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_uovo24.md",
+  "source_name": "studenti_uovo24.md",
+  "title": "Risposta: Studenti - Record 68",
+  "group": "Studenti",
+  "record_code": "uovo24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:33:22.811533+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, riconoscendone i benefici (sintesi, spiegazione) ma esprimendo preoccupazione per il rischio di dipendenza e perdita di abitudini di studio tradizionali.",
+  "code_counts": {
+    "P1": 2,
+    "P5": 1,
+    "S4": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non  ne ho sentito la necessità",
+      "codes": [],
+      "reason": "Risposta non informativa o di rifiuto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Fino ad ora non ho sentito la necessità di cambiare il mio metodo di studio che prevede la sinergia tra lezioni, manuali, appunti senza l'intervento di altri mezzi",
+      "codes": [],
+      "reason": "Il partecipante non vede la necessità di cambiare il metodo di studio attuale, non indicando né l'uso né il rifiuto basato su principi specifici."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: capacità di sintesi e spiegazione alternative di teorie e concetti - contro:sostituisce lo studio dai manuali",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "S4"
+      ],
+      "reason": "Vede i pro nella capacità di sintesi e spiegazione alternative di teorie e concetti (P1, P5, X2), ma i contro nel rischio di sostituire lo studio dai manuali (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "la sintesi dei manuali eseguita da sistemi di AI,  che esclude la lettura e lo studio di questi",
+      "codes": [
+        "P1",
+        "S4"
+      ],
+      "reason": "Critica la sintesi dei manuali da parte dell'AI (P1), ritenendola dannosa perché esclude la lettura e lo studio approfondito (S4)."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_azzo23.md",
+  "source_name": "studenti_azzo23.md",
+  "title": "Risposta: Studenti - Record 35",
+  "group": "Studenti",
+  "record_code": "AZZO23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:56:43.126291+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S4",
+    "S6",
+    "X2"
+  ],
+  "record_note": "Lo studente esprime una forte diffidenza verso l'uso dell'IA, temendo la sostituzione del processo cognitivo umano e del ruolo del pensiero critico.",
+  "code_counts": {
+    "S4": 1,
+    "S6": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "mi spaventa che il mio cervello possa essere sostituito da una macchina",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Paura che il cervello venga sostituito da una macchina, indicando un rifiuto dell'IA come sostituto del processo di apprendimento umano."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "non vorrei che una macchina, un robot, facesse il lavoro al mio posto, togliendomi una parte fondamentale del processo di studio: leggere, comprendere, spremere le meningi.",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Rifiuto di lasciare che una macchina faccia il lavoro di studio, ritenendolo fondamentale per il processo cognitivo umano."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "può agevolare lo studio qualora ci si ritrovi davanti ad un paragrafo particolarmente difficile (come può esserlo un testo di filosofia teoretica); può essere nocivo se lo si usa come sostituto al proprio cervello e alla propria capacità di ragionare.",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconosce l'IA come utile per chiarire testi difficili (X2), ma anche nociva se sostituisce il ragionamento (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "chat gpt",
+      "codes": [],
+      "reason": "Risposta incompleta e non specifica, menzionando solo 'chat gpt' senza specificare pratiche non raccomandate."
+    }
+  ]
+}

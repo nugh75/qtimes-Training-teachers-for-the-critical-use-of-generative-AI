@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_elli24.md",
+  "source_name": "insegnanti_attuali_elli24.md",
+  "title": "Risposta: Insegnanti in servizio - Record 32",
+  "group": "Insegnanti in servizio",
+  "record_code": "Elli24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:56:12.287006+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R4",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'insegnante esprime scetticismo sull'uso dell'IA, attribuendolo alla mancanza di competenze e alla percezione di un rischio per lo sviluppo delle capacità espressive dei bambini.",
+  "code_counts": {
+    "R4": 2,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho adeguate competenze",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'utente cita la mancanza di competenze come motivo di non utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho adeguate competenze e perché alla scuola dell'infanzia non è ancora diffusa",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Motivo di non utilizzo legato alla mancanza di competenze e alla non diffusione nell'ambito specifico (scuola dell'infanzia)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sicuramente la rapidità e la semplicità nel reperire le informazioni, i contro che se utilizzata in maniera eccessiva disabitua i ragazzi ad esprimersi e ad impegnarsi in un compito",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Vede la rapidità e semplicità (X2) ma anche il rischio di disabituare i ragazzi ad esprimersi e impegnarsi (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

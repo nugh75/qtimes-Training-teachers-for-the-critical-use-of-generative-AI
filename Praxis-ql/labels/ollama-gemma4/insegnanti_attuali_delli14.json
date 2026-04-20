@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_delli14.md",
+  "source_name": "insegnanti_attuali_delli14.md",
+  "title": "Risposta: Insegnanti in servizio - Record 358",
+  "group": "Insegnanti in servizio",
+  "record_code": "Delli14",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:53:16.897262+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P6",
+    "S1",
+    "X1",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per migliorare l'efficienza e generare nuove idee, ma è consapevole del rischio di dipendenza da parte degli studenti.",
+  "code_counts": {
+    "P2": 1,
+    "P6": 1,
+    "S1": 1,
+    "X1": 2,
+    "X3": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (ChatGPT) che fa parte dell'ecosistema di strumenti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "H",
+      "codes": [],
+      "reason": "Risposta non fornita."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Renderlo più ricco di elementi ed idee",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'obiettivo di 'renderlo più ricco di elementi ed idee' è un esempio di personalizzazione e individualizzazione dell'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "H",
+      "codes": [],
+      "reason": "Risposta non fornita."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha reso il lavoro più veloce",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Il miglioramento del lavoro 'più veloce' si riferisce all'efficienza e al risparmio di tempo."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Con nuove idee",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'uso dell'IA per fornire 'nuove idee' contribuisce all'arricchimento e all'innovazione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta che indica assenza di difficoltà, non informativa per l'assegnazione di codici."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro; veloce, idee nuove  Contro: gli studenti ci si affidano troppo",
+      "codes": [
+        "X1",
+        "X6",
+        "S1"
+      ],
+      "reason": "Veloce e idee nuove (X1, X6) sono pro; 'gli studenti ci si affidano troppo' indica un rischio di dipendenza cognitiva (S1)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "B",
+      "codes": [],
+      "reason": "Risposta non fornita."
+    }
+  ]
+}

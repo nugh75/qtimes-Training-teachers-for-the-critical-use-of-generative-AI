@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_illi13.md",
+  "source_name": "insegnanti_attuali_illi13.md",
+  "title": "Risposta: Insegnanti in servizio - Record 333",
+  "group": "Insegnanti in servizio",
+  "record_code": "Illi13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:07:27.891333+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R2",
+    "S4",
+    "X1"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sui rischi dell'IA (S4) e un riconoscimento dei benefici operativi (X1), ma è limitato dalla propria scarsa conoscenza del tema.",
+  "code_counts": {
+    "I4": 1,
+    "R2": 1,
+    "S4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché ancora la conosco poco",
+      "codes": [],
+      "reason": "Risposta generica di incertezza ('conosco poco') non specifica un uso o un rifiuto motivato."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché la conosco ancora poco",
+      "codes": [],
+      "reason": "Risposta generica di incertezza ('conosco poco') non specifica un uso o un rifiuto motivato."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizza il lavoro Contro: Non permette lo sviluppo di determinate abilità intellettive e la capacità critica degli studenti",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Riconosce la velocità ('velocizza il lavoro') ma anche il rischio di non sviluppare abilità intellettive e pensiero critico."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'uso dell'AI nell'insegnamento va utilizzata con cautela perché i ragazzi non hanno ancora la giusta maturità nel saper utilizzare in modo corretto e sicuro determinati strumenti.",
+      "codes": [
+        "I4",
+        "R2"
+      ],
+      "reason": "Sottolinea la necessità di cautela e la mancanza di maturità degli studenti nell'uso sicuro e corretto degli strumenti."
+    }
+  ]
+}

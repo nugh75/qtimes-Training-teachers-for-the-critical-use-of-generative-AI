@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_cara23.md",
+  "source_name": "insegnanti_futuri_cara23.md",
+  "title": "Risposta: Insegnanti pre-service - Record 3",
+  "group": "Insegnanti pre-service",
+  "record_code": "Cara23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:40:39.397931+00:00",
+  "record_dimensions": [
+    "S"
+  ],
+  "record_subcodes": [
+    "S4",
+    "S6"
+  ],
+  "record_note": "Il partecipante esprime una forte diffidenza verso l'uso dell'IA in didattica, ritenendola dannosa per la cognizione.",
+  "code_counts": {
+    "S4": 1,
+    "S6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "45",
+      "codes": [],
+      "reason": "Risposta numerica non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "È uno steumento letale per la cognizione",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Affermazione che l'IA è 'uno strumento letale per la cognizione', indicando un rischio per il pensiero critico e la relazione educativa."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "A b x",
+      "codes": [],
+      "reason": "Risposta incompleta e non informativa."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Abc",
+      "codes": [],
+      "reason": "Risposta incompleta e non informativa."
+    }
+  ]
+}

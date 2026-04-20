@@ -1,0 +1,107 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_namo20-10-49.md",
+  "source_name": "insegnanti_futuri_namo20-10-49.md",
+  "title": "Risposta: Insegnanti pre-service - Record 10",
+  "group": "Insegnanti pre-service",
+  "record_code": "Namo20/10/49",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:46:20.526469+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P6",
+    "S2",
+    "S6",
+    "X1"
+  ],
+  "record_note": "Il partecipante mostra una conoscenza limitata o un uso molto circoscritto dell'IA, limitandolo principalmente alle correzioni e rifiutando l'uso per la scrittura di testi.",
+  "code_counts": {
+    "P6": 1,
+    "S2": 1,
+    "S6": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Si",
+      "codes": [],
+      "reason": "Risposta affermativa ma senza contesto o spiegazione aggiuntiva."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona specificamente uno strumento (ChatGPT) come preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Nn utilizzo",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la utilizzo",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utile per le correzioni ma poco utile come strumento autonomo didattico",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Riconosce l'utilità dell'IA per le correzioni, implicando un risparmio di tempo/efficienza."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La scrittura dei testi",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "Sconsiglia la scrittura dei testi, che può portare a plagio (S2) o sostituire l'attività di scrittura umana/docente (S6)."
+    }
+  ]
+}

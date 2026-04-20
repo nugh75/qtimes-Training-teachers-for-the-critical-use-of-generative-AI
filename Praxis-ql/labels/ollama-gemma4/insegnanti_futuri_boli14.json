@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_boli14.md",
+  "source_name": "insegnanti_futuri_boli14.md",
+  "title": "Risposta: Insegnanti pre-service - Record 21",
+  "group": "Insegnanti pre-service",
+  "record_code": "BOLI14",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:40:16.983196+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S2",
+    "S4",
+    "S5",
+    "X6"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza critica sui rischi dell'IA (S4, S5) ma ne riconosce anche il potenziale di innovazione (X6).",
+  "code_counts": {
+    "S2": 1,
+    "S4": 1,
+    "S5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non mi è servita fino ad ora",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "codes": [],
+      "reason": "Risposta non pertinente al contesto didattico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: Rischio di non utilizzare l’impegno nello  studio-  Pro: stimolare uso di nuovi strumenti",
+      "codes": [
+        "S4",
+        "X6"
+      ],
+      "reason": "Riconosce il rischio di non impegnarsi nello studio (S4), ma vede anche il potenziale di stimolare nuovi strumenti (X6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione testi- ricerche Rischio risultati inesatti",
+      "codes": [
+        "S2",
+        "S5"
+      ],
+      "reason": "Identifica la produzione di testi e ricerche come rischio (S2) e menziona il rischio di risultati inesatti (S5)."
+    }
+  ]
+}

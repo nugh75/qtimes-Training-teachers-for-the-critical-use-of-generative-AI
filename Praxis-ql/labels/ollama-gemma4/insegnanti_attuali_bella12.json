@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_bella12.md",
+  "source_name": "insegnanti_attuali_bella12.md",
+  "title": "Risposta: Insegnanti in servizio - Record 312",
+  "group": "Insegnanti in servizio",
+  "record_code": "Bella12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:49:41.627703+00:00",
+  "record_dimensions": [
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P6",
+    "P7",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza strumenti noti (Kahoot, ChatGPT) per adattare il livello di difficoltà (personalizzazione) e identifica il miglioramento dell'apprendimento come facilitazione.",
+  "code_counts": {
+    "P2": 3,
+    "P6": 1,
+    "P7": 1,
+    "X2": 1,
+    "X3": 3,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L’utilizzo",
+      "codes": [],
+      "reason": "Risposta incompleta e non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Kahoot e ChatGPT",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti specifici (Kahoot e ChatGPT) utilizzati."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Grado di difficoltà delle domande",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso del 'grado di difficoltà delle domande' è un metodo di personalizzazione/individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Grado di difficoltà nella verifica",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso del 'grado di difficoltà nella verifica' è un metodo di personalizzazione/individualizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Kahoot ChatGPT",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Non vengono forniti prompt specifici, ma l'elenco di strumenti (Kahoot ChatGPT) è menzionato in risposta a una domanda sui prompt."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Grado di difficoltà",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Il 'grado di difficoltà' è un parametro che migliora l'apprendimento in modo personalizzato."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Perché facilità l’apprendi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La risposta 'perché facilità l’apprendi' indica un miglioramento della comprensione/facilitazione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Il tempo",
+      "codes": [],
+      "reason": "Il 'tempo' è un vincolo operativo, ma non è un codice specifico fornito nel codebook."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La facilità è sicuramente un pro",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Riconoscere la 'facilità' come pro indica un arricchimento o un miglioramento generale."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Le ricerche su ChatGPT",
+      "codes": [],
+      "reason": "La risposta è troppo generica ('Le ricerche su ChatGPT') per assegnare codici specifici."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etti25.md",
+  "source_name": "insegnanti_attuali_etti25.md",
+  "title": "Risposta: Insegnanti in servizio - Record 310",
+  "group": "Insegnanti in servizio",
+  "record_code": "Etti25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:01:42.745167+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "R4",
+    "X1"
+  ],
+  "record_note": "L'uso dell'IA è limitato a funzioni di generazione di contenuti (verifiche, domande) e l'utente mostra consapevolezza dei limiti (R4).",
+  "code_counts": {
+    "P1": 3,
+    "P2": 2,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgtp",
+      "codes": [],
+      "reason": "Risposta troppo generica e non specifica sull'uso didattico."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Domande da creare dando un testo o un video",
+      "codes": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "reason": "Creare domande su un testo o video è un modo per creare materiali didattici e personalizzare l'insegnamento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di verifiche ad hoc per inclusione",
+      "codes": [
+        "P1",
+        "P2"
+      ],
+      "reason": "Creare verifiche ad hoc è un materiale didattico e serve a personalizzare l'insegnamento per l'inclusione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Creami delle domande da questo testo che ti allego per la lezione di...",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "L'esempio di prompt mostra la creazione di domande da un testo allegato, indicando una strategia di produzione e un prompt visibile."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non saprei",
+      "codes": [],
+      "reason": "Risposta di incertezza o non informativa."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non so bene se i prompt sono corretti o se potessi fare di meglio e potenziare",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'incertezza sui prompt suggerisce una consapevolezza della necessità di migliorare la propria capacità di prompting."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Aiuta ad abbreviare i tempi",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'abbreviare i tempi è un beneficio legato all'efficienza e al risparmio di tempo."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La creazione dei testi, devono avere la possibilità di creare",
+      "codes": [
+        "P1"
+      ],
+      "reason": "Il riferimento alla creazione di testi suggerisce che l'IA può essere usata per produrre materiali didattici, ma la risposta è incompleta."
+    }
+  ]
+}

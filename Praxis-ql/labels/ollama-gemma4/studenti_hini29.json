@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_hini29.md",
+  "source_name": "studenti_hini29.md",
+  "title": "Risposta: Studenti - Record 29",
+  "group": "Studenti",
+  "record_code": "hini29",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:09:13.560434+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "R4",
+    "S1",
+    "S2",
+    "S4",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente è consapevole dei limiti e dei rischi dell'IA (S1, S2, S4) ma ne riconosce anche il valore pratico per la ricerca e la revisione (P1, P4).",
+  "code_counts": {
+    "A3": 1,
+    "P1": 1,
+    "P2": 1,
+    "P4": 2,
+    "P5": 1,
+    "P6": 1,
+    "R4": 1,
+    "S1": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt e napkin. Il primo per la ricerca e il secondo per le infografiche",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (ChatGPT, Napkin) per ricerca e infografiche."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Ricerca informazioni e fonti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Usa l'IA per la ricerca di informazioni e fonti, personalizzando lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Analizza il seguente testo e dimmi quali sono i punti di forza, i punti di debolezza e suggerisci miglioramenti.",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Fornisce un prompt specifico per l'analisi di testo (punti di forza, debolezza, miglioramenti), dimostrando capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi permette di verificare i miei scritti, ricercare fonti nuove e suggerire migliorie",
+      "codes": [
+        "P1",
+        "P4",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a verificare scritti (P1), ricercare fonti (P4) e suggerire migliorie (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Valutazione delle relazioni, ricerca di fonti",
+      "codes": [
+        "P4",
+        "X5"
+      ],
+      "reason": "L'IA aiuta nella valutazione delle relazioni e nella ricerca di fonti, supportando il percorso di studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non conosco molto applicazioni e molto spesso le pù performanti sono a pagamento",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Difficoltà legate al costo e alla disponibilità di strumenti performanti (a pagamento)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Tendenza a delegare le funzioni all' ia",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Riconosce la tendenza a delegare funzioni all'IA."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La produzione e formulazione di testi, ricerche e presentaizoni",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia l'uso dell'IA per la produzione/formulazione di testi e ricerche, implicando rischio di plagio e erosione del pensiero critico."
+    }
+  ]
+}

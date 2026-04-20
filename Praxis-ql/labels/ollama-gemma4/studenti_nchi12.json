@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nchi12.md",
+  "source_name": "studenti_nchi12.md",
+  "title": "Risposta: Studenti - Record 240",
+  "group": "Studenti",
+  "record_code": "Nchi12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:20:08.816786+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "P5",
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per migliorare il vocabolario e ottenere informazioni immediate, ma mostra consapevolezza dei suoi limiti, in particolare riguardo al pensiero critico e all'autenticità del contenuto.",
+  "code_counts": {
+    "I2": 1,
+    "I4": 1,
+    "P5": 3,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per cercare i sinonimi o fare ricerche immediate",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'uso è per cercare sinonimi o fare ricerche immediate, che è una forma di rielaborazione e chiarimento."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT, ti da risposte immediate e c'è l'opzione del ragionamento",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "L'utente cita ChatGPT come strumento preferito per la rapidità delle risposte."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per cercare sinonimi",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "L'uso è specifico per cercare sinonimi, un'attività di personalizzazione del vocabolario."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sinonimo di...",
+      "codes": [
+        "P7"
+      ],
+      "reason": "L'utente fornisce un esempio di prompt ('Sinonimo di...') che è un 'prompting visibile'."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Moderatamente",
+      "codes": [],
+      "reason": "Risposta troppo vaga ('Moderatamente') per assegnare codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi da spunti su parole da usare e mi da dati certi immediati specificando le fonti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA fornisce spunti su parole e dati immediati con fonti, migliorando la comprensione e l'arricchimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte non dice cose esatte",
+      "codes": [
+        "I2"
+      ],
+      "reason": "L'utente segnala che l'IA a volte non dice cose esatte, indicando sfiducia tecnica."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "È molto utile ma non fa ragionare",
+      "codes": [
+        "I4",
+        "S4"
+      ],
+      "reason": "L'utente riconosce l'utilità ma sottolinea che l'IA non fa ragionare, evidenziando il limite del pensiero critico."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Generare temi e tesi con l'intelligenza artificiale non è raccomandato secondo me perchè non stimola il ragionamento e perchè ciò che produce un IA non eguaglia ciò che può produrre una persona",
+      "codes": [
+        "S4",
+        "S2"
+      ],
+      "reason": "L'utente sconsiglia di usare l'IA per generare temi/tesi perché non stimola il ragionamento (S4) e perché ciò che produce non è personale (S2)."
+    }
+  ]
+}

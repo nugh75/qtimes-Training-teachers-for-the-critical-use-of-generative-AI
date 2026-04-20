@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ucci06.md",
+  "source_name": "insegnanti_attuali_ucci06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 332",
+  "group": "Insegnanti in servizio",
+  "record_code": "ucci06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:33:41.378328+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P5",
+    "P6",
+    "S5",
+    "X1",
+    "X5"
+  ],
+  "record_note": "L'utente utilizza l'IA principalmente per la preparazione e la creazione di materiali didattici (verifiche, slide, ricerche), ma esprime preoccupazioni sulla sua affidabilità e accuratezza.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 3,
+    "P5": 1,
+    "P6": 1,
+    "S5": 1,
+    "X1": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Mi aiutano a fare il lavoro di ricerca delle informazioni, stilare slide, creare verifiche, progettare lezioni, creare griglie di valutazione",
+      "codes": [
+        "P1",
+        "P5",
+        "P6",
+        "X1",
+        "X5"
+      ],
+      "reason": "L'IA aiuta nella ricerca, stesura di slide, creazione di verifiche, progettazione di lezioni e griglie di valutazione, supportando la preparazione e l'organizzazione del lavoro."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di slide e verifiche",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'IA viene usata per creare slide e verifiche, che sono materiali didattici."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di slide e verifiche",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'IA viene usata per creare slide e verifiche, che sono materiali didattici."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Dipende da cosa devo fare",
+      "codes": [],
+      "reason": "Risposta generica e non specifica su prompt."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non lo so')."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non lo so')."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa ('Nessuna')."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Bisogna ricontrollare tutto perché commette errori macroscopici",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "L'utente evidenzia che l'IA commette 'errori macroscopici', indicando sfiducia tecnica e problemi di affidabilità."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa ('Nessuna')."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tini30.md",
+  "source_name": "studenti_tini30.md",
+  "title": "Risposta: Studenti - Record 210",
+  "group": "Studenti",
+  "record_code": "tini30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:30:34.417675+00:00",
+  "record_dimensions": [
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "X3"
+  ],
+  "record_note": "Il partecipante fornisce risposte molto brevi o non informative, limitando l'assegnazione di codici complessi.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "telefono",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per apprendere più cose",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso è descritto in termini generici di apprendimento, indicando personalizzazione e adattamento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "con testi espositivi",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "L'uso è specificato per la generazione di 'testi espositivi', che rientrano in materiali di studio e strategie di produzione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

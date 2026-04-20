@@ -1,0 +1,72 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_azza22.md",
+  "source_name": "studenti_azza22.md",
+  "title": "Risposta: Studenti - Record 109",
+  "group": "Studenti",
+  "record_code": "AZZA22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:56:41.392834+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P4",
+    "P5",
+    "R3",
+    "S2",
+    "S4",
+    "X5"
+  ],
+  "record_note": "L'utente mostra una consapevolezza crescente sull'uso dell'IA, riconoscendo i benefici (simulazione) ma anche i rischi di dipendenza e di plagio.",
+  "code_counts": {
+    "P4": 1,
+    "P5": 1,
+    "R3": 1,
+    "S2": 1,
+    "S4": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono abituato e di conseguenza non l'ho mai provata effettivamente",
+      "codes": [],
+      "reason": "Risposta non informativa, indica mancanza di abitudine."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Ho pensato che non mi servisse utilizzarla inizialmente mentre ora che si sta diffondendo maggiormente dovrò necessariamente adattarmi e imparare. Non ho un rigetto, semplicemente non ho mai pensato di usarla",
+      "codes": [
+        "R3",
+        "X5"
+      ],
+      "reason": "Riconosce inizialmente di non averne bisogno (uso privato vs didattico) ma accetta l'adattamento necessario (supporto al percorso)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro credo siano la possibilità di farsi interrogare come fossimo effettivamente a un vero esame. Come contro mi sembra di notare in alcuni colleghi la completa incapacità di formulare un pensiero senza ausilio di Chat GPT ad esempio. In generale non vedo dei contro se non un utilizzo smodato.",
+      "codes": [
+        "P4",
+        "S4"
+      ],
+      "reason": "Vede l'IA come utile per simulare interrogazioni (P4), ma nota il rischio di incapacità di formulare pensiero senza ausilio (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Credo che utilizzarla per creare per esempio un tema o un elaborato sia effettivamente scorretto. Probabilmente sarebbe uno strumento da considerare più d'ausilio che fondamentale nella stesura di un testo",
+      "codes": [
+        "S2",
+        "P5"
+      ],
+      "reason": "Sconsiglia l'uso per creare temi o elaborati (S2), considerandolo uno strumento di ausilio piuttosto che fondamentale per la stesura (P5)."
+    }
+  ]
+}

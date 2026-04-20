@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_arta24.md",
+  "source_name": "insegnanti_attuali_arta24.md",
+  "title": "Risposta: Insegnanti in servizio - Record 174",
+  "group": "Insegnanti in servizio",
+  "record_code": "arta24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:46:40.064288+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P2",
+    "P6",
+    "R4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici (verifiche) e per l'orientamento su come personalizzare e individualizzare, ma mostra consapevolezza dei limiti e della necessità di supervisione umana.",
+  "code_counts": {
+    "I4": 2,
+    "P1": 2,
+    "P2": 3,
+    "P6": 1,
+    "R4": 3,
+    "X2": 1,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Moduli Google",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menzione di 'Moduli Google' come strumento utilizzato."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Scrivo la domanda precisa e chiedo come fare",
+      "codes": [
+        "R4",
+        "P2",
+        "X3"
+      ],
+      "reason": "L'utente non descrive una strategia didattica specifica, ma indica di chiedere all'IA come fare, suggerendo un uso di prompting per l'individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Scrivo la domanda precisa e chiedo come fare",
+      "codes": [
+        "R4",
+        "P2",
+        "X3"
+      ],
+      "reason": "Simile al punto precedente, l'utente indica di chiedere all'IA come personalizzare, mostrando un uso di prompting per l'obiettivo di personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao, mi potresti aiutare a realizzare una verifica di storia dell'arte medievale (approfondendo Giotto) a risposte multiple per un ragazzo dsa di una classe seconda di un liceo scientifico?",
+      "codes": [
+        "P1",
+        "P2",
+        "R4"
+      ],
+      "reason": "L'utente fornisce un prompt specifico per creare una verifica (P1) e per un ragazzo DSA (P2), dimostrando capacità di prompting (R4)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Attualizzando le verifiche",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'uso dell'IA è descritto per 'Attualizzando le verifiche', che rientra nella produzione di materiali didattici (verifiche)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Semplificando degli argomenti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a 'Semplificando degli argomenti', che è un chiaro beneficio di semplificazione e comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Sto ancora sperimentando",
+      "codes": [],
+      "reason": "Risposta generica ('Sto ancora sperimentando') non fornisce informazioni codificabili."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro: aiuto concreto - I contro: non avere abbastanza tempo per seguire i continui progressi dell'IA",
+      "codes": [
+        "I4"
+      ],
+      "reason": "Il 'pro' è l'aiuto concreto, ma il 'contro' evidenzia la necessità di supervisione umana per seguire i progressi dell'IA, sottolineando l'importanza del giudizio umano (I4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Forse l'uso dell'IA senza la supervisione dell'insegnante",
+      "codes": [
+        "I4"
+      ],
+      "reason": "L'uso dell'IA senza supervisione dell'insegnante è un avvertimento che sottolinea l'insostituibilità del giudizio e della supervisione umana (I4)."
+    }
+  ]
+}

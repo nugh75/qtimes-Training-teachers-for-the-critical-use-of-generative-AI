@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ippa04.md",
+  "source_name": "studenti_ippa04.md",
+  "title": "Risposta: Studenti - Record 30",
+  "group": "Studenti",
+  "record_code": "IPPA04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:13:03.886023+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "S1",
+    "S2",
+    "S4",
+    "S5",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA in modo avanzato, riconoscendo sia i benefici (ampliamento, personalizzazione) sia i rischi (dipendenza, imprecisione).",
+  "code_counts": {
+    "P1": 1,
+    "P2": 2,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "S1": 1,
+    "S2": 1,
+    "S4": 1,
+    "S5": 1,
+    "X2": 2,
+    "X3": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché mi aiuta a ordinare le idee sia nello studio che nel lavoro, NotebookLM perché ho la possibilità di avere un ampliamento delle idee di chatgpt più complesso e variegato.",
+      "codes": [
+        "P5",
+        "P6",
+        "X5"
+      ],
+      "reason": "L'utente menziona ChatGPT per ordinare idee e NotebookLM per un ampliamento più complesso, indicando l'uso di strumenti per l'organizzazione e l'ampliamento concettuale."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "ChatGPT produce delle mappe molto interessanti e riesce a prendere le redini di professore ponendo domande - NotebookLM per le flashcards",
+      "codes": [
+        "P1",
+        "P2",
+        "P4",
+        "X3"
+      ],
+      "reason": "L'IA viene usata per creare mappe (P1, P5), per personalizzare lo studio (P2) e per simulare l'interrogazione (P4)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sto lavorando ad un progetto per *materia*, ho bisogno di produrre un'immagine specifica che mostri due ragazzi che guardano verso la telecamera. L'immagine deve essere realistica. I due ragazzi rappresentati sono in un aula universitaria. Il ragazzo sulla sinistra porta gli occhiali, mentre la ragazza sulla destra ha i capelli afro ed è sorridente. Voglio che tu faccia due cose:  - riproducimi tale immagine seguendo quanto ti ho impostato; - condividimi anche il prompt testuale che hai riprodotto per generare l'immagine.",
+      "codes": [
+        "P7"
+      ],
+      "reason": "L'utente descrive un prompt complesso per la generazione di un'immagine e ne condivide il testo, dimostrando la consapevolezza del processo di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Molte volte mi aiuta facendomi esempi di cose che trovo complesse.",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere concetti complessi attraverso la generazione di esempi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Un esempio molto interessante è che, prima di questo corso, ho dato dei corsi singoli su materie scientifiche. Queste materie erano molto complesse per me poiché non avevo mai avuto un approccio diretto. Grazie all'AI ho avuto modo di ampliare le mie conoscenze e superare tali corsi.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA ha permesso di ampliare le conoscenze e superare materie complesse, personalizzando l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Sicuro una delle difficoltà principali è stata quella di trovare l'AI perfetta per l'occasione.",
+      "codes": [],
+      "reason": "La difficoltà è generica ('trovare l'AI perfetta') e non si collega a un codice specifico del codebook."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono: - l'infrastruttura esterna che ti porta a una conoscenza più ampia; - lo studio più lineare e in focus.  I contro sono: - rischio di diventare dipendenti; - risposte non sempre corrette.",
+      "codes": [
+        "X2",
+        "S5",
+        "S1"
+      ],
+      "reason": "I pro includono l'ampliamento della conoscenza (X2). I contro menzionano risposte non sempre corrette (S5) e il rischio di dipendenza (S1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Sicuramente il non produrre riassunti senza aver letto il testo e anche il far risolvere all'AI un esercizio senza impegnarcisi.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non produrre riassunti senza aver letto il testo (S2) e non far risolvere esercizi senza impegno (S4) sono pratiche sconsigliate."
+    }
+  ]
+}

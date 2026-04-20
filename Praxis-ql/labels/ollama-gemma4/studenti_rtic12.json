@@ -1,0 +1,107 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rtic12.md",
+  "source_name": "studenti_rtic12.md",
+  "title": "Risposta: Studenti - Record 235",
+  "group": "Studenti",
+  "record_code": "rtic12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:28:37.108325+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "S4",
+    "S7",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per semplificare e riassumere contenuti (P5, X2), ma mostra preoccupazioni riguardo alla dipendenza e alla perdita di capacità di studio autonomo (S4).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 3,
+    "S4": 2,
+    "S7": 1,
+    "X2": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché mi ci trovo bene",
+      "codes": [],
+      "reason": "Risposta generica e non specifica sull'uso didattico."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per farmi spiegare delle cose in maniera più semplice, riassunti, schemi ecc",
+      "codes": [
+        "P5",
+        "P2",
+        "X2"
+      ],
+      "reason": "L'uso è per spiegazioni, riassunti e schemi, che sono strategie operative (P5) e che personalizzano lo studio (P2, X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "trovami un sinonimo di esattamente",
+      "codes": [
+        "P5"
+      ],
+      "reason": "La richiesta di un sinonimo è un esempio di riscrittura o spiegazione (P5)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiegandomi le cose",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Spiegare le cose è una strategia operativa (P5) che aiuta la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato ad alzare i voti a scuola",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Migliorare i voti è un risultato che supporta l'organizzazione e il percorso di studio (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che magari senza poi ti trovi male",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il timore di non riuscire a fare determinate cose senza l'IA indica un rischio di erosione del pensiero critico/capacità (S4)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro è che ti aiuta il contro è che poi magari senza non riesci a fare determinate cose",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il contro ('magari senza non riesci a fare determinate cose') riflette il rischio di dipendenza e perdita di capacità (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "magari non dovrebbero essere usate in maniera morbosa",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il consiglio di non usare l'IA in maniera 'morbosa' suggerisce che ci sono ambiti o modalità di uso inappropriati (S7)."
+    }
+  ]
+}

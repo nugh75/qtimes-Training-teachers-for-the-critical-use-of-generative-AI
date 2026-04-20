@@ -1,0 +1,53 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_mico26.md",
+  "source_name": "insegnanti_attuali_mico26.md",
+  "title": "Risposta: Insegnanti in servizio - Record 54",
+  "group": "Insegnanti in servizio",
+  "record_code": "Mico26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:14:42.930021+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S4",
+    "S7",
+    "X1"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sui limiti dell'IA, evidenziando sia i benefici operativi che i rischi pedagogici.",
+  "code_counts": {
+    "S4": 1,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché finora non ne ho avuto la necessità",
+      "codes": [],
+      "reason": "La risposta indica assenza di necessità, non un contenuto informativo da codificare."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'IA può aiutare a velocizzare alcuni passaggi nella creazione di lezioni o test, ma nello studio può portare lo studente a non sviluppare molte abilità",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Viene menzionato l'aiuto a velocizzare la creazione di lezioni/test (X1), ma anche il rischio che lo studente non sviluppi abilità (S4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere usata L'IA nelle fasi di valutazione",
+      "codes": [
+        "S7"
+      ],
+      "reason": "L'utente specifica che l'IA non dovrebbe essere usata nelle fasi di valutazione, che rientra negli ambiti off-limits (S7)."
+    }
+  ]
+}

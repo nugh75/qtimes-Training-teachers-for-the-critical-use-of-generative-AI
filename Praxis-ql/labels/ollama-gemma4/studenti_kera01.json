@@ -1,0 +1,109 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_kera01.md",
+  "source_name": "studenti_kera01.md",
+  "title": "Risposta: Studenti - Record 233",
+  "group": "Studenti",
+  "record_code": "kera01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:14:08.823494+00:00",
+  "record_dimensions": [
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per aumentare la velocità di studio e per rielaborare contenuti, mostrando consapevolezza dei costi (funzioni a pagamento).",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P6": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, perché velocizzo di più lo studio",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menziona l'uso di ChatGPT per velocizzare lo studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per risolvere velocemente e confrontare con altre fonti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per risolvere velocemente e confrontare fonti, indicando personalizzazione e chiarimento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "fare riassunti, spiega gli argomenti in modo semplice, approfondisci",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Elenca azioni come fare riassunti, spiegare argomenti e approfondire, che rientrano in strategie operative di produzione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perché mi fornisce più fonti per un argomento",
+      "codes": [
+        "P1",
+        "X5"
+      ],
+      "reason": "L'IA fornisce più fonti, supportando lo studio e l'arricchimento del materiale."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi fornisce per rielaborare",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Il fornire materiale per rielaborare rientra nelle strategie operative di produzione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro= velocità e chiarezza  contro= alcune funzioni sono a pagamento",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Indica pro come velocità e chiarezza."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    }
+  ]
+}

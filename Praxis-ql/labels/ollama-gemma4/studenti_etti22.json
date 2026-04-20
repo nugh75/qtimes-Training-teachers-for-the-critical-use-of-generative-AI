@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_etti22.md",
+  "source_name": "studenti_etti22.md",
+  "title": "Risposta: Studenti - Record 79",
+  "group": "Studenti",
+  "record_code": "etti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:06:20.266290+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P4",
+    "P5",
+    "P7",
+    "R4",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per semplificare e chiarire concetti (P2, X2), ma mostra consapevolezza dei suoi limiti (I2) e della necessità di mantenere un ruolo attivo nello studio (P4, X7).",
+  "code_counts": {
+    "I2": 2,
+    "P2": 2,
+    "P4": 1,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "X2": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché molto utile",
+      "codes": [],
+      "reason": "Risposta generica e non specifica su metodi di studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Cercando informazioni, sinonimi, parafrasi, spiegazioni ecc",
+      "codes": [
+        "P2",
+        "P5",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per parafrasi, sinonimi e spiegazioni, che personalizzano e semplificano l'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi dare una spiegazione chiara ed efficiente di questo argomento?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Formula un prompt specifico ('Mi puoi dare una spiegazione chiara ed efficiente...') che dimostra capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Usando un linguaggio più comprensibile rispetto al linguaggio del libro alcune volte",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "L'IA rende il linguaggio più comprensibile, adattando lo studio al livello di comprensione dell'utente."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Per spiegazioni",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Riferimento specifico all'uso dell'IA per ottenere spiegazioni."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "codes": [],
+      "reason": "Risposta negativa, non fornisce informazioni codificabili."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Spiegazioni chiare, aiuta a risolvere dubbi ma non tutto cioè che riporta é sempre corretto",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Riconosce l'utilità per spiegazioni chiare (X2), ma evidenzia il rischio di inaffidabilità ('non tutto... è sempre corretto'), indicando sfiducia tecnica (I2)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Per risolvere esercizi, é utile dare la spiegazione o punti da seguire ma non risolvere completamente l’esercizio",
+      "codes": [
+        "P4",
+        "X7",
+        "I2"
+      ],
+      "reason": "Suggerisce che l'IA non deve risolvere completamente gli esercizi (P4), ma deve solo dare spunti, limitando l'uso e riconoscendo il rischio di errore (I2)."
+    }
+  ]
+}

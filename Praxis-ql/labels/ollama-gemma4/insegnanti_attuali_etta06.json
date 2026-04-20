@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etta06.md",
+  "source_name": "insegnanti_attuali_etta06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 345",
+  "group": "Insegnanti in servizio",
+  "record_code": "Etta06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:00:20.240548+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P7",
+    "R4",
+    "S7",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la personalizzazione e l'adattamento didattico, ma mostra cautela riguardo all'affidabilità degli output e ai limiti etici (valutazione).",
+  "code_counts": {
+    "I2": 2,
+    "P2": 4,
+    "P7": 1,
+    "R4": 1,
+    "S7": 1,
+    "X2": 1,
+    "X3": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Preparazione delle lezioni",
+      "codes": [],
+      "reason": "La risposta è troppo generica e non specifica l'uso di strumenti IA."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Nella personalizzazione della didattica per studenti con PDP o PEI",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Riferimento all'uso dell'IA per la personalizzazione didattica per studenti con PDP/PEI."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Fornendo prompt il più possibile specifici",
+      "codes": [
+        "P2",
+        "R4"
+      ],
+      "reason": "L'uso di prompt specifici è un metodo di personalizzazione e richiede competenza di prompting."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Oggetto: lezione sulle biomolecole, destinatari: alunno con pei ( lieve ritardo cognitivo), contesto: classe seconda liceo scientifico",
+      "codes": [
+        "P7",
+        "P2"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico per un contesto di personalizzazione (alunno con PEI)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha reso la lezione centrata sulle caratteristiche degli studenti",
+      "codes": [
+        "X3"
+      ],
+      "reason": "L'IA ha reso la lezione centrata sulle caratteristiche degli studenti, indicando personalizzazione."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso l'utilizzo di strategie didattiche mirate",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA aiuta a migliorare l'apprendimento tramite strategie didattiche mirate, che implicano personalizzazione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Gli output devono essere attentamente controllati. Errori frequenti",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Il controllo degli output è necessario a causa degli errori frequenti riscontrati."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: accesso a un notevole bacino di informazioni. Contro: output spesso errati",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Vantaggio nell'accesso alle informazioni (X2) ma contro gli output spesso errati (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Valutazione",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Indica che la valutazione non dovrebbe essere gestita dall'IA, rientrando negli ambiti off-limits."
+    }
+  ]
+}

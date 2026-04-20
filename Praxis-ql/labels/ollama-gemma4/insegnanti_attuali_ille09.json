@@ -1,0 +1,60 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ille09.md",
+  "source_name": "insegnanti_attuali_ille09.md",
+  "title": "Risposta: Insegnanti in servizio - Record 126",
+  "group": "Insegnanti in servizio",
+  "record_code": "ille09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:06:54.228965+00:00",
+  "record_dimensions": [
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P3",
+    "X4"
+  ],
+  "record_note": "L'insegnante è consapevole dei potenziali benefici dell'IA (inclusività) ma è cauto riguardo ai limiti e all'adattamento didattico.",
+  "code_counts": {
+    "P2": 1,
+    "P3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ancora utilizzo altri strumenti",
+      "codes": [],
+      "reason": "Risposta generica che indica l'uso di altri strumenti, senza specificare il contenuto o la funzione."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "utilizzo più strumenti pratici",
+      "codes": [],
+      "reason": "Risposta generica che indica l'uso di 'strumenti pratici' senza specificare il contesto didattico o la funzione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: l'IA Potrebbe proporre una didattica più inclusiva. contro:  in alcuni casi potrebbe limitare il lavoro degli studenti",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "L'IA può proporre una didattica più inclusiva (P3), migliorando l'accesso (X4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La messa in pratica di attività nella quale  l'IA non prevede alle necessità degli alunni",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'IA non dovrebbe essere usata se non risponde alle necessità degli alunni, suggerendo la necessità di adattare l'uso all'individuo/gruppo (P2)."
+    }
+  ]
+}

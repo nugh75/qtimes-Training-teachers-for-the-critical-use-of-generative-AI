@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_caro22.md",
+  "source_name": "studenti_caro22.md",
+  "title": "Risposta: Studenti - Record 83",
+  "group": "Studenti",
+  "record_code": "caro22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:57:44.298918+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S3",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA per riassumere e semplificare argomenti, riconoscendone i benefici ma anche i rischi di dipendenza e perdita di creatività.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "S2": 1,
+    "S3": 1,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne ho l’opportunità",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Siri, chat gpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (Siri, ChatGPT) che fanno parte di un ecosistema di strumenti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Mi aiuta a fare riassunti e a capire meglio gli argomenti",
+      "codes": [
+        "P1",
+        "P2",
+        "X2"
+      ],
+      "reason": "Fare riassunti (P1) e capire meglio gli argomenti (P2, X2)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumere qualcosa",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'istruzione di 'Riassumere qualcosa' è un esempio di strategia operativa di produzione (P5)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Spiega argomenti in maniera chiara e coincisa",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Spiegare argomenti in maniera chiara e concisa è un beneficio di semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "semplificando cose che da sola non riuscivo a capire",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificare cose che prima non riusciva a capire è un beneficio di semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Un pro è il sostegno che dà nella compresione o in qualsiasi altra attività e  Un contro potrebbe essere un suo uso smisurato e una limitazione nella creatività",
+      "codes": [
+        "X2",
+        "S3"
+      ],
+      "reason": "Il pro è il sostegno alla comprensione (X2); il contro è la limitazione nella creatività (S3)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Compiti assegnati per casa",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Evita l'uso dell'IA per i compiti assegnati per casa, che sono considerati un tipo di plagio/svolgimento non proprio (S2)."
+    }
+  ]
+}

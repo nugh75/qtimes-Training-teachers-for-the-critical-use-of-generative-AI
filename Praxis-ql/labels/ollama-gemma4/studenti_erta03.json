@@ -1,0 +1,87 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_erta03.md",
+  "source_name": "studenti_erta03.md",
+  "title": "Risposta: Studenti - Record 267",
+  "group": "Studenti",
+  "record_code": "erta03",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:04:22.171915+00:00",
+  "record_dimensions": [
+    "P"
+  ],
+  "record_subcodes": [
+    "P6"
+  ],
+  "record_note": "Lo studente non riporta di utilizzare l'IA per lo studio, se non menzionando genericamente l'utilità di ChatGPT.",
+  "code_counts": {
+    "P6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt è utile",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona l'uso di uno strumento specifico (ChatGPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "In nessun modo",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Nessun modo",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "In nessun modo",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "0",
+      "codes": [],
+      "reason": "Risposta non informativa (0)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Boo",
+      "codes": [],
+      "reason": "Risposta non informativa ('Boo')."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ogri20.md",
+  "source_name": "insegnanti_attuali_ogri20.md",
+  "title": "Risposta: Insegnanti in servizio - Record 233",
+  "group": "Insegnanti in servizio",
+  "record_code": "ogri20",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:18:15.465715+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per adattare e semplificare contenuti (DSA, INVALSI) e per migliorare le proprie strategie didattiche, mostrando consapevolezza nell'uso dei prompt.",
+  "code_counts": {
+    "A1": 1,
+    "P1": 2,
+    "P2": 2,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "X2": 2,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "la utilizzo",
+      "codes": [],
+      "reason": "Risposta affermativa non informativa per l'assegnazione di codici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt  perchè per il grado di scuola in cui insegno, va bene",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona specificamente 'chatgpt' come strumento preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo all'IA di semplificarmi testi, creare storie con i dati che inserisco io.",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X2"
+      ],
+      "reason": "Semplificare testi e creare storie con dati inseriti per l'individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per esempio con i testi invalsi per bimbi DSA chiedo di semplificare il testo che assegno a tutti e di proporre le stesse domande a risposta multipla per i bimbi in diifficoltà",
+      "codes": [
+        "P2",
+        "P1",
+        "X3"
+      ],
+      "reason": "Semplificazione di testi INVALSI per DSA e creazione di domande a risposta multipla per studenti in difficoltà, mirando all'eccellenza individuale."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Faccio immagina all'AI di essere il soggetto che deve risolvere la domanda che gli do e gli assegno un a temperatura per far si che la risposta sia più o meno facile",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Descrive l'uso di un prompt complesso ('Faccio immagina all'AI di essere...') e menziona l'assegnazione di parametri (temperatura), indicando consapevolezza di prompting."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Per la simulazione delle prove invalsi gli alunni DSA hanno avuto una sintesi del testo consegnato ai compagni, ma con le stesse domande e hanno risposto bene a tutte",
+      "codes": [
+        "P4",
+        "X3"
+      ],
+      "reason": "Utilizzo dell'IA per simulare prove INVALSI, permettendo agli studenti DSA di avere una sintesi del testo ma con le stesse domande, migliorando l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Mi aiuta a semplificare il lavoro.",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a 'semplificare il lavoro', che implica chiarificazione e comprensione più rapida."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa per l'assegnazione di codici."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se viene usata per aiutarmi nel trovare strategie di miglioramento nella mia didattica, ho trovato solo i pro.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'uso dell'IA per trovare strategie di miglioramento nella didattica è visto come un elemento di arricchimento e innovazione."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Io penso che debba essere usata ma bisogna anche partecipare a corsi di formazione per il suo utilizzo",
+      "codes": [
+        "A1"
+      ],
+      "reason": "Riconosce la necessità di 'corsi di formazione' per un utilizzo corretto dell'IA."
+    }
+  ]
+}

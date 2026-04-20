@@ -1,0 +1,103 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_vini18.md",
+  "source_name": "insegnanti_attuali_vini18.md",
+  "title": "Risposta: Insegnanti in servizio - Record 339",
+  "group": "Insegnanti in servizio",
+  "record_code": "vini18",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:36:40.332716+00:00",
+  "record_dimensions": [
+    "P",
+    "S"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P5",
+    "P6",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per la creazione di materiali didattici (esercizi, riassunti) ma evidenzia limiti significativi in termini di accuratezza (S5) e necessità di supervisione umana (S6, S7).",
+  "code_counts": {
+    "P1": 4,
+    "P5": 4,
+    "P6": 1,
+    "S4": 1,
+    "S5": 1,
+    "S6": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT per la formulazione di esercizi, BingAI per la generazione di immagini",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "Uso di ChatGPT per formulare esercizi e BingAI per generare immagini, indicando strumenti e materiali di supporto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Tenendo conto che per questo esercizio la lettera “n” minuscola indica il numero di moli, creami un esercizio incentrato su una titolazione acido forte-base forte (HCl e NaOH) per ricavare la concentrazione di un campione incognito di 50 mL di NaOH al quale sono stati aggiunti X moli (nello specifico 29,7 mL di HCl 0,2 molare colato da una buretta). Come indicatore universale viene utilizzata fenolftaleina. Mostrami i passaggi e spiegami le motivazioni di ogni calcolo.",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Richiesta di un esercizio dettagliato (titolazione) con spiegazione dei passaggi e motivazioni, che è un materiale didattico/supporto."
+    },
+    {
+      "index": 3,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Purtroppo per i miei studenti l’utilizzo delle IA ha solo peggiorato il loro apprendimento. Molto spesso inseriscono input grammaticalmente scorretti, oppure inseriscono informazioni sballate per la risoluzione di esercizi. Capita sempre che qualcuno non riesca a tirare fuori da una risposta l’effettivo procedimento utilizzato dall’IA.",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Gli studenti inseriscono input scorretti o informazioni sballate, e non riescono a estrarre il procedimento effettivo dall'IA."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Principalmente mi aiuta a creare esercizi e a riassumere argomenti calibrati sul livello della classe.",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "L'IA aiuta a creare esercizi e a riassumere argomenti calibrati sul livello della classe."
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Molti colleghi sono poco aperti all’utilizzo di IA, sopratutto la dirigenza dell’istituto dove insegno.",
+      "codes": [],
+      "reason": "La difficoltà riscontrata è di natura istituzionale (colleghi e dirigenza) e non legata all'uso o all'implementazione tecnica degli strumenti."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Negli esercizi più complessi mi capita sempre di dover correggere l’applicazione di alcune formule (es: calcolo sul diametro e sul quantitativo di tubi da utilizzare in una distillazione con raffreddamento in controcorrente)",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Necessità di correggere l'applicazione di formule complesse, indicando che l'IA non è sufficiente per esercizi complessi."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Principalmente tutte le pratiche legate al relazionarsi con gli studenti, la correzione di esercizi ed il supporto psicologico",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "Non raccomandare l'uso dell'IA per relazionarsi con gli studenti, la correzione di esercizi e il supporto psicologico (ambiti off-limits)."
+    }
+  ]
+}

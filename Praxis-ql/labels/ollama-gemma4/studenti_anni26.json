@@ -1,0 +1,109 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_anni26.md",
+  "source_name": "studenti_anni26.md",
+  "title": "Risposta: Studenti - Record 180",
+  "group": "Studenti",
+  "record_code": "Anni26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:53:04.953155+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per svolgere compiti e semplificare testi, mostrando consapevolezza dei rischi di delega e di non sviluppare competenze.",
+  "code_counts": {
+    "P6": 1,
+    "P7": 1,
+    "S2": 3,
+    "S4": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“”",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché mi aiuta a svolgere i compiti",
+      "codes": [
+        "P6",
+        "S2"
+      ],
+      "reason": "Usa ChatGPT per svolgere i compiti, indicando un uso che può portare a delegare il lavoro."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Svolgi questi esercizi",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Il prompt fornito ('Svolgi questi esercizi') è un esempio di prompt visibile."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplifica testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a semplificare i testi, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Semplificando i testi riesci a comprenderli meglio",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La semplificazione dei testi permette una migliore comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che mi aiuta nei compiti e i contro che non mi applico come dovrei",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Riconosce che l'IA aiuta nei compiti (pro) ma che non si applica come dovrebbe (contro), suggerendo un rischio di delega."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere testi perché non sviluppi competenze importanti",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomanda di scrivere testi perché questo non sviluppa competenze importanti, indicando un rischio di plagio/delegazione e perdita di pensiero critico."
+    }
+  ]
+}

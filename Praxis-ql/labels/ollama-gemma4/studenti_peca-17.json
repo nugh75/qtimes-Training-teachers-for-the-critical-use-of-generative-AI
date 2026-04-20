@@ -1,0 +1,49 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_peca-17.md",
+  "source_name": "studenti_peca-17.md",
+  "title": "Risposta: Studenti - Record 196",
+  "group": "Studenti",
+  "record_code": "Peca 17",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:25:06.964903+00:00",
+  "record_dimensions": [
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S4"
+  ],
+  "record_note": "Il partecipante esprime una chiara resistenza all'uso dell'IA nello studio, preferendo un apprendimento autonomo e non mediato.",
+  "code_counts": {
+    "R5": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché non voglio",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Perché voglio imparare senza intelligenza artificiale",
+      "codes": [
+        "R5",
+        "S4"
+      ],
+      "reason": "Il partecipante rifiuta l'uso dell'IA per imparare, indicando una scelta epistemica o resistenza consapevole (R5) e un rifiuto di delegare il processo di apprendimento (S4)."
+    }
+  ]
+}

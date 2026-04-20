@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_osta30.md",
+  "source_name": "studenti_osta30.md",
+  "title": "Risposta: Studenti - Record 101",
+  "group": "Studenti",
+  "record_code": "OSTA30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:24:33.460794+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "R2",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA per colmare lacune informative e semplificare contenuti, ma mostra consapevolezza dei limiti teorici e del rischio di dipendenza/plagio.",
+  "code_counts": {
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "R2": 1,
+    "S2": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (Chat GPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trovare info che non trovo nei manuali",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per trovare informazioni non presenti nei manuali, personalizzando lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi questo testo",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio di prompt ('Riassumi questo testo') rientra nelle strategie operative di produzione (riassunti)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi semplifica le informazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a semplificare le informazioni, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non trovavo una soluzione precisa sulle slides del professore (numero di item di u test) e mi ha aiutato",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA ha fornito una soluzione specifica a un problema di studio non coperto dalle slide, personalizzando l'aiuto."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa (Nessuna difficoltà)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizza l’apprendimento di info,  Contro: non conosco la teoria",
+      "codes": [
+        "X1",
+        "R2"
+      ],
+      "reason": "Vede un pro (velocizzazione dell'apprendimento) e un contro (mancanza di teoria, indicando un gap di conoscenza)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Risolvere test, perché in quel caso stai falsando un documento e inoltre non impari cose fondamentali per la tua preparazione futura",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia di risolvere test perché si sta 'falsando un documento' (S2) e non si imparano 'cose fondamentali' (S4)."
+    }
+  ]
+}

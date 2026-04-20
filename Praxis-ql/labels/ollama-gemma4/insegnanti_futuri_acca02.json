@@ -1,0 +1,132 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_acca02.md",
+  "source_name": "insegnanti_futuri_acca02.md",
+  "title": "Risposta: Insegnanti pre-service - Record 93",
+  "group": "Insegnanti pre-service",
+  "record_code": "ACCA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:38:41.374562+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "S3",
+    "S4",
+    "S5",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Partecipante pre-service che utilizza l'IA principalmente per lo studio personale (tesi) e per la preparazione di materiali didattici, ma non ha esperienza di insegnamento formale.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "S3": 1,
+    "S4": 2,
+    "S5": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"_\"",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "secondo me è valida per tutto",
+      "codes": [],
+      "reason": "Risposta generica e non specifica su strumenti o perché sono preferiti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "non ho mai insegnato",
+      "codes": [],
+      "reason": "Risposta che indica di non aver mai insegnato."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "non ho mai insegnato",
+      "codes": [],
+      "reason": "Risposta che indica di non aver mai insegnato."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "se avessi una classe a cui dovrò sottoporre una verifica chiedere: Devo elaborare una verifica per la mia classe di seconda superiore con tema ciclo dell'acqua, sono riuscita a trattare l'argomento e ti sottopongo il programma che ho seguito, elabora un test dove ci sono 4 domande a risposta multipla e 6 a risposta aperta. cerca di essere chiaro nella domande aperte e dammi una possibile griglia di valutazione.",
+      "codes": [
+        "P1",
+        "P4",
+        "P5",
+        "P7"
+      ],
+      "reason": "L'utente fornisce un esempio di prompt per elaborare una verifica (P7), che richiede la creazione di test (P1) e la griglia di valutazione (P5), simulando un'interrogazione (P4)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "io non insegno, ma a me è stata molto utile sia nella comprensione di alcune lezioni, che nella schematizzazione ma anche nella traduzione e ricerca di articoli scientifici per la mia tesi.",
+      "codes": [
+        "P5",
+        "P6",
+        "X2"
+      ],
+      "reason": "L'IA è stata utile per la schematizzazione (P5), la traduzione e la ricerca di articoli scientifici per la tesi (P6), migliorando la comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "semplificando la didattica e adattandola alla classe",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA aiuta 'semplificando la didattica e adattandola alla classe', indicando personalizzazione (P2) e attenzione al singolo (X3)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "non insegno",
+      "codes": [],
+      "reason": "Risposta che indica di non aver mai insegnato."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono tantissimi, se usata nel modo corretto aiuta sia il docente che gli alunni, bisogna però saperla usare, quindi i contro purtroppo sono tanti, perchè semplifica anche troppo la vita degli studenti",
+      "codes": [
+        "S4",
+        "S3"
+      ],
+      "reason": "Il contro è che 'semplifica anche troppo la vita degli studenti', suggerendo un rischio di erosione del pensiero critico (S4) e omologazione (S3)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "secondo me non dovrebbe essere usata dai ragazzi per fare riassunti o ragionamenti",
+      "codes": [
+        "S5",
+        "S4"
+      ],
+      "reason": "Non dovrebbe essere usata dai ragazzi per fare riassunti o ragionamenti, suggerendo che questi compiti potrebbero portare a informazioni imprecise (S5) o a un calo del pensiero critico (S4)."
+    }
+  ]
+}

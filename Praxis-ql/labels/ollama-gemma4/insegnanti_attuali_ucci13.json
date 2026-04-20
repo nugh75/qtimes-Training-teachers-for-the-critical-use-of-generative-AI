@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ucci13.md",
+  "source_name": "insegnanti_attuali_ucci13.md",
+  "title": "Risposta: Insegnanti in servizio - Record 113",
+  "group": "Insegnanti in servizio",
+  "record_code": "ucci13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:33:43.060594+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "R4",
+    "S6",
+    "X1",
+    "X3"
+  ],
+  "record_note": "Il partecipante mostra consapevolezza dei benefici (risparmio di tempo, personalizzazione) ma anche dei rischi (erosione relazionale) e ammette di avere lacune nelle proprie competenze di utilizzo dell'IA.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "R4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho mai provato",
+      "codes": [],
+      "reason": "Risposta non informativa (Non ho mai provato)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho le competenze",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Il partecipante cita la mancanza di competenze come motivo di non utilizzo, indicando un gap di competenza di prompting/uso."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I Pro sono il risparmio di tempo, la razionalizzazione, la progettazione di piani di lezione personalizzati che si adattano al ritmo e allo stile di apprendimento di ogni studente. I Contro sono la limitazione delle proprie capacità di sintesi ed elaborazione dei contenuti",
+      "codes": [
+        "X1",
+        "P2",
+        "X3"
+      ],
+      "reason": "Vengono citati il risparmio di tempo (X1) e la possibilità di creare piani di lezione personalizzati (P2, X3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Il rischio è l'isolamento ed erosione delle relazioni umane: riduzione dell'apprendimento e del supporto cooperativo.",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Il partecipante evidenzia il rischio di isolamento e erosione delle relazioni umane, toccando la sostituzione del docente (S6) e l'importanza della relazione umana (I4)."
+    }
+  ]
+}

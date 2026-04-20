@@ -1,0 +1,59 @@
+---
+title: "insegnanti_futuri_erna24.md"
+record_code: "erna24"
+group: "Insegnanti pre-service"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:42:47.744729+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-pre-service
+  - praxis/dim/i
+  - praxis/dim/r
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/i2
+  - praxis/code/r4
+  - praxis/code/s7
+  - praxis/code/x2
+---
+
+# Risposta: Insegnanti pre-service - Record 80
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_erna24.md`
+
+**Record note**: Il partecipante è un insegnante pre-service che mostra consapevolezza sui limiti dell'IA (I2) e sull'importanza del prompting (R4).
+
+**Dimensions**: I, R, S, X
+
+**Subcodes**: I2, R4, S7, X2
+**Subcodes estesi**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.; S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S7**: Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+## Items
+
+### Item 1 · `-`
+- **Codici estesi**: -
+
+- **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+- **A**: Non sto insegnando al momento
+- **Reason**: La risposta indica semplicemente lo status lavorativo attuale, non fornendo né pro né contro dell'uso dell'IA in didattica.
+
+### Item 2 · `X2, R4, I2`
+- **Codici estesi**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: Utile per raccogliere informazioni, fare ricerche ecc...bisogna controllare le risposte per non incorrere in errori, conoscere come comunicare i prompt è fondamentale per non ricevere risposte falsate
+- **Reason**: L'utente cita l'IA per la ricerca (X2) e sottolinea l'importanza di controllare le risposte e di saper comunicare i prompt (R4, I2).
+
+### Item 3 · `S7`
+- **Codici estesi**: S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: Correzioni automatiche
+- **Reason**: L'utente cita le correzioni automatiche come pratica non raccomandata, indicando un ambito che va oltre l'uso didattico specifico (S7).

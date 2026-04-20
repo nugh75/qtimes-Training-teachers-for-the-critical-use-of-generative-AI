@@ -1,0 +1,160 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_agna09.md",
+  "source_name": "insegnanti_attuali_agna09.md",
+  "title": "Risposta: Insegnanti in servizio - Record 234",
+  "group": "Insegnanti in servizio",
+  "record_code": "agna09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:43:06.448214+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A3",
+    "I4",
+    "I5",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Il partecipante mostra una visione avanzata e critica dell'IA, riconoscendone i benefici didattici (personalizzazione, materiali) ma anche i limiti etici e strutturali (formazione, privacy, relazione umana).",
+  "code_counts": {
+    "A1": 1,
+    "A3": 1,
+    "I4": 2,
+    "I5": 2,
+    "P1": 2,
+    "P2": 7,
+    "P3": 2,
+    "P4": 2,
+    "P5": 3,
+    "X2": 2,
+    "X3": 6,
+    "X4": 2,
+    "X5": 3,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Quizizz ed Edpuzzle poichè i bambini ricevono feedback immediati, che li aiutano ad autocorreggersi e imparare in modo attivo. Canva  è molto funzionale per creare velocemente schede didattiche e infografiche per spiegare concetti difficili in modo visivo.",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "L'uso di Quizizz ed Edpuzzle fornisce feedback immediati (X2, X3) e Canva è usato per creare materiali visivi (P1, P5)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l' intelligenza artificiale per creare testi semplificati o tradotti, schede didattiche differenziate, mappe concettuali e test a risposta multipla con supporti visivi.",
+      "codes": [
+        "P2",
+        "P3",
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "L'IA viene usata per creare materiali differenziati (schede, mappe, test) e semplificati/tradotti (P2, P3, P5), supportando l'accesso e la comprensione (X2, X4)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Utilizzo l' intelligenza artificiale per offrire percorsi di approfondimento per incuriosire agli alunni, per proporre sfide cognitive graduate e incoraggiare ciascuno a esprimere una propria eccellenza, sia essa logico-matematica, linguistica o creativa.",
+      "codes": [
+        "P2",
+        "X3",
+        "X6"
+      ],
+      "reason": "L'IA viene usata per offrire percorsi di approfondimento e sfide cognitive graduate, promuovendo l'eccellenza e la personalizzazione (P2, X3, X6)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Un prompt che propongo è quello relativo alla creazione di una lezione coinvolgente e inclusiva sul ciclo dell' acqua: spiegazione chiara e semplice del ciclo dell’acqua;  immagine descrittiva che rappresenti il ciclo dell’acqua; video esplicativo (con link o suggerimenti); attività manipolativa (ad esempio, creare un modello o fare un esperimento semplice); test di comprensione per monitorare il livello raggiunto (adatte anche a bambini DSA e BES).\"",
+      "codes": [
+        "P1",
+        "P3",
+        "P4",
+        "P5",
+        "X4",
+        "X5"
+      ],
+      "reason": "Il prompt descrive la creazione di materiali didattici (P1), adatti a studenti fragili (P3), attività di test/comprensione (P4), e l'uso di vari supporti (P5), migliorando l'accesso e l'organizzazione (X4, X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L' I A mi permette di monitorare i progressi degli alunni in tempo reale e di intervenire tempestivamente con strategie didattiche mirate. L'uso dell'IA mi permette di proporre attività, come giochi o simulazioni, che rendono l'apprendimento più coinvolgente. Inoltre, mi consente di adattare i contenuti didattici alle esigenze individuali degli allievi.",
+      "codes": [
+        "P2",
+        "P4",
+        "X3",
+        "X6"
+      ],
+      "reason": "L'IA permette di monitorare i progressi e intervenire con strategie mirate (P4, X3), e di proporre attività coinvolgenti (P2, X6)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "L' intelligenza artificiale mi offre strumenti innovativi per personalizzare l'insegnamento, supportare ogni discente nel proprio percorso educativo e ottimizzare i tempi.",
+      "codes": [
+        "P2",
+        "X3",
+        "X5"
+      ],
+      "reason": "L'IA serve a personalizzare l'insegnamento (P2) e a supportare il percorso educativo e ottimizzare i tempi (X3, X5)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Le difficoltà che riscontro sono: una carente formazione di noi docenti e dispositivi non aggiornati.",
+      "codes": [
+        "A1",
+        "A3"
+      ],
+      "reason": "Le difficoltà riscontrate sono la carente formazione dei docenti (A1) e i dispositivi non aggiornati (A3)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono: personalizzazione del percorso educativo-didattico, apprendimento continuo, sviluppo di competenze digitali e monitoraggio e analisi dei progressi degli allievi. I contro sono: riduzione dell' interazione umana; dipendenza dalla tecnologia e preoccupazione inerente il rischio sulla privacy e sicurezza dei dati.",
+      "codes": [
+        "P2",
+        "X3",
+        "X5",
+        "I5",
+        "I4"
+      ],
+      "reason": "I pro includono la personalizzazione (P2, X3), il monitoraggio (X5), ma i contro evidenziano preoccupazioni sulla privacy (I5) e sulla riduzione dell'interazione umana (I4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "A mio avviso, l'intelligenza artificiale non dovrebbe mai sostituire la dimensione relazionale, che è essenziale nell'insegnamento, specialmente per quanto riguarda la comprensione, l'empatia e il supporto psicologico. L'integrazione dell'IA nell'educazione dovrebbe avvenire in modo equilibrato, tenendo in considerazione l'equità, la privacy e la personalizzazione del percorso didattico.",
+      "codes": [
+        "I4",
+        "I5",
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA non deve sostituire la dimensione relazionale (I4), e l'uso deve considerare l'equità, la privacy (I5) e la personalizzazione (P2, X3)."
+    }
+  ]
+}

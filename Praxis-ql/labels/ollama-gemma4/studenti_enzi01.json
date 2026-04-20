@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_enzi01.md",
+  "source_name": "studenti_enzi01.md",
+  "title": "Risposta: Studenti - Record 155",
+  "group": "Studenti",
+  "record_code": "Enzi01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:04:02.852927+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "R2",
+    "S2",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'utente mostra un uso attivo e consapevole dell'IA per migliorare lo studio, riconoscendo sia i benefici (X2) che i rischi (I2, S2).",
+  "code_counts": {
+    "I2": 2,
+    "P1": 1,
+    "P2": 1,
+    "P3": 1,
+    "P5": 1,
+    "P6": 1,
+    "R2": 2,
+    "S2": 1,
+    "X2": 4,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt, perché è facile da utilizzare e mi fornisce sempre risposte coerenti e complete, utili allo scopo",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "L'utente cita ChatGPT come strumento facile da usare che fornisce risposte coerenti e complete."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Traduzione di testi, richiesta di informazioni rispetto ad alcuni argomenti, organizzazione di appunti",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'utente usa l'IA per tradurre testi, cercare informazioni e organizzare appunti, elementi di personalizzazione e supporto allo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti darmi altre informazioni rispetto all’argomento x",
+      "codes": [],
+      "reason": "La risposta è troppo generica e non fornisce un esempio di prompt specifico."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Dandomi una visione più completa di un argomento",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA fornisce una visione più completa di un argomento, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Facendomi capire che alcune informazioni che avevo erano sbagliate",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA ha aiutato l'utente a correggere informazioni errate, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono sicuramente le informazioni in più che mi fornisce l’intelligenza artificiale, la traduzione simultanea e la ricerca di per esempio, articoli scientifici  I contro sono che è necessario controllare la provenienza per esempio di alcune informazione per verificare che siano giuste",
+      "codes": [
+        "P1",
+        "P3",
+        "R2",
+        "X2",
+        "I2"
+      ],
+      "reason": "Vengono citati pro (informazioni, traduzione, ricerca) e contro (necessità di controllare la provenienza delle informazioni). Questo indica l'uso di materiali di supporto (P1), supporto per NAI (P3), consapevolezza dei limiti (R2) e la necessità di verifica (I2)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Farsi scrivere per esempio un’intera tesi o testo dall’Ia senza controllare che le fonti siano reali ed abbiano basi scientifiche",
+      "codes": [
+        "S2",
+        "R2",
+        "I2"
+      ],
+      "reason": "L'utente sconsiglia di farsi scrivere intere tesi senza verificare le fonti, indicando il rischio di plagio (S2) e la necessità di controllo delle fonti (R2, I2)."
+    }
+  ]
+}

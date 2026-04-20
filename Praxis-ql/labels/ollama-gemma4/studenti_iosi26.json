@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iosi26.md",
+  "source_name": "studenti_iosi26.md",
+  "title": "Risposta: Studenti - Record 8",
+  "group": "Studenti",
+  "record_code": "iosi26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:12:38.807390+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "P4",
+    "P6",
+    "P7",
+    "S1",
+    "S4",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma è consapevole del rischio di dipendenza e della necessità di mantenere l'impegno umano.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "P4": 1,
+    "P6": 1,
+    "P7": 1,
+    "S1": 1,
+    "S4": 1,
+    "X2": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ne ho mai sentito il bisogno",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt, è immediato e molto utile",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona specificamente 'chat gpt' come strumento preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Mi faccio spiegare concetti che non ho capito, in maniera più semplice; oppure facendogli generare degli esempi.",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Spiega concetti in modo più semplice e genera esempi, indicando personalizzazione e semplificazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi fare un esempio di sovrascopo anti comunicativo? Grazie",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico ('Mi puoi fare un esempio di sovrascopo anti comunicativo?')."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi risponde con prontezza a qualsiasi domanda e mi aiuta a semplificare concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Aiuta a semplificare concetti e risponde con prontezza, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato a studiare per un esame universitario facendomi svolgere delle simulazioni per  essere pronta.",
+      "codes": [
+        "P4",
+        "X5"
+      ],
+      "reason": "Utilizza l'IA per simulazioni di esami universitari, supportando lo studio e l'autovalutazione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Agevola la mole di studio se usata correttamente, d'altra parte puo' sostituire l'impegno, caratteristica dell'essere umano",
+      "codes": [
+        "S1",
+        "I4"
+      ],
+      "reason": "Riconosce che l'IA può sostituire l'impegno umano (S1) e sottolinea l'importanza dell'essere umano (I4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Svolgere esercizi mirati teoricamente all'apprendimento del soggetto.",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Suggerisce che svolgere esercizi mirati teoricamente all'apprendimento non è raccomandato, implicando un rischio per il pensiero critico o l'apprendimento autonomo."
+    }
+  ]
+}

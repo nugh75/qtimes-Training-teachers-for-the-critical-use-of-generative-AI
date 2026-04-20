@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_usso09.md",
+  "source_name": "insegnanti_attuali_usso09.md",
+  "title": "Risposta: Insegnanti in servizio - Record 20",
+  "group": "Insegnanti in servizio",
+  "record_code": "usso09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:35:24.573485+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P4",
+    "P5",
+    "P6",
+    "S6",
+    "X2",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e esercizi che promuovono l'autonomia dello studente.",
+  "code_counts": {
+    "P1": 4,
+    "P4": 1,
+    "P5": 3,
+    "P6": 1,
+    "S6": 1,
+    "X2": 1,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT, Gemini: perché di utilizzo generale",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti di IA (ChatGPT, Gemini) per uso generale."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Es. per la ricerca di esempi realistici per svolgere degli esrecizi : es ricerca di valori tabulati di parametri biomedici che si prestino bene ad esempi di crosscorrelazione, ricerca di tabelle dei coefficienti di estinzione molare per simulare un esame spettrofotometrico",
+      "codes": [
+        "P1",
+        "P5",
+        "P4",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per trovare dati e tabelle per creare esempi e simulare esercizi (crosscorrelazione, spettrofotometrico)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non ho ancora fatto un particolare utilizzo dell'intelligenza artificiale per questo scopo.",
+      "codes": [],
+      "reason": "Risposta non informativa sull'uso per la personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Supponiamo di voler spiegare la correlazione multivariata, puoi fornirmi in forma tabulare i valori di quattro parametri biologici tra loro più o meni correlati positivamente o negativamente per 20 campioni?",
+      "codes": [
+        "P5",
+        "P1"
+      ],
+      "reason": "Formula un prompt specifico per ottenere dati tabulari (parametri biologici) per spiegare un concetto (correlazione multivariata)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L'IA ha permesso di costruire agevolmente degli esercizi da svolgere autonomamente da parte degli studenti, anche con l'utilzizo di un semplice foglio elettronico, che fossero verosimili, es. una heatmap della matrice di correlazione tra più parametri biolaboratoristico  realistici.",
+      "codes": [
+        "P1",
+        "P5",
+        "X5"
+      ],
+      "reason": "L'IA aiuta a costruire esercizi (heatmap, matrice di correlazione) che gli studenti possono svolgere autonomamente."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Costruendo delle tracce di esercizi che gli allievi possono sviluppare autonomamente.",
+      "codes": [
+        "P1",
+        "X5"
+      ],
+      "reason": "L'IA viene usata per costruire tracce di esercizi che gli allievi possono sviluppare autonomamente."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Al livello utilizzato nessuna.",
+      "codes": [],
+      "reason": "Risposta non informativa sulle difficoltà incontrate."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "A livello si strumento didattico non vedo contro. Non ho ancora esperienza a livello degli alievi.",
+      "codes": [],
+      "reason": "Non vengono identificati pro o contro specifici, solo una dichiarazione generale."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Abbandonare gli allievi all'uso autonomo dell'a IA",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Avverte di non abbandonare gli allievi all'uso autonomo dell'IA, implicando il ruolo necessario del docente."
+    }
+  ]
+}

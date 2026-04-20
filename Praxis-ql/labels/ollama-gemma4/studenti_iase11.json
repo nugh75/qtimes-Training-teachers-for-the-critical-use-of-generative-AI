@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iase11.md",
+  "source_name": "studenti_iase11.md",
+  "title": "Risposta: Studenti - Record 153",
+  "group": "Studenti",
+  "record_code": "iase11",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:10:16.027792+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P3",
+    "P5",
+    "P7",
+    "S2",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "L'utente mostra consapevolezza sull'uso dell'IA, riconoscendone i benefici (velocità, traduzione, spiegazione) ma anche i rischi di dipendenza e di sostituzione del pensiero critico.",
+  "code_counts": {
+    "P2": 1,
+    "P3": 3,
+    "P5": 2,
+    "P7": 1,
+    "S2": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT per la traduzione di una lingua non conosciuta e per la spiegazione di argomenti complessi",
+      "codes": [
+        "P3",
+        "P5"
+      ],
+      "reason": "Uso di ChatGPT per traduzione (P3) e spiegazione di argomenti complessi (P5)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Spiegazione di argomenti complessi, informazioni specifiche e nomi di ricerche",
+      "codes": [
+        "P2",
+        "P5"
+      ],
+      "reason": "Utilizzo dell'IA per spiegare argomenti complessi e trovare informazioni specifiche (personalizzazione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"Puoi spiegarmi in parole semplici il seguente argomento?\"; \"Puoi tradurmi il seguente testo in italiano?\"; \"Potresti elencarmi delle ricerche correlate al seguente argomento?\"",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce esempi di prompt specifici ('Puoi spiegarmi...', 'Puoi tradurmi...', 'Potresti elencarmi...')."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Spiegandomi in maniera semplice argomenti complessi che richiederebbero la consultazione di più libri e quindi maggior tempo. Inoltre, traducendo da tutte le lingue, mi aiuta a comprendere testi non scritti in lingua italiana o inglese.",
+      "codes": [
+        "P3",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere testi in lingue diverse (P3) e a spiegare argomenti complessi in modo semplice (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi sono ritrovata più volte a non comprendere o non trovare nei libri la spiegazione di un particolare argomento. Tramite l'IA sono riuscita a trovarlo e comprenderlo velocemente. Inoltre, nella stesura di una tesi o di un tema, in cui vengono utilizzate fonti di lingue diverse, mi è stata utilissima la traduzione in lingua italiana.",
+      "codes": [
+        "P3",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a trovare e comprendere argomenti difficili (X2) e a tradurre fonti in lingue diverse (P3)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono sicuramente la velocità e le varie attività a disposizione che aiutano lo studio. L'unico contro che posso riscontrare è proprio la facilità di ricerca e aiuto, che possono sfociare in un abuso dell'IA con diminuzione di autonomia e iniziativa nello studio.",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vantaggi (velocità, attività) e svantaggi (abuso, diminuzione di autonomia/iniziativa) menzionati."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Il risolvere quiz e test e nella stesura di tesi e temi. Secondo me è importante che l'uomo continui a ragionare, studiare e avere un proprio pensiero espresso in temi e tesi, in modo che l'IA sia un qualcosa di utile in più, non un sostituto di noi stessi.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomanda l'uso dell'IA per risolvere quiz/test o scrivere tesi/temi (S2), sottolineando l'importanza del pensiero umano (S4)."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+---
+title: "insegnanti_attuali_occa21.md"
+record_code: "occa21"
+group: "Insegnanti in servizio"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:17:46.949474+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-in-servizio
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/s1
+  - praxis/code/s4
+  - praxis/code/x1
+---
+
+# Risposta: Insegnanti in servizio - Record 273
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_occa21.md`
+
+**Record note**: Il partecipante mostra un livello di incertezza e scarsa consapevolezza sull'integrazione dell'IA nella didattica, riconoscendo solo i rischi teorici (S1, S4).
+
+**Dimensions**: S, X
+
+**Subcodes**: S1, S4, X1
+**Subcodes estesi**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.; S4 — Erosione del pensiero critico.; X1 — Efficienza e risparmio di tempo.
+
+## Legenda codici del record
+
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S4**: Erosione del pensiero critico.
+- **X1**: Efficienza e risparmio di tempo.
+
+## Items
+
+### Item 1 · `-`
+- **Codici estesi**: -
+
+- **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+- **A**: Ancora non mi è chiaro come utilizzarla nella mia materia
+- **Reason**: Espressione di incertezza sull'uso dell'IA nella materia, non un'azione o una strategia specifica.
+
+### Item 2 · `-`
+- **Codici estesi**: -
+
+- **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+- **A**: Ancora non mi è chiaro come trarre vantaggio dall'IA nell'insegnamento delle discipline giuridiche ed economiche
+- **Reason**: Espressione di incertezza su come trarre vantaggio dall'IA, non un'azione o una strategia specifica.
+
+### Item 3 · `S4, X1, S1`
+- **Codici estesi**: S4 — Erosione del pensiero critico.; X1 — Efficienza e risparmio di tempo.; S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: Può essere utile per velocizzare una ricerca, per approfondire argomenti ma si rischia di delegare troppo all'IA e non allenare il nostro cervello
+- **Reason**: Riconosce l'utilità per velocizzare la ricerca (X1), ma evidenzia il rischio di delegare troppo all'IA e non allenare il cervello (S1, S4).
+
+### Item 4 · `-`
+- **Codici estesi**: -
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: Ne so troppo poco per dare una risposta corretta
+- **Reason**: Risposta di incertezza e mancanza di conoscenza specifica.

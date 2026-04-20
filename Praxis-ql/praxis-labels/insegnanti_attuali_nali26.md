@@ -1,0 +1,109 @@
+---
+title: "insegnanti_attuali_nali26.md"
+record_code: "NALI26"
+group: "Insegnanti in servizio"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:15:21.496537+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-in-servizio
+  - praxis/dim/i
+  - praxis/dim/p
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/i4
+  - praxis/code/p2
+  - praxis/code/p3
+  - praxis/code/p5
+  - praxis/code/s7
+  - praxis/code/x1
+  - praxis/code/x3
+  - praxis/code/x4
+---
+
+# Risposta: Insegnanti in servizio - Record 338
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_nali26.md`
+
+**Record note**: L'uso principale è focalizzato sull'accessibilità (alunni stranieri) e sulla pianificazione didattica, con un riconoscimento limitato dei benefici e dei limiti dell'IA.
+
+**Dimensions**: I, P, S, X
+
+**Subcodes**: I4, P2, P3, P5, S7, X1, X3, X4
+**Subcodes estesi**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.; X1 — Efficienza e risparmio di tempo.; X3 — Personalizzazione e attenzione al singolo.; X4 — Inclusione e accesso.
+
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P3**: Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **S7**: Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+- **X1**: Efficienza e risparmio di tempo.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X4**: Inclusione e accesso.
+
+## Items
+
+### Item 1 · `P3, X4`
+- **Codici estesi**: P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; X4 — Inclusione e accesso.
+
+- **Q**: Quali sono i tuoi strumenti preferiti e perché?
+- **A**: Traduttore simultaneo per comunicare più efficacemente possibile con alunni stranieri appena arrivati in Italia.
+- **Reason**: Uso del traduttore simultaneo per comunicare con alunni stranieri (NAI).
+
+### Item 2 · `P2, X3`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+
+- **Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+- **A**: Chiedo spunti indicando la situazione specifica del singolo ragazzo
+- **Reason**: Chiedere spunti indicando la situazione specifica del singolo ragazzo per l'individualizzazione.
+
+### Item 3 · `P2, X3`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+
+- **Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+- **A**: Chiedo spunti indicando la situazione specifica del singolo ragazzo
+- **Reason**: Chiedere spunti indicando la situazione specifica del singolo ragazzo per la personalizzazione.
+
+### Item 4 · `P5`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+
+- **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+- **A**: Crea una tabella di valutazione per questo progetto:
+- **Reason**: Creazione di una tabella di valutazione, che è una strategia di produzione di materiali.
+
+### Item 5 · `-`
+- **Codici estesi**: -
+
+- **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+- **A**: Non ancora
+- **Reason**: Risposta non informativa.
+
+### Item 6 · `-`
+- **Codici estesi**: -
+
+- **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+- **A**: Non ancora
+- **Reason**: Risposta non informativa.
+
+### Item 7 · `-`
+- **Codici estesi**: -
+
+- **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+- **A**: Spiegare precisamente i bisogni
+- **Reason**: Risposta troppo generica e non specifica.
+
+### Item 8 · `P5, X1`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X1 — Efficienza e risparmio di tempo.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: PRO: aiuto per l' insegnante nell'elaborazione  CONTRO: non ho ancora trovato il modo per aiutare i ragazzi
+- **Reason**: Riconosce l'aiuto per l'elaborazione (P5) e il risparmio di tempo/sforzo (X1).
+
+### Item 9 · `S7, I4`
+- **Codici estesi**: S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: La valutazione, che a mio parere deve tener conto anche della persona
+- **Reason**: Sottolinea che la valutazione deve tenere conto della persona, indicando un ambito off-limits (valutazione) e la necessità di giudizio umano (I4).

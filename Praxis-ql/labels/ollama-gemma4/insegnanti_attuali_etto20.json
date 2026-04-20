@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etto20.md",
+  "source_name": "insegnanti_attuali_etto20.md",
+  "title": "Risposta: Insegnanti in servizio - Record 82",
+  "group": "Insegnanti in servizio",
+  "record_code": "etto20",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:02:14.899749+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R5",
+    "S3",
+    "S4",
+    "X1"
+  ],
+  "record_note": "L'intervistato esprime una posizione critica e cauta sull'uso dell'IA, preferendo metodologie tradizionali e sottolineando i rischi di perdita di creatività e capacità di ragionamento.",
+  "code_counts": {
+    "I4": 1,
+    "R5": 1,
+    "S3": 1,
+    "S4": 2,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non la ritengo necessaria per le mie attivita didattiche",
+      "codes": [],
+      "reason": "Rifiuto di utilizzo dell'IA per le attività didattiche."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "considerata l'età dei miei alunni preferisco adottare metodologie basate sulla scoperta utilizzando i campi di esperienza e i sensi",
+      "codes": [
+        "R5",
+        "I4"
+      ],
+      "reason": "Preferenza per metodologie basate sulla scoperta e sui sensi, indicando una scelta pedagogica consapevole (R5) e valorizzando l'esperienza umana (I4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro i messaggi arrivano prima e tutto diventa piu veloce i contro si perde la capacità di ragionare davanti ad un ostacolo per poterlo risolvere",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Riconosce l'efficienza (X1) ma anche la perdita della capacità di ragionare e risolvere problemi (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non si dovrebbe usare per la realizzazione di testi o storie perche annulla la fantasia e la creatività che ogni bambino in età di scuola materna dovrebbe accrescere",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Non raccomanda l'uso dell'IA per testi/storie perché annulla la fantasia e la creatività (S3) e la capacità di accrescere il pensiero (S4)."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ucci19.md",
+  "source_name": "studenti_ucci19.md",
+  "title": "Risposta: Studenti - Record 156",
+  "group": "Studenti",
+  "record_code": "ucci19",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:32:25.711300+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "S1",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per migliorare l'organizzazione e la comprensione, ma è consapevole dei rischi di dipendenza e perdita di pensiero critico.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P6": 1,
+    "R4": 1,
+    "S1": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Assistenti vocali e chatgpt (comodità e velocità)",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Elenca strumenti (assistenti vocali, chatgpt) e ne cita la comodità e velocità (efficienza)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Approfondimenti e organizzazione",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per approfondimenti e organizzazione, che sono forme di personalizzazione dello studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Protresti aiutarmi a schematizzare un determinato argomento ? Mi aiuteresti a trovare la correlazione tra … e …",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Esempi di prompt che chiedono di schematizzare e trovare correlazioni, indicando capacità di prompting."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Attraverso ad esempio schematizzazione o approfondimento di argomenti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta con schematizzazione e approfondimento, migliorando la comprensione e l'organizzazione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Magari trovando informazioni, non facilmente reperibili altrove",
+      "codes": [
+        "P1",
+        "X5"
+      ],
+      "reason": "L'IA aiuta a trovare informazioni non facilmente reperibili, supportando l'accesso al materiale di studio."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Poco",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il rischio principale per me è l’abuso, rischiando di sostituire ciò che potrebbe essere svolto da noi ma per comodità farlo svolgere dall’AI",
+      "codes": [
+        "S1",
+        "S6"
+      ],
+      "reason": "Rischio di abuso che porta a sostituire attività che dovrebbero essere svolte dallo studente (dipendenza/pigrizia) e potenzialmente la relazione educativa."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La sostituzione di ragionamento",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Identifica il rischio di sostituire il ragionamento, che è un'erosione del pensiero critico."
+    }
+  ]
+}

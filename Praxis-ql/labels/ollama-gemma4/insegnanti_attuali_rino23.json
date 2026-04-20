@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rino23.md",
+  "source_name": "insegnanti_attuali_rino23.md",
+  "title": "Risposta: Insegnanti in servizio - Record 236",
+  "group": "Insegnanti in servizio",
+  "record_code": "RINO23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:26:39.497635+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I5",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per adattare e personalizzare i contenuti didattici, ma segnala carenze formative e preoccupazioni sulla privacy.",
+  "code_counts": {
+    "A1": 1,
+    "I5": 1,
+    "P2": 4,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "X3": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Strumenti che consentono la creazione di video presentazioni",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Riferimento a strumenti per la creazione di video presentazioni."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Rielaborazione di contenuti per studenti con difficoltà di apprendimento",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Rielaborare contenuti per studenti con difficoltà è un adattamento didattico (P2) che mira all'attenzione al singolo (X3)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di lezioni semplificate",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creare lezioni semplificate è un adattamento didattico (P2) che mira a potenzialità individuali (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Genera un itinerario di viaggio",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Generare un itinerario di viaggio è un esempio di riscrittura o visualizzazione di contenuti (P5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha fornito supporto per i compiti più complessi",
+      "codes": [
+        "P4"
+      ],
+      "reason": "Il supporto per compiti complessi è un esempio di tutoraggio o chiarimento (P4)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Offre numerose alternative",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Offrire 'numerose alternative' implica la possibilità di adattare percorsi e contenuti (P2) per diversi studenti (X3)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Scarsa formazione",
+      "codes": [
+        "A1"
+      ],
+      "reason": "La difficoltà riscontrata è la 'scarsa formazione', indicando assenza di formazione formale (A1)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: fornisce molteplici possibilità per la personalizzazione dei percorsi degli studenti. CONTRO: rischio per la privacy",
+      "codes": [
+        "P2",
+        "X3",
+        "I5"
+      ],
+      "reason": "La personalizzazione dei percorsi (P2, X3) è un pro, mentre il rischio per la privacy è una preoccupazione di affidamento dei dati (I5)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa ('Non lo so')."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nari23.md",
+  "source_name": "studenti_nari23.md",
+  "title": "Risposta: Studenti - Record 96",
+  "group": "Studenti",
+  "record_code": "nari23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:19:26.022401+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "S6",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per semplificare e migliorare la comprensione dei materiali di studio e per la rielaborazione degli appunti.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 2,
+    "S6": 2,
+    "X2": 3,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "non li ho",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "gli allego dei file e gli faccio riscrivere meglio i miei appunti se sono stati presi in maniera poco precisa",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Riscrivere appunti per migliorarne la comprensione e la personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chat, rendi i miei appunti più semplici e discorsivi",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Richiesta di semplificazione e resa discorsiva degli appunti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perchè mi aiuta a capire le cose che non capisco",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a capire concetti non compresi, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi spiega le cose che non capisco in maniera più semplice finchè non capisco",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Spiegazione di concetti difficili in modo più semplice fino alla comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Nessuna difficoltà riportata."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro dell'intelligenza artificiale sono che ti aiuta a capire ciò che non hai capito in maniera più semplice, i contro è l'utilizzo dell'intelligenza artificiale in ambito scolastico, mandandole foto di compiti a cui deve rispondere, far rispondere a chat gpt al posto nostro",
+      "codes": [
+        "X2",
+        "S6"
+      ],
+      "reason": "Pro: aiuta a capire in modo semplice (X2). Contro: far rispondere l'IA al posto dello studente (S6)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fornire i risultati dei compiti al posto degli studenti",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Non raccomandare di fornire i risultati dei compiti al posto degli studenti."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ella06.md",
+  "source_name": "insegnanti_attuali_ella06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 139",
+  "group": "Insegnanti in servizio",
+  "record_code": "ELLA06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:54:54.916245+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e per l'adattamento dei percorsi (BES, UDA), riconoscendone l'efficienza ma evidenziando i limiti nella personalizzazione e nel processo di risoluzione dei problemi.",
+  "code_counts": {
+    "P1": 3,
+    "P2": 2,
+    "P5": 3,
+    "P7": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 3,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "*-*",
+      "codes": [],
+      "reason": "Risposta non informativa ('-*')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "TUTTI",
+      "codes": [],
+      "reason": "Risposta troppo generica ('TUTTI') senza specificare strumenti o motivazioni."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "CREARE VERIFICHE PARALLELE CHE COMPRENDANO LE STESSE COMPETENZE . PERCORSI FACILITATI PER BES. PROGETTARE UDA.",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "Creare verifiche e percorsi facilitati per BES e UDA implica la produzione di materiali e l'adattamento dei percorsi didattici."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "NON SI PUO' CON L'INTELLIGENZA ARTIFICIALE OCCORRE LA PERSONALIZZAZIONE CON FEEDBACK IMMEDIATO.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'utente afferma che la personalizzazione è difficile da ottenere con l'IA, ma riconosce il bisogno di adattamento (personalizzazione) e feedback immediato."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "SEI UN DOCENTE DI MATEMATICA DEL SECONDO LICEO .....",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di prompt iniziale ('SEI UN DOCENTE DI MATEMATICA DEL SECONDO LICEO...')."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "HA SEMPLIFICATO IL MIO LAVORO CREANDO FACILMENTE TEST E APPUNTI SEMPLIFICATI ANCHE PER BES, PERMETTENDO DI INSERIRE MOLTI PIU' ESEMPI.",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "L'IA ha semplificato il lavoro creando test e appunti semplificati per BES e inserendo più esempi, migliorando comprensione e adattamento."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "SEMPLIFICA IL LAVORO. HO INSEGNATO AI STUDENTI AD UTILIZZARLA PER APPROFONDIMENTI E CREAZIONE DI ESERCIZI PER PREPARARSI ALLE VERIFICHE.",
+      "codes": [
+        "P1",
+        "P5",
+        "X1",
+        "X5"
+      ],
+      "reason": "L'IA semplifica il lavoro e viene usata per creare esercizi e approfondimenti per prepararsi alle verifiche, supportando lo studio."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "NESSUNA ANCHE SE ALCUNI STUDENTI NON NE COLGONO IN PIENO L'UTILITA'",
+      "codes": [],
+      "reason": "Non vengono riportate difficoltà specifiche nell'implementazione."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "EVITARE DI SFORZARSI PER TRVARE SOLUZIONI AI PROBLEMI",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il contro evidenziato è 'EVITARE DI SFORZARSI PER TRVARE SOLUZIONI AI PROBLEMI', che indica un rischio di erosione del pensiero critico."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I RISOLUTORI DI PROBLEMI MEDIANTE FOTO",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Non raccomanda l'uso di risolutori di problemi tramite foto, che rientra in ambiti che richiedono un processo cognitivo non delegabile (matematica/risoluzione problemi)."
+    }
+  ]
+}

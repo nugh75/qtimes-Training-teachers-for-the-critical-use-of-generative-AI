@@ -1,0 +1,64 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_loni01.md",
+  "source_name": "insegnanti_attuali_loni01.md",
+  "title": "Risposta: Insegnanti in servizio - Record 38",
+  "group": "Insegnanti in servizio",
+  "record_code": "Loni01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:13:23.227995+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S7",
+    "X7"
+  ],
+  "record_note": "L'insegnante mostra una diffidenza verso l'IA, preferendo metodi di ricerca tradizionali e limitandone l'uso a contesti molto specifici, rifiutando l'uso in valutazione e progettazione.",
+  "code_counts": {
+    "R5": 2,
+    "S7": 1,
+    "X7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco ricerca contenuti più analitica che ha lo svantaggio/vantaggio della dispersività, rispetto alla prospettiva sintetica dell'AI. Si impegna più tempo con i motori di ricerca tradizionali ma lungo il percorso incontri contenuti e associazioni dispersive e anche errori che aprono nuove domande.",
+      "codes": [
+        "R5",
+        "X7"
+      ],
+      "reason": "Preferisce la ricerca analitica e dispersiva dei motori di ricerca tradizionali rispetto alla sintesi dell'AI, indicando un uso condizionato."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché la userei solo per fornire contenuti già sistematizzati o sintetici che invece mi interessa costruire condizionando al tipo di classe e di rapporto che ho con studenti",
+      "codes": [
+        "R5",
+        "X7"
+      ],
+      "reason": "Limita l'uso dell'IA solo a contenuti già sistematizzati o sintetici, preferendo costruire i contenuti in base alla classe e al rapporto con gli studenti."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienza",
+      "codes": [],
+      "reason": "Non ha esperienza di utilizzo dell'IA in didattica."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbero essere usate le pratiche di valutazione e progettazione",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Indica che le pratiche di valutazione e progettazione non dovrebbero essere usate nell'insegnamento."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ardi01.md",
+  "source_name": "studenti_ardi01.md",
+  "title": "Risposta: Studenti - Record 149",
+  "group": "Studenti",
+  "record_code": "ARDI01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:54:04.076617+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "R2",
+    "R4",
+    "S2",
+    "S4",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "L'utente utilizza l'IA principalmente per semplificare concetti e riassumere informazioni, mostrando consapevolezza sui limiti e sui rischi di dipendenza.",
+  "code_counts": {
+    "P1": 3,
+    "P2": 2,
+    "P5": 3,
+    "R2": 2,
+    "R4": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 3,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Riassumere, rilevare testo da foto per prendere appunti, imparare nuovi termini in modo semplici",
+      "codes": [
+        "P1",
+        "P5",
+        "X2"
+      ],
+      "reason": "Riassumere e rilevare testo da foto per prendere appunti sono materiali di supporto e strategie di semplificazione."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "riassunti o spiegazioni di concetti complicati",
+      "codes": [
+        "P2",
+        "P1",
+        "X3"
+      ],
+      "reason": "L'uso di riassunti o spiegazioni per concetti complicati è un esempio di personalizzazione e produzione di materiali didattici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "sulla base del testo fornito, e senza aggiungere ulteriori dettagli, semplifica questo concetto",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "L'istruzione fornita è un esempio di strategia di produzione (semplificazione) e dimostra capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Spiega concetti in modo semplice tutte le volte che glielo chiedi, in base alle informazioni che si ritengono salienti",
+      "codes": [
+        "P2",
+        "P1",
+        "X2"
+      ],
+      "reason": "Spiegare concetti in modo semplice e focalizzarsi su informazioni salienti indica personalizzazione e semplificazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Semplifica il testo o concetti più complessi, aiutandomi a comprendere meglio",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Semplificare testi o concetti complessi è una strategia di produzione che mira alla comprensione."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: se usato in modo corretto può aiutare a comprendere meglio o a imparare nuove cose. Contro: un abuso può limitare le proprie conoscenze e competenze, affidandosi troppo ai sistemi di ia.",
+      "codes": [
+        "R2",
+        "S4",
+        "X7"
+      ],
+      "reason": "Il partecipante menziona sia i benefici (comprensione) che i rischi (abuso che limita le conoscenze), riflettendo sulla competenza teorica e il bisogno di controllo umano."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "affidarsi completamente ad un sistema ia per scrivere tesi o produzioni che dovrebbero essere proprie, frutto delle proprie capacità ed esperienze.",
+      "codes": [
+        "S2",
+        "R2"
+      ],
+      "reason": "Avvertimento contro l'affidarsi completamente all'IA per produzioni proprie (tesi), indicando un rischio di plagio e una consapevolezza sui limiti dell'IA."
+    }
+  ]
+}

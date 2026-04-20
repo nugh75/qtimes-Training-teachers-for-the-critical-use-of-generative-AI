@@ -1,0 +1,130 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nomo27.md",
+  "source_name": "studenti_nomo27.md",
+  "title": "Risposta: Studenti - Record 46",
+  "group": "Studenti",
+  "record_code": "nomo27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:21:31.209394+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "S1",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente è consapevole dei benefici (efficienza, personalizzazione) ma anche dei rischi (pigrizia, dipendenza) dell'IA nello studio.",
+  "code_counts": {
+    "P2": 2,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S1": 2,
+    "S2": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "l’applicazione di chatgpt è la mia preferita, perche è veloce e sempre alla mia portata",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "L'utente cita ChatGPT come strumento preferito per la sua disponibilità e velocità."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "trovando sinonimo o parole di un registro piu ato e adatto ala situazione",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per trovare sinonimi o registri linguistici più adatti, personalizzando il linguaggio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“trovami sinonimi di milizie”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico ('trovami sinonimi di milizie'), dimostrando la capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiega a parole piu semplici",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere concetti spiegati in modo più semplice, migliorando l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "specialmente per preparare esami orali in cui lo studio deve essere piu approfondito, molti paragrafi non chiari sono riuscita a capirli in poco tempo.",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "L'IA è usata per preparare esami orali e per comprendere rapidamente paragrafi complessi."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "poche perché è veramente efficace, ma una di queste è sicuramente la “pigrizia” o la “superficialità” che si rischia di creare sapendo di poter usare l’IA",
+      "codes": [
+        "S1",
+        "S4"
+      ],
+      "reason": "Riconosce il rischio di 'pigrizia' e 'superficialità' derivanti dall'uso dell'IA."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: efficienza ed efficacia, velocita. contro: pigrizia, rischi di adagiarsi troppo sull’IA",
+      "codes": [
+        "X1",
+        "S1"
+      ],
+      "reason": "Elenca i pro (efficienza, velocità) e i contro (pigrizia, adagiarsi sull'IA)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "sicuramente per scrivere teso, tesine o elaborati. Ma anche per risolvere esercizi che invece bisognerebbe fare con la propria testa",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia l'uso dell'IA per scrivere elaborati (tesi) o per risolvere esercizi che richiedono sforzo mentale personale."
+    }
+  ]
+}

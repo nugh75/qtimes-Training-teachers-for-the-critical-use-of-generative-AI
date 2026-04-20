@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ibus23.md",
+  "source_name": "studenti_ibus23.md",
+  "title": "Risposta: Studenti - Record 137",
+  "group": "Studenti",
+  "record_code": "ibus23",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:10:31.328139+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P5",
+    "S1",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per compiti di supporto (riassunti, traduzioni) e ne percepisce il rischio di dipendenza.",
+  "code_counts": {
+    "P5": 1,
+    "S1": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "solitamente uso la chat per porre domande",
+      "codes": [],
+      "reason": "La risposta è generica e non specifica l'uso di strumenti o tecniche di studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "aiutandomi con riassunti o la traduzione di testi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'uso di riassunti e traduzioni è una strategia operativa (P5) che aiuta a velocizzare la comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta nel velocizzare vari compiti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Il beneficio percepito è la velocizzazione dei compiti, che si traduce in una maggiore comprensione o efficienza (X2)."
+    },
+    {
+      "index": 4,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Forse rende le persone più pigre nello svolgere certi compiti",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Il partecipante identifica il rischio di pigrizia o dipendenza (S1) nell'uso degli strumenti."
+    }
+  ]
+}

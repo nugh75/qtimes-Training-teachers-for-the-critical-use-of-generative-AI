@@ -1,0 +1,108 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_etta07.md",
+  "source_name": "studenti_etta07.md",
+  "title": "Risposta: Studenti - Record 13",
+  "group": "Studenti",
+  "record_code": "etta07",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:05:25.233233+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S4",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente percepisce l'IA come uno strumento di grande efficienza e velocità, ma è consapevole del rischio di dipendenza e perdita di sforzo cognitivo.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "S4": 2,
+    "X1": 3,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatGPT perché risponde a qualsiasi cosa in pochissimo tempo",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Usa ChatGPT per la rapidità di risposta."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "partendo dai miei appunti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza i propri appunti per personalizzare lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "i miei appunti",
+      "codes": [],
+      "reason": "La risposta è incompleta e non fornisce esempi di prompt."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "creando mappe e velocizzando lo studio",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Crea mappe e velocizza lo studio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non devo valutare tanti siti prima di trovare una risposta ad una mia ricerca",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Evita di dover valutare molti siti per trovare una risposta."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "poca",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: velocizzano il lavoro  contro: facciamo lavorare meno il nostro cervello",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Riconosce la velocità ('velocizzano il lavoro') ma anche il rischio di non far lavorare il cervello ('facciamo lavorare meno il nostro cervello')."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "ad esempio risolvere gli esercizi senza averci provato prima",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Suggerisce di non risolvere esercizi senza averci provato prima, indicando un rischio per il pensiero critico."
+    }
+  ]
+}

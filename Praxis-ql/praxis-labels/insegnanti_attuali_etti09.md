@@ -1,0 +1,120 @@
+---
+title: "insegnanti_attuali_etti09.md"
+record_code: "etti09"
+group: "Insegnanti in servizio"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:01:01.779442+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-in-servizio
+  - praxis/dim/a
+  - praxis/dim/i
+  - praxis/dim/p
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/a4
+  - praxis/code/i4
+  - praxis/code/p2
+  - praxis/code/p3
+  - praxis/code/p5
+  - praxis/code/p6
+  - praxis/code/p7
+  - praxis/code/s6
+  - praxis/code/x2
+  - praxis/code/x3
+  - praxis/code/x4
+  - praxis/code/x5
+  - praxis/code/x6
+---
+
+# Risposta: Insegnanti in servizio - Record 130
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etti09.md`
+
+**Record note**: L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mostra consapevolezza dei limiti etici e pedagogici, sottolineando il ruolo insostituibile del docente.
+
+**Dimensions**: A, I, P, S, X
+
+**Subcodes**: A4, I4, P2, P3, P5, P6, P7, S6, X2, X3, X4, X5, X6
+**Subcodes estesi**: A4 — Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; S6 — Sostituzione del docente o della relazione educativa.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.; X4 — Inclusione e accesso.; X5 — Autonomia, organizzazione e supporto al percorso.; X6 — Coinvolgimento, arricchimento e innovazione.
+
+## Legenda codici del record
+
+- **A4**: Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P3**: Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X4**: Inclusione e accesso.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
+## Items
+
+### Item 1 · `P6`
+- **Codici estesi**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+
+- **Q**: Quali sono i tuoi strumenti preferiti e perché?
+- **A**: D-ID, per creare personaggi parlanti e rendere le lezioni9 più coinvolgenti
+- **Reason**: Uso di D-ID, uno strumento specifico, per rendere le lezioni più coinvolgenti.
+
+### Item 2 · `P2, X3`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+
+- **Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+- **A**: Per creare attività ad hoc, a seconda delle peculiarità individuali
+- **Reason**: Creazione di attività ad hoc basate sulle peculiarità individuali degli studenti.
+
+### Item 3 · `P2, X3`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+
+- **Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+- **A**: Facendo, ad esempio, analizzare le potenzialità dell'IA seguita da una riflessione critica sul suo utilizzo.
+- **Reason**: Analizzare le potenzialità dell'IA e la successiva riflessione critica sul suo utilizzo per coltivare le potenzialità intellettive.
+
+### Item 4 · `P5, P7`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+
+- **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+- **A**: Crea un confronto due scienziati su un tema su cui hanno evidenziato profonde divergenze e struttura una serie di domande e risposte tra essi. (Man mano dare specifiche sempre più dirette)
+- **Reason**: Creare un confronto strutturato tra due scienziati con divergenze, utilizzando un approccio di domande e risposte.
+
+### Item 5 · `X2`
+- **Codici estesi**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+- **A**: Ha favorito l'approccio positivo alle discipline scientifiche, comprendendo quanto sia necessario fornire indicazioni specifiche e non generali per ricevere risposte dettagliate.
+- **Reason**: L'IA ha favorito l'approccio positivo e ha richiesto indicazioni specifiche per ricevere risposte dettagliate, migliorando la comprensione.
+
+### Item 6 · `X2`
+- **Codici estesi**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+- **A**: Imparano a commentare i procedimenti logici effettuati, garantendo un miglioramento nell'apprendimento.
+- **Reason**: Gli studenti imparano a commentare i procedimenti logici, migliorando l'apprendimento e la comprensione.
+
+### Item 7 · `-`
+- **Codici estesi**: -
+
+- **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+- **A**: Talvolta vengono reputati strumenti di gioco poco adeguati per l'apprendimento.
+- **Reason**: La difficoltà è descritta come un giudizio esterno ('strumenti di gioco poco adeguati') e non specifica un limite di uso o un problema tecnico.
+
+### Item 8 · `P2, P3, X3, X4, X5, X6, A4, I4`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; X3 — Personalizzazione e attenzione al singolo.; X4 — Inclusione e accesso.; X5 — Autonomia, organizzazione e supporto al percorso.; X6 — Coinvolgimento, arricchimento e innovazione.; A4 — Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: I vantaggi:  1) apprendimento personalizzato: l'IA può essere utilizzata per creare esperienze di apprendimento personalizzate che si adattino alle esigenze individuali di ogni studente, soprattutto quelli con particolari esigenze, per creare una scuola più inclusiva; 2) migliorare l'accesso all'istruzione: l'IA può rendere l'istruzione più accessibile agli studenti che si trovano in zone remote o che hanno disabilità; 3) supporto ai docenti: gli insegnanti possono utilizzare l’intelligenza artificiale per svolgere attività come la valutazione di compiti o restituire feedback su realizzazioni e progetti, liberando il loro tempo per dedicarlo a concentrarsi sull'insegnamento e sul supporto diretto agli studenti. Gli svantaggi: 1) dipendenza dall'IA: affidarsi eccessivamente all'intelligenza artificiale nel campo della formazione potrebbe portare a una riduzione delle interazioni tra studenti e insegnanti e a una minore opportunità di apprendimento pratico; 2) il divario digitale: l'accesso all'intelligenza artificiale nell'istruzione potrebbe aumentare il divario digitale tra studenti provenienti da contesti socioeconomici diversi; 3) discriminazione algoritmica: c'è il timore del rischio di raccolta e utilizzo improprio dei dati degli studenti e di una conseguente penalizzazione di alcune figure nel processo di valutazione scolastico.
+- **Reason**: Vantaggi: apprendimento personalizzato (P2, X3), inclusività/accesso (P3, X4), supporto docenti (X5). Svantaggi: dipendenza (S1), divario digitale (A3), discriminazione algoritmica (I3).
+
+### Item 9 · `I4, S6`
+- **Codici estesi**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: Affidare completamente l'aspetto valutativo all'IA, quello formativo sì mentre quello sommativo deve rimanere prerogativa del docente.
+- **Reason**: L'aspetto valutativo deve rimanere prerogativa del docente (I4), non deve essere affidato completamente all'IA (S6).

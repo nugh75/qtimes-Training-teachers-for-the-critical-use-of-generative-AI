@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_turo.md",
+  "source_name": "insegnanti_attuali_turo.md",
+  "title": "Risposta: Insegnanti in servizio - Record 9",
+  "group": "Insegnanti in servizio",
+  "record_code": "turo 16",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:33:26.147523+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P4",
+    "S4",
+    "X5",
+    "X6"
+  ],
+  "record_note": "L'intervistato mostra cautela sull'uso dell'IA, enfatizzando la necessità di preservare lo sviluppo autonomo e le capacità critiche degli studenti.",
+  "code_counts": {
+    "P2": 1,
+    "P4": 1,
+    "S4": 2,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno temporaneamente sul sostegno, per ora non è adattabile alle strategie didattiche che sto applicando",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'IA non è adattabile alle strategie didattiche specifiche dell'insegnante di sostegno."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere molto stimolante ma allo stesso tempo potrebbe essere utilizzata in modi non adeguati al contesto didattico, evitando agli studenti di sviluppare le loro capacità.",
+      "codes": [
+        "S4",
+        "X6"
+      ],
+      "reason": "L'IA può essere stimolante ma rischia di far evitare agli studenti lo sviluppo delle loro capacità."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I ragazzi devono essere in grado di sviluppare pensieri personali, svolgere esercizi, risolvere problemi ecc in modo autonomo, l'AI deve solo essere uno strumento per potenziare le loro abilità già sviluppate, invitandoli ad approfondimenti e riflessioni.",
+      "codes": [
+        "S4",
+        "P4",
+        "X5"
+      ],
+      "reason": "L'IA deve potenziare le abilità già sviluppate, non sostituendo lo sviluppo autonomo del pensiero e la risoluzione di problemi."
+    }
+  ]
+}

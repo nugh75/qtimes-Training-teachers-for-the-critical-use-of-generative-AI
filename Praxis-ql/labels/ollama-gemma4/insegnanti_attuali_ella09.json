@@ -1,0 +1,141 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ella09.md",
+  "source_name": "insegnanti_attuali_ella09.md",
+  "title": "Risposta: Insegnanti in servizio - Record 127",
+  "group": "Insegnanti in servizio",
+  "record_code": "ELLA09",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:55:14.714196+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P3",
+    "P6",
+    "P7",
+    "S2",
+    "S3",
+    "S4",
+    "X1",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per la produzione di materiali e per l'adattamento didattico, ma solleva preoccupazioni sulla dipendenza e sull'omologazione del pensiero.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 3,
+    "P2": 3,
+    "P3": 1,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S3": 2,
+    "S4": 2,
+    "X1": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Produzione di letture su vari argomenti",
+      "codes": [
+        "P1"
+      ],
+      "reason": "Produzione di letture su vari argomenti rientra nella produzione di materiali didattici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "copilot e chatgpt perchè sono immediati e veloci",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti specifici (Copilot e ChatGPT) e ne motiva l'uso per la velocità."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "semplificazione dei testi per alunni con Bisogni educativi speciali",
+      "codes": [
+        "P3",
+        "P2"
+      ],
+      "reason": "Semplificare testi per alunni con BES riguarda l'accessibilità (P3) e l'adattamento (P2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "produzioni di testi o test ad hoc per alcuni alunni",
+      "codes": [
+        "P2"
+      ],
+      "reason": "Creare testi o test ad hoc per alcuni alunni è un esempio di adattamento/personalizzazione dei percorsi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "scrivi un testo di 20 righi in Inglese livello A2 su...",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio concreto di prompt ('scrivi un testo di 20 righi in Inglese livello A2 su...')."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non lo uso con gli studenti",
+      "codes": [],
+      "reason": "Risposta negativa o non applicabile."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "costruendo in breve tempo testi attuali, stimolanti anche su indicazione degli studenti",
+      "codes": [
+        "P1",
+        "X5"
+      ],
+      "reason": "Costruire testi attuali e stimolanti in breve tempo è un supporto alla preparazione e all'organizzazione dei materiali."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "l'attendibilità delle informazioni che fornisce",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Rileva difficoltà legate all'attendibilità delle informazioni fornite dall'IA."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono legati alla velocità nella elaborazione di materiali didattici utili e rispondenti alle singole necessità di docenti e studenti (test, letture, quiz, articoli...), i contro sono legati alla dipendenza generabile da certi strumenti che possono inibire la creatività e l'individuazione di soluzioni a cui si può arrivare senza l'uso di particolari strumenti digitali, ma che necessitano solo di un pò di buona volontà e un pò di tempo.",
+      "codes": [
+        "P1",
+        "X1",
+        "P2",
+        "S3",
+        "S4"
+      ],
+      "reason": "Vantaggi (velocità, materiali didattici, necessità singole) e svantaggi (dipendenza, inibizione creatività, omologazione, perdita di capacità)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere uno strumento utilizzabile dagli studenti perchè può generare dipendenza e potrebbe causare una regressione delle loro capacità di elaborazione e di analisi, di sintesi. La IA non genera apprendimento ma solo soluzioni facili e omologanti.",
+      "codes": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "reason": "L'uso da parte degli studenti può causare dipendenza (S4), e l'IA genera soluzioni facili e omologanti (S3)."
+    }
+  ]
+}

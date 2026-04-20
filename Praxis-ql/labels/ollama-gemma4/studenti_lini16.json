@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_lini16.md",
+  "source_name": "studenti_lini16.md",
+  "title": "Risposta: Studenti - Record 64",
+  "group": "Studenti",
+  "record_code": "Lini16",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:15:02.786108+00:00",
+  "record_dimensions": [
+    "S"
+  ],
+  "record_subcodes": [
+    "S2",
+    "S4",
+    "S6"
+  ],
+  "record_note": "Il partecipante esprime una forte diffidenza verso l'uso dell'IA, temendo che possa compromettere le proprie capacità cognitive e il processo di apprendimento.",
+  "code_counts": {
+    "S2": 1,
+    "S4": 2,
+    "S6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che possa influenzarmi e sostituire la rielaborazione dei concetti del mio cervello",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Il partecipante teme che l'IA possa sostituire la rielaborazione dei concetti e il suo processo cognitivo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché avrebbe un impatto negativo sul mio andamento",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Il partecipante indica un impatto negativo generale sull'andamento dello studio, suggerendo un rischio di sostituzione del processo cognitivo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro: solo utilizzo dell’intelligenza artificiale per svolgere il 100% dei xompiti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Il partecipante identifica come contro l'uso dell'IA lo svolgere il 100% dei compiti."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "ah boh",
+      "codes": [],
+      "reason": "Risposta non informativa o troppo vaga ('ah boh')."
+    }
+  ]
+}

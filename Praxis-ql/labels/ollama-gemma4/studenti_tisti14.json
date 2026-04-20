@@ -1,0 +1,107 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tisti14.md",
+  "source_name": "studenti_tisti14.md",
+  "title": "Risposta: Studenti - Record 228",
+  "group": "Studenti",
+  "record_code": "tisti14",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:31:14.476385+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S3",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Lo studente percepisce l'IA come uno strumento onnipresente e utile per la produzione di contenuti e l'approfondimento, ma è consapevole dei rischi legati alla perdita di creatività e all'uso improprio (es. creare testi).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 3,
+    "P6": 1,
+    "S2": 1,
+    "S3": 1,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt perché mi aiuta in ogni cosa chiedo",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona ChatGPT come strumento preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Gli chiedo a volte di fare mappe o di approfondire un argomento",
+      "codes": [
+        "P5",
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per creare mappe e approfondire argomenti, indicando personalizzazione e strategie operative."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo mettendo in mostra le parti più importanti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Il prompt richiesto è un riassunto del testo, che è una strategia operativa di produzione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Con le mappe concettuali (come si fanno ad esempio)",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'uso delle mappe concettuali è un esempio di strategia operativa di produzione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I contro sono che limitano molto la creatività e l'individualità e i pro sono che hanno le risposte a tutto e gli si può chiedere qualsiasi cosa",
+      "codes": [
+        "S3",
+        "X6"
+      ],
+      "reason": "Indica che l'IA limita la creatività e l'individualità (S3), ma è utile per avere risposte a tutto (X6)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Magari creare testi",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Suggerisce di non creare testi, riferendosi al rischio di plagio o di non fare il proprio elaborato."
+    }
+  ]
+}

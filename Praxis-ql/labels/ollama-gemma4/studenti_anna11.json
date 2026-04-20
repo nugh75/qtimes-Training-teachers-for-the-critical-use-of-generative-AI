@@ -1,0 +1,127 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_anna11.md",
+  "source_name": "studenti_anna11.md",
+  "title": "Risposta: Studenti - Record 84",
+  "group": "Studenti",
+  "record_code": "anna11",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:53:02.367596+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "S2",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'utente mostra consapevolezza dei benefici (velocità, riassunti) e dei rischi (affidabilità, perdita di capacità) dell'IA, ma è un uso prevalentemente di supporto allo studio.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 3,
+    "P6": 1,
+    "R4": 1,
+    "S2": 1,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo piattaforme come google",
+      "codes": [],
+      "reason": "Risposta non informativa o incompleta."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini perché è il primo ed unico che uso",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona l'uso di piattaforme specifiche (Gemini)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendomi aiutare per riassunti o per mettere in chiaro le idee",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per riassunti e chiarire idee, che sono forme di personalizzazione e supporto allo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao potresti riassumermi questo testo mettendoci però tutte le info principali",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt che richiede un riassunto con info principali, dimostrando capacità di prompting."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizzando i vari processi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Riferimento al velocizzare i processi di apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi aiuta a tradurre articoli scientifici o ad estrapolare da essi le info principali",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a tradurre e estrapolare info principali, migliorando la comprensione e l'accesso ai contenuti."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non sempre le info sono giuste",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Riconosce che le informazioni fornite dall'IA non sono sempre accurate."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il pro principale è l’ottimizzazione del tempo, il lato negativo è la perdita di capacità",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Identifica l'ottimizzazione del tempo (X1) come pro e la perdita di capacità (S4) come contro."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "scrivere testi al posto dello studente",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Sconsiglia di scrivere testi al posto dello studente, che è un esempio di plagio/ghostwriting."
+    }
+  ]
+}

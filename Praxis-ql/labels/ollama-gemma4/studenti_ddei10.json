@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ddei10.md",
+  "source_name": "studenti_ddei10.md",
+  "title": "Risposta: Studenti - Record 50",
+  "group": "Studenti",
+  "record_code": "DDEI10",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:59:50.423723+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P6",
+    "P7",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per l'efficienza e la comprensione rapida, ma è consapevole dei rischi legati alla perdita di autonomia e all'accuratezza dei contenuti.",
+  "code_counts": {
+    "I2": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 2,
+    "X1": 3,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, l’unico che ho provato",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (ChatGPT) usati."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Principalmente per trovare informazioni e chiarirmi dubbi nel modo più veloce ed efficiente possibile (anche se qualche volta genera errori)",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per trovare informazioni e chiarire dubbi in modo veloce ed efficiente."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi spieghi perché la corrente Ih genera un sag in iperpolarizzazione?",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico ('Mi spieghi perché la corrente Ih genera un sag in iperpolarizzazione?')."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Indica che l'IA velocizza l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "rende più veloce certe cose meccaniche",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Rende più veloce le cose meccaniche."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Spesso ci sono errori soprattutto su argomenti di alto livello",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Rileva errori dell'IA, specialmente su argomenti complessi."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro velocità ed efficienza contro può togliere l’autonomia e lo sviluppo di capacità di gestione dello studio",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vede i pro (velocità ed efficienza) e i contro (pericolo di togliere autonomia e capacità di gestione dello studio)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Pervhe rischia di inficiare il processo naturale di apprendimento e di sviluppo di un metodo di studio",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Avverte che l'IA rischia di inficiare il processo naturale di apprendimento e lo sviluppo di un metodo di studio."
+    }
+  ]
+}

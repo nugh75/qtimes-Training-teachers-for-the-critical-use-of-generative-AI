@@ -1,0 +1,69 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_illi3.md",
+  "source_name": "insegnanti_attuali_illi3.md",
+  "title": "Risposta: Insegnanti in servizio - Record 105",
+  "group": "Insegnanti in servizio",
+  "record_code": "illi3",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:07:46.862995+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "S6",
+    "X3"
+  ],
+  "record_note": "Il partecipante esprime una forte diffidenza verso l'IA, concentrandosi principalmente sui rischi relazionali e sulla potenziale sostituzione del ruolo umano nell'educazione.",
+  "code_counts": {
+    "I4": 3,
+    "P2": 1,
+    "S6": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L'USO DELL'INTELLIGENZA ARIFICIALE  LIMITA LE PROPRIE CAPACITA' E RIDUCE DRASTICAMENTE I RAPPORTI  UMANI",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "L'uso dell'IA limita i rapporti umani, indicando una preoccupazione per la relazione educativa e la sostituzione del docente."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "PERCHE' RIDUCE LO SVILUPPO DI ELABORAZIONE DEI CONTENUTI E RIDUCE IL RAPPORTO TRA PARI E TRA STUDENTE E INSEGNANTE",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "L'IA riduce lo sviluppo dell'elaborazione dei contenuti e il rapporto tra pari e studente/insegnante, evidenziando il valore relazionale e la preoccupazione per la sostituzione del docente."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'INTELLIGENZA ARIFICIALE CONSENTE UN PROCESSO DI APPRENDIMENTO PIU' DINAMICO E PER CERTI ASPETTI PIU' INCLUSIVO, MA LIMITA I RAPPORTI UMANI TRA PARI E TRA DOCENTE E STUDENTE",
+      "codes": [
+        "P2",
+        "X3",
+        "I4"
+      ],
+      "reason": "Riconosce l'IA per l'apprendimento dinamico e l'aspetto inclusivo (P2, X3), ma sottolinea il limite sui rapporti umani (I4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

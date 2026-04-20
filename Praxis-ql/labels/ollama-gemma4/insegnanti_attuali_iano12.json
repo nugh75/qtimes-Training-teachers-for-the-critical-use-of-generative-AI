@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_iano12.md",
+  "source_name": "insegnanti_attuali_iano12.md",
+  "title": "Risposta: Insegnanti in servizio - Record 149",
+  "group": "Insegnanti in servizio",
+  "record_code": "iano12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:04:21.058737+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S4",
+    "S6",
+    "X1"
+  ],
+  "record_note": "L'insegnante mostra una consapevolezza critica sui limiti dell'IA, valorizzando l'interazione umana e il pensiero critico rispetto all'efficienza tecnologica.",
+  "code_counts": {
+    "I4": 1,
+    "S4": 2,
+    "S6": 2,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "per la poca conoscenza dello strumento",
+      "codes": [],
+      "reason": "La risposta indica una mancanza di conoscenza dello strumento, non un contenuto informativo da codificare."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Premesso che non sono contraria all'AI, anche se bisognerebbe farne buon uso,  mi trovo meglio con l'insegnamento tradizionale",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "L'utente preferisce l'insegnamento tradizionale, sottolineando il valore del contatto umano e la relazione insegnante-studente."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro riguardano la velocità di ricerca, mentre i contro rappresentano  lasciar fare ad uno strumento ciò che dovrebbe e potrebbe fare l'alunno.",
+      "codes": [
+        "S4",
+        "X1"
+      ],
+      "reason": "Vede la velocità di ricerca come pro (X1), ma i contro riguardano il rischio di lasciare fare allo strumento ciò che dovrebbe fare l'alunno (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'automatizzazione eccessiva della valutazione, poiché non terrebbe conto delle sfumature o creatività nel lavoro degli studenti, la sostituzione del contatto umano , poiché la relazione del rapporto insegnante studente è fondamentale nel successo educativo e la completa automazione dell'insegnamento può impoverire l'esperienza.",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Critica l'automatizzazione della valutazione e l'insegnamento, sottolineando l'importanza del contatto umano e della creatività dello studente."
+    }
+  ]
+}

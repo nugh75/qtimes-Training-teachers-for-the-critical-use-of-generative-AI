@@ -1,0 +1,141 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_uzzi13.md",
+  "source_name": "insegnanti_attuali_uzzi13.md",
+  "title": "Risposta: Insegnanti in servizio - Record 228",
+  "group": "Insegnanti in servizio",
+  "record_code": "uzzi13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:35:44.108654+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I5",
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "S4",
+    "S5",
+    "S6",
+    "X1",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per adattare i contenuti (individualizzazione/personalizzazione) ma mostra consapevolezza dei limiti (verifica, privacy) e rifiuta l'uso che sostituisca il pensiero critico e la rielaborazione umana.",
+  "code_counts": {
+    "I2": 1,
+    "I5": 1,
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "R4": 2,
+    "S4": 1,
+    "S5": 1,
+    "S6": 1,
+    "X1": 1,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "_",
+      "codes": [],
+      "reason": "Risposta vuota/non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, di facile utilizzo ed è possibile modificare in corso d'opera i risultati modificandoli per il mio obiettivo didattico.",
+      "codes": [
+        "P6",
+        "R4"
+      ],
+      "reason": "Menziona ChatGPT come strumento preferito e la capacità di modificarne i risultati per un obiettivo didattico specifico."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Semplifico dei materiali per bambini con difficoltà di apprendimento o, al contrario, ricerco materiale un po' più impegnativo per alcuni bambini più dotati.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adatta i materiali (semplificando o rendendoli più impegnativi) per studenti con diverse difficoltà di apprendimento."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Mostrando loro che le proprie richieste e quindi i loro obiettivi, possono modificare i risultati e che quindi possono modificare e migliorare ciò che l'AI offre loro, con massima attenzione ai dati che ricevono perchè non sempre reali.",
+      "codes": [
+        "P2",
+        "X3",
+        "R4"
+      ],
+      "reason": "Permette agli studenti di modificare i risultati e i contenuti offerti dall'IA, mostrando attenzione ai dati ricevuti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ricerca informazioni sugli stambecchi italiani, tenendo presente che devono emozionare bambini di seconda primaria. Grazie",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio di prompt è una richiesta di ricerca e adattamento del contenuto (emozionare bambini di seconda primaria)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ancora, abbiamo cominciato da poco.",
+      "codes": [],
+      "reason": "Risposta non informativa (non ha ancora avuto tempo di usare l'IA)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "A volte riproducono informazioni più interessanti.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA aiuta a riprodurre informazioni più interessanti, arricchendo l'apprendimento."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nelle normative di privacy, scolastiche e quindi sugli utilizzi degli strumenti informatici in rete.",
+      "codes": [
+        "I5"
+      ],
+      "reason": "Le difficoltà incontrate riguardano le normative di privacy e l'uso degli strumenti informatici in rete."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che si riescono ad ottenere facilmente molte informazioni in pochissimo tempo. I contro che le informazioni vanno sempre e comunque verificate e che queste spesso, non sono coerenti al 100%",
+      "codes": [
+        "X1",
+        "S5",
+        "I2"
+      ],
+      "reason": "Pro: ottenere informazioni velocemente (X1). Contro: le informazioni devono essere verificate e non sono sempre coerenti (S5, I2)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nell'insegnamento non possono sostituire la rielaborazione di testi, la creazione degli stessi da parte degli studenti. I testi ricevuti sono come i testi dei libri, gli alunni devono imparare a rielaborare a parole proprie e a scrivere sviluppando il loro intelletto.",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Sostiene che l'IA non può sostituire la rielaborazione e la creazione di testi da parte degli studenti, che devono sviluppare il proprio intelletto (S6, S4)."
+    }
+  ]
+}

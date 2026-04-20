@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rpia18.md",
+  "source_name": "insegnanti_attuali_rpia18.md",
+  "title": "Risposta: Insegnanti in servizio - Record 153",
+  "group": "Insegnanti in servizio",
+  "record_code": "rpia18",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:27:27.255321+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "R3",
+    "S2",
+    "S4",
+    "S6",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evidenziando sia i benefici (personalizzazione, inclusività) sia i rischi (riduzione del pensiero critico e sostituzione del ruolo umano).",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "R3": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "X3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "poca capacità di utilizzare questo nuovo strumento",
+      "codes": [],
+      "reason": "La risposta esprime una limitazione personale di capacità, non un uso o un'applicazione specifica dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non  mi sento ancora sufficientemente capace di utilizzare questo strumento, preferisco essere competente prima di adoperare nuove tecnologie",
+      "codes": [
+        "R3"
+      ],
+      "reason": "L'utente esprime un senso di non essere ancora sufficientemente capace, preferendo la competenza prima dell'uso, indicando un uso personale limitato o ritardato."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: può aiutare a creare esperienze di apprendimento personalizzato per gli studenti in base alle proprie abilità, obiettivi, progressi ecc ; contribuisce a rendere l'istruzione più accessibile e inclusiva per gli studenti. contro: limitazione delle capacità dello studente di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto studente insegnante.",
+      "codes": [
+        "P2",
+        "X3",
+        "X4",
+        "S4",
+        "I4"
+      ],
+      "reason": "Vengono citati i pro (personalizzazione, accessibilità/inclusività) e i contro (limitazione critica, riduzione rapporto studente-insegnante)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "tutti gli strumenti che potrebbero essere utilizzati dagli studenti in sostituzione del loro impegno scolastico",
+      "codes": [
+        "S6",
+        "S2"
+      ],
+      "reason": "Si sconsigliano gli strumenti che sostituiscono l'impegno scolastico, toccando la sostituzione del ruolo educativo e il rischio di plagio/svolgimento del compito."
+    }
+  ]
+}

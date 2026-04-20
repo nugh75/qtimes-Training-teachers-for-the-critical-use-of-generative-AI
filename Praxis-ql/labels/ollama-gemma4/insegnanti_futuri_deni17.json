@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_deni17.md",
+  "source_name": "insegnanti_futuri_deni17.md",
+  "title": "Risposta: Insegnanti pre-service - Record 28",
+  "group": "Insegnanti pre-service",
+  "record_code": "Deni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:41:18.639574+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I4",
+    "P2",
+    "S7",
+    "X3"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, riconoscendone i benefici ma enfatizzando la necessità di supervisione umana e la non applicabilità in ambiti come la valutazione.",
+  "code_counts": {
+    "I1": 1,
+    "I4": 2,
+    "P2": 1,
+    "S7": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno. Utilizzo questo strumento spesso per integrare, approfondire lo studio individuale",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'utente usa l'IA per integrare e approfondire lo studio individuale, indicando un uso personalizzato."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro perché aiuta moltissimo, ma è fondamentale la verifica delle info e la mediazione dei docenti",
+      "codes": [
+        "I1",
+        "I4"
+      ],
+      "reason": "Riconosce l'utilità dell'IA ('aiuta moltissimo') ma sottolinea la necessità di verifica delle informazioni e della mediazione docente."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella valutazione la trovo deviante e non dovrebbe mai essere usata senza interpretazione o mediazione, verifica",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "Identifica la valutazione come ambito dove l'IA è deviante e richiede mediazione umana."
+    }
+  ]
+}

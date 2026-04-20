@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_unni07.md",
+  "source_name": "insegnanti_attuali_unni07.md",
+  "title": "Risposta: Insegnanti in servizio - Record 343",
+  "group": "Insegnanti in servizio",
+  "record_code": "unni07",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:34:30.132565+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra una posizione critica e cauta sull'uso dell'IA, preferendo metodi didattici personali e mettendo in guardia contro l'eccessiva dipendenza da riassunti e ricerche automatiche.",
+  "code_counts": {
+    "I4": 1,
+    "P1": 1,
+    "R5": 1,
+    "S4": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché preferisco sviluppare una didattica personale non incentrata sull’utilizzo dell’IA",
+      "codes": [
+        "R5",
+        "I4"
+      ],
+      "reason": "Preferisce sviluppare una didattica personale, indicando una scelta epistemica o di metodo che non si basa sull'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono la velocità di ricerca e risposta immediata ad un quesito o domanda, i contro forse avere troppe risposte su tutto ed evitare il ragionamento personale per arrivare ad una risposta.",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconosce la velocità (X2) ma anche il rischio di evitare il ragionamento personale (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo la mia esperienza le pratiche non raccomandate sono il riassumere testi e la ricerca di testi da elaborare.",
+      "codes": [
+        "P1",
+        "S4"
+      ],
+      "reason": "Non raccomanda riassumere testi (P1) e la ricerca di testi da elaborare, suggerendo che ciò ostacola il ragionamento personale (S4)."
+    }
+  ]
+}

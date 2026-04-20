@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_esta02.md",
+  "source_name": "studenti_esta02.md",
+  "title": "Risposta: Studenti - Record 145",
+  "group": "Studenti",
+  "record_code": "ESTA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:05:05.590823+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P4",
+    "P5",
+    "P7",
+    "R4",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per migliorare la comprensione e la preparazione attiva (quiz, rielaborazione), ma mostra consapevolezza dei limiti, specialmente sul non delegare il ragionamento e sul non usare l'IA per simulare esami.",
+  "code_counts": {
+    "P2": 1,
+    "P4": 1,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt perchè è il più veloce ed immediato",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'utente cita ChatGPT per la sua velocità e immediatezza."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Lo utilizzo per farmi fare delle domande in caso di esami o per aiutarmi a spiegare concetti difficili",
+      "codes": [
+        "P2",
+        "P4",
+        "X3"
+      ],
+      "reason": "L'IA viene usata per fare domande (P4) e per spiegare concetti difficili, personalizzando lo studio (P2, X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Di solito gli fornisco istruzioni chiare per evitare errori. Ad esempio, se voglio che mi faccia delle domande su un esame, gli inoltro il file da cui studio e scrivo: “Ciao Chat, genera domande specifiche basandoti esclusivamente sugli argomenti presenti nel file che ti ho inviato, senza inventare nulla e con la massima precisione”.",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "L'utente fornisce istruzioni chiare (P7) e descrive come formulare prompt specifici per ottenere risultati mirati (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a memorizzare concetti che non comprendo rielaborandoli e facendo esempi semplici.",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a rielaborare concetti e a fare esempi semplici, migliorando la comprensione (P5, X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a studiare meglio concetti mnemonici che non riuscivo a ricordare.",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA è stata utile per studiare concetti mnemonici che prima erano difficili da ricordare (P5, X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna in particolare",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Chiedergli di ragionare al mio posto non mi aiuta nel ragionamento",
+      "codes": [
+        "S4"
+      ],
+      "reason": "L'utente afferma che far ragionare l'IA al suo posto non aiuta il proprio ragionamento, indicando un rischio di erosione del pensiero critico."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Far rispondere a domande di esami",
+      "codes": [
+        "S6"
+      ],
+      "reason": "L'utente sconsiglia di far rispondere a domande di esami, suggerendo che l'IA potrebbe sostituire la valutazione o la preparazione umana."
+    }
+  ]
+}

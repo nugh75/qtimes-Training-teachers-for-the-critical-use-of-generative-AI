@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_izzi02.md",
+  "source_name": "studenti_izzi02.md",
+  "title": "Risposta: Studenti - Record 170",
+  "group": "Studenti",
+  "record_code": "Izzi02",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:13:48.914647+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "X2",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Lo studente mostra consapevolezza dei rischi di dipendenza e perdita di capacità (S4, S2), ma ne riconosce anche la facilità di fruizione (X6).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S4": 2,
+    "X2": 1,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché preferisco non affidarmi per non perdere capacità",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il rifiuto di usare l'IA è motivato dalla paura di perdere capacità (pensiero critico/scrivere)."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt e gemini perché sono gratuiti e abbastanza completi",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (ChatGPT e Gemini) e motiva la scelta con criteri pratici (gratuità e completezza)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per scrivere tesine",
+      "codes": [
+        "P2"
+      ],
+      "reason": "L'uso è specificato per 'personalizzare lo studio' scrivendo tesine."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi spiegarmi il capitolo 1 del libro….",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di prompt ('Puoi spiegarmi il capitolo 1 del libro...')."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Perché sintetizza informazioni",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a sintetizzare informazioni, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Se non conosco qualcosa, faccio la domanda diretta e leggo la risposta, così non devo andare a cercare su libri, siti internet ecc",
+      "codes": [
+        "X5"
+      ],
+      "reason": "L'IA funge da sostituto di ricerca su libri/siti, fornendo risposte immediate e migliorando l'accesso all'informazione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Poche",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la facilità di fruizione, i contro e che ora non si può far senza!",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Riconosce la 'facilità di fruizione' (pro) e la dipendenza (contro), indicando un arricchimento ma anche un rischio di dipendenza."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere testi, perché si perde la capacità di scrivere, argomentare e creare",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia di scrivere testi perché si perde la capacità di argomentare e creare (plagio/perdita di capacità)."
+    }
+  ]
+}

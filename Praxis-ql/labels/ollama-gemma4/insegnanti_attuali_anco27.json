@@ -1,0 +1,137 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_anco27.md",
+  "source_name": "insegnanti_attuali_anco27.md",
+  "title": "Risposta: Insegnanti in servizio - Record 10",
+  "group": "Insegnanti in servizio",
+  "record_code": "anco27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:44:18.993659+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "S2",
+    "S4",
+    "X1",
+    "X3",
+    "X5"
+  ],
+  "record_note": "L'utente utilizza l'IA principalmente per la produzione di materiali didattici e per ottimizzare i tempi di lavoro, riconoscendone anche i limiti etici e pedagogici.",
+  "code_counts": {
+    "P1": 4,
+    "P2": 2,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S2": 1,
+    "S4": 1,
+    "X1": 3,
+    "X3": 2,
+    "X5": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat Gpt, usato come editor e supporto per la creazione di materiali per esercizi e testi da esempio",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "Uso di ChatGPT come editor e supporto per la creazione di materiali didattici (esercizi, testi)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Moltiplicazione del materiale. Creazione di esercizi diversificati in base a molteplici variabili",
+      "codes": [
+        "P1",
+        "P2",
+        "X3"
+      ],
+      "reason": "Creazione di esercizi diversificati e moltiplicazione del materiale per individualizzare l'insegnamento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Più raramente, nella restituzione o creazione di compiti di approfondimento.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizzo per creare compiti di approfondimento, sebbene raramente."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sei un insegnante di italiano e devi creare cinque esercizi di difficoltà progressiva per la classe 3A sull'analisi del periodo, con focus specifico sul grado delle subordinate.",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico e complesso (creazione di esercizi progressivi)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Produco più esercizi in meno tempo, questo mi permette di moltiplicare le modalità e curare aspetti a cui prima non riuscivo a dedicare tempo (es. Correzione accurata degli scritti a mano)",
+      "codes": [
+        "X1",
+        "P1",
+        "X5"
+      ],
+      "reason": "Aumento della produzione di esercizi in meno tempo, permettendo di curare aspetti prima trascurati (correzione)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Come sopra",
+      "codes": [
+        "X1",
+        "P1",
+        "X5"
+      ],
+      "reason": "Ripete i benefici di risparmio di tempo e possibilità di curare aspetti didattici."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna in particolare",
+      "codes": [],
+      "reason": "Risposta negativa o non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: Un enorme risparmio di tempo ed energie, spendibili per altri strumenti didattici. Creazione di schemi e lavori di supporto per ogni aspetto della vita scolastica, prima difficili da implementare per mancanza di tempo. Facilitazione nell'affrontare la burocrazia.",
+      "codes": [
+        "X1",
+        "P5",
+        "X5"
+      ],
+      "reason": "Rileva un enorme risparmio di tempo ed energie e la creazione di schemi e lavori di supporto."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non può sostituire la creazione di testi originali. Non deve essere usata per riassumere.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Avverte che l'IA non può sostituire la creazione di testi originali e non deve essere usata per riassumere (suggerendo un limite alla sua funzione)."
+    }
+  ]
+}

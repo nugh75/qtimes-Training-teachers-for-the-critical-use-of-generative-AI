@@ -1,0 +1,59 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ini08.md",
+  "source_name": "insegnanti_attuali_ini08.md",
+  "title": "Risposta: Insegnanti in servizio - Record 151",
+  "group": "Insegnanti in servizio",
+  "record_code": "ini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:08:23.966417+00:00",
+  "record_dimensions": [
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "R4",
+    "S2"
+  ],
+  "record_note": "L'insegnante esprime scetticismo sull'uso dell'IA, citando la mancanza di competenza e i rischi di uso improprio da parte degli studenti.",
+  "code_counts": {
+    "R4": 1,
+    "S2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [],
+      "reason": "Risposta vuota o non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non sono ancora adeguatamente competente",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'utente cita la mancanza di competenza come motivo di non utilizzo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "uso improprio da parte di studenti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'utente menziona l'uso improprio da parte degli studenti, che può portare a plagio o spacciarsi i lavori altrui."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "esercitazioni",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'utente cita le 'esercitazioni' come pratica non raccomandata, suggerendo un rischio di uso improprio o dipendenza."
+    }
+  ]
+}

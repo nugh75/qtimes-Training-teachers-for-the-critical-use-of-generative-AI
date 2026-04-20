@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_anzo06.md",
+  "source_name": "insegnanti_attuali_anzo06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 161",
+  "group": "Insegnanti in servizio",
+  "record_code": "ANZO06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:45:25.843676+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I4",
+    "S3",
+    "X3"
+  ],
+  "record_note": "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazione di risorse materiali preesistenti e sull'importanza del giudizio umano e della creatività.",
+  "code_counts": {
+    "A3": 1,
+    "I4": 2,
+    "S3": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.",
+      "codes": [],
+      "reason": "La risposta riguarda la gestione dello schermo e non l'uso o il rifiuto dell'IA in didattica."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Resto ancorata ai numerosi libri di testo, sia moderni che non, che ho reperito negli anni per lavorare al meglio. Ne ricavo tante informazione con alta qualità che, ad ora, non trovo sia online che nei nuovi testi didattici. Disegni, testi narrativi, immagini evocative che catturano la fantasia dei bambini scritti in un lessico ricco che ora, purtroppo, si è andato a ridurre fin troppo anche nei libri di testo ufficiali.",
+      "codes": [
+        "A3",
+        "I4"
+      ],
+      "reason": "L'insegnante si affida ai libri di testo cartacei (A3 - vincoli materiali) e valorizza l'esperienza e la ricchezza lessicale che ritiene insostituibili (I4 - relazione pedagogica)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità nell'esecuzione, dal mio punto di vista, è un pro e un contro. Si possono realizzare attività strutturate in pochissimo tempo dando solo un piccolo input di partenza. D'altro canto ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante.",
+      "codes": [
+        "X3",
+        "S3"
+      ],
+      "reason": "Riconosce la velocità (pro) ma teme che l'IA limiti lo sforzo creativo e porti all'omologazione dei lavori (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non possiedo la giusta conoscenza per rispondere a questa domanda. Ma, nel dubbio, preferire vedere utilizzata l'IA per salvare delle vite e lasciar perdere tutto il resto che può camminare benissimo anche senza.",
+      "codes": [
+        "I4"
+      ],
+      "reason": "La risposta è vaga e si concentra sul salvare vite, indicando un valore umano e relazionale superiore all'uso dell'IA."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+---
+title: "studenti_osca30.md"
+record_code: "osca30"
+group: "Studenti"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T22:24:10.995106+00:00"
+tags:
+  - praxis/label
+  - praxis/group/studenti
+  - praxis/dim/p
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/p4
+  - praxis/code/p5
+  - praxis/code/s6
+  - praxis/code/x1
+  - praxis/code/x2
+---
+
+# Risposta: Studenti - Record 89
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/studenti_osca30.md`
+
+**Record note**: Lo studente utilizza l'IA per riassumere e prepararsi al ripasso, ma mostra consapevolezza sui limiti etici e pedagogici dell'uso dell'IA.
+
+**Dimensions**: P, S, X
+
+**Subcodes**: P4, P5, S6, X1, X2
+**Subcodes estesi**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; S6 — Sostituzione del docente o della relazione educativa.; X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+## Legenda codici del record
+
+- **P4**: Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X1**: Efficienza e risparmio di tempo.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+## Items
+
+### Item 1 · `-`
+- **Codici estesi**: -
+
+- **Q**: Quali sono i tuoi strumenti preferiti e perché?
+- **A**: chatgpt, conosco solo questa
+- **Reason**: La risposta è troppo generica e non specifica l'uso didattico dell'IA.
+
+### Item 2 · `P5, P4, X2`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+- **A**: mi aiuta a riassumere e organizzare il materiale da studiare e poi mi genera delle domande per il ripasso
+- **Reason**: L'IA viene usata per riassumere (P5) e generare domande per il ripasso (P4), migliorando la comprensione (X2).
+
+### Item 3 · `P5`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+
+- **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+- **A**: riassumi questo testo mantenendo terminologia specifica
+- **Reason**: L'utente fornisce un esempio di prompt che richiede di riassumere mantenendo terminologia specifica (P5).
+
+### Item 4 · `X2`
+- **Codici estesi**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+- **A**: facilita e abbrevia il lavoro
+- **Reason**: L'IA facilita e abbrevia il lavoro, migliorando la comprensione e l'efficienza.
+
+### Item 5 · `X1`
+- **Codici estesi**: X1 — Efficienza e risparmio di tempo.
+
+- **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+- **A**: mi ha permesso di fare le cose in meno tempo
+- **Reason**: L'utente menziona di aver fatto le cose in meno tempo, indicando efficienza e risparmio di tempo (X1).
+
+### Item 6 · `-`
+- **Codici estesi**: -
+
+- **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+- **A**: nessuna
+- **Reason**: Risposta negativa, non informativo per l'assegnazione di codici.
+
+### Item 7 · `X1`
+- **Codici estesi**: X1 — Efficienza e risparmio di tempo.
+
+- **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+- **A**: pro: minor tempo e maggior efficienza
+- **Reason**: Viene evidenziato il minor tempo e la maggior efficienza (X1) come pro.
+
+### Item 8 · `S6`
+- **Codici estesi**: S6 — Sostituzione del docente o della relazione educativa.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+- **A**: tutto quello che va a sostituire un lavoro che dovrebbe essere svolto dallo studente es: chat gpt puo aiutare con sinonimi ma non puo scrivere un intero capitolo al posto nostro
+- **Reason**: L'utente avverte che l'IA non deve sostituire il lavoro dello studente, temendo la sostituzione del ruolo educativo (S6).

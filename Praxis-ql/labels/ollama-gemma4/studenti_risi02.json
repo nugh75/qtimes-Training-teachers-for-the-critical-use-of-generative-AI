@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_risi02.md",
+  "source_name": "studenti_risi02.md",
+  "title": "Risposta: Studenti - Record 86",
+  "group": "Studenti",
+  "record_code": "risi02",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:27:10.332371+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "R4",
+    "S4",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per la comprensione e la preparazione pratica, ma mostra consapevolezza dei rischi di dipendenza e superficialità nello studio.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "R4": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 3,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt perché facile e intuitivo",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Identifica ChatGPT come strumento preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "lo utilizzo per semplificare testi di difficile comprensione e produrre esempi pratici per facilitare la memorizzazione",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Utilizza l'IA per semplificare testi e produrre esempi pratici per facilitare la memorizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"puoi creare un esempio pratico della seguente teoria: spiego la teoria\"",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt per creare esempi pratici su una teoria."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi permette di rendere concreti argomenti che a mio parere sono troppo teorico",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA rende concreti argomenti teorici, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "durante la preparazione di esami mi ha permesso di creare esempi di casi clinici con determinati disturbi di personalità permettendomi di capire meglio i criteri del DSM5",
+      "codes": [
+        "P1",
+        "P4",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a creare esempi di casi clinici per la preparazione di esami, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non sempre fornisce gli esempi che vorrei e nelle modalità desiderate",
+      "codes": [],
+      "reason": "Riferisce difficoltà sulla qualità e modalità degli esempi forniti dall'IA."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro può aiutare e supportare lo studio, contro spesso risulta essere una scorciatoia che non consente di ragionare",
+      "codes": [
+        "X5",
+        "S4"
+      ],
+      "reason": "Riconosce l'aiuto nello studio (pro) ma anche il rischio di scorciatoia che impedisce il ragionamento (contro)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "l'assoluta sintesi di interi testi ai fini di risparmiare tempo non permette una completa preparazione",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Critica l'assoluta sintesi di testi per risparmiare tempo, ritenendola insufficiente per una preparazione completa."
+    }
+  ]
+}

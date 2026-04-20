@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rosi06.md",
+  "source_name": "studenti_rosi06.md",
+  "title": "Risposta: Studenti - Record 142",
+  "group": "Studenti",
+  "record_code": "Rosi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:28:16.364772+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per organizzare e semplificare lo studio (schemi, flashcards), ma mostra consapevolezza dei rischi legati all'affidabilità dei contenuti e al rischio di dipendenza cognitiva.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 3,
+    "P7": 1,
+    "S4": 2,
+    "S5": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Qualsiasi AI che mi possa aiutare a organizzare la mole di studio, ad esempio creando schemi, elenchi puntati, flashcards, o spiegandomi alcuni concetti con altre parole",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X5"
+      ],
+      "reason": "L'utente cita l'uso dell'AI per creare schemi, elenchi puntati, flashcards e spiegare concetti, supportando l'organizzazione dello studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Sono molto specifico nelle richieste e uso l’AI in modo da fluidificare o facilitare la lettura di alcuni concetti o creare flash cards.",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'utente usa l'AI per fluidificare la lettura e creare flashcards, indicando un uso personalizzato e specifico."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Es. Per favore potresti riassumere questo pezzo di testo/file, mantenendo la completezza e rendendolo più facile da leggere? / potresti crearmi delle flashcards su questo argomento?",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Vengono forniti esempi di prompt per riassumere testi e creare flashcards, indicando strategie operative e prompting visibile."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizzando i tempi di studio",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'utente menziona che l'AI aiuta velocizzando i tempi di studio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Semplicemente assistendo il mio studio che resta autonomo",
+      "codes": [
+        "X5"
+      ],
+      "reason": "L'utente afferma che l'assistenza dell'AI permette che lo studio rimanga autonomo, supportando il percorso."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte l’AI inventa o modifica i contenuti",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "L'utente segnala che l'AI inventa o modifica i contenuti, indicando problemi di affidabilità e sfiducia tecnica."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzare il processo di apprendimento , Contro: affidarsi troppo all’AI",
+      "codes": [
+        "X1",
+        "S4",
+        "I1"
+      ],
+      "reason": "Viene citato il vantaggio di velocizzare l'apprendimento (X1) e il rischio di affidarsi troppo all'AI (S4), con la necessità di verifica (I1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Produrre test ex novo perché si perde gradualmente la capacità di stenderli da soli",
+      "codes": [
+        "S4"
+      ],
+      "reason": "L'utente avverte che produrre test ex novo fa perdere la capacità di stenderli da soli, indicando erosione del pensiero critico."
+    }
+  ]
+}

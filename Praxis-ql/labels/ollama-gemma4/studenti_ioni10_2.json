@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ioni10_2.md",
+  "source_name": "studenti_ioni10_2.md",
+  "title": "Risposta: Studenti - Record 273",
+  "group": "Studenti",
+  "record_code": "ioni10",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:12:13.259171+00:00",
+  "record_dimensions": [
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S3",
+    "S4"
+  ],
+  "record_note": "Lo studente esprime una posizione critica e di rifiuto sull'uso dell'IA, evidenziando i rischi per lo sviluppo del pensiero critico e delle capacità espressive.",
+  "code_counts": {
+    "R5": 1,
+    "S3": 1,
+    "S4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché utilizzo libri cartacei, appunti e non mi piace usare Chat GPT o simili chatbot",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Rifiuto di usare l'IA a favore di metodi tradizionali (libri cartacei, appunti)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "L'IA può aiutare a migliorare le nostre capacità e  e conoscenze ed aiutarci nelle difficoltà, tuttavia impoverisce le nostre proprietà di linguaggio, il nostro modo di esprimerci, il nostro sforzo di pensare in modo critico e le nostre conoscenze.",
+      "codes": [
+        "S4",
+        "S3"
+      ],
+      "reason": "Riconoscimento che l'IA impoverisce il pensiero critico e le capacità di espressione."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Usare troppo spesso piattaforme come Chat GPT impedisce di sforarci a ragionare.",
+      "codes": [
+        "S4"
+      ],
+      "reason": "L'uso eccessivo di piattaforme IA impedisce di sforzarsi a ragionare."
+    }
+  ]
+}

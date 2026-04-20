@@ -1,0 +1,108 @@
+---
+title: "studenti_auro08.md"
+record_code: "Auro08"
+group: "Studenti"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:56:09.565552+00:00"
+tags:
+  - praxis/label
+  - praxis/group/studenti
+  - praxis/dim/p
+  - praxis/dim/r
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/p1
+  - praxis/code/p2
+  - praxis/code/p5
+  - praxis/code/p6
+  - praxis/code/p7
+  - praxis/code/r4
+  - praxis/code/s2
+  - praxis/code/s4
+  - praxis/code/x1
+  - praxis/code/x2
+  - praxis/code/x3
+---
+
+# Risposta: Studenti - Record 148
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/studenti_auro08.md`
+
+**Record note**: L'utente è consapevole dei benefici operativi (rapidità, comprensione) ma anche dei rischi cognitivi (erosione del pensiero critico, plagio).
+
+**Dimensions**: P, R, S, X
+
+**Subcodes**: P1, P2, P5, P6, P7, R4, S2, S4, X1, X2, X3
+**Subcodes estesi**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.; S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S4 — Erosione del pensiero critico.; X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.
+
+## Legenda codici del record
+
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **X1**: Efficienza e risparmio di tempo.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+
+## Items
+
+### Item 1 · `P6, X1`
+- **Codici estesi**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; X1 — Efficienza e risparmio di tempo.
+
+- **Q**: Quali sono i tuoi strumenti preferiti e perché?
+- **A**: Chat gpt perché è rapido e completo
+- **Reason**: L'utente cita ChatGPT per la sua rapidità e completezza, indicando uno strumento e un beneficio operativo.
+
+### Item 2 · `P2, X3`
+- **Codici estesi**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+
+- **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+- **A**: La utilizzo spesso per esemplificare testi complicati
+- **Reason**: L'uso dell'IA per esemplificare testi complessi è un metodo di personalizzazione dello studio.
+
+### Item 3 · `P5, P7, R4`
+- **Codici estesi**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+
+- **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+- **A**: “Riscrivi in parole più semplici questo testo”
+- **Reason**: L'utente fornisce un esempio di prompt ('Riscrivi in parole più semplici questo testo'), che è una strategia di produzione e dimostra capacità di prompting.
+
+### Item 4 · `P1, X2`
+- **Codici estesi**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+- **A**: Esemplificando concetti complessi anche fornendo esempi permette un apprendimento più immediato
+- **Reason**: L'apprendimento immediato e la comprensione di concetti complessi sono ottenuti tramite l'esemplificazione di concetti complessi.
+
+### Item 5 · `P1, X2`
+- **Codici estesi**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
+- **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+- **A**: Fornendomi esempi
+- **Reason**: La fornitura di esempi è un metodo di supporto allo studio che migliora la comprensione.
+
+### Item 6 · `-`
+- **Codici estesi**: -
+
+- **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+- **A**: Nessuna
+- **Reason**: Risposta negativa o non informativa.
+
+### Item 7 · `X1, S4`
+- **Codici estesi**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
+
+- **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+- **A**: Pro: migliore apprendimento e risposte più rapide ai problemi  Contro: affidarsi troppo e non riuscire a sviluppare pensiero critico
+- **Reason**: Vede i pro (risposte rapide, miglior apprendimento) e i contro (rischio di non sviluppare pensiero critico).
+
+### Item 8 · `S2`
+- **Codici estesi**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+- **A**: Non sono raccomandate pratiche dove andrebbe inserito il proprio contributo come la produzione di un testo
+- **Reason**: L'utente sconsiglia pratiche che richiedono il contributo personale, come la produzione di un testo.

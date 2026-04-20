@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ele07.md",
+  "source_name": "studenti_ele07.md",
+  "title": "Risposta: Studenti - Record 117",
+  "group": "Studenti",
+  "record_code": "ele07",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:01:02.328464+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P5",
+    "S2",
+    "S6",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente è consapevole dei benefici (efficienza, comprensione) ma anche dei rischi (dipendenza, sostituzione del lavoro) dell'IA.",
+  "code_counts": {
+    "I2": 1,
+    "P2": 3,
+    "P5": 2,
+    "S2": 1,
+    "S6": 1,
+    "X1": 2,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "gemini",
+      "codes": [],
+      "reason": "Risposta che nomina solo uno strumento senza descrivere l'uso didattico."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi aiuta nell apprendimento o schematizzazione",
+      "codes": [
+        "P5",
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso per schematizzare e apprendere implica la produzione di materiali (schematizzazione) e l'adattamento allo studio individuale."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi spiegarmi questo argomento e farmi degli esempi",
+      "codes": [
+        "P5",
+        "P2"
+      ],
+      "reason": "Richiedere spiegazioni e esempi è un modo per ottenere materiali di supporto e personalizzare l'apprendimento."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi riduce il tempo di ricerca",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Il beneficio principale citato è la riduzione del tempo di ricerca."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "se non capisco determinati argomenti l IA riesce a darmi delle info più dirette",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "L'IA fornisce informazioni più dirette quando non si capiscono argomenti specifici, migliorando la comprensione e l'adattamento."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte le risposte non soddisfano le mie richieste",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Il problema riscontrato è che le risposte non soddisfano le richieste, indicando un limite o un errore del sistema."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono ad esempio il risparmio di tempo utilizzato nella ricerca i contro fanno riferimento a un uso maladattivo",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Vengono citati i pro (risparmio di tempo nella ricerca) e i contro (uso maladattivo)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non dovrebbe essere usata l 'ia per scrivere tesine o durante dei test perchè invece di essere un aiuto, va a sostituire il tuo lavoro",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "Si sconsiglia l'uso per scrivere tesine o durante i test, perché sostituisce il lavoro dello studente (plagio/sviluppo personale) e il processo di apprendimento."
+    }
+  ]
+}

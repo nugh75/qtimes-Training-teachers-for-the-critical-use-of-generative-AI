@@ -1,0 +1,44 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_lbis20.md",
+  "source_name": "insegnanti_attuali_lbis20.md",
+  "title": "Risposta: Insegnanti in servizio - Record 289",
+  "group": "Insegnanti in servizio",
+  "record_code": "Lbis20",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:12:21.278694+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Il partecipante non utilizza l'IA in didattica e nega di essere formata per farlo, indicando una posizione di non utilizzo o scetticismo.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono formata per l’ utilizzo",
+      "codes": [],
+      "reason": "La risposta indica mancanza di formazione, non un contenuto informativo da codificare."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché nella pratica non c’è né di bisogno",
+      "codes": [],
+      "reason": "La risposta è un giudizio soggettivo ('non c'è né di bisogno') e non descrive un uso o un limite specifico dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "0",
+      "codes": [],
+      "reason": "La risposta è vuota ('0')."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "O",
+      "codes": [],
+      "reason": "La risposta è vuota ('O')."
+    }
+  ]
+}

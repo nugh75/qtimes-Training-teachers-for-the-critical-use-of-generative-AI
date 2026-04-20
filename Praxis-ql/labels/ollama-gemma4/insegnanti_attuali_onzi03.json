@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_onzi03.md",
+  "source_name": "insegnanti_attuali_onzi03.md",
+  "title": "Risposta: Insegnanti in servizio - Record 272",
+  "group": "Insegnanti in servizio",
+  "record_code": "onzi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:19:22.605042+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegnamento, ma mostra consapevolezza dei limiti e dei rischi di dipendenza cognitiva.",
+  "code_counts": {
+    "A2": 1,
+    "P1": 2,
+    "P2": 3,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "S2": 1,
+    "S4": 1,
+    "X3": 3,
+    "X5": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "gemini e chat gpt, mi permettono maggiore autonomia e libertà, rispondono meglio ai prompt",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Elenca strumenti (Gemini, ChatGPT) che permettono maggiore autonomia e libertà."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "faccio elaborare esercizi su medesimi contenuti ma differenziati per fasce di livello",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Differenzia esercizi su medesimi contenuti per fasce di livello, personalizzando l'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "ho elaborato attività laboratoriali sugli stessi argomenti ma atte a sviluppare competenze ed interessi differenziati tra gli alunni (disegno, scrittura, recitazione, logica)",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Elabora attività differenziate (disegno, scrittura, recitazione, logica) per coltivare potenzialità diverse."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "elabora due verifiche di analisi logica valutabili con lo stesso punteggio, ciascuna basata su 20 frasi brevi in cui gli alunni possano analizzare soggetto, predicato verbale o nominale, complemento oggetto, complemento di specificazione e complemento di termine.",
+      "codes": [
+        "P1",
+        "P5",
+        "P4"
+      ],
+      "reason": "Elabora verifiche di analisi logica (P1) su frasi brevi, valutabili con lo stesso punteggio (P4), utilizzando un'istruzione specifica (P5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non è un riscontro ancora rilevabile, ha solo stimolato la loro curiosità e il loro entusiasmo nei confronti delle attività proposte",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA ha stimolato la curiosità e l'entusiasmo, arricchendo l'esperienza di apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "permettendo di differenziare ulteriormente il lavoro in classe anche attraverso dei giochi proponibili alla lim, mantenendo quindi più alto il livello di attenzione e sviluppando una migliore capacità di risposta a differenti stimoli",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Permette di differenziare il lavoro e di proporre giochi per mantenere alto l'attenzione e sviluppare la risposta a diversi stimoli."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "il tempo che richiede la preparazione di attività ex novo, l'incognita della tecnologia nella realtà di una classe, dove non sempre è funzionale/funzionante",
+      "codes": [
+        "A2"
+      ],
+      "reason": "Rileva difficoltà legate al tempo di preparazione e all'incognita tecnologica in classe, indicando un supporto non sempre funzionale."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: stimolante       contro: riduttiva",
+      "codes": [
+        "X6",
+        "S4"
+      ],
+      "reason": "Vede l'IA come stimolante (pro) ma anche riduttiva (contro), indicando un potenziale di arricchimento ma anche rischio di limitazione del pensiero."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "produzione scritta (la creatività deve essere espressa in autonomia da strumenti esterni); riassunto o sintesi di testi da studiare (la rielaborazione aiuta la memorizzazione e deve passare per la mente del discente); traduzione (deve rimanere solo come supporto in caso di importante difficoltà)",
+      "codes": [
+        "S2",
+        "P1",
+        "P5"
+      ],
+      "reason": "Sconsiglia la produzione scritta autonoma (S2), la sintesi/riassunto (P5) e la traduzione (P5) come attività principali, ritenendo che debbano passare per la mente dello studente."
+    }
+  ]
+}

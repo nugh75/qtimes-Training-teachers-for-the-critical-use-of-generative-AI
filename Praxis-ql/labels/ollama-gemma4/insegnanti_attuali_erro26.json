@@ -1,0 +1,37 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_erro26.md",
+  "source_name": "insegnanti_attuali_erro26.md",
+  "title": "Risposta: Insegnanti in servizio - Record 13",
+  "group": "Insegnanti in servizio",
+  "record_code": "erro26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:00:17.018777+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Il partecipante non ha fornito risposte informative su nessuno degli item.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho avuto tempo di provare a farlo",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_azzo01.md",
+  "source_name": "insegnanti_attuali_azzo01.md",
+  "title": "Risposta: Insegnanti in servizio - Record 111",
+  "group": "Insegnanti in servizio",
+  "record_code": "AZZO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:48:42.812721+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "S1",
+    "S2",
+    "S4",
+    "X2",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per creare materiali didattici complessi e multimediali, ma evidenzia anche preoccupazioni sulla dipendenza e sulla perdita di capacità di elaborazione autonoma.",
+  "code_counts": {
+    "A3": 1,
+    "P1": 4,
+    "P2": 1,
+    "P5": 4,
+    "P6": 2,
+    "S1": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"_\"",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "VIDNOZ PER LA REALIZZAZIONE DI VIDEO-LEZIONI CON PERSONAGGI PIU' VICINI AI BAMBINI E ACCATTIVANTI",
+      "codes": [
+        "P1",
+        "P5",
+        "P6"
+      ],
+      "reason": "Utilizzo di strumenti per creare video-lezioni, che implica la produzione di materiali e l'uso di piattaforme."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER LA CREAZIONE DI MAPPE CON CONCETTI-CHIAV E IMMAGINI A SUPPORTO",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Creazione di mappe con concetti-chiave e immagini per supportare l'apprendimento, un materiale didattico."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "SEMPLIFICAZIONE DI ESERCIZI PER LA COMPRENSIONE E SVOLGIMNETO GUIDATO DI ATTIVITA'",
+      "codes": [
+        "P2",
+        "P1"
+      ],
+      "reason": "Semplificazione di esercizi e attività per garantire la comprensione e lo svolgimento guidato, adattando il percorso."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "GENERA L'IMMAGINE ADATTA A BAMBINI DI 8 ANNI DI UN PAPA' CHE ABBRACCIA IL FIGLIO DI 5 ANNI SEDUTI SULLA PANCHINA DI LEGNO SOTTO UN CILIEGIO FIORITO IN UN PARCO CON LO SFONDO DI UN CIELO SERENO",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'esempio di prompt riguarda la generazione di immagini, indicando l'uso di strumenti di IA generativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "APPRENDERE LE PARTI DEL DISCORSO CON I SIMBOLI MONTESSORIANI GUIDATI DA TOPO GIGIO CHE LI CONDUCE NELPAESE DELLE PARTI DEL DISCORSO PRESENTANDO I DIVERSI SIMBOLI CON ANIMAZIONE",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Utilizzo dell'IA per creare contenuti animati e visivi (simboli, personaggi) per migliorare l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "RENDE PIU'  ACCATTIVANTI LE LEZIONI,  DESTA   INTERESSE  E CURIOSITA'",
+      "codes": [
+        "X6",
+        "X2"
+      ],
+      "reason": "L'IA rende le lezioni più accattivanti e stimolano interesse e curiosità, arricchendo l'esperienza."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "NON AVERE TUTTI GLI STRUMENTI A DISPOSIZIONE",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Difficoltà legate alla mancanza di tutti gli strumenti a disposizione, indicando vincoli infrastrutturali."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SUPPORTO NELLA PREDISPOSIZIONE E ORGANIZZAZIONE DELLE ATTIVITA',  DIPENDENZA",
+      "codes": [
+        "P5",
+        "S1"
+      ],
+      "reason": "Vantaggi nell'organizzazione e predisposizione di attività (P5), ma anche il rischio di dipendenza (S1)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODUZIONE DI TESTI, PERCHE' SI DISABITUA ALLO SVOLGIMENTO DI ELABORATI",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomandare la produzione di testi perché si disabitua dallo svolgimento di elaborati, indicando rischio di plagio/sviluppo e erosione del pensiero critico."
+    }
+  ]
+}

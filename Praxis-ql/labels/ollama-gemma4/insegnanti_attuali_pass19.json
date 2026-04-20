@@ -1,0 +1,64 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_pass19.md",
+  "source_name": "insegnanti_attuali_pass19.md",
+  "title": "Risposta: Insegnanti in servizio - Record 121",
+  "group": "Insegnanti in servizio",
+  "record_code": "Pass19",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:23:12.389958+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S4",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Il partecipante mostra una visione cauta e critica sull'uso dell'IA, riconoscendone i benefici limitati e sottolineando il ruolo insostituibile dell'elemento umano e del pensiero critico.",
+  "code_counts": {
+    "I4": 1,
+    "S4": 1,
+    "X2": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ne sento il bisogno",
+      "codes": [],
+      "reason": "Risposta che esprime assenza di necessità, non un uso o un'analisi specifica dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se usata bene può essere uno strumento utile per scoprire velocemente nuove cose, altrimenti meglio i libri.",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA è vista come uno strumento per scoprire velocemente nuove cose (X2) e come supporto generale (X5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L’obiettivo dell’educazione va ben oltre la trasmissione di informazioni. L’IA può non essere in grado di promuovere il pensiero critico e la riflessione.",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Si evidenzia che l'IA non può promuovere il pensiero critico e la riflessione (S4), sottolineando l'importanza di elementi umani (I4)."
+    }
+  ]
+}

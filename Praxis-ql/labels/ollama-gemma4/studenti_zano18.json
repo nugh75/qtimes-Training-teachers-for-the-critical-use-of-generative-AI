@@ -1,0 +1,97 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_zano18.md",
+  "source_name": "studenti_zano18.md",
+  "title": "Risposta: Studenti - Record 65",
+  "group": "Studenti",
+  "record_code": "zano18",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:35:18.356639+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P5",
+    "S6",
+    "X2"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per semplificare e riassumere contenuti, ma esprime preoccupazioni sul rischio di delegare troppo il proprio lavoro all'IA.",
+  "code_counts": {
+    "P5": 2,
+    "S6": 2,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt",
+      "codes": [],
+      "reason": "Risposta troppo generica (solo nome dello strumento)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "aiutandomi a riassumere",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Riassumere è una strategia di produzione (P5) che mira alla semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "spiega in parole più chiare",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'istruzione 'spiega in parole più chiare' è un esempio di strategia di produzione (P5)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi semplifica i testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificare i testi è un beneficio che porta a una maggiore comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "aiutandomi a comprendere concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Aiutare a comprendere concetti è un beneficio che porta a una maggiore comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "spesso fanno parte del lavoro al nostro posto",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Affermazione che l'IA fa parte del lavoro al posto degli studenti, indicando una potenziale sostituzione del ruolo dello studente/docente (S6)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "spesso fanno parte del lavoro al nostro posto",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Ripetizione dell'affermazione che l'IA fa parte del lavoro al posto degli studenti, indicando una potenziale sostituzione del ruolo dello studente/docente (S6)."
+    }
+  ]
+}

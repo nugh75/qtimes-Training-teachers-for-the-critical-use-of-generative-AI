@@ -1,0 +1,113 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ardo30.md",
+  "source_name": "studenti_ardo30.md",
+  "title": "Risposta: Studenti - Record 78",
+  "group": "Studenti",
+  "record_code": "ARDO30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:54:44.190936+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "R4",
+    "S2",
+    "S6",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Lo studente utilizza l'IA per approfondire e chiarire concetti (P2, X2), dimostrando consapevolezza sui limiti (S2, S6) e fornendo esempi di prompting (P5, R4).",
+  "code_counts": {
+    "P2": 2,
+    "P5": 2,
+    "R4": 1,
+    "S2": 1,
+    "S6": 2,
+    "X2": 2,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "CHAT GPT",
+      "codes": [],
+      "reason": "Risposta troppo generica (solo nome dello strumento)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Attraverso l’organizzazione dello studio e approfondimenti di tematiche",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Organizzare lo studio e approfondire tematiche sono forme di personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi fornirmi dei sinonimi riguardo questa parola",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Richiedere sinonimi è un esempio di prompt e implica l'uso di strategie operative di produzione (sinonimi)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Aiuta ad approfondire degli argomenti e spiegare quelli che non comprendo",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Aiutare ad approfondire e spiegare concetti non compresi è un supporto personalizzato e di semplificazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutata nel chiarire degli argomenti che non erano chiari e visualizzare meglio i concetti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Chiarire argomenti e visualizzare concetti sono strategie di supporto e semplificazione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Quando non è più un sostegno allo studio ma diventa l’unica fonte",
+      "codes": [
+        "S6",
+        "X7"
+      ],
+      "reason": "Il rischio che l'IA diventi l'unica fonte è un allontanamento dal supporto allo studio e un beneficio subordinato al controllo umano."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La stesura di interi testi",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "La stesura di interi testi è associata a plagio/ghostwriting e alla sostituzione del lavoro dello studente."
+    }
+  ]
+}

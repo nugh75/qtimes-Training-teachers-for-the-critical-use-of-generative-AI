@@ -1,0 +1,141 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_cini21.md",
+  "source_name": "studenti_cini21.md",
+  "title": "Risposta: Studenti - Record 33",
+  "group": "Studenti",
+  "record_code": "cini21",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:58:32.483288+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per migliorare l'efficienza e la comprensione, ma mostra consapevolezza dei limiti tecnici e del rischio di dipendenza cognitiva.",
+  "code_counts": {
+    "I2": 2,
+    "P1": 1,
+    "P2": 1,
+    "P3": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo l'intelligenza artificiale per creare immagini.",
+      "codes": [
+        "P3"
+      ],
+      "reason": "Utilizzo l'IA per creare immagini, che rientra nell'ambito di supporto visivo/multimodale."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché è lo strumento base ed è comunque programmato bene Quizbot per generare quiz utili per la preparazione di esami universitari",
+      "codes": [
+        "P6",
+        "P1"
+      ],
+      "reason": "Menziona strumenti specifici (ChatGPT, Quizbot) e il loro uso per generare quiz per la preparazione di esami."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La uso per avere più strumenti da cui prendere spunto per preparare un esame",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA viene usata per avere più spunti, indicando un tentativo di personalizzare lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Per esempio \"puoi riassumermi questo testo\" o \"puoi generare dei quiz su questo argomento\"",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Fornisce esempi di prompt ("
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta per capire meglio dei concetti e per uno studio più veloce e talvolta più efficace",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Aiuta a capire meglio i concetti e rende lo studio più veloce ed efficace."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Saper riassumere meglio un testo o avere meglio chiare in testa le parole chiave",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Riuscire a riassumere meglio o avere chiare le parole chiave sono funzioni di rielaborazione e comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte gli strumenti non sono precisi e possono far sbagliare, oltre che alcuni non funzionano ancora ottimamente",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Riconosce che gli strumenti non sono precisi e possono sbagliare, indicando sfiducia tecnica e problemi di affidabilità."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: permette uno studio più rapido, aiuta a preparare meglio un?interrogazione/esame contro: talvolta non è preciso al 100% e può fare numerosi errori",
+      "codes": [
+        "X1",
+        "X2",
+        "I2"
+      ],
+      "reason": "Vantaggi (studio rapido, preparazione esami) e svantaggi (non preciso, errori) che indicano efficienza e sfiducia tecnica."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "secondo me la stesura di un tema,  perché se i ragazzi continuano ad usare l'IA per farsi scrivere i testi perderanno la capacità di pensare con la propria testa",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia l'uso per la stesura di temi, temendo che i ragazzi perdano la capacità di pensare (S4) e che il testo non sia più loro (S2)."
+    }
+  ]
+}

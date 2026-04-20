@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ino18.md",
+  "source_name": "insegnanti_futuri_ino18.md",
+  "title": "Risposta: Insegnanti pre-service - Record 39",
+  "group": "Insegnanti pre-service",
+  "record_code": "Ino18",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:44:33.297820+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S3",
+    "X1",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Il partecipante mostra consapevolezza dei benefici (velocità) ma anche dei rischi (omologazione, plagio) dell'IA.",
+  "code_counts": {
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "S2": 1,
+    "S3": 1,
+    "X1": 2,
+    "X3": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt per la velocità e dettaglio",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "L'utente cita ChatGPT per la velocità di elaborazione informazioni."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per darmi spunti di riflessione",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per ottenere spunti di riflessione, legato all'individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per darmi spunti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per ottenere spunti, legato alla personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Rielabora in modo semplice questo testo",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'istruzione di 'rielaborare in modo semplice' è una strategia di riscrittura/semplificazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non lo ha migliorato",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Gli facilita la ricerca",
+      "codes": [
+        "X5"
+      ],
+      "reason": "L'IA aiuta a facilitare la ricerca, supportando l'organizzazione e il percorso di apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro velocità di elaborazione informazioni contro omologazione",
+      "codes": [
+        "X1",
+        "S3"
+      ],
+      "reason": "Viene citato il pro della velocità di elaborazione informazioni (X1) e il contro dell'omologazione (S3)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Copiare",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'utente cita 'Copiare' come pratica non raccomandata, che si riferisce a plagio o uso non proprio del contenuto."
+    }
+  ]
+}

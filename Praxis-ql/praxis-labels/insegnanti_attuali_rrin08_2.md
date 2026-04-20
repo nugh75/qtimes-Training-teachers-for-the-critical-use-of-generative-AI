@@ -1,0 +1,72 @@
+---
+title: "insegnanti_attuali_rrin08_2.md"
+record_code: "Rrin08"
+group: "Insegnanti in servizio"
+model: "gemma4:e4b"
+generated_at: "2026-04-19T21:27:48.820093+00:00"
+tags:
+  - praxis/label
+  - praxis/group/insegnanti-in-servizio
+  - praxis/dim/a
+  - praxis/dim/i
+  - praxis/dim/s
+  - praxis/dim/x
+  - praxis/code/a1
+  - praxis/code/i4
+  - praxis/code/s4
+  - praxis/code/s6
+  - praxis/code/x1
+  - praxis/code/x2
+  - praxis/code/x3
+---
+
+# Risposta: Insegnanti in servizio - Record 74
+
+**Source file**: `/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rrin08_2.md`
+
+**Record note**: L'insegnante esprime preoccupazioni sulla formazione, sui rischi di dipendenza e sulla necessità di mantenere il ruolo umano (empatia) nel processo educativo.
+
+**Dimensions**: A, I, S, X
+
+**Subcodes**: A1, I4, S4, S6, X1, X2, X3
+**Subcodes estesi**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.; X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.
+
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X1**: Efficienza e risparmio di tempo.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+
+## Items
+
+### Item 1 · `-`
+- **Codici estesi**: -
+
+- **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+- **A**: "-"
+- **Reason**: Risposta non informativa ('-').
+
+### Item 2 · `A1`
+- **Codici estesi**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+
+- **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+- **A**: Perché non sento di essere adeguatamente formata.
+- **Reason**: L'utente cita la mancanza di formazione come motivo di non utilizzo.
+
+### Item 3 · `X1, X2, X3, S4`
+- **Codici estesi**: X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.; S4 — Erosione del pensiero critico.
+
+- **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+- **A**: I pro sono risparmio di tempo, facilitazione di accesso alle informazioni, riduzione degli errori umani in determinate attività, facilitazione nell'analisi dei dati.... Contro: uso improprio, riduzione delle interazioni sociali dirette, dipendenza, limitazione del pensiero critico
+- **Reason**: Vengono menzionati i pro (risparmio di tempo, facilitazione, riduzione errori) e i contro (dipendenza, limitazione del pensiero critico).
+
+### Item 4 · `I4, S6`
+- **Codici estesi**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
+
+- **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+- **A**: Nella creazione di contenuti che non siano controllati e nell'automatizzazione della valutazione  che, se affidata completamente all'intelligenza artificiale, potrebbe portare a valuzioni  ingiuste in quanto non prende in considerazione l'empatia e di alcune sfumature del lavoro degli studenti.
+- **Reason**: Si critica l'automatizzazione della valutazione perché non tiene conto dell'empatia e delle sfumature, sottolineando l'importanza del giudizio umano.

@@ -1,0 +1,54 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ello27.md",
+  "source_name": "insegnanti_attuali_ello27.md",
+  "title": "Risposta: Insegnanti in servizio - Record 294",
+  "group": "Insegnanti in servizio",
+  "record_code": "Ello27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:56:36.027739+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "S4",
+    "X2"
+  ],
+  "record_note": "L'insegnante ha un uso iniziale e limitato dell'IA (creazione di quiz) e mostra consapevolezza dei rischi legati alla dipendenza e alla perdita di capacità di sintesi da parte degli studenti.",
+  "code_counts": {
+    "P1": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora sperimentato, ho solo provato a creare dei quiz",
+      "codes": [
+        "P1"
+      ],
+      "reason": "L'utente menziona di aver provato a creare dei quiz, che rientra nella produzione di materiali didattici."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro perché può trovare informazioni in vari siti in contemporanea contro uso sproposito e inadeguato da parte degli alunni che non sono più in grado di riassumere niente",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Vede l'IA come utile per trovare informazioni (X2), ma solleva preoccupazioni sull'uso sproposito e sulla perdita di capacità di riassumere da parte degli alunni (S4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [],
+      "reason": "La risposta è 'Non so', quindi non fornisce informazioni codificabili."
+    }
+  ]
+}

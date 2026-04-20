@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_mato22.md",
+  "source_name": "insegnanti_attuali_mato22.md",
+  "title": "Risposta: Insegnanti in servizio - Record 23",
+  "group": "Insegnanti in servizio",
+  "record_code": "Mato22",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:14:27.518547+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "R2",
+    "S2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante mostra consapevolezza dei limiti dell'IA (età, compiti) ma le sue pratiche di utilizzo sono limitate e non descrivono strategie avanzate.",
+  "code_counts": {
+    "P2": 2,
+    "R2": 1,
+    "S2": 1,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Internet",
+      "codes": [],
+      "reason": "Risposta generica e non specifica sull'uso di IA."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Quiz test compiti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso di quiz e compiti per individualizzare l'insegnamento."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Contenuti extra",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'offerta di contenuti extra per personalizzare l'insegnamento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi fai questo",
+      "codes": [],
+      "reason": "Risposta non specifica o incompleta."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Lavorando con il digitale si riesce a coinvolgere di più",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA aiuta a coinvolgere gli studenti attraverso il digitale."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Bisogna usala solo a una determinata età",
+      "codes": [
+        "R2"
+      ],
+      "reason": "Il limite dell'uso dell'IA è legato all'età dello studente."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I compiti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Il partecipante sconsiglia l'uso di compiti, suggerendo un rischio di plagio o di non apprendimento autonomo."
+    }
+  ]
+}

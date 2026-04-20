@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_nali26.md",
+  "source_name": "insegnanti_attuali_nali26.md",
+  "title": "Risposta: Insegnanti in servizio - Record 338",
+  "group": "Insegnanti in servizio",
+  "record_code": "NALI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:15:21.496537+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "P3",
+    "P5",
+    "S7",
+    "X1",
+    "X3",
+    "X4"
+  ],
+  "record_note": "L'uso principale è focalizzato sull'accessibilità (alunni stranieri) e sulla pianificazione didattica, con un riconoscimento limitato dei benefici e dei limiti dell'IA.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 2,
+    "P3": 1,
+    "P5": 2,
+    "S7": 1,
+    "X1": 1,
+    "X3": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Traduttore simultaneo per comunicare più efficacemente possibile con alunni stranieri appena arrivati in Italia.",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "Uso del traduttore simultaneo per comunicare con alunni stranieri (NAI)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Chiedo spunti indicando la situazione specifica del singolo ragazzo",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Chiedere spunti indicando la situazione specifica del singolo ragazzo per l'individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Chiedo spunti indicando la situazione specifica del singolo ragazzo",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Chiedere spunti indicando la situazione specifica del singolo ragazzo per la personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea una tabella di valutazione per questo progetto:",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Creazione di una tabella di valutazione, che è una strategia di produzione di materiali."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ancora",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non ancora",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Spiegare precisamente i bisogni",
+      "codes": [],
+      "reason": "Risposta troppo generica e non specifica."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: aiuto per l' insegnante nell'elaborazione  CONTRO: non ho ancora trovato il modo per aiutare i ragazzi",
+      "codes": [
+        "P5",
+        "X1"
+      ],
+      "reason": "Riconosce l'aiuto per l'elaborazione (P5) e il risparmio di tempo/sforzo (X1)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La valutazione, che a mio parere deve tener conto anche della persona",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Sottolinea che la valutazione deve tenere conto della persona, indicando un ambito off-limits (valutazione) e la necessità di giudizio umano (I4)."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_cato05.md",
+  "source_name": "insegnanti_attuali_cato05.md",
+  "title": "Risposta: Insegnanti in servizio - Record 147",
+  "group": "Insegnanti in servizio",
+  "record_code": "CATO05",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:50:46.344342+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R2",
+    "S5",
+    "S6",
+    "X1",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per supportare l'accessibilità e la personalizzazione, ma mostra consapevolezza dei limiti tecnici e relazionali dell'IA.",
+  "code_counts": {
+    "I2": 1,
+    "I4": 1,
+    "P2": 2,
+    "P3": 1,
+    "P4": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R2": 1,
+    "S5": 1,
+    "S6": 1,
+    "X1": 2,
+    "X3": 2,
+    "X4": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè è quello che ho cominciato a usare per primo",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona l'uso di ChatGPT come strumento preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Rendere più accessibile un testo adattando il livello di difficoltà e creando immagini mirate",
+      "codes": [
+        "P3",
+        "P2",
+        "X4",
+        "X3"
+      ],
+      "reason": "Adatta testi per accessibilità (P3) e livello di difficoltà (P2), creando immagini mirate (P3/X4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "genero mappe e schemi da un video o testo  che ho trovato adatto per spiegare un argomento un determinato argomento e allego",
+      "codes": [
+        "P5",
+        "P2",
+        "X3"
+      ],
+      "reason": "Genera mappe e schemi (P5) da contenuti per spiegare argomenti e potenziare l'eccellenza (P2/X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "allego un video e scrivo : genera uno schema adatto vedendo questo video per far capire ad un bambino di 8 anni le cause della i guerra mondiale",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico (P7) per generare uno schema da un video (P5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "i migliori studenti lo utilizzano per controllare e confrontare risultati o risposte con le loro: es. confrontano diversi modi per risolvere un problema",
+      "codes": [
+        "P4",
+        "X5"
+      ],
+      "reason": "Gli studenti usano l'IA per confrontare e controllare risultati, simulando l'autovalutazione (P4)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "nel preparare le lezioni , essendo un docente di sostegno, mi fa risparmiare tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'IA aiuta a preparare le lezioni, risparmiando tempo (X1)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "la registrazione",
+      "codes": [],
+      "reason": "Risposta non informativa (solo 'la registrazione')."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO : fa risparmiare tempo contro : alcune volte dice inesattezze e non dà risposte creative",
+      "codes": [
+        "I2",
+        "X1",
+        "S5"
+      ],
+      "reason": "Riconosce che l'IA può dire inesattezze (I2) ma anche che fa risparmiare tempo (X1). Critica la mancanza di creatività (S5)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "in generale non dovremmo mai affidarci ciecamente all'IA sia perchè tutti i contenuti vanno verificati , sia perchè l'insegnamento non è solo una trasmissione di contenuti . L'Ia è un supporto nom sostituisce il docente per il semplice fatto che insegnare è un atto emotivo oltre che cognitivo.",
+      "codes": [
+        "I4",
+        "S6",
+        "R2"
+      ],
+      "reason": "Sottolinea che l'IA non sostituisce il docente (S6) perché l'insegnamento è un atto emotivo (I4) e che i contenuti devono essere verificati (R2)."
+    }
+  ]
+}

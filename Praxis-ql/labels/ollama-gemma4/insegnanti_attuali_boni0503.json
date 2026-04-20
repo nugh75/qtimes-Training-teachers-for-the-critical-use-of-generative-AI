@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_boni0503.md",
+  "source_name": "insegnanti_attuali_boni0503.md",
+  "title": "Risposta: Insegnanti in servizio - Record 168",
+  "group": "Insegnanti in servizio",
+  "record_code": "boni0503",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:49:55.484073+00:00",
+  "record_dimensions": [
+    "A"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A3"
+  ],
+  "record_note": "Il partecipante esprime difficoltà nell'uso dell'IA, attribuendole alla mancanza di strumenti e formazione.",
+  "code_counts": {
+    "A1": 1,
+    "A3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ho gli strumenti adeguati",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Il partecipante cita la mancanza di strumenti adeguati."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non sono molto formata per utilizzarla",
+      "codes": [
+        "A1"
+      ],
+      "reason": "Il partecipante indica di non essere formata per utilizzare l'IA in didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "non ho esperienza",
+      "codes": [],
+      "reason": "Risposta che indica mancanza di esperienza."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non ho esperienza",
+      "codes": [],
+      "reason": "Risposta che indica mancanza di esperienza."
+    }
+  ]
+}

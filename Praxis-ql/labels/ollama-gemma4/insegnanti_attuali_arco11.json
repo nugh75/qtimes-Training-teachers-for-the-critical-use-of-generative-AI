@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_arco11.md",
+  "source_name": "insegnanti_attuali_arco11.md",
+  "title": "Risposta: Insegnanti in servizio - Record 199",
+  "group": "Insegnanti in servizio",
+  "record_code": "Arco11",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:45:41.176875+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "P1",
+    "P2",
+    "S2",
+    "S4",
+    "S6",
+    "X2"
+  ],
+  "record_note": "L'insegnante mostra consapevolezza dei rischi (S4, S2) e dei benefici (P1, P2), ma esprime anche preoccupazioni sulla mancanza di formazione (A1) e sul ruolo insostituibile dell'interazione umana (S6, I4).",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "P1": 1,
+    "P2": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non sono formata abbastanza",
+      "codes": [
+        "A1"
+      ],
+      "reason": "L'utente cita la mancanza di formazione come motivo per non utilizzare l'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: perdita del pensiero critico e plagio di testi.pro,: aiuta chi èIn difficoltà, può correggere esercizi, generare o suggerire attività facilitando il lavoro dell’insegnante.",
+      "codes": [
+        "S4",
+        "S2",
+        "P1",
+        "X2",
+        "P2"
+      ],
+      "reason": "Contro menziona perdita di pensiero critico e plagio (S4, S2). Pro menziona aiuto per chi è in difficoltà (P2), correggere esercizi e generare attività (P1, X2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Che l’intelligenza artificiale si possa sostituire Alla spiegazione dell’insegnante che può dare molteplici spunti e Interazioni col discente.",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "L'utente teme che l'IA possa sostituire la spiegazione e l'interazione dell'insegnante, sottolineando l'importanza della relazione umana (S6, I4)."
+    }
+  ]
+}

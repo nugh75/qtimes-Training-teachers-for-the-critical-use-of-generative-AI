@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_orsi12.md",
+  "source_name": "studenti_orsi12.md",
+  "title": "Risposta: Studenti - Record 160",
+  "group": "Studenti",
+  "record_code": "orsi12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:23:49.733897+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S3",
+    "S5",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3), ma mostra consapevolezza dei rischi di imprecisione (S5) e di dipendenza (S3).",
+  "code_counts": {
+    "P2": 1,
+    "P5": 4,
+    "P6": 1,
+    "S3": 1,
+    "S5": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, notebook LM",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti specifici (chatgpt, notebook LM)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "chiedo spiegazioni e riassunti, lettura di testi ad alta voce",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per spiegazioni e riassunti, che sono forme di personalizzazione e semplificazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi in modo dettagliato e preciso questo materiale allegato, per preparare un esame universitario di psicologia",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Richiesta di riassumere materiale allegato per preparare un esame, che è una strategia di produzione di contenuti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "chiarisce e riassume",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a chiarire e riassumere, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Riassunti e altre fonti",
+      "codes": [
+        "P5",
+        "X5"
+      ],
+      "reason": "Riferimento a riassunti e fonti, che supportano l'organizzazione dello studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte semplifica troppo o tralascia informazioni importanti",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Riconosce che l'IA può semplificare troppo o tralasciare informazioni importanti, indicando un rischio di imprecisione."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: facilita e velocizza alcuni compiti  contro: può creare un appiattimento nelle nostre capacità di svolgere i compiti per cui usiamo l’IA",
+      "codes": [
+        "S3",
+        "X7"
+      ],
+      "reason": "Riconosce il rischio di 'appiattimento' delle capacità, ma implica che l'uso deve essere controllato per mantenere le capacità."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "chiedere informazioni su qualcosa senza fornire un testo di riferimento, perché spesso prendendo informazioni da internet fornisce informazioni errate",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Avverte che l'IA può fornire informazioni errate se non fornito un testo di riferimento."
+    }
+  ]
+}

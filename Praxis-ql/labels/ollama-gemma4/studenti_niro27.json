@@ -1,0 +1,133 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_niro27.md",
+  "source_name": "studenti_niro27.md",
+  "title": "Risposta: Studenti - Record 161",
+  "group": "Studenti",
+  "record_code": "niro27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:21:06.229888+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R3",
+    "R4",
+    "S4",
+    "S5",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Lo studente è consapevole dei limiti dell'IA (I2, S5) e tende a preferire metodi tradizionali (interazione umana, intuito) rispetto all'uso esclusivo dell'IA.",
+  "code_counts": {
+    "I2": 1,
+    "P2": 1,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R3": 1,
+    "R4": 1,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Trovo più costruttivo chiedere informazioni a persone oppure una effettuare una rapida ricerca generale su internet, uso spesso il mio intuito su dei dubbi e uso internet per conferme, anche confrontarmi in famiglia",
+      "codes": [
+        "R3"
+      ],
+      "reason": "Preferisce chiedere a persone o usare il proprio intuito e internet per conferme, indicando un uso più sicuro e preferito rispetto all'IA."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è pratico e spesso mi soddisfa nelle richieste",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona ChatGPT come strumento preferito per la sua praticità."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "A volte faccio ricerche per riassumere un determinato argomento o aggiungere informazioni ulteriori, spesso la uso per capire meglio anche i concetti più complessi, in modo che me li spieghi più fluidamente",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Usa l'IA per riassumere, aggiungere informazioni e spiegare concetti complessi in modo più fluido."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il rapporto tra individuo e ambiente nel modello psicodinamico di Freud",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio specifico di prompt ('Spiegami il rapporto tra individuo e ambiente nel modello psicodinamico di Freud')."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplificando i concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'uso dell'IA è percepito come un modo per semplificare i concetti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non lo ha completamente migliorato, ma ha fornito supporto in situazioni di blocco o confusione nello studio di una materia",
+      "codes": [
+        "P4"
+      ],
+      "reason": "L'IA ha fornito supporto in situazioni di blocco o confusione nello studio."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Capitava di ricevere nozioni non precise o riferite ad altro piuttosto che all’argomento che avevo citato",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Ha ricevuto nozioni non precise o riferite ad altro, indicando problemi di accuratezza e affidabilità."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sicuramente riguardano la rapidità, la semplicità e l’efficienza dell’utilizzo, trai contro inserirei l’abuso",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Riconosce la rapidità, semplicità e efficienza dell'utilizzo dell'IA."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Spesso Chatgpt è molto riduttivo se non lo si istruisce o se ne fa poco utilizzo, credo che a volte  si cade nella credenza che un sistema di questo tipo sia la soluzione a tutto, per il resto delle altre IA non sono abbastanza informato ma credo che nella pratica siano molto utili, sulla teoria usufruirei altri metodi",
+      "codes": [
+        "P2",
+        "S4",
+        "R4"
+      ],
+      "reason": "Attenzione al riduttivismo dell'IA se non istruita (P2, S4) e consapevolezza di dover usare altri metodi (R4)."
+    }
+  ]
+}

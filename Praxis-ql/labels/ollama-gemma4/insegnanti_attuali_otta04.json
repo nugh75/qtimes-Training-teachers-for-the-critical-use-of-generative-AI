@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otta04.md",
+  "source_name": "insegnanti_attuali_otta04.md",
+  "title": "Risposta: Insegnanti in servizio - Record 202",
+  "group": "Insegnanti in servizio",
+  "record_code": "otta04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:20:46.123712+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "S4",
+    "X3"
+  ],
+  "record_note": "Il partecipante esprime un forte scetticismo sull'uso dell'IA, motivato dalla mancanza di formazione e dalla preoccupazione per lo sviluppo cognitivo degli studenti.",
+  "code_counts": {
+    "P2": 1,
+    "S4": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non formato all'utilizzo",
+      "codes": [],
+      "reason": "La risposta indica una mancanza di formazione, non un uso specifico o un'esperienza da codificare."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non sono formato",
+      "codes": [],
+      "reason": "La risposta si limita a dichiarare la mancanza di formazione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: aiuto e personalizzazione dell'apprendimento Contro: mancanza di autonomia e di sviluppo cognitivo per il discente",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Il partecipante cita l'aiuto e la personalizzazione dell'apprendimento come pro."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Da non utilizzare sistemi che non favoriscano l'apprendimento significativo e la crescita cognitiva del discente",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il partecipante raccomanda di non usare sistemi che non favoriscano la crescita cognitiva e l'apprendimento significativo."
+    }
+  ]
+}

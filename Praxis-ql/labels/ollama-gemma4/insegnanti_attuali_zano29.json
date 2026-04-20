@@ -1,0 +1,137 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_zano29.md",
+  "source_name": "insegnanti_attuali_zano29.md",
+  "title": "Risposta: Insegnanti in servizio - Record 319",
+  "group": "Insegnanti in servizio",
+  "record_code": "zano29",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:37:41.265211+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P5",
+    "R4",
+    "S4",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali di studio (riassunti, mappe, contenuti) e per migliorare la comprensione, ma evidenzia anche i rischi di atrofia del pensiero critico.",
+  "code_counts": {
+    "P1": 4,
+    "P2": 2,
+    "P5": 5,
+    "R4": 1,
+    "S4": 2,
+    "X2": 3,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo",
+      "codes": [],
+      "reason": "Risposta troppo generica ('Utilizzo') per assegnare codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Questionari",
+      "codes": [
+        "P1"
+      ],
+      "reason": "I questionari sono materiali didattici o di studio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creare riassunti o articoli",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X2"
+      ],
+      "reason": "Creare riassunti o articoli è un modo per individualizzare l'insegnamento, utilizzando materiali di supporto e strategie di sintesi."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per creare contenuti",
+      "codes": [
+        "P1",
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Creare contenuti è un'azione di personalizzazione che genera materiali di supporto e sfrutta la capacità di sintesi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mappe",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Le mappe sono un esempio di strategia operativa di produzione di contenuti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Facilita la creazione di mappe concettuali",
+      "codes": [
+        "P1",
+        "P5",
+        "X5"
+      ],
+      "reason": "La creazione di mappe concettuali è un materiale di supporto che aiuta l'organizzazione e lo studio."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Sintetizza i concetti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Sintetizzare i concetti è una strategia operativa che porta a una maggiore comprensione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Porre le giuste domande",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Il problema riscontrato è legato alla capacità di formulare prompt efficaci ('Porre le giuste domande')."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilita la sintesi di contenuti contro non stimola il pensiero logico / deduttivo",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Il pro è la sintesi di contenuti (X2), mentre il contro è che non stimola il pensiero logico/deduttivo (S4)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Lo studio mnemonico",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Lo studio mnemonico è un metodo che, se usato in modo eccessivo o non critico, può non stimolare il pensiero logico/deduttivo."
+    }
+  ]
+}

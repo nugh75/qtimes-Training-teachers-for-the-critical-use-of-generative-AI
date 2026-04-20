@@ -1,0 +1,110 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli04.md",
+  "source_name": "studenti_elli04.md",
+  "title": "Risposta: Studenti - Record 121",
+  "group": "Studenti",
+  "record_code": "Elli04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:01:48.369682+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'utente è consapevole dei benefici (velocità, semplificazione) ma anche dei rischi (pigrizia, plagio) dell'IA.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT, facilità di utilizzo e abitudine",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona ChatGPT come strumento preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo di costruire test ad hoc oppure di spiegarmi concetti complessi in parole semplici,  traduzioni",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per costruire test ad hoc (P2) e per spiegare concetti complessi in parole semplici (P5, X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat potresti spiegarmi in maniera semplice cosa si intende per \"fantasma\" in contesto psicologico?",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico ('Chat potresti spiegarmi...')."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza l'acquisizione di alcune conoscenze e spiega concetti semplici",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Indica che l'IA velocizza l'acquisizione di conoscenze e spiega concetti semplici (chiarificazione/comprensione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho compreso meglio alcune teorie psicologiche e concetti che nei libri vengono spiegati in maniera molto complessa",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Ha compreso meglio concetti complessi che nei libri sono spiegati in modo difficile (chiarificazione/comprensione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Velocizza il processo ma rischia di far impigrire la mente se usata indiscriminatamente",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Rischia di far impigrire la mente se usata indiscriminatamente (erosione del pensiero critico)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La creazione ex novo di produzioni testuali, o la risoluzione totale di test e compiti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Sconsiglia la creazione ex novo di produzioni testuali o la risoluzione totale di test e compiti (plagio/ghostwriting)."
+    }
+  ]
+}

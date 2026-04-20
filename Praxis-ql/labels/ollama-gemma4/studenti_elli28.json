@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli28.md",
+  "source_name": "studenti_elli28.md",
+  "title": "Risposta: Studenti - Record 77",
+  "group": "Studenti",
+  "record_code": "Elli28",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:02:49.313463+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P6",
+    "R4",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente utilizza l'IA per semplificare concetti e organizzare materiali, ma mostra consapevolezza dei limiti metodologici (riassunti passivi) e della necessità di migliorare la qualità dei prompt.",
+  "code_counts": {
+    "P2": 1,
+    "P6": 1,
+    "R4": 1,
+    "S2": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Notebooklm perché mi aiuta a unire più documenti e trovare i punti più importanti",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Uso di Notebooklm per unire documenti e trovare punti importanti, supportando l'organizzazione dello studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La utilizzo per ricevere spiegazioni più semplici di argomenti per me complessi",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizzo dell'IA per ricevere spiegazioni più semplici di argomenti complessi, personalizzando l'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "PERFAVORE potresti dirmi",
+      "codes": [],
+      "reason": "La risposta è incompleta e non fornisce esempi di prompt."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi semplifica concetti che per me sono complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA semplifica concetti complessi, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi fa comprendere argomenti difficili",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere argomenti difficili, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "L’essere troppo generico o poco dettagliato",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Identifica la difficoltà di essere troppo generici o poco dettagliati, indicando un bisogno di migliorare la formulazione dei prompt."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Vi è meno elaborazione mentale (contro), velocizza e diminuisce la mole di studio (pro)",
+      "codes": [
+        "S4",
+        "X1"
+      ],
+      "reason": "Riconosce il rischio di meno elaborazione mentale (S4) ma anche il beneficio di velocizzare e diminuire la mole di studio (X1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Il farsi fare riassunti da chatgpt perché non vi è la rielaborazione del documento e non è detto che le informazioni da lui tolte non siano rilevanti",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomanda di farsi riassunti da ChatGPT perché manca la rielaborazione (S2) e non è garantita la rilevanza delle informazioni (S4)."
+    }
+  ]
+}

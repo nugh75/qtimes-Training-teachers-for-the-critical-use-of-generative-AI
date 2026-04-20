@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_meri05.md",
+  "source_name": "insegnanti_attuali_meri05.md",
+  "title": "Risposta: Insegnanti in servizio - Record 97",
+  "group": "Insegnanti in servizio",
+  "record_code": "meri05",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:14:29.004504+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "S4",
+    "X3"
+  ],
+  "record_note": "Il partecipante esprime scetticismo e preoccupazioni riguardo all'uso dell'IA in didattica, principalmente legate a rischi etici, privacy e alla mancanza di personalizzazione.",
+  "code_counts": {
+    "I2": 2,
+    "P2": 1,
+    "S4": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché un pò mi spaventa",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Espressione di paura e preoccupazione per l'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non ne ho una conoscenza approfondita, ma anche perchè temo molto l'uso che se ne possa fare: cyberbullismo, violazione della privacy, la dipendenza dalla tecnologia. Inoltre mi preoccupa  la mancanza di un pensiero creativo. La mancanza di una personalizzazione, il software sarà in grado di adattarsi alle esigenze specifiche di ogni studente?",
+      "codes": [
+        "I2",
+        "S4",
+        "P2",
+        "X3"
+      ],
+      "reason": "Temori legati alla mancanza di conoscenza, violazione della privacy, dipendenza tecnologica, mancanza di pensiero creativo e dubbi sulla personalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho alcuna esperienza",
+      "codes": [],
+      "reason": "Nessuna esperienza dichiarata."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ne ho esperienza",
+      "codes": [],
+      "reason": "Nessuna esperienza dichiarata."
+    }
+  ]
+}

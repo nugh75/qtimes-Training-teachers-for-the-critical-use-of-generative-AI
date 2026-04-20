@@ -1,0 +1,138 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_osti31.md",
+  "source_name": "insegnanti_attuali_osti31.md",
+  "title": "Risposta: Insegnanti in servizio - Record 200",
+  "group": "Insegnanti in servizio",
+  "record_code": "osti31",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:20:29.087127+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "S4",
+    "S6",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per attività di supporto didattico (riassunti, mappe) e mostra consapevolezza sui limiti dell'IA, specialmente sul non sostituire il ragionamento umano.",
+  "code_counts": {
+    "I4": 1,
+    "P1": 2,
+    "P2": 2,
+    "P5": 4,
+    "P6": 1,
+    "R4": 2,
+    "S4": 1,
+    "S6": 1,
+    "X2": 2,
+    "X3": 2,
+    "X4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè riesce a rispondere a qualsiasi richiesta sia essa scritta che immagine",
+      "codes": [
+        "P6"
+      ],
+      "reason": "L'utente menziona ChatGPT come strumento preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "tramite creazione di mappe o riassunti personalizzati in base allo stile di apprendimento",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'uso di mappe o riassunti personalizzati è finalizzato all'individualizzazione e alla personalizzazione dell'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "tramite creazione di mappe o riassunti personalizzati in base allo stile di apprendimento e per realizzare verifiche idonee",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "L'uso di mappe o riassunti personalizzati per lo stile di apprendimento e per realizzare verifiche idonee indica personalizzazione e individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "scrivo la richiesta necessaria in maniera più dettagliata possibile in base alle mie necessità",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'utente descrive la strategia di formulare richieste dettagliate per ottenere l'output desiderato."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "creazione di mappe personalizzate, riassunti, traduzione testi, risposte a curiosità e domande poste",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "La creazione di mappe, riassunti, traduzioni e risposte a domande migliorano l'apprendimento e l'accesso ai contenuti."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "creazione di mappe personalizzate, riassunti, traduzione testi, risposte a curiosità e domande poste",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "Simile al punto 5, l'uso di mappe, riassunti e traduzioni migliora l'apprendimento e l'accesso."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "non sempre sono di facile attuazione o sono precisi e dettagliati nelle richieste",
+      "codes": [
+        "R4"
+      ],
+      "reason": "L'utente evidenzia la difficoltà di formulare richieste precise e dettagliate (prompting)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono molti, ma bisogna far capire agli studenti che l'intelligenza artificiale non deve sostituirsi alla loro intuizione, logica e capacità di ragionamento.",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Si sottolinea che l'IA non deve sostituire l'intuizione, la logica e la capacità di ragionamento umano (relazione/giudizio umano)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "risoluzione di problemi ed esercizi senza una spiegazione adeguata del processo",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Non raccomandare la risoluzione di problemi senza spiegazione adeguata del processo è un allarme contro l'erosione del pensiero critico."
+    }
+  ]
+}

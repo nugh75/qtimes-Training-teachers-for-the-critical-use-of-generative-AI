@@ -1,0 +1,84 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_oppi12.md",
+  "source_name": "insegnanti_attuali_oppi12.md",
+  "title": "Risposta: Insegnanti in servizio - Record 205",
+  "group": "Insegnanti in servizio",
+  "record_code": "OPPI12",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:19:37.885847+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "S2",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per creare materiali di valutazione e riassunti, ma mostra cautela riguardo all'uso da parte degli studenti.",
+  "code_counts": {
+    "P1": 2,
+    "P2": 2,
+    "P4": 1,
+    "P5": 1,
+    "S2": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "CREAZIONE QUIZ",
+      "codes": [
+        "P1"
+      ],
+      "reason": "La creazione di quiz rientra nella produzione di materiali didattici."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "CREARE CONTENUTI PERSONALIZZATI",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'obiettivo è creare contenuti personalizzati per l'insegnamento, che è l'essenza della personalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi servirebbe un riassunto del brano inserito per alunni di livello ___. alla fine preparami anche un quiz a risposta multipla contenente 5 domande.",
+      "codes": [
+        "P1",
+        "P5",
+        "P2",
+        "P4",
+        "X2"
+      ],
+      "reason": "Richiede riassunto (P5), quiz (P1, P4) e adattamento al livello dello studente (P2)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "non saprei",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 5,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i ragazzi non devono abusarne",
+      "codes": [
+        "S2"
+      ],
+      "reason": "L'avvertimento che i ragazzi non devono abusarne si riferisce al rischio di plagio o dipendenza eccessiva."
+    }
+  ]
+}

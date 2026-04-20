@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_none01.md",
+  "source_name": "studenti_none01.md",
+  "title": "Risposta: Studenti - Record 224",
+  "group": "Studenti",
+  "record_code": "none01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:21:44.202383+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P6",
+    "P7",
+    "R4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente per approfondimenti e preparazione a verifiche/interrogazioni, mostrando un uso focalizzato sullo studio e l'apprendimento.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 1,
+    "P4": 2,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt perché mi aiuta molto",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona lo strumento 'chat gpt' come preferito."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "approfondimenti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso per 'approfondimenti' è un modo per personalizzare lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi farmi un approfondimento?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Formula un prompt semplice ('puoi farmi un approfondimento?'), indicando la presenza di un prompt."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendo approfondimenti da inserire negli argomenti per le interrogazioni",
+      "codes": [
+        "P1",
+        "P4",
+        "X2"
+      ],
+      "reason": "L'uso per 'approfondimenti' e la preparazione a 'interrogazioni' rientra in materiali di studio e supporto allo studio."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "aiutandomi nella preparazione a verifiche o interrogazioni",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "L'uso per la preparazione a 'verifiche o interrogazioni' è un supporto allo studio."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "aiuta molto",
+      "codes": [],
+      "reason": "Risposta generica e non specifica."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_coli13.md",
+  "source_name": "insegnanti_attuali_coli13.md",
+  "title": "Risposta: Insegnanti in servizio - Record 223",
+  "group": "Insegnanti in servizio",
+  "record_code": "Coli13",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:52:25.458668+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "S6",
+    "X1",
+    "X3",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per supportare la personalizzazione e la preparazione didattica, ma mostra consapevolezza sui limiti e sul ruolo insostituibile del docente.",
+  "code_counts": {
+    "I4": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "P7": 1,
+    "S6": 2,
+    "X1": 2,
+    "X3": 2,
+    "X6": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché è quella che conosco meglio.",
+      "codes": [],
+      "reason": "Risposta troppo generica e non specifica su strategie didattiche o strumenti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l’intelligenza artificiale per creare e fornire agli alunni contenuti personalizzati per favorire il conseguimento degli obiettIvi.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creare contenuti personalizzati per favorire il conseguimento degli obiettivi è un esempio di individualizzazione e personalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "La utilizzo per realizzare questionari, mappe concettuali, brevi presentazioni di vari argomenti e per individuare i concetti chiave dei contenuti.",
+      "codes": [
+        "P1",
+        "P5",
+        "X3"
+      ],
+      "reason": "Realizzare questionari, mappe concettuali e presentazioni per individuare concetti chiave rientra nella produzione di materiali e strategie di supporto."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Viene utilizzato questo prompt: grammatica e l’indicazione dell’argomento trattato.",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Viene riportato un prompt specifico ('grammatica e l’indicazione dell’argomento trattato')."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L’intelligenza artificiale ha stimolato la loro curiosità, favorendo l’apprendimento dei contenuti in modo più divertente e creativo.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA ha stimolato la curiosità e reso l'apprendimento più divertente e creativo, indicando arricchimento e innovazione."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "L’intelligenza artificiale rende più veloce la predisposizione delle lezioni ed e’ un ottimo supporto per far diventare più stimolanti ed interessanti alcune attività.",
+      "codes": [
+        "X1",
+        "X6"
+      ],
+      "reason": "Rende più veloce la predisposizione delle lezioni (risparmio di tempo) e le attività più stimolanti (arricchimento)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Inizialmente l’impiego di nuove tecnologie è risultato difficoltoso,  poi, attraverso la pratica è diventato molto più semplice.",
+      "codes": [],
+      "reason": "Descrive una difficoltà di apprendimento personale (curva di apprendimento) e non un vincolo didattico o un problema di IA."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro relativi all’utilizzo della IA riguardano un valido supporto nella gestione delle pratiche didattiche, con un consistente risparmio dei tempi nella predisposizione delle lezioni, che risultano più coinvolgenti e stimolanti per gli alunni. I contro implicano il rischio dì un’eccessiva autonomazione del processo di insegnamento-apprendimento.",
+      "codes": [
+        "X1",
+        "X6",
+        "S6"
+      ],
+      "reason": "Vantaggi: risparmio di tempo e lezioni più coinvolgenti (X1, X6). Svantaggi: rischio di eccessiva autonomazione (S6)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Penso che l’IA sia un valido supporto ma non debba sostituire la figura del docente, che rappresenta una guida, un punto di riferimento nel processo globale di sviluppo degli studenti.",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Sottolinea che l'IA non deve sostituire il docente, che è una guida e un punto di riferimento (I4, S6)."
+    }
+  ]
+}

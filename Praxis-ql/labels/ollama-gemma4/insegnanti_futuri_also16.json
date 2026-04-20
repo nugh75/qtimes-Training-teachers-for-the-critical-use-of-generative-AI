@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_also16.md",
+  "source_name": "insegnanti_futuri_also16.md",
+  "title": "Risposta: Insegnanti pre-service - Record 48",
+  "group": "Insegnanti pre-service",
+  "record_code": "ALso16",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:39:23.742781+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S1",
+    "S2",
+    "S4",
+    "X6"
+  ],
+  "record_note": "L'insegnante pre-service mostra cautela sull'uso dell'IA in classe, temendo che possa compromettere l'autenticità e la validità delle prove e dei compiti.",
+  "code_counts": {
+    "S1": 1,
+    "S2": 2,
+    "S4": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno, quindi nelle classi dove svolgo il tirocinio, in base alle attività proposte dai docenti, credo che i ragazzi non debbano usarla... In quanto se la usano per produrre un tema da svolgere in classe,la validità di quella prova diventa nulla...",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Rifiuto di usare l'IA per produrre temi in classe, ritenendo nulla la validità dell'attività."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Io credo che l'intelligenza artificiale sia utile per invogliare i ragazzi a studiare e a seguire la lezione,un contro è che possano utilizzarla troppo e quindi non fare più nulla da soli",
+      "codes": [
+        "X6",
+        "S1"
+      ],
+      "reason": "Vede l'IA come utile per invogliare a studiare (X6), ma teme che possa portare a non fare nulla da soli (S1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere usata dai ragazzi nel corso dei compiti in classe e per produrre testi se no diventa nulla l'attività data...",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomanda l'uso dell'IA per produrre testi o compiti in classe, perché ne compromette il valore dell'attività."
+    }
+  ]
+}

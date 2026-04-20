@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_daqu04.md",
+  "source_name": "insegnanti_futuri_daqu04.md",
+  "title": "Risposta: Insegnanti pre-service - Record 42",
+  "group": "Insegnanti pre-service",
+  "record_code": "Daqu04",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:41:05.370277+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "S7",
+    "X4"
+  ],
+  "record_note": "Il partecipante mostra consapevolezza sui benefici (disabilità) e sui rischi (dipendenza) dell'IA, ma è cauto nell'applicarla a ambiti emotivi/personali.",
+  "code_counts": {
+    "P2": 1,
+    "S7": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "codes": [],
+      "reason": "Risposta non pertinente al tema dell'uso dell'IA in didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro aiuta soprattutto in caso di disabilità o fragilità nell'apprendimento. Può creare dipendenza",
+      "codes": [
+        "P2",
+        "X4"
+      ],
+      "reason": "L'IA aiuta in caso di disabilità o fragilità nell'apprendimento (P2, X4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creare testi spontanei e introspettivi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Non raccomandare l'uso dell'IA per creare testi spontanei e introspettivi, ambiti che richiedono interazione umana (S7)."
+    }
+  ]
+}

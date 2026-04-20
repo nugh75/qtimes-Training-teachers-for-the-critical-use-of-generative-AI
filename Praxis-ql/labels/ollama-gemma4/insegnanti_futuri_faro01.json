@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_faro01.md",
+  "source_name": "insegnanti_futuri_faro01.md",
+  "title": "Risposta: Insegnanti pre-service - Record 16",
+  "group": "Insegnanti pre-service",
+  "record_code": "FARO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:43:17.573564+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R2",
+    "S2",
+    "S4",
+    "X6"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evidenziando sia il potenziale innovativo che i rischi di dipendenza e uso improprio.",
+  "code_counts": {
+    "I4": 1,
+    "R2": 1,
+    "S2": 1,
+    "S4": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "È un nuovo modo di pensare alla didattica, con annesse criticità, primo fra tutti la difficoltà di gestire e controllarne l'uso fatto dagli studenti.",
+      "codes": [
+        "R2",
+        "I4"
+      ],
+      "reason": "Riconosce criticità e difficoltà di controllo sull'uso da parte degli studenti, indicando una consapevolezza teorica e pedagogica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro si può pensare la scoperta e l'importanza che l'intelligenza artificiale riveste nella vista di ognuno di noi. Tra i contro l'uso improprio che ne potrebbe derivare.",
+      "codes": [
+        "X6",
+        "S4"
+      ],
+      "reason": "Riconosce l'importanza dell'IA (pro) ma anche il rischio di uso improprio (contro), toccando l'innovazione e il pensiero critico."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Fare ricerche per produrre testi o per la risoluzione di esercizi matatici.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Sconsiglia l'uso dell'IA per produrre testi o risolvere esercizi matematici, indicando rischi di plagio e perdita di pensiero critico."
+    }
+  ]
+}

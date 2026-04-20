@@ -1,0 +1,140 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rati06.md",
+  "source_name": "insegnanti_attuali_rati06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 29",
+  "group": "Insegnanti in servizio",
+  "record_code": "rati06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:25:08.742293+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali visivi (mappe, immagini) per personalizzare e migliorare la memorizzazione dei concetti, ma evidenzia difficoltà tecniche e rischi di impoverimento della comprensione testuale.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 1,
+    "P2": 3,
+    "P5": 5,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 3,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "codes": [],
+      "reason": "Risposta affermativa non informativa sul metodo di utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (Chat GPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La uso per creare immagini che rappresentano il concetto da inserire in mappe",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Usa l'IA per creare immagini da inserire in mappe, un metodo di diversificazione per l'individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione immagini e mappe",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di immagini e mappe per la personalizzazione dell'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea un immagine che esprima il concetto x. L immagine deve essere colorata buffa e avere un dettaglio specifico ( che di collega alla parola chiave dell argomento)",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Fornisce un esempio di prompt specifico per la creazione di immagini che esprimono un concetto."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Mappa con immagiji di politica economica / strumenti e obiettivi",
+      "codes": [
+        "P5",
+        "X5"
+      ],
+      "reason": "Creazione di mappe con immagini per migliorare l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Permette di usare altri canali per la memorizzazione e il richiamo di concetti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA permette di usare canali diversi per la memorizzazione e il richiamo di concetti, migliorando la comprensione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "A volte le immagini non ha no nulla che racchiuda il concetti ma e difficile cambiarle anche se faccio richieste specifiche",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Difficoltà nell'ottenere immagini che racchiudano il concetto, nonostante richieste specifiche."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro permettono di personalizzare gli strumenti di apprendimento . Contro: impoverimenti di processi di comprensione del testo",
+      "codes": [
+        "P2",
+        "X3",
+        "S4"
+      ],
+      "reason": "Pro: personalizzazione degli strumenti di apprendimento. Contro: impoverimento dei processi di comprensione del testo (erosione del pensiero critico)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Rielaborazione di testi",
+      "codes": [
+        "P1"
+      ],
+      "reason": "Indica che la rielaborazione di testi non è raccomandata, suggerendo che l'IA non dovrebbe essere usata per questo scopo."
+    }
+  ]
+}

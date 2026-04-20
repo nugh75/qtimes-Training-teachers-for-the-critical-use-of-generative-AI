@@ -1,0 +1,111 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_capomolla30.md",
+  "source_name": "insegnanti_attuali_capomolla30.md",
+  "title": "Risposta: Insegnanti in servizio - Record 283",
+  "group": "Insegnanti in servizio",
+  "record_code": "Capomolla30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:50:19.614684+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P5",
+    "P6",
+    "S6",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza strumenti IA semplici e li percepisce come utili per l'arricchimento, ma è consapevole dei limiti (errori) e dei confini etici (non sostituire la valutazione).",
+  "code_counts": {
+    "I2": 1,
+    "P1": 1,
+    "P5": 1,
+    "P6": 1,
+    "S6": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt facile",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (ChatGPT) come preferito."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Consigliare",
+      "codes": [],
+      "reason": "Risposta troppo vaga ('Consigliare') per assegnare codici specifici."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Aiuto",
+      "codes": [],
+      "reason": "Risposta troppo vaga ('Aiuto') per assegnare codici specifici."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea test",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "L'esempio di 'Crea test' rientra nella produzione di materiali didattici (test) e strategie operative (creazione di test)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Aumenta la curiosità",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'aumento della curiosità è un elemento di arricchimento e coinvolgimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Aumenta la curiosità",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'aumento della curiosità è un elemento di arricchimento e coinvolgimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuan",
+      "codes": [],
+      "reason": "Risposta negativa ('Nessuna') e non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Delle volte sbaglia",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Riconoscere che l'IA 'sbaglia' indica una sfiducia tecnica."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Correzione dei compiti",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Suggerire di non usare l'IA per la correzione dei compiti implica un limite al ruolo dell'IA, che non dovrebbe sostituire la valutazione umana."
+    }
+  ]
+}

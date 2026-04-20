@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tino25.md",
+  "source_name": "insegnanti_attuali_tino25.md",
+  "title": "Risposta: Insegnanti in servizio - Record 18",
+  "group": "Insegnanti in servizio",
+  "record_code": "tino25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:32:22.035695+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R5",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "record_note": "Il partecipante esprime scetticismo e preferenza per l'interazione umana, manifestando una certa diffidenza verso l'IA.",
+  "code_counts": {
+    "I4": 1,
+    "R5": 1,
+    "S3": 1,
+    "S4": 1,
+    "S5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa e non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non conosco abbastanza l'IA, ma soprattutto preferisco \"l'intelligenza naturale\" (quella umana).",
+      "codes": [
+        "I4",
+        "R5"
+      ],
+      "reason": "Preferenza per l'intelligenza umana ('intelligenza naturale') e mancanza di conoscenza sull'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non so.",
+      "codes": [],
+      "reason": "Risposta di incertezza ('Non so')."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienza diretta dell'uso dell'intelligenza artificiale, ma, da quanto ho letto e sentito tramite mezzi di informazione vari, temo che possa servire a manipolare o falsificare le cose, che limiti l'uso della creatività, della riflessione, del ragionamento, della fantasia e della memoria umana.",
+      "codes": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "reason": "Preoccupazioni sulla manipolazione, limitazione della creatività, riflessione, ragionamento e memoria umana."
+    }
+  ]
+}

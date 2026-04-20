@@ -1,0 +1,138 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_aisto30.md",
+  "source_name": "insegnanti_attuali_aisto30.md",
+  "title": "Risposta: Insegnanti in servizio - Record 128",
+  "group": "Insegnanti in servizio",
+  "record_code": "aisto30",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:43:24.269609+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per adattare e calibrare contenuti e prove, ma evidenzia preoccupazioni sull'uso scorretto da parte degli studenti (plagio/erosione del pensiero critico).",
+  "code_counts": {
+    "P1": 2,
+    "P2": 3,
+    "P3": 2,
+    "P4": 2,
+    "P5": 2,
+    "P6": 1,
+    "S2": 1,
+    "S4": 1,
+    "X2": 3,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"-\"",
+      "codes": [],
+      "reason": "Risposta non informativa ('-')."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "pc",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Il PC è uno strumento o piattaforma tecnologica utilizzata."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "semplificazione testi",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "La 'semplificazione testi' è una strategia per adattare i contenuti (personalizzazione) e migliorare la comprensione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "adattamento delle prove allo stile di apprendimento dei singoli alunni",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'adattamento delle prove allo stile di apprendimento è un esempio di personalizzazione per coltivare potenzialità individuali."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "give some info about king HENRY 8 TUDOR, with also using photos and videos, for a student with sne",
+      "codes": [
+        "P3",
+        "P2",
+        "P5"
+      ],
+      "reason": "Richiesta di informazioni su un argomento storico (King Henry 8), con supporto multimodale (foto/video) per uno studente con disabilità (sne), indicando adattamento e supporto per studenti fragili."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "calibrare le nozioni e le prove di valutazione affinchè tutti possano raggiungere il successo formativo",
+      "codes": [
+        "P1",
+        "P4",
+        "X2"
+      ],
+      "reason": "Calibrare nozioni e prove di valutazione aiuta a migliorare l'apprendimento e la comprensione per tutti."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "calibrare contenuti e prove",
+      "codes": [
+        "P1",
+        "P4",
+        "X2"
+      ],
+      "reason": "Calibrare contenuti e prove è un'attività di supporto allo studio e di miglioramento della comprensione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta negativa, non vengono descritte difficoltà."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro : velocizza lavoro burocratico dei docenti; contro gli studenti lo usano in maniera scorretta",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Contro: gli studenti usano l'IA in maniera scorretta (plagio/uso improprio); Pro: velocizza il lavoro burocratico (non è un codice specifico, ma si lega all'efficienza)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "traduzione e produzione testi",
+      "codes": [
+        "P3",
+        "P5"
+      ],
+      "reason": "Traduzione e produzione testi sono aree che non dovrebbero essere usate, suggerendo che l'IA non è adatta per queste funzioni."
+    }
+  ]
+}

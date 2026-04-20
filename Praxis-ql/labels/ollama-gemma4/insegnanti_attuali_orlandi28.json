@@ -1,0 +1,136 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_orlandi28.md",
+  "source_name": "insegnanti_attuali_orlandi28.md",
+  "title": "Risposta: Insegnanti in servizio - Record 69",
+  "group": "Insegnanti in servizio",
+  "record_code": "Orlandi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:20:07.737557+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "R2",
+    "S4",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "record_note": "L'insegnante mostra un uso esplorativo e limitato dell'IA, concentrandosi su traduzione e sintesi, ma manifesta lacune nella comprensione tecnica e pedagogica degli strumenti.",
+  "code_counts": {
+    "P2": 3,
+    "P3": 2,
+    "P5": 2,
+    "P6": 1,
+    "R2": 1,
+    "S4": 1,
+    "X2": 1,
+    "X3": 1,
+    "X4": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "codes": [],
+      "reason": "Risposta affermativa non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non ne conosco molti. Uso principalmente Chat GPT e strumenti di traduzione",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti (ChatGPT e traduttori) utilizzati."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Sto sperimentando un modulo di riflessione sull'uso della traduzione automatica e quali competenze  di comprensione servono per gestire le traduzioni automatiche",
+      "codes": [
+        "P3",
+        "P2",
+        "X4"
+      ],
+      "reason": "Sperimenta un modulo di riflessione sull'uso della traduzione automatica, toccando l'accessibilità e l'individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "come sopra",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Riferimento alla personalizzazione, come descritto nel punto precedente."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Buongiorno, potresti tradurre il testo seguente dall'italiano al romeno  \"....\"",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Fornisce un esempio di prompt di traduzione, che è una strategia operativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Buongiorno potresti sintetizzare questo testo \"...\"",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Suggerisce la sintesi di un testo, che è una strategia operativa per la comprensione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Sto iniziando un modulo sperimentale per riflettere insieme agli studenti su quali competenze di intercomprensione permettono di poter gestire la traduzione automatica in modo ottimale, anche per lingue poco o per nulla note. Ma sono all'inizio.",
+      "codes": [
+        "P3",
+        "P2",
+        "X4"
+      ],
+      "reason": "Sperimenta un modulo su competenze di intercomprensione per gestire la traduzione automatica, toccando l'accessibilità e la personalizzazione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "La conosco poco e soprattutto la uso da utente e non so che cosa c'è dietro.",
+      "codes": [
+        "R2"
+      ],
+      "reason": "Ammette di conoscere poco e di usare l'IA solo come utente, non sapendo il funzionamento interno."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono molti, i contro sono che alcune competenze non servono più e vanno riadattate. Serviranno di più competenze trasversali per la gestione dei processi.",
+      "codes": [
+        "S4",
+        "X5"
+      ],
+      "reason": "Riconosce che alcune competenze non servono più e che serviranno di più competenze trasversali per la gestione dei processi."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    }
+  ]
+}

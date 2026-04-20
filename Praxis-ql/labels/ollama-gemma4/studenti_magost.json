@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_magost.md",
+  "source_name": "studenti_magost.md",
+  "title": "Risposta: Studenti - Record 20",
+  "group": "Studenti",
+  "record_code": "magost",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:16:17.517069+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "R4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'utente utilizza l'IA principalmente per riassumere e identificare concetti chiave, mostrando consapevolezza dei limiti di affidabilità dell'IA.",
+  "code_counts": {
+    "I2": 2,
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "X2": 4,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassunti perché riesco a rilevare i concetti più importanti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'utente usa l'IA per riassumere e rilevare concetti importanti, semplificando lo studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Inviandole un oggetto interessato e chiedendole di trovarmi i concetti più importanti all’interno di esso",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'utente chiede all'IA di trovare i concetti più importanti su un oggetto specifico, personalizzando lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Puoi rilevarmi i contenuti più importanti di questo testo”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "L'utente fornisce un esempio di prompt ('Puoi rilevarmi i contenuti più importanti di questo testo'), dimostrando capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendomi comprendere come si identificano all’interno di un brano le cose più importanti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta l'utente a comprendere come identificare i concetti più importanti, migliorando la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho imparato a riassumere e a trovare i concetti più importanti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'utente menziona di aver imparato a riassumere e trovare i concetti più importanti, migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che non sempre convengo con ciò che vi è scritto",
+      "codes": [],
+      "reason": "La risposta è troppo generica e non specifica alcuna difficoltà di implementazione."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che spesso riesce a “semplificare” lo studio per certi aspetti, i contro che non sempre la reputo affidabile",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "L'utente cita la 'semplificazione' come pro (X2) e la mancanza di affidabilità come contro (I2)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "In alcuni casi mi sono ritrovata a chiedere a ChatGPT di crearmi degli esercizi e una volta fatti avrei visto le risposte…diciamo che non mi sono trovata con le risposte che mi ha fornito… Ho chiesto di ricontrollare se fossero giusti e ChatGPT è convenuto con me che sul fatto che ci fossero degli errori",
+      "codes": [
+        "P1",
+        "I2"
+      ],
+      "reason": "L'utente chiede all'IA di creare esercizi (P1) ma si scontra con errori forniti, evidenziando la sfiducia tecnica (I2)."
+    }
+  ]
+}

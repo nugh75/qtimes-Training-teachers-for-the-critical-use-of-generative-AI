@@ -11,3 +11,6 @@ Indice generale della knowledge base qualitativa. Ogni popolazione è analizzata
 ## Risorse
 
 - [Quadro PRAXIS](praxis-framework.md) — Definizione del framework a sei dimensioni.
+- [PRAXIS Labels](labels-praxis.md) — Accesso alla sezione di etichettatura record (Quartz-native).
+- [PRAXIS Graph (React)](grafo-dimensioni-praxis.md) — Grafo colorato delle relazioni tra dimensioni e frequenze.
+- [Wiki Graph](grafo-wiki.md) — Grafo delle pagine in `wiki/` basato sui link markdown.

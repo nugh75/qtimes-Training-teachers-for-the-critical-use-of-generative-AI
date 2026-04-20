@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_erio24.md",
+  "source_name": "insegnanti_attuali_erio24.md",
+  "title": "Risposta: Insegnanti in servizio - Record 162",
+  "group": "Insegnanti in servizio",
+  "record_code": "erio24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:59:37.388966+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "P1",
+    "P2",
+    "P5",
+    "S6",
+    "X3",
+    "X4"
+  ],
+  "record_note": "L'insegnante riconosce i potenziali benefici dell'IA (personalizzazione, inclusione) ma ne evidenzia anche i rischi legati all'affidabilità dei contenuti, alla dipendenza e alla perdita del ruolo umano.",
+  "code_counts": {
+    "I2": 1,
+    "I4": 2,
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "S6": 1,
+    "X3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La uso qualche volta per lavoro, raramente nella vita quotidiana perché non ho esigenza",
+      "codes": [],
+      "reason": "Risposta non informativa sul motivo di non utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non capisco la domanda",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per ora non la utilizzo per questo scopo",
+      "codes": [],
+      "reason": "Non utilizzo dichiarato per questo scopo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per ora non la utilizzo per questo scopo",
+      "codes": [],
+      "reason": "Non utilizzo dichiarato per questo scopo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Dialogo con 19 battute sull’importanza di una dieta sana ed equilibrata per bambini di 7/8 anni",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'esempio è un dialogo, che rientra nella categoria di 'spiegazioni' o 'riscritture' di contenuti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "No",
+      "codes": [],
+      "reason": "Risposta negativa."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non l’ho utilizzata per questo scopo",
+      "codes": [],
+      "reason": "Non utilizzo dichiarato per questo scopo."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non l’ho utilizzata per questo scopo",
+      "codes": [],
+      "reason": "Non utilizzo dichiarato per questo scopo."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: personalizzazione dell’apprendimento, inclusione, apprendimento continuo. Contro: disumanizzazione dell’insegnamento, dipendenza dalla tecnologia, disuguaglianze digitali.",
+      "codes": [
+        "P2",
+        "X3",
+        "X4",
+        "I4"
+      ],
+      "reason": "Vengono menzionati i pro: personalizzazione dell'apprendimento (P2, X3), inclusione (X4) e l'importanza del ruolo relazionale (I4)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Affidare la valutazione degli studenti esclusivamente all’IA (valutazione troppo rigida); generare contenuti educativi senza supervisione umana (può contenere errori o non essere adatti al livello degli studenti); sostituire il ruolo relazionale dell’insegnante (l’IA non può replicare l’empatia e l’ascolto).",
+      "codes": [
+        "I2",
+        "P1",
+        "I4",
+        "S6"
+      ],
+      "reason": "Si avverte contro l'affidare la valutazione all'IA (I2), generare contenuti senza supervisione (P1, I2) e sostituire il ruolo relazionale (I4, S6)."
+    }
+  ]
+}

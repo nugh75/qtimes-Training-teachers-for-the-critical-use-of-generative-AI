@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ozzi17.md",
+  "source_name": "insegnanti_futuri_ozzi17.md",
+  "title": "Risposta: Insegnanti pre-service - Record 18",
+  "group": "Insegnanti pre-service",
+  "record_code": "ozzi17",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:47:52.686691+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P3",
+    "R3",
+    "S5",
+    "X4"
+  ],
+  "record_note": "Il partecipante è un insegnante pre-service che esprime scetticismo sull'uso dell'IA, riconoscendone solo parziali utilità (produzione materiali e inclusione) ma evidenziando rischi di affidabilità.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 1,
+    "P3": 1,
+    "R3": 1,
+    "S5": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Credo di non averne la necessità",
+      "codes": [],
+      "reason": "Risposta di rifiuto non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ancora non insegno, ma comunque non immagino una didattica con l’IA perché non la conosco",
+      "codes": [
+        "R3"
+      ],
+      "reason": "Non immagina l'uso dell'IA perché non la conosce, indicando un gap tra uso personale e uso didattico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sono utili per produrre materiali e per l’inclusione delle persone con disabilità",
+      "codes": [
+        "P1",
+        "P3",
+        "X4"
+      ],
+      "reason": "Riconosce l'utilità dell'IA per produrre materiali (P1) e per l'inclusione delle persone con disabilità (P3, X4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La ricerca delle informazioni perché non si può avere certezza della loro attendibilità",
+      "codes": [
+        "S5",
+        "I2"
+      ],
+      "reason": "Non raccomanda la ricerca di informazioni a causa della mancanza di certezza sull'attendibilità (S5, I2)."
+    }
+  ]
+}

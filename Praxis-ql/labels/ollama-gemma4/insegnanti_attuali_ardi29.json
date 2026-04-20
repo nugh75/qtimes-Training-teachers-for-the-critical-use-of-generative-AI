@@ -1,0 +1,140 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ardi29.md",
+  "source_name": "insegnanti_attuali_ardi29.md",
+  "title": "Risposta: Insegnanti in servizio - Record 68",
+  "group": "Insegnanti in servizio",
+  "record_code": "ARDI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:46:04.066822+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P1",
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "P7",
+    "S6",
+    "X3",
+    "X4",
+    "X6"
+  ],
+  "record_note": "L'insegnante utilizza l'IA principalmente per personalizzare e rendere più accessibile il materiale didattico, ma mantiene una consapevolezza critica sul ruolo insostituibile dell'interazione umana.",
+  "code_counts": {
+    "I4": 1,
+    "P1": 1,
+    "P2": 3,
+    "P3": 1,
+    "P5": 2,
+    "P6": 2,
+    "P7": 1,
+    "S6": 1,
+    "X3": 3,
+    "X4": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"_\"",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "OPENAI GPT",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona uno strumento specifico (OPENAI GPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La utilizzo per analizzare il rendimento degli studenti identificando i punti di forza e i punti di debolezza, personalizzare il materiale didattico e strategie di insegnamento.",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per analizzare rendimenti, personalizzare materiale e strategie, che sono azioni di individualizzazione e supporto allo studio."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Adatto il materiale e le attività in base al livello di competenza e al progresso degli studenti.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adatta materiale e attività in base al livello di competenza e al progresso, indicando personalizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo in poche righe usando esempi semplici e chiari.",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Il prompt ('Riassumi il testo in poche righe usando esempi semplici e chiari') è un esempio di strategia di produzione e un prompt visibile."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Un'allieva che faticava con la matematica ha potuto accedere a esercizi aggiuntivi mirati, migliorando significativamente le sue prestazioni.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'IA ha fornito esercizi aggiuntivi mirati per una studentessa con difficoltà in matematica, dimostrando personalizzazione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso tecnologie come la sintesi vocale e le traduzioni automatiche, l'IA può rendere l'apprendimento più accessibile a studenti con diverse abilità linguistiche o esigenze speciali.",
+      "codes": [
+        "P3",
+        "P6",
+        "X4"
+      ],
+      "reason": "L'uso di sintesi vocale e traduzioni automatiche rende l'apprendimento più accessibile a studenti con diverse abilità linguistiche o esigenze speciali (inclusione)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta negativa (Nessuna difficoltà)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti possono accedere a una vasta gamma di risorse e materiali didattici, migliorando le opportunità di apprendimento.",
+      "codes": [
+        "P1",
+        "X6"
+      ],
+      "reason": "L'accesso a una vasta gamma di risorse e materiali didattici migliora le opportunità di apprendimento (arricchimento)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'IA non può sostituire completamente l'interazione umana, fondamentale per lo sviluppo socio-emotivo e per la motivazione degli studenti. La presenza di un insegnante umano è essenziale.",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Sottolinea che l'IA non può sostituire l'interazione umana, fondamentale per lo sviluppo socio-emotivo, evidenziando l'importanza del docente (relazione educativa)."
+    }
+  ]
+}

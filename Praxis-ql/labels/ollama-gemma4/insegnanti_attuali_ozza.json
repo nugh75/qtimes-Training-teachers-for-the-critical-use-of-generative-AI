@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ozza.md",
+  "source_name": "insegnanti_attuali_ozza.md",
+  "title": "Risposta: Insegnanti in servizio - Record 249",
+  "group": "Insegnanti in servizio",
+  "record_code": "Ozza 25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:22:08.464483+00:00",
+  "record_dimensions": [
+    "I",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S6"
+  ],
+  "record_note": "L'insegnante esprime una forte resistenza all'uso dell'IA, basando la sua posizione sulla necessità di ancorare l'apprendimento all'esperienza e al mondo reale, rifiutando sia la sostituzione del proprio sapere che l'uso di contenuti artificiali.",
+  "code_counts": {
+    "I4": 3,
+    "S6": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la utilizzo perché ho tanto naturale tangibile a portata di mano",
+      "codes": [],
+      "reason": "Rifiuto di utilizzo basato sulla disponibilità di materiali reali."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché le lezioni le creo con la mia immaginazione e il mio sapere",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Sottolinea l'importanza del sapere personale e dell'immaginazione, rifiutando l'IA come sostituto del proprio sapere e della relazione educativa."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ritengo che nella scuola dell infanzia bisogna basarsi tutto sul reale e non sull artificiale",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Sostiene che la scuola dell'infanzia debba basarsi sul reale, non sull'artificiale, implicando un rifiuto del ruolo sostitutivo dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ritengo che nella scuola dell'infanzia gli alunni devono apprendere dal monto reale che li circonda, non da un mondo irreale e finto creato dell'intelligenza artificiale",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Ripete il rifiuto di usare l'IA perché l'apprendimento deve avvenire dal mondo reale, non da un mondo finto creato dall'IA."
+    }
+  ]
+}

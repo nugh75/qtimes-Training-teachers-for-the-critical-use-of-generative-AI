@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_coll01.md",
+  "source_name": "studenti_coll01.md",
+  "title": "Risposta: Studenti - Record 111",
+  "group": "Studenti",
+  "record_code": "coll01",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:58:50.773068+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P2",
+    "P6",
+    "P7",
+    "R4",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente è consapevole dei limiti dell'IA (I2, S4, S7) ma ne riconosce anche i benefici in termini di velocità e comprensione (X1, X2).",
+  "code_counts": {
+    "I2": 1,
+    "P1": 1,
+    "P2": 2,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt perché è facilmente accessibile",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menziona l'uso di ChatGPT come strumento accessibile."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "approfondisco concetti poco chiari",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Utilizza l'IA per approfondire concetti poco chiari, indicando personalizzazione e attenzione al singolo."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“mi puoi spiegare meglio, utilizzando termini diversi, questo concetto…”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Fornisce un esempio di prompt ('mi puoi spiegare meglio, utilizzando termini diversi, questo concetto...') che dimostra la capacità di prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiega con altre parole concetti che mi risultano difficili",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "L'IA spiega concetti difficili con altre parole, migliorando la comprensione e personalizzando l'approccio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato a comprendere alcune parti del manuale",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere parti del manuale, fornendo supporto allo studio e migliorando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte non sono sicura che il concetto spiegato dall’AI corrisponde alla verità a livello di contenuto",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Esprime incertezza sulla corrispondenza del contenuto spiegato dall'IA con la verità, indicando sfiducia tecnica."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro velocizza i tempi e contro potrebbe sottrarre buona parte delle capacità critiche",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Riconosce che l'IA velocizza i tempi (X1) ma che potrebbe sottrarre capacità critiche (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per fare diagnosi o trascrivere una dieta perché banalizza e generalizza eccessivamente un processo che dovrebbe essere individualizzato",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Indica ambiti (diagnosi, trascrivere dieta) che non dovrebbero essere gestiti dall'IA perché richiedono individualizzazione e competenza umana."
+    }
+  ]
+}

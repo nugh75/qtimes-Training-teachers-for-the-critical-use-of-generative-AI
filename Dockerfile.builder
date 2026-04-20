@@ -8,4 +8,4 @@ RUN git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git . \
 
 RUN sed -i 's/ignorePatterns: \["private", "templates", ".obsidian"\]/ignorePatterns: ["private", "templates", ".obsidian", ".venv", "instructions", "AGENTS.md", "Benvenuto.md", "practice-patterns.md"]/' quartz.config.ts
 
-CMD npx quartz build && cp -r /quartz/public/* /output/
+CMD sh -lc 'npx quartz build && cp -r /quartz/public/* /output/ && if [ -d /quartz/content/viz ]; then mkdir -p /output/viz && cp -r /quartz/content/viz/* /output/viz/; fi'

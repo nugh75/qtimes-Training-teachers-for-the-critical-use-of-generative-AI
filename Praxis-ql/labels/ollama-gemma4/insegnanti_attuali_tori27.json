@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tori27.md",
+  "source_name": "insegnanti_attuali_tori27.md",
+  "title": "Risposta: Insegnanti in servizio - Record 76",
+  "group": "Insegnanti in servizio",
+  "record_code": "TORI27",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:33:11.854180+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "P1",
+    "R1",
+    "S2",
+    "S4"
+  ],
+  "record_note": "Il partecipante esprime scetticismo sull'uso dell'IA, associandolo a un rischio di atrofizzazione del pensiero critico e alla non necessità di tali strumenti.",
+  "code_counts": {
+    "P1": 1,
+    "R1": 1,
+    "S2": 1,
+    "S4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON UTILIZZO PERCHE' RITENGO CHE L'UTILIZZO DALLA  AI RIDUCA LA CEESCITA DEL PENSIERO CRITICO INDIVIDUALE",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Ritiene che l'uso dell'IA riduca la crescita del pensiero critico individuale."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "PERCHE' HO POCA DIMESTICHEZZA",
+      "codes": [
+        "R1"
+      ],
+      "reason": "Motiva il non utilizzo per poca dimestichezza (competenza pratica)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "LA MIA ESPERIENZA E' SCARSA MA REPUTO CHE NON SIA NECESSARIA UN'INTELLIGENZA ARTIFICIALE NELL'EDUCAZIONE . RITENGO CHE L'EDUCAZIONE VA FORMATA CON IL PENSIERO CRITICO GESTITO DAL SOGGETTO E NON DA UN ARTIFICIO",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Sostiene che l'educazione deve formare con il pensiero critico gestito dal soggetto, non da un artificio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "LA CREAZIONE DI TESTI SCRITTI E MAPPE CONCETTUALI ARTIFICIALI",
+      "codes": [
+        "P1",
+        "S2"
+      ],
+      "reason": "Indica come non raccomandata la creazione di testi scritti e mappe concettuali artificiali."
+    }
+  ]
+}

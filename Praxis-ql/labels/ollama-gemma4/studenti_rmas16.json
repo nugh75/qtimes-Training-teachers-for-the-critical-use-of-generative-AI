@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rmas16.md",
+  "source_name": "studenti_rmas16.md",
+  "title": "Risposta: Studenti - Record 114",
+  "group": "Studenti",
+  "record_code": "RMAS16",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:27:29.676558+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "S2",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Lo studente è consapevole dei benefici (efficienza, comprensione) ma anche dei rischi (dipendenza, sostituzione del pensiero critico) dell'uso dell'IA.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "S2": 1,
+    "S4": 2,
+    "S6": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, facile e veloce da usare",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Menziona uno strumento (ChatGPT) che è facile e veloce da usare, indicando un supporto all'organizzazione dello studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Cercando degli esempi pratici",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA per cercare esempi pratici è un modo di personalizzare lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "La domanda che vorrei porre riguarda",
+      "codes": [],
+      "reason": "La risposta è incompleta e non fornisce informazioni utili."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Ottimizza i tempi",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'IA aiuta a ottimizzare i tempi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi fornisce esempi concreti e pratici inerenti ad un argomento che sto apprendendo, garantendomi una maggior comprensione",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Ricevere esempi concreti e pratici garantisce una maggiore comprensione (X2) e aiuta a produrre materiali di supporto (P5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro riguardano l’ottimizzazione dei tempi, mentre i contro riguardano l’abuso dell’intelligenza artificiale, che può arrivare eventualmente a sostituire in maniera integrale (quando possibile) il soggetto nell’esecuzione di un compito, non permettendo alla persona di apprendere adeguatamente.",
+      "codes": [
+        "X1",
+        "S6",
+        "S4"
+      ],
+      "reason": "I pro riguardano l'ottimizzazione dei tempi (X1), ma i contro evidenziano il rischio di sostituire il soggetto nell'esecuzione del compito (S6) e di non permettere di apprendere adeguatamente (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La formulazione di testi, tesine",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Non raccomanda l'uso dell'IA per la formulazione di testi o tesine, indicando rischi di plagio (S2) e di non apprendere (S4)."
+    }
+  ]
+}

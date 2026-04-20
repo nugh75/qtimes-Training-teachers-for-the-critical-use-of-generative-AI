@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tini08_2.md",
+  "source_name": "insegnanti_attuali_tini08_2.md",
+  "title": "Risposta: Insegnanti in servizio - Record 327",
+  "group": "Insegnanti in servizio",
+  "record_code": "Tini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:31:40.715870+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S4",
+    "X6"
+  ],
+  "record_note": "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, ma identifica il potenziale innovativo e il rischio di superficialità nello studio.",
+  "code_counts": {
+    "S4": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Poca conoscenza",
+      "codes": [],
+      "reason": "Risposta generica e non informativa sul non utilizzo dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Poca conoscenza in merito",
+      "codes": [],
+      "reason": "Risposta generica e non informativa sulla mancanza di conoscenza."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Una scienza innovativa utile per la metodologia d'insegnamento",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA è vista come una scienza innovativa utile per la metodologia d'insegnamento."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per avere vantaggi nell'eseguire soluzioni di problemi con poco approfondimento!!!",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Si evidenzia il rischio di non approfondire le soluzioni dei problemi."
+    }
+  ]
+}

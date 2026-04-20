@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli24.md",
+  "source_name": "studenti_elli24.md",
+  "title": "Risposta: Studenti - Record 82",
+  "group": "Studenti",
+  "record_code": "ELLI24",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T22:02:29.936265+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "R4",
+    "S3",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Lo studente utilizza l'IA principalmente come supporto per chiarimenti e quesiti, ma è consapevole dei limiti di personalizzazione e riassunto.",
+  "code_counts": {
+    "P1": 1,
+    "P2": 2,
+    "P4": 2,
+    "P5": 1,
+    "R4": 2,
+    "S3": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Nessuno lo utilizzo poco",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Quando non trovo risposte a problemi e quesiti uso chatgpt",
+      "codes": [
+        "P2",
+        "P4"
+      ],
+      "reason": "Usa l'IA per trovare risposte a problemi e quesiti, suggerendo un uso personalizzato e di supporto."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Inserisco il concetto di cui voglio ottenere l'informazione o inserisco direttamente la domanda a cui voglio ottenere la risposta",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Descrive l'inserimento di concetti o domande per ottenere informazioni, indicando una capacità di prompting di base."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi da sicurezza e chiarimenti",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "L'IA fornisce chiarimenti e sicurezza, migliorando la comprensione e l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a rispondere a quesiti di fisiologia",
+      "codes": [
+        "P1",
+        "P4"
+      ],
+      "reason": "L'IA è stata usata per rispondere a quesiti specifici di fisiologia, un supporto allo studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [],
+      "reason": "Risposta non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che fornisce velocemente la risposta di cui ho bisogno. I contro è che per ottenere informazioni più specifiche devo riformulare in modo diverso la domanda",
+      "codes": [
+        "X1",
+        "R4"
+      ],
+      "reason": "Riconosce la velocità (X1) ma evidenzia la necessità di riformulare le domande per ottenere informazioni specifiche (R4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nel riassumere e scrivere testi perche non possono essere personalizzate",
+      "codes": [
+        "P2",
+        "S3"
+      ],
+      "reason": "Evita di usare l'IA per riassumere e scrivere testi perché ritiene che questi non possano essere personalizzati."
+    }
+  ]
+}

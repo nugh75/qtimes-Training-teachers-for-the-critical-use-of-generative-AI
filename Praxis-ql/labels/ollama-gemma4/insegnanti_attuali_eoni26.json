@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_eoni26.md",
+  "source_name": "insegnanti_attuali_eoni26.md",
+  "title": "Risposta: Insegnanti in servizio - Record 132",
+  "group": "Insegnanti in servizio",
+  "record_code": "EONI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:59:13.158074+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "R3",
+    "S6"
+  ],
+  "record_note": "Il partecipante esprime scetticismo e limiti all'uso dell'IA, citando la mancanza di competenze e risorse strutturali, e temendo la perdita del ruolo del docente.",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "R3": 1,
+    "S6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON HO LE COMPETENZE NECESSARIE",
+      "codes": [],
+      "reason": "Rifiuto di utilizzo per mancanza di competenze."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "NON HO LA COMPETENZA PER USARE QUESTI STRUMENTI E LA SCUOLA NON è ATTREZZATA PER FORNIRE GLI STRUMENTI ADEGUATI",
+      "codes": [
+        "R3",
+        "A1"
+      ],
+      "reason": "Mancanza di competenze personali e assenza di strumenti adeguati a scuola."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: UN SOSTEGNO VALIDO, CONTRO: SOSTITUIRE IL DOCENTE",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Riconoscimento del supporto dell'IA, ma preoccupazione per la sostituzione del docente."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "LASCIARE CHE L'INTELLIGENZA ARTIFICIALE SOSTITUISCA DEL TUTTO LA FIGURA DEL DOCENTE",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Preoccupazione che l'IA possa sostituire completamente la figura del docente."
+    }
+  ]
+}

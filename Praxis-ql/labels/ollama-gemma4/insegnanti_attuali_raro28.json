@@ -1,0 +1,134 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_raro28.md",
+  "source_name": "insegnanti_attuali_raro28.md",
+  "title": "Risposta: Insegnanti in servizio - Record 270",
+  "group": "Insegnanti in servizio",
+  "record_code": "raro28",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:24:47.115609+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I2",
+    "P1",
+    "P2",
+    "P3",
+    "P5",
+    "P7",
+    "S4",
+    "X1",
+    "X3",
+    "X4"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per creare contenuti didattici e per supportare l'inclusività, ma segnala problemi di accesso alle risorse e preoccupazioni sulla dipendenza e l'accuratezza dei contenuti.",
+  "code_counts": {
+    "A3": 1,
+    "I2": 1,
+    "P1": 1,
+    "P2": 3,
+    "P3": 1,
+    "P5": 3,
+    "P7": 1,
+    "S4": 1,
+    "X1": 1,
+    "X3": 2,
+    "X4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "vidnoz perchè è alla portata degli alunni di primaria ed è molto coinvolgente",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "L'uso di Vidnoz per alunni di primaria lo rende accessibile e coinvolgente per tutti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creando contenuti che siano accessibili a tutti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creare contenuti accessibili a tutti gli studenti è un esempio di individualizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Tenendo in considerazione le singole necessità e capacità",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Tenere conto delle singole necessità e capacità è l'obiettivo della personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Scrivi dieci parole con i suoni duri o suoni dolci e una tabella dove poterle inserire",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "L'esempio di prompt è un'istruzione per creare un contenuto specifico (parole e tabella), rientrando in strategie operative e prompting visibile."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Crea un esercizio in cui collegare 5 parole all'immagine corrispondente",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Creare un esercizio di collegamento tra parole e immagini è un materiale didattico e un esempio di visualizzazione/esercizio."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "E' veloce nella creazione di tabelle e contenuti",
+      "codes": [
+        "P5",
+        "X1"
+      ],
+      "reason": "La creazione di tabelle e contenuti è un'operazione che migliora l'apprendimento grazie alla velocità (efficienza)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non sempre c'è la possibilità di usufruire dell'aula informatica per lavorare individualmente",
+      "codes": [
+        "A3"
+      ],
+      "reason": "La difficoltà riscontrata è legata alla mancanza di accesso all'aula informatica per lavorare individualmente."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'aspetto positivo è la velocità con cui si possono creare contenuti idonei alla classe o ai singoli alunni ottenendo un approccio più inclusivo; quello negativo potrebbe essere la dipendenza eccessiva che porta ad un inaridimento della creatività, inoltre è necessario un controllo di quanto proposto in quanto potrebbero verificarsi errori o equivoci",
+      "codes": [
+        "P2",
+        "X4",
+        "S4",
+        "I2"
+      ],
+      "reason": "Vantaggi: approccio inclusivo e velocità (P2, X4). Svantaggi: dipendenza eccessiva che inaridisce la creatività (S4) e rischio di errori/equivoci (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella mia esperienza non ho riscontrato pratiche che non dovrebbero avvalersi dell'uso dell'ai",
+      "codes": [],
+      "reason": "La risposta è negativa e non fornisce informazioni utili per l'assegnazione di codici."
+    }
+  ]
+}

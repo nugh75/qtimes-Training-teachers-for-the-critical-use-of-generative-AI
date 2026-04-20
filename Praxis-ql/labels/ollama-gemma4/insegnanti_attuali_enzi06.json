@@ -1,0 +1,132 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_enzi06.md",
+  "source_name": "insegnanti_attuali_enzi06.md",
+  "title": "Risposta: Insegnanti in servizio - Record 143",
+  "group": "Insegnanti in servizio",
+  "record_code": "enzi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T20:58:43.673269+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "P7",
+    "R2",
+    "S1",
+    "S7",
+    "X2",
+    "X3"
+  ],
+  "record_note": "L'insegnante utilizza l'IA per la creazione di contenuti personalizzati e sintetici, ma solleva preoccupazioni sulla dipendenza degli studenti e sui limiti dell'uso automatico (traduzione).",
+  "code_counts": {
+    "P2": 3,
+    "P3": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R2": 2,
+    "S1": 1,
+    "S7": 1,
+    "X2": 2,
+    "X3": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Utilizzo molto Canva perché al suo interno ha diversi strumenti che permettono di lavorare anche in lingua straniera.",
+      "codes": [
+        "P3",
+        "P6"
+      ],
+      "reason": "L'uso di Canva per lavorare in lingua straniera indica supporto multimodale e strumenti specifici."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di contenuti specifici e fruibili.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "La creazione di contenuti specifici e fruibili è un modo per individualizzare l'insegnamento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di contenuti personalizzati.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "La creazione di contenuti personalizzati è direttamente collegata alla personalizzazione dell'insegnamento."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "- \"Scrivi una biografia dell'autore in 50 parole\".  - \"Crea una mappa concettuale sull'argomento X\".  - \"Crea un'immagine in cui ci siano gli elementi X, Y, Z\".",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Vengono forniti esempi di prompt e di attività di riassunto/mappa concettuale."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "I contenuti sono immediati e il fatto di utilizzare strumenti a loro familiari è estremamente utile.",
+      "codes": [
+        "X2"
+      ],
+      "reason": "I contenuti sono immediati e l'uso di strumenti familiari migliora l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Si possono creare dei contenuti estremamente sintetici e facilmente fruibili e gli studenti possono imparare a ricrearli.",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "La creazione di contenuti sintetici e facilmente fruibili migliora l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Gli studenti tendono spesso a far sì che l'IA si sostituisca a loro (ad esempio traducendo un testo o svolgendo un esercizio al posto loro). Noi docenti dovremmo fare in modo che gli studenti non diventino fruitori acritici e passivi ma che imparino ad utilizzare questi strumenti in maniera attiva e critica, riconoscendone i limiti.",
+      "codes": [
+        "S1",
+        "R2"
+      ],
+      "reason": "Si evidenzia il rischio che gli studenti si sostituiscano all'IA (dipendenza) e la necessità di insegnare a riconoscere i limiti dell'IA (competenza teorica)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro elencherei soprattutto la possibilità di creare contenuti personalizzati e originali in tempi molto ridotti. Tra i contro sicuramente direi che attualmente riscontro una preoccupante deriva nell'utilizzo dell'IA che porta spesso anche noi docenti ad utilizzare questi strumenti in maniera acritica.",
+      "codes": [
+        "P2",
+        "X3",
+        "R2"
+      ],
+      "reason": "I pro includono la personalizzazione e la rapidità; i contro riguardano l'uso acritico (R2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "In quanto docente di lingue straniere, la pratica che in assoluto mi sento di sconsigliare è quella relativa alla traduzione.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il docente sconsiglia l'uso dell'IA per la traduzione, un ambito che non dovrebbe sostituire la competenza umana (lingue)."
+    }
+  ]
+}

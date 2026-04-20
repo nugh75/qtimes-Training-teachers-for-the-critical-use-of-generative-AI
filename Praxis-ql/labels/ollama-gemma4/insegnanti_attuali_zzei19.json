@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_zzei19.md",
+  "source_name": "insegnanti_attuali_zzei19.md",
+  "title": "Risposta: Insegnanti in servizio - Record 183",
+  "group": "Insegnanti in servizio",
+  "record_code": "zzei19",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:e4b",
+  "generated_at": "2026-04-19T21:38:17.672257+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I3",
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "S4",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "record_note": "L'insegnante evidenzia l'uso di strumenti multimediali per l'inclusione e la personalizzazione, ma segnala problemi di disponibilità e di uso inappropriato da parte di terzi.",
+  "code_counts": {
+    "A3": 1,
+    "I3": 1,
+    "P2": 2,
+    "P3": 2,
+    "P5": 3,
+    "P6": 1,
+    "S4": 1,
+    "X2": 2,
+    "X3": 2,
+    "X4": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "digital board perchè aiuta nella realizzazione di contenuti e aiuta nella visualizzazione di immagini  video i musica",
+      "codes": [
+        "P5",
+        "P6"
+      ],
+      "reason": "L'uso di digital board per la realizzazione e visualizzazione di contenuti multimediali (immagini, video, musica)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Con l'aiuto di immagini suoni e colori che dimostrano ai bambini il lavoro da svolgere o realizzare.",
+      "codes": [
+        "P3",
+        "P2",
+        "X4",
+        "X3"
+      ],
+      "reason": "L'uso di immagini, suoni e colori per dimostrare il lavoro, supportando l'inclusione e la personalizzazione per bambini con difficoltà."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Nella scuola dell'infanzia  tale   utilizzo permette una inclusione maggiore anche ai bambini con difficoltà comportamentali intellettive o per riconoscere le loro potenzialità",
+      "codes": [
+        "P3",
+        "P2",
+        "X4",
+        "X3"
+      ],
+      "reason": "L'uso dell'IA permette maggiore inclusione e riconoscimento delle potenzialità in bambini con difficoltà comportamentali o intellettive."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "visivo",
+      "codes": [],
+      "reason": "Risposta troppo generica ('visivo') per assegnare codici specifici."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "immagini di supporto visivo",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'uso di immagini di supporto visivo per migliorare l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "tramite immagini realistiche apprendono",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'uso di immagini realistiche per far apprendere agli studenti."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "strumenti non presenti nelle classi o poco funzionali",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Difficoltà legate alla non disponibilità o alla scarsa funzionalità degli strumenti di IA in classe."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "adulti poco preparati e studenti fuori controllo dei genitori ne abusano",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Critica sull'uso da parte di adulti poco preparati e studenti fuori controllo dei genitori, riguardante l'uso etico e responsabile."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Utilizzo per le attività creative, il bambino deve essere lasciato libero di sperimentare creare e porre domande, ciò lo accompagna ad una autonomia maggiore",
+      "codes": [
+        "S4",
+        "X5"
+      ],
+      "reason": "Si raccomanda di lasciare libertà di sperimentare e porre domande per favorire l'autonomia e non compromettere il pensiero critico."
+    }
+  ]
+}
