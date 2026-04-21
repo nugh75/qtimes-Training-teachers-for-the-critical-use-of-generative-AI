@@ -131,6 +131,15 @@ Il presente articolo si fonda sulla rilettura sistematica dell'intero corpus di 
 
 Come ancoraggi empirici diretti, il testo richiama numerosi record esemplari tratti dall'intero corpus, selezionati per rappresentatività tematica e non per eccezionalità. L'articolo assume il patrimonio delle pagine wiki come base analitica e lo riorganizza in forma argomentativa unitaria, dimensione per dimensione, evidenziando convergenze e divergenze tra le tre coorti.
 
+### 3.6 Rafforzamento della qualità di classificazione
+
+Per aumentare l'affidabilità della codifica automatica, la pipeline metodologica prevede un ciclo di riclassificazione e audit articolato in quattro passaggi:
+
+1. **Re-label con modelli più forti.** Le etichette generate in prima battuta con `gemma4:e4b` vengono ricalcolate con due modelli di maggiore capacità, `gemma4:31b` e `qwen3:32b`, per ridurre la dispersione classificatoria e la fuga verso `N1`.
+2. **Double-coding model-to-model.** Ogni record viene codificato da entrambi i modelli (`gemma4:31b` e `qwen3:32b`) e l'accordo viene misurato come inter-rater agreement su codici e dimensioni PRAXIS, in continuità con il principio di doppia codifica già adottato per i valutatori umani.
+3. **Audit delle incoerenze.** Sulle 117 incoerenze già identificate tra label e pagine wiki, viene estratto un campione stratificato di 30 casi per decidere in modo tracciabile quale fonte sia autoritativa (wiki o label) e per individuare eventuali bias sistemici (ad esempio under-labeling della dimensione `A`).
+4. **Refinement del codice `N1`.** Il codice ombrello `N1` viene disaggregato in tre sottocodici: `N1a` (risposta troppo breve), `N1b` (fuori tema), `N1c` (tautologica). Questa distinzione consente analisi più fini sulla qualità delle risposte e sugli errori di classificazione.
+
 ## 4. Risultati
 
 I risultati vengono presentati seguendo le sei dimensioni del framework PRAXIS. Per ciascuna dimensione si descrivono i pattern emergenti nelle tre coorti — insegnanti attuali, insegnanti futuri e studenti — evidenziando convergenze, divergenze e asimmetrie strutturali.
@@ -236,4 +245,3 @@ Sul piano istituzionale, il dato più importante è che la normatività dell'uso
 Ne deriva una conclusione operativa: la priorità non è insegnare semplicemente a usare la GenAI, ma insegnare a progettarne l'uso, a valutarne i limiti e a riconoscere i contesti in cui la sua mediazione è appropriata oppure no. In assenza di questa alfabetizzazione critica, l'innovazione rischia di restare rapida sul piano tecnico e fragile su quello pedagogico. In presenza di tale alfabetizzazione, invece, la GenAI può diventare non il sostituto del lavoro educativo, ma uno strumento consapevole al servizio della praxis.
 
 ## 8. Riferimenti bibliografici {#refs}
-

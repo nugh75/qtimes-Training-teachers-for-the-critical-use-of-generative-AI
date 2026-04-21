@@ -24,6 +24,16 @@ DEFAULT_HOST = "http://192.168.129.14:11434"
 DEFAULT_MODEL = "gemma4:e4b"
 LOGGER = logging.getLogger("label_raw_with_ollama")
 
+FRONTMATTER_RE = re.compile(r"^---\n(?P<yaml>.*?)\n---\n", re.DOTALL)
+ITEM_STRUCT_RE = re.compile(
+    r"^## Item (?P<idx>\d+) \{#item-\d+\}\s*\n"
+    r"(?:\s*\n)?"
+    r"\*\*Q\*\*:\s*(?P<q>.*?)\s*\n"
+    r"\*\*A\*\*:\s*(?P<a>.*?)\s*\n"
+    r"\*\*Codes\*\*:",
+    re.DOTALL | re.MULTILINE,
+)
+
 
 CODEBOOK: dict[str, str] = {
     "P1": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
@@ -61,8 +71,12 @@ CODEBOOK: dict[str, str] = {
     "S5": "Informazioni false, imprecisione, affidabilita' debole.",
     "S6": "Sostituzione del docente o della relazione educativa.",
     "S7": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
-    "N1": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
+    "N1a": "Risposta troppo breve o non informativa per attribuzione di codici PRAXIS.",
+    "N1b": "Risposta fuori tema rispetto alla domanda, non classificabile nel framework PRAXIS.",
+    "N1c": "Risposta tautologica/meta-definizione, non classificabile nel framework PRAXIS.",
 }
+
+LEGACY_CODE_ALIASES = {"N1": "N1a"}
 
 
 SYSTEM_PROMPT = """Sei un codificatore qualitativo esperto del framework PRAXIS.
@@ -72,7 +86,7 @@ Regole:
 1. Usa solo i codici ammessi.
 2. Un item puo' ricevere zero, uno o piu' codici.
 3. Non inventare codici nuovi.
-4. Se una risposta e' solo '-' o e' vuota o non informativa, assegna il codice N1 (risposta non classificabile).
+4. Usa N1a se la risposta e' troppo breve/non informativa, N1b se e' fuori tema, N1c se e' tautologica o meta-definizione.
 5. Preferisci pochi codici pertinenti a molti codici rumorosi.
 6. Considera soprattutto il contenuto espresso nella risposta, non la sola formulazione della domanda.
 7. Restituisci JSON valido e nient'altro.
@@ -100,7 +114,11 @@ def parse_args() -> argparse.Namespace:
         description="Etichetta i file raw PRAXIS usando un modello Ollama remoto."
     )
     parser.add_argument("--input-dir", type=Path, default=RAW_DIR)
-    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        help="Directory output. Se omesso, deriva da --model.",
+    )
     parser.add_argument("--host", default=DEFAULT_HOST)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--glob", default="*.md")
@@ -141,9 +159,70 @@ def normalize_answer(text: str) -> str:
     return text.strip()
 
 
-def parse_raw_markdown(path: Path, include_empty: bool = False) -> RawRecord:
-    text = path.read_text(encoding="utf-8")
+def model_slug(model: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", model.lower()).strip("-")
 
+
+def default_output_dir_for_model(model: str) -> Path:
+    if model == DEFAULT_MODEL:
+        return OUTPUT_DIR
+    return ROOT_DIR / "labels" / f"ollama-{model_slug(model)}"
+
+
+def parse_frontmatter(text: str) -> dict[str, str]:
+    match = FRONTMATTER_RE.match(text)
+    if not match:
+        return {}
+    parsed: dict[str, str] = {}
+    for line in match.group("yaml").splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        parsed[key.strip()] = value.strip().strip('"').strip("'")
+    return parsed
+
+
+def is_empty_answer(answer: str) -> bool:
+    value = answer.strip().strip('"').strip("'")
+    return value in {"", "-", "_", "—"}
+
+
+def parse_item_based_markdown(
+    path: Path,
+    text: str,
+    include_empty: bool = False,
+) -> RawRecord | None:
+    frontmatter = parse_frontmatter(text)
+    title_match = re.search(r"^#\s+(.*)$", text, flags=re.MULTILINE)
+    title = normalize_inline(title_match.group(1)) if title_match else path.stem
+    group = normalize_inline(frontmatter.get("group", "Sconosciuto"))
+    code = normalize_inline(frontmatter.get("record_code", path.stem))
+
+    items: list[QAItem] = []
+    for match in ITEM_STRUCT_RE.finditer(text):
+        idx = int(match.group("idx"))
+        question = normalize_inline(match.group("q"))
+        answer = normalize_answer(match.group("a"))
+        if not include_empty and is_empty_answer(answer):
+            continue
+        items.append(QAItem(index=idx, question=question, answer=answer))
+
+    if not items:
+        return None
+    return RawRecord(
+        source_file=path,
+        title=title,
+        group=group,
+        code=code or path.stem,
+        items=items,
+    )
+
+
+def parse_legacy_markdown(
+    path: Path,
+    text: str,
+    include_empty: bool = False,
+) -> RawRecord:
     title_match = re.search(r"^#\s+(.*)$", text, flags=re.MULTILINE)
     group_match = re.search(r"\*\*Gruppo di origine:\*\*\s*(.*)", text)
     item_pattern = re.compile(r"- \*\*(.*?)\*\*: ?(.*?)(?=\n- \*\*|\Z)", re.DOTALL)
@@ -160,7 +239,7 @@ def parse_raw_markdown(path: Path, include_empty: bool = False) -> RawRecord:
         if question.lower() == "codice":
             code = normalize_inline(answer)
             continue
-        if not include_empty and answer in {"", "-"}:
+        if not include_empty and is_empty_answer(answer):
             continue
         items.append(QAItem(index=index, question=question, answer=answer))
         index += 1
@@ -172,6 +251,14 @@ def parse_raw_markdown(path: Path, include_empty: bool = False) -> RawRecord:
         code=code or path.stem,
         items=items,
     )
+
+
+def parse_raw_markdown(path: Path, include_empty: bool = False) -> RawRecord:
+    text = path.read_text(encoding="utf-8")
+    parsed_new = parse_item_based_markdown(path, text, include_empty=include_empty)
+    if parsed_new is not None:
+        return parsed_new
+    return parse_legacy_markdown(path, text, include_empty=include_empty)
 
 
 def build_user_prompt(record: RawRecord) -> str:
@@ -255,6 +342,26 @@ def ollama_chat(host: str, model: str, prompt: str, timeout: int) -> dict[str, A
     return extract_json(content)
 
 
+def canonicalize_code(raw_code: Any) -> str | None:
+    if raw_code is None:
+        return None
+    token = normalize_inline(str(raw_code)).replace(" ", "")
+    if not token:
+        return None
+    if token in CODEBOOK:
+        return token
+    if token in LEGACY_CODE_ALIASES:
+        return LEGACY_CODE_ALIASES[token]
+    upper = token.upper()
+    if upper in CODEBOOK:
+        return upper
+    if upper in LEGACY_CODE_ALIASES:
+        return LEGACY_CODE_ALIASES[upper]
+    if re.fullmatch(r"N1[ABC]", upper):
+        return "N1" + upper[-1].lower()
+    return None
+
+
 def validate_model_output(record: RawRecord, payload: dict[str, Any]) -> dict[str, Any]:
     by_index: dict[int, dict[str, Any]] = {}
     for item in payload.get("items", []):
@@ -268,8 +375,9 @@ def validate_model_output(record: RawRecord, payload: dict[str, Any]) -> dict[st
             continue
         seen: list[str] = []
         for code in item.get("codes", []):
-            if code in CODEBOOK and code not in seen:
-                seen.append(code)
+            canonical = canonicalize_code(code)
+            if canonical and canonical not in seen:
+                seen.append(canonical)
         by_index[index] = {
             "index": index,
             "codes": seen,
@@ -292,9 +400,7 @@ def validate_model_output(record: RawRecord, payload: dict[str, Any]) -> dict[st
             }
         )
 
-    record_subcodes = sorted(
-        {code for item in normalized_items for code in item["codes"]}
-    )
+    record_subcodes = sorted({code for item in normalized_items for code in item["codes"]})
     record_dimensions = sorted({code[0] for code in record_subcodes})
 
     return {
@@ -311,9 +417,7 @@ def build_result(
     host: str,
     model: str,
 ) -> dict[str, Any]:
-    code_counts = Counter(
-        code for item in model_output["items"] for code in item["codes"]
-    )
+    code_counts = Counter(code for item in model_output["items"] for code in item["codes"])
     return {
         "source_file": str(record.source_file),
         "source_name": record.source_file.name,
@@ -328,6 +432,28 @@ def build_result(
         "record_note": model_output["record_note"],
         "code_counts": dict(sorted(code_counts.items())),
         "items": model_output["items"],
+    }
+
+
+def build_empty_result(
+    record: RawRecord,
+    host: str,
+    model: str,
+) -> dict[str, Any]:
+    return {
+        "source_file": str(record.source_file),
+        "source_name": record.source_file.name,
+        "title": record.title,
+        "group": record.group,
+        "record_code": record.code,
+        "host": host,
+        "model": model,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "record_dimensions": [],
+        "record_subcodes": [],
+        "record_note": "Il record non contiene item classificabili.",
+        "code_counts": {},
+        "items": [],
     }
 
 
@@ -351,6 +477,24 @@ def process_one(
         existing = json.loads(destination.read_text(encoding="utf-8"))
         return {"status": "skipped", "path": str(path), "result": existing}
 
+    if not record.items:
+        if dry_run:
+            return {
+                "status": "dry_run",
+                "path": str(path),
+                "prompt": "",
+                "record": {
+                    "title": record.title,
+                    "group": record.group,
+                    "record_code": record.code,
+                    "items": [],
+                },
+            }
+        result = build_empty_result(record, host=host, model=model)
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        return {"status": "empty", "path": str(path), "result": result}
+
     prompt = build_user_prompt(record)
     if dry_run:
         return {
@@ -369,15 +513,16 @@ def process_one(
     validated = validate_model_output(record, raw_payload)
     result = build_result(record, validated, host=host, model=model)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    destination.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"status": "ok", "path": str(path), "result": result}
 
 
 def write_summaries(results: list[dict[str, Any]], output_dir: Path) -> None:
-    ok_results = [item["result"] for item in results if item["status"] in {"ok", "skipped"}]
+    ok_results = [
+        item["result"]
+        for item in results
+        if item["status"] in {"ok", "skipped", "empty"}
+    ]
     if not ok_results:
         return
 
@@ -417,7 +562,7 @@ def main() -> int:
     args = parse_args()
     configure_logging(args.log_level)
     input_dir: Path = args.input_dir
-    output_dir: Path = args.output_dir
+    output_dir: Path = args.output_dir or default_output_dir_for_model(args.model)
 
     files = sorted(input_dir.glob(args.glob))
     if args.limit:
@@ -428,12 +573,13 @@ def main() -> int:
 
     total = len(files)
     LOGGER.info(
-        "Avvio labeling: files=%s model=%s host=%s workers=%s dry_run=%s",
+        "Avvio labeling: files=%s model=%s host=%s workers=%s dry_run=%s output_dir=%s",
         total,
         args.model,
         args.host,
         args.workers,
         args.dry_run,
+        output_dir,
     )
 
     started = time.time()
@@ -458,7 +604,7 @@ def main() -> int:
                 status = result["status"]
                 subcodes = (
                     len(result.get("result", {}).get("record_subcodes", []))
-                    if status in {"ok", "skipped"}
+                    if status in {"ok", "skipped", "empty"}
                     else 0
                 )
                 LOGGER.info(
@@ -500,7 +646,7 @@ def main() -> int:
                     status = result["status"]
                     subcodes = (
                         len(result.get("result", {}).get("record_subcodes", []))
-                        if status in {"ok", "skipped"}
+                        if status in {"ok", "skipped", "empty"}
                         else 0
                     )
                     LOGGER.info(

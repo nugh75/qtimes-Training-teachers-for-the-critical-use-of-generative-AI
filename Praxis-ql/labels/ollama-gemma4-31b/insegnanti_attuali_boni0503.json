@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_boni0503.md",
+  "source_name": "insegnanti_attuali_boni0503.md",
+  "title": "Risposta boni0503",
+  "group": "Insegnanti in servizio",
+  "record_code": "boni0503",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:31b",
+  "generated_at": "2026-04-21T14:25:50.582005+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A3",
+    "N1a",
+    "R1"
+  ],
+  "record_note": "Il partecipante non utilizza l'IA e motiva l'attrito dovuto a quegli strumenti e formazione insufficiente.",
+  "code_counts": {
+    "A1": 1,
+    "A3": 1,
+    "N1a": 2,
+    "R1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ho gli strumenti adeguati",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Il partecipante indica la mancanza di strumenti adeguati come barriera all'uso."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non sono molto formata per utilizzarla",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Il partecipante riferisce una mancanza di formazione specifica per l'utilizzo dello strumento."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "non ho esperienza",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è troppo breve e non fornisce informazioni utili per l'attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non ho esperienza",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "// a causa della mancanza di esperienza, l'utente non fornisce contenuti classificabili."
+    }
+  ]
+}

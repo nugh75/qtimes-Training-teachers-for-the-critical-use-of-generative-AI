@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_drea25.md",
+  "source_name": "insegnanti_attuali_drea25.md",
+  "title": "Risposta Drea25",
+  "group": "Insegnanti in servizio",
+  "record_code": "Drea25",
+  "host": "http://192.168.129.14:11434",
+  "model": "gemma4:31b",
+  "generated_at": "2026-04-21T14:30:19.167266+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "S1",
+    "S4",
+    "X4"
+  ],
+  "record_note": "Docente con un approccio critico e resistente all'uso dell'IA, focalizzato sulla tutela dei processi cognitivi e relazionali.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 1,
+    "S1": 2,
+    "S4": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché temo che possa impigrire gli studenti rispetto al pensiero critico o alla capacità di produrre un discorso scritto o orale con consapevolezza",
+      "codes": [
+        "S1",
+        "S4"
+      ],
+      "reason": "Il docente teme l'impigritura (delega cognitiva) e la perdita di pensiero critico degli studenti."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché mi piace vederli ragionare in gruppo e confrontarsi",
+      "codes": [
+        "I4"
+      ],
+      "reason": "Il docente valorizza la dimensione relazionale e il confronto tra pari come elementi insostituibili."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro : possono essere di supporto per alcune disabilità  Contro :tolgono la necessità di cercare le fonti nel modo giusto",
+      "codes": [
+        "X4",
+        "S1"
+      ],
+      "reason": "Riconosce l'utilità per l'inclusione (pro) e il rischio di perdita di autonomia nella ricerca delle fonti (contro)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta indica solo lo strumento senza spiegare il perché o la pratica specifica, risultando non informativa."
+    }
+  ]
+}

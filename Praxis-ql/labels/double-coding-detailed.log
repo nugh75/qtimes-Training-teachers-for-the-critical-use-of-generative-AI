@@ -1,0 +1,17 @@
+2026-04-21T16:27:40 [run-start] models=['gemma4:31b', 'qwen3:32b'] files=2 host=http://192.168.129.14:11434 timeout=300 overwrite=True
+2026-04-21T16:27:40 [run] model=gemma4:31b files=2
+2026-04-21T16:27:40 [model-start] model=gemma4:31b files=2 workers=1 output_dir=/home/nugh75/-qtimes/Praxis-ql/labels/ollama-gemma4-31b
+2026-04-21T16:27:40 [start] model=gemma4:31b file=insegnanti_attuali_19albe.md
+2026-04-21T16:31:50 [done] model=gemma4:31b file=insegnanti_attuali_19albe.md status=ok elapsed_s=249.59
+2026-04-21T16:31:50 [start] model=gemma4:31b file=studenti_azzo23.md
+2026-04-21T16:36:48 [done] model=gemma4:31b file=studenti_azzo23.md status=ok elapsed_s=298.21
+2026-04-21T16:36:48 [model-end] model=gemma4:31b processed=2 failures=0 statuses={'ok': 2}
+2026-04-21T16:36:48 [run] model=qwen3:32b files=2
+2026-04-21T16:36:48 [model-start] model=qwen3:32b files=2 workers=1 output_dir=/home/nugh75/-qtimes/Praxis-ql/labels/ollama-qwen3-32b
+2026-04-21T16:36:48 [start] model=qwen3:32b file=insegnanti_attuali_19albe.md
+2026-04-21T16:42:01 [error] model=qwen3:32b file=insegnanti_attuali_19albe.md error=timed out
+2026-04-21T16:42:01 [start] model=qwen3:32b file=studenti_azzo23.md
+2026-04-21T16:47:14 [error] model=qwen3:32b file=studenti_azzo23.md error=timed out
+2026-04-21T16:47:14 [model-end] model=qwen3:32b processed=0 failures=2 statuses={}
+2026-04-21T16:47:14 [warn] model=qwen3:32b failures=2
+2026-04-21T16:47:14 [run-end] summary={"models": ["gemma4:31b", "qwen3:32b"], "records_compared": 0, "records_missing_gemma4:31b": 0, "records_missing_qwen3:32b": 2, "items_compared": 0, "item_exact_set_agreement": 0.0, "item_exact_dimension_agreement": 0.0, "item_mean_jaccard": 0.0, "n1_assignments_gemma4:31b": 0, "n1_assignments_qwen3:32b": 0, "disagreements_captured": 0} json=/home/nugh75/-qtimes/Praxis-ql/labels/double-coding-agreement.json csv=/home/nugh75/-qtimes/Praxis-ql/labels/double-coding-item-agreement.csv
