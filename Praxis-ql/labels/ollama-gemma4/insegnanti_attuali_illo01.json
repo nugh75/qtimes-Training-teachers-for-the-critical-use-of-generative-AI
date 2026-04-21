@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:07:52.082030+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -16,6 +17,7 @@
   "record_subcodes": [
     "I4",
     "I5",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la personalizzazione e l'individualizzazione (P2, X3) e ne riconosce i limiti etici e relazionali (I4, S6).",
   "code_counts": {
-    "I4": 1,
-    "I5": 1,
-    "P1": 1,
-    "P2": 3,
-    "P5": 1,
+    "N1": 2,
     "P6": 2,
-    "S6": 1,
+    "P2": 3,
     "X3": 3,
+    "P5": 1,
+    "P1": 1,
+    "X5": 1,
     "X4": 1,
-    "X5": 1
+    "I4": 1,
+    "S6": 1,
+    "I5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa generica, non fornisce dettagli sul perché o come venga utilizzata."
     },
     {
@@ -107,7 +112,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non richiede codifica."
     },
     {

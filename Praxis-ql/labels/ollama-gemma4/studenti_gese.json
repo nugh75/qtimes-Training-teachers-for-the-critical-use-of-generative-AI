@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:08:11.164254+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -21,11 +23,12 @@
   ],
   "record_note": "Lo studente utilizza l'IA per arricchire il materiale di studio e simulare attività, ma esprime dubbi sull'efficacia dell'apprendimento tramite dispositivi mobili.",
   "code_counts": {
-    "P1": 2,
-    "P2": 1,
-    "P4": 1,
     "P6": 1,
+    "P2": 1,
+    "N1": 3,
+    "P1": 2,
     "X2": 2,
+    "P4": 1,
     "X3": 1
   },
   "items": [
@@ -51,7 +54,9 @@
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('non lo so')."
     },
     {
@@ -78,7 +83,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "non mi fa studiare bene",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un giudizio soggettivo e non un'analisi di difficoltà specifiche legate all'uso dell'IA."
     },
     {
@@ -95,7 +102,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('non lo so')."
     }
   ]

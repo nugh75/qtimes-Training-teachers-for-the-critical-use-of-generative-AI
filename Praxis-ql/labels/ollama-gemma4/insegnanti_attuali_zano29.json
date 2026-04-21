@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:37:41.265211+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali di studio (riassunti, mappe, contenuti) e per migliorare la comprensione, ma evidenzia anche i rischi di atrofia del pensiero critico.",
   "code_counts": {
+    "N1": 1,
     "P1": 4,
     "P2": 2,
     "P5": 5,
-    "R4": 1,
-    "S4": 2,
     "X2": 3,
     "X3": 1,
-    "X5": 1
+    "X5": 1,
+    "R4": 1,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Utilizzo') per assegnare codici specifici."
     },
     {

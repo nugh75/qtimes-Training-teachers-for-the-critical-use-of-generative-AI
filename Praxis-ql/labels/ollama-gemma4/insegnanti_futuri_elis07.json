@@ -10,15 +10,18 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S6"
   ],
   "record_note": "Il partecipante mostra una diffidenza verso l'uso dell'IA in didattica, attribuendo valore insostituibile alla relazione umana e alla creatività, e ammettendo di non utilizzare strumenti perché manca la formazione specifica.",
   "code_counts": {
+    "N1": 2,
     "A1": 1,
     "I4": 1,
     "S6": 1
@@ -28,7 +31,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché sono ancora in grado di vivere senza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, si concentra sulla vita personale e non sull'uso dell'IA."
     },
     {
@@ -54,8 +59,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nessuna",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

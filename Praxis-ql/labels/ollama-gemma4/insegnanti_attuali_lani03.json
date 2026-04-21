@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:12:00.203229+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P4",
     "R4",
@@ -23,12 +25,13 @@
   ],
   "record_note": "L'insegnante mostra consapevolezza dei rischi di uso improprio da parte degli studenti (S2) e identifica potenziali usi positivi per la revisione e la valutazione (P1, P4).",
   "code_counts": {
-    "P1": 1,
-    "P4": 1,
     "R4": 1,
     "S2": 1,
     "X1": 1,
-    "X2": 1
+    "X2": 1,
+    "P1": 1,
+    "P4": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -57,7 +60,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non saprei')."
     }
   ]

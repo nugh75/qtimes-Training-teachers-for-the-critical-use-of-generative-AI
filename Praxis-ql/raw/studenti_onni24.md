@@ -1,8 +1,8 @@
 ---
 record_code: "onni24"
 group: Studenti
-dimensions: [I, P, R, S, X]
-subcodes: [I2, P2, P5, P6, P7, R4, S2, X2, X3, X5]
+dimensions: [I, N, P, R, S, X]
+subcodes: [I2, N1, P2, P5, P6, P7, R4, S2, X2, X3, X5]
 model: gemma4:e4b
 generated_at: "2026-04-19T22:22:44.317444+00:00"
 label_source: labels/ollama-gemma4/studenti_onni24.json
@@ -11,6 +11,20 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 
 # Risposta onni24
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +32,7 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'uso di ChatGPT per accedere rapidamente a informazioni che altrimenti richiederebbero ricerche multiple su vari siti.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -25,6 +40,7 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Utilizza l'IA per ottenere spunti per la scrittura di temi, progetti e informazioni generali, indicando un'adattazione dello studio.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -32,6 +48,7 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
 **Reason**: Fornisce un esempio di prompt per generare una scaletta di un articolo, dimostrando capacità di prompting e strategia di produzione.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -39,6 +56,7 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: L'IA aiuta a migliorare l'apprendimento fornendo diversi punti di vista su ciò che viene cercato.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -46,13 +64,15 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: L'IA ha fornito spunti per la realizzazione di un progetto universitario, supportando il percorso di studio.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
 **A**: Poca chiarezza dei temi richiesti, in alcuni casi
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: La difficoltà riscontrata è legata alla chiarezza dei temi richiesti, non a un codice specifico di uso o competenza.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -60,9 +80,14 @@ note: "Lo studente utilizza l'IA principalmente per la generazione di spunti e l
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Riconosce la semplificazione del lavoro (X2) ma anche il rischio di fare affidamento sull'IA senza controllare la veridicità delle informazioni (I2).
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: La generazione di testi perché si tende a non ricontrollare ciò che viene scritto da una macchina che crediamo perfetta, ma non sempre lo è
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Sconsiglia la generazione di testi perché si tende a non ricontrollare il contenuto, che può essere impreciso o non verificabile (S2, I2).
+
+**Cited in:**
+- [wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md](../wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md)
+- [wiki/studenti/skepticisms/evoluzione-del-tabu.md](../wiki/studenti/skepticisms/evoluzione-del-tabu.md)

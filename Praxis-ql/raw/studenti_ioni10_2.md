@@ -11,6 +11,12 @@ note: "Lo studente esprime una posizione critica e di rifiuto sull'uso dell'IA, 
 
 # Risposta ioni10
 
+## Legenda codici del record
+
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -18,6 +24,7 @@ note: "Lo studente esprime una posizione critica e di rifiuto sull'uso dell'IA, 
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Rifiuto di usare l'IA a favore di metodi tradizionali (libri cartacei, appunti).
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -25,9 +32,14 @@ note: "Lo studente esprime una posizione critica e di rifiuto sull'uso dell'IA, 
 **Codes**: S4 — Erosione del pensiero critico.; S3 — Appiattimento, omologazione, perdita di creativita'.
 **Reason**: Riconoscimento che l'IA impoverisce il pensiero critico e le capacità di espressione.
 
+**Cited in:**
+- [wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md](../wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md)
+- [wiki/studenti/skepticisms/zone-di-esclusione-s6.md](../wiki/studenti/skepticisms/zone-di-esclusione-s6.md)
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Usare troppo spesso piattaforme come Chat GPT impedisce di sforarci a ragionare.
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: L'uso eccessivo di piattaforme IA impedisce di sforzarsi a ragionare.
+
+**Cited in:** —

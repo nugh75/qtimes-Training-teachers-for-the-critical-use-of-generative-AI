@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:52:43.641026+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente usa l'IA principalmente per semplificare contenuti e migliorare l'efficienza dello studio, ma è consapevole dei limiti umani e disciplinari.",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
-    "P5": 1,
     "P6": 1,
-    "S7": 1,
+    "P5": 1,
+    "X2": 2,
+    "N1": 2,
+    "P2": 1,
     "X1": 1,
-    "X2": 2
+    "I4": 1,
+    "S7": 1
   },
   "items": [
     {
@@ -56,7 +59,9 @@
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "non ne utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -82,7 +87,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

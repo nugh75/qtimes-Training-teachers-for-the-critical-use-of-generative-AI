@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:49:02.502334+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -24,13 +26,14 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la produzione di materiali didattici (quiz) e per ottimizzare i tempi, mostrando consapevolezza sui limiti dell'IA.",
   "code_counts": {
+    "P6": 1,
+    "R4": 1,
     "P1": 3,
     "P2": 2,
-    "P6": 1,
     "P7": 1,
-    "R4": 1,
-    "S4": 1,
-    "X1": 2
+    "X1": 2,
+    "N1": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -85,7 +88,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Al momento non difficolta' significative",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "A3",
     "I2",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -29,17 +31,18 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per creare contenuti didattici e per supportare l'inclusività, ma segnala problemi di accesso alle risorse e preoccupazioni sulla dipendenza e l'accuratezza dei contenuti.",
   "code_counts": {
-    "A3": 1,
-    "I2": 1,
-    "P1": 1,
-    "P2": 3,
     "P3": 1,
+    "X4": 2,
+    "P2": 3,
+    "X3": 2,
     "P5": 3,
     "P7": 1,
-    "S4": 1,
+    "P1": 1,
     "X1": 1,
-    "X3": 2,
-    "X4": 2
+    "A3": 1,
+    "S4": 1,
+    "I2": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -127,7 +130,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nella mia esperienza non ho riscontrato pratiche che non dovrebbero avvalersi dell'uso dell'ai",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è negativa e non fornisce informazioni utili per l'assegnazione di codici."
     }
   ]

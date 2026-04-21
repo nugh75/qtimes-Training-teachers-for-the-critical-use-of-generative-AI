@@ -12,11 +12,11 @@ L'interazione con l'Intelligenza Artificiale nel contesto didattico è spesso li
 
 ## Percezione dei pro e dei contro
 
-Dal punto di vista dei benefici, un aspetto positivo evidenziato è la possibilità di offrire agli studenti una «percezione più realistico degli argomenti» (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md)). Tuttavia, questa percezione positiva è bilanciata da preoccupazioni specifiche. Tra i potenziali contro, si segnala il rischio che l'uso dell'IA possa compromettere la «scarsa immaginazione studenti» (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md)).
+Dal punto di vista dei benefici, un aspetto positivo evidenziato è la possibilità di offrire agli studenti una «percezione più realistico degli argomenti» (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md#item-3) · codes: X2, X6). Tuttavia, questa percezione positiva è bilanciata da preoccupazioni specifiche. Tra i potenziali contro, si segnala il rischio che l'uso dell'IA possa compromettere la «scarsa immaginazione studenti» (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md#item-3) · codes: X2, X6).
 
 ## Limiti e pratiche non raccomandate
 
-Quando interrogati sulle pratiche di utilizzo dell'IA che non sarebbero raccomandate o che dovrebbero essere evitate nell'insegnamento, i partecipanti non sono in grado di identificare esempi specifici di tali limitazioni (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md)).
+Quando interrogati sulle pratiche di utilizzo dell'IA che non sarebbero raccomandate o che dovrebbero essere evitate nell'insegnamento, i partecipanti non sono in grado di identificare esempi specifici di tali limitazioni (source: [Lino15](../../../raw/insegnanti_futuri_lino15.md#item-3) · codes: X2, X6).
 
 ## Pagine correlate
 - [Indice Readiness Beliefs](readiness-beliefs-insegnanti-futuri.md)

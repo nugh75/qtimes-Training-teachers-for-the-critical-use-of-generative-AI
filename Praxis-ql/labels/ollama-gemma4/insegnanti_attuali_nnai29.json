@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:16:37.982999+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P5",
     "P6",
     "P7",
@@ -29,17 +31,18 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la preparazione di materiali e spunti, ma esprime scetticismo sul suo impatto didattico, temendo che possa sostituire il ragionamento e la ricerca autonoma.",
   "code_counts": {
-    "I2": 2,
     "P5": 1,
     "P6": 1,
+    "N1": 4,
     "P7": 1,
-    "R2": 1,
-    "R4": 1,
     "S4": 1,
-    "S5": 1,
     "S6": 1,
     "X6": 1,
-    "X7": 1
+    "X7": 1,
+    "I2": 2,
+    "R2": 1,
+    "S5": 1,
+    "R4": 1
   },
   "items": [
     {
@@ -56,14 +59,18 @@
       "index": 2,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Non la utilizzo per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non pertinente o non informativa."
     },
     {
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non la utilizzo per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non pertinente o non informativa."
     },
     {
@@ -79,7 +86,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non posso fornire esempi specifici",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -96,7 +105,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna, ma non ne conosco le potenzialità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:23:14.106369+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R3",
     "S1",
     "S4",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Il partecipante mostra un basso livello di familiarità con l'uso dell'IA in didattica, esprimendo incertezza e preoccupazioni sui rischi di dipendenza e perdita di interazione umana.",
   "code_counts": {
+    "N1": 1,
     "R3": 1,
-    "S1": 1,
     "S4": 2,
-    "S5": 1,
+    "X6": 1,
     "X2": 1,
-    "X6": 1
+    "S1": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non saprei come usarla",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa e di incertezza."
     },
     {

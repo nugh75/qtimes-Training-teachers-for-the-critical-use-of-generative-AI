@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T20:55:55.217160+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P3",
     "P4",
@@ -28,16 +30,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali di verifica e per l'inclusione, ma mostra preoccupazioni sulla veridicità dei contenuti.",
   "code_counts": {
-    "I2": 1,
     "P1": 2,
-    "P3": 1,
     "P4": 1,
+    "X5": 1,
+    "P3": 1,
+    "X4": 1,
+    "N1": 4,
     "P5": 2,
     "R4": 1,
-    "S5": 1,
     "X2": 1,
-    "X4": 1,
-    "X5": 1
+    "I2": 1,
+    "S5": 1
   },
   "items": [
     {
@@ -65,7 +68,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non la utilizzo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non applicabile."
     },
     {
@@ -83,7 +88,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ho esempi specifici.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -110,14 +117,18 @@
       "index": 8,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota."
     },
     {
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota."
     }
   ]

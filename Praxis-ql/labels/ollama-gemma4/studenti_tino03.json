@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:30:51.905981+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,23 +29,26 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la ricerca e la semplificazione dei concetti, mostrando consapevolezza dei benefici in termini di tempo ma anche dei rischi di abuso.",
   "code_counts": {
-    "P1": 1,
-    "P2": 1,
-    "P5": 1,
+    "N1": 3,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S4": 1,
     "X1": 2,
+    "P1": 1,
+    "P5": 1,
     "X2": 1,
-    "X3": 1
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -99,7 +104,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna risposta",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -116,7 +123,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Nessuna risposta",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:47:20.858194+00:00",
   "record_dimensions": [
+    "N",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "X1"
   ],
   "record_note": "Il partecipante è un insegnante pre-service che riconosce il potenziale di risparmio di tempo dell'IA, ma non ha esperienza didattica diretta.",
   "code_counts": {
+    "N1": 2,
     "X1": 1
   },
   "items": [
@@ -22,7 +25,9 @@
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Ancora non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non insegna ancora)."
     },
     {
@@ -38,7 +43,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Al momento, non insegnando ancora , non posso rispondere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non insegna ancora)."
     }
   ]

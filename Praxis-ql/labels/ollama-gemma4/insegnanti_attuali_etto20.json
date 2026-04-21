@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:02:14.899749+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S3",
     "S4",
@@ -22,18 +24,21 @@
   ],
   "record_note": "L'intervistato esprime una posizione critica e cauta sull'uso dell'IA, preferendo metodologie tradizionali e sottolineando i rischi di perdita di creatività e capacità di ragionamento.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "R5": 1,
-    "S3": 1,
+    "I4": 1,
+    "X1": 1,
     "S4": 2,
-    "X1": 1
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non la ritengo necessaria per le mie attivita didattiche",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo dell'IA per le attività didattiche."
     },
     {

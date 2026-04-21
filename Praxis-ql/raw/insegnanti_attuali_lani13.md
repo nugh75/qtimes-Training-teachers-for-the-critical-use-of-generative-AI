@@ -11,6 +11,12 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 
 # Risposta LANI13
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -18,6 +24,7 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Il partecipante sottolinea che l'IA indebolisce il rapporto interazione tra alunno e docente, ritenendo cruciale il legame umano e la trasmissione di passione.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -25,9 +32,13 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Viene menzionato che l'uso dell'IA fa perdere i rapporti tra le persone e il confronto con mezzi tradizionali come i libri.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Secondo me non si dovrebbe usare l'IA per valutazioni o per lavori da svolgere poichè viene meno il ruolo stesso dell'insegnamento e dell'impegno. Si creerebbe l'idea del minimo sforzo massimo profitto.
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.; S4 — Erosione del pensiero critico.
 **Reason**: Il partecipante sconsiglia l'uso dell'IA per valutazioni o lavori, perché ciò ridurrebbe il ruolo dell'impegno e dell'insegnamento, creando un'idea di minimo sforzo massimo profitto.
+
+**Cited in:**
+- [wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md](../wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md)

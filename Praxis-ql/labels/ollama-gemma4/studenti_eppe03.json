@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:04:18.151667+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "P6",
@@ -26,15 +28,16 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per riassumere e migliorare la forma dei testi, riconoscendone l'efficienza ma anche il rischio di sostituire l'operato umano.",
   "code_counts": {
-    "P1": 1,
-    "P5": 3,
     "P6": 1,
-    "R4": 1,
-    "S2": 1,
-    "S6": 1,
-    "X1": 2,
+    "X5": 1,
+    "P5": 3,
     "X2": 2,
-    "X5": 1
+    "R4": 1,
+    "P1": 1,
+    "N1": 1,
+    "X1": 2,
+    "S6": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -90,7 +93,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

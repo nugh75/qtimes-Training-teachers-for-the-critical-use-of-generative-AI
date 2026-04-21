@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:46:37.634760+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -28,24 +30,27 @@
   ],
   "record_note": "L'utente è consapevole dei benefici (velocità, riassunti) ma anche dei rischi (dipendenza, plagio), mostrando un approccio critico e di supporto al ruolo umano.",
   "code_counts": {
-    "I4": 1,
-    "P1": 2,
-    "P2": 2,
+    "N1": 2,
     "P5": 2,
     "P6": 1,
+    "P1": 2,
+    "P2": 2,
     "P7": 1,
-    "S2": 1,
-    "S4": 1,
-    "X1": 1,
+    "X5": 1,
     "X2": 1,
-    "X5": 1
+    "X1": 1,
+    "S4": 1,
+    "S2": 1,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La uso in modo gratuito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, si limita a specificare la gratuità di utilizzo."
     },
     {
@@ -110,7 +115,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Inserimento input",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica ('Inserimento input') per assegnare codici specifici."
     },
     {

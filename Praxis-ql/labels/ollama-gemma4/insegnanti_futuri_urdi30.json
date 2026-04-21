@@ -8,33 +8,40 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:50:13.881610+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "X1",
     "X2"
   ],
   "record_note": "Il partecipante menziona l'uso di strumenti IA (Chat GPT) ma le risposte sono generiche, focalizzandosi su benefici operativi (velocità) e cognitivi (comprensione), senza descrivere processi didattici specifici.",
   "code_counts": {
-    "S4": 1,
+    "N1": 2,
+    "X2": 1,
     "X1": 1,
-    "X2": 1
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gbt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica su strumenti o modalità d'uso."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Come supporto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non specifica su come l'IA viene usata per l'individualizzazione."
     },
     {

@@ -8,31 +8,38 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:52:19.938081+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S1",
     "X7"
   ],
   "record_note": "Il partecipante mostra una scarsa conoscenza dell'IA e identifica il rischio di dipendenza/pigrizia nell'uso didattico.",
   "code_counts": {
-    "S1": 1,
-    "X7": 1
+    "N1": 2,
+    "X7": 1,
+    "S1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non la so utilizzare e non ne conosco bene le potenzialità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Espressione di ignoranza sull'uso dell'IA, non un'applicazione specifica."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non la conosco abbastanza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Espressione di ignoranza sull'uso dell'IA, non un'applicazione specifica."
     },
     {

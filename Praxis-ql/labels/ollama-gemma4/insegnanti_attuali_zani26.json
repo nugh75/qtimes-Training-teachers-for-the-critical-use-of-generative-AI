@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:37:18.179574+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -28,24 +30,27 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare la didattica (mappe, quiz, schemi) e riconosce i limiti pedagogici e relazionali dello strumento.",
   "code_counts": {
-    "I4": 2,
+    "N1": 1,
+    "P6": 1,
+    "P5": 5,
+    "P3": 1,
     "P1": 4,
     "P2": 1,
-    "P3": 1,
     "P4": 1,
-    "P5": 5,
-    "P6": 1,
     "P7": 1,
+    "I4": 2,
     "S4": 2,
-    "S6": 1,
-    "X1": 1
+    "X1": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {

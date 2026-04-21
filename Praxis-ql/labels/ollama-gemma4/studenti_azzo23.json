@@ -8,19 +8,22 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:56:43.126291+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "S6",
     "X2"
   ],
   "record_note": "Lo studente esprime una forte diffidenza verso l'uso dell'IA, temendo la sostituzione del processo cognitivo umano e del ruolo del pensiero critico.",
   "code_counts": {
-    "S4": 1,
     "S6": 2,
-    "X2": 1
+    "X2": 1,
+    "S4": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -55,7 +58,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "chat gpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non specifica, menzionando solo 'chat gpt' senza specificare pratiche non raccomandate."
     }
   ]

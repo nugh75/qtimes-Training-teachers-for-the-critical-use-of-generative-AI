@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:15:32.022310+00:00",
   "record_dimensions": [
-    "A"
+    "A",
+    "N"
   ],
   "record_subcodes": [
     "A1",
-    "A3"
+    "A3",
+    "N1"
   ],
   "record_note": "La partecipante esprime un senso di incertezza e di mancanza di preparazione o risorse per utilizzare l'IA in didattica.",
   "code_counts": {
     "A1": 2,
-    "A3": 1
+    "A3": 1,
+    "N1": 2
   },
   "items": [
     {
@@ -43,14 +46,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non so valutare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un'espressione di incertezza ('Non so valutare')."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un'espressione di incertezza ('Non saprei')."
     }
   ]

@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:03:48.368251+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S1",
     "S7"
   ],
   "record_note": "L'insegnante mostra cautela nell'uso dell'IA, riconoscendo i rischi di delega eccessiva e limitando l'uso a ambiti specifici (come la stesura di PEI).",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
     "S1": 1,
     "S7": 1
@@ -27,7 +30,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho ancora un'adeguata conoscenza degli strumenti a parte chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica una conoscenza limitata, ma non specifica un uso o un rifiuto motivato da un codice specifico."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:47:50.889757+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -22,12 +24,13 @@
   ],
   "record_note": "L'utente percepisce l'IA principalmente come uno strumento per l'efficienza lavorativa (X1), ma è consapevole dei rischi pedagogici come l'erosione del pensiero critico (S4).",
   "code_counts": {
+    "X1": 4,
+    "P6": 1,
+    "N1": 2,
     "P2": 1,
     "P5": 2,
-    "P6": 1,
-    "S2": 1,
     "S4": 1,
-    "X1": 4
+    "S2": 1
   },
   "items": [
     {
@@ -52,7 +55,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "L'uso indirettamente con gli studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo vaga ('indirettamente con gli studenti') per assegnare codici specifici."
     },
     {
@@ -96,7 +101,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non li ho usati",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non ha usato gli strumenti, quindi non è possibile assegnare codici di uso."
     },
     {

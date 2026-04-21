@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:43:24.269609+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -26,23 +28,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per adattare e calibrare contenuti e prove, ma evidenzia preoccupazioni sull'uso scorretto da parte degli studenti (plagio/erosione del pensiero critico).",
   "code_counts": {
-    "P1": 2,
-    "P2": 3,
-    "P3": 2,
-    "P4": 2,
-    "P5": 2,
+    "N1": 2,
     "P6": 1,
-    "S2": 1,
-    "S4": 1,
+    "P2": 3,
     "X2": 3,
-    "X3": 1
+    "X3": 1,
+    "P3": 2,
+    "P5": 2,
+    "P1": 2,
+    "P4": 2,
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -111,7 +116,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non vengono descritte difficoltà."
     },
     {

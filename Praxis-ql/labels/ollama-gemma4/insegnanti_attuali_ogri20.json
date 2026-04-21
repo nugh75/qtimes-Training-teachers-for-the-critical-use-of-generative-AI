@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:18:15.465715+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -28,24 +30,27 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per adattare e semplificare contenuti (DSA, INVALSI) e per migliorare le proprie strategie didattiche, mostrando consapevolezza nell'uso dei prompt.",
   "code_counts": {
-    "A1": 1,
+    "N1": 2,
+    "P6": 1,
     "P1": 2,
     "P2": 2,
-    "P4": 1,
     "P5": 1,
-    "P6": 1,
-    "P7": 1,
-    "R4": 1,
     "X2": 2,
     "X3": 2,
-    "X6": 1
+    "P7": 1,
+    "R4": 1,
+    "P4": 1,
+    "X6": 1,
+    "A1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "la utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa non informativa per l'assegnazione di codici."
     },
     {
@@ -113,7 +118,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa per l'assegnazione di codici."
     },
     {

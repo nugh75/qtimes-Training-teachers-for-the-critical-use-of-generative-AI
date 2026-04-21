@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:57:45.121794+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per personalizzare e organizzare contenuti, ma mostra scetticismo riguardo all'affidabilità dei dati numerici prodotti dall'IA.",
   "code_counts": {
-    "I2": 2,
-    "P2": 2,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
-    "P7": 1,
-    "S5": 2,
+    "P2": 2,
     "X3": 2,
-    "X6": 2
+    "P5": 1,
+    "P7": 1,
+    "X6": 2,
+    "S5": 2,
+    "I2": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "L'ho conosciuta da poco",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -103,7 +108,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (Nessuna difficoltà)."
     },
     {

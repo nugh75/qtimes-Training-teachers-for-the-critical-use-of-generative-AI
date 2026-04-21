@@ -11,9 +11,17 @@ note: "None"
 
 # Risposta ucci21
 
+## Legenda codici del record
+
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
 **A**: Generazione di tesi e immagini per tradurre concetti in contenuti multimediali
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
 **Reason**: L'uso di strumenti per generare tesi e immagini per creare contenuti multimediali rientra nella produzione di materiali didattici (P1) e nell'uso di strumenti (P6).
+
+**Cited in:** —

@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:25:08.742293+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali visivi (mappe, immagini) per personalizzare e migliorare la memorizzazione dei concetti, ma evidenzia difficoltà tecniche e rischi di impoverimento della comprensione testuale.",
   "code_counts": {
-    "I2": 1,
-    "P1": 1,
+    "N1": 1,
+    "P6": 1,
     "P2": 3,
     "P5": 5,
-    "P6": 1,
-    "P7": 1,
-    "S4": 1,
-    "X2": 1,
     "X3": 3,
-    "X5": 1
+    "P7": 1,
+    "X5": 1,
+    "X2": 1,
+    "I2": 1,
+    "S4": 1,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa non informativa sul metodo di utilizzo."
     },
     {

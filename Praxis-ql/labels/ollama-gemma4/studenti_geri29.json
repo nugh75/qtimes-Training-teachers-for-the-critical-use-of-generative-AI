@@ -8,19 +8,22 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:07:52.391171+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "X1",
     "X2"
   ],
   "record_note": "L'uso dell'IA è percepito principalmente come uno strumento per la semplificazione concettuale e la preparazione di materiali di studio (sintesi).",
   "code_counts": {
+    "X2": 4,
     "P5": 1,
-    "X1": 1,
-    "X2": 4
+    "N1": 2,
+    "X1": 1
   },
   "items": [
     {
@@ -72,7 +75,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -88,7 +93,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

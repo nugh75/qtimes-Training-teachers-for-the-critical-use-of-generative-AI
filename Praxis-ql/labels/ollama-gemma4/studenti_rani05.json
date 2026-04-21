@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:25:27.783755+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P5",
     "R2",
     "S2",
@@ -25,20 +27,23 @@
   ],
   "record_note": "Lo studente mostra una posizione critica e cauta sull'uso dell'IA, enfatizzando l'importanza delle proprie capacità e sollevando preoccupazioni su errori e dipendenza.",
   "code_counts": {
+    "N1": 1,
+    "R2": 1,
+    "S4": 1,
     "I2": 2,
     "P5": 1,
-    "R2": 1,
+    "X1": 1,
     "S2": 1,
-    "S4": 1,
-    "S5": 1,
-    "X1": 1
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non ne vedo il bisogno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto o non utilizzo dell'IA."
     },
     {

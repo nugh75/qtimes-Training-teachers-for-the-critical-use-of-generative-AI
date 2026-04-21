@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:08:28.917028+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "P7",
@@ -25,22 +27,25 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la comprensione e la riformulazione dei concetti, ma esprime preoccupazioni riguardo al rischio di dipendenza e perdita di capacità di ragionamento.",
   "code_counts": {
-    "P2": 2,
+    "N1": 2,
     "P6": 1,
-    "P7": 1,
-    "S2": 1,
-    "S4": 2,
-    "X1": 1,
-    "X2": 2,
+    "P2": 2,
     "X3": 1,
-    "X5": 1
+    "P7": 1,
+    "X2": 2,
+    "X1": 1,
+    "X5": 1,
+    "S4": 2,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -94,7 +99,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "non sono abituata al loro utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Riferimento a difficoltà personali ('non sono abituata') non mappabile con i codici forniti."
     },
     {

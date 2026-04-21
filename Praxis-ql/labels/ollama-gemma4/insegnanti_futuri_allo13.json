@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:39:07.944926+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -21,11 +23,12 @@
   ],
   "record_note": "Il partecipante mostra un uso basilare e non critico degli strumenti di IA, focalizzandosi sull'individualizzazione, ma non approfondisce le strategie o i limiti.",
   "code_counts": {
-    "P2": 1,
-    "P5": 1,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
+    "P5": 1,
     "R4": 1,
-    "X3": 1
+    "N1": 3
   },
   "items": [
     {
@@ -61,21 +64,27 @@
       "index": 4,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 5,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Vedo solo i pro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica su pro e contro."
     },
     {
       "index": 6,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

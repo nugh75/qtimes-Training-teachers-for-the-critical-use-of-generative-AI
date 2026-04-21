@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:30:28.569364+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -31,26 +33,29 @@
   ],
   "record_note": "L'insegnante mostra consapevolezza sui limiti dell'IA (non sostituisce il docente) e utilizza l'IA per supportare la personalizzazione e la verifica, ma incontra difficoltà linguistiche.",
   "code_counts": {
-    "I4": 1,
-    "P1": 1,
-    "P2": 1,
-    "P3": 1,
-    "P4": 1,
-    "P5": 1,
+    "N1": 3,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S6": 1,
+    "P1": 1,
+    "P4": 1,
     "X2": 2,
-    "X3": 1,
-    "X6": 1
+    "P5": 1,
+    "X6": 1,
+    "P3": 1,
+    "I4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non la ritengo necessaria per il momento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {
@@ -66,7 +71,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "non la utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -134,7 +141,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di non conoscenza o non informativa."
     }
   ]

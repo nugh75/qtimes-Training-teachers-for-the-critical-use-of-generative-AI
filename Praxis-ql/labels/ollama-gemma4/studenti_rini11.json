@@ -8,34 +8,41 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:26:51.191292+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "S1",
     "X1"
   ],
   "record_note": "Lo studente non percepisce la necessità di usare l'IA nello studio, ma ne riconosce il potenziale per riassunti e risparmio di tempo, pur esprimendo preoccupazione per il rischio di pigrizia.",
   "code_counts": {
+    "N1": 2,
     "P5": 1,
-    "S1": 1,
-    "X1": 1
+    "X1": 1,
+    "S1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne ho mai sentito la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
       "answer": "Non ho mai sentito la necessità di doverci ricorrere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {

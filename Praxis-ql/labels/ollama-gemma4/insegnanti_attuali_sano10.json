@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:28:44.648759+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S1",
     "S4",
     "S6",
@@ -21,18 +23,21 @@
   ],
   "record_note": "Il partecipante mostra un atteggiamento di cautela e incertezza sull'uso dell'IA, evidenziando sia i benefici (risparmio di tempo) sia i rischi pedagogici (dipendenza, erosione del rapporto umano).",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "S1": 1,
+    "X1": 1,
     "S4": 1,
-    "S6": 1,
-    "X1": 1
+    "S1": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "NON HO AVUTO MODO",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

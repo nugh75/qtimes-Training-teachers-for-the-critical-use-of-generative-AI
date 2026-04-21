@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:35:05.552648+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R4",
     "R5",
     "S2",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante mostra una forte resistenza all'uso dell'IA, valorizzando l'aspetto umano, la riflessione e la relazione educativa rispetto all'efficienza tecnologica.",
   "code_counts": {
-    "I4": 1,
-    "R4": 1,
+    "N1": 1,
     "R5": 1,
+    "I4": 1,
+    "S6": 1,
+    "X2": 1,
     "S2": 1,
     "S4": 1,
     "S5": 1,
-    "S6": 1,
-    "X2": 1
+    "R4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne ravvedo la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto di utilizzo."
     },
     {

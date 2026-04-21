@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:26:34.225505+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S5",
@@ -20,17 +22,20 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare concetti complessi, ma mostra una forte consapevolezza dei rischi di inaffidabilità delle informazioni generate.",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
+    "X2": 4,
     "P5": 1,
-    "S5": 3,
-    "X2": 4
+    "S5": 3
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt è l’unico che riesco ad usare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è limitata a un nome di strumento senza specificare un uso didattico o un beneficio che possa essere codificato."
     },
     {

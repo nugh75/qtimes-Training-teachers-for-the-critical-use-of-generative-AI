@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:19:44.799509+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "R4",
@@ -25,20 +27,23 @@
   ],
   "record_note": "Lo studente usa l'IA per attività pratiche (esercizi) e ne riconosce i benefici di velocità e spunti, ma mostra consapevolezza dei rischi (errore, atrofia delle capacità).",
   "code_counts": {
-    "I2": 1,
+    "N1": 2,
     "P1": 1,
     "P2": 1,
     "R4": 1,
-    "S4": 1,
+    "I2": 1,
     "X1": 1,
-    "X6": 1
+    "X6": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta con nome di strumento, non un'applicazione didattica specifica."
     },
     {
@@ -64,7 +69,9 @@
       "index": 4,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "non lo utilizzo per apprendere meglio",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o di rifiuto di utilizzo per l'apprendimento."
     },
     {

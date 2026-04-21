@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:22:44.317444+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -28,16 +30,17 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la generazione di spunti e la semplificazione del lavoro, mostrando consapevolezza dei rischi di affidarsi ciecamente ai contenuti generati.",
   "code_counts": {
-    "I2": 2,
+    "P6": 1,
+    "X2": 2,
     "P2": 2,
     "P5": 3,
-    "P6": 1,
+    "X3": 2,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "X2": 2,
-    "X3": 2,
-    "X5": 1
+    "X5": 1,
+    "N1": 1,
+    "I2": 2,
+    "S2": 1
   },
   "items": [
     {
@@ -96,7 +99,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Poca chiarezza dei temi richiesti, in alcuni casi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà riscontrata è legata alla chiarezza dei temi richiesti, non a un codice specifico di uso o competenza."
     },
     {

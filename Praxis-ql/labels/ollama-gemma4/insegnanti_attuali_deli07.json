@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T20:53:03.690779+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S4",
     "S6",
     "X3"
@@ -21,9 +23,10 @@
   "record_note": "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica, focalizzandosi sul rischio di perdita di elementi umani (empatia, fantasia, personalità) e sulla potenziale sostituzione del ruolo educativo.",
   "code_counts": {
     "I4": 2,
-    "S4": 1,
     "S6": 2,
-    "X3": 1
+    "X3": 1,
+    "S4": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -60,8 +63,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non utilizzandole non ne conosco in maniera approfondita",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

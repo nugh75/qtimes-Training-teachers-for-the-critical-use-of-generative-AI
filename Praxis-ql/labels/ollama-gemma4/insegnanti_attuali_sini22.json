@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:29:53.811525+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -24,14 +26,15 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per ridurre il carico di lavoro e per adattare contenuti didattici, ma esprime preoccupazioni sul rischio di atrofizzazione delle competenze professionali.",
   "code_counts": {
-    "P1": 1,
-    "P2": 3,
-    "P3": 1,
-    "P5": 1,
-    "S6": 2,
     "X1": 1,
+    "P2": 3,
     "X3": 3,
-    "X4": 1
+    "P5": 1,
+    "P1": 1,
+    "P3": 1,
+    "X4": 1,
+    "N1": 1,
+    "S6": 2
   },
   "items": [
     {
@@ -97,7 +100,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna in particolare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

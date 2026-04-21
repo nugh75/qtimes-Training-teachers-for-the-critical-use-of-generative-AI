@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:06:38.352683+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "S4",
     "X1",
@@ -22,32 +24,39 @@
   ],
   "record_note": "Lo studente utilizza l'IA per compiti di riassunto ed esercizi, percependo un guadagno di tempo e di comprensione, ma mostra consapevolezza dei limiti (I2) e della necessità di moderare l'uso (S4).",
   "code_counts": {
-    "I2": 1,
+    "N1": 3,
     "P1": 2,
-    "S4": 1,
+    "X2": 2,
     "X1": 2,
-    "X2": 2
+    "I2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "la creazione di foto tramite un testo, mi diverte",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta riguarda la creazione di foto, non direttamente lo studio o l'apprendimento."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "boh",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('boh')."
     },
     {
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "ciao chat, potresti..",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non specifica su un prompt di studio."
     },
     {

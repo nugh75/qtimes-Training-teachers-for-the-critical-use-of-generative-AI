@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:14:29.004504+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "S4",
     "X3"
@@ -22,9 +24,10 @@
   "record_note": "Il partecipante esprime scetticismo e preoccupazioni riguardo all'uso dell'IA in didattica, principalmente legate a rischi etici, privacy e alla mancanza di personalizzazione.",
   "code_counts": {
     "I2": 2,
-    "P2": 1,
     "S4": 1,
-    "X3": 1
+    "P2": 1,
+    "X3": 1,
+    "N1": 2
   },
   "items": [
     {
@@ -52,14 +55,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ho alcuna esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Nessuna esperienza dichiarata."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ne ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Nessuna esperienza dichiarata."
     }
   ]

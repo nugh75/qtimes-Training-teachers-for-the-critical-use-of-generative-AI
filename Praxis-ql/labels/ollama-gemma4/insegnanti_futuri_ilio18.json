@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:44:18.578484+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -23,20 +25,23 @@
   ],
   "record_note": "Il partecipante è un insegnante pre-service che utilizza l'IA principalmente per strategie di base (parole chiave) e ne percepisce un beneficio limitato in termini di ricerca.",
   "code_counts": {
+    "N1": 5,
+    "P6": 1,
     "P2": 2,
     "P5": 2,
-    "P6": 1,
+    "X3": 2,
     "P7": 1,
     "R4": 1,
-    "X1": 1,
-    "X3": 2
+    "X1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -84,21 +89,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo esempi di miglioramento dell'apprendimento."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo esempi di aiuto all'apprendimento."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà, non fornendo informazioni codificabili."
     },
     {
@@ -114,7 +125,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di pratiche non raccomandate."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:53:43.553024+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente utilizza l'IA per supportare la ricerca e la sintesi, ma è consapevole dei rischi di dipendenza e di delegare eccessivamente il lavoro.",
   "code_counts": {
+    "N1": 2,
+    "P6": 1,
     "P2": 1,
     "P5": 1,
-    "P6": 1,
     "P7": 1,
+    "X2": 2,
     "S2": 2,
     "S4": 1,
-    "S6": 1,
-    "X2": 2
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo in maniere mirata per specifiche attività di ricerca ma non quotidianamente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è generica e non specifica un uso didattico o di studio."
     },
     {
@@ -91,7 +96,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta indica l'assenza di difficoltà."
     },
     {

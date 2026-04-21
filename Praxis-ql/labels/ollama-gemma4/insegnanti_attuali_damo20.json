@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:53:01.964185+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P6",
     "P7",
@@ -19,10 +21,11 @@
   ],
   "record_note": "Il partecipante ha poca esperienza nell'uso dell'IA in didattica, limitando l'uso a semplici attività di creazione di materiali (quiz e verifiche).",
   "code_counts": {
-    "P1": 2,
     "P6": 1,
-    "P7": 1,
-    "X1": 1
+    "X1": 1,
+    "N1": 6,
+    "P1": 2,
+    "P7": 1
   },
   "items": [
     {
@@ -39,7 +42,9 @@
       "index": 2,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "non lo faccio",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -65,35 +70,45 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 8,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "non ho abbastanza esperienza per rispondere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non ho abbastanza esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

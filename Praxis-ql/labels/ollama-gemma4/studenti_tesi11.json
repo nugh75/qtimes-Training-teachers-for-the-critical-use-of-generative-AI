@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:30:14.581775+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S1",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per ottimizzare il tempo e migliorare la fluidità del testo, ma mostra consapevolezza dei rischi di dipendenza e plagio.",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
+    "X3": 1,
     "P5": 1,
-    "S1": 1,
-    "S2": 1,
-    "S6": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1
+    "X1": 1,
+    "S1": 1,
+    "S6": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chat gpt perché mi trovo bene e non ne conosco altri",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su strumenti o metodologie di studio."
     },
     {
@@ -82,7 +87,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

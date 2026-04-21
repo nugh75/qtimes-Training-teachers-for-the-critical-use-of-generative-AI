@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:55:14.714196+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -28,17 +30,18 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la produzione di materiali e per l'adattamento didattico, ma solleva preoccupazioni sulla dipendenza e sull'omologazione del pensiero.",
   "code_counts": {
-    "I2": 1,
     "P1": 3,
-    "P2": 3,
-    "P3": 1,
     "P6": 1,
+    "P3": 1,
+    "P2": 3,
     "P7": 1,
-    "S2": 1,
+    "N1": 1,
+    "X5": 1,
+    "I2": 1,
+    "X1": 1,
     "S3": 2,
     "S4": 2,
-    "X1": 1,
-    "X5": 1
+    "S2": 1
   },
   "items": [
     {
@@ -91,7 +94,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non lo uso con gli studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non applicabile."
     },
     {

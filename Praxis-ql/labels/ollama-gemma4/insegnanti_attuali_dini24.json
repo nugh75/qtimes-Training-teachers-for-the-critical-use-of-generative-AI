@@ -9,22 +9,25 @@
   "generated_at": "2026-04-19T20:53:34.507667+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "R2",
     "X3"
   ],
   "record_note": "L'insegnante mostra un approccio cauto e riflessivo verso l'IA, esprimendo la necessità di approfondire la conoscenza teorica e riconoscendo i limiti dell'IA, specialmente nell'ambito della personalizzazione che richiede un giudizio umano.",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
     "R2": 2,
-    "X3": 1
+    "X3": 1,
+    "N1": 1,
+    "P2": 1,
+    "I4": 1
   },
   "items": [
     {
@@ -50,7 +53,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non la utilizzo ancora.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {

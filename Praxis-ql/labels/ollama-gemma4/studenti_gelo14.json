@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:07:17.463825+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "R4",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per semplificare e approfondire concetti (P2, X2), dimostrando capacità di prompting (R4) ma esprimendo consapevolezza dei rischi di dipendenza e perdita di abilità (S2, S4).",
   "code_counts": {
+    "N1": 2,
     "P2": 3,
+    "X2": 4,
     "P5": 1,
     "R4": 1,
-    "S2": 1,
-    "S3": 1,
-    "S4": 2,
     "X1": 1,
-    "X2": 4
+    "S4": 2,
+    "S3": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt perchè è l'unico che conosco",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica su strumenti o modalità di studio."
     },
     {
@@ -86,7 +91,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (Nessuna difficoltà)."
     },
     {

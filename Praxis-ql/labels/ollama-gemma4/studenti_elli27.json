@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:02:32.730241+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "R4",
@@ -25,14 +27,15 @@
   ],
   "record_note": "Lo studente è consapevole di alcuni limiti dell'IA (sintesi, produzione di contenuti) ma ne riconosce l'utilità per l'efficienza e la personalizzazione dello studio.",
   "code_counts": {
-    "P2": 1,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
     "R4": 1,
-    "S2": 1,
-    "S3": 1,
     "X1": 2,
     "X2": 3,
-    "X3": 1
+    "N1": 1,
+    "S2": 1,
+    "S3": 1
   },
   "items": [
     {
@@ -77,7 +80,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "come riportato precedentemente in tabella",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Fa riferimento a informazioni già fornite in precedenza, senza aggiungere contenuto informativo."
     },
     {

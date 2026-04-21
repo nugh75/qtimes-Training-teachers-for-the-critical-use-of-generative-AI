@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:14:08.403846+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -23,13 +25,14 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per rendere i contenuti più accessibili e comprensibili per studenti con BES, mostrando consapevolezza dei limiti etici (non far scrivere i testi agli studenti).",
   "code_counts": {
+    "P5": 2,
     "P2": 2,
     "P3": 3,
-    "P5": 2,
-    "S2": 1,
-    "X2": 3,
     "X3": 2,
-    "X4": 2
+    "X4": 2,
+    "X2": 3,
+    "N1": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -97,7 +100,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Conoscenza nulla dello studente in questione",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un'affermazione soggettiva e non descrive una difficoltà specifica legata all'uso degli strumenti."
     },
     {

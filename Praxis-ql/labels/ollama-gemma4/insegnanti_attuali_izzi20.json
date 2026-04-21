@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "R",
     "S",
     "X"
@@ -18,6 +19,7 @@
     "A1",
     "I2",
     "I4",
+    "N1",
     "R4",
     "S5",
     "X2",
@@ -25,13 +27,14 @@
   ],
   "record_note": "L'insegnante mostra una profonda cautela sull'uso dell'IA, evidenziando limiti tecnici (allucinazioni, errori) e la necessità di mantenere il ruolo centrale della relazione educativa e della formazione critica.",
   "code_counts": {
-    "A1": 1,
     "I2": 3,
     "I4": 2,
-    "R4": 1,
+    "A1": 1,
     "S5": 1,
+    "R4": 1,
     "X2": 1,
-    "X7": 1
+    "X7": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -72,8 +75,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Ho già risposto prima ad una simile domanda. Se state utilizzando l'AI per controllare le mie risposte al vostro questionario, forse questo tipo di risposta verrà scartata e mi si costringerà a rifare il questionario.",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

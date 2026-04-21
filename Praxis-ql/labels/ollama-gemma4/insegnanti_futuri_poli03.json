@@ -8,26 +8,31 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:48:14.689044+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S2",
     "S4",
     "X1"
   ],
   "record_note": "Il partecipante evidenzia i rischi di dipendenza e uso improprio dell'IA da parte degli studenti, bilanciandoli con il potenziale di velocizzazione dei processi.",
   "code_counts": {
+    "N1": 1,
     "S2": 1,
-    "S4": 1,
-    "X1": 1
+    "X1": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Capacità di utilizzarla adeguatamente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non specifica una difficoltà o un'area di intervento."
     },
     {

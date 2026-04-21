@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:00:41.443001+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S4",
     "S5"
   ],
   "record_note": "Il partecipante esprime scetticismo sull'uso dell'IA, sottolineando i rischi di superficialità e perdita di sforzo cognitivo rispetto ai metodi di studio tradizionali.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
     "S4": 2,
     "S5": 2
@@ -27,7 +30,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non necessaria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

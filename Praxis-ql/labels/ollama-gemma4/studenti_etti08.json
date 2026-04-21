@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:06:01.916938+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -21,12 +23,13 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per riassumere materiali e per creare esercizi, focalizzandosi sull'efficienza dello studio.",
   "code_counts": {
-    "P1": 1,
     "P2": 1,
-    "P4": 1,
     "P5": 1,
     "P6": 1,
-    "X1": 2
+    "X1": 2,
+    "P4": 1,
+    "P1": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -71,7 +74,9 @@
       "index": 5,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

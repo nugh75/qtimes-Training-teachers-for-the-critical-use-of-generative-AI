@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:29:13.852300+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P5",
     "P6",
     "P7",
@@ -24,20 +26,23 @@
   ],
   "record_note": "Il partecipante utilizza l'IA principalmente per riassumere contenuti (P5, X2) e ne è consapevole sui rischi (S4), ma non riesce a fornire dettagli specifici sull'uso o sui prompt.",
   "code_counts": {
-    "I4": 1,
-    "P5": 1,
+    "N1": 4,
     "P6": 2,
     "P7": 1,
-    "S2": 1,
+    "P5": 1,
+    "X2": 1,
+    "I4": 1,
     "S4": 2,
-    "X2": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Solo a veces",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -53,7 +58,9 @@
       "index": 3,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "no se",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -80,14 +87,18 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "no se",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "ninguna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:24:13.527772+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S2",
@@ -25,21 +27,24 @@
   ],
   "record_note": "Lo studente mostra un uso basilare e non critico dell'IA, focalizzato sulla semplificazione e produzione di contenuti, ma manifesta anche preoccupazioni sui limiti e sui rischi di dipendenza.",
   "code_counts": {
-    "I2": 1,
+    "N1": 2,
     "P2": 1,
+    "X3": 1,
     "P5": 1,
-    "S2": 1,
-    "S6": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1
+    "I2": 1,
+    "X1": 1,
+    "S6": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat Gpt , perché conosco solo quello",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta limitata a un singolo strumento conosciuto senza specificare un uso didattico."
     },
     {
@@ -74,7 +79,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "non ci sono",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -9,29 +9,34 @@
   "generated_at": "2026-04-19T21:57:04.089346+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S7",
     "X1"
   ],
   "record_note": "Lo studente mostra una consapevolezza critica sui limiti dell'IA, rifiutandone l'uso in ambiti che richiedono pratica diretta (matematica) e valorizzando l'esperienza personale.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "R5": 1,
-    "S7": 1,
-    "X1": 1
+    "I4": 1,
+    "X1": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non esplicativa."
     },
     {

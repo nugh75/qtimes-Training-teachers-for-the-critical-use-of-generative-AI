@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:54:28.433922+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -27,17 +29,18 @@
   ],
   "record_note": "Lo studente è consapevole dei limiti dell'IA (S4, S6) e ne utilizza strumenti specifici per supportare lo studio (P1, P2).",
   "code_counts": {
-    "P1": 4,
-    "P2": 1,
-    "P4": 1,
-    "P5": 3,
     "P6": 1,
-    "S4": 1,
-    "S6": 1,
-    "X2": 1,
+    "P2": 1,
+    "P5": 3,
+    "P1": 4,
     "X3": 1,
+    "X2": 1,
+    "P4": 1,
     "X5": 1,
-    "X7": 1
+    "N1": 1,
+    "S4": 1,
+    "X7": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -95,7 +98,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Alcuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo vaga e non informativa."
     },
     {

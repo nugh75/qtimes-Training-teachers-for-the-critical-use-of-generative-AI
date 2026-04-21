@@ -10,25 +10,30 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S4"
   ],
   "record_note": "Il partecipante esprime preoccupazioni sulla perdita di capacità critiche e sul rapporto umano, e identifica la mancanza di formazione come ostacolo all'uso dell'IA.",
   "code_counts": {
+    "N1": 2,
     "A1": 1,
-    "I4": 1,
-    "S4": 1
+    "S4": 1,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {
@@ -54,7 +59,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "L'uso di  ChatGPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica ('L'uso di ChatGPT') per assegnare codici specifici senza ulteriori dettagli."
     }
   ]

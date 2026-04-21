@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:05:21.512194+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P3",
     "P5",
     "R2",
@@ -27,15 +29,16 @@
   ],
   "record_note": "L'utente è consapevole dei limiti dell'IA, specialmente nel ragionamento e nelle traduzioni, ma la vede come uno strumento utile per la semplificazione e l'organizzazione dei contenuti.",
   "code_counts": {
-    "I2": 1,
-    "P3": 3,
-    "P5": 2,
-    "R2": 1,
-    "S4": 1,
     "X1": 1,
+    "X5": 1,
+    "N1": 2,
+    "P3": 3,
     "X3": 1,
+    "P5": 2,
     "X4": 2,
-    "X5": 1
+    "S4": 1,
+    "I2": 1,
+    "R2": 1
   },
   "items": [
     {
@@ -52,7 +55,9 @@
       "index": 2,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Non mi è mai successo di utilizzarla per per diversificare, ma solo per organizzare o riordinare i concetti da me proposti. La diversificazione richiede una rielaborazione.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "L'utente non ha utilizzato l'IA per la diversificazione, ma solo per riorganizzare i concetti."
     },
     {
@@ -99,7 +104,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

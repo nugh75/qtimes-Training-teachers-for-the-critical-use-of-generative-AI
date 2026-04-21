@@ -8,17 +8,20 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:54:10.433542+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R3",
     "S4",
     "X1"
   ],
   "record_note": "L'insegnante mostra una consapevolezza critica sui rischi dell'IA (S4) ma manifesta anche un senso di inadeguatezza o mancanza di padronanza nell'uso degli strumenti (R3).",
   "code_counts": {
+    "N1": 1,
     "R3": 1,
     "S4": 3,
     "X1": 1
@@ -28,7 +31,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non la padroneggio abbastanza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo per mancanza di padronanza."
     },
     {

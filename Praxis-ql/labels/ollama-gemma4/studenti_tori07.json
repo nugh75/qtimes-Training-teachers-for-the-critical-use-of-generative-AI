@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:31:53.451949+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "P7",
@@ -23,13 +25,14 @@
   ],
   "record_note": "Lo studente percepisce l'IA principalmente come uno strumento di efficienza e supporto operativo, ma è consapevole dei rischi legati alla dipendenza e alla perdita di capacità autonome.",
   "code_counts": {
-    "P2": 1,
     "P6": 1,
+    "X1": 2,
+    "P2": 1,
     "P7": 1,
-    "S3": 1,
+    "N1": 2,
     "S4": 2,
     "S5": 1,
-    "X1": 2
+    "S3": 1
   },
   "items": [
     {
@@ -64,7 +67,9 @@
       "index": 4,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "non mi aiuta nell'apprendimento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa sul miglioramento dell'apprendimento."
     },
     {
@@ -80,7 +85,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (nessuna difficoltà)."
     },
     {

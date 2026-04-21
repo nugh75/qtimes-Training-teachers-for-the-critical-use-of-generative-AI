@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:06:21.638268+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R2",
     "R4",
     "S5",
@@ -20,17 +22,20 @@
   ],
   "record_note": "Lo studente mostra una scarsa familiarità con gli strumenti IA, limitando l'uso e la discussione sui pro e contro.",
   "code_counts": {
-    "R2": 1,
+    "N1": 2,
     "R4": 1,
-    "S5": 1,
-    "X1": 1
+    "R2": 1,
+    "X1": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non ho l'abitudine e conosco poco gli strumenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo dovuto a scarsa conoscenza degli strumenti."
     },
     {
@@ -57,8 +62,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so perchè non conosco approfonditamente gli strumenti",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

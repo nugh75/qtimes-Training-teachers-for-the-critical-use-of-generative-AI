@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:31:02.734936+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -30,17 +32,18 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la preparazione di materiali e la gestione del carico di lavoro, ma mostra consapevolezza dei limiti (imprecisione, rischio di appiattimento).",
   "code_counts": {
-    "I2": 1,
-    "P1": 1,
-    "P2": 2,
     "P5": 2,
+    "P1": 1,
     "P6": 1,
-    "R4": 1,
-    "S3": 1,
-    "S5": 1,
-    "X1": 1,
+    "P2": 2,
     "X3": 2,
+    "R4": 1,
+    "N1": 2,
+    "X1": 1,
     "X5": 1,
+    "I2": 1,
+    "S5": 1,
+    "S3": 1,
     "X7": 1
   },
   "items": [
@@ -89,7 +92,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ho esempi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -126,7 +131,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "No li so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

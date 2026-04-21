@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:23:27.612270+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare concetti e riassumere materiali, ma mostra consapevolezza dei limiti e del ruolo di supporto dello strumento.",
   "code_counts": {
+    "N1": 3,
     "P2": 1,
-    "P4": 1,
+    "X2": 2,
     "P5": 1,
     "P7": 1,
-    "S4": 1,
-    "S6": 1,
     "X1": 1,
-    "X2": 2
+    "S4": 1,
+    "P4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatGpt perchè non ne conosco altri",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su strumenti o metodi."
     },
     {
@@ -74,14 +79,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "non ricordo un esempio specifico",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (nessuna difficoltà)."
     },
     {

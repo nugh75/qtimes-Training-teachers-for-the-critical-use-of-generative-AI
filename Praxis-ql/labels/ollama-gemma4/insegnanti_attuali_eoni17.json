@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T20:59:02.360146+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -31,26 +33,29 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per personalizzare e supportare lo studio, ma evidenzia preoccupazioni sulla dipendenza e sulla perdita di autonomia creativa.",
   "code_counts": {
-    "A3": 1,
-    "P1": 1,
-    "P2": 2,
-    "P5": 1,
+    "N1": 1,
     "P6": 1,
+    "P2": 2,
+    "X3": 2,
     "P7": 1,
-    "R4": 1,
+    "P1": 1,
+    "X2": 1,
+    "P5": 1,
+    "X5": 1,
+    "A3": 1,
+    "X1": 1,
     "S3": 1,
     "S4": 1,
-    "X1": 1,
-    "X2": 1,
-    "X3": 2,
-    "X5": 1
+    "R4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

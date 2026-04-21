@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:19:05.789681+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,13 +26,14 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per semplificare contenuti e personalizzare lo studio, ma mostra consapevolezza dei limiti tecnici dello strumento.",
   "code_counts": {
-    "I2": 1,
-    "P2": 2,
-    "P5": 1,
     "P6": 1,
+    "P2": 2,
+    "X3": 1,
+    "P5": 1,
     "R4": 1,
     "X2": 1,
-    "X3": 1
+    "N1": 3,
+    "I2": 1
   },
   "items": [
     {
@@ -76,14 +79,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "prendo abbastanza voti alti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un risultato (voti alti) e non descrive una pratica di studio o un miglioramento specifico."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -99,7 +106,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "boh",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:32:46.760244+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -22,12 +24,13 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento altamente efficiente per velocizzare lo studio e migliorare la comprensione, ma è consapevole del rischio di atrofia delle capacità di ragionamento.",
   "code_counts": {
+    "P6": 1,
+    "X2": 3,
     "P2": 1,
     "P5": 1,
-    "P6": 1,
-    "S4": 2,
     "X1": 2,
-    "X2": 3
+    "N1": 1,
+    "S4": 2
   },
   "items": [
     {
@@ -81,7 +84,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa/non informativa."
     },
     {

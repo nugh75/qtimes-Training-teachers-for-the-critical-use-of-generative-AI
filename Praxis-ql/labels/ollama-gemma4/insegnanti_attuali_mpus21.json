@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:14:58.931555+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S1",
     "S3",
     "S4",
@@ -19,24 +21,29 @@
   ],
   "record_note": "Il partecipante esprime una posizione critica e di rifiuto sull'uso dell'IA nella scuola dell'infanzia, focalizzandosi sui rischi di dipendenza e perdita di competenze.",
   "code_counts": {
-    "S1": 1,
+    "N1": 2,
     "S3": 1,
     "S4": 2,
-    "X1": 1
+    "X1": 1,
+    "S1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Nella scuola dell'infanzia non è assolutamente indispensabile l'uso dell'intelligenza artificiale nelle attività quotidiane.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto dell'uso dell'IA nella scuola dell'infanzia."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "L'applicazione dell'IA nella scuola dell'infanzia non è indispensabile né utile per le attività didattiche",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Sottolinea che l'IA non è indispensabile né utile per la scuola dell'infanzia."
     },
     {

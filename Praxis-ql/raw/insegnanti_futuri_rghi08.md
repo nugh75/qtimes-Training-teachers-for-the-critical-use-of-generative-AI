@@ -11,6 +11,12 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA in didattica,
 
 # Risposta Rghi08
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S4**: Erosione del pensiero critico.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +24,7 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA in didattica,
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Il partecipante preferisce usare le proprie capacità, indicando un rifiuto consapevole dell'uso dell'IA.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +32,7 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA in didattica,
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Il partecipante preferisce sfruttare le proprie conoscenze e competenze, rifiutando l'uso dell'IA.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +40,13 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA in didattica,
 **Codes**: S4 — Erosione del pensiero critico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Riconosce i pro nell'organizzazione ma critica il rischio di dipendenza e la perdita dell'intervento umano pensante.
 
+**Cited in:**
+- [wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa.md](../wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Perché i ragazzi non pensano più con la loro testa
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Sostiene che l'uso dell'IA porta a una perdita di capacità di pensiero critico nei ragazzi.
+
+**Cited in:** —

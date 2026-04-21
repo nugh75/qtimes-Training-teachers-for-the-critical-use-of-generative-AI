@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:34:46.383220+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "R5",
     "S4",
     "S5",
@@ -22,18 +24,21 @@
   ],
   "record_note": "Lo studente esprime una posizione critica e cauta sull'uso dell'IA, valorizzando l'autonomia e il pensiero critico, ma riconoscendone anche i potenziali rischi di errore.",
   "code_counts": {
-    "I2": 1,
+    "N1": 1,
     "R5": 1,
     "S4": 2,
+    "X6": 1,
     "S5": 1,
-    "X6": 1
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

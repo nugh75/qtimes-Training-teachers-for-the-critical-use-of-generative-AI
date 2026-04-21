@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:50:42.902724+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -25,22 +27,25 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per arricchire e approfondire i contenuti didattici, migliorando la personalizzazione e l'efficienza, ma mostra cautela sull'elaborazione di testi scritti.",
   "code_counts": {
-    "P1": 1,
-    "P2": 2,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
-    "S2": 1,
-    "X1": 1,
-    "X2": 1,
+    "P2": 2,
     "X3": 2,
-    "X5": 1
+    "P5": 1,
+    "P1": 1,
+    "X5": 1,
+    "X2": 1,
+    "X1": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "utilzzo l'intelligenza artificiale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, solo conferma di utilizzo."
     },
     {
@@ -104,7 +109,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (nessuna difficoltà)."
     },
     {

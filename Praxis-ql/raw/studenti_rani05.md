@@ -1,8 +1,8 @@
 ---
 record_code: "rani05"
 group: Studenti
-dimensions: [I, P, R, S, X]
-subcodes: [I2, P5, R2, S2, S4, S5, X1]
+dimensions: [I, N, P, R, S, X]
+subcodes: [I2, N1, P5, R2, S2, S4, S5, X1]
 model: gemma4:e4b
 generated_at: "2026-04-19T22:25:27.783755+00:00"
 label_source: labels/ollama-gemma4/studenti_rani05.json
@@ -11,13 +11,25 @@ note: "Lo studente mostra una posizione critica e cauta sull'uso dell'IA, enfati
 
 # Risposta rani05
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **R2**: Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **S5**: Informazioni false, imprecisione, affidabilita' debole.
+- **X1**: Efficienza e risparmio di tempo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: non ne vedo il bisogno
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta di rifiuto o non utilizzo dell'IA.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -25,6 +37,9 @@ note: "Lo studente mostra una posizione critica e cauta sull'uso dell'IA, enfati
 **Codes**: R2 — Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.; S4 — Erosione del pensiero critico.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Espressione di preferire le proprie capacità e preoccupazione per gli errori dell'IA e la dipendenza che ne deriva.
 
+**Cited in:**
+- [wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md](../wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md)
+- [wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md](../wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md)
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -32,9 +47,12 @@ note: "Lo studente mostra una posizione critica e cauta sull'uso dell'IA, enfati
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X1 — Efficienza e risparmio di tempo.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Riconosce l'efficienza (meno tempo per appunti/schemi) ma solleva preoccupazioni sugli errori delle macchine.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: fare ricerche al posto dello studente per la scuola, per esempio, perchè non sempre le informazioni sono corretti.
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S5 — Informazioni false, imprecisione, affidabilita' debole.
 **Reason**: Sconsiglia di fare ricerche al posto dello studente, citando l'imprecisione delle informazioni.
+
+**Cited in:** —

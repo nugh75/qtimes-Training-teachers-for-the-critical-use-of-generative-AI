@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:31:43.927364+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -28,16 +30,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare la creazione di materiali didattici (quiz, compiti) e per la ricerca, ma mostra consapevolezza dei rischi di dipendenza e abuso (S2, S3, S4), enfatizzando la necessità di verifica umana (R2, X7).",
   "code_counts": {
+    "N1": 2,
     "P1": 2,
     "P2": 1,
     "P5": 2,
     "P7": 1,
-    "R2": 1,
+    "X5": 1,
+    "X2": 1,
     "S2": 1,
     "S3": 1,
     "S4": 1,
-    "X2": 1,
-    "X5": 1,
+    "R2": 1,
     "X7": 1
   },
   "items": [
@@ -45,7 +48,9 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo nome dello strumento)."
     },
     {
@@ -100,7 +105,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (Nessuna difficoltà)."
     },
     {

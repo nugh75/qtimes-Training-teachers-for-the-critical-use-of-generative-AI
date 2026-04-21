@@ -9,29 +9,34 @@
   "generated_at": "2026-04-19T22:00:23.420637+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S4",
     "X2"
   ],
   "record_note": "Lo studente mostra una consapevolezza critica sull'uso dell'IA, esprimendo preferenza per l'autonomia del pensiero e riconoscendo i rischi di dipendenza eccessiva.",
   "code_counts": {
-    "I4": 2,
+    "N1": 2,
     "R5": 1,
-    "S4": 1,
-    "X2": 1
+    "I4": 2,
+    "X2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -59,7 +64,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota e non informativa."
     }
   ]

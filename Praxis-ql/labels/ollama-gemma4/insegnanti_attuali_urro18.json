@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:35:03.713065+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -26,21 +28,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la creazione di materiali e la semplificazione dei contenuti, ma è consapevole dei limiti e dell'importanza del ruolo umano e della relazione educativa.",
   "code_counts": {
-    "I4": 2,
+    "N1": 1,
+    "P6": 1,
     "P1": 4,
     "P2": 2,
+    "X2": 4,
     "P5": 1,
-    "P6": 1,
     "R4": 1,
-    "S6": 1,
-    "X2": 4
+    "I4": 2,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

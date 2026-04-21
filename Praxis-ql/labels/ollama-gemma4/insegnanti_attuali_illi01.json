@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:07:11.380367+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "P2",
     "P5",
     "S2",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la semplificazione e la diversificazione dei materiali didattici, riconoscendone l'efficienza ma anche il rischio di dipendenza cognitiva.",
   "code_counts": {
-    "A1": 1,
-    "P2": 3,
+    "N1": 1,
     "P5": 2,
-    "S2": 1,
-    "S4": 2,
+    "P2": 3,
+    "X3": 3,
     "X1": 2,
     "X2": 1,
-    "X3": 3,
     "X5": 2,
-    "X6": 1
+    "A1": 1,
+    "X6": 1,
+    "S4": 2,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

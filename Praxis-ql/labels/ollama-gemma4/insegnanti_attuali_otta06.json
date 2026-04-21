@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:20:49.346793+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -26,15 +28,16 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la gestione del carico di lavoro (burocrazia, rilevazione plagio) e per la creazione di materiali didattici personalizzati, pur riconoscendo i rischi di dipendenza e sfiducia negli studenti.",
   "code_counts": {
-    "I2": 1,
-    "P1": 1,
-    "P2": 3,
-    "P5": 2,
-    "S2": 1,
-    "S4": 1,
     "X1": 2,
+    "P2": 3,
     "X3": 2,
-    "X6": 1
+    "P5": 2,
+    "P1": 1,
+    "X6": 1,
+    "N1": 1,
+    "I2": 1,
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -99,7 +102,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non sempre gli alunni sono pronti ad utilizzarla in modo corretto o funzionale.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il problema riscontrato riguarda la preparazione degli studenti all'uso corretto degli strumenti, non un limite intrinseco all'uso dell'IA."
     },
     {

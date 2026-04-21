@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:30:54.832725+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S1",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento veloce (X1) e utile per la personalizzazione (P2), ma è consapevole dei rischi legati alla dipendenza (S1) e alla perdita di stimolo cognitivo (S4).",
   "code_counts": {
-    "I2": 1,
+    "X1": 2,
     "P2": 2,
+    "X3": 1,
     "P5": 1,
     "S1": 1,
-    "S4": 2,
-    "X1": 2,
-    "X3": 1
+    "N1": 1,
+    "I2": 1,
+    "S4": 2
   },
   "items": [
     {
@@ -75,7 +78,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Non l’ha fatto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

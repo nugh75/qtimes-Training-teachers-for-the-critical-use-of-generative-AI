@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:19:37.885847+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -25,11 +27,12 @@
   "code_counts": {
     "P1": 2,
     "P2": 2,
-    "P4": 1,
+    "X3": 1,
     "P5": 1,
-    "S2": 1,
+    "P4": 1,
     "X2": 1,
-    "X3": 1
+    "N1": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -68,7 +71,9 @@
       "index": 4,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

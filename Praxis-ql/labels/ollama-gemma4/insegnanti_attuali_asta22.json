@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -18,6 +19,7 @@
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "P2",
     "R2",
     "S2",
@@ -27,21 +29,24 @@
   ],
   "record_note": "L'insegnante mostra consapevolezza dei benefici (personalizzazione) ma è limitato dalla mancanza di formazione e solleva preoccupazioni etiche e pedagogiche sull'uso dell'IA.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "I4": 1,
-    "P2": 1,
     "R2": 1,
-    "S2": 1,
-    "S4": 1,
+    "P2": 1,
+    "X3": 1,
+    "I4": 1,
     "S6": 2,
-    "X3": 1
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {

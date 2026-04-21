@@ -9,20 +9,23 @@
   "generated_at": "2026-04-19T21:11:48.367211+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S4",
     "X6"
   ],
   "record_note": "Il partecipante esprime una forte sfiducia nell'uso dell'IA, preferendo metodi tradizionali e valorizzando il giudizio umano e la ricerca personale.",
   "code_counts": {
-    "I4": 3,
+    "N1": 1,
     "R5": 1,
+    "I4": 3,
     "S4": 1,
     "X6": 1
   },
@@ -31,7 +34,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "faccio da solo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o troppo generica."
     },
     {

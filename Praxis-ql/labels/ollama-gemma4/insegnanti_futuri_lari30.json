@@ -8,14 +8,17 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:45:33.150841+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "S7"
   ],
   "record_note": "Il partecipante esprime una forte diffidenza verso l'uso dell'IA, focalizzandosi sui rischi per lo sviluppo cognitivo e i limiti pedagogici.",
   "code_counts": {
+    "N1": 1,
     "S4": 2,
     "S7": 1
   },
@@ -24,7 +27,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La temo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Espressione di timore senza specificazione di un uso o di un beneficio/rischio specifico."
     },
     {

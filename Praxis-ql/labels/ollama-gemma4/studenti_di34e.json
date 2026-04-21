@@ -1,79 +1,103 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_di34e.md",
   "source_name": "studenti_di34e.md",
-  "title": "Risposta: Studenti - Record 209",
+  "title": "Risposta Di34e",
   "group": "Studenti",
   "record_code": "Di34e",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T21:59:52.589498+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il record presenta risposte estremamente brevi, non descrittive e non forniscono informazioni utili per l'assegnazione di codici.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:52:44.483582+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante non fornisce risposte specifiche o dettagliate sull'uso dell'IA nello studio, risultando in un alto numero di codici N1.",
+  "code_counts": {
+    "N1": 9
+  },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché non mi piace",
-      "codes": [],
-      "reason": "Risposta non informativa ('Perché non mi piace')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo generica e non informativa sul motivo di non utilizzo."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chitarra",
-      "codes": [],
-      "reason": "Risposta non correlata all'uso di IA nello studio."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non correlata all'uso di strumenti di IA per lo studio."
     },
     {
       "index": 3,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "34",
-      "codes": [],
-      "reason": "Risposta incompleta o non chiara ('34')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non informativa."
     },
     {
       "index": 4,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Perché si",
-      "codes": [],
-      "reason": "Risposta non informativa ('Perché si')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non fornisce esempi di prompt."
     },
     {
       "index": 5,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "Si",
-      "codes": [],
-      "reason": "Risposta monosillabica e non descrittiva."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non specifica come l'IA aiuta l'apprendimento."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Si",
-      "codes": [],
-      "reason": "Risposta monosillabica e non descrittiva."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non fornisce esempi specifici."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Si",
-      "codes": [],
-      "reason": "Risposta monosillabica e non descrittiva."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non descrive difficoltà incontrate."
     },
     {
       "index": 8,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta di incertezza ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di incertezza ('Non lo so'), non classificabile in termini di pro e contro."
     },
     {
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta di incertezza ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di incertezza ('Non lo so'), non classificabile in termini di pratiche non raccomandate."
     }
   ]
 }

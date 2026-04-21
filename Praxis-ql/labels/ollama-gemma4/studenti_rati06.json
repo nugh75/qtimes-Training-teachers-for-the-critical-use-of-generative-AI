@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:25:53.973816+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S6",
@@ -22,10 +24,11 @@
   "record_note": "Lo studente utilizza l'IA principalmente per chiarire dubbi e definizioni, riconoscendone l'efficacia e la velocità, ma è consapevole del rischio di dipendenza o sostituzione del processo di apprendimento.",
   "code_counts": {
     "P2": 2,
+    "X2": 5,
     "P5": 1,
-    "S6": 1,
     "X1": 2,
-    "X2": 5
+    "N1": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -80,7 +83,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T22:29:16.572734+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P2",
     "P5",
     "X1",
@@ -22,12 +24,13 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per aumentare la velocità di studio e semplificare i contenuti, ma è consapevole dei vincoli economici legati all'uso di strumenti avanzati.",
   "code_counts": {
-    "A3": 1,
-    "P2": 1,
-    "P5": 2,
     "X1": 3,
     "X2": 3,
-    "X5": 1
+    "P5": 2,
+    "P2": 1,
+    "X5": 1,
+    "N1": 2,
+    "A3": 1
   },
   "items": [
     {
@@ -82,7 +85,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -100,7 +105,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

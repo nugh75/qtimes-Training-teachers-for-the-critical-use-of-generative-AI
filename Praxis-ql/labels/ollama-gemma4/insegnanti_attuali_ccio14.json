@@ -8,14 +8,17 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:51:42.540890+00:00",
   "record_dimensions": [
-    "A"
+    "A",
+    "N"
   ],
   "record_subcodes": [
-    "A1"
+    "A1",
+    "N1"
   ],
   "record_note": "Il partecipante esprime un forte senso di incertezza e mancanza di preparazione riguardo all'uso dell'IA in didattica, attribuendolo alla mancanza di formazione.",
   "code_counts": {
-    "A1": 2
+    "A1": 2,
+    "N1": 2
   },
   "items": [
     {
@@ -40,14 +43,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     }
   ]

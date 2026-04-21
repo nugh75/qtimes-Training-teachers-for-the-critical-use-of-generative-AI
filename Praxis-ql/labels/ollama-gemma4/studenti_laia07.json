@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:14:31.689006+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P7",
@@ -26,22 +28,25 @@
   ],
   "record_note": "Lo studente è consapevole dei benefici (risparmio di tempo, ricerca) ma anche dei rischi (delegare troppo, plagio) dell'uso dell'IA.",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
-    "P5": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S1": 1,
-    "S2": 1,
-    "X1": 2,
+    "P5": 1,
     "X2": 1,
-    "X3": 1
+    "X1": 2,
+    "S1": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo nome dello strumento)."
     },
     {
@@ -87,7 +92,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "La preparazione all'uso dell IA",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non specifica una difficoltà o un vincolo."
     },
     {

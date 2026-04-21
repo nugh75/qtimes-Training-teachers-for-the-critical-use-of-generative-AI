@@ -8,31 +8,38 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:00:36.877527+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "X2"
   ],
   "record_note": "L'insegnante mostra scetticismo sull'uso dell'IA, evidenziando i rischi per lo sviluppo del pensiero critico e la necessità di un uso limitato.",
   "code_counts": {
-    "S4": 2,
-    "X2": 1
+    "N1": 2,
+    "X2": 1,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non avverto la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto o non necessità di utilizzo."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Perchè nella scuola dell'infanzia non penso sia necessaria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo in un contesto specifico (scuola dell'infanzia)."
     },
     {

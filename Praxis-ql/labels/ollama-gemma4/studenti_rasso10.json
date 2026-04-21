@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:25:51.152660+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -29,18 +31,19 @@
   ],
   "record_note": "Lo studente è consapevole dei benefici dell'IA (velocità, simulazione) ma mostra anche una consapevolezza critica sui limiti e sui rischi di dipendenza (S2, S4).",
   "code_counts": {
+    "P6": 1,
     "P2": 1,
     "P4": 2,
+    "X3": 1,
     "P5": 1,
-    "P6": 1,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "S4": 2,
+    "X5": 1,
     "X1": 2,
+    "N1": 1,
     "X2": 1,
-    "X3": 1,
-    "X5": 1
+    "S4": 2,
+    "S2": 1
   },
   "items": [
     {
@@ -97,7 +100,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

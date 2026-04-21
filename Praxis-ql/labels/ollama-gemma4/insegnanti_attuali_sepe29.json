@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:29:29.216723+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P4",
     "P5",
     "P6",
@@ -25,14 +27,15 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per attività di supporto allo studio e per la creazione di materiali didattici (sintesi, test), ma evidenzia preoccupazioni sull'uso poco critico da parte degli studenti.",
   "code_counts": {
-    "P4": 1,
-    "P5": 2,
     "P6": 1,
+    "P5": 2,
+    "X2": 1,
+    "N1": 4,
+    "P4": 1,
+    "X5": 1,
     "S1": 1,
     "S4": 1,
     "X1": 1,
-    "X2": 1,
-    "X5": 1,
     "X7": 1
   },
   "items": [
@@ -59,7 +62,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non so come.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -77,14 +82,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non so se ha migliorato l’apprendimento degli studenti ora come ora.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Potrebbe aiutare ma ancora non so come.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -111,7 +120,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:51:45.788793+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -24,21 +26,24 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per la creazione di contenuti strutturati e per velocizzare il lavoro, mostrando consapevolezza dei limiti (approfondimento personale).",
   "code_counts": {
-    "P1": 2,
+    "N1": 3,
+    "P6": 1,
     "P2": 2,
     "P3": 2,
+    "X3": 2,
     "P5": 2,
-    "P6": 1,
-    "S4": 1,
+    "P1": 2,
     "X1": 2,
-    "X3": 2
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('_')."
     },
     {
@@ -105,7 +110,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "A volte, difficoltà legate a problemi tecnici",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Difficoltà legate a problemi tecnici, non mappabili con i codici forniti."
     },
     {
@@ -122,7 +129,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non so rispondere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so rispondere')."
     }
   ]

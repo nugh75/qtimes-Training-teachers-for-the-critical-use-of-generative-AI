@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:37:57.746194+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -24,21 +26,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la creazione di materiali e la personalizzazione, ma solleva preoccupazioni sul rischio di dipendenza e plagio da parte degli studenti.",
   "code_counts": {
+    "N1": 2,
+    "P6": 1,
     "P1": 2,
     "P2": 2,
-    "P6": 1,
+    "X6": 2,
+    "X1": 1,
     "S1": 1,
     "S2": 1,
-    "S4": 1,
-    "X1": 1,
-    "X6": 2
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -100,7 +105,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta 'Nessuno' non fornisce informazioni codificabili."
     },
     {

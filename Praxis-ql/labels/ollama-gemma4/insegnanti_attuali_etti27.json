@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:01:57.010987+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I3",
+    "N1",
     "P2",
     "P6",
     "P7",
@@ -24,13 +26,14 @@
   ],
   "record_note": "L'utente utilizza strumenti di traduzione e menziona preoccupazioni legate alla dipendenza e al plagio, ma non descrive processi didattici complessi.",
   "code_counts": {
-    "I3": 1,
-    "P2": 2,
     "P6": 1,
+    "P2": 2,
+    "X3": 2,
     "P7": 1,
+    "N1": 1,
+    "I3": 1,
     "S1": 1,
-    "S2": 1,
-    "X3": 2
+    "S2": 1
   },
   "items": [
     {
@@ -75,7 +78,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "non ha migliorato, ma ha migliorato la loro capacitÀ di usare LLM",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta non descrive un miglioramento dell'apprendimento tramite IA, ma la capacità degli studenti di usare LLM, non fornendo codici pertinenti."
     },
     {

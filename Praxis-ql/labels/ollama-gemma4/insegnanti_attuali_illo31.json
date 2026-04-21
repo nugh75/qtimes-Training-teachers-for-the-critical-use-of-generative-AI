@@ -9,29 +9,34 @@
   "generated_at": "2026-04-19T21:08:07.302251+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "S4",
     "X1"
   ],
   "record_note": "Il partecipante mostra scetticismo sull'uso dell'IA in discipline altamente specialistiche, evidenziando limiti di accuratezza e pertinenza.",
   "code_counts": {
+    "N1": 1,
     "I2": 1,
-    "P1": 1,
+    "X1": 1,
     "S4": 1,
-    "X1": 1
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Ho provato ad usarla ma non mi soddisfatto alcune richieste per la mia disciplina.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il partecipante esprime insoddisfazione per l'uso dell'IA per la sua disciplina, ma non specifica un motivo di rifiuto o un'alternativa di uso."
     },
     {

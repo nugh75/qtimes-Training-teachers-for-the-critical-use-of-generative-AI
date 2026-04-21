@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:29:56.852969+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S2",
@@ -22,12 +24,13 @@
   ],
   "record_note": "L'insegnante riconosce i benefici di velocità e supporto alla personalizzazione, ma esprime forti preoccupazioni riguardo all'erosione delle capacità cognitive e alla perdita di creatività.",
   "code_counts": {
-    "P2": 2,
-    "P5": 1,
-    "S2": 1,
-    "S3": 1,
     "S4": 2,
-    "X1": 1
+    "P5": 1,
+    "P2": 2,
+    "N1": 4,
+    "X1": 1,
+    "S3": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -70,28 +73,36 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "1",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non fornita o non informativa."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "1",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non fornita o non informativa."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "1",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non fornita o non informativa."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "1",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non fornita o non informativa."
     },
     {

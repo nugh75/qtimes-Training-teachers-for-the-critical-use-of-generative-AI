@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:01:42.745167+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -22,6 +24,7 @@
   ],
   "record_note": "L'uso dell'IA è limitato a funzioni di generazione di contenuti (verifiche, domande) e l'utente mostra consapevolezza dei limiti (R4).",
   "code_counts": {
+    "N1": 3,
     "P1": 3,
     "P2": 2,
     "P5": 2,
@@ -34,7 +37,9 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chatgtp",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica sull'uso didattico."
     },
     {
@@ -72,14 +77,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di incertezza o non informativa."
     },
     {

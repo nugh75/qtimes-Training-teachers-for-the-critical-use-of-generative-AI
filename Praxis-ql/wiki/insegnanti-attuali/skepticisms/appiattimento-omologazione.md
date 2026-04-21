@@ -12,7 +12,7 @@ Un tema ricorrente tra gli insegnanti è la preoccupazione che l'uso dell'IA pos
 
 ## La qualità dell'apprendimento e la produzione di conoscenza
 
-Le riflessioni sulla natura dell'apprendimento evidenziano un contrasto tra l'apertura alla conoscenza e la qualità della produzione intellettuale. Se da un lato si riconosce un potenziale di "apertura maggiore verso la conoscenza" grazie all'IA (source: [Azio17](../../../raw/insegnanti_attuali_azio17.md)), dall'altro emerge il rischio di un conseguente "impoverimento nella produzione" (source: [Azio17](../../../raw/insegnanti_attuali_azio17.md)). Questo suggerisce che l'adozione tecnologica deve essere bilanciata per non trasformare l'apprendimento in un processo meramente passivo.
+Le riflessioni sulla natura dell'apprendimento evidenziano un contrasto tra l'apertura alla conoscenza e la qualità della produzione intellettuale. Se da un lato si riconosce un potenziale di "apertura maggiore verso la conoscenza" grazie all'IA (source: [Azio17](../../../raw/insegnanti_attuali_azio17.md#item-3) · codes: X6, S3), dall'altro emerge il rischio di un conseguente "impoverimento nella produzione" (source: [Azio17](../../../raw/insegnanti_attuali_azio17.md#item-3) · codes: X6, S3). Questo suggerisce che l'adozione tecnologica deve essere bilanciata per non trasformare l'apprendimento in un processo meramente passivo.
 
 ## L'IA come strumento strategico e i limiti di utilizzo
 

@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:32:25.711300+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -29,25 +31,28 @@
   ],
   "record_note": "Lo studente utilizza l'IA per migliorare l'organizzazione e la comprensione, ma è consapevole dei rischi di dipendenza e perdita di pensiero critico.",
   "code_counts": {
-    "P1": 1,
-    "P2": 1,
-    "P5": 2,
+    "N1": 2,
     "P6": 1,
-    "R4": 1,
-    "S1": 1,
-    "S4": 1,
-    "S6": 1,
     "X1": 1,
-    "X2": 1,
+    "P2": 1,
     "X3": 1,
-    "X5": 1
+    "P5": 2,
+    "R4": 1,
+    "X2": 1,
+    "P1": 1,
+    "X5": 1,
+    "S1": 1,
+    "S6": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“_”",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -104,7 +109,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Poco",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

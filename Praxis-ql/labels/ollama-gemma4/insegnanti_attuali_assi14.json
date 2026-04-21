@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:47:24.655980+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "R2",
     "S1",
     "S4",
@@ -23,19 +25,22 @@
   ],
   "record_note": "Il partecipante si trova in una fase di apprendimento e riflessione critica sull'uso dell'IA, evidenziando la necessità di formazione e la consapevolezza dei rischi di dipendenza cognitiva.",
   "code_counts": {
+    "N1": 2,
     "A1": 6,
-    "R2": 1,
-    "S1": 1,
-    "S4": 1,
     "X6": 1,
-    "X7": 1
+    "S1": 1,
+    "X7": 1,
+    "S4": 1,
+    "R2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne ho  bisogno  nella mia vita quatidiana",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -96,7 +101,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "una discreta difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su difficoltà incontrate."
     },
     {

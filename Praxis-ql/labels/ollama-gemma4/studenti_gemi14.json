@@ -8,17 +8,20 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:07:35.393402+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S4",
     "X1"
   ],
   "record_note": "Lo studente mostra una posizione critica e di rifiuto verso l'uso dell'IA nello studio, valorizzando l'impegno mentale e l'autonomia.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
     "S4": 3,
     "X1": 1
@@ -28,7 +31,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non mi è pratica",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto."
     },
     {

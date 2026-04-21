@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:19:03.359281+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P3",
     "P5",
@@ -25,11 +27,12 @@
   "code_counts": {
     "P1": 2,
     "P3": 1,
+    "X1": 3,
     "P5": 1,
-    "S2": 1,
-    "S3": 1,
+    "N1": 2,
     "S4": 1,
-    "X1": 3
+    "S2": 1,
+    "S3": 1
   },
   "items": [
     {
@@ -65,7 +68,9 @@
       "index": 4,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "non mi aiuta ad apprendere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa sull'apprendimento."
     },
     {
@@ -81,8 +86,10 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 7,

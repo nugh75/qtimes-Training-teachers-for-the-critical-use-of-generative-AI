@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:44:49.458301+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -22,19 +24,22 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare la personalizzazione e la sintesi dei contenuti, ma mostra lacune nella conoscenza degli strumenti e nell'identificazione di pratiche raccomandate.",
   "code_counts": {
+    "N1": 4,
+    "P6": 1,
     "P2": 2,
     "P5": 2,
-    "P6": 1,
     "P7": 1,
-    "R1": 1,
-    "X2": 1
+    "X2": 1,
+    "R1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -79,7 +84,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -104,14 +111,18 @@
       "index": 9,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "si",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('si')."
     },
     {
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

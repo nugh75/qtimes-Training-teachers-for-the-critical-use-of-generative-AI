@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:15:42.743453+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "R4",
@@ -27,23 +29,26 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento di supporto efficace per migliorare le performance e la struttura dei testi, ma è consapevole dei rischi di semplificazione e di non delegare compiti complessi come la stesura di tesi.",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
+    "X3": 1,
     "P5": 2,
     "R4": 1,
-    "S2": 1,
-    "S3": 1,
-    "S7": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1,
-    "X6": 1
+    "X6": 1,
+    "S3": 1,
+    "X1": 1,
+    "S2": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "ChatGPT, è un aiuto e un sostegno solido.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è generica e non specifica un uso didattico o un beneficio particolare."
     },
     {
@@ -89,7 +94,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non informativo."
     },
     {

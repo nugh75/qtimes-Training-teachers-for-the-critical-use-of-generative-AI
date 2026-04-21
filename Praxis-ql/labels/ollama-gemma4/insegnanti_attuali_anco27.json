@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:44:18.993659+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -29,16 +31,17 @@
   "record_note": "L'utente utilizza l'IA principalmente per la produzione di materiali didattici e per ottimizzare i tempi di lavoro, riconoscendone anche i limiti etici e pedagogici.",
   "code_counts": {
     "P1": 4,
-    "P2": 2,
     "P5": 2,
     "P6": 1,
+    "P2": 2,
+    "X3": 2,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "S4": 1,
     "X1": 3,
-    "X3": 2,
-    "X5": 3
+    "X5": 3,
+    "N1": 1,
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -109,7 +112,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna in particolare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

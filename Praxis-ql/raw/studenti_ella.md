@@ -11,6 +11,18 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 
 # Risposta ella
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **X1**: Efficienza e risparmio di tempo.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +30,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: L'uso di ChatGPT per spiegare bene indica personalizzazione e chiarimento concettuale.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -25,6 +38,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
 **Reason**: Fare domande all'IA è un modo per personalizzare l'apprendimento e ottenere chiarimenti.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -32,6 +46,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
 **Reason**: Chiedere un riassunto è un esempio di strategia operativa di produzione di materiali di studio.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -39,6 +54,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: Spiegare concetti complessi in modo semplice è un atto di personalizzazione e semplificazione.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -46,6 +62,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: X1 — Efficienza e risparmio di tempo.
 **Reason**: Il risparmio di tempo è un beneficio diretto e misurabile.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
@@ -53,6 +70,7 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Riconoscere che l'IA può sbagliare indica una sfiducia tecnica.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -60,9 +78,13 @@ note: "L'utente utilizza l'IA principalmente per semplificare concetti e riassum
 **Codes**: X5 — Autonomia, organizzazione e supporto al percorso.; X6 — Coinvolgimento, arricchimento e innovazione.
 **Reason**: Il beneficio di 'aiutare tanto' è legato al supporto e all'arricchimento dello studio; 'non siamo autonomi' è un rischio per l'autonomia.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: il fare gli esercizi perché a lungo andare non siamo più in grado di farli da soli
 **Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
 **Reason**: Il rischio di non essere più in grado di fare gli esercizi da soli è un esempio di delega cognitiva eccessiva.
+
+**Cited in:**
+- [wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md](../wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md)

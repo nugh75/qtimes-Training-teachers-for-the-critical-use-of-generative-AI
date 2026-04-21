@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:49:41.627703+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "P7",
@@ -21,11 +23,12 @@
   ],
   "record_note": "L'insegnante utilizza strumenti noti (Kahoot, ChatGPT) per adattare il livello di difficoltà (personalizzazione) e identifica il miglioramento dell'apprendimento come facilitazione.",
   "code_counts": {
-    "P2": 3,
+    "N1": 3,
     "P6": 1,
+    "P2": 3,
+    "X3": 3,
     "P7": 1,
     "X2": 1,
-    "X3": 3,
     "X6": 1
   },
   "items": [
@@ -33,7 +36,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "L’utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non informativa."
     },
     {
@@ -97,7 +102,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Il tempo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il 'tempo' è un vincolo operativo, ma non è un codice specifico fornito nel codebook."
     },
     {
@@ -113,7 +120,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Le ricerche su ChatGPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica ('Le ricerche su ChatGPT') per assegnare codici specifici."
     }
   ]

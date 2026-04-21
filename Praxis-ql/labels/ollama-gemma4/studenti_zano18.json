@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:35:18.356639+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "S6",
     "X2"
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare e riassumere contenuti, ma esprime preoccupazioni sul rischio di delegare troppo il proprio lavoro all'IA.",
   "code_counts": {
+    "N1": 2,
     "P5": 2,
-    "S6": 2,
-    "X2": 3
+    "X2": 3,
+    "S6": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo nome dello strumento)."
     },
     {
@@ -72,7 +77,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

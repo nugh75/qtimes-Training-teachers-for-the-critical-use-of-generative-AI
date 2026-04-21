@@ -1,44 +1,58 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_tino71.md",
   "source_name": "insegnanti_futuri_tino71.md",
-  "title": "Risposta: Insegnanti pre-service - Record 77",
+  "title": "Risposta Tino71",
   "group": "Insegnanti pre-service",
   "record_code": "Tino71",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T21:50:00.409458+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il partecipante non insegna e non ha opinioni specifiche sull'uso dell'IA in didattica.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:52:34.753996+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante non è un insegnante attivo, rendendo non applicabili i codici relativi all'uso didattico dell'IA.",
+  "code_counts": {
+    "N1": 4
+  },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non insegno",
-      "codes": [],
-      "reason": "Risposta non informativa (Non insegno)."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta è un rifiuto di ruolo ('Non insegno') e non fornisce informazioni sull'uso o non uso dell'IA."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non ne ho bisogno",
-      "codes": [],
-      "reason": "Risposta non informativa (Non ne ho bisogno)."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta è un rifiuto di necessità ('Non ne ho bisogno') e non fornisce dettagli sull'uso dell'IA."
     },
     {
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non insegno",
-      "codes": [],
-      "reason": "Risposta non informativa (Non insegno)."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta è un rifiuto di ruolo ('Non insegno') e non permette di analizzare pro e contro dell'IA."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non insegno",
-      "codes": [],
-      "reason": "Risposta non informativa (Non insegno)."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta è un rifiuto di ruolo ('Non insegno') e non permette di analizzare pratiche non raccomandate."
     }
   ]
 }

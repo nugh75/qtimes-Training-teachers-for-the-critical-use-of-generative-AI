@@ -85,6 +85,22 @@ def build_markdown(label: dict) -> str:
     lines.append(f"# Risposta {code}")
     lines.append("")
 
+    # Legenda codici: raccogli codici unici usati negli item + record-level
+    used_codes: list[str] = []
+    seen: set[str] = set()
+    for src in (subcodes, *[item.get("codes", []) for item in items]):
+        for c in src:
+            if c and c not in seen:
+                seen.add(c)
+                used_codes.append(c)
+    if used_codes:
+        lines.append("## Legenda codici del record")
+        lines.append("")
+        for c in used_codes:
+            desc = CODEBOOK.get(c, "Codice non definito")
+            lines.append(f"- **{c}**: {desc}")
+        lines.append("")
+
     for item in items:
         idx = item.get("index", 0)
         q = item.get("question", "").strip()

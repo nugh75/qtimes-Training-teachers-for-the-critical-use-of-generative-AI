@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:02:18.364096+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -26,22 +28,25 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e per la personalizzazione degli esercizi, ma segnala una carenza di formazione formale.",
   "code_counts": {
-    "A1": 1,
+    "N1": 2,
+    "P6": 1,
     "P1": 6,
     "P2": 2,
-    "P5": 1,
-    "P6": 1,
-    "S4": 1,
-    "X2": 1,
     "X3": 2,
-    "X6": 1
+    "P5": 1,
+    "X6": 1,
+    "X2": 1,
+    "A1": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -128,7 +133,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Secondo me possono  essere usate tutte ma con attenzione",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su pratiche da evitare."
     }
   ]

@@ -10,30 +10,35 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S2",
     "S6",
     "X7"
   ],
   "record_note": "L'insegnante mostra cautela nell'uso dell'IA, attribuendo la sua limitata adozione alla mancanza di formazione e sottolineando la necessità di un uso controllato e critico.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
+    "X7": 1,
     "I4": 1,
     "S2": 1,
-    "S6": 1,
-    "X7": 1
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Poco pratica",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

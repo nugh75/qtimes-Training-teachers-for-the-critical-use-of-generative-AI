@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:43:17.573564+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R2",
     "S2",
     "S4",
@@ -22,18 +24,21 @@
   ],
   "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evidenziando sia il potenziale innovativo che i rischi di dipendenza e uso improprio.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "R2": 1,
-    "S2": 1,
+    "I4": 1,
+    "X6": 1,
     "S4": 2,
-    "X6": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

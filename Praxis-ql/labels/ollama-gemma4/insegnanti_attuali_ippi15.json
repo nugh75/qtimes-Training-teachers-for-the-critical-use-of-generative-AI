@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:10:07.408203+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S2"
   ],
   "record_note": "L'insegnante esprime una forte preferenza per l'autonomia e il controllo sui processi didattici, rifiutando l'uso dell'IA da parte degli studenti per evitare il plagio.",
   "code_counts": {
     "R5": 2,
+    "N1": 1,
     "S2": 1
   },
   "items": [
@@ -43,7 +46,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Potrebbe essere utilizzata se si è veramente in grado di utilizzarla",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica che non specifica né pro né contro, ma solo una condizione di utilizzo."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:21:36.896120+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R4",
     "S2",
     "S4",
@@ -20,17 +22,20 @@
   ],
   "record_note": "L'insegnante mostra consapevolezza dei rischi (S4, S2) e della necessità di migliorare le proprie competenze di prompting (R4).",
   "code_counts": {
+    "N1": 1,
     "R4": 1,
-    "S2": 1,
+    "X2": 1,
     "S4": 1,
-    "X2": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:56:36.027739+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "S4",
     "X2"
@@ -20,8 +22,9 @@
   "record_note": "L'insegnante ha un uso iniziale e limitato dell'IA (creazione di quiz) e mostra consapevolezza dei rischi legati alla dipendenza e alla perdita di capacità di sintesi da parte degli studenti.",
   "code_counts": {
     "P1": 1,
+    "X2": 1,
     "S4": 1,
-    "X2": 1
+    "N1": 1
   },
   "items": [
     {
@@ -47,7 +50,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è 'Non so', quindi non fornisce informazioni codificabili."
     }
   ]

@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:49:15.703137+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "P6",
     "P7",
     "S7"
   ],
   "record_note": "Partecipante pre-service che non ha esperienza didattica pratica, limitando la profondità delle risposte e focalizzandosi su aspetti teorici o di strumenti.",
   "code_counts": {
+    "N1": 7,
     "P6": 1,
     "P7": 1,
     "S7": 1
@@ -27,7 +30,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -43,14 +48,18 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo informazioni sull'uso di IA per l'individualizzazione."
     },
     {
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo informazioni sull'uso di IA per la personalizzazione."
     },
     {
@@ -66,28 +75,36 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non insegno ancora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo esempi di miglioramento dell'apprendimento tramite IA."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo informazioni su come l'IA aiuta l'apprendimento."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che non insegna, non fornendo difficoltà incontrate nell'implementazione di IA."
     },
     {
       "index": 9,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Solo e unicamente pro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica ('Solo e unicamente pro') senza dettagli specifici su pro o contro dell'IA."
     },
     {

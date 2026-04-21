@@ -9,22 +9,25 @@
   "generated_at": "2026-04-19T22:20:43.041053+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S1",
     "X1"
   ],
   "record_note": "Lo studente mostra una consapevolezza limitata sull'uso dell'IA, evidenziando sia i benefici (risparmio di tempo) sia i rischi (dipendenza), ma manifesta anche una resistenza implicita a causa della preferenza per metodi di studio tradizionali.",
   "code_counts": {
-    "I4": 1,
     "R5": 1,
+    "I4": 1,
+    "X1": 1,
     "S1": 1,
-    "X1": 1
+    "N1": 1
   },
   "items": [
     {
@@ -51,7 +54,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('non lo so')."
     }
   ]

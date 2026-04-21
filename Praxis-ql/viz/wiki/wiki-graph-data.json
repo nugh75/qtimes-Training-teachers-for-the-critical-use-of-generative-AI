@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T13:08:52.070086+00:00",
+    "generated_at": "2026-04-21T13:08:42.945970+00:00",
     "nodes_total": 102,
-    "edges_total": 214
+    "edges_total": 216
   },
   "sections": {
     "_root": 10,
@@ -46,9 +46,9 @@
       "group": "_root",
       "praxis": "_index",
       "subtheme": "grafo-dimensioni-praxis",
-      "degree": 3,
+      "degree": 4,
       "out_degree": 1,
-      "in_degree": 2
+      "in_degree": 3
     },
     {
       "id": "wiki/grafo-wiki",
@@ -855,6 +855,18 @@
       "in_degree": 7
     },
     {
+      "id": "wiki/labels-legacy",
+      "title": "PRAXIS Labels",
+      "path": "wiki/labels-legacy.md",
+      "section": "_root",
+      "group": "_root",
+      "praxis": "_index",
+      "subtheme": "labels-legacy",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
       "id": "wiki/labels-praxis",
       "title": "Labels PRAXIS",
       "path": "wiki/labels-praxis.md",
@@ -862,9 +874,9 @@
       "group": "_root",
       "praxis": "_index",
       "subtheme": "labels-praxis",
-      "degree": 3,
+      "degree": 4,
       "out_degree": 1,
-      "in_degree": 2
+      "in_degree": 3
     },
     {
       "id": "wiki/log",
@@ -889,18 +901,6 @@
       "degree": 4,
       "out_degree": 0,
       "in_degree": 4
-    },
-    {
-      "id": "wiki/praxis-labels",
-      "title": "PRAXIS Labels",
-      "path": "wiki/praxis-labels.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "praxis-labels",
-      "degree": 0,
-      "out_degree": 0,
-      "in_degree": 0
     },
     {
       "id": "wiki/sintesi-cross-coorte",
@@ -1738,6 +1738,11 @@
       "weight": 1
     },
     {
+      "source": "wiki/grafo-dimensioni-praxis",
+      "target": "wiki/labels-legacy",
+      "weight": 1
+    },
+    {
       "source": "wiki/index-wiki",
       "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
@@ -2155,6 +2160,11 @@
     {
       "source": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo",
       "target": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
+      "weight": 1
+    },
+    {
+      "source": "wiki/labels-legacy",
+      "target": "wiki/labels-praxis",
       "weight": 1
     },
     {

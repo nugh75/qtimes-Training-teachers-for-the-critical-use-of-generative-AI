@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:55:34.144999+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -26,23 +28,26 @@
   ],
   "record_note": "Lo studente utilizza l'IA per riassumere e chiarire concetti (P2, P5), ma mostra consapevolezza dei limiti (S5) e dei rischi di dipendenza (S4, S6).",
   "code_counts": {
+    "N1": 2,
+    "P6": 1,
     "P2": 1,
     "P5": 2,
-    "P6": 1,
+    "X3": 1,
     "P7": 1,
-    "S4": 1,
-    "S5": 1,
-    "S6": 1,
-    "X1": 1,
     "X2": 2,
-    "X3": 1
+    "X1": 1,
+    "S5": 1,
+    "S4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non sono molto pratica e non conosco bene le sue funzioni",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sulla conoscenza delle funzioni."
     },
     {
@@ -97,7 +102,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nell’ottobre risposte chiare sin da subito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non specifica su difficoltà incontrate."
     },
     {

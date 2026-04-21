@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:54:39.636567+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "X2",
     "X6"
@@ -20,7 +22,8 @@
   "code_counts": {
     "R5": 1,
     "X2": 1,
-    "X6": 1
+    "X6": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -46,7 +49,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non ne sono a conoscenza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di conoscenza limitata."
     }
   ]

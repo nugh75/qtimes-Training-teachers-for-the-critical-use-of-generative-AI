@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:22:59.056573+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "S6",
     "X1",
@@ -19,17 +21,20 @@
   ],
   "record_note": "Il partecipante esprime una forte diffidenza verso l'uso dell'IA in didattica, focalizzandosi sui rischi di dipendenza e sulla perdita di autonomia e pensiero critico.",
   "code_counts": {
+    "N1": 1,
     "S4": 2,
-    "S6": 1,
+    "X5": 1,
     "X1": 1,
-    "X5": 1
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne sento la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {

@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:30:41.200170+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S4",
     "S6",
     "X6",
@@ -21,18 +23,21 @@
   ],
   "record_note": "Il partecipante esprime scetticismo sull'uso attuale dell'IA, citando la mancanza di formazione e sottolineando i rischi di dipendenza e bypass del processo di apprendimento.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "S4": 1,
-    "S6": 1,
     "X6": 1,
-    "X7": 1
+    "X7": 1,
+    "S4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non mi sembra utile per ora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa e di rifiuto."
     },
     {

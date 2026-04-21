@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:57:21.331204+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -30,26 +32,29 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare la creazione di materiali e per migliorare i processi interni (sintesi, mappe), ma è consapevole dei limiti critici (verifica fonti, valutazione) e del rischio di semplificazione.",
   "code_counts": {
+    "N1": 3,
+    "P6": 1,
+    "R4": 1,
     "P1": 1,
     "P2": 1,
+    "X3": 1,
     "P5": 3,
-    "P6": 1,
+    "X6": 1,
     "P7": 1,
-    "R4": 1,
+    "X2": 1,
+    "X5": 1,
     "S3": 1,
     "S5": 1,
-    "S7": 1,
-    "X2": 1,
-    "X3": 1,
-    "X5": 1,
-    "X6": 1
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('_')."
     },
     {
@@ -97,7 +102,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non é l'Ai ad aver migliorato il loro apprendimento ma il mio modo di usarla come docente.  Sulle loro esperienze specifiche non sono in grado di rispondere.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta sposta il merito sul proprio metodo di insegnamento, non sull'IA, e non fornisce esempi specifici di miglioramento per gli studenti."
     },
     {
@@ -115,7 +122,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna ma ancora sono in fase esplorativa",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Nessuna')."
     },
     {

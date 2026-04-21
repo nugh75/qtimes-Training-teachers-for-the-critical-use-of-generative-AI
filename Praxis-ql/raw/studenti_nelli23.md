@@ -11,6 +11,14 @@ note: "Lo studente mostra una forte sfiducia nell'IA, preferendo metodi tradizio
 
 # Risposta Nelli23
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **R3**: Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.
+- **S4**: Erosione del pensiero critico.
+- **S5**: Informazioni false, imprecisione, affidabilita' debole.
+- **X1**: Efficienza e risparmio di tempo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +26,8 @@ note: "Lo studente mostra una forte sfiducia nell'IA, preferendo metodi tradizio
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Afferma di fidarsi solo dell'intelligenza umana, ritenendola insostituibile per sostenere e risolvere quesiti.
 
+**Cited in:**
+- [wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md](../wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md)
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -25,6 +35,7 @@ note: "Lo studente mostra una forte sfiducia nell'IA, preferendo metodi tradizio
 **Codes**: R3 — Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.
 **Reason**: Indica che i concetti vengono assorbiti solo usando materiali fisici (fotocopie o libri cartacei), implicando una preferenza per metodi non digitali.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -32,9 +43,12 @@ note: "Lo studente mostra una forte sfiducia nell'IA, preferendo metodi tradizio
 **Codes**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
 **Reason**: Riconosce che l'IA velocizza i processi (X1), ma che non aiuta a far lavorare la mente (S4).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Perché non sono concetti sempre esattamente giusti
 **Codes**: S5 — Informazioni false, imprecisione, affidabilita' debole.
 **Reason**: Sottolinea che i concetti non sono sempre esattamente giusti, indicando problemi di affidabilità.
+
+**Cited in:** —

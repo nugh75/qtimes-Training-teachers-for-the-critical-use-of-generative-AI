@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:43:45.779704+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "S3",
     "X3"
   ],
   "record_note": "Il partecipante è in tirocinio e riflette sui pro e contro dell'IA, evidenziando la personalizzazione ma anche i rischi di omologazione.",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
-    "S3": 2,
-    "X3": 1
+    "X3": 1,
+    "S3": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non insegno, sto seguendo un percorso di tirocinio e sto provando a fare la programmazione didattica confrontandomi con la professoressa tutor e basandomi sui volumi che mi ha messo a disposizione",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta descrive il contesto di tirocinio e confronto con la tutor, non un uso o un rifiuto dell'IA in didattica."
     },
     {

@@ -9,23 +9,28 @@
   "generated_at": "2026-04-19T21:22:08.464483+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S6"
   ],
   "record_note": "L'insegnante esprime una forte resistenza all'uso dell'IA, basando la sua posizione sulla necessità di ancorare l'apprendimento all'esperienza e al mondo reale, rifiutando sia la sostituzione del proprio sapere che l'uso di contenuti artificiali.",
   "code_counts": {
-    "I4": 3,
-    "S6": 3
+    "N1": 1,
+    "S6": 3,
+    "I4": 3
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non la utilizzo perché ho tanto naturale tangibile a portata di mano",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo basato sulla disponibilità di materiali reali."
     },
     {

@@ -9,28 +9,33 @@
   "generated_at": "2026-04-19T21:03:30.423699+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S2",
     "S4",
     "X1"
   ],
   "record_note": "L'insegnante esprime inizialmente un senso di inadeguatezza formativa e, pur riconoscendo i potenziali benefici (tempo), manifesta preoccupazioni riguardo all'uso eccessivo e alla produzione di contenuti da parte dell'IA.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "S2": 1,
+    "X1": 1,
     "S4": 1,
-    "X1": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho ancora le competenze adeguate",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica mancanza di competenze, non un contenuto informativo da codificare."
     },
     {

@@ -9,18 +9,21 @@
   "generated_at": "2026-04-19T21:24:17.944612+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "I2",
     "I4",
+    "N1",
     "S6"
   ],
   "record_note": "Il partecipante esprime una forte sfiducia nei confronti dell'IA, sia dal punto di vista tecnico che pedagogico, ritenendola dannosa per le capacità cognitive e sostitutiva del ruolo umano.",
   "code_counts": {
     "I2": 2,
     "I4": 1,
-    "S6": 1
+    "S6": 1,
+    "N1": 2
   },
   "items": [
     {
@@ -47,14 +50,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "non ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

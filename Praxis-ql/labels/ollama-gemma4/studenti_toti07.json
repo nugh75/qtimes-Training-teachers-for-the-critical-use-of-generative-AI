@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:31:56.194313+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "P6",
     "P7",
@@ -22,12 +24,13 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la sintesi e l'organizzazione dello studio, valorizzandone la velocità.",
   "code_counts": {
-    "P5": 4,
     "P6": 1,
-    "P7": 1,
-    "S7": 1,
     "X1": 2,
-    "X2": 2
+    "P5": 4,
+    "X2": 2,
+    "P7": 1,
+    "N1": 2,
+    "S7": 1
   },
   "items": [
     {
@@ -74,14 +77,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Non mi vengono in mente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non specifica o non informativa."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

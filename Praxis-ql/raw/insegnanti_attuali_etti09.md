@@ -1,8 +1,8 @@
 ---
 record_code: "etti09"
 group: Insegnanti in servizio
-dimensions: [A, I, P, S, X]
-subcodes: [A4, I4, P2, P3, P5, P6, P7, S6, X2, X3, X4, X5, X6]
+dimensions: [A, I, N, P, S, X]
+subcodes: [A4, I4, N1, P2, P3, P5, P6, P7, S6, X2, X3, X4, X5, X6]
 model: gemma4:e4b
 generated_at: "2026-04-19T21:01:01.779442+00:00"
 label_source: labels/ollama-gemma4/insegnanti_attuali_etti09.json
@@ -11,6 +11,23 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 
 # Risposta etti09
 
+## Legenda codici del record
+
+- **A4**: Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P3**: Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X4**: Inclusione e accesso.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +35,7 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
 **Reason**: Uso di D-ID, uno strumento specifico, per rendere le lezioni più coinvolgenti.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
@@ -25,6 +43,7 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Creazione di attività ad hoc basate sulle peculiarità individuali degli studenti.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
@@ -32,6 +51,7 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Analizzare le potenzialità dell'IA e la successiva riflessione critica sul suo utilizzo per coltivare le potenzialità intellettive.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -39,6 +59,7 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
 **Reason**: Creare un confronto strutturato tra due scienziati con divergenze, utilizzando un approccio di domande e risposte.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
@@ -46,6 +67,7 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA ha favorito l'approccio positivo e ha richiesto indicazioni specifiche per ricevere risposte dettagliate, migliorando la comprensione.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
@@ -53,13 +75,15 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: Gli studenti imparano a commentare i procedimenti logici, migliorando l'apprendimento e la comprensione.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
 **A**: Talvolta vengono reputati strumenti di gioco poco adeguati per l'apprendimento.
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: La difficoltà è descritta come un giudizio esterno ('strumenti di gioco poco adeguati') e non specifica un limite di uso o un problema tecnico.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -67,9 +91,14 @@ note: "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mo
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; X3 — Personalizzazione e attenzione al singolo.; X4 — Inclusione e accesso.; X5 — Autonomia, organizzazione e supporto al percorso.; X6 — Coinvolgimento, arricchimento e innovazione.; A4 — Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Vantaggi: apprendimento personalizzato (P2, X3), inclusività/accesso (P3, X4), supporto docenti (X5). Svantaggi: dipendenza (S1), divario digitale (A3), discriminazione algoritmica (I3).
 
+**Cited in:**
+- [wiki/insegnanti-attuali/expectations/inclusione-digitale.md](../wiki/insegnanti-attuali/expectations/inclusione-digitale.md)
+- [wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione.md](../wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione.md)
 ## Item 9 {#item-9}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Affidare completamente l'aspetto valutativo all'IA, quello formativo sì mentre quello sommativo deve rimanere prerogativa del docente.
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: L'aspetto valutativo deve rimanere prerogativa del docente (I4), non deve essere affidato completamente all'IA (S6).
+
+**Cited in:** —

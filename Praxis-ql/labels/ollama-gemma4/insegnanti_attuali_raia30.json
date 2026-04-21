@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:24:23.355769+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -30,25 +32,28 @@
   ],
   "record_note": "L'insegnante è in fase di apprendimento e sperimentazione, mostrando consapevolezza sui potenziali benefici (P3, P2) ma anche sui limiti etici e pedagogici (I4, S7).",
   "code_counts": {
-    "I4": 1,
-    "P1": 1,
-    "P2": 2,
-    "P3": 2,
-    "P5": 1,
+    "N1": 4,
     "P6": 2,
     "R4": 2,
-    "S7": 1,
-    "X2": 1,
-    "X3": 1,
+    "P3": 2,
+    "P2": 2,
     "X4": 1,
-    "X6": 1
+    "X3": 1,
+    "P5": 1,
+    "P1": 1,
+    "X2": 1,
+    "X6": 1,
+    "I4": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -99,21 +104,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Ancora non la uso molto, sto imparando e ho fatto solo un paio di cose che ho presentato agli studenti gli ultimi giorni di scuola",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica mancanza di esperienza o utilizzo limitato."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Ancora non ho avuto riscontro in tal senso",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica mancanza di riscontro o esperienza."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Per ora sto imparando ad utilizzarli",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica che è ancora in fase di apprendimento."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:26:31.416816+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S2",
     "S4",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, riconoscendone i benefici di efficienza ma esprimendo preoccupazioni riguardo alla perdita di impegno e alla sostituzione del processo di apprendimento.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
-    "S2": 1,
-    "S4": 1,
-    "S6": 1,
     "X1": 1,
-    "X2": 1
+    "X2": 1,
+    "S4": 1,
+    "S2": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

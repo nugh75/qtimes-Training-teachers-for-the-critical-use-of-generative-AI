@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:55:31.410709+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento altamente efficiente (X1, X2) ma è consapevole dei rischi di dipendenza e plagio (S2, S6).",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
     "P5": 1,
+    "X3": 1,
     "P6": 1,
-    "S2": 2,
-    "S6": 1,
     "X1": 2,
     "X2": 2,
-    "X3": 1
+    "S2": 2,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "computer",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è solo un oggetto generico ('computer') e non specifica un uso didattico o un codice pertinente."
     },
     {
@@ -84,7 +89,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "troppe ore davanti gli schermi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è legata al tempo trascorso davanti agli schermi, un problema di salute/abitudine, non direttamente codificabile con i codici forniti."
     },
     {

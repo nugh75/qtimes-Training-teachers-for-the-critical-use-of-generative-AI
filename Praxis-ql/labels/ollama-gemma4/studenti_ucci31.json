@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:32:43.846558+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -23,13 +25,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare concetti e creare materiali di studio, ma è consapevole dei rischi di dipendenza e perdita di pensiero critico.",
   "code_counts": {
-    "P1": 1,
     "P2": 1,
-    "P5": 1,
+    "X2": 3,
     "P7": 1,
+    "P1": 1,
+    "P5": 1,
+    "N1": 1,
     "S4": 1,
-    "S7": 1,
-    "X2": 3
+    "S7": 1
   },
   "items": [
     {
@@ -82,7 +85,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho trovato tante difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è negativa e non fornisce dettagli o difficoltà specifiche."
     },
     {

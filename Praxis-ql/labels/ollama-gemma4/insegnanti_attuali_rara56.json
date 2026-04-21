@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:24:43.565840+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P5",
     "R5",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante mostra scetticismo sull'uso didattico dell'IA, temendo che possa sostituire lo sviluppo delle abilità cognitive e la dimensione personale dello studente.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
+    "R5": 1,
+    "S4": 2,
     "P1": 2,
     "P5": 1,
-    "R5": 1,
+    "I4": 1,
     "S2": 1,
-    "S3": 1,
-    "S4": 2
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Fino ad ora non ne ho avuto la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica assenza di necessità di utilizzo."
     },
     {

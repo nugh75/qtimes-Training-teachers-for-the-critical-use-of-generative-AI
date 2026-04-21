@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:06:40.534152+00:00",
   "record_dimensions": [
+    "N",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "X2"
   ],
   "record_note": "Il partecipante mostra un uso superficiale e generico dell'IA, limitandosi a percepire un beneficio di semplificazione senza fornire dettagli sull'uso o sulle strategie.",
   "code_counts": {
+    "N1": 6,
     "X2": 2
   },
   "items": [
@@ -22,21 +25,27 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt perché mi aiuta",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica sull'uso dell'IA."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -52,14 +61,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -75,7 +88,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

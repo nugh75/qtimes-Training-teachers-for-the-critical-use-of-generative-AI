@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:22:18.593166+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -23,20 +25,23 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per semplificare concetti e per l'autovalutazione, ma è consapevole dei limiti etici e accademici (non usare per tesi).",
   "code_counts": {
-    "P1": 1,
+    "N1": 2,
     "P2": 1,
-    "P4": 1,
+    "X3": 1,
     "P5": 1,
-    "S2": 1,
     "X2": 1,
-    "X3": 1
+    "P1": 1,
+    "P4": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (nome di uno strumento)."
     },
     {
@@ -80,7 +85,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa/non informativa."
     },
     {

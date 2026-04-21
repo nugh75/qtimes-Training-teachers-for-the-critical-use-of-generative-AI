@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:18:47.442394+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "P6",
@@ -23,20 +25,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la ricerca e la stratificazione dell'informazione, ma mostra cautela e consapevolezza dei rischi di dipendenza cognitiva.",
   "code_counts": {
-    "P1": 1,
-    "P5": 1,
+    "N1": 6,
     "P6": 1,
-    "S4": 1,
-    "S6": 1,
+    "P5": 1,
     "X2": 1,
-    "X6": 1
+    "P1": 1,
+    "X6": 1,
+    "S4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -52,28 +57,36 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Ancora non mi sono servito di questo strumento nella didattica quotidiana per individualizzare l'insegnamento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica non aver utilizzato lo strumento per questo scopo."
     },
     {
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non la utilizzo per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica non utilizzare lo strumento per questo scopo."
     },
     {
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "no",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di esempi di prompt."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "no",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di esempi specifici."
     },
     {
@@ -90,7 +103,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna, ancora la adopero con cautela",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà, ma menziona l'uso cauto, che non è un codice specifico."
     },
     {

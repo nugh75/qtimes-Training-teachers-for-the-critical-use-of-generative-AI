@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:09:48.597824+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "P1",
     "R3",
     "S2",
@@ -24,19 +26,22 @@
   ],
   "record_note": "L'insegnante esprime scetticismo e preferisce metodi tradizionali, evidenziando la mancanza di formazione e i rischi di dipendenza cognitiva.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "P1": 1,
     "R3": 1,
-    "S2": 1,
+    "X1": 1,
     "S4": 1,
-    "X1": 1
+    "S2": 1,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non ritengo necessario l'utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzare l'IA, non informativo."
     },
     {

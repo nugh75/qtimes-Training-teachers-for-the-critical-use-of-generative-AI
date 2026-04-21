@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:26:13.770492+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -30,19 +32,20 @@
   ],
   "record_note": "L'utente mostra un uso pratico e mirato dell'IA, focalizzato sulla generazione di materiali e sulla velocizzazione delle nozioni, ma è consapevole dei limiti etici e pedagogici (valutazione, giudizio).",
   "code_counts": {
-    "I4": 1,
-    "P1": 1,
-    "P2": 2,
-    "P3": 1,
-    "P5": 3,
     "P6": 1,
+    "P2": 2,
+    "P5": 3,
+    "X3": 2,
     "P7": 1,
-    "S4": 1,
-    "S6": 1,
+    "P1": 1,
+    "P3": 1,
+    "X4": 1,
     "X1": 2,
     "X2": 1,
-    "X3": 2,
-    "X4": 1
+    "N1": 1,
+    "S4": 1,
+    "I4": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -111,8 +114,10 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "non le ho incontrate per ora",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 8,

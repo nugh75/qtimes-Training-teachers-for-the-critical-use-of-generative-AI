@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:27:12.451632+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -29,25 +31,28 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare l'inclusione (DSA) e la personalizzazione, ma segnala problemi infrastrutturali e preoccupazioni sulla creatività e il sovraccarico informativo.",
   "code_counts": {
-    "A3": 1,
-    "P2": 2,
-    "P3": 1,
+    "N1": 1,
     "P5": 2,
-    "S3": 1,
-    "S5": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1,
+    "P3": 1,
+    "P2": 2,
     "X4": 1,
+    "X3": 1,
     "X5": 1,
-    "X6": 1
+    "X6": 1,
+    "A3": 1,
+    "X1": 1,
+    "S3": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

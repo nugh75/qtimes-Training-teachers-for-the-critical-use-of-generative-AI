@@ -8,33 +8,40 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:43:59.662088+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S2",
     "S4",
     "X2"
   ],
   "record_note": "Partecipante pre-service che esprime preoccupazioni sull'uso dell'IA, bilanciando il potenziale di espansione della conoscenza con il rischio di perdita di originalità e di elaborazione personale.",
   "code_counts": {
-    "S2": 1,
+    "N1": 2,
+    "X2": 1,
     "S4": 1,
-    "X2": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Attualmente non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non insegna)."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Attualmente non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non insegna)."
     },
     {

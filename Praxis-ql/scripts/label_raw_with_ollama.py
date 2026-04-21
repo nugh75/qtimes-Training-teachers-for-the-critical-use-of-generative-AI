@@ -61,6 +61,7 @@ CODEBOOK: dict[str, str] = {
     "S5": "Informazioni false, imprecisione, affidabilita' debole.",
     "S6": "Sostituzione del docente o della relazione educativa.",
     "S7": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
+    "N1": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
 }
 
 
@@ -71,7 +72,7 @@ Regole:
 1. Usa solo i codici ammessi.
 2. Un item puo' ricevere zero, uno o piu' codici.
 3. Non inventare codici nuovi.
-4. Se una risposta e' solo '-' o e' vuota o non informativa, restituisci una lista codici vuota.
+4. Se una risposta e' solo '-' o e' vuota o non informativa, assegna il codice N1 (risposta non classificabile).
 5. Preferisci pochi codici pertinenti a molti codici rumorosi.
 6. Considera soprattutto il contenuto espresso nella risposta, non la sola formulazione della domanda.
 7. Restituisci JSON valido e nient'altro.

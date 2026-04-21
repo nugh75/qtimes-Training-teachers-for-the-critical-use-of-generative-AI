@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:25:27.120949+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "R2",
@@ -24,13 +26,14 @@
   ],
   "record_note": "L'insegnante mostra un'iniziale diffidenza basata sulla propria conoscenza teorica (R2), ma è curioso e aperto all'uso futuro. Riconosce potenziali benefici didattici (P1, X2) ma solleva preoccupazioni etiche e cognitive sull'uso da parte degli studenti (S4, S2).",
   "code_counts": {
+    "R2": 2,
+    "X5": 2,
     "P1": 1,
     "P5": 1,
-    "R2": 2,
-    "S2": 1,
     "S4": 1,
+    "S2": 1,
     "X2": 1,
-    "X5": 2
+    "N1": 1
   },
   "items": [
     {
@@ -70,8 +73,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho gli elementi per poter definire quali pratiche che utilizzano l'AI NON dovrebbero essere impiegate nell'insegnamento; secondo me ogni strumento dovrebbe essere impiegato, anche se innovativo e non conosciuto fino in fondo, al fine di favorire il percorso di apprendimento degli studenti. Chiaramente il successo, o l'insuccesso, di una nuova pratica va stabilito solo dopo un suo utilizzo pratico.",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

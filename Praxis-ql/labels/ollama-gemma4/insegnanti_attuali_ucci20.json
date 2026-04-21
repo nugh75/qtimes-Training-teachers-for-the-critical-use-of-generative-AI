@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:33:59.929929+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S1",
     "S2",
     "S4",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Il partecipante mostra una forte resistenza all'uso dell'IA, temendo la perdita di autonomia creativa, la dipendenza cognitiva e la riduzione del pensiero critico.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "S1": 2,
-    "S2": 1,
     "S4": 1,
-    "S5": 1,
-    "X2": 1
+    "I4": 1,
+    "X2": 1,
+    "S2": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Preferisco progettare le mie attività in modo autonomo; ho facilità nella scrittura e quindi non fatico nella produzione di testi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta esprime una preferenza personale per l'autonomia nella produzione di testi, non un uso o non-uso dell'IA."
     },
     {

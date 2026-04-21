@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:04:41.872204+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -27,23 +29,26 @@
   ],
   "record_note": "Lo studente utilizza l'IA per riassunti e chiarimenti (P1, P2), dimostra capacità di prompting (R4) e ne riconosce sia i benefici (risparmio di tempo, X1) che i rischi (S2, S6).",
   "code_counts": {
+    "N1": 2,
+    "P6": 1,
     "P1": 2,
     "P2": 1,
-    "P6": 1,
+    "X2": 1,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "S6": 2,
+    "X6": 1,
     "X1": 1,
-    "X2": 1,
-    "X6": 1
+    "S6": 2,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -98,7 +103,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non vengono menzionate difficoltà."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:17:35.317971+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "S2",
@@ -21,25 +23,30 @@
   ],
   "record_note": "Lo studente è consapevole del vantaggio di velocità (X1) ma evidenzia rischi di dipendenza e perdita di competenze (S4, S2).",
   "code_counts": {
-    "P1": 1,
+    "N1": 4,
     "P5": 1,
-    "S2": 1,
+    "X1": 2,
     "S4": 1,
-    "X1": 2
+    "S2": 1,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo nome dello strumento)."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "Non la uso per 'perzonalizzare' il mio studio",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -64,14 +71,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Non lo ha migliorato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

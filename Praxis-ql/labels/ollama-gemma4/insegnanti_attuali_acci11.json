@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:42:20.658563+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "R1",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare la personalizzazione e la semplificazione, ma manifesta lacune nella competenza pratica e identifica il rischio di plagio.",
   "code_counts": {
+    "N1": 2,
     "P1": 1,
     "P2": 3,
-    "R1": 1,
-    "S2": 1,
-    "X2": 1,
     "X3": 3,
-    "X6": 1
+    "X2": 1,
+    "R1": 1,
+    "X6": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -73,7 +78,9 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "argomento materia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica ('argomento materia') per assegnare codici specifici di prompting."
     },
     {

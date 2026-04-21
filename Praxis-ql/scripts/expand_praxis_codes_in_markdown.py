@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+"""Normalizza legenda e codici PRAXIS nei raw item-based.
+
+Uso:
+    python expand_praxis_codes_in_markdown.py --write
+"""
+
 import argparse
 import re
 from pathlib import Path
@@ -8,18 +14,15 @@ from pathlib import Path
 from label_raw_with_ollama import CODEBOOK, ROOT_DIR
 
 
-DEFAULT_INPUT_DIR = ROOT_DIR / "praxis-labels"
-SKIP_FILES = {"index.md", "failures.md", "metodologia.md"}
-ITEM_RE = re.compile(r"^### Item \d+ · `([^`]*)`$")
-SUBCODES_RE = re.compile(r"^\*\*Subcodes\*\*: (.*)$")
-EXT_ITEM_LINE_RE = re.compile(r"^- \*\*Codici estesi\*\*: ")
-EXT_SUBCODES_LINE_RE = re.compile(r"^\*\*Subcodes estesi\*\*: ")
-CODE_RE = re.compile(r"\b[APRSXI]\d\b")
+DEFAULT_INPUT_DIR = ROOT_DIR / "raw"
+SKIP_FILES: set[str] = set()
+CODES_RE = re.compile(r"^\*\*Codes\*\*: (.*)$")
+CODE_RE = re.compile(r"\b[APRSXIN]\d\b")
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Espande i codici PRAXIS nei markdown di praxis-labels."
+        description="Normalizza i codici PRAXIS nei markdown item-based di raw/."
     )
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT_DIR)
     parser.add_argument("--glob", default="*.md")
@@ -39,13 +42,13 @@ def unique_codes(text: str) -> list[str]:
 
 def format_codes_extended(codes: list[str]) -> str:
     if not codes:
-        return "-"
+        return "—"
     return "; ".join(f"{code} — {CODEBOOK.get(code, 'Codice non definito')}" for code in codes)
 
 
 def remove_existing_legend(text: str) -> str:
     return re.sub(
-        r"\n## Legenda codici del record\n.*?(?=\n## Items\n)",
+        r"\n## Legenda codici del record\n.*?(?=\n## Item \d+ \{#item-\d+\}\n)",
         "\n",
         text,
         flags=re.DOTALL,
@@ -59,38 +62,28 @@ def insert_legend(text: str, codes: list[str]) -> str:
     legend_lines.extend(f"- **{code}**: {CODEBOOK.get(code, 'Codice non definito')}" for code in codes)
     legend_lines.append("")
     legend_block = "\n".join(legend_lines)
-    return text.replace("\n## Items\n", f"\n{legend_block}\n## Items\n", 1)
+    return re.sub(
+        r"\n## Item \d+ \{#item-\d+\}\n",
+        lambda match: f"\n{legend_block}\n{match.group(0).lstrip()}",
+        text,
+        count=1,
+    )
 
 
 def expand_markdown(text: str) -> str:
     lines = text.splitlines()
     out: list[str] = []
-    record_codes: list[str] = []
+    record_codes = unique_codes(text)
 
     i = 0
     while i < len(lines):
         line = lines[i]
-        subcodes_match = SUBCODES_RE.match(line)
-        item_match = ITEM_RE.match(line)
+        codes_match = CODES_RE.match(line)
 
-        if subcodes_match:
-            codes = unique_codes(subcodes_match.group(1))
-            if codes:
-                record_codes = codes
-            out.append(line)
+        if codes_match:
+            codes = unique_codes(codes_match.group(1))
+            out.append(f"**Codes**: {format_codes_extended(codes)}")
             i += 1
-            while i < len(lines) and EXT_SUBCODES_LINE_RE.match(lines[i]):
-                i += 1
-            out.append(f"**Subcodes estesi**: {format_codes_extended(codes)}")
-            continue
-
-        if item_match:
-            codes = unique_codes(item_match.group(1))
-            out.append(line)
-            i += 1
-            while i < len(lines) and EXT_ITEM_LINE_RE.match(lines[i]):
-                i += 1
-            out.append(f"- **Codici estesi**: {format_codes_extended(codes)}")
             continue
 
         out.append(line)
@@ -99,8 +92,6 @@ def expand_markdown(text: str) -> str:
     expanded = "\n".join(out) + ("\n" if text.endswith("\n") else "")
     expanded = remove_existing_legend(expanded)
 
-    if not record_codes:
-        record_codes = unique_codes(expanded)
     expanded = insert_legend(expanded, record_codes)
     return expanded
 

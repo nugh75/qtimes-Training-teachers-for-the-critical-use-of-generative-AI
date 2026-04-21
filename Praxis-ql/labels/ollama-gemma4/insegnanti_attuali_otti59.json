@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:21:48.957527+00:00",
   "record_dimensions": [
-    "I"
+    "I",
+    "N"
   ],
   "record_subcodes": [
-    "I4"
+    "I4",
+    "N1"
   ],
   "record_note": "Il partecipante esprime cautela sull'uso dell'IA, evidenziando il valore della relazione umana (I4).",
   "code_counts": {
+    "N1": 3,
     "I4": 1
   },
   "items": [
@@ -22,7 +25,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -38,14 +43,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Molto aggiornata",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Molto aggiornata') per assegnare codici specifici."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Attività ludiche",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo vaga ('Attività ludiche') per assegnare codici specifici."
     }
   ]

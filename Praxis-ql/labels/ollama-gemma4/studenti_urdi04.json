@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:33:46.527168+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Lo studente utilizza l'IA per la sintesi e la strutturazione dei contenuti, riconoscendone i benefici in termini di tempo e comprensione, ma evidenziando la mancanza di formazione adeguata.",
   "code_counts": {
-    "P2": 1,
-    "P5": 1,
+    "N1": 6,
     "P6": 1,
+    "X2": 2,
+    "P5": 1,
+    "P2": 1,
     "P7": 1,
-    "R4": 1,
-    "X2": 2
+    "R4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non sono abituata ad usarla in ambiti che non siano di studio o lavoro. Penso subito ad altre vie per risolvere un problema.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul rifiuto di utilizzo in ambiti diversi dallo studio/lavoro."
     },
     {
@@ -72,36 +77,46 @@
       "index": 5,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "Grazie alla sintesi in punti chiave",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Produrre report in poco tempo",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Se non si specificano bene le richieste, tende a generalizzare le risposte, rendendole banali",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 8,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Pro: tempi ridotti di studio o lavoro, facilitazione della comprensione di concetti. CONTRO: non c'é una formazione adeguata al corretto utilizzo dell'IA. Questo rischia di produrre menti poco critiche e superficiali.",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     },
     {
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Produzione da zero di prodotti di studio o di lavoro.",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

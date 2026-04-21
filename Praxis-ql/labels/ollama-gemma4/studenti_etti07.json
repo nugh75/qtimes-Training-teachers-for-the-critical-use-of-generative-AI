@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:05:45.302311+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P4",
     "P6",
@@ -21,19 +23,22 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per migliorare la comprensione e la preparazione agli esami, focalizzandosi sulla personalizzazione e la chiarezza.",
   "code_counts": {
+    "N1": 3,
     "P2": 2,
-    "P4": 1,
+    "X3": 2,
     "P6": 1,
-    "X1": 1,
     "X2": 2,
-    "X3": 2
+    "P4": 1,
+    "X1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "telefono per la velocità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta si riferisce a uno strumento (telefono) per la velocità, ma non descrive un uso didattico o un processo di studio specifico da codificare."
     },
     {
@@ -79,7 +84,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "visivamente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è 'visivamente', un'informazione troppo generica e non collegabile a un codice specifico del framework."
     },
     {
@@ -96,7 +103,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "no",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è 'no', non fornendo informazioni sufficienti per l'assegnazione di codici."
     }
   ]

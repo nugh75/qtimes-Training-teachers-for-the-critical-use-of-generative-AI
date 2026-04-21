@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:59:40.543596+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P7",
     "S4",
@@ -22,26 +24,31 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la ricerca di materiali e attività, valorizzandone l'immediatezza e il supporto al percorso, ma mostra consapevolezza sui rischi di dipendenza cognitiva.",
   "code_counts": {
+    "N1": 4,
     "P2": 2,
-    "P7": 1,
-    "S4": 1,
-    "X2": 1,
     "X3": 2,
-    "X5": 1
+    "P7": 1,
+    "X2": 1,
+    "X5": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "preferisco ricercare attività pratiche da far svolgere ai bambini",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica una preferenza per attività pratiche."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "storie, fiabe",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica materiali narrativi (storie, fiabe) ma non specifica l'uso di strumenti IA."
     },
     {
@@ -95,7 +102,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non ci sono difficoltà da codificare."
     },
     {
@@ -111,7 +120,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di non conoscenza o non applicabilità."
     }
   ]

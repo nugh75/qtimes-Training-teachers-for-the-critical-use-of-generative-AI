@@ -9,19 +9,22 @@
   "generated_at": "2026-04-19T21:29:05.157388+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S3",
     "X1"
   ],
   "record_note": "Il partecipante esprime difficoltà nell'uso dell'IA, attribuendole alla mancanza di formazione e competenze, ma riconosce potenziali benefici (velocità) e rischi (perdita di creatività).",
   "code_counts": {
     "A1": 2,
+    "X1": 1,
     "S3": 1,
-    "X1": 1
+    "N1": 1
   },
   "items": [
     {
@@ -56,8 +59,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non so",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:03:23.256183+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S6"
   ],
   "record_note": "Il partecipante esprime incertezza sull'uso dell'IA e menziona la preoccupazione che questa possa sostituire l'uomo.",
   "code_counts": {
+    "N1": 3,
     "S6": 1
   },
   "items": [
@@ -22,14 +25,18 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché non so usarla",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Perché non so usarla')."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
       "answer": "Perché non so usarla",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Perché non so usarla')."
     },
     {
@@ -45,7 +52,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     }
   ]

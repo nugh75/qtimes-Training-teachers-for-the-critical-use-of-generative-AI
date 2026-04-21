@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:42:15.415329+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per l'individualizzazione e la compensazione (NAI), ma mostra cautela riguardo all'affidabilità delle risposte (I2) e al potenziale limitazione della creatività (S3).",
   "code_counts": {
-    "I2": 1,
-    "P2": 2,
-    "P3": 1,
-    "P5": 3,
+    "N1": 2,
     "P6": 1,
-    "S3": 1,
+    "P2": 2,
+    "P5": 3,
     "X3": 1,
-    "X6": 1
+    "P3": 1,
+    "I2": 1,
+    "X6": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -121,7 +126,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     }
   ]

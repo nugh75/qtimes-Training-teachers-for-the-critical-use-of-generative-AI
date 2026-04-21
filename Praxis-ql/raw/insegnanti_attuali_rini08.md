@@ -11,6 +11,15 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA, valorizzando
 
 # Risposta Rini08
 
+## Legenda codici del record
+
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+- **X1**: Efficienza e risparmio di tempo.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +27,7 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA, valorizzando
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Preferisce adattare le lezioni alle difficoltà della classe, indicando un'attenzione all'individualizzazione.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,8 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA, valorizzando
 **Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Temere che l'IA spegna la fantasia, la creatività e non tenga conto delle differenze degli alunni.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/expectations/peggioramento-efficace.md](../wiki/insegnanti-attuali/expectations/peggioramento-efficace.md)
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +44,13 @@ note: "Il partecipante mostra una forte resistenza all'uso dell'IA, valorizzando
 **Codes**: X1 — Efficienza e risparmio di tempo.; S3 — Appiattimento, omologazione, perdita di creativita'.
 **Reason**: Riconosce l'agevolazione di compiti (X1), ma teme che porti a un appiattimento del pensiero (S3).
 
+**Cited in:**
+- [wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md](../wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Produzione di testi perché mancherebbe la curiosità, la ricerca,blo studio per ampliare anche solo il nostro vocabolario quotidiano.
 **Codes**: S4 — Erosione del pensiero critico.; P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
 **Reason**: Non raccomanda la produzione di testi perché mancherebbe la curiosità e la ricerca, elementi fondamentali per lo sviluppo del pensiero critico.
+
+**Cited in:** —

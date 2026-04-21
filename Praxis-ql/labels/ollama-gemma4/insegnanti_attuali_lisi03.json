@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:12:56.606025+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R2",
     "S4",
     "X1",
@@ -20,17 +22,20 @@
   ],
   "record_note": "Il partecipante esprime cautela sull'uso dell'IA, sottolineando la necessità di maggiori competenze e riconoscendo i limiti che possono ostacolare l'elaborazione personale degli studenti.",
   "code_counts": {
+    "N1": 2,
     "R2": 1,
-    "S4": 1,
     "X1": 1,
-    "X6": 1
+    "X6": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“_”.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {
@@ -57,7 +62,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di assenza di esperienza."
     }
   ]

@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:55:16.354087+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R3",
     "R5",
     "X1",
@@ -22,7 +24,8 @@
     "R3": 1,
     "R5": 1,
     "X1": 1,
-    "X2": 1
+    "X2": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -57,8 +60,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

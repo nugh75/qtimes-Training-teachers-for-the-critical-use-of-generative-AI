@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:56:12.474959+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "S4",
     "X2",
@@ -20,17 +22,20 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la sintesi e la strutturazione dei contenuti (schemi), ma mostra consapevolezza dei rischi legati alla dipendenza (S4).",
   "code_counts": {
+    "N1": 4,
     "P5": 4,
-    "S4": 1,
     "X2": 3,
-    "X3": 1
+    "X3": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Si",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa ('Si') ma non fornisce contesto o contenuto informativo."
     },
     {
@@ -57,7 +62,9 @@
       "index": 4,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {
@@ -84,7 +91,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {
@@ -100,7 +109,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Ci sono cose sottovalutate",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica ('Ci sono cose sottovalutate') senza specificare pratiche o motivazioni."
     }
   ]

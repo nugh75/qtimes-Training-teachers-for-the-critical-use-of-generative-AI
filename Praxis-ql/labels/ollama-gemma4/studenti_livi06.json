@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:15:39.611608+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -27,16 +29,17 @@
   ],
   "record_note": "Lo studente mostra consapevolezza sui limiti dell'IA (I2, X7) ma è preoccupato per il rischio di dipendenza e perdita di creatività (S2, S4).",
   "code_counts": {
-    "I2": 1,
-    "P2": 1,
-    "P4": 1,
-    "P5": 2,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
+    "P5": 2,
+    "X2": 2,
+    "N1": 1,
+    "I2": 1,
+    "X7": 2,
     "S2": 1,
     "S4": 1,
-    "X2": 2,
-    "X3": 1,
-    "X7": 2
+    "P4": 1
   },
   "items": [
     {
@@ -90,7 +93,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "0",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:04:41.559624+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "S2",
     "S4",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'insegnante mostra cautela nell'uso dell'IA, evidenziando limiti pratici (personalizzazione) e rischi pedagogici (plagio e superficialità dell'apprendimento).",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
-    "S2": 1,
-    "S4": 1,
+    "X3": 1,
     "X1": 1,
-    "X3": 1
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non sono formata e abituata",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta indica mancanza di formazione e abitudine, ma non specifica un'area di supporto o un'attività che non si usa."
     },
     {

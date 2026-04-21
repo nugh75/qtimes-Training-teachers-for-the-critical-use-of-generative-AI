@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:58:29.023667+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S4",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la velocità e per l'ispirazione, ma mostra consapevolezza dei limiti tecnici (allucinazioni) e dei limiti disciplinari (matematica).",
   "code_counts": {
-    "I2": 1,
-    "P2": 1,
     "P5": 2,
-    "S4": 1,
-    "S7": 1,
+    "X6": 3,
+    "P2": 1,
+    "N1": 1,
     "X1": 3,
-    "X6": 3
+    "I2": 1,
+    "S4": 1,
+    "S7": 1
   },
   "items": [
     {
@@ -57,7 +60,9 @@
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Chatgbt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "L'utente non fornisce esempi di prompt, ma ripete solo il nome dello strumento."
     },
     {

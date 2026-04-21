@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:34:28.799136+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A4",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -29,24 +31,27 @@
   ],
   "record_note": "Lo studente utilizza l'IA per migliorare l'efficienza e la comprensione, mostrando consapevolezza delle tecniche di prompting e dei rischi di dipendenza/plagio.",
   "code_counts": {
-    "A4": 1,
-    "P2": 1,
-    "P5": 2,
+    "N1": 1,
     "P6": 1,
-    "P7": 1,
-    "R4": 1,
-    "S2": 1,
-    "X1": 1,
+    "P5": 2,
+    "P2": 1,
     "X2": 4,
     "X3": 1,
-    "X5": 1
+    "P7": 1,
+    "R4": 1,
+    "X5": 1,
+    "A4": 1,
+    "X1": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "la utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa non informativa sul metodo di utilizzo."
     },
     {

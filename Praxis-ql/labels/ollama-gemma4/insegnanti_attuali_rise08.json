@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:26:50.776479+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S4",
     "S7",
@@ -20,17 +22,20 @@
   ],
   "record_note": "L'insegnante mostra una consapevolezza critica sull'uso dell'IA, riconoscendone i benefici operativi ma anche i limiti pedagogici e gli ambiti in cui non dovrebbe essere impiegata.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
+    "X2": 1,
     "S4": 1,
-    "S7": 1,
-    "X2": 1
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

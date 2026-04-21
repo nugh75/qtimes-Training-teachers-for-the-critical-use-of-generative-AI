@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:33:24.637908+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S2",
     "S4",
@@ -20,17 +22,20 @@
   ],
   "record_note": "Il partecipante mostra una posizione critica e cauta sull'uso dell'IA, rifiutandone l'uso per attività che richiedono sforzo personale e pensiero critico, pur riconoscendone l'efficienza temporale.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
-    "S2": 1,
     "S4": 3,
-    "X1": 1
+    "X1": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Per il momento cerco di farne a meno/ non mi è indispensabile",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica un rifiuto di utilizzo."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:31:14.476385+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -23,13 +25,14 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento onnipresente e utile per la produzione di contenuti e l'approfondimento, ma è consapevole dei rischi legati alla perdita di creatività e all'uso improprio (es. creare testi).",
   "code_counts": {
-    "P2": 1,
-    "P5": 3,
     "P6": 1,
-    "S2": 1,
-    "S3": 1,
+    "P5": 3,
+    "P2": 1,
     "X3": 1,
-    "X6": 1
+    "N1": 2,
+    "S3": 1,
+    "X6": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -74,14 +77,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

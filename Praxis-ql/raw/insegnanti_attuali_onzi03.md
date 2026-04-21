@@ -11,6 +11,20 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 
 # Risposta onzi03
 
+## Legenda codici del record
+
+- **A2**: Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato.
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P4**: Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +32,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Elenca strumenti (Gemini, ChatGPT) che permettono maggiore autonomia e libertà.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
@@ -25,6 +40,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Differenzia esercizi su medesimi contenuti per fasce di livello, personalizzando l'apprendimento.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
@@ -32,6 +48,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Elabora attività differenziate (disegno, scrittura, recitazione, logica) per coltivare potenzialità diverse.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -39,6 +56,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
 **Reason**: Elabora verifiche di analisi logica (P1) su frasi brevi, valutabili con lo stesso punteggio (P4), utilizzando un'istruzione specifica (P5).
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
@@ -46,6 +64,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: X6 — Coinvolgimento, arricchimento e innovazione.
 **Reason**: L'IA ha stimolato la curiosità e l'entusiasmo, arricchendo l'esperienza di apprendimento.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
@@ -53,6 +72,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Permette di differenziare il lavoro e di proporre giochi per mantenere alto l'attenzione e sviluppare la risposta a diversi stimoli.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
@@ -60,6 +80,7 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: A2 — Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato.
 **Reason**: Rileva difficoltà legate al tempo di preparazione e all'incognita tecnologica in classe, indicando un supporto non sempre funzionale.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -67,9 +88,12 @@ note: "L'insegnante utilizza l'IA per differenziare e personalizzare l'insegname
 **Codes**: X6 — Coinvolgimento, arricchimento e innovazione.; S4 — Erosione del pensiero critico.
 **Reason**: Vede l'IA come stimolante (pro) ma anche riduttiva (contro), indicando un potenziale di arricchimento ma anche rischio di limitazione del pensiero.
 
+**Cited in:** —
 ## Item 9 {#item-9}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: produzione scritta (la creatività deve essere espressa in autonomia da strumenti esterni); riassunto o sintesi di testi da studiare (la rielaborazione aiuta la memorizzazione e deve passare per la mente del discente); traduzione (deve rimanere solo come supporto in caso di importante difficoltà)
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
 **Reason**: Sconsiglia la produzione scritta autonoma (S2), la sintesi/riassunto (P5) e la traduzione (P5) come attività principali, ritenendo che debbano passare per la mente dello studente.
+
+**Cited in:** —

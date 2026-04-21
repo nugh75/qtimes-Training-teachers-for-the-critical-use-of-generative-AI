@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:27:27.255321+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "R3",
     "S2",
@@ -26,21 +28,24 @@
   ],
   "record_note": "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evidenziando sia i benefici (personalizzazione, inclusività) sia i rischi (riduzione del pensiero critico e sostituzione del ruolo umano).",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
+    "N1": 1,
     "R3": 1,
-    "S2": 1,
-    "S4": 1,
-    "S6": 1,
+    "P2": 1,
     "X3": 1,
-    "X4": 1
+    "X4": 1,
+    "S4": 1,
+    "I4": 1,
+    "S6": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "poca capacità di utilizzare questo nuovo strumento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta esprime una limitazione personale di capacità, non un uso o un'applicazione specifica dell'IA."
     },
     {

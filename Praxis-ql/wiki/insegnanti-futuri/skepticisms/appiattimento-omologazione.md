@@ -16,7 +16,7 @@ Le riflessioni sui contro dell'IA convergono su specifiche pratiche che non dovr
 
 ## Preoccupazioni sull'uso e sul contesto
 
-Le preoccupazioni non si limitano solo al contenuto didattico, ma toccano anche l'uso generale dello strumento. Si evidenzia il rischio di un «utilizzo inappropriato da parte degli studenti» (source: [arta20](../../../raw/insegnanti_futuri_arta20.md)). Sebbene un intervistato non possa basare la propria analisi sull'esperienza diretta di didattica in aula, la sua riflessione si concentra sul potenziale uso inappropriato da parte degli studenti (source: [arta20](../../../raw/insegnanti_futuri_arta20.md)).
+Le preoccupazioni non si limitano solo al contenuto didattico, ma toccano anche l'uso generale dello strumento. Si evidenzia il rischio di un «utilizzo inappropriato da parte degli studenti» (source: [arta20](../../../raw/insegnanti_futuri_arta20.md#item-2) · codes: N1). Sebbene un intervistato non possa basare la propria analisi sull'esperienza diretta di didattica in aula, la sua riflessione si concentra sul potenziale uso inappropriato da parte degli studenti (source: [arta20](../../../raw/insegnanti_futuri_arta20.md#item-2) · codes: N1).
 
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-insegnanti-futuri.md)

@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:52:21.369947+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "P7",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare concetti e migliorare la comprensione, dimostrando consapevolezza nell'uso dei prompt e dei limiti (non creare tesine).",
   "code_counts": {
-    "P2": 1,
     "P6": 1,
+    "P2": 1,
+    "X2": 4,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "X2": 4,
-    "X3": 1
+    "N1": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -85,7 +88,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

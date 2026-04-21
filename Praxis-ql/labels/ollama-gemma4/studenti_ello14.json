@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:03:06.178231+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -25,14 +27,15 @@
   ],
   "record_note": "L'utente percepisce l'IA come uno strumento veloce e utile per la conferma dello studio, ma è consapevole dei suoi limiti di accuratezza e del rischio di dipendenza/plagio.",
   "code_counts": {
-    "I2": 2,
-    "P2": 1,
-    "P5": 1,
     "P6": 1,
-    "S2": 1,
     "X1": 2,
+    "P2": 1,
     "X3": 1,
-    "X5": 1
+    "N1": 1,
+    "X5": 1,
+    "P5": 1,
+    "I2": 2,
+    "S2": 1
   },
   "items": [
     {
@@ -59,7 +62,9 @@
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Quale è il sinonimo di “-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un esempio di domanda generica e non descrive un prompt complesso o specifico."
     },
     {

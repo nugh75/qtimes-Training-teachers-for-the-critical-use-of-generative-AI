@@ -11,6 +11,23 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 
 # Risposta cchi23
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P3**: Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.
+- **P4**: Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X4**: Inclusione e accesso.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X7**: Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +35,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Creazione di riassunti, mappe e verifiche scritte per lo studio e l'interrogazione.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
@@ -25,6 +43,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; X3 — Personalizzazione e attenzione al singolo.; X4 — Inclusione e accesso.
 **Reason**: Modifica delle verifiche per adattarle alle esigenze specifiche degli studenti (BES, DSA, DVA).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
@@ -32,6 +51,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Ricerca di metodi diversi per adattare l'insegnamento alle potenzialità individuali dello studente.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -39,6 +59,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
 **Reason**: Richiesta di creare diversi tipi di verifiche (V/F, multipla, completamento) su un materiale specifico per studenti di un certo livello.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
@@ -46,6 +67,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Utilizzo dell'IA per generare materiali di studio come mappe e riassunti.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
@@ -53,6 +75,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Fornitura di materiale di studio alternativo (mappe, riassunti) rispetto al libro di testo.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
@@ -60,6 +83,7 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
 **Reason**: Difficoltà legate alla non conoscenza dei prompt giusti per ottenere l'output desiderato.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -67,9 +91,12 @@ note: "L'insegnante utilizza l'IA principalmente per la creazione di materiali d
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.; X3 — Personalizzazione e attenzione al singolo.; X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
 **Reason**: Riconoscimento che i risultati non sono sempre corretti e che è necessario un controllo umano (controllo critico).
 
+**Cited in:** —
 ## Item 9 {#item-9}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Automatizzazione nella valutazione dello studente, il docente può valutare nel complesso l'andamento e non fermarsi solo alla prova effettuata.
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Avvertenza contro l'automatizzazione della valutazione, sottolineando l'importanza del giudizio complessivo e umano del docente.
+
+**Cited in:** —

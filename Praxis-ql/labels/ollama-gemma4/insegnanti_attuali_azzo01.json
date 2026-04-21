@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:48:42.812721+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per creare materiali didattici complessi e multimediali, ma evidenzia anche preoccupazioni sulla dipendenza e sulla perdita di capacità di elaborazione autonoma.",
   "code_counts": {
-    "A3": 1,
+    "N1": 1,
     "P1": 4,
-    "P2": 1,
     "P5": 4,
     "P6": 2,
+    "P2": 1,
+    "X6": 1,
+    "X2": 1,
+    "A3": 1,
     "S1": 1,
     "S2": 1,
-    "S4": 1,
-    "X2": 1,
-    "X6": 1
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

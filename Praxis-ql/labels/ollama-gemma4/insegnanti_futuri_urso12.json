@@ -9,25 +9,30 @@
   "generated_at": "2026-04-19T21:50:32.354460+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S3",
     "S4"
   ],
   "record_note": "Il partecipante esprime una visione critica sull'uso dell'IA, evidenziando i rischi per il pensiero critico e la relazione umana, piuttosto che i benefici didattici.",
   "code_counts": {
+    "N1": 1,
     "I4": 1,
-    "S3": 2,
-    "S4": 2
+    "S4": 2,
+    "S3": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Preferisco pensare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o troppo generica."
     },
     {

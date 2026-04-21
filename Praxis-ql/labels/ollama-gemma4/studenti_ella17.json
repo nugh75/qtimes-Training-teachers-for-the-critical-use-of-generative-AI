@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:01:23.704616+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,14 +26,15 @@
   ],
   "record_note": "L'utente è un utente esperto di strumenti (P6) che ne evidenzia l'efficienza (X1) e la capacità di semplificare concetti (X2), ma mostra consapevolezza del rischio di atrofia delle competenze (S4).",
   "code_counts": {
+    "P6": 1,
     "P2": 1,
     "P5": 2,
-    "P6": 1,
-    "P7": 1,
-    "S4": 1,
-    "X1": 1,
     "X2": 1,
-    "X5": 1
+    "P7": 1,
+    "X1": 1,
+    "N1": 3,
+    "X5": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -77,14 +80,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "non ne ho qualcuno nello specifico",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non specifica."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna in particolare.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -101,7 +108,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

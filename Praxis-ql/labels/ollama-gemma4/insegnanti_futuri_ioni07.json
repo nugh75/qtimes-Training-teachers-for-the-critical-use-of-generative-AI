@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:44:55.873989+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "R5",
     "X1"
   ],
   "record_note": "Il partecipante mostra un basso livello di confidenza nell'uso dell'IA, esprimendo difficoltà e limitazioni nell'applicazione didattica.",
   "code_counts": {
-    "P1": 1,
+    "N1": 1,
     "R5": 1,
-    "X1": 1
+    "X1": 1,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perche non mi piace",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Perche non mi piace')."
     },
     {

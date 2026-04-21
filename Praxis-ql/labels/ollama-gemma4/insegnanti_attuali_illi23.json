@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:07:30.510710+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -22,12 +24,13 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la pianificazione e la creazione di materiali didattici (esercizi) e per la gestione della classe (individualizzazione), ma mostra scetticismo sull'efficacia didattica complessiva e sulla personalizzazione.",
   "code_counts": {
-    "P1": 1,
+    "P6": 1,
     "P2": 1,
     "P5": 2,
-    "P6": 1,
-    "S4": 1,
-    "X4": 1
+    "N1": 5,
+    "P1": 1,
+    "X4": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -53,7 +56,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "non personalizzo il mio metodo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un rifiuto esplicito di personalizzare il metodo."
     },
     {
@@ -70,21 +75,27 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "sinceramente non ne ho rilevati",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa su miglioramenti rilevati."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "a mio avviso non migliora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa sul miglioramento dell'apprendimento."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà."
     },
     {
@@ -101,7 +112,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non ho competenze per rispondere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di rispondere per mancanza di competenze."
     }
   ]

@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T22:28:39.765541+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -23,20 +25,23 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per supportare lo studio e la comprensione dei concetti, ma mostra consapevolezza dei limiti di accuratezza dell'IA.",
   "code_counts": {
-    "I2": 2,
-    "P2": 1,
-    "P5": 3,
+    "N1": 2,
     "P6": 1,
-    "P7": 1,
+    "P5": 3,
+    "P2": 1,
     "X2": 3,
-    "X3": 1
+    "X3": 1,
+    "P7": 1,
+    "I2": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non ne necessito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -111,7 +116,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

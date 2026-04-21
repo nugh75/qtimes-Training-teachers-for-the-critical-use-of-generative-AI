@@ -1,43 +1,57 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iola13.md",
   "source_name": "studenti_iola13.md",
-  "title": "Risposta: Studenti - Record 183",
+  "title": "Risposta Iola13",
   "group": "Studenti",
   "record_code": "Iola13",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T22:12:00.870847+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il partecipante mostra un basso livello di familiarità o interesse nell'uso dell'IA per lo studio, manifestando incertezza o rifiuto di fornire risposte specifiche.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:52:50.198827+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante mostra una generale mancanza di esperienza o di opinioni strutturate sull'uso dell'IA nello studio.",
+  "code_counts": {
+    "N1": 4
+  },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché non so usarli",
-      "codes": [],
-      "reason": "Risposta non informativa o di incertezza."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo generica e non informativa."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
       "answer": "Perché non mi serve",
-      "codes": [],
-      "reason": "Risposta non informativa o di rifiuto non motivato."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo breve e non informativa."
     },
     {
       "index": 3,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Non ho tanta esperienza",
-      "codes": [],
-      "reason": "Risposta che indica mancanza di esperienza, non esprimendo pro o contro specifici."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta che indica mancanza di esperienza, non classificabile in termini di pro/contro."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non so rispondere a questa domanda",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica incapacità di rispondere alla domanda."
     }
   ]

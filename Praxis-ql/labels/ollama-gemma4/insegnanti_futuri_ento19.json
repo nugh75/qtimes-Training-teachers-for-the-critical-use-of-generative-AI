@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:42:12.632702+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S4"
   ],
   "record_note": "Il partecipante non utilizza l'IA in didattica e ne evidenzia un rischio negativo (riduzione del pensiero).",
   "code_counts": {
+    "N1": 1,
     "S4": 1
   },
   "items": [
@@ -22,7 +25,9 @@
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (Non insegno)."
     },
     {

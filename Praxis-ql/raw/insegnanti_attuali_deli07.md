@@ -1,8 +1,8 @@
 ---
 record_code: "deli07"
 group: Insegnanti in servizio
-dimensions: [I, S, X]
-subcodes: [I4, S4, S6, X3]
+dimensions: [I, N, S, X]
+subcodes: [I4, N1, S4, S6, X3]
 model: gemma4:e4b
 generated_at: "2026-04-19T20:53:03.690779+00:00"
 label_source: labels/ollama-gemma4/insegnanti_attuali_deli07.json
@@ -11,6 +11,14 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 
 # Risposta deli07
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +26,8 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: L'utente critica l'IA per annientare l'aspetto emotivo, l'empatia e la fantasia, suggerendo una sostituzione della relazione umana.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/skepticisms/crollo-relazionale.md](../wiki/insegnanti-attuali/skepticisms/crollo-relazionale.md)
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,7 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: L'utente ritiene che l'IA annulli la personalità e il valore umano, esprimendo sfiducia nella relazione educativa.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,8 +43,12 @@ note: "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica,
 **Codes**: X3 — Personalizzazione e attenzione al singolo.; S4 — Erosione del pensiero critico.
 **Reason**: Vede la comodità (pro) ma critica il rischio di perdere la fantasia e la personalizzazione (contro).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Non utilizzandole non ne conosco in maniera approfondita
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+**Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
+
+**Cited in:** —

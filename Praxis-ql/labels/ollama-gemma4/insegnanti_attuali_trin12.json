@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:33:24.822157+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R4",
     "S5",
     "X2"
@@ -20,8 +22,9 @@
   "record_note": "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, riconoscendo di non aver ancora acquisito le competenze necessarie per utilizzarla efficacemente.",
   "code_counts": {
     "R4": 2,
+    "X2": 1,
     "S5": 1,
-    "X2": 1
+    "N1": 1
   },
   "items": [
     {
@@ -56,8 +59,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

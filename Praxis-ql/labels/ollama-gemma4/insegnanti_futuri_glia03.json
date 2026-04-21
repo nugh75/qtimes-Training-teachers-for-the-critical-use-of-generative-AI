@@ -8,14 +8,17 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:43:36.011958+00:00",
   "record_dimensions": [
+    "N",
     "R"
   ],
   "record_subcodes": [
+    "N1",
     "R5"
   ],
   "record_note": "Il partecipante mostra una chiara resistenza all'uso dell'IA in didattica, basata sulla preferenza per l'elaborazione autonoma delle informazioni.",
   "code_counts": {
-    "R5": 2
+    "R5": 2,
+    "N1": 2
   },
   "items": [
     {
@@ -40,14 +43,18 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ho esperienza a riguardo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa e basata sulla mancanza di esperienza."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa e basata sulla mancanza di esperienza."
     }
   ]

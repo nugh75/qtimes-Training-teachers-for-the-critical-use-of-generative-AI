@@ -11,6 +11,17 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 
 # Risposta ndri11
 
+## Legenda codici del record
+
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +29,7 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'utente usa ChatGPT per ottenere informazioni precise e chiedere spiegazioni più semplici o esempi su argomenti di studio.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -25,6 +37,8 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA viene usata per spiegare argomenti complessi o per ottenere esempi aggiuntivi, personalizzando così lo studio.
 
+**Cited in:**
+- [wiki/studenti/skepticisms/evoluzione-del-tabu.md](../wiki/studenti/skepticisms/evoluzione-del-tabu.md)
 ## Item 3 {#item-3}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -32,6 +46,7 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
 **Reason**: L'utente fornisce un esempio di prompt specifico ('Spiegami la teoria...') che richiede una spiegazione e un confronto tra concetti.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -39,6 +54,7 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA aiuta a comprendere concetti complessi in modo più semplice.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -46,6 +62,7 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA è stata utile per trovare definizioni di concetti complessi (materiale di studio/semplificazione).
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
@@ -53,6 +70,7 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
 **Reason**: L'utente identifica la difficoltà nel formulare le giuste domande, indicando un bisogno di migliorare la competenza di prompting.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -60,9 +78,12 @@ note: "Lo studente utilizza l'IA principalmente per la comprensione e la semplif
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: I pro includono la comprensione di concetti complessi e la riduzione del materiale dispersivo (semplificazione e focalizzazione).
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Scrivere interamente tesine, temi
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
 **Reason**: L'utente identifica lo scrivere interamente tesine/temi come pratica non raccomandata, che rientra nel plagio/ghostwriting.
+
+**Cited in:** —

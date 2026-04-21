@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:26:49.755727+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "S4",
@@ -20,6 +22,7 @@
   ],
   "record_note": "Lo studente mostra consapevolezza dei rischi (S4) ma non riesce a fornire esempi concreti di uso positivo, limitandosi a funzioni basilari come i riassunti.",
   "code_counts": {
+    "N1": 2,
     "P1": 1,
     "P5": 2,
     "S4": 3,
@@ -30,7 +33,9 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt perché è più approfondito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un'affermazione di preferenza generica ('più approfondito') senza specificare l'uso didattico o la strategia."
     },
     {
@@ -65,7 +70,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Non l'ha miglioratl",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa per l'assegnazione di codici."
     },
     {

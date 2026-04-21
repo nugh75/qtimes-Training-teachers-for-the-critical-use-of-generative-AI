@@ -1,8 +1,8 @@
 ---
 record_code: "none01"
 group: Studenti
-dimensions: [P, R, X]
-subcodes: [P1, P2, P4, P6, P7, R4, X2, X3]
+dimensions: [N, P, R, X]
+subcodes: [N1, P1, P2, P4, P6, P7, R4, X2, X3]
 model: gemma4:e4b
 generated_at: "2026-04-19T22:21:44.202383+00:00"
 label_source: labels/ollama-gemma4/studenti_none01.json
@@ -11,13 +11,26 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 
 # Risposta none01
 
+## Legenda codici del record
+
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P4**: Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: “-“
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa ('-').
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -25,6 +38,7 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
 **Reason**: Menziona lo strumento 'chat gpt' come preferito.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -32,6 +46,7 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: L'uso per 'approfondimenti' è un modo per personalizzare lo studio.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -39,6 +54,7 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 **Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
 **Reason**: Formula un prompt semplice ('puoi farmi un approfondimento?'), indicando la presenza di un prompt.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -46,6 +62,7 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'uso per 'approfondimenti' e la preparazione a 'interrogazioni' rientra in materiali di studio e supporto allo studio.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -53,9 +70,12 @@ note: "Lo studente utilizza l'IA principalmente per approfondimenti e preparazio
 **Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'uso per la preparazione a 'verifiche o interrogazioni' è un supporto allo studio.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
 **A**: aiuta molto
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta generica e non specifica.
+
+**Cited in:** —

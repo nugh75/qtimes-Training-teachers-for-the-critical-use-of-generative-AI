@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:16:58.149430+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -26,23 +28,26 @@
   ],
   "record_note": "L'insegnante è un utente esperto di strumenti digitali (Canva, Kahoot, etc.) e vede l'IA come un potenziatore per l'individualizzazione e lo sviluppo di soft skills, pur riconoscendone i rischi (S4, S6).",
   "code_counts": {
-    "P2": 2,
-    "P5": 1,
+    "N1": 3,
     "P6": 1,
+    "P5": 1,
+    "P2": 2,
+    "X3": 2,
     "P7": 1,
+    "X5": 2,
+    "X7": 2,
     "S4": 1,
     "S5": 1,
-    "S6": 1,
-    "X3": 2,
-    "X5": 2,
-    "X7": 2
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {
@@ -69,7 +74,9 @@
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "già risposto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di richiamo a una domanda precedente."
     },
     {
@@ -107,7 +114,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Le stesse di tutte le metodologie innovative. Ma per potersi applicare bisogna provare e praticare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica che non specifica difficoltà legate all'IA."
     },
     {

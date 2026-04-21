@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T22:29:31.503989+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S4",
     "X1",
     "X2",
@@ -21,25 +23,30 @@
   ],
   "record_note": "Lo studente è scettico sull'uso dell'IA, riconoscendone i benefici operativi ma limitandone l'uso a compiti che non richiedono pensiero critico o valutazione umana.",
   "code_counts": {
-    "I4": 1,
-    "S4": 2,
+    "N1": 2,
     "X1": 1,
     "X2": 1,
-    "X5": 1
+    "X5": 1,
+    "S4": 2,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non mi serve",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
       "answer": "non ne ho la necessità al momento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

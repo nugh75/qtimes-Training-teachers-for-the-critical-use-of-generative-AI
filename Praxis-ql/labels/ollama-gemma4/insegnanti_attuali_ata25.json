@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:47:56.563627+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P2",
     "P4",
     "P6",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante utilizza strumenti digitali noti e menziona l'integrazione dell'IA in contesti di apprendimento specifici (UDL, game based learning), ma segnala difficoltà infrastrutturali e di formazione.",
   "code_counts": {
-    "A3": 1,
-    "P2": 2,
-    "P4": 1,
+    "N1": 1,
     "P6": 3,
-    "S2": 1,
+    "P2": 2,
     "X3": 2,
-    "X6": 2
+    "P4": 1,
+    "X6": 2,
+    "A3": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

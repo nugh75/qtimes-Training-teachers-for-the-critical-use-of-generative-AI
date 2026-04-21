@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:02:52.368012+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P5",
     "X5",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'insegnante mostra una visione cauta sull'IA, riconoscendone il potenziale come supporto (P1, P5) ma sottolineando l'importanza insostituibile della relazione educativa (I4).",
   "code_counts": {
-    "I4": 2,
-    "P1": 1,
+    "N1": 1,
     "P5": 1,
     "X5": 1,
-    "X6": 1
+    "X6": 1,
+    "I4": 2,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

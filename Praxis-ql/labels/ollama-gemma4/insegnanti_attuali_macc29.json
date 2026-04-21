@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:13:50.385877+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "S5",
     "S6"
   ],
   "record_note": "Il partecipante esprime una forte sfiducia nell'uso dell'IA in didattica, evidenziando rischi cognitivi e di responsabilità.",
   "code_counts": {
+    "N1": 2,
     "S4": 2,
     "S5": 1,
     "S6": 2
@@ -26,7 +29,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Sono contraria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto non dettagliata."
     },
     {
@@ -44,7 +49,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ci sono Pro.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non identifica pro o contro."
     },
     {

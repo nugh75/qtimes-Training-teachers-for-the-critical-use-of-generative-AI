@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:10:31.328139+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "S1",
     "X2"
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per compiti di supporto (riassunti, traduzioni) e ne percepisce il rischio di dipendenza.",
   "code_counts": {
+    "N1": 1,
     "P5": 1,
-    "S1": 1,
-    "X2": 2
+    "X2": 2,
+    "S1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "solitamente uso la chat per porre domande",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è generica e non specifica l'uso di strumenti o tecniche di studio."
     },
     {

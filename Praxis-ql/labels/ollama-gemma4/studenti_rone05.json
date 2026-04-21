@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T22:27:32.408174+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -22,12 +24,13 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per riassumere e semplificare concetti, mostrando consapevolezza dei limiti (risposte confuse) ma senza definire limiti di utilizzo.",
   "code_counts": {
-    "I2": 2,
-    "P1": 1,
     "P2": 1,
     "P5": 3,
+    "X3": 1,
     "X2": 2,
-    "X3": 1
+    "P1": 1,
+    "I2": 2,
+    "N1": 1
   },
   "items": [
     {
@@ -100,7 +103,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è 'Non lo so', quindi non fornisce informazioni codificabili."
     }
   ]

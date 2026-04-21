@@ -11,6 +11,13 @@ note: "L'intervistato esprime scetticismo sull'uso dell'IA, evidenziando rischi 
 
 # Risposta epre02
 
+## Legenda codici del record
+
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +25,7 @@ note: "L'intervistato esprime scetticismo sull'uso dell'IA, evidenziando rischi 
 **Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; S4 — Erosione del pensiero critico.
 **Reason**: Blocca la creatività e il fare, indicando un rischio di omologazione e perdita di pensiero critico.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +33,7 @@ note: "L'intervistato esprime scetticismo sull'uso dell'IA, evidenziando rischi 
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Motivo di non utilizzo legato all'inadeguatezza per la fascia d'età (scuola dell'infanzia).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +41,12 @@ note: "L'intervistato esprime scetticismo sull'uso dell'IA, evidenziando rischi 
 **Codes**: S4 — Erosione del pensiero critico.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: Limita capacità di elaborazione e critica (S4), ma facilita l'informazione (X2).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: riduce competenze il pensiero critico e la risoluzione dei problemi
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Riduce competenze come il pensiero critico e la risoluzione dei problemi.
+
+**Cited in:** —

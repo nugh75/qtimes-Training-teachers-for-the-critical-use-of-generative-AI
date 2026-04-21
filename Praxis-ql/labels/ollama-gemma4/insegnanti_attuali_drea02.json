@@ -9,14 +9,17 @@
   "generated_at": "2026-04-19T20:53:48.279937+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S7"
   ],
   "record_note": "Il partecipante esprime scetticismo e limita l'uso dell'IA a specifiche aree, attribuendo il non utilizzo alla mancanza di formazione.",
   "code_counts": {
+    "N1": 2,
     "A1": 1,
     "S7": 1
   },
@@ -25,7 +28,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Essendo nell' infanzia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o incompleta per il contesto della domanda."
     },
     {
@@ -41,7 +46,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di incertezza ('Non saprei') che non permette l'assegnazione di codici specifici."
     },
     {

@@ -1,8 +1,8 @@
 ---
 record_code: "ANZO06"
 group: Insegnanti in servizio
-dimensions: [A, I, S, X]
-subcodes: [A3, I4, S3, X3]
+dimensions: [A, I, N, S, X]
+subcodes: [A3, I4, N1, S3, X3]
 model: gemma4:e4b
 generated_at: "2026-04-19T20:45:25.843676+00:00"
 label_source: labels/ollama-gemma4/insegnanti_attuali_anzo06.json
@@ -11,13 +11,23 @@ note: "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazi
 
 # Risposta ANZO06
 
+## Legenda codici del record
+
+- **A3**: Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: La risposta riguarda la gestione dello schermo e non l'uso o il rifiuto dell'IA in didattica.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md](../wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md)
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,7 @@ note: "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazi
 **Codes**: A3 — Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: L'insegnante si affida ai libri di testo cartacei (A3 - vincoli materiali) e valorizza l'esperienza e la ricchezza lessicale che ritiene insostituibili (I4 - relazione pedagogica).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +43,13 @@ note: "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazi
 **Codes**: X3 — Personalizzazione e attenzione al singolo.; S3 — Appiattimento, omologazione, perdita di creativita'.
 **Reason**: Riconosce la velocità (pro) ma teme che l'IA limiti lo sforzo creativo e porti all'omologazione dei lavori (S3).
 
+**Cited in:**
+- [wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md](../wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Non possiedo la giusta conoscenza per rispondere a questa domanda. Ma, nel dubbio, preferire vedere utilizzata l'IA per salvare delle vite e lasciar perdere tutto il resto che può camminare benissimo anche senza.
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: La risposta è vaga e si concentra sul salvare vite, indicando un valore umano e relazionale superiore all'uso dell'IA.
+
+**Cited in:** —

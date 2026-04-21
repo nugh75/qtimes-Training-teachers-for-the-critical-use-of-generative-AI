@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:03:08.568671+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S4",
@@ -23,9 +25,10 @@
   "code_counts": {
     "P2": 1,
     "P5": 5,
+    "N1": 1,
+    "X2": 1,
     "S4": 1,
-    "S5": 1,
-    "X2": 1
+    "S5": 1
   },
   "items": [
     {
@@ -69,7 +72,9 @@
       "index": 5,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "?",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

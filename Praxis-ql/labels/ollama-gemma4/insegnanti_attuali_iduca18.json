@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:06:00.459099+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S3",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'utente è cauta nell'uso dell'IA, vedendola come uno strumento utile ma non sostitutivo del ruolo umano, e la prevede per fasi successive del suo percorso didattico.",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
     "P5": 1,
+    "X3": 1,
     "S3": 1,
-    "S4": 1,
-    "X3": 1
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('_')."
     },
     {
@@ -60,7 +65,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Ancora non sono capace di rispondere a questa domanda ma non credo che esista una pratica che l'insegnante esperto di ai non possa utilizzare, certamente nel grado scolastico in cui insegno (Primaria) la valutazione resterà sempre formativa/sommativa e non sarà mai nelle pratiche di ai, la persona viene prima in qualsiasi campo educativo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta non specifica pratiche non raccomandate, ma si concentra sul ruolo insostituibile della persona nell'educazione."
     }
   ]

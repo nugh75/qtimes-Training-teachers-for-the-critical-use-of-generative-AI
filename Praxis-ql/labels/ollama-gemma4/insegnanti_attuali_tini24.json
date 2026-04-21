@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:32:03.196602+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P7",
@@ -24,21 +26,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per adattare i contenuti e i metodi di spiegazione, riconoscendone i benefici nell'arricchimento ma anche i rischi legati alla dipendenza cognitiva.",
   "code_counts": {
+    "N1": 2,
     "P2": 2,
+    "X3": 2,
     "P5": 3,
     "P7": 1,
-    "S2": 1,
-    "S4": 2,
     "X2": 2,
-    "X3": 2,
-    "X6": 1
+    "S4": 2,
+    "X6": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Internet",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non specifica l'uso di strumenti IA."
     },
     {
@@ -95,7 +100,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Far capire al boot cosa volevo sapere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà riscontrata è legata alla comunicazione del bisogno, non a un limite tecnico o didattico specifico dell'IA."
     },
     {

@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:17:48.983533+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P4",
     "R2",
     "S4",
@@ -23,18 +25,21 @@
   ],
   "record_note": "Il partecipante mostra una profonda diffidenza verso l'IA, basando la sua resistenza sulla preoccupazione per l'erosione delle competenze cognitive e la mancanza di padronanza dello strumento.",
   "code_counts": {
-    "I2": 1,
-    "P4": 1,
+    "N1": 1,
     "R2": 1,
+    "I2": 1,
     "S4": 2,
-    "X2": 1
+    "X2": 1,
+    "P4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "probabilmente poca dimestichezza; non ne sento il bisogno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un rifiuto generico e non specifica un motivo di non utilizzo o un'area di applicazione."
     },
     {

@@ -11,6 +11,14 @@ note: "Il partecipante mostra una posizione critica e di rifiuto verso l'uso del
 
 # Risposta Tese26
 
+## Legenda codici del record
+
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +26,7 @@ note: "Il partecipante mostra una posizione critica e di rifiuto verso l'uso del
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; S4 — Erosione del pensiero critico.
 **Reason**: Rifiuto di utilizzare l'IA perché non la ritiene utile per le proprie competenze, esprimendo una preferenza per l'elaborazione personale.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +34,7 @@ note: "Il partecipante mostra una posizione critica e di rifiuto verso l'uso del
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Non utilizza l'IA perché non ne conosce le utilità e funzionalità.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +42,14 @@ note: "Il partecipante mostra una posizione critica e di rifiuto verso l'uso del
 **Codes**: X3 — Personalizzazione e attenzione al singolo.; S3 — Appiattimento, omologazione, perdita di creativita'.
 **Reason**: Identifica la velocità come pro, ma l'omologazione come contro.
 
+**Cited in:**
+- [wiki/insegnanti-futuri/expectations/omologazione.md](../wiki/insegnanti-futuri/expectations/omologazione.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Utilizzare l’AI per creare compiti, esercizi o attività da fornire ai ragazzi perché non sarebbero personalizzati per il singolo o per il gruppo classe e perché secondo me si fornirebbe un pessimo esempio.
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; S3 — Appiattimento, omologazione, perdita di creativita'.
 **Reason**: Non raccomanda l'uso di IA per creare compiti perché non sarebbero personalizzati per il singolo o per il gruppo classe, e perché darebbe un cattivo esempio.
+
+**Cited in:**
+- [wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta.md](../wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta.md)

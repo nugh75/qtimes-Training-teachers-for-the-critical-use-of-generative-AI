@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "A4",
     "I4",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -31,19 +33,20 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la personalizzazione e l'inclusione, ma mostra consapevolezza dei limiti etici e pedagogici, sottolineando il ruolo insostituibile del docente.",
   "code_counts": {
-    "A4": 1,
-    "I4": 2,
-    "P2": 3,
-    "P3": 1,
-    "P5": 1,
     "P6": 1,
-    "P7": 1,
-    "S6": 1,
-    "X2": 2,
+    "P2": 3,
     "X3": 3,
+    "P5": 1,
+    "P7": 1,
+    "X2": 2,
+    "N1": 1,
+    "P3": 1,
     "X4": 1,
     "X5": 1,
-    "X6": 1
+    "X6": 1,
+    "A4": 1,
+    "I4": 2,
+    "S6": 1
   },
   "items": [
     {
@@ -107,7 +110,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Talvolta vengono reputati strumenti di gioco poco adeguati per l'apprendimento.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è descritta come un giudizio esterno ('strumenti di gioco poco adeguati') e non specifica un limite di uso o un problema tecnico."
     },
     {

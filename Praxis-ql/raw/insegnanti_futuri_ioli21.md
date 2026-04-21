@@ -1,8 +1,8 @@
 ---
 record_code: "ioli21"
 group: Insegnanti pre-service
-dimensions: [A, R, S, X]
-subcodes: [A1, R4, S4, S6, X6]
+dimensions: [A, N, R, S, X]
+subcodes: [A1, N1, R4, S4, S6, X6]
 model: gemma4:e4b
 generated_at: "2026-04-19T21:44:36.859433+00:00"
 label_source: labels/ollama-gemma4/insegnanti_futuri_ioli21.json
@@ -11,13 +11,23 @@ note: "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, espr
 
 # Risposta ioli21
 
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: Non ho mai pensato di farlo, senza un particolare motivo
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa e generica.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,8 @@ note: "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, espr
 **Codes**: R4 — Competenza di prompting: capacita' di formulare prompt efficaci.; A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
 **Reason**: Riconosce la mancanza di competenze per usare l'IA in didattica, indicando una potenziale lacuna formativa.
 
+**Cited in:**
+- [wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri.md](../wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri.md)
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +44,13 @@ note: "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, espr
 **Codes**: X6 — Coinvolgimento, arricchimento e innovazione.; S4 — Erosione del pensiero critico.
 **Reason**: Identifica i pro (spunti di idee, arricchimento) e i contro (rischio di azzerare lo sviluppo, erosione del pensiero critico).
 
+**Cited in:**
+- [wiki/insegnanti-futuri/expectations/omologazione.md](../wiki/insegnanti-futuri/expectations/omologazione.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Non lo so, ma forse non bisognerebbe sostituire le competenze umane con le competenze "artificiali".
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.; S4 — Erosione del pensiero critico.
 **Reason**: Esprime preoccupazione per la sostituzione delle competenze umane e del ruolo docente.
+
+**Cited in:** —

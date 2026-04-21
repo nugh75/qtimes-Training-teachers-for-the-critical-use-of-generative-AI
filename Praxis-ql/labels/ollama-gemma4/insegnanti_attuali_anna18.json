@@ -9,29 +9,34 @@
   "generated_at": "2026-04-19T20:44:36.835978+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "R4",
     "S7",
     "X2"
   ],
   "record_note": "L'insegnante esprime un basso livello di competenza nell'uso dell'IA e mostra scetticismo su ambiti come la valutazione.",
   "code_counts": {
-    "A1": 1,
+    "N1": 1,
     "R4": 1,
-    "S7": 1,
-    "X2": 1
+    "A1": 1,
+    "X2": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non credo di esserne capace",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzare l'IA per mancanza di competenze."
     },
     {

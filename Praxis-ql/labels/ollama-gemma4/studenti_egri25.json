@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:00:44.720837+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "S4",
@@ -22,12 +24,13 @@
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento efficiente per riassumere e organizzare contenuti, ma è consapevole dei rischi di dipendenza e di non approfondire il pensiero critico.",
   "code_counts": {
-    "P1": 1,
     "P5": 3,
-    "S4": 1,
-    "X1": 4,
     "X2": 3,
-    "X3": 1
+    "X1": 4,
+    "X3": 1,
+    "N1": 1,
+    "P1": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -83,7 +86,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato difficoltà.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

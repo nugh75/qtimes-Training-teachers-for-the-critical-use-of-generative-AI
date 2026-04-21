@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:20:07.737557+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -27,15 +29,16 @@
   ],
   "record_note": "L'insegnante mostra un uso esplorativo e limitato dell'IA, concentrandosi su traduzione e sintesi, ma manifesta lacune nella comprensione tecnica e pedagogica degli strumenti.",
   "code_counts": {
-    "P2": 3,
-    "P3": 2,
-    "P5": 2,
+    "N1": 2,
     "P6": 1,
+    "P3": 2,
+    "P2": 3,
+    "X4": 2,
+    "X3": 1,
+    "P5": 2,
+    "X2": 1,
     "R2": 1,
     "S4": 1,
-    "X2": 1,
-    "X3": 1,
-    "X4": 2,
     "X5": 1
   },
   "items": [
@@ -43,7 +46,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa non informativa."
     },
     {
@@ -129,7 +134,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

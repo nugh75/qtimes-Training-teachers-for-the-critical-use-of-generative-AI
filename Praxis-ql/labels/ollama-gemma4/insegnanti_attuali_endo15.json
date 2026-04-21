@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:56:59.653119+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -23,20 +25,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la preparazione di materiali e la differenziazione, ma esprime scetticismo sull'impatto reale sull'apprendimento e sui rischi di omologazione.",
   "code_counts": {
-    "P1": 1,
-    "P2": 2,
+    "N1": 4,
     "P5": 2,
     "P6": 1,
-    "S3": 1,
+    "P2": 2,
+    "X3": 2,
+    "P1": 1,
     "X1": 1,
-    "X3": 2
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -82,21 +87,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ha migliorato l'apprendimento dei miei studenti in alcun modo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa sull'impatto positivo dell'IA sull'apprendimento."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "non influisce sull'apprendimento dei miei studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa sull'influenza dell'IA sull'apprendimento."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non ho incontrato difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà, non fornendo dettagli codificabili."
     },
     {

@@ -1,44 +1,58 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_buri03.md",
   "source_name": "insegnanti_futuri_buri03.md",
-  "title": "Risposta: Insegnanti pre-service - Record 71",
+  "title": "Risposta Buri03",
   "group": "Insegnanti pre-service",
   "record_code": "Buri03",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T21:40:29.357188+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il partecipante è un insegnante pre-service che non ha esperienza pratica nell'uso dell'IA in didattica.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:51:18.477709+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante non ha esperienza professionale nell'insegnamento e non ha opinioni specifiche sull'uso dell'IA in didattica.",
+  "code_counts": {
+    "N1": 4
+  },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Al momento non insegno e non sento il bisogno di utilizzarla nel mio quotidiano",
-      "codes": [],
-      "reason": "Risposta che indica assenza di esperienza o necessità di utilizzo."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta indica che non insegna e non sente il bisogno di usare l'IA, non fornendo dettagli classificabili."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non insegno",
-      "codes": [],
-      "reason": "Risposta che indica assenza di esperienza o ruolo professionale."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta è semplicemente 'Non insegno', non fornendo dettagli classificabili sull'uso o non uso dell'IA."
     },
     {
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ho esperienza in merito",
-      "codes": [],
-      "reason": "Risposta che indica assenza di esperienza in merito."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta afferma di non avere esperienza in merito, rendendo impossibile l'assegnazione di codici PRAXIS."
     },
     {
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho esperienza in merito",
-      "codes": [],
-      "reason": "Risposta che indica assenza di esperienza in merito."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta afferma di non avere esperienza in merito, rendendo impossibile l'assegnazione di codici PRAXIS."
     }
   ]
 }

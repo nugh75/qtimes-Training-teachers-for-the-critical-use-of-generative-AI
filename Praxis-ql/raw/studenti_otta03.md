@@ -11,6 +11,18 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 
 # Risposta otta03
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +30,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: L'utente usa l'IA per rielaborare, sintetizzare e rispiegare concetti, aiutando lo studio.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -25,6 +38,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Creare tabelle riassuntive è un metodo di sintesi e riorganizzazione per personalizzare lo studio.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -32,6 +46,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
 **Reason**: L'utente fornisce un esempio di prompt ('Chat mi puoi spiegare...') che è un esempio di prompting visibile.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -39,6 +54,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA aiuta a chiarificare e semplificare concetti.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -46,6 +62,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Sintetizzare paragrafi è una strategia di supporto allo studio che aiuta l'utente a prepararsi per un esame.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
@@ -53,6 +70,7 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: L'utente segnala che l'IA a volte non capisce ciò che chiede, indicando un limite tecnico.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -60,9 +78,12 @@ note: "Lo studente utilizza l'IA principalmente per rielaborare e sintetizzare c
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.; S4 — Erosione del pensiero critico.
 **Reason**: I pro includono la comprensione, l'elaborazione e l'associazione ad esempi, mentre il contro è che potrebbe fare il lavoro per te (rischio di dipendenza/perdita di sforzo).
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: La completa scrittura di tesi o documenti importanti
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
 **Reason**: L'utente sconsiglia la completa scrittura di tesi o documenti importanti, che rientra nel rischio di plagio/svolgimento del lavoro altrui.
+
+**Cited in:** —

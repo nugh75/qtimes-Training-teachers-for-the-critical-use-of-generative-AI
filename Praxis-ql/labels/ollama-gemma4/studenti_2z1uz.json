@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:51:03.240978+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I5",
+    "N1",
     "P4",
     "P5",
     "S2",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA per semplificare lo studio e migliorare le competenze, ma solleva preoccupazioni sulla privacy dei dati forniti.",
   "code_counts": {
-    "I5": 1,
-    "P4": 1,
     "P5": 2,
-    "S2": 1,
-    "S6": 1,
+    "X2": 4,
+    "N1": 2,
+    "P4": 1,
     "X1": 1,
-    "X2": 4
+    "I5": 1,
+    "S2": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -47,7 +50,9 @@
       "index": 2,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "al secondo anno di magistrale quanti cfu servono per passare?",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è una domanda non pertinente al tema dell'uso dell'IA."
     },
     {
@@ -74,7 +79,9 @@
       "index": 5,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

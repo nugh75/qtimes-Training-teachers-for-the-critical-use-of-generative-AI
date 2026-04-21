@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:07:49.686787+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -20,18 +22,21 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la comprensione e la semplificazione di argomenti complessi, dimostrando un uso focalizzato sulla personalizzazione dello studio.",
   "code_counts": {
-    "P1": 1,
+    "N1": 3,
     "P2": 3,
+    "X3": 4,
     "P5": 1,
-    "X2": 1,
-    "X3": 4
+    "P1": 1,
+    "X2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta limitata al nome di uno strumento senza specificare l'uso didattico."
     },
     {
@@ -78,7 +83,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -95,7 +102,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "nessuna perché usata in modo corretto ed efficace può aiutare le persone",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     }
   ]

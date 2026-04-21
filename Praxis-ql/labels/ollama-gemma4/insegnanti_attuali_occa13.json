@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -17,24 +18,28 @@
   "record_subcodes": [
     "A1",
     "I1",
+    "N1",
     "P1",
     "S4",
     "X1"
   ],
   "record_note": "L'insegnante esprime scetticismo e mancanza di formazione, ma riconosce un potenziale pratico (creazione di esercizi).",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "I1": 1,
     "P1": 1,
+    "X1": 1,
     "S4": 1,
-    "X1": 1
+    "I1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne sento la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzare l'IA, non fornisce dettagli."
     },
     {

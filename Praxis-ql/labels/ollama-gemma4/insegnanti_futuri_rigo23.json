@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:48:46.124884+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -22,10 +24,11 @@
   "record_note": "L'utente è un insegnante pre-service che utilizza l'IA per creare materiali e percorsi, ma è consapevole dei rischi di uso improprio da parte degli studenti.",
   "code_counts": {
     "P1": 2,
-    "P2": 1,
     "P5": 2,
-    "S4": 1,
-    "X6": 2
+    "P2": 1,
+    "X6": 2,
+    "N1": 2,
+    "S4": 1
   },
   "items": [
     {
@@ -87,7 +90,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Ci vuole del tempo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta 'Ci vuole del tempo' è un vincolo operativo, non un codice specifico."
     },
     {
@@ -103,7 +108,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta 'Non lo so' non fornisce informazioni codificabili."
     }
   ]

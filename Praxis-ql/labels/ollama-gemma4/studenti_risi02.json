@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:27:10.332371+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -27,16 +29,17 @@
   ],
   "record_note": "Lo studente utilizza l'IA per la comprensione e la preparazione pratica, ma mostra consapevolezza dei rischi di dipendenza e superficialità nello studio.",
   "code_counts": {
-    "P1": 1,
-    "P2": 1,
-    "P4": 1,
-    "P5": 2,
     "P6": 1,
-    "R4": 1,
-    "S4": 2,
-    "X1": 1,
+    "P2": 1,
     "X2": 3,
-    "X5": 1
+    "P5": 2,
+    "R4": 1,
+    "P1": 1,
+    "P4": 1,
+    "N1": 1,
+    "X5": 1,
+    "S4": 2,
+    "X1": 1
   },
   "items": [
     {
@@ -93,7 +96,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "non sempre fornisce gli esempi che vorrei e nelle modalità desiderate",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Riferisce difficoltà sulla qualità e modalità degli esempi forniti dall'IA."
     },
     {

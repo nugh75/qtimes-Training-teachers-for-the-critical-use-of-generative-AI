@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:34:03.691423+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "S7",
@@ -20,24 +22,29 @@
   ],
   "record_note": "Lo studente utilizza l'IA per attività di studio (esercizi, personalizzazione) e ne percepisce un vantaggio in termini di tempo, ma mostra incertezza o limitazioni nell'uso di prompt e nella descrizione dettagliata dell'uso.",
   "code_counts": {
-    "P1": 1,
+    "N1": 5,
     "P2": 1,
-    "S7": 1,
-    "X1": 1
+    "P1": 1,
+    "X1": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Boh",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Boh')."
     },
     {
@@ -53,7 +60,9 @@
       "index": 4,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Boh",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Boh')."
     },
     {
@@ -69,14 +78,18 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Sì ha migliorato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Sì ha migliorato')."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di assenza di difficoltà ('Nessuno')."
     },
     {

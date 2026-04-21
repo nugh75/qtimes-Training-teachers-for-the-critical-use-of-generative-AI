@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:48:19.365197+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -29,18 +31,19 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la differenziazione e l'organizzazione didattica, riconoscendone i benefici in termini di efficienza, ma esprimendo cautela sul rischio di standardizzazione e dipendenza.",
   "code_counts": {
-    "I4": 1,
-    "P1": 1,
-    "P2": 3,
-    "P5": 2,
     "P6": 1,
-    "S3": 1,
-    "S4": 1,
-    "S6": 1,
-    "X1": 2,
+    "P2": 3,
     "X3": 3,
+    "P1": 1,
+    "P5": 2,
+    "X6": 1,
     "X5": 1,
-    "X6": 1
+    "X1": 2,
+    "N1": 1,
+    "S3": 1,
+    "I4": 1,
+    "S6": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -106,7 +109,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "L'uso dell'IIA migliora con la pratica, pertanto i primi approcci si sono rivelati più difficoltosi e richiedevano più tempo. Ora con l'esercizio, l'IA sta diventando sempre più una buona pratica da spendere nella quotidianità.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta descrive un miglioramento con la pratica, ma non identifica codici specifici di difficoltà o vincoli."
     },
     {

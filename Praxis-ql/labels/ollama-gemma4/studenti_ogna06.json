@@ -1,71 +1,93 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ogna06.md",
   "source_name": "studenti_ogna06.md",
-  "title": "Risposta: Studenti - Record 199",
+  "title": "Risposta Ogna06",
   "group": "Studenti",
   "record_code": "Ogna06",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T22:22:03.670150+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il partecipante non fornisce informazioni specifiche sull'uso o sulle esperienze con l'IA, risultando in un basso livello di dettaglio per l'analisi.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:52:58.682434+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante mostra un basso livello di consapevolezza sull'uso didattico dell'IA, fornendo risposte vaghe o di negazione.",
+  "code_counts": {
+    "N1": 8
+  },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt",
-      "codes": [],
-      "reason": "Risposta troppo generica e non specifica sul processo di studio."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta troppo generica e non specifica sull'uso didattico."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "In modo da finire subito",
-      "codes": [],
-      "reason": "Risposta non informativa e non specifica sull'uso per la personalizzazione dello studio."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta che indica un uso superficiale e non descrive come l'IA venga usata per personalizzare lo studio."
     },
     {
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta negativa ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di negazione o incertezza ('Non lo so')."
     },
     {
       "index": 4,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta negativa ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di negazione o incertezza ('Non lo so')."
     },
     {
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta negativa ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di negazione o incertezza ('Non lo so')."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuno",
-      "codes": [],
-      "reason": "Risposta negativa ('Nessuno')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di assenza di difficoltà, non classificabile in termini di problemi di implementazione."
     },
     {
       "index": 7,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Non lo so",
-      "codes": [],
-      "reason": "Risposta negativa ('Non lo so')."
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta di negazione o incertezza ('Non lo so')."
     },
     {
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     }
   ]

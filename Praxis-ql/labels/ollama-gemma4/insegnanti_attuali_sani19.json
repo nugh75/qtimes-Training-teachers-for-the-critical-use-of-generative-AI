@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:28:29.834925+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -23,20 +25,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per creare materiali visivi e didattici, ma è consapevole dei rischi di dipendenza e sostituzione del ruolo umano.",
   "code_counts": {
-    "P1": 1,
+    "N1": 3,
     "P2": 2,
     "P5": 2,
+    "X3": 2,
     "P7": 1,
-    "S6": 1,
+    "P1": 1,
     "X2": 2,
-    "X3": 2
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Non ho preferenze",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -93,7 +98,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Domande molto semplici difficoltà nelle date",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Le difficoltà menzionate sono troppo generiche ('Domande molto semplici difficoltà nelle date')."
     },
     {
@@ -109,7 +116,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nei testi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica ('Nei testi') per assegnare codici specifici."
     }
   ]

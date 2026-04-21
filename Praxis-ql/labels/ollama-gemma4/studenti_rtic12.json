@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:28:37.108325+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "S4",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Lo studente utilizza l'IA per semplificare e riassumere contenuti (P5, X2), ma mostra preoccupazioni riguardo alla dipendenza e alla perdita di capacità di studio autonomo (S4).",
   "code_counts": {
-    "P2": 1,
+    "N1": 1,
     "P5": 3,
-    "S4": 2,
-    "S7": 1,
+    "P2": 1,
     "X2": 2,
-    "X5": 1
+    "X5": 1,
+    "S4": 2,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chatgpt perché mi ci trovo bene",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica sull'uso didattico."
     },
     {

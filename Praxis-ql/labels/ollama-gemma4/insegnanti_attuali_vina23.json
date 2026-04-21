@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:36:37.268099+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "S4",
     "X2"
   ],
   "record_note": "L'insegnante è consapevole dei limiti dell'IA, specialmente nel contesto del sostegno, dove sono necessarie attività fisiche e sensoriali non replicabili digitalmente.",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
-    "S4": 2,
-    "X2": 1
+    "X2": 1,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne ho avuto grande esigenza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto generico."
     },
     {

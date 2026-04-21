@@ -11,6 +11,15 @@ note: "Profilo di rifiuto critico e consapevole dell'uso dell'IA, basato su preo
 
 # Risposta Tese28
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **I3**: Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +27,7 @@ note: "Profilo di rifiuto critico e consapevole dell'uso dell'IA, basato su preo
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.; I3 — Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.; S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Rifiuto di usare l'IA per motivi etici (pregiudizi, discriminazione) e di fiducia (pericolo per i dati, non supporta).
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -25,6 +35,7 @@ note: "Profilo di rifiuto critico e consapevole dell'uso dell'IA, basato su preo
 **Codes**: S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Rifiuto di usare l'IA perché non sostituisce il pensiero umano e rende pigri/demotivati.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -32,9 +43,12 @@ note: "Profilo di rifiuto critico e consapevole dell'uso dell'IA, basato su preo
 **Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Preoccupazione che le risposte siano identiche (omologazione) e che il contatto umano sia fondamentale per l'apprendimento.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Molto banalmente, l'intelligenza artificiale propone dei modelli teorici discrimanti. Se chiedessi all'intelligenza artificiale di parlarmi di un noto filosofo o una nota filosofa, probabilmente mi parlerebbe di un uomo occidentale, estendendo il suo punto di vista a universale, trascurando il pensiero femminile. Questo è uno dei motivi per non usarla: è veramente limitante. Meglio fare le nostre domande ai docenti, leggere dei libri, informarci attivamente. Magari è anche necessario ricominciare a sforzarsi per studiare, per capire cosa stiamo leggendo e perché è importante.
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.; S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Identificazione di bias teorici (discriminazione di genere/culturale) e preferenza per fonti umane (docenti, libri).
+
+**Cited in:** —

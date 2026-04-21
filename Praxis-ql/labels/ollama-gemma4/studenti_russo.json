@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:28:55.812955+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "R5",
     "S5",
     "X2",
@@ -22,18 +24,21 @@
   ],
   "record_note": "Il partecipante mostra una diffidenza generale verso l'uso dell'IA, basata su esperienze negative di errori e sulla propria percezione di disagio.",
   "code_counts": {
-    "I2": 1,
+    "N1": 1,
     "R5": 1,
-    "S5": 1,
     "X2": 1,
-    "X3": 1
+    "X3": 1,
+    "I2": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:14:45.263454+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S4"
   ],
   "record_note": "Lo studente esprime una forte resistenza all'uso dell'IA, basandosi sulla preferenza per metodi di studio tradizionali e sulla preoccupazione per l'erosione delle capacità cognitive.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
     "S4": 2
   },
@@ -25,7 +28,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Per ora non la ritengo necessaria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzare l'IA, non informativo."
     },
     {

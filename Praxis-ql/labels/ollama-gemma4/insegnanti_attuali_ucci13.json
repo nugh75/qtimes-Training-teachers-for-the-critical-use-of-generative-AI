@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:33:43.060594+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "R4",
     "S6",
@@ -24,19 +26,22 @@
   ],
   "record_note": "Il partecipante mostra consapevolezza dei benefici (risparmio di tempo, personalizzazione) ma anche dei rischi (erosione relazionale) e ammette di avere lacune nelle proprie competenze di utilizzo dell'IA.",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
+    "N1": 1,
     "R4": 1,
-    "S6": 1,
     "X1": 1,
-    "X3": 1
+    "P2": 1,
+    "X3": 1,
+    "S6": 1,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho mai provato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (Non ho mai provato)."
     },
     {

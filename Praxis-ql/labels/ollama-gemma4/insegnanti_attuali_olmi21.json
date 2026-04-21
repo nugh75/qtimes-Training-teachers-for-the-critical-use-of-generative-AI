@@ -8,19 +8,22 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:18:29.732927+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "X3"
   ],
   "record_note": "L'insegnante utilizza strumenti IA per supportare l'attività didattica, focalizzandosi sull'adattamento dei contenuti per gli studenti.",
   "code_counts": {
-    "P2": 3,
     "P6": 1,
-    "X3": 3
+    "P2": 3,
+    "X3": 3,
+    "N1": 2
   },
   "items": [
     {
@@ -58,14 +61,18 @@
       "index": 4,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è 'Non lo so', quindi non fornisce informazioni codificabili."
     },
     {
       "index": 5,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è vuota o non informativa."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:06:30.545549+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "P6",
     "S1",
@@ -23,20 +25,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per semplificare e strutturare contenuti (mappe, riassunti), ma evidenzia preoccupazioni sulla dipendenza degli studenti e sulla riduzione del pensiero critico.",
   "code_counts": {
-    "P5": 2,
+    "N1": 4,
     "P6": 1,
-    "S1": 1,
-    "S4": 1,
-    "X2": 3,
+    "P5": 2,
     "X3": 1,
-    "X6": 1
+    "X2": 3,
+    "S1": 1,
+    "X6": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -52,7 +57,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Al momento non la uso quasi mai con questo fine",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta indica che non utilizza l'IA per questo scopo."
     },
     {
@@ -69,7 +76,9 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Saint Patrick English A1 Tradition Images",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un riferimento a materiali e non un prompt descrittivo."
     },
     {
@@ -115,7 +124,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei, perchè ogni risorsa usata sapientemente può essere utile, dipende sempre dall'uso che se ne fa.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non identifica pratiche specifiche da sconsigliare."
     }
   ]

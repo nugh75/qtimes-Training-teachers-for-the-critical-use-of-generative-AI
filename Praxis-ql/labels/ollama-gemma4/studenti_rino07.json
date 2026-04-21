@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:27:07.760174+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,13 +26,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per approfondire e riassumere contenuti, percependo un beneficio immediato nello studio, ma è consapevole dei rischi come le distrazioni e il plagio.",
   "code_counts": {
-    "P2": 2,
-    "P5": 1,
     "P6": 1,
+    "P2": 2,
+    "X3": 2,
+    "P5": 1,
     "R4": 1,
-    "S2": 1,
+    "N1": 2,
     "X2": 1,
-    "X3": 2
+    "S2": 1
   },
   "items": [
     {
@@ -76,14 +79,18 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "I miei voti sono migliorati",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un risultato (miglioramento dei voti) e non descrive una pratica o un meccanismo di miglioramento specifico da codificare."
     },
     {
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

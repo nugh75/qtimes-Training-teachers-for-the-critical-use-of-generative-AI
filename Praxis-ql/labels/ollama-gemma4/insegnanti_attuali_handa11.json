@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:03:46.830218+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "P6",
     "P7",
@@ -23,19 +25,22 @@
   ],
   "record_note": "L'insegnante è consapevole degli strumenti e dei rischi dell'IA, utilizzandola principalmente per la ricerca, ma mostra cautela riguardo all'uso in processi cognitivi complessi.",
   "code_counts": {
-    "P5": 1,
+    "N1": 4,
     "P6": 1,
     "P7": 1,
+    "P5": 1,
     "R2": 1,
-    "S4": 2,
-    "X1": 1
+    "X1": 1,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -51,14 +56,18 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Non la uso",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('Non la uso')."
     },
     {
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non la uso ancora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('Non la uso ancora')."
     },
     {
@@ -74,7 +83,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ne ho sentore",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('Non ne ho sentore')."
     },
     {

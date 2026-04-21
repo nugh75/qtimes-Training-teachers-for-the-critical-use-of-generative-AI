@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:20:46.168219+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P1",
     "P5",
     "P6",
@@ -27,23 +29,26 @@
   ],
   "record_note": "Lo studente utilizza l'IA per la produzione di materiali e l'organizzazione dello studio, ma è consapevole dei limiti critici e relazionali dell'uso di tali strumenti.",
   "code_counts": {
-    "I4": 1,
+    "N1": 2,
+    "P6": 1,
     "P1": 3,
     "P5": 2,
-    "P6": 1,
-    "P7": 1,
-    "S6": 1,
-    "X1": 1,
-    "X2": 1,
     "X3": 2,
-    "X5": 1
+    "P7": 1,
+    "X2": 1,
+    "X1": 1,
+    "X5": 1,
+    "S6": 1,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\" _\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -99,7 +104,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato particolari difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

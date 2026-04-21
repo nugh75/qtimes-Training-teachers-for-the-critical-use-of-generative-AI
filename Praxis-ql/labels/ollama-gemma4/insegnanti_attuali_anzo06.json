@@ -10,28 +10,33 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
     "I4",
+    "N1",
     "S3",
     "X3"
   ],
   "record_note": "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazione di risorse materiali preesistenti e sull'importanza del giudizio umano e della creatività.",
   "code_counts": {
+    "N1": 1,
     "A3": 1,
     "I4": 2,
-    "S3": 1,
-    "X3": 1
+    "X3": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta riguarda la gestione dello schermo e non l'uso o il rifiuto dell'IA in didattica."
     },
     {

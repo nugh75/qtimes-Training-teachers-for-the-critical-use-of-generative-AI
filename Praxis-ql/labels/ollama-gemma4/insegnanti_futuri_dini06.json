@@ -9,16 +9,19 @@
   "generated_at": "2026-04-19T21:41:30.822376+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "X7"
   ],
   "record_note": "Il partecipante esprime una forte preferenza per l'interazione umana rispetto all'IA, vedendola come uno strumento limitato e non un sostituto del rapporto educativo.",
   "code_counts": {
     "I4": 3,
-    "X7": 1
+    "X7": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -53,8 +56,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

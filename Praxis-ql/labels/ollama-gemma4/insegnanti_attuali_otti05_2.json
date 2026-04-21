@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:21:02.607205+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "R3",
     "S3",
@@ -22,18 +24,21 @@
   ],
   "record_note": "L'insegnante mostra una resistenza all'uso dell'IA, basata sull'abitudine e sulla preoccupazione per la perdita di impegno cognitivo e la spersonalizzazione didattica.",
   "code_counts": {
-    "P2": 1,
+    "N1": 1,
     "R3": 1,
-    "S3": 1,
     "S4": 2,
-    "X2": 1
+    "X2": 1,
+    "P2": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "No sono abituata",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica solo abitudine."
     },
     {

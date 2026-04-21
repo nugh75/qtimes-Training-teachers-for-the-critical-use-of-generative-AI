@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:45:09.467409+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -22,20 +24,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per adattare e semplificare contenuti didattici per studenti con bisogni specifici (DSA/autismo).",
   "code_counts": {
-    "P1": 1,
+    "N1": 5,
     "P2": 1,
     "P3": 2,
-    "P5": 1,
-    "X2": 2,
     "X3": 2,
-    "X4": 1
+    "X4": 1,
+    "P5": 1,
+    "P1": 1,
+    "X2": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gtp, è l'unica che conosco",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica sull'uso didattico."
     },
     {
@@ -54,7 +59,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non l'ho mai utilizzata in questo senso",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -91,21 +98,27 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
       "index": 8,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Abuso da parte degli studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il contenuto riguarda un rischio d'uso (abuso) e non un'applicazione o un limite didattico specifico da codificare."
     },
     {
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     }
   ]

@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "A3",
     "I2",
+    "N1",
     "P2",
     "P5",
     "P7",
@@ -25,20 +27,23 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare e rielaborare contenuti, ma è consapevole dei rischi di imprecisione e dei vincoli economici.",
   "code_counts": {
-    "A3": 1,
-    "I2": 1,
+    "N1": 2,
     "P2": 1,
+    "X2": 2,
     "P5": 3,
     "P7": 1,
-    "S5": 1,
-    "X2": 2
+    "I2": 1,
+    "A3": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chat gpt . Perché è l’unico che conosco a titolo gratuito.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta si limita a nominare uno strumento gratuito senza descrivere un uso didattico specifico."
     },
     {
@@ -103,7 +108,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è 'non lo so', quindi non fornisce informazioni codificabili."
     }
   ]

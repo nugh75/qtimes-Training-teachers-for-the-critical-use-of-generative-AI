@@ -10,6 +10,7 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "A3",
     "I3",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -29,16 +31,17 @@
   ],
   "record_note": "L'insegnante evidenzia l'uso di strumenti multimediali per l'inclusione e la personalizzazione, ma segnala problemi di disponibilità e di uso inappropriato da parte di terzi.",
   "code_counts": {
-    "A3": 1,
-    "I3": 1,
-    "P2": 2,
-    "P3": 2,
     "P5": 3,
     "P6": 1,
-    "S4": 1,
-    "X2": 2,
-    "X3": 2,
+    "P3": 2,
+    "P2": 2,
     "X4": 2,
+    "X3": 2,
+    "N1": 1,
+    "X2": 2,
+    "A3": 1,
+    "I3": 1,
+    "S4": 1,
     "X5": 1
   },
   "items": [
@@ -80,7 +83,9 @@
       "index": 4,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "visivo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('visivo') per assegnare codici specifici."
     },
     {

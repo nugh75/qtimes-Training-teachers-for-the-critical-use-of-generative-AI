@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:10:28.117274+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -22,20 +24,23 @@
   ],
   "record_note": "L'insegnante è un utente principiante che utilizza l'IA principalmente per la pianificazione e l'adattamento dei percorsi didattici per diversi profili di studenti.",
   "code_counts": {
+    "N1": 5,
+    "P6": 1,
     "P2": 3,
+    "X3": 2,
     "P3": 1,
     "P5": 1,
-    "P6": 1,
-    "X2": 1,
-    "X3": 2,
-    "X6": 1
+    "X6": 1,
+    "X2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -82,21 +87,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Ho appena iniziato ad usare l'intelligenza artificiale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica l'inizio dell'uso dell'IA, non fornendo esempi specifici di miglioramento."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Ancora non ho evidenze poiché ho appena iniziato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica l'inizio dell'uso dell'IA, non fornendo evidenze di miglioramento."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "La difficoltà maggiore è legata ai tempi troppo serrati",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è legata ai tempi, non a problemi di IA o didattica specifica coperti dai codici."
     },
     {
@@ -113,7 +124,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Secondo me non ci sono pratiche da non utilizzare semplicemente bisogna utilizzarle con consapevolezza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "L'utente non identifica pratiche da non utilizzare, esprimendo solo un giudizio di consapevolezza."
     }
   ]

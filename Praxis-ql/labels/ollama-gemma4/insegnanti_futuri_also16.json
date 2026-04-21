@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:39:23.742781+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S1",
     "S2",
     "S4",
@@ -19,17 +21,20 @@
   ],
   "record_note": "L'insegnante pre-service mostra cautela sull'uso dell'IA in classe, temendo che possa compromettere l'autenticità e la validità delle prove e dei compiti.",
   "code_counts": {
-    "S1": 1,
+    "N1": 1,
     "S2": 2,
     "S4": 2,
-    "X6": 1
+    "X6": 1,
+    "S1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

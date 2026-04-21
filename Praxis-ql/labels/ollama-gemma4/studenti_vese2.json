@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:35:04.866466+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -27,16 +29,17 @@
   ],
   "record_note": "Lo studente utilizza l'IA per la semplificazione e la personalizzazione dello studio, ma mostra consapevolezza dei limiti di affidabilità delle fonti.",
   "code_counts": {
-    "I2": 2,
-    "P2": 2,
-    "P5": 2,
     "P6": 1,
+    "P5": 2,
+    "P2": 2,
+    "X2": 2,
     "P7": 1,
     "R4": 1,
-    "X1": 1,
-    "X2": 2,
     "X3": 1,
-    "X6": 1
+    "I2": 2,
+    "X1": 1,
+    "X6": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -113,7 +116,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Per me non vi è nessuna pratica che non dovrebbe essere usata se è utile per l'insegnamento o per lo studio",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non identifica pratiche da evitare, non fornendo codici pertinenti."
     }
   ]

@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:52:01.189043+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "P3",
     "S3",
     "X1",
@@ -23,11 +25,12 @@
   ],
   "record_note": "L'insegnante mostra interesse per l'uso dell'IA, specialmente per l'inclusione (P3), ma evidenzia la mancanza di strumenti adeguati e la necessità di formazione (A1).",
   "code_counts": {
-    "A1": 2,
+    "N1": 1,
     "P3": 1,
-    "S3": 1,
-    "X1": 1,
+    "A1": 2,
     "X4": 1,
+    "X1": 1,
+    "S3": 1,
     "X6": 1
   },
   "items": [
@@ -35,7 +38,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

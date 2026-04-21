@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:44:36.859433+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "R4",
     "S4",
     "S6",
@@ -22,18 +24,21 @@
   ],
   "record_note": "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, esprimendo incertezza sulle proprie competenze e preoccupazioni sul rischio di sostituzione umana e perdita di sviluppo.",
   "code_counts": {
-    "A1": 1,
+    "N1": 1,
     "R4": 1,
+    "A1": 1,
+    "X6": 1,
     "S4": 2,
-    "S6": 1,
-    "X6": 1
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho mai pensato di farlo, senza un particolare motivo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa e generica."
     },
     {

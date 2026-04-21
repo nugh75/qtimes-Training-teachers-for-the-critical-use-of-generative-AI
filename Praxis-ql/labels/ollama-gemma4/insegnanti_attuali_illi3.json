@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:07:46.862995+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "S6",
     "X3"
@@ -22,9 +24,10 @@
   "record_note": "Il partecipante esprime una forte diffidenza verso l'IA, concentrandosi principalmente sui rischi relazionali e sulla potenziale sostituzione del ruolo umano nell'educazione.",
   "code_counts": {
     "I4": 3,
-    "P2": 1,
     "S6": 2,
-    "X3": 1
+    "P2": 1,
+    "X3": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -62,8 +65,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

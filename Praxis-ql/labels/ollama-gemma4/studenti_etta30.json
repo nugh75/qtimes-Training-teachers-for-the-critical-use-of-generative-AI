@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:05:28.899557+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -29,16 +31,17 @@
   "record_note": "Lo studente utilizza l'IA principalmente per riassumere, schematizzare e autovalutarsi, riconoscendone i benefici in termini di efficienza ma anche i rischi di dipendenza e di incompletezza nelle spiegazioni.",
   "code_counts": {
     "P1": 1,
-    "P2": 1,
-    "P4": 2,
     "P5": 4,
-    "R4": 1,
-    "S1": 1,
-    "S4": 1,
-    "S5": 1,
-    "X1": 3,
+    "P4": 2,
     "X2": 4,
-    "X5": 1
+    "X5": 1,
+    "P2": 1,
+    "R4": 1,
+    "X1": 3,
+    "N1": 1,
+    "S4": 1,
+    "S1": 1,
+    "S5": 1
   },
   "items": [
     {
@@ -98,7 +101,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "per il momento nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è negativa e non fornisce informazioni rilevanti per l'assegnazione di codici."
     },
     {

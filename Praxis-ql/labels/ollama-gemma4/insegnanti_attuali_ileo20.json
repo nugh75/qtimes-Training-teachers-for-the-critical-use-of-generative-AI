@@ -10,25 +10,30 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S6"
   ],
   "record_note": "Il partecipante mostra una scarsa conoscenza dell'IA (A1) e una forte consapevolezza sui limiti etici e relazionali dell'IA in didattica (S6, I4).",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "I4": 1,
-    "S6": 2
+    "S6": 2,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non conosco la materia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul tema dell'uso dell'IA."
     },
     {

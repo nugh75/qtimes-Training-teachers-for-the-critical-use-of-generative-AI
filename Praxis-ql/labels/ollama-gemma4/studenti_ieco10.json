@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:10:33.950422+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -22,19 +24,22 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per rielaborare e semplificare concetti complessi, percependo un beneficio di velocità e comprensione, ma mostra consapevolezza sui limiti (non usare per quiz).",
   "code_counts": {
+    "N1": 2,
+    "P6": 1,
     "P2": 1,
     "P5": 3,
-    "P6": 1,
-    "S7": 1,
+    "X2": 3,
     "X1": 1,
-    "X2": 3
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -89,7 +94,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

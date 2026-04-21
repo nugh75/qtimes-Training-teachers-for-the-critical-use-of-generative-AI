@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:42:42.618028+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,16 +29,17 @@
   ],
   "record_note": "L'insegnante di grafica vede l'IA come uno strumento inevitabile per il suo campo, ma esprime preoccupazione per l'abuso che potrebbe compromettere le capacità cognitive degli studenti.",
   "code_counts": {
-    "P1": 1,
-    "P2": 1,
-    "P5": 1,
+    "N1": 3,
     "P6": 2,
+    "P1": 1,
+    "P5": 1,
+    "X2": 1,
+    "P2": 1,
+    "X3": 1,
+    "X1": 1,
+    "X6": 1,
     "S4": 1,
     "S6": 1,
-    "X1": 1,
-    "X2": 1,
-    "X3": 1,
-    "X6": 1,
     "X7": 1
   },
   "items": [
@@ -44,7 +47,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('_')."
     },
     {
@@ -108,7 +113,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna è stato una implemazione naturale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o non pertinente all'uso di IA."
     },
     {
@@ -126,7 +133,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "È chiaro che l'intelligenza artificiale stia cambiando il mondo della scuola alla velocità della luce. Ma per sfruttare al meglio questa rivoluzione, dobbiamo rimboccarci le maniche e affrontare alcune sfide importanti, cogliendo allo stesso tempo le grandi opportunità che si aprono davanti a noi.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica che non specifica pratiche non raccomandate o i motivi."
     }
   ]

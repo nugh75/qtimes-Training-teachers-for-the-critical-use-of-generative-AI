@@ -10,28 +10,33 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S4",
     "X2"
   ],
   "record_note": "L'insegnante mostra un basso livello di confidenza nell'uso dell'IA, attribuendo il rifiuto a una percezione di non essere qualificati e esprimendo preoccupazioni sul rischio di atrofizzazione delle capacità critiche degli studenti.",
   "code_counts": {
+    "N1": 2,
     "A1": 1,
     "I4": 1,
-    "S4": 1,
-    "X2": 1
+    "X2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non conosco le modalità di utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di conoscenza limitata."
     },
     {
@@ -58,7 +63,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non conosco ancora le pratiche utilizzabili",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di conoscenza limitata."
     }
   ]

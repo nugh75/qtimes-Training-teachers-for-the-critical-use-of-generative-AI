@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:35:44.108654+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "I2",
     "I5",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -30,25 +32,28 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per adattare i contenuti (individualizzazione/personalizzazione) ma mostra consapevolezza dei limiti (verifica, privacy) e rifiuta l'uso che sostituisca il pensiero critico e la rielaborazione umana.",
   "code_counts": {
-    "I2": 1,
-    "I5": 1,
-    "P2": 2,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
     "R4": 2,
-    "S4": 1,
-    "S5": 1,
-    "S6": 1,
-    "X1": 1,
+    "P2": 2,
     "X3": 2,
-    "X6": 1
+    "P5": 1,
+    "X6": 1,
+    "I5": 1,
+    "X1": 1,
+    "S5": 1,
+    "I2": 1,
+    "S6": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "_",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota/non informativa."
     },
     {
@@ -95,7 +100,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ancora, abbiamo cominciato da poco.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non ha ancora avuto tempo di usare l'IA)."
     },
     {

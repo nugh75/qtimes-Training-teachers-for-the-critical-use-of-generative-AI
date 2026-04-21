@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:55:33.889477+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "X6"
   ],
   "record_note": "L'insegnante non utilizza l'IA in didattica, esprimendo preoccupazioni sulla perdita di abilità umane e sulla creatività.",
   "code_counts": {
+    "N1": 2,
     "S4": 2,
     "X6": 1
   },
@@ -25,14 +28,18 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Sto lavorando a un concorso multimediale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul contesto didattico."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non mi serve",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto non motivata e non informativa."
     },
     {

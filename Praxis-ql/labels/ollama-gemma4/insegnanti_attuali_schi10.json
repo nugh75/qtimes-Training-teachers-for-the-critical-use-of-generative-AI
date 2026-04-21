@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:29:26.486466+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "X3"
   ],
   "record_note": "Il partecipante ha fornito risposte molto generiche o non specifiche, limitando l'assegnazione di codici dettagliati.",
   "code_counts": {
+    "N1": 7,
     "P2": 3,
     "X3": 3
   },
@@ -25,14 +28,18 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Scuola dell'infanzia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Dipende",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Dipende')."
     },
     {
@@ -59,14 +66,18 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Vocale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta ('Vocale') non descrive un prompt specifico."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
@@ -83,21 +94,27 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Molte",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Molte') senza specificare le difficoltà."
     },
     {
       "index": 9,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non so dipende",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Non so dipende') senza specificare pro o contro."
     },
     {
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Metaverso",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La menzione del 'Metaverso' è un argomento e non una pratica di IA da etichettare con i codici forniti."
     }
   ]

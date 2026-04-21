@@ -1,8 +1,8 @@
 ---
 record_code: "lico31"
 group: Studenti
-dimensions: [I, R, S, X]
-subcodes: [I2, R4, S2, S4, X2]
+dimensions: [I, N, R, S, X]
+subcodes: [I2, N1, R4, S2, S4, X2]
 model: gemma4:e4b
 generated_at: "2026-04-19T22:14:46.859500+00:00"
 label_source: labels/ollama-gemma4/studenti_lico31.json
@@ -11,6 +11,15 @@ note: "Lo studente esprime diffidenza sull'uso dell'IA, legandola al rischio di 
 
 # Risposta lico31
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **R4**: Competenza di prompting: capacita' di formulare prompt efficaci.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +27,7 @@ note: "Lo studente esprime diffidenza sull'uso dell'IA, legandola al rischio di 
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S4 — Erosione del pensiero critico.
 **Reason**: L'uso dell'IA genera il timore di barare e di non essere autonomi nel risultato.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -25,6 +35,7 @@ note: "Lo studente esprime diffidenza sull'uso dell'IA, legandola al rischio di 
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S4 — Erosione del pensiero critico.
 **Reason**: Difficoltà nell'uso che porta a sentirsi non autori del proprio lavoro.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -32,8 +43,12 @@ note: "Lo studente esprime diffidenza sull'uso dell'IA, legandola al rischio di 
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Riconosce la semplificazione (X2) ma anche il rischio di confusione e errori (I2), sottolineando l'importanza del prompt (R4).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: non usando l'intelligenza artificiale per studiare non saprei esattamente
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+**Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
+
+**Cited in:** —

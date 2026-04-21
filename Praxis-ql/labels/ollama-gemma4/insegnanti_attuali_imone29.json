@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:08:10.420283+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la personalizzazione e l'individualizzazione dei percorsi didattici per studenti con bisogni educativi speciali (PDP/BEA), ma mostra incertezza su altri aspetti e solleva preoccupazioni sull'affidabilità dell'IA.",
   "code_counts": {
-    "I2": 1,
+    "N1": 5,
+    "P6": 1,
     "P2": 3,
     "P5": 1,
-    "P6": 1,
+    "X3": 2,
     "P7": 1,
     "R4": 1,
-    "X3": 2
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -85,21 +90,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
@@ -115,7 +126,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     }
   ]

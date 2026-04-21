@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:42:30.905992+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I3",
+    "N1",
     "S1",
     "S5",
     "X2",
@@ -21,18 +23,21 @@
   ],
   "record_note": "Partecipante con forte scetticismo verso la tecnologia e l'IA, evidenziando preoccupazioni sulla dipendenza, l'affidabilità delle fonti e il rispetto del diritto d'autore.",
   "code_counts": {
-    "I3": 1,
+    "N1": 1,
     "S1": 1,
-    "S5": 1,
     "X2": 1,
-    "X6": 1
+    "X6": 1,
+    "S5": 1,
+    "I3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non amo la tecnologia, ancien régime",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto esplicito e motivato ('Non amo la tecnologia')."
     },
     {

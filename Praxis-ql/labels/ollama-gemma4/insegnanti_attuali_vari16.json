@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:36:01.542255+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "R2",
@@ -25,14 +27,15 @@
   ],
   "record_note": "L'insegnante vede l'IA come un supporto operativo (X1, P5) ma è consapevole dei rischi legati al pensiero critico (S4).",
   "code_counts": {
-    "P2": 2,
     "P5": 2,
-    "R2": 1,
+    "X5": 1,
+    "P2": 2,
+    "X3": 2,
+    "N1": 3,
+    "X2": 1,
     "S4": 2,
     "X1": 1,
-    "X2": 1,
-    "X3": 2,
-    "X5": 1
+    "R2": 1
   },
   "items": [
     {
@@ -69,14 +72,18 @@
       "index": 4,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "suggerisci...",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è incompleta e non fornisce esempi concreti di prompt."
     },
     {
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Al momento non ho risultati della ricaduta sugli apprendimenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta non fornisce risultati specifici sull'apprendimento degli studenti."
     },
     {
@@ -93,7 +100,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Al momento non registro particolari difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta indica l'assenza di difficoltà specifiche."
     },
     {

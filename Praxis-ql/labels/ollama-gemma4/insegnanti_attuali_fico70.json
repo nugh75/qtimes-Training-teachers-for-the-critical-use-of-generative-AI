@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:02:39.842580+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A2",
+    "N1",
     "P5",
     "P6",
     "P7",
@@ -27,22 +29,25 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per l'efficienza e la cernita di informazioni, ma esprime preoccupazioni sulla dipendenza e l'erosione delle capacità cognitive degli studenti.",
   "code_counts": {
-    "A2": 1,
-    "P5": 2,
+    "N1": 1,
     "P6": 1,
-    "P7": 1,
     "R4": 1,
-    "S4": 2,
-    "S6": 1,
+    "P5": 2,
+    "X2": 4,
+    "P7": 1,
     "X1": 1,
-    "X2": 4
+    "A2": 1,
+    "S4": 2,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

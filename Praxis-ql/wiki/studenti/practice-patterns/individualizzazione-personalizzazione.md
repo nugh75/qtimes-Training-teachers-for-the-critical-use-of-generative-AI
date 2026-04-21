@@ -18,7 +18,7 @@ Inoltre, l'IA è vista come uno strumento per superare le lacune informative, ai
 
 I benefici più citati dagli studenti riguardano la velocità e l'efficacia dello studio. Molti intervistati sottolineano come l'IA riduca drasticamente il tempo di ricerca e di elaborazione dei contenuti, rendendo lo studio più rapido (source: [tioli20](../../../raw/studenti_tioli20.md), source: [rino07](../../../raw/studenti_rino07.md), source: [etti07](../../../raw/studenti_etti07.md), source: [elli24](../../../raw/studenti_elli24.md), source: [ele07](../../../raw/studenti_ele07.md)).
 
-L'impatto sull'apprendimento è percepito come un miglioramento generale delle prestazioni accademiche, con diversi studenti che riportano un miglioramento dei voti (source: [tioli20](../../../raw/studenti_tioli20.md), source: [rino07](../../../raw/studenti_rino07.md), source: [glia24](../../../raw/studenti_glia24.md), source: [nani19](../../../raw/studenti_nani19.md)). L'IA è considerata utile perché fornisce spiegazioni chiare che permettono di «vedere un argomento da diverse angolazioni» (source: [elli23](../../../raw/studenti_elli23.md)) o di «chiarire degli argomenti che non erano chiari» (source: [ardo30](../../../raw/studenti_ardo30.md)).
+L'impatto sull'apprendimento è percepito come un miglioramento generale delle prestazioni accademiche, con diversi studenti che riportano un miglioramento dei voti (source: [tioli20](../../../raw/studenti_tioli20.md), source: [rino07](../../../raw/studenti_rino07.md), source: [glia24](../../../raw/studenti_glia24.md), source: [nani19](../../../raw/studenti_nani19.md)). L'IA è considerata utile perché fornisce spiegazioni chiare che permettono di «vedere un argomento da diverse angolazioni» (source: [elli23](../../../raw/studenti_elli23.md)) o di «chiarire degli argomenti che non erano chiari» (source: [ardo30](../../../raw/studenti_ardo30.md#item-5) · codes: P5, X2).
 
 ## Preoccupazioni Etiche e Limiti dell'Uso
 
@@ -30,7 +30,7 @@ Parallelamente, è emersa la preoccupazione relativa all'accuratezza delle infor
 
 ## Riflessione sul Processo di Studio e Autoregolazione
 
-Gli studenti che riflettono maggiormente sul processo di studio dimostrano di non considerare l'IA come una soluzione definitiva, ma come un supporto. Ad esempio, quando incontrano difficoltà, ricorrono a tecniche di autovalutazione, come mettere alla prova l'IA chiedendole «ma sei sicura?» (source: [musa30](../../../raw/studenti_musa30.md)).
+Gli studenti che riflettono maggiormente sul processo di studio dimostrano di non considerare l'IA come una soluzione definitiva, ma come un supporto. Ad esempio, quando incontrano difficoltà, ricorrono a tecniche di autovalutazione, come mettere alla prova l'IA chiedendole «ma sei sicura?» (source: [musa30](../../../raw/studenti_musa30.md#item-6) · codes: I2).
 
 Alcuni intervistati, pur non avendo difficoltà specifiche nell'implementazione, sottolineano la necessità di mantenere sempre un certo grado di autonomia, riconoscendo che l'IA non deve sostituire il lavoro dello studente, ma deve rimanere un supporto esterno (source: [nani19](../../../raw/studenti_nani19.md), source: [aldi03](../../../raw/studenti_aldi03.md)).
 

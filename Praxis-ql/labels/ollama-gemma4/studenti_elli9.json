@@ -8,24 +8,29 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:02:50.809913+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "X2"
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento di supporto alla comprensione, ma è consapevole del rischio di dipendenza e di non sviluppare autonomia nello studio.",
   "code_counts": {
-    "S4": 1,
-    "X2": 2
+    "N1": 2,
+    "X2": 2,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "in maniera discorsiva",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non fornisce esempi di prompt."
     },
     {
@@ -41,7 +46,9 @@
       "index": 3,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "0",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (0)."
     },
     {

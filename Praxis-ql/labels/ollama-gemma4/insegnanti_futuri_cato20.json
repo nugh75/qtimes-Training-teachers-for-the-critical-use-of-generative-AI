@@ -9,26 +9,31 @@
   "generated_at": "2026-04-19T21:40:41.246208+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R3",
     "X2"
   ],
   "record_note": "La partecipante, farmacista in formazione, non ha esperienza diretta con l'uso dell'IA in ambito didattico, ma esprime una consapevolezza critica sul suo ruolo.",
   "code_counts": {
-    "I4": 1,
+    "N1": 2,
     "R3": 1,
-    "X2": 1
+    "X2": 1,
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Io sono laureata in farmacia e svolgo la professione del farmacista e quindi il mio lavoro non prevede l'uso dell' intelligenza artificiale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La partecipante dichiara che il suo lavoro non prevede l'uso dell'IA, non esprimendo quindi un'esperienza di utilizzo o rifiuto motivato."
     },
     {
@@ -54,7 +59,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei cosa dire perché non ho mai lavorato nel mondo della scuola... Pertanto sono nelle condizioni di non poter rispondere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un rifiuto di rispondere basato sulla mancanza di esperienza nel mondo della scuola, non esprimendo un giudizio specifico sull'uso dell'IA."
     }
   ]

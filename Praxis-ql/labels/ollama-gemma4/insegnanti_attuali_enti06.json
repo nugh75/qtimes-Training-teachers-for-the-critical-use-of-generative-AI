@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:57:40.130332+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -24,14 +26,15 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per attività di supporto alla preparazione e alla burocrazia, mostrando consapevolezza dei rischi (appiattimento).",
   "code_counts": {
+    "X1": 1,
     "P1": 2,
-    "P2": 2,
     "P4": 1,
     "P5": 3,
-    "S3": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 2
+    "P2": 2,
+    "X3": 2,
+    "S3": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -99,7 +102,9 @@
       "index": 7,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non conosco a sufficienza la materia per rispondere a questa domanda",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

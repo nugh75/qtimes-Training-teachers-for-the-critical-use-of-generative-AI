@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:15:55.609839+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per personalizzare e individualizzare i percorsi didattici, ma mostra consapevolezza dei rischi legati all'affidabilità delle informazioni generate.",
   "code_counts": {
-    "P2": 4,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
-    "S5": 2,
-    "X3": 4
+    "P2": 4,
+    "X3": 4,
+    "P5": 1,
+    "S5": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -97,7 +102,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Uso non sempre appropriato da parte degli studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il problema riscontrato è l'uso da parte degli studenti, non un limite intrinseco all'uso dell'IA da parte dell'insegnante."
     },
     {

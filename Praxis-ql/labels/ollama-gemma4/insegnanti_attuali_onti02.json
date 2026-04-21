@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:19:02.086150+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R3",
     "S7",
     "X4",
@@ -22,18 +24,21 @@
   ],
   "record_note": "L'insegnante mostra cautela nell'uso dell'IA, riconoscendone i potenziali benefici inclusivi ma esprimendo preoccupazioni su aspetti relazionali e valutativi.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "R3": 1,
-    "S7": 1,
     "X4": 1,
-    "X6": 1
+    "X6": 1,
+    "I4": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "mancanza di abitudine",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (mancanza di abitudine)."
     },
     {

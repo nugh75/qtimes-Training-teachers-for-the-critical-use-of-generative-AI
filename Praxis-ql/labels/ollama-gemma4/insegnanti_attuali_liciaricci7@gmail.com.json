@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:12:43.107595+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -28,16 +30,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la preparazione dei materiali didattici (P2, P5), riconoscendone il valore per la personalizzazione, ma ne limita l'uso con gli studenti a causa della mancanza di pensiero critico (R5, S4).",
   "code_counts": {
-    "A3": 1,
-    "P2": 3,
-    "P3": 1,
-    "P5": 2,
-    "P6": 1,
     "R5": 2,
     "S4": 3,
+    "P5": 2,
+    "P6": 1,
     "X2": 1,
+    "P2": 3,
+    "P3": 1,
     "X3": 3,
-    "X4": 1
+    "X4": 1,
+    "N1": 3,
+    "A3": 1
   },
   "items": [
     {
@@ -88,21 +91,27 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "miei scritti in pdf o word o link di siti web didattici",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non fornisce esempi di prompt, ma menziona materiali di partenza (PDF, link)."
     },
     {
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "vedi sopra",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Fa riferimento a risposte precedenti (vedi sopra) senza fornire dettagli specifici."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "vedi sopra",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Fa riferimento a risposte precedenti (vedi sopra) senza fornire dettagli specifici."
     },
     {

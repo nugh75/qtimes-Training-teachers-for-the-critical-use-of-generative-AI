@@ -9,33 +9,40 @@
   "generated_at": "2026-04-19T21:10:42.343795+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S6",
     "X1"
   ],
   "record_note": "Il partecipante esprime preoccupazioni generali sull'uso dell'IA, focalizzandosi sul rischio di perdita di posti di lavoro e sull'erosione del rapporto umano e critico tra docente e studente.",
   "code_counts": {
+    "N1": 2,
+    "X1": 1,
     "I4": 1,
-    "S6": 1,
-    "X1": 1
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché sono pericolose",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica sull'uso dell'IA."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Perché sono pericolose",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica sull'uso dell'IA."
     },
     {

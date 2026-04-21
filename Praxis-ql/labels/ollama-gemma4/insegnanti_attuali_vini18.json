@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:36:40.332716+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "P6",
@@ -27,6 +29,7 @@
     "P6": 1,
     "S4": 1,
     "S5": 1,
+    "N1": 1,
     "S6": 1,
     "S7": 1
   },
@@ -76,7 +79,9 @@
       "index": 5,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Molti colleghi sono poco aperti all’utilizzo di IA, sopratutto la dirigenza dell’istituto dove insegno.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà riscontrata è di natura istituzionale (colleghi e dirigenza) e non legata all'uso o all'implementazione tecnica degli strumenti."
     },
     {

@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:28:26.759929+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A4",
+    "N1",
     "P1",
     "P2",
     "P7",
@@ -27,16 +29,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per aumentare l'efficienza nella creazione di materiali didattici e per arricchire l'esperienza di apprendimento, ma mostra preoccupazione per il rischio di dipendenza e perdita di pensiero critico.",
   "code_counts": {
-    "A4": 1,
     "P1": 2,
+    "X1": 1,
+    "A4": 1,
+    "X3": 2,
     "P2": 1,
     "P7": 1,
-    "S4": 1,
-    "S6": 1,
-    "X1": 1,
+    "X6": 2,
     "X2": 1,
-    "X3": 2,
-    "X6": 2
+    "N1": 1,
+    "S4": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -101,7 +104,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

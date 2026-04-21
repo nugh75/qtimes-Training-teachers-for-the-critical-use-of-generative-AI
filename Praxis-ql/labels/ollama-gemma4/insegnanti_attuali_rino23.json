@@ -10,12 +10,14 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "A1",
     "I5",
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per adattare e personalizzare i contenuti didattici, ma segnala carenze formative e preoccupazioni sulla privacy.",
   "code_counts": {
-    "A1": 1,
-    "I5": 1,
-    "P2": 4,
-    "P4": 1,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
-    "X3": 4
+    "P2": 4,
+    "X3": 4,
+    "P5": 1,
+    "P4": 1,
+    "A1": 1,
+    "I5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -121,7 +126,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     }
   ]

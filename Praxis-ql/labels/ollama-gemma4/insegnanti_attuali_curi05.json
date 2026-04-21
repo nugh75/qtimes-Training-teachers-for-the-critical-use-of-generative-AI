@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:52:44.657017+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S3",
     "S4",
@@ -20,17 +22,20 @@
   ],
   "record_note": "L'insegnante mostra una consapevolezza critica sui rischi dell'IA, bilanciando i benefici (risparmio di tempo) con i rischi pedagogici (minore sforzo cognitivo, limitazione della creatività).",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
-    "S3": 1,
+    "X1": 1,
     "S4": 1,
-    "X1": 1
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

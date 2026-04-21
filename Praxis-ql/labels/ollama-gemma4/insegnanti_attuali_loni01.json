@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:13:23.227995+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S7",
     "X7"
@@ -20,8 +22,9 @@
   "record_note": "L'insegnante mostra una diffidenza verso l'IA, preferendo metodi di ricerca tradizionali e limitandone l'uso a contesti molto specifici, rifiutando l'uso in valutazione e progettazione.",
   "code_counts": {
     "R5": 2,
-    "S7": 1,
-    "X7": 2
+    "X7": 2,
+    "N1": 1,
+    "S7": 1
   },
   "items": [
     {
@@ -48,7 +51,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ho esperienza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non ha esperienza di utilizzo dell'IA in didattica."
     },
     {

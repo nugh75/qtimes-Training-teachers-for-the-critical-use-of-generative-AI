@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:22:47.789756+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -29,25 +31,28 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per supporto strutturale (bibliografia, riassunti, schemi) e per migliorare l'efficienza nello studio, ma è consapevole dei limiti creativi e di accuratezza.",
   "code_counts": {
-    "P1": 1,
+    "N1": 1,
+    "P6": 1,
     "P2": 2,
     "P5": 3,
-    "P6": 1,
+    "X3": 2,
     "P7": 1,
     "R4": 1,
-    "S3": 1,
-    "S4": 1,
+    "P1": 1,
+    "X2": 2,
     "S5": 1,
     "X1": 1,
-    "X2": 2,
-    "X3": 2
+    "S3": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“_”",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:08:23.966417+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R4",
     "S2"
   ],
   "record_note": "L'insegnante esprime scetticismo sull'uso dell'IA, citando la mancanza di competenza e i rischi di uso improprio da parte degli studenti.",
   "code_counts": {
+    "N1": 1,
     "R4": 1,
     "S2": 2
   },
@@ -25,7 +28,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {

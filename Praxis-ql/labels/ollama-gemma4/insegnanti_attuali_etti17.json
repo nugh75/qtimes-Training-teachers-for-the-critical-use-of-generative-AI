@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:01:22.441633+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -30,18 +32,19 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per personalizzare e diversificare i contenuti e le attività, ma è consapevole dei rischi di dipendenza e perdita di capacità critiche.",
   "code_counts": {
-    "I2": 1,
-    "P1": 1,
+    "P6": 1,
     "P2": 4,
     "P3": 1,
-    "P4": 2,
+    "X3": 4,
     "P5": 1,
-    "P6": 1,
+    "P1": 1,
+    "P4": 2,
     "R4": 1,
-    "S2": 1,
-    "S4": 1,
+    "N1": 1,
     "X1": 1,
-    "X3": 4
+    "I2": 1,
+    "S4": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -111,7 +114,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Si tratta di uno studio autonomo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul fronte delle difficoltà di implementazione."
     },
     {

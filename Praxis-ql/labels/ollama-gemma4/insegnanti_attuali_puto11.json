@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:24:03.025905+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S4"
   ],
   "record_note": "Il partecipante esprime un rifiuto di utilizzare l'IA in didattica, motivandolo con la mancanza di conoscenze professionali.",
   "code_counts": {
+    "N1": 3,
     "S4": 1
   },
   "items": [
@@ -22,14 +25,18 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho adeguate conoscenze per utilizzarla professionalmente.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzo professionale dovuto a mancanza di conoscenze."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Perché non ho conoscenze adeguate",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Motivazione del non-uso basata sulla mancanza di conoscenze adeguate."
     },
     {
@@ -45,8 +52,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

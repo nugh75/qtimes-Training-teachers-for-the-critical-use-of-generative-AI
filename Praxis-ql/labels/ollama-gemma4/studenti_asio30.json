@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:55:09.542200+00:00",
   "record_dimensions": [
+    "N",
     "R"
   ],
   "record_subcodes": [
+    "N1",
     "R4"
   ],
   "record_note": "Lo studente non utilizza l'IA e manifesta incertezza sulle modalità di utilizzo.",
   "code_counts": {
+    "N1": 1,
     "R4": 1
   },
   "items": [
@@ -22,7 +25,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non mi è’ mai capitato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o negativa."
     },
     {

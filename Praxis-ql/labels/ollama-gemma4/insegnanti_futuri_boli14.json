@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:40:16.983196+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S2",
     "S4",
     "S5",
@@ -19,24 +21,29 @@
   ],
   "record_note": "Il partecipante mostra una consapevolezza critica sui rischi dell'IA (S4, S5) ma ne riconosce anche il potenziale di innovazione (X6).",
   "code_counts": {
-    "S2": 1,
+    "N1": 2,
     "S4": 1,
-    "S5": 1,
-    "X6": 1
+    "X6": 1,
+    "S2": 1,
+    "S5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non mi è servita fino ad ora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Perché non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non pertinente al contesto didattico."
     },
     {

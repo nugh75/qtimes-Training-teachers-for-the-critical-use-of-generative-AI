@@ -1,8 +1,8 @@
 ---
 record_code: "glia09"
 group: Insegnanti in servizio
-dimensions: [S, X]
-subcodes: [S4, X1]
+dimensions: [N, S, X]
+subcodes: [N1, S4, X1]
 model: gemma4:e4b
 generated_at: "2026-04-19T21:03:12.394125+00:00"
 label_source: labels/ollama-gemma4/insegnanti_attuali_glia09.json
@@ -11,20 +11,28 @@ note: "Il partecipante esprime un basso livello di familiarità e competenza sul
 
 # Risposta glia09
 
+## Legenda codici del record
+
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **S4**: Erosione del pensiero critico.
+- **X1**: Efficienza e risparmio di tempo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: non ho la competenza per farlo, né l'interesse
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa (mancanza di competenza e interesse).
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
 **A**: Non ho avuto modo di affacciarmi a questo mondo, non so da dove cominciare
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa (mancanza di esperienza/orientamento).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +40,13 @@ note: "Il partecipante esprime un basso livello di familiarità e competenza sul
 **Codes**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
 **Reason**: Riconosce il risparmio di tempo (X1) e il rischio di diminuzione del pensiero critico (S4).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Non conosco abbastanza l'argomento per rispondere
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa (mancanza di conoscenza dell'argomento).
+
+**Cited in:**
+- [wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md](../wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md)

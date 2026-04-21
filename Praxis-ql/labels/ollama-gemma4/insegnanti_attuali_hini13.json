@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:04:03.286436+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P1",
     "R4",
     "S3",
@@ -24,19 +26,22 @@
   ],
   "record_note": "L'insegnante esprime scetticismo sull'uso pratico dell'IA a causa di vincoli strutturali e preoccupazioni pedagogiche sul rischio di superficialità e perdita di individualità.",
   "code_counts": {
+    "N1": 1,
     "A3": 1,
-    "P1": 1,
     "R4": 1,
-    "S3": 1,
+    "X2": 1,
     "S4": 1,
-    "X2": 1
+    "S3": 1,
+    "P1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Ad oggi non ritengo sia ancora necessaria nelle attività quotidiane",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un rifiuto generico e non specifica un motivo di non utilizzo o un'area di applicazione."
     },
     {

@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:11:09.385001+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P5",
     "R5",
     "S4",
@@ -24,19 +26,22 @@
   ],
   "record_note": "Il partecipante mostra una diffidenza verso l'IA, preferendo i metodi tradizionali (libri) e criticandone i limiti (superficialità, imprecisione).",
   "code_counts": {
-    "I2": 1,
-    "P5": 1,
+    "N1": 1,
     "R5": 1,
-    "S4": 1,
+    "P5": 1,
+    "X2": 1,
     "S5": 1,
-    "X2": 1
+    "S4": 1,
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Una “-“.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

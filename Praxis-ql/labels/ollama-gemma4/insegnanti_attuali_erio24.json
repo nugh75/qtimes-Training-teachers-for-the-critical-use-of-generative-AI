@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T20:59:37.388966+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -16,6 +17,7 @@
   "record_subcodes": [
     "I2",
     "I4",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -25,42 +27,51 @@
   ],
   "record_note": "L'insegnante riconosce i potenziali benefici dell'IA (personalizzazione, inclusione) ma ne evidenzia anche i rischi legati all'affidabilità dei contenuti, alla dipendenza e alla perdita del ruolo umano.",
   "code_counts": {
-    "I2": 1,
-    "I4": 2,
-    "P1": 1,
-    "P2": 1,
+    "N1": 7,
     "P5": 1,
-    "S6": 1,
+    "P2": 1,
     "X3": 1,
-    "X4": 1
+    "X4": 1,
+    "I4": 2,
+    "I2": 1,
+    "P1": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La uso qualche volta per lavoro, raramente nella vita quotidiana perché non ho esigenza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul motivo di non utilizzo."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Non capisco la domanda",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Per ora non la utilizzo per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non utilizzo dichiarato per questo scopo."
     },
     {
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Per ora non la utilizzo per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non utilizzo dichiarato per questo scopo."
     },
     {
@@ -76,21 +87,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non l’ho utilizzata per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non utilizzo dichiarato per questo scopo."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non l’ho utilizzata per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non utilizzo dichiarato per questo scopo."
     },
     {

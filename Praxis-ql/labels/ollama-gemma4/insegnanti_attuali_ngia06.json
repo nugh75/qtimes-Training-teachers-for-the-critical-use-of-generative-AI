@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:16:14.923629+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante mostra consapevolezza dei benefici (X2, X6) ma anche delle criticità (S3, A3), esprimendo un uso cautelativo e critico dell'IA.",
   "code_counts": {
-    "A3": 1,
+    "N1": 2,
     "P1": 2,
-    "P2": 2,
-    "P5": 1,
-    "S3": 1,
-    "S4": 1,
-    "X2": 1,
-    "X3": 1,
     "X6": 2,
-    "X7": 1
+    "P2": 2,
+    "X3": 1,
+    "P5": 1,
+    "S4": 1,
+    "X7": 1,
+    "A3": 1,
+    "X2": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -127,7 +132,9 @@
       "index": 10,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei, non sono cosi esperta",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

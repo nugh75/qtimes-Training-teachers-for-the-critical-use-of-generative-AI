@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:41:58.957606+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -16,24 +17,28 @@
   "record_subcodes": [
     "I2",
     "I4",
+    "N1",
     "P1",
     "S6",
     "X2"
   ],
   "record_note": "Il partecipante mostra una consapevolezza critica sui limiti dell'IA, riconoscendone l'utilità nella progettazione ma rifiutandone l'uso in ambiti che richiedono giudizio umano e relazione (valutazione, produzione di testi).",
   "code_counts": {
+    "N1": 1,
     "I2": 1,
     "I4": 2,
     "P1": 1,
-    "S6": 1,
-    "X2": 1
+    "X2": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ho le competenze adeguate",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di limitazione personale non codificabile."
     },
     {

@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:49:37.185641+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "P7",
@@ -29,17 +31,18 @@
   ],
   "record_note": "Il partecipante è consapevole del potenziale di efficienza dell'IA, ma sottolinea la necessità di un uso critico e non sostitutivo, specialmente nelle funzioni valutative e decisionali.",
   "code_counts": {
-    "I2": 1,
-    "P2": 2,
     "P5": 4,
-    "P7": 1,
-    "R2": 1,
-    "S4": 1,
-    "S6": 1,
     "X1": 2,
-    "X2": 1,
+    "P2": 2,
     "X3": 2,
-    "X7": 1
+    "P7": 1,
+    "N1": 3,
+    "X2": 1,
+    "S4": 1,
+    "I2": 1,
+    "S6": 1,
+    "X7": 1,
+    "R2": 1
   },
   "items": [
     {
@@ -88,21 +91,27 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Al momento no",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Al momento non ho studenti",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non ha studenti)."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà."
     },
     {

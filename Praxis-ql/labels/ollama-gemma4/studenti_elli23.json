@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:02:12.233956+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "I1",
     "I2",
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -30,17 +32,18 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per migliorare la comprensione e la personalizzazione dello studio, ma mostra consapevolezza dei limiti di accuratezza e della necessità di verifica umana.",
   "code_counts": {
-    "I1": 1,
-    "I2": 1,
+    "N1": 1,
+    "P6": 1,
+    "X1": 2,
     "P2": 3,
     "P5": 2,
-    "P6": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 2,
-    "S5": 1,
-    "X1": 2,
     "X2": 2,
-    "X3": 1,
+    "S5": 1,
+    "I2": 1,
+    "I1": 1,
     "X7": 1
   },
   "items": [
@@ -48,7 +51,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "_",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta vuota o non informativa."
     },
     {

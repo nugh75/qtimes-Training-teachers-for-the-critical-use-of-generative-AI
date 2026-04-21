@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:58:47.970696+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P6",
     "P7",
     "R4",
@@ -25,12 +27,13 @@
   "record_note": "Lo studente è consapevole dei benefici (efficienza, riduzione dello stress) ma anche dei rischi (dipendenza, perdita di creatività/pensiero critico) dell'uso dell'IA.",
   "code_counts": {
     "P6": 1,
+    "N1": 2,
     "P7": 1,
     "R4": 1,
-    "S3": 2,
-    "S4": 1,
     "X1": 2,
-    "X2": 2
+    "X2": 2,
+    "S3": 2,
+    "S4": 1
   },
   "items": [
     {
@@ -46,7 +49,9 @@
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -83,7 +88,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa/non informativa."
     },
     {

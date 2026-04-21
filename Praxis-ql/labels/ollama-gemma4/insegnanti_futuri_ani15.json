@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:39:25.223334+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "X3",
     "X6"
   ],
   "record_note": "Il partecipante mostra una visione cauta e orientata al processo, vedendo l'IA come un supporto che deve seguire lo sviluppo delle competenze degli studenti.",
   "code_counts": {
+    "N1": 2,
     "P2": 1,
     "X3": 1,
     "X6": 1
@@ -27,7 +30,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "So utilizzarla, perché sono una grafica editoriale, ma la utilizzo raramente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul perché non viene utilizzata l'IA."
     },
     {
@@ -53,7 +58,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Nessuna tecnologia è pericolosa.  L' importante è utilizzare la tecnologia e non farsi utilizzare da essa.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è generica e non identifica pratiche specifiche da evitare."
     }
   ]

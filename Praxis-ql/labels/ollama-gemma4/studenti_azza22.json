@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:56:41.392834+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P4",
     "P5",
     "R3",
@@ -23,19 +25,22 @@
   ],
   "record_note": "L'utente mostra una consapevolezza crescente sull'uso dell'IA, riconoscendo i benefici (simulazione) ma anche i rischi di dipendenza e di plagio.",
   "code_counts": {
-    "P4": 1,
-    "P5": 1,
+    "N1": 1,
     "R3": 1,
-    "S2": 1,
+    "X5": 1,
+    "P4": 1,
     "S4": 1,
-    "X5": 1
+    "S2": 1,
+    "P5": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non sono abituato e di conseguenza non l'ho mai provata effettivamente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica mancanza di abitudine."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:57:02.506071+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "P7",
@@ -26,12 +28,13 @@
   "code_counts": {
     "P1": 5,
     "P5": 2,
-    "P7": 1,
-    "S1": 1,
-    "S2": 1,
-    "X1": 1,
     "X2": 3,
-    "X5": 1
+    "P7": 1,
+    "X1": 1,
+    "N1": 1,
+    "S1": 1,
+    "X5": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -89,7 +92,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non molte, a volte però non risponde pienamente alle mie domande o richieste",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il problema riscontrato è un limite di risposta dell'IA, non un codice specifico del codebook."
     },
     {

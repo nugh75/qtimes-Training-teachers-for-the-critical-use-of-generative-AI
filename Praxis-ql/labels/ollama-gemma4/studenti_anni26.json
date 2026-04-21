@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:53:04.953155+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P6",
     "P7",
     "S2",
@@ -21,18 +23,21 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per svolgere compiti e semplificare testi, mostrando consapevolezza dei rischi di delega e di non sviluppare competenze.",
   "code_counts": {
+    "N1": 3,
     "P6": 1,
-    "P7": 1,
     "S2": 3,
-    "S4": 1,
-    "X2": 2
+    "P7": 1,
+    "X2": 2,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“”",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -49,7 +54,9 @@
       "index": 3,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa/non informativa."
     },
     {
@@ -83,7 +90,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa/non informativa."
     },
     {

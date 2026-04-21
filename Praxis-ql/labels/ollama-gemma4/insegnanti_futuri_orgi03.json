@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:47:19.782682+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P3",
     "P5",
@@ -24,14 +26,15 @@
   ],
   "record_note": "L'utente è un insegnante pre-service che utilizza l'IA principalmente per la sintesi e la produzione di contenuti (riassunti, traduzioni), ma mostra consapevolezza dei limiti tecnici (I2).",
   "code_counts": {
-    "I2": 1,
-    "P1": 2,
-    "P3": 1,
     "P5": 3,
     "P6": 1,
+    "N1": 4,
     "P7": 1,
+    "P3": 1,
+    "P1": 2,
+    "X2": 1,
     "X1": 1,
-    "X2": 1
+    "I2": 1
   },
   "items": [
     {
@@ -48,14 +51,18 @@
       "index": 2,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "Feedback",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è solo 'Feedback', troppo generica per assegnare codici specifici."
     },
     {
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
@@ -92,7 +99,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     },
     {
@@ -110,7 +119,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non so')."
     }
   ]

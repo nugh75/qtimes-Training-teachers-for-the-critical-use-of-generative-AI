@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:32:22.035695+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S3",
     "S4",
@@ -21,6 +23,7 @@
   ],
   "record_note": "Il partecipante esprime scetticismo e preferenza per l'interazione umana, manifestando una certa diffidenza verso l'IA.",
   "code_counts": {
+    "N1": 2,
     "I4": 1,
     "R5": 1,
     "S3": 1,
@@ -32,7 +35,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "No",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {
@@ -49,7 +54,9 @@
       "index": 3,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non so.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di incertezza ('Non so')."
     },
     {

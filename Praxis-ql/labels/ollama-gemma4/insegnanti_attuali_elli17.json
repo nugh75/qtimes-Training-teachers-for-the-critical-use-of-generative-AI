@@ -9,10 +9,12 @@
   "generated_at": "2026-04-19T20:56:10.733386+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S3",
     "S4",
     "S5",
@@ -20,18 +22,21 @@
   ],
   "record_note": "L'insegnante esprime una forte diffidenza verso l'uso dell'IA, evidenziando rischi pedagogici (erosione del pensiero critico, sostituzione della relazione) e di qualità dei contenuti (affidabilità).",
   "code_counts": {
-    "I4": 1,
-    "S3": 1,
+    "N1": 1,
     "S4": 1,
+    "S6": 2,
     "S5": 1,
-    "S6": 2
+    "I4": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Preferisco utilizzare l'intelligenza naturale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o non pertinente al contesto di utilizzo dell'IA."
     },
     {

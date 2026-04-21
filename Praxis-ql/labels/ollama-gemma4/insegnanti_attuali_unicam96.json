@@ -9,28 +9,33 @@
   "generated_at": "2026-04-19T21:34:26.465480+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S4",
     "S6",
     "X2"
   ],
   "record_note": "L'insegnante mostra una consapevolezza critica sui limiti dell'IA, valorizzando il ruolo insostituibile dell'interazione umana e del pensiero critico.",
   "code_counts": {
+    "N1": 1,
     "I4": 2,
-    "S4": 2,
     "S6": 1,
-    "X2": 1
+    "X2": 1,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

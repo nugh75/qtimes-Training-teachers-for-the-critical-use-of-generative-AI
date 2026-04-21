@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:04:19.384567+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S2",
     "S4",
     "S6",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'insegnante mostra una forte diffidenza verso l'uso dell'IA in didattica, temendo che possa compromettere l'apprendimento autonomo e la relazione educativa.",
   "code_counts": {
+    "N1": 1,
     "I4": 1,
-    "S2": 2,
-    "S4": 1,
     "S6": 1,
-    "X6": 1
+    "X6": 1,
+    "S2": 2,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché non la conosco abbastanza bene",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di fornire dettagli sulla non-utilizzazione dell'IA."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:03:28.748189+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -26,16 +28,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per attività didattiche specifiche (test, materiali) ma solleva preoccupazioni sull'appiattimento delle capacità cognitive.",
   "code_counts": {
-    "P1": 3,
+    "P6": 1,
     "P2": 2,
     "P4": 1,
-    "P5": 1,
-    "P6": 1,
-    "P7": 1,
-    "S3": 1,
     "X3": 2,
+    "P1": 3,
+    "P7": 1,
+    "P5": 1,
     "X4": 1,
-    "X6": 1
+    "X6": 1,
+    "N1": 1,
+    "S3": 1
   },
   "items": [
     {
@@ -102,7 +105,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Tempi lunghi per essere usati",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il problema riscontrato è legato al tempo di utilizzo, non a un codice specifico del framework."
     },
     {

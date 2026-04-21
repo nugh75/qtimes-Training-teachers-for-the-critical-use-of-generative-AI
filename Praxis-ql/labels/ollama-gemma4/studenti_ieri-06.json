@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:10:52.008521+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente usa l'IA principalmente per riassumere e semplificare concetti, ma mostra consapevolezza dei limiti etici e accademici (plagio/produzione di testi).",
   "code_counts": {
+    "N1": 3,
+    "P6": 1,
+    "X2": 1,
     "P2": 1,
     "P5": 3,
-    "P6": 1,
-    "S2": 1,
-    "S4": 1,
-    "X2": 1,
     "X3": 1,
-    "X5": 1
+    "X5": 1,
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -75,7 +80,9 @@
       "index": 5,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "non mi aiuta molto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non specifica."
     },
     {
@@ -91,7 +98,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessunq",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('nessunq')."
     },
     {

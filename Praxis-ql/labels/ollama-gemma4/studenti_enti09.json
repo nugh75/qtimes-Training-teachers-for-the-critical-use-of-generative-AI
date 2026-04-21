@@ -9,26 +9,31 @@
   "generated_at": "2026-04-19T22:03:59.672452+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "R5",
     "X6"
   ],
   "record_note": "Lo studente mostra una preferenza per metodi tradizionali (cartaceo) e un uso cauto dell'IA, riconoscendone i benefici ma anche i rischi di distrazione.",
   "code_counts": {
-    "I2": 1,
+    "N1": 2,
     "R5": 1,
-    "X6": 1
+    "X6": 1,
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa ma non fornisce dettagli o motivazioni di utilizzo."
     },
     {
@@ -54,7 +59,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('Non lo so')."
     }
   ]

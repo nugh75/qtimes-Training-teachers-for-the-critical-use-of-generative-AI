@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:52:04.633384+00:00",
   "record_dimensions": [
+    "N",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "S2"
   ],
   "record_note": "La partecipante manifesta un rifiuto totale e consapevole dell'uso dell'IA nello studio, motivandolo principalmente con il timore di 'barare' o di compromettere l'autenticità del proprio lavoro.",
   "code_counts": {
+    "N1": 2,
     "S2": 2
   },
   "items": [
@@ -22,7 +25,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Io mai utilizzato artificiale   Non voglio usare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto esplicito di utilizzare l'IA."
     },
     {
@@ -38,7 +43,9 @@
       "index": 3,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "io non uso mai inteligenza  artificiale",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto esplicito di utilizzare l'IA."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:21:24.451562+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -23,13 +25,14 @@
   ],
   "record_note": "L'utente utilizza l'IA per supportare l'individualizzazione e la comprensione dei contenuti, ma mostra consapevolezza dei limiti critici (non sostituire la rielaborazione).",
   "code_counts": {
-    "P1": 1,
+    "P6": 1,
     "P2": 2,
     "P5": 2,
-    "P6": 1,
-    "S2": 1,
+    "X2": 2,
+    "P1": 1,
+    "N1": 1,
     "S4": 1,
-    "X2": 2
+    "S2": 1
   },
   "items": [
     {
@@ -92,7 +95,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Non molta",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è non informativa."
     },
     {

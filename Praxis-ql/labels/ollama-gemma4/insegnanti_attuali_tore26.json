@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:33:10.230803+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S5",
@@ -23,19 +25,22 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per ricevere suggerimenti su come adattare i percorsi didattici, mostrando consapevolezza dei limiti (affidabilità delle fonti) ma senza esperienza specifica su pratiche non raccomandate.",
   "code_counts": {
-    "I2": 1,
+    "N1": 3,
     "P2": 3,
+    "X3": 4,
     "P5": 1,
-    "S5": 2,
     "X2": 1,
-    "X3": 4
+    "S5": 2,
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "griglie di valutazione",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta si limita a nominare un tipo di strumento (griglie di valutazione) senza descriverne l'uso con IA o il processo."
     },
     {
@@ -73,7 +78,9 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "al momento non ho dati precisi",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -109,7 +116,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non ho abbastanza esperienza in merito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

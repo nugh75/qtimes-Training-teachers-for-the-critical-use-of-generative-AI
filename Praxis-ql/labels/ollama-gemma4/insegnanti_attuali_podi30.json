@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:23:43.413864+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S2",
     "S4",
@@ -20,17 +22,20 @@
   ],
   "record_note": "L'insegnante mostra scetticismo sull'uso dell'IA, preferendo metodi didattici tradizionali e temendo che l'IA possa portare a scorciatoie e perdita di competenze fondamentali.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
-    "S2": 1,
+    "X2": 1,
     "S4": 2,
-    "X2": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non e 'ancora inserita a pieno ritmo nelle scuole",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul non utilizzo dell'IA in didattica."
     },
     {

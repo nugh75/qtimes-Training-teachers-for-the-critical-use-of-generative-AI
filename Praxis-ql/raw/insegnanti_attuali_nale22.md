@@ -11,6 +11,12 @@ note: "L'insegnante esprime preoccupazioni riguardo all'impatto negativo dell'IA
 
 # Risposta NALE22
 
+## Legenda codici del record
+
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S4**: Erosione del pensiero critico.
+- **S7**: Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +24,7 @@ note: "L'insegnante esprime preoccupazioni riguardo all'impatto negativo dell'IA
 **Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
 **Reason**: Il timore che l'uso dell'IA possa portare a pigrizia.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +32,7 @@ note: "L'insegnante esprime preoccupazioni riguardo all'impatto negativo dell'IA
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Necessità che i bambini sviluppino abilità prima di gestire l'IA.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +40,12 @@ note: "L'insegnante esprime preoccupazioni riguardo all'impatto negativo dell'IA
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Riferimento a scarso senso critico e scarsa capacità di analisi.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Nell'ambito della creatività
 **Codes**: S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
 **Reason**: Limitazione dell'uso dell'IA nell'ambito della creatività.
+
+**Cited in:** —

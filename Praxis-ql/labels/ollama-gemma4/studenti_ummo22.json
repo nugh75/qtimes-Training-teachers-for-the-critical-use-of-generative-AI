@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:33:07.781948+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -25,14 +27,15 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la comprensione e la riorganizzazione dei contenuti, mostrando consapevolezza dei suoi limiti.",
   "code_counts": {
-    "I2": 1,
-    "P2": 2,
-    "P3": 1,
-    "P5": 3,
     "P6": 1,
-    "S4": 1,
+    "P2": 2,
+    "P5": 3,
+    "P3": 1,
     "X2": 4,
-    "X5": 1
+    "N1": 1,
+    "I2": 1,
+    "X5": 1,
+    "S4": 1
   },
   "items": [
     {
@@ -89,7 +92,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

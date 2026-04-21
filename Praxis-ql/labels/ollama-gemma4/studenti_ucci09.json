@@ -9,21 +9,24 @@
   "generated_at": "2026-04-19T22:32:10.046769+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P5",
     "S4",
     "X1"
   ],
   "record_note": "Lo studente mostra una diffidenza verso l'IA, preferendo metodi manuali e riconoscendo i rischi di imprecisione.",
   "code_counts": {
-    "I2": 2,
+    "N1": 2,
     "P5": 1,
     "S4": 1,
+    "I2": 2,
     "X1": 1
   },
   "items": [
@@ -31,7 +34,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché per ora non ne ho bisogno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (non ne ho bisogno)."
     },
     {
@@ -59,7 +64,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non lo so sinceramente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa (Non lo so sinceramente)."
     }
   ]

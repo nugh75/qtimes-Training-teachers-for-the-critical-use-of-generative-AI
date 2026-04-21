@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:29:53.779272+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -17,6 +18,7 @@
   "record_subcodes": [
     "I2",
     "I4",
+    "N1",
     "P1",
     "P6",
     "P7",
@@ -26,21 +28,24 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per la ricerca di informazioni, riconoscendone i benefici ma anche i limiti (errori e ambiti non adatti).",
   "code_counts": {
-    "I2": 2,
-    "I4": 1,
-    "P1": 1,
+    "N1": 2,
     "P6": 1,
     "P7": 1,
     "R4": 1,
+    "X2": 3,
+    "P1": 1,
+    "I2": 2,
     "S7": 1,
-    "X2": 3
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "per le ricerche",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica ('per le ricerche') non specifica un uso didattico o di studio."
     },
     {
@@ -56,7 +61,9 @@
       "index": 3,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "non personalizzare il mio studio",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un rifiuto di personalizzare lo studio, non fornendo dettagli o un'alternativa di supporto."
     },
     {

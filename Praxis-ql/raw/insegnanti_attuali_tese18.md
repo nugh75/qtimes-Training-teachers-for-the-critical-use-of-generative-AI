@@ -11,9 +11,15 @@ note: "Il partecipante identifica un rischio negativo principale legato alla dip
 
 # Risposta tese18
 
+## Legenda codici del record
+
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+
 ## Item 1 {#item-1}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
 **A**: Contro: essere dipendenti dall’AI anche nella quotidianità
 **Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
 **Reason**: Il partecipante menziona il rischio di dipendenza dall'AI nella quotidianità, che rientra nel concetto di delega cognitiva eccessiva.
+
+**Cited in:** —

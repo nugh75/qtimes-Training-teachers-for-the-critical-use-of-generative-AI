@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T22:04:02.852927+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -28,16 +30,17 @@
   ],
   "record_note": "L'utente mostra un uso attivo e consapevole dell'IA per migliorare lo studio, riconoscendo sia i benefici (X2) che i rischi (I2, S2).",
   "code_counts": {
-    "I2": 2,
-    "P1": 1,
-    "P2": 1,
-    "P3": 1,
-    "P5": 1,
     "P6": 1,
-    "R2": 2,
-    "S2": 1,
     "X2": 4,
-    "X3": 1
+    "P2": 1,
+    "P5": 1,
+    "X3": 1,
+    "N1": 2,
+    "P1": 1,
+    "P3": 1,
+    "R2": 2,
+    "I2": 2,
+    "S2": 1
   },
   "items": [
     {
@@ -65,7 +68,9 @@
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Potresti darmi altre informazioni rispetto all’argomento x",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non fornisce un esempio di prompt specifico."
     },
     {
@@ -90,7 +95,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

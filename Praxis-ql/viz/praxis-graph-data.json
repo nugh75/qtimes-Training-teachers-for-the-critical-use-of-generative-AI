@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T10:34:33.797038+00:00",
-    "records_total": 730,
+    "generated_at": "2026-04-21T13:08:51.494826+00:00",
+    "records_total": 731,
     "dimensions": {
       "A": "Adeguatezza del supporto",
       "I": "Fiducia interpersonale",
@@ -17,7 +17,7 @@
         {
           "id": "P",
           "label": "Practice patterns",
-          "count": 1594,
+          "count": 1599,
           "codes": [
             {
               "code": "P1",
@@ -52,7 +52,7 @@
         {
           "id": "X",
           "label": "Expectations",
-          "count": 1569,
+          "count": 1575,
           "codes": [
             {
               "code": "X1",
@@ -122,7 +122,7 @@
         {
           "id": "I",
           "label": "Fiducia interpersonale",
-          "count": 356,
+          "count": 357,
           "codes": [
             {
               "code": "I1",
@@ -149,7 +149,7 @@
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 287,
+          "count": 298,
           "codes": [
             {
               "code": "R1",
@@ -176,7 +176,7 @@
         {
           "id": "A",
           "label": "Adeguatezza del supporto",
-          "count": 97,
+          "count": 98,
           "codes": [
             {
               "code": "A1",
@@ -201,7 +201,7 @@
         {
           "source": "P",
           "target": "X",
-          "weight": 867
+          "weight": 871
         },
         {
           "source": "S",
@@ -216,7 +216,7 @@
         {
           "source": "I",
           "target": "X",
-          "weight": 98
+          "weight": 99
         },
         {
           "source": "P",
@@ -274,45 +274,45 @@
           "weight": 3
         }
       ],
-      "records_count": 730,
-      "items_count": 3248,
-      "total_dimension_mentions": 4908,
+      "records_count": 731,
+      "items_count": 3267,
+      "total_dimension_mentions": 4932,
       "top_dimensions": [
         {
           "id": "P",
           "label": "Practice patterns",
-          "count": 1594,
-          "share": 32.48
+          "count": 1599,
+          "share": 32.42
         },
         {
           "id": "X",
           "label": "Expectations",
-          "count": 1569,
-          "share": 31.97
+          "count": 1575,
+          "share": 31.93
         },
         {
           "id": "S",
           "label": "Skepticisms",
           "count": 1005,
-          "share": 20.48
+          "share": 20.38
         },
         {
           "id": "I",
           "label": "Fiducia interpersonale",
-          "count": 356,
-          "share": 7.25
+          "count": 357,
+          "share": 7.24
         },
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 287,
-          "share": 5.85
+          "count": 298,
+          "share": 6.04
         },
         {
           "id": "A",
           "label": "Adeguatezza del supporto",
-          "count": 97,
-          "share": 1.98
+          "count": 98,
+          "share": 1.99
         }
       ],
       "subcodes": [
@@ -321,20 +321,20 @@
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 597,
-          "share": 10.27
+          "share": 10.23
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 594,
-          "share": 10.22
+          "share": 10.18
         },
         {
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-          "count": 540,
+          "count": 542,
           "share": 9.29
         },
         {
@@ -342,154 +342,154 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 513,
-          "share": 8.83
+          "share": 8.79
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
-          "count": 442,
-          "share": 7.6
+          "count": 444,
+          "share": 7.61
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-          "count": 335,
-          "share": 5.76
+          "count": 337,
+          "share": 5.77
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 331,
-          "share": 5.7
+          "share": 5.67
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 250,
-          "share": 4.3
+          "share": 4.28
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 214,
-          "share": 3.68
+          "share": 3.67
         },
         {
           "id": "S6",
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 189,
-          "share": 3.25
+          "share": 3.24
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-          "count": 187,
+          "count": 188,
           "share": 3.22
+        },
+        {
+          "id": "P7",
+          "dimension": "P",
+          "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
+          "count": 151,
+          "share": 2.59
+        },
+        {
+          "id": "X6",
+          "dimension": "X",
+          "label": "Coinvolgimento, arricchimento e innovazione.",
+          "count": 151,
+          "share": 2.59
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 150,
-          "share": 2.58
-        },
-        {
-          "id": "P7",
-          "dimension": "P",
-          "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-          "count": 150,
-          "share": 2.58
-        },
-        {
-          "id": "X6",
-          "dimension": "X",
-          "label": "Coinvolgimento, arricchimento e innovazione.",
-          "count": 148,
-          "share": 2.55
+          "share": 2.57
         },
         {
           "id": "X5",
           "dimension": "X",
           "label": "Autonomia, organizzazione e supporto al percorso.",
           "count": 142,
-          "share": 2.44
+          "share": 2.43
         },
         {
           "id": "R4",
           "dimension": "R",
           "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-          "count": 132,
-          "share": 2.27
+          "count": 138,
+          "share": 2.36
         },
         {
           "id": "P4",
           "dimension": "P",
           "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
           "count": 98,
-          "share": 1.69
+          "share": 1.68
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 93,
-          "share": 1.6
+          "share": 1.59
         },
         {
           "id": "S5",
           "dimension": "S",
           "label": "Informazioni false, imprecisione, affidabilita' debole.",
           "count": 93,
-          "share": 1.6
+          "share": 1.59
+        },
+        {
+          "id": "R5",
+          "dimension": "R",
+          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
+          "count": 77,
+          "share": 1.32
         },
         {
           "id": "S1",
           "dimension": "S",
           "label": "Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.",
           "count": 75,
-          "share": 1.29
-        },
-        {
-          "id": "R5",
-          "dimension": "R",
-          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-          "count": 74,
-          "share": 1.27
+          "share": 1.28
         },
         {
           "id": "P3",
           "dimension": "P",
           "label": "Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.",
           "count": 72,
-          "share": 1.24
+          "share": 1.23
         },
         {
           "id": "A1",
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
-          "count": 66,
-          "share": 1.14
+          "count": 67,
+          "share": 1.15
         },
         {
           "id": "X4",
           "dimension": "X",
           "label": "Inclusione e accesso.",
           "count": 66,
-          "share": 1.14
+          "share": 1.13
         },
         {
           "id": "S7",
           "dimension": "S",
           "label": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
           "count": 58,
-          "share": 1.0
+          "share": 0.99
         },
         {
           "id": "R2",
@@ -502,8 +502,8 @@
           "id": "X7",
           "dimension": "X",
           "label": "Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.",
-          "count": 49,
-          "share": 0.84
+          "count": 50,
+          "share": 0.86
         },
         {
           "id": "A3",
@@ -516,8 +516,8 @@
           "id": "R3",
           "dimension": "R",
           "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
-          "count": 23,
-          "share": 0.4
+          "count": 25,
+          "share": 0.43
         },
         {
           "id": "I5",
@@ -560,6 +560,13 @@
           "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
           "count": 4,
           "share": 0.07
+        },
+        {
+          "id": "N1",
+          "dimension": "N",
+          "label": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
+          "count": 1,
+          "share": 0.02
         }
       ],
       "top_subcodes": [
@@ -568,20 +575,20 @@
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 597,
-          "share": 10.27
+          "share": 10.23
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 594,
-          "share": 10.22
+          "share": 10.18
         },
         {
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-          "count": 540,
+          "count": 542,
           "share": 9.29
         },
         {
@@ -589,151 +596,151 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 513,
-          "share": 8.83
+          "share": 8.79
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
-          "count": 442,
-          "share": 7.6
+          "count": 444,
+          "share": 7.61
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-          "count": 335,
-          "share": 5.76
+          "count": 337,
+          "share": 5.77
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 331,
-          "share": 5.7
+          "share": 5.67
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 250,
-          "share": 4.3
+          "share": 4.28
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 214,
-          "share": 3.68
+          "share": 3.67
         },
         {
           "id": "S6",
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 189,
-          "share": 3.25
+          "share": 3.24
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-          "count": 187,
+          "count": 188,
           "share": 3.22
+        },
+        {
+          "id": "P7",
+          "dimension": "P",
+          "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
+          "count": 151,
+          "share": 2.59
+        },
+        {
+          "id": "X6",
+          "dimension": "X",
+          "label": "Coinvolgimento, arricchimento e innovazione.",
+          "count": 151,
+          "share": 2.59
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 150,
-          "share": 2.58
-        },
-        {
-          "id": "P7",
-          "dimension": "P",
-          "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-          "count": 150,
-          "share": 2.58
-        },
-        {
-          "id": "X6",
-          "dimension": "X",
-          "label": "Coinvolgimento, arricchimento e innovazione.",
-          "count": 148,
-          "share": 2.55
+          "share": 2.57
         },
         {
           "id": "X5",
           "dimension": "X",
           "label": "Autonomia, organizzazione e supporto al percorso.",
           "count": 142,
-          "share": 2.44
+          "share": 2.43
         },
         {
           "id": "R4",
           "dimension": "R",
           "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-          "count": 132,
-          "share": 2.27
+          "count": 138,
+          "share": 2.36
         },
         {
           "id": "P4",
           "dimension": "P",
           "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
           "count": 98,
-          "share": 1.69
+          "share": 1.68
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 93,
-          "share": 1.6
+          "share": 1.59
         },
         {
           "id": "S5",
           "dimension": "S",
           "label": "Informazioni false, imprecisione, affidabilita' debole.",
           "count": 93,
-          "share": 1.6
+          "share": 1.59
         },
         {
-          "id": "S1",
-          "dimension": "S",
-          "label": "Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.",
-          "count": 75,
-          "share": 1.29
+          "id": "R5",
+          "dimension": "R",
+          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
+          "count": 77,
+          "share": 1.32
         }
       ],
-      "total_subcode_mentions": 5812,
+      "total_subcode_mentions": 5837,
       "dimension_to_subcodes": {
         "A": [
           {
             "id": "A1",
             "dimension": "A",
             "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
-            "count": 66,
-            "share_within_dimension": 65.35
+            "count": 67,
+            "share_within_dimension": 65.69
           },
           {
             "id": "A3",
             "dimension": "A",
             "label": "Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.",
             "count": 25,
-            "share_within_dimension": 24.75
+            "share_within_dimension": 24.51
           },
           {
             "id": "A2",
             "dimension": "A",
             "label": "Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato.",
             "count": 6,
-            "share_within_dimension": 5.94
+            "share_within_dimension": 5.88
           },
           {
             "id": "A4",
             "dimension": "A",
             "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
             "count": 4,
-            "share_within_dimension": 3.96
+            "share_within_dimension": 3.92
           }
         ],
         "I": [
@@ -741,36 +748,36 @@
             "id": "I4",
             "dimension": "I",
             "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-            "count": 187,
-            "share_within_dimension": 50.4
+            "count": 188,
+            "share_within_dimension": 50.54
           },
           {
             "id": "I2",
             "dimension": "I",
             "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
             "count": 150,
-            "share_within_dimension": 40.43
+            "share_within_dimension": 40.32
           },
           {
             "id": "I5",
             "dimension": "I",
             "label": "Privacy e affidamento dei dati.",
             "count": 14,
-            "share_within_dimension": 3.77
+            "share_within_dimension": 3.76
           },
           {
             "id": "I1",
             "dimension": "I",
             "label": "Fiducia tecnica condizionata: utile ma da verificare e controllare.",
             "count": 10,
-            "share_within_dimension": 2.7
+            "share_within_dimension": 2.69
           },
           {
             "id": "I3",
             "dimension": "I",
             "label": "Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.",
             "count": 10,
-            "share_within_dimension": 2.7
+            "share_within_dimension": 2.69
           }
         ],
         "P": [
@@ -779,49 +786,49 @@
             "dimension": "P",
             "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
             "count": 594,
-            "share_within_dimension": 29.13
+            "share_within_dimension": 29.06
           },
           {
             "id": "P2",
             "dimension": "P",
             "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-            "count": 540,
-            "share_within_dimension": 26.48
+            "count": 542,
+            "share_within_dimension": 26.52
           },
           {
             "id": "P1",
             "dimension": "P",
             "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-            "count": 335,
-            "share_within_dimension": 16.43
+            "count": 337,
+            "share_within_dimension": 16.49
           },
           {
             "id": "P6",
             "dimension": "P",
             "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
             "count": 250,
-            "share_within_dimension": 12.26
+            "share_within_dimension": 12.23
           },
           {
             "id": "P7",
             "dimension": "P",
             "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-            "count": 150,
-            "share_within_dimension": 7.36
+            "count": 151,
+            "share_within_dimension": 7.39
           },
           {
             "id": "P4",
             "dimension": "P",
             "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
             "count": 98,
-            "share_within_dimension": 4.81
+            "share_within_dimension": 4.79
           },
           {
             "id": "P3",
             "dimension": "P",
             "label": "Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.",
             "count": 72,
-            "share_within_dimension": 3.53
+            "share_within_dimension": 3.52
           }
         ],
         "R": [
@@ -829,36 +836,36 @@
             "id": "R4",
             "dimension": "R",
             "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-            "count": 132,
-            "share_within_dimension": 45.36
+            "count": 138,
+            "share_within_dimension": 45.7
           },
           {
             "id": "R5",
             "dimension": "R",
             "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-            "count": 74,
-            "share_within_dimension": 25.43
+            "count": 77,
+            "share_within_dimension": 25.5
           },
           {
             "id": "R2",
             "dimension": "R",
             "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
             "count": 50,
-            "share_within_dimension": 17.18
+            "share_within_dimension": 16.56
           },
           {
             "id": "R3",
             "dimension": "R",
             "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
-            "count": 23,
-            "share_within_dimension": 7.9
+            "count": 25,
+            "share_within_dimension": 8.28
           },
           {
             "id": "R1",
             "dimension": "R",
             "label": "Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.",
             "count": 12,
-            "share_within_dimension": 4.12
+            "share_within_dimension": 3.97
           }
         ],
         "S": [
@@ -918,49 +925,49 @@
             "dimension": "X",
             "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
             "count": 597,
-            "share_within_dimension": 33.63
+            "share_within_dimension": 33.52
           },
           {
             "id": "X3",
             "dimension": "X",
             "label": "Personalizzazione e attenzione al singolo.",
-            "count": 442,
-            "share_within_dimension": 24.9
+            "count": 444,
+            "share_within_dimension": 24.93
           },
           {
             "id": "X1",
             "dimension": "X",
             "label": "Efficienza e risparmio di tempo.",
             "count": 331,
-            "share_within_dimension": 18.65
+            "share_within_dimension": 18.59
           },
           {
             "id": "X6",
             "dimension": "X",
             "label": "Coinvolgimento, arricchimento e innovazione.",
-            "count": 148,
-            "share_within_dimension": 8.34
+            "count": 151,
+            "share_within_dimension": 8.48
           },
           {
             "id": "X5",
             "dimension": "X",
             "label": "Autonomia, organizzazione e supporto al percorso.",
             "count": 142,
-            "share_within_dimension": 8.0
+            "share_within_dimension": 7.97
           },
           {
             "id": "X4",
             "dimension": "X",
             "label": "Inclusione e accesso.",
             "count": 66,
-            "share_within_dimension": 3.72
+            "share_within_dimension": 3.71
           },
           {
             "id": "X7",
             "dimension": "X",
             "label": "Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.",
-            "count": 49,
-            "share_within_dimension": 2.76
+            "count": 50,
+            "share_within_dimension": 2.81
           }
         ]
       },
@@ -968,7 +975,7 @@
         {
           "source": "P2",
           "target": "X3",
-          "weight": 378
+          "weight": 380
         },
         {
           "source": "P5",
@@ -1201,6 +1208,11 @@
           "weight": 16
         },
         {
+          "source": "P1",
+          "target": "X6",
+          "weight": 16
+        },
+        {
           "source": "P2",
           "target": "P4",
           "weight": 16
@@ -1228,11 +1240,6 @@
         {
           "source": "P1",
           "target": "S2",
-          "weight": 14
-        },
-        {
-          "source": "P1",
-          "target": "X6",
           "weight": 14
         },
         {
@@ -1506,6 +1513,11 @@
           "weight": 6
         },
         {
+          "source": "I4",
+          "target": "X7",
+          "weight": 6
+        },
+        {
           "source": "I5",
           "target": "X3",
           "weight": 6
@@ -1553,11 +1565,6 @@
         {
           "source": "I2",
           "target": "S6",
-          "weight": 5
-        },
-        {
-          "source": "I4",
-          "target": "X7",
           "weight": 5
         },
         {
@@ -2276,6 +2283,11 @@
           "weight": 1
         },
         {
+          "source": "N1",
+          "target": "P7",
+          "weight": 1
+        },
+        {
           "source": "P1",
           "target": "R2",
           "weight": 1
@@ -2467,7 +2479,7 @@
         {
           "id": "P",
           "label": "Practice patterns",
-          "count": 763,
+          "count": 768,
           "codes": [
             {
               "code": "P1",
@@ -2502,7 +2514,7 @@
         {
           "id": "X",
           "label": "Expectations",
-          "count": 716,
+          "count": 722,
           "codes": [
             {
               "code": "X1",
@@ -2572,7 +2584,7 @@
         {
           "id": "I",
           "label": "Fiducia interpersonale",
-          "count": 204,
+          "count": 205,
           "codes": [
             {
               "code": "I1",
@@ -2599,7 +2611,7 @@
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 141,
+          "count": 148,
           "codes": [
             {
               "code": "R1",
@@ -2626,7 +2638,7 @@
         {
           "id": "A",
           "label": "Adeguatezza del supporto",
-          "count": 86,
+          "count": 87,
           "codes": [
             {
               "code": "A1",
@@ -2651,7 +2663,7 @@
         {
           "source": "P",
           "target": "X",
-          "weight": 424
+          "weight": 428
         },
         {
           "source": "S",
@@ -2666,7 +2678,7 @@
         {
           "source": "I",
           "target": "X",
-          "weight": 56
+          "weight": 57
         },
         {
           "source": "P",
@@ -2724,45 +2736,45 @@
           "weight": 3
         }
       ],
-      "records_count": 357,
-      "items_count": 1568,
-      "total_dimension_mentions": 2407,
+      "records_count": 358,
+      "items_count": 1583,
+      "total_dimension_mentions": 2427,
       "top_dimensions": [
         {
           "id": "P",
           "label": "Practice patterns",
-          "count": 763,
-          "share": 31.7
+          "count": 768,
+          "share": 31.64
         },
         {
           "id": "X",
           "label": "Expectations",
-          "count": 716,
+          "count": 722,
           "share": 29.75
         },
         {
           "id": "S",
           "label": "Skepticisms",
           "count": 497,
-          "share": 20.65
+          "share": 20.48
         },
         {
           "id": "I",
           "label": "Fiducia interpersonale",
-          "count": 204,
-          "share": 8.48
+          "count": 205,
+          "share": 8.45
         },
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 141,
-          "share": 5.86
+          "count": 148,
+          "share": 6.1
         },
         {
           "id": "A",
           "label": "Adeguatezza del supporto",
-          "count": 86,
-          "share": 3.57
+          "count": 87,
+          "share": 3.58
         }
       ],
       "subcodes": [
@@ -2770,14 +2782,14 @@
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-          "count": 301,
-          "share": 10.34
+          "count": 303,
+          "share": 10.33
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
-          "count": 277,
+          "count": 279,
           "share": 9.52
         },
         {
@@ -2785,34 +2797,34 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 252,
-          "share": 8.66
+          "share": 8.59
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 246,
-          "share": 8.45
+          "share": 8.39
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-          "count": 216,
-          "share": 7.42
+          "count": 218,
+          "share": 7.44
         },
         {
           "id": "X2",
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 180,
-          "share": 6.18
+          "share": 6.14
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-          "count": 141,
+          "count": 142,
           "share": 4.84
         },
         {
@@ -2820,112 +2832,112 @@
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 115,
-          "share": 3.95
+          "share": 3.92
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 114,
-          "share": 3.92
+          "share": 3.89
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 113,
-          "share": 3.88
+          "share": 3.85
         },
         {
           "id": "X6",
           "dimension": "X",
           "label": "Coinvolgimento, arricchimento e innovazione.",
-          "count": 105,
-          "share": 3.61
+          "count": 108,
+          "share": 3.68
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 78,
-          "share": 2.68
+          "share": 2.66
         },
         {
           "id": "X5",
           "dimension": "X",
           "label": "Autonomia, organizzazione e supporto al percorso.",
           "count": 63,
-          "share": 2.16
+          "share": 2.15
         },
         {
           "id": "A1",
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
-          "count": 61,
-          "share": 2.1
+          "count": 62,
+          "share": 2.11
         },
         {
           "id": "P3",
           "dimension": "P",
           "label": "Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.",
           "count": 61,
-          "share": 2.1
+          "share": 2.08
+        },
+        {
+          "id": "R4",
+          "dimension": "R",
+          "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
+          "count": 60,
+          "share": 2.05
         },
         {
           "id": "X4",
           "dimension": "X",
           "label": "Inclusione e accesso.",
           "count": 58,
-          "share": 1.99
+          "share": 1.98
         },
         {
           "id": "P7",
           "dimension": "P",
           "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-          "count": 56,
-          "share": 1.92
+          "count": 57,
+          "share": 1.94
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 56,
-          "share": 1.92
+          "share": 1.91
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 54,
-          "share": 1.86
-        },
-        {
-          "id": "R4",
-          "dimension": "R",
-          "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-          "count": 54,
-          "share": 1.86
+          "share": 1.84
         },
         {
           "id": "P4",
           "dimension": "P",
           "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
           "count": 42,
-          "share": 1.44
+          "share": 1.43
         },
         {
           "id": "R5",
           "dimension": "R",
           "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-          "count": 38,
-          "share": 1.31
+          "count": 39,
+          "share": 1.33
         },
         {
           "id": "S5",
           "dimension": "S",
           "label": "Informazioni false, imprecisione, affidabilita' debole.",
           "count": 37,
-          "share": 1.27
+          "share": 1.26
         },
         {
           "id": "S1",
@@ -2935,16 +2947,16 @@
           "share": 1.13
         },
         {
-          "id": "R2",
-          "dimension": "R",
-          "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
-          "count": 31,
-          "share": 1.06
-        },
-        {
           "id": "X7",
           "dimension": "X",
           "label": "Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.",
+          "count": 32,
+          "share": 1.09
+        },
+        {
+          "id": "R2",
+          "dimension": "R",
+          "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
           "count": 31,
           "share": 1.06
         },
@@ -2953,14 +2965,14 @@
           "dimension": "S",
           "label": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
           "count": 29,
-          "share": 1.0
+          "share": 0.99
         },
         {
           "id": "A3",
           "dimension": "A",
           "label": "Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.",
           "count": 20,
-          "share": 0.69
+          "share": 0.68
         },
         {
           "id": "R3",
@@ -2988,14 +3000,14 @@
           "dimension": "A",
           "label": "Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato.",
           "count": 6,
-          "share": 0.21
+          "share": 0.2
         },
         {
           "id": "I3",
           "dimension": "I",
           "label": "Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.",
           "count": 6,
-          "share": 0.21
+          "share": 0.2
         },
         {
           "id": "I1",
@@ -3010,6 +3022,13 @@
           "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
           "count": 3,
           "share": 0.1
+        },
+        {
+          "id": "N1",
+          "dimension": "N",
+          "label": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
+          "count": 1,
+          "share": 0.03
         }
       ],
       "top_subcodes": [
@@ -3017,14 +3036,14 @@
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-          "count": 301,
-          "share": 10.34
+          "count": 303,
+          "share": 10.33
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
-          "count": 277,
+          "count": 279,
           "share": 9.52
         },
         {
@@ -3032,34 +3051,34 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 252,
-          "share": 8.66
+          "share": 8.59
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 246,
-          "share": 8.45
+          "share": 8.39
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-          "count": 216,
-          "share": 7.42
+          "count": 218,
+          "share": 7.44
         },
         {
           "id": "X2",
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 180,
-          "share": 6.18
+          "share": 6.14
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-          "count": 141,
+          "count": 142,
           "share": 4.84
         },
         {
@@ -3067,123 +3086,123 @@
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 115,
-          "share": 3.95
+          "share": 3.92
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 114,
-          "share": 3.92
+          "share": 3.89
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 113,
-          "share": 3.88
+          "share": 3.85
         },
         {
           "id": "X6",
           "dimension": "X",
           "label": "Coinvolgimento, arricchimento e innovazione.",
-          "count": 105,
-          "share": 3.61
+          "count": 108,
+          "share": 3.68
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 78,
-          "share": 2.68
+          "share": 2.66
         },
         {
           "id": "X5",
           "dimension": "X",
           "label": "Autonomia, organizzazione e supporto al percorso.",
           "count": 63,
-          "share": 2.16
+          "share": 2.15
         },
         {
           "id": "A1",
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
-          "count": 61,
-          "share": 2.1
+          "count": 62,
+          "share": 2.11
         },
         {
           "id": "P3",
           "dimension": "P",
           "label": "Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.",
           "count": 61,
-          "share": 2.1
+          "share": 2.08
+        },
+        {
+          "id": "R4",
+          "dimension": "R",
+          "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
+          "count": 60,
+          "share": 2.05
         },
         {
           "id": "X4",
           "dimension": "X",
           "label": "Inclusione e accesso.",
           "count": 58,
-          "share": 1.99
+          "share": 1.98
         },
         {
           "id": "P7",
           "dimension": "P",
           "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-          "count": 56,
-          "share": 1.92
+          "count": 57,
+          "share": 1.94
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 56,
-          "share": 1.92
+          "share": 1.91
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 54,
-          "share": 1.86
-        },
-        {
-          "id": "R4",
-          "dimension": "R",
-          "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-          "count": 54,
-          "share": 1.86
+          "share": 1.84
         }
       ],
-      "total_subcode_mentions": 2911,
+      "total_subcode_mentions": 2932,
       "dimension_to_subcodes": {
         "A": [
           {
             "id": "A1",
             "dimension": "A",
             "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
-            "count": 61,
-            "share_within_dimension": 67.78
+            "count": 62,
+            "share_within_dimension": 68.13
           },
           {
             "id": "A3",
             "dimension": "A",
             "label": "Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.",
             "count": 20,
-            "share_within_dimension": 22.22
+            "share_within_dimension": 21.98
           },
           {
             "id": "A2",
             "dimension": "A",
             "label": "Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato.",
             "count": 6,
-            "share_within_dimension": 6.67
+            "share_within_dimension": 6.59
           },
           {
             "id": "A4",
             "dimension": "A",
             "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
             "count": 3,
-            "share_within_dimension": 3.33
+            "share_within_dimension": 3.3
           }
         ],
         "I": [
@@ -3191,36 +3210,36 @@
             "id": "I4",
             "dimension": "I",
             "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
-            "count": 141,
-            "share_within_dimension": 65.28
+            "count": 142,
+            "share_within_dimension": 65.44
           },
           {
             "id": "I2",
             "dimension": "I",
             "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
             "count": 54,
-            "share_within_dimension": 25.0
+            "share_within_dimension": 24.88
           },
           {
             "id": "I5",
             "dimension": "I",
             "label": "Privacy e affidamento dei dati.",
             "count": 11,
-            "share_within_dimension": 5.09
+            "share_within_dimension": 5.07
           },
           {
             "id": "I3",
             "dimension": "I",
             "label": "Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.",
             "count": 6,
-            "share_within_dimension": 2.78
+            "share_within_dimension": 2.76
           },
           {
             "id": "I1",
             "dimension": "I",
             "label": "Fiducia tecnica condizionata: utile ma da verificare e controllare.",
             "count": 4,
-            "share_within_dimension": 1.85
+            "share_within_dimension": 1.84
           }
         ],
         "P": [
@@ -3228,50 +3247,50 @@
             "id": "P2",
             "dimension": "P",
             "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
-            "count": 301,
-            "share_within_dimension": 29.08
+            "count": 303,
+            "share_within_dimension": 29.13
           },
           {
             "id": "P5",
             "dimension": "P",
             "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
             "count": 246,
-            "share_within_dimension": 23.77
+            "share_within_dimension": 23.65
           },
           {
             "id": "P1",
             "dimension": "P",
             "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
-            "count": 216,
-            "share_within_dimension": 20.87
+            "count": 218,
+            "share_within_dimension": 20.96
           },
           {
             "id": "P6",
             "dimension": "P",
             "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
             "count": 113,
-            "share_within_dimension": 10.92
+            "share_within_dimension": 10.87
           },
           {
             "id": "P3",
             "dimension": "P",
             "label": "Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.",
             "count": 61,
-            "share_within_dimension": 5.89
+            "share_within_dimension": 5.87
           },
           {
             "id": "P7",
             "dimension": "P",
             "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
-            "count": 56,
-            "share_within_dimension": 5.41
+            "count": 57,
+            "share_within_dimension": 5.48
           },
           {
             "id": "P4",
             "dimension": "P",
             "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
             "count": 42,
-            "share_within_dimension": 4.06
+            "share_within_dimension": 4.04
           }
         ],
         "R": [
@@ -3279,36 +3298,36 @@
             "id": "R4",
             "dimension": "R",
             "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
-            "count": 54,
-            "share_within_dimension": 38.03
+            "count": 60,
+            "share_within_dimension": 40.27
           },
           {
             "id": "R5",
             "dimension": "R",
             "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-            "count": 38,
-            "share_within_dimension": 26.76
+            "count": 39,
+            "share_within_dimension": 26.17
           },
           {
             "id": "R2",
             "dimension": "R",
             "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
             "count": 31,
-            "share_within_dimension": 21.83
+            "share_within_dimension": 20.81
           },
           {
             "id": "R3",
             "dimension": "R",
             "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
             "count": 12,
-            "share_within_dimension": 8.45
+            "share_within_dimension": 8.05
           },
           {
             "id": "R1",
             "dimension": "R",
             "label": "Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.",
             "count": 7,
-            "share_within_dimension": 4.93
+            "share_within_dimension": 4.7
           }
         ],
         "S": [
@@ -3367,7 +3386,7 @@
             "id": "X3",
             "dimension": "X",
             "label": "Personalizzazione e attenzione al singolo.",
-            "count": 277,
+            "count": 279,
             "share_within_dimension": 33.45
           },
           {
@@ -3375,42 +3394,42 @@
             "dimension": "X",
             "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
             "count": 180,
-            "share_within_dimension": 21.74
+            "share_within_dimension": 21.58
           },
           {
             "id": "X1",
             "dimension": "X",
             "label": "Efficienza e risparmio di tempo.",
             "count": 114,
-            "share_within_dimension": 13.77
+            "share_within_dimension": 13.67
           },
           {
             "id": "X6",
             "dimension": "X",
             "label": "Coinvolgimento, arricchimento e innovazione.",
-            "count": 105,
-            "share_within_dimension": 12.68
+            "count": 108,
+            "share_within_dimension": 12.95
           },
           {
             "id": "X5",
             "dimension": "X",
             "label": "Autonomia, organizzazione e supporto al percorso.",
             "count": 63,
-            "share_within_dimension": 7.61
+            "share_within_dimension": 7.55
           },
           {
             "id": "X4",
             "dimension": "X",
             "label": "Inclusione e accesso.",
             "count": 58,
-            "share_within_dimension": 7.0
+            "share_within_dimension": 6.95
           },
           {
             "id": "X7",
             "dimension": "X",
             "label": "Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.",
-            "count": 31,
-            "share_within_dimension": 3.74
+            "count": 32,
+            "share_within_dimension": 3.84
           }
         ]
       },
@@ -3418,7 +3437,7 @@
         {
           "source": "P2",
           "target": "X3",
-          "weight": 239
+          "weight": 241
         },
         {
           "source": "P1",
@@ -3541,6 +3560,11 @@
           "weight": 17
         },
         {
+          "source": "P1",
+          "target": "X6",
+          "weight": 16
+        },
+        {
           "source": "P3",
           "target": "X3",
           "weight": 16
@@ -3554,11 +3578,6 @@
           "source": "S4",
           "target": "X6",
           "weight": 15
-        },
-        {
-          "source": "P1",
-          "target": "X6",
-          "weight": 14
         },
         {
           "source": "I4",
@@ -3826,6 +3845,11 @@
           "weight": 5
         },
         {
+          "source": "I4",
+          "target": "X7",
+          "weight": 5
+        },
+        {
           "source": "P1",
           "target": "P7",
           "weight": 5
@@ -3888,11 +3912,6 @@
         {
           "source": "I4",
           "target": "S5",
-          "weight": 4
-        },
-        {
-          "source": "I4",
-          "target": "X7",
           "weight": 4
         },
         {
@@ -4521,6 +4540,11 @@
           "weight": 1
         },
         {
+          "source": "N1",
+          "target": "P7",
+          "weight": 1
+        },
+        {
           "source": "P1",
           "target": "S6",
           "weight": 1
@@ -4849,7 +4873,7 @@
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 25,
+          "count": 29,
           "codes": [
             {
               "code": "R1",
@@ -4960,44 +4984,44 @@
         }
       ],
       "records_count": 99,
-      "items_count": 240,
-      "total_dimension_mentions": 340,
+      "items_count": 244,
+      "total_dimension_mentions": 344,
       "top_dimensions": [
         {
           "id": "S",
           "label": "Skepticisms",
           "count": 99,
-          "share": 29.12
+          "share": 28.78
         },
         {
           "id": "X",
           "label": "Expectations",
           "count": 98,
-          "share": 28.82
+          "share": 28.49
         },
         {
           "id": "P",
           "label": "Practice patterns",
           "count": 84,
-          "share": 24.71
+          "share": 24.42
         },
         {
           "id": "I",
           "label": "Fiducia interpersonale",
           "count": 30,
-          "share": 8.82
+          "share": 8.72
         },
         {
           "id": "R",
           "label": "Readiness beliefs",
-          "count": 25,
-          "share": 7.35
+          "count": 29,
+          "share": 8.43
         },
         {
           "id": "A",
           "label": "Adeguatezza del supporto",
           "count": 4,
-          "share": 1.18
+          "share": 1.16
         }
       ],
       "subcodes": [
@@ -5006,182 +5030,182 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 53,
-          "share": 13.52
+          "share": 13.38
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 31,
-          "share": 7.91
+          "share": 7.83
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 30,
-          "share": 7.65
+          "share": 7.58
         },
         {
           "id": "X2",
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 29,
-          "share": 7.4
+          "share": 7.32
         },
         {
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
           "count": 25,
-          "share": 6.38
+          "share": 6.31
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
           "count": 23,
-          "share": 5.87
+          "share": 5.81
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 22,
-          "share": 5.61
+          "share": 5.56
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 22,
-          "share": 5.61
+          "share": 5.56
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
           "count": 19,
-          "share": 4.85
+          "share": 4.8
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
           "count": 17,
-          "share": 4.34
+          "share": 4.29
         },
         {
           "id": "X6",
           "dimension": "X",
           "label": "Coinvolgimento, arricchimento e innovazione.",
           "count": 16,
-          "share": 4.08
+          "share": 4.04
         },
         {
           "id": "S6",
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 14,
-          "share": 3.57
+          "share": 3.54
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 12,
-          "share": 3.06
+          "share": 3.03
+        },
+        {
+          "id": "R5",
+          "dimension": "R",
+          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
+          "count": 9,
+          "share": 2.27
         },
         {
           "id": "P7",
           "dimension": "P",
           "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
           "count": 8,
-          "share": 2.04
+          "share": 2.02
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "R4",
           "dimension": "R",
           "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
           "count": 7,
-          "share": 1.79
-        },
-        {
-          "id": "R5",
-          "dimension": "R",
-          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-          "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "S5",
           "dimension": "S",
           "label": "Informazioni false, imprecisione, affidabilita' debole.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "S7",
           "dimension": "S",
           "label": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
+        },
+        {
+          "id": "R3",
+          "dimension": "R",
+          "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
+          "count": 6,
+          "share": 1.52
         },
         {
           "id": "P4",
           "dimension": "P",
           "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
           "count": 5,
-          "share": 1.28
+          "share": 1.26
         },
         {
           "id": "X4",
           "dimension": "X",
           "label": "Inclusione e accesso.",
           "count": 5,
-          "share": 1.28
+          "share": 1.26
         },
         {
           "id": "A1",
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
           "count": 4,
-          "share": 1.02
+          "share": 1.01
         },
         {
           "id": "R1",
           "dimension": "R",
           "label": "Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.",
           "count": 4,
-          "share": 1.02
-        },
-        {
-          "id": "R3",
-          "dimension": "R",
-          "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
-          "count": 4,
-          "share": 1.02
+          "share": 1.01
         },
         {
           "id": "R2",
           "dimension": "R",
           "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
           "count": 3,
-          "share": 0.77
+          "share": 0.76
         },
         {
           "id": "X5",
           "dimension": "X",
           "label": "Autonomia, organizzazione e supporto al percorso.",
           "count": 3,
-          "share": 0.77
+          "share": 0.76
         },
         {
           "id": "P3",
@@ -5209,14 +5233,14 @@
           "dimension": "I",
           "label": "Fiducia tecnica condizionata: utile ma da verificare e controllare.",
           "count": 1,
-          "share": 0.26
+          "share": 0.25
         },
         {
           "id": "I3",
           "dimension": "I",
           "label": "Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti.",
           "count": 1,
-          "share": 0.26
+          "share": 0.25
         }
       ],
       "top_subcodes": [
@@ -5225,143 +5249,143 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 53,
-          "share": 13.52
+          "share": 13.38
         },
         {
           "id": "X1",
           "dimension": "X",
           "label": "Efficienza e risparmio di tempo.",
           "count": 31,
-          "share": 7.91
+          "share": 7.83
         },
         {
           "id": "P5",
           "dimension": "P",
           "label": "Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.",
           "count": 30,
-          "share": 7.65
+          "share": 7.58
         },
         {
           "id": "X2",
           "dimension": "X",
           "label": "Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.",
           "count": 29,
-          "share": 7.4
+          "share": 7.32
         },
         {
           "id": "P2",
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
           "count": 25,
-          "share": 6.38
+          "share": 6.31
         },
         {
           "id": "I4",
           "dimension": "I",
           "label": "Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.",
           "count": 23,
-          "share": 5.87
+          "share": 5.81
         },
         {
           "id": "P6",
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 22,
-          "share": 5.61
+          "share": 5.56
         },
         {
           "id": "S2",
           "dimension": "S",
           "label": "Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.",
           "count": 22,
-          "share": 5.61
+          "share": 5.56
         },
         {
           "id": "X3",
           "dimension": "X",
           "label": "Personalizzazione e attenzione al singolo.",
           "count": 19,
-          "share": 4.85
+          "share": 4.8
         },
         {
           "id": "P1",
           "dimension": "P",
           "label": "Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.",
           "count": 17,
-          "share": 4.34
+          "share": 4.29
         },
         {
           "id": "X6",
           "dimension": "X",
           "label": "Coinvolgimento, arricchimento e innovazione.",
           "count": 16,
-          "share": 4.08
+          "share": 4.04
         },
         {
           "id": "S6",
           "dimension": "S",
           "label": "Sostituzione del docente o della relazione educativa.",
           "count": 14,
-          "share": 3.57
+          "share": 3.54
         },
         {
           "id": "S3",
           "dimension": "S",
           "label": "Appiattimento, omologazione, perdita di creativita'.",
           "count": 12,
-          "share": 3.06
+          "share": 3.03
+        },
+        {
+          "id": "R5",
+          "dimension": "R",
+          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
+          "count": 9,
+          "share": 2.27
         },
         {
           "id": "P7",
           "dimension": "P",
           "label": "Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.",
           "count": 8,
-          "share": 2.04
+          "share": 2.02
         },
         {
           "id": "I2",
           "dimension": "I",
           "label": "Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "R4",
           "dimension": "R",
           "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
           "count": 7,
-          "share": 1.79
-        },
-        {
-          "id": "R5",
-          "dimension": "R",
-          "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-          "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "S5",
           "dimension": "S",
           "label": "Informazioni false, imprecisione, affidabilita' debole.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
           "id": "S7",
           "dimension": "S",
           "label": "Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.",
           "count": 7,
-          "share": 1.79
+          "share": 1.77
         },
         {
-          "id": "P4",
-          "dimension": "P",
-          "label": "Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.",
-          "count": 5,
-          "share": 1.28
+          "id": "R3",
+          "dimension": "R",
+          "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
+          "count": 6,
+          "share": 1.52
         }
       ],
-      "total_subcode_mentions": 392,
+      "total_subcode_mentions": 396,
       "dimension_to_subcodes": {
         "A": [
           {
@@ -5455,39 +5479,39 @@
         ],
         "R": [
           {
+            "id": "R5",
+            "dimension": "R",
+            "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
+            "count": 9,
+            "share_within_dimension": 31.03
+          },
+          {
             "id": "R4",
             "dimension": "R",
             "label": "Competenza di prompting: capacita' di formulare prompt efficaci.",
             "count": 7,
-            "share_within_dimension": 28.0
+            "share_within_dimension": 24.14
           },
           {
-            "id": "R5",
+            "id": "R3",
             "dimension": "R",
-            "label": "Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.",
-            "count": 7,
-            "share_within_dimension": 28.0
+            "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
+            "count": 6,
+            "share_within_dimension": 20.69
           },
           {
             "id": "R1",
             "dimension": "R",
             "label": "Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.",
             "count": 4,
-            "share_within_dimension": 16.0
-          },
-          {
-            "id": "R3",
-            "dimension": "R",
-            "label": "Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.",
-            "count": 4,
-            "share_within_dimension": 16.0
+            "share_within_dimension": 13.79
           },
           {
             "id": "R2",
             "dimension": "R",
             "label": "Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.",
             "count": 3,
-            "share_within_dimension": 12.0
+            "share_within_dimension": 10.34
           }
         ],
         "S": [

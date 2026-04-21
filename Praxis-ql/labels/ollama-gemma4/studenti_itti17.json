@@ -9,18 +9,21 @@
   "generated_at": "2026-04-19T22:13:29.386736+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S4"
   ],
   "record_note": "Lo studente manifesta scetticismo e preferenza per lo studio tradizionale, esprimendo sfiducia nello strumento IA.",
   "code_counts": {
-    "I4": 1,
+    "N1": 2,
     "R5": 1,
+    "I4": 1,
     "S4": 1
   },
   "items": [
@@ -28,7 +31,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché non ne ho la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica assenza di necessità."
     },
     {
@@ -54,7 +59,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Chat gbt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta incompleta e non specifica su pratiche da evitare."
     }
   ]

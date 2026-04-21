@@ -1,8 +1,8 @@
 ---
 record_code: "iosi26"
 group: Studenti
-dimensions: [I, P, S, X]
-subcodes: [I4, P2, P4, P6, P7, S1, S4, X2, X5]
+dimensions: [I, N, P, S, X]
+subcodes: [I4, N1, P2, P4, P6, P7, S1, S4, X2, X5]
 model: gemma4:e4b
 generated_at: "2026-04-19T22:12:38.807390+00:00"
 label_source: labels/ollama-gemma4/studenti_iosi26.json
@@ -11,13 +11,27 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 
 # Risposta iosi26
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P4**: Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **P7**: Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S4**: Erosione del pensiero critico.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: non ne ho mai sentito il bisogno
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -25,6 +39,7 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
 **Reason**: Menziona specificamente 'chat gpt' come strumento preferito.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -32,6 +47,7 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: Spiega concetti in modo più semplice e genera esempi, indicando personalizzazione e semplificazione.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -39,6 +55,7 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
 **Reason**: Fornisce un esempio di prompt specifico ('Mi puoi fare un esempio di sovrascopo anti comunicativo?').
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -46,6 +63,7 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: Aiuta a semplificare concetti e risponde con prontezza, migliorando la comprensione.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -53,13 +71,15 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Utilizza l'IA per simulazioni di esami universitari, supportando lo studio e l'autovalutazione.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
 **A**: nessuna
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta negativa e non informativa.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -67,9 +87,12 @@ note: "Lo studente utilizza l'IA per semplificare concetti e simulare esami, ma 
 **Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Riconosce che l'IA può sostituire l'impegno umano (S1) e sottolinea l'importanza dell'essere umano (I4).
 
+**Cited in:** —
 ## Item 9 {#item-9}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Svolgere esercizi mirati teoricamente all'apprendimento del soggetto.
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Suggerisce che svolgere esercizi mirati teoricamente all'apprendimento non è raccomandato, implicando un rischio per il pensiero critico o l'apprendimento autonomo.
+
+**Cited in:** —

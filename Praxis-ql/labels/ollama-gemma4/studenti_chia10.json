@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:58:05.678411+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P4",
     "P5",
     "P6",
@@ -23,11 +25,12 @@
   "record_note": "Lo studente utilizza l'IA principalmente per supportare lo studio e la comprensione dei contenuti, riconoscendone i limiti (non fare i compiti).",
   "code_counts": {
     "P4": 2,
-    "P5": 3,
-    "P6": 1,
     "X2": 2,
+    "P5": 3,
     "X3": 1,
     "X6": 1,
+    "N1": 1,
+    "P6": 1,
     "X7": 1
   },
   "items": [
@@ -83,7 +86,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

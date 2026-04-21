@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:01:21.019005+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S4",
     "X2"
@@ -20,8 +22,9 @@
   "record_note": "L'utente dimostra un approccio critico e di autovalutazione rispetto all'uso dell'IA, preferendo basarsi sulle proprie capacità.",
   "code_counts": {
     "R5": 1,
+    "X2": 1,
     "S4": 1,
-    "X2": 1
+    "N1": 1
   },
   "items": [
     {
@@ -47,7 +50,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non ho esperienza in questo campo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o mancanza di esperienza nel campo."
     }
   ]

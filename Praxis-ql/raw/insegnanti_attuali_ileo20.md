@@ -1,8 +1,8 @@
 ---
 record_code: "ILEO20"
 group: Insegnanti in servizio
-dimensions: [A, I, S]
-subcodes: [A1, I4, S6]
+dimensions: [A, I, N, S]
+subcodes: [A1, I4, N1, S6]
 model: gemma4:e4b
 generated_at: "2026-04-19T21:06:32.187926+00:00"
 label_source: labels/ollama-gemma4/insegnanti_attuali_ileo20.json
@@ -11,13 +11,21 @@ note: "Il partecipante mostra una scarsa conoscenza dell'IA (A1) e una forte con
 
 # Risposta ILEO20
 
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **S6**: Sostituzione del docente o della relazione educativa.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
 **A**: non conosco la materia
-**Codes**: —
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
 **Reason**: Risposta non informativa sul tema dell'uso dell'IA.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +33,7 @@ note: "Il partecipante mostra una scarsa conoscenza dell'IA (A1) e una forte con
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
 **Reason**: L'utente esprime di non conoscere l'utilizzo dell'IA, indicando una mancanza di formazione o conoscenza.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +41,13 @@ note: "Il partecipante mostra una scarsa conoscenza dell'IA (A1) e una forte con
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: L'utente percepisce che l'IA possa sostituire l'alunno, un concetto che si avvicina alla sostituzione della relazione educativa.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: l'utilizzo di questa innovazione è utilissima ma certamente nella scuola non può sostituire il docente e la possibilità di interagire con gli alunni
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: L'utente sottolinea che l'IA non può sostituire il docente e l'interazione con gli alunni, evidenziando il valore insostituibile della relazione umana.
+
+**Cited in:**
+- [wiki/insegnanti-attuali/skepticisms/ansia-occupazionale.md](../wiki/insegnanti-attuali/skepticisms/ansia-occupazionale.md)

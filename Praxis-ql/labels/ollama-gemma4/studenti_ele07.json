@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:01:02.328464+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S2",
@@ -25,21 +27,24 @@
   ],
   "record_note": "Lo studente è consapevole dei benefici (efficienza, comprensione) ma anche dei rischi (dipendenza, sostituzione del lavoro) dell'IA.",
   "code_counts": {
-    "I2": 1,
-    "P2": 3,
+    "N1": 1,
     "P5": 2,
-    "S2": 1,
-    "S6": 1,
+    "P2": 3,
+    "X3": 1,
     "X1": 2,
     "X2": 2,
-    "X3": 1
+    "I2": 1,
+    "S2": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "gemini",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che nomina solo uno strumento senza descrivere l'uso didattico."
     },
     {

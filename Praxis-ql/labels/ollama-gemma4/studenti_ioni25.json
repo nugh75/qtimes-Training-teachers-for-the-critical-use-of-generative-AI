@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:12:35.986040+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -27,24 +29,27 @@
   ],
   "record_note": "Lo studente utilizza l'IA per simulare conversazioni e personalizzare lo studio, riconoscendone i benefici ma anche i rischi di dipendenza cognitiva.",
   "code_counts": {
-    "P2": 1,
-    "P4": 2,
-    "P5": 1,
+    "N1": 2,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
-    "S2": 1,
-    "S4": 1,
+    "P4": 2,
+    "X5": 2,
+    "P5": 1,
     "X1": 1,
     "X2": 1,
-    "X3": 1,
-    "X5": 2
+    "S2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -100,7 +105,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa di assenza di difficoltà."
     },
     {

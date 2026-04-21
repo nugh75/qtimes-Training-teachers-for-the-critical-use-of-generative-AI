@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:05:58.653976+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S3",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per adattare e strutturare materiali didattici (P2, P5), ma solleva preoccupazioni sulla perdita di processi produttivi creativi (S4, S3).",
   "code_counts": {
-    "I2": 1,
+    "N1": 2,
     "P2": 1,
     "P5": 4,
-    "S3": 1,
-    "S4": 1,
-    "X2": 1,
     "X3": 2,
-    "X5": 1
+    "X5": 1,
+    "X2": 1,
+    "I2": 1,
+    "S4": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat GPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (nome di uno strumento)."
     },
     {
@@ -104,7 +109,9 @@
       "index": 8,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Per ora nessun contro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o troppo generica."
     },
     {

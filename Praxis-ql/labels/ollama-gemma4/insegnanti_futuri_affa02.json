@@ -8,15 +8,18 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:38:52.475327+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S4",
     "X1"
   ],
   "record_note": "Il partecipante è un insegnante pre-service che non ha esperienza didattica, ma è consapevole dei rischi (S4) e dei benefici (X1) dell'IA.",
   "code_counts": {
+    "N1": 2,
     "S4": 1,
     "X1": 1
   },
@@ -25,7 +28,9 @@
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non ho esperienza di insegnamento",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta basata sulla mancanza di esperienza di insegnamento."
     },
     {
@@ -42,7 +47,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho ancora utilizzato l'intelligenza artificiale poiché ancora non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta basata sulla mancanza di esperienza di insegnamento."
     }
   ]

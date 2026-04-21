@@ -11,6 +11,14 @@ note: "L'insegnante mostra scetticismo sull'uso dell'IA, preferendo il metodo ma
 
 # Risposta ardo30
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S7**: Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +26,8 @@ note: "L'insegnante mostra scetticismo sull'uso dell'IA, preferendo il metodo ma
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: L'utente non utilizza l'IA perché ritiene che sia ancora imperfetta e che fare da sé sia più efficace.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md](../wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md)
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,7 @@ note: "L'insegnante mostra scetticismo sull'uso dell'IA, preferendo il metodo ma
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: L'utente non usa l'IA perché produrre materiale didattico richiede più tempo ed energie rispetto a farlo manualmente e perché il sistema è ancora da perfezionare.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +43,14 @@ note: "L'insegnante mostra scetticismo sull'uso dell'IA, preferendo il metodo ma
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Vantaggio di ottenere rapidamente un'idea didattica adatta a un contesto specifico. Rischio di uso improprio da parte degli studenti.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md](../wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md)
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Credo che la valutazione sia un aspetto talmente complesso e cruciale dell'azione didattica da non poter essere totalmente demandato all'intelligenza artificiale, poiché risulterebbe spersonalizzato, dal momento che non terrebbe in considerazione una serie di fattori influenti sulla valutazione stessa.
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
 **Reason**: La valutazione è un aspetto troppo complesso e cruciale per essere demandato all'IA, poiché richiede un giudizio umano e non può essere spersonalizzato.
+
+**Cited in:**
+- [wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md](../wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md)

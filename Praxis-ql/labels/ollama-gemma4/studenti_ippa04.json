@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:13:03.886023+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -29,19 +31,20 @@
   ],
   "record_note": "Profilo di studente che utilizza l'IA in modo avanzato, riconoscendo sia i benefici (ampliamento, personalizzazione) sia i rischi (dipendenza, imprecisione).",
   "code_counts": {
+    "P5": 2,
+    "P6": 1,
+    "X5": 1,
     "P1": 1,
     "P2": 2,
     "P4": 1,
-    "P5": 2,
-    "P6": 1,
+    "X3": 2,
     "P7": 1,
+    "X2": 2,
+    "N1": 1,
+    "S5": 1,
     "S1": 1,
     "S2": 1,
-    "S4": 1,
-    "S5": 1,
-    "X2": 2,
-    "X3": 2,
-    "X5": 1
+    "S4": 1
   },
   "items": [
     {
@@ -100,7 +103,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Sicuro una delle difficoltà principali è stata quella di trovare l'AI perfetta per l'occasione.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è generica ('trovare l'AI perfetta') e non si collega a un codice specifico del codebook."
     },
     {

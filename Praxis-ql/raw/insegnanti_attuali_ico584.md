@@ -11,6 +11,13 @@ note: "L'insegnante mostra una forte resistenza all'uso dell'IA, preferendo mant
 
 # Risposta Ico584
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S4**: Erosione del pensiero critico.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +25,7 @@ note: "L'insegnante mostra una forte resistenza all'uso dell'IA, preferendo mant
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Rifiuto di usare l'IA per mantenere l'allenamento mentale e lo sforzo personale.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +33,7 @@ note: "L'insegnante mostra una forte resistenza all'uso dell'IA, preferendo mant
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Preferisce mantenere il controllo del processo didattico per progettare adeguatamente i contenuti.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +41,13 @@ note: "L'insegnante mostra una forte resistenza all'uso dell'IA, preferendo mant
 **Codes**: X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Riconosce l'utilità dell'IA nell'organizzazione di contenuti.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Non deve intorpidire lo sforzo di ragionare, far nascere collegamenti mentali e metterci del proprio
 **Codes**: S4 — Erosione del pensiero critico.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: L'IA non deve intorpidire lo sforzo di ragionare e far nascere collegamenti mentali, sottolineando l'importanza del pensiero umano.
+
+**Cited in:**
+- [wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md](../wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md)

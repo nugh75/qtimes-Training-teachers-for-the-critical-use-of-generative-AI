@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:35:24.573485+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P4",
     "P5",
@@ -23,13 +25,14 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e esercizi che promuovono l'autonomia dello studente.",
   "code_counts": {
-    "P1": 4,
-    "P4": 1,
-    "P5": 3,
     "P6": 1,
-    "S6": 1,
+    "P1": 4,
+    "P5": 3,
+    "P4": 1,
     "X2": 1,
-    "X5": 2
+    "N1": 3,
+    "X5": 2,
+    "S6": 1
   },
   "items": [
     {
@@ -57,7 +60,9 @@
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "Non ho ancora fatto un particolare utilizzo dell'intelligenza artificiale per questo scopo.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sull'uso per la personalizzazione."
     },
     {
@@ -95,14 +100,18 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Al livello utilizzato nessuna.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sulle difficoltà incontrate."
     },
     {
       "index": 8,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "A livello si strumento didattico non vedo contro. Non ho ancora esperienza a livello degli alievi.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non vengono identificati pro o contro specifici, solo una dichiarazione generale."
     },
     {

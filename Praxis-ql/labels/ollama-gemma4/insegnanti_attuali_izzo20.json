@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:11:46.616966+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -25,21 +27,24 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per supportare lo studio e la didattica (riassunti, ricerca), ma evidenzia preoccupazioni su vincoli infrastrutturali e rischi di appiattimento del pensiero.",
   "code_counts": {
-    "A3": 1,
+    "N1": 1,
+    "P6": 1,
+    "X5": 1,
     "P1": 3,
     "P2": 2,
-    "P6": 1,
     "P7": 1,
-    "S3": 1,
     "X2": 1,
-    "X5": 1
+    "A3": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": ".",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

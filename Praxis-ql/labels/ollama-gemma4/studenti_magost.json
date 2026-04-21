@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:16:17.517069+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -25,14 +27,15 @@
   ],
   "record_note": "L'utente utilizza l'IA principalmente per riassumere e identificare concetti chiave, mostrando consapevolezza dei limiti di affidabilità dell'IA.",
   "code_counts": {
-    "I2": 2,
-    "P1": 1,
-    "P2": 1,
     "P5": 2,
+    "X2": 4,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "X2": 4,
-    "X3": 1
+    "N1": 1,
+    "I2": 2,
+    "P1": 1
   },
   "items": [
     {
@@ -88,7 +91,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "che non sempre convengo con ciò che vi è scritto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non specifica alcuna difficoltà di implementazione."
     },
     {

@@ -9,23 +9,28 @@
   "generated_at": "2026-04-19T21:53:23.056572+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "X2"
   ],
   "record_note": "Lo studente mostra consapevolezza dei limiti dell'IA, bilanciando i benefici di immediatezza con la necessità di fonti multiple.",
   "code_counts": {
-    "I2": 2,
-    "X2": 1
+    "N1": 1,
+    "X2": 1,
+    "I2": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
       "answer": "Perché studio sui libri integrando gli appunti presi a lezione",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "L'utente spiega che studia integrando libri e appunti, non menzionando l'uso o il rifiuto dell'IA."
     },
     {

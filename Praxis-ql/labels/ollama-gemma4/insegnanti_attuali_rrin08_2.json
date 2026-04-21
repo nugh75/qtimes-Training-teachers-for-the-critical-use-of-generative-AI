@@ -10,12 +10,14 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "S4",
     "S6",
     "X1",
@@ -24,20 +26,23 @@
   ],
   "record_note": "L'insegnante esprime preoccupazioni sulla formazione, sui rischi di dipendenza e sulla necessità di mantenere il ruolo umano (empatia) nel processo educativo.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "I4": 1,
-    "S4": 1,
-    "S6": 1,
     "X1": 1,
     "X2": 1,
-    "X3": 1
+    "X3": 1,
+    "S4": 1,
+    "I4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

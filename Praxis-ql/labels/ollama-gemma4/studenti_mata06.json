@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:16:54.111472+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -24,14 +26,15 @@
   ],
   "record_note": "Lo studente utilizza l'IA per la sintesi e la personalizzazione dello studio, ma è consapevole dei rischi di passività e imprecisione.",
   "code_counts": {
-    "P2": 1,
-    "P5": 3,
     "P6": 1,
-    "S4": 2,
-    "S5": 1,
-    "X1": 1,
+    "P2": 1,
+    "X3": 1,
+    "P5": 3,
     "X2": 2,
-    "X3": 1
+    "N1": 1,
+    "X1": 1,
+    "S4": 2,
+    "S5": 1
   },
   "items": [
     {
@@ -86,7 +89,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "A volte non trovavo subito l’argomento che mi interessava",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La difficoltà è legata alla ricerca dell'argomento, non a una funzione specifica dell'IA."
     },
     {

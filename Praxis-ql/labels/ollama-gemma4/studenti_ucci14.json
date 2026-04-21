@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:32:22.685116+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
+    "N1",
     "R5",
     "S2",
     "S3",
@@ -19,17 +21,20 @@
   ],
   "record_note": "Il partecipante mostra una forte diffidenza verso l'uso dell'IA nello studio, manifestando preoccupazioni sulla perdita di qualità personale e sul plagio.",
   "code_counts": {
+    "N1": 1,
     "R5": 1,
-    "S2": 1,
     "S3": 1,
-    "S4": 1
+    "S4": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "non mi si pone la necessità di utilizzarla",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa, indica assenza di necessità di utilizzo."
     },
     {

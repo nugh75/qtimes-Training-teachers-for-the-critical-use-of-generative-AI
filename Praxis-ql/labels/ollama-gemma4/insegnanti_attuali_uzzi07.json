@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:35:40.429292+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "R5",
     "S1",
     "S4",
@@ -22,10 +24,11 @@
   ],
   "record_note": "L'insegnante mostra una diffidenza verso l'IA, preferendo metodi tradizionali (ricerca cartacea) e sollevando preoccupazioni sulla dipendenza e sulla riduzione della ricerca.",
   "code_counts": {
-    "I4": 1,
+    "N1": 1,
     "R5": 1,
-    "S1": 1,
+    "I4": 1,
     "S4": 1,
+    "S1": 1,
     "X1": 1
   },
   "items": [
@@ -33,7 +36,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "La utilizzo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta affermativa non informativa."
     },
     {

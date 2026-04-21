@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T20:43:47.650040+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A3",
+    "N1",
     "P2",
     "P5",
     "S2",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante mostra un uso attivo e creativo dell'IA per la personalizzazione e l'innovazione, ma è consapevole dei limiti etici e strutturali (A3).",
   "code_counts": {
-    "A3": 1,
+    "N1": 1,
     "P2": 3,
-    "P5": 3,
-    "S2": 2,
-    "S4": 1,
-    "S6": 1,
-    "X2": 1,
     "X3": 3,
+    "P5": 3,
+    "X2": 1,
     "X6": 1,
-    "X7": 1
+    "A3": 1,
+    "S4": 1,
+    "S2": 2,
+    "X7": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "ChatGPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo il nome di uno strumento)."
     },
     {

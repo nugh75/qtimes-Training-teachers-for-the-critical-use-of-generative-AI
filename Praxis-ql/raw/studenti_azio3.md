@@ -11,6 +11,13 @@ note: "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evide
 
 # Risposta azio3
 
+## Legenda codici del record
+
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -18,6 +25,7 @@ note: "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evide
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
 **Reason**: Il partecipante indica che non usa l'IA nello studio, esprimendo una scelta consapevole (non specificando il motivo, ma rifiutando l'uso).
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -25,9 +33,14 @@ note: "Il partecipante mostra una consapevolezza critica sull'uso dell'IA, evide
 **Codes**: S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Il partecipante menziona che l'IA può aiutare (pro) ma che non si riesce a fare le cose senza (contro), indicando una potenziale dipendenza e un rischio di sostituzione del proprio sforzo/capacità.
 
+**Cited in:**
+- [wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md](../wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md)
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: per fare i temi
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
 **Reason**: Il partecipante identifica la stesura di temi come pratica non raccomandata, suggerendo il rischio di plagio o di non sviluppare le proprie capacità di scrittura.
+
+**Cited in:**
+- [wiki/studenti/skepticisms/zone-di-esclusione-s6.md](../wiki/studenti/skepticisms/zone-di-esclusione-s6.md)

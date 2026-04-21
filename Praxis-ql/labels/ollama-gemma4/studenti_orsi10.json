@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:23:29.358539+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P4",
     "S4",
     "S5",
@@ -22,18 +24,21 @@
   ],
   "record_note": "Lo studente mostra una forte diffidenza verso l'uso dell'IA nello studio, evidenziando preoccupazioni sulla sicurezza delle informazioni e sul rischio di atrofizzazione delle competenze di studio tradizionali.",
   "code_counts": {
+    "N1": 1,
     "I2": 1,
-    "P4": 1,
-    "S4": 2,
     "S5": 1,
-    "X7": 1
+    "S4": 2,
+    "X7": 1,
+    "P4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non la ritengo una fonte utile per approfondire e apprendere conoscenze",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Rifiuto di utilizzare l'IA come fonte di apprendimento."
     },
     {

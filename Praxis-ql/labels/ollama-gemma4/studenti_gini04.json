@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T22:08:13.011686+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "S1",
     "S4",
     "X1",
@@ -22,10 +24,11 @@
   "record_note": "Il partecipante mostra una forte diffidenza verso l'uso dell'IA nello studio, preoccupandosi principalmente della perdita di autonomia e delle capacità di apprendimento.",
   "code_counts": {
     "I2": 1,
-    "S1": 2,
     "S4": 3,
+    "S1": 2,
     "X1": 1,
-    "X2": 1
+    "X2": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -64,7 +67,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non so",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     }
   ]

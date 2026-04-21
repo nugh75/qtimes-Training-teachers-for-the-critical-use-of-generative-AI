@@ -8,16 +8,19 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:45:34.505807+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R2",
     "X2",
     "X6"
   ],
   "record_note": "Il partecipante mostra una scarsa familiarità con l'IA e non ha esperienze specifiche da condividere sull'uso didattico.",
   "code_counts": {
+    "N1": 2,
     "R2": 1,
     "X2": 1,
     "X6": 1
@@ -27,7 +30,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non mi è mai capitato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -53,8 +58,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

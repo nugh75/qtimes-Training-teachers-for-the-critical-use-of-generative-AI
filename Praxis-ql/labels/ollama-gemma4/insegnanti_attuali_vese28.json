@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:36:19.779073+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -27,24 +29,27 @@
   ],
   "record_note": "L'insegnante vede l'IA come uno strumento di supporto per l'efficienza e la didattica, ma sottolinea la necessità di un uso critico per non sostituire lo studio personale.",
   "code_counts": {
+    "N1": 2,
     "P1": 2,
-    "P2": 1,
-    "P4": 1,
-    "P5": 1,
-    "P6": 1,
-    "P7": 1,
-    "S4": 2,
     "X1": 1,
-    "X2": 1,
+    "P5": 1,
+    "P2": 1,
     "X3": 1,
-    "X7": 2
+    "P7": 1,
+    "P6": 1,
+    "P4": 1,
+    "X2": 1,
+    "X7": 2,
+    "S4": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -109,7 +114,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa (Nessuna difficoltà)."
     },
     {

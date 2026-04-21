@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:46:05.763519+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "S3",
     "S7",
@@ -22,19 +24,22 @@
   ],
   "record_note": "L'intervistato riconosce il potenziale dell'IA ma ne evidenzia i limiti, specialmente in ambiti che richiedono giudizio umano (valutazione) o creatività.",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
-    "S3": 1,
-    "S7": 1,
-    "X1": 1,
     "X3": 1,
-    "X6": 1
+    "X1": 1,
+    "X6": 1,
+    "S3": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Al momento non ho ritenuto necessario l’utilizzo nella mia didattica .",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sull'uso dell'IA."
     },
     {

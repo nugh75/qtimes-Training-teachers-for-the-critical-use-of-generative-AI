@@ -9,19 +9,22 @@
   "generated_at": "2026-04-19T21:13:34.205053+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S3",
     "X1"
   ],
   "record_note": "Il partecipante esprime scetticismo sull'uso dell'IA in didattica, collegando la sua non adozione alla mancanza di formazione e di didattica adeguata.",
   "code_counts": {
     "A1": 2,
+    "X1": 1,
     "S3": 1,
-    "X1": 1
+    "N1": 1
   },
   "items": [
     {
@@ -56,7 +59,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non lo so.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è di natura non informativa ('Non lo so')."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:54:54.916245+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -26,30 +28,35 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali didattici e per l'adattamento dei percorsi (BES, UDA), riconoscendone l'efficienza ma evidenziando i limiti nella personalizzazione e nel processo di risoluzione dei problemi.",
   "code_counts": {
+    "N1": 3,
     "P1": 3,
     "P2": 2,
     "P5": 3,
-    "P7": 1,
-    "S4": 1,
-    "S7": 1,
-    "X1": 1,
     "X2": 2,
     "X3": 3,
-    "X5": 1
+    "P7": 1,
+    "X1": 1,
+    "X5": 1,
+    "S4": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "*-*",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-*')."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "TUTTI",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('TUTTI') senza specificare strumenti o motivazioni."
     },
     {
@@ -112,7 +119,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "NESSUNA ANCHE SE ALCUNI STUDENTI NON NE COLGONO IN PIENO L'UTILITA'",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non vengono riportate difficoltà specifiche nell'implementazione."
     },
     {

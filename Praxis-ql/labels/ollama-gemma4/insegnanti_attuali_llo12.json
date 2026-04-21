@@ -9,10 +9,12 @@
   "generated_at": "2026-04-19T21:13:21.449307+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -20,18 +22,21 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per supportare la valutazione e il tutoraggio, ma mostra consapevolezza dei limiti e dell'importanza del ruolo umano.",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
+    "N1": 2,
+    "P6": 1,
     "P4": 5,
+    "P2": 1,
     "P5": 1,
-    "P6": 1
+    "I4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -102,7 +107,9 @@
       "index": 9,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "INTELLIGENZA  E IL CYBERBULLISMO",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il contenuto è troppo generico (intelligenza e cyberbullismo) per assegnare codici specifici."
     },
     {

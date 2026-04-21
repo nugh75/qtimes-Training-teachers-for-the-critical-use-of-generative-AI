@@ -11,7 +11,7 @@
 
 Il supporto sistemico è quasi nullo. L'ostacolo è **commerciale**, **infrastrutturale** e **amministrativo**, e si articola lungo tre assi principali.
 
-Il primo asse è **materiale**: mancano i dispositivi, le reti non reggono, le aule informatiche si prenotano con settimane di anticipo e l'IA finisce confinata alla scrivania di casa del docente. Come sintetizza Stini27, "*alcune scuole o famiglie non hanno dispositivi adeguati o connessioni internet stabili, generando disparità*" (source: [Stini27](../../../raw/insegnanti_attuali_stini27.md)). Chi lavora in contesti fragili — scuole private non attrezzate, istituti tecnici con reti instabili, scuole dell'infanzia — è doppiamente penalizzato.
+Il primo asse è **materiale**: mancano i dispositivi, le reti non reggono, le aule informatiche si prenotano con settimane di anticipo e l'IA finisce confinata alla scrivania di casa del docente. Come sintetizza Stini27, "*alcune scuole o famiglie non hanno dispositivi adeguati o connessioni internet stabili, generando disparità*" (source: [Stini27](../../../raw/insegnanti_attuali_stini27.md#item-8) · codes: A2, A3, S1). Chi lavora in contesti fragili — scuole private non attrezzate, istituti tecnici con reti instabili, scuole dell'infanzia — è doppiamente penalizzato.
 
 Il secondo asse è **economico**: gli strumenti IA migliori sono a pagamento, e la Carta del Docente non copre le app. Il docente si trova a scegliere tra strumenti gratuiti con funzionalità limitate e soluzioni premium inaccessibili.
 

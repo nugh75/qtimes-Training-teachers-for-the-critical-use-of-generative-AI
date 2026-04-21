@@ -9,21 +9,24 @@
   "generated_at": "2026-04-19T20:53:49.881694+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P3",
     "S4",
     "S5"
   ],
   "record_note": "L'insegnante esprime scetticismo sull'uso dell'IA, focalizzandosi sui rischi di atrofia delle competenze (pensiero critico, ricerca fonti) e sulla preferenza per l'interazione umana.",
   "code_counts": {
+    "S4": 1,
     "I4": 1,
     "P3": 1,
-    "S4": 1,
-    "S5": 1
+    "S5": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -58,8 +61,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Chat gpt",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

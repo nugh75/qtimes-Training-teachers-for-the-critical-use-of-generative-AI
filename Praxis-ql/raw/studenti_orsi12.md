@@ -11,6 +11,18 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 
 # Risposta orsi12
 
+## Legenda codici del record
+
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **P5**: Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+- **P6**: Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S5**: Informazioni false, imprecisione, affidabilita' debole.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+- **X3**: Personalizzazione e attenzione al singolo.
+- **X5**: Autonomia, organizzazione e supporto al percorso.
+- **X7**: Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
+
 ## Item 1 {#item-1}
 
 **Q**: Quali sono i tuoi strumenti preferiti e perché?
@@ -18,6 +30,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
 **Reason**: Elenca strumenti specifici (chatgpt, notebook LM).
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
@@ -25,6 +38,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X3 — Personalizzazione e attenzione al singolo.
 **Reason**: Utilizza l'IA per spiegazioni e riassunti, che sono forme di personalizzazione e semplificazione.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
@@ -32,6 +46,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
 **Reason**: Richiesta di riassumere materiale allegato per preparare un esame, che è una strategia di produzione di contenuti.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
@@ -39,6 +54,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
 **Reason**: L'IA aiuta a chiarire e riassumere, migliorando la comprensione.
 
+**Cited in:** —
 ## Item 5 {#item-5}
 
 **Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
@@ -46,6 +62,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X5 — Autonomia, organizzazione e supporto al percorso.
 **Reason**: Riferimento a riassunti e fonti, che supportano l'organizzazione dello studio.
 
+**Cited in:** —
 ## Item 6 {#item-6}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
@@ -53,6 +70,7 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: S5 — Informazioni false, imprecisione, affidabilita' debole.
 **Reason**: Riconosce che l'IA può semplificare troppo o tralasciare informazioni importanti, indicando un rischio di imprecisione.
 
+**Cited in:** —
 ## Item 7 {#item-7}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -60,9 +78,12 @@ note: "Lo studente utilizza l'IA per riassumere e chiarire contenuti (P5, X2, X3
 **Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
 **Reason**: Riconosce il rischio di 'appiattimento' delle capacità, ma implica che l'uso deve essere controllato per mantenere le capacità.
 
+**Cited in:** —
 ## Item 8 {#item-8}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: chiedere informazioni su qualcosa senza fornire un testo di riferimento, perché spesso prendendo informazioni da internet fornisce informazioni errate
 **Codes**: S5 — Informazioni false, imprecisione, affidabilita' debole.
 **Reason**: Avverte che l'IA può fornire informazioni errate se non fornito un testo di riferimento.
+
+**Cited in:** —

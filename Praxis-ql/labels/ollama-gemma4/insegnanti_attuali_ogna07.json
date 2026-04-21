@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:18:12.051564+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P5",
     "P7",
@@ -25,11 +27,12 @@
   "code_counts": {
     "P1": 2,
     "P5": 4,
-    "P7": 1,
-    "S2": 1,
+    "X6": 3,
     "X2": 2,
     "X3": 1,
-    "X6": 3
+    "P7": 1,
+    "N1": 2,
+    "S2": 1
   },
   "items": [
     {
@@ -97,7 +100,9 @@
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna difficoltà.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -113,7 +118,9 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Attualmente non ritengo ci siano pratiche da sconsigliare. Tuttavia, suggerisco un'ETICA dell'utilizzo, un vademecum scolastico, definito anche a livello Nazionale, per il corretto utilizzo della IA da parte degli studenti.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non identifica pratiche da sconsigliare, ma suggerisce un vademecum etico."
     }
   ]

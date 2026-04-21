@@ -11,6 +11,16 @@ note: "Il partecipante esprime forte scetticismo sull'uso dell'IA, temendo la pe
 
 # Risposta roni24
 
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **X7**: Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +28,7 @@ note: "Il partecipante esprime forte scetticismo sull'uso dell'IA, temendo la pe
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Timore che l'IA possa sostituire l'apprendimento e il ruolo educativo.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +36,7 @@ note: "Il partecipante esprime forte scetticismo sull'uso dell'IA, temendo la pe
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
 **Reason**: Riconoscimento di non avere le competenze necessarie per usare l'IA in didattica.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +44,13 @@ note: "Il partecipante esprime forte scetticismo sull'uso dell'IA, temendo la pe
 **Codes**: S4 — Erosione del pensiero critico.; S3 — Appiattimento, omologazione, perdita di creativita'.; X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
 **Reason**: Rischio che l'apprendimento sia superficiale e che le attività non stimolino il ragionamento (S4, S3), rendendo l'uso condizionato (X7).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Chiedere la risoluzione di quesiti/problemi piuttosto che la scrittura di brani/riassunti, perché essendo queste tutte attività per le quali è necessario ragionare, se le facciamo risolvere all’AI non stimoliamo il cervello dei nostri ragazzi, anzi al contrario lo sediamo totalmente. E così avalliamo il completamento del lavoro di manipolazione delle menti dei più giovani (e quindi del futuro dell’umanità) che già si sta facendo attraverso l’uso dei social.
 **Codes**: S4 — Erosione del pensiero critico.; S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.; X7 — Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico.
 **Reason**: L'uso dell'IA per risolvere problemi impedisce il ragionamento e lo stimolo cerebrale (S4, S1), rendendo l'uso non raccomandato (X7).
+
+**Cited in:**
+- [wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md](../wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md)

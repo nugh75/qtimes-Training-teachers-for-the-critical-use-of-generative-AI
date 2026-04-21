@@ -9,35 +9,42 @@
   "generated_at": "2026-04-19T21:42:00.547506+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S6",
     "X1",
     "X4"
   ],
   "record_note": "Il partecipante è un insegnante pre-service che valuta l'IA in termini generali, evidenziando benefici operativi e rischi relazionali.",
   "code_counts": {
-    "I4": 1,
-    "S6": 1,
+    "N1": 3,
     "X1": 1,
-    "X4": 1
+    "X4": 1,
+    "I4": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
       "index": 2,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Al momento non insegno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta indica che il partecipante non insegna, rendendo non applicabili i codici relativi all'uso didattico."
     },
     {
@@ -56,7 +63,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Secondo me l’utilizzo  competente dell'Intelligenza Artificiale è una risorsa strategica per i docenti e i formatori per migliorare la qualità dell'insegnamento e favorire lo sviluppo delle competenze degli studenti.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un'affermazione generale sul valore strategico dell'IA, senza identificare pratiche specifiche da non usare."
     }
   ]

@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:17:54.031627+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -21,19 +23,22 @@
   ],
   "record_note": "Il partecipante usa l'IA in modo superficiale, concentrandosi sulla velocità e sull'arricchimento delle fonti, ma mostra una preferenza per i metodi tradizionali.",
   "code_counts": {
-    "P1": 1,
+    "N1": 3,
     "P2": 2,
+    "X3": 2,
     "P6": 1,
-    "X1": 1,
+    "P1": 1,
     "X2": 1,
-    "X3": 2
+    "X1": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Telefono per la velocità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta si riferisce a uno strumento fisico (telefono) e non descrive un uso didattico o un processo di studio specifico."
     },
     {
@@ -79,7 +84,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Visivamente è piu comodo il libro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Il partecipante esprime una preferenza per un supporto tradizionale (libro) senza descrivere un uso o una difficoltà specifica legata all'IA."
     },
     {
@@ -95,7 +102,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Nessun contro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è negativa e non fornisce informazioni utili per l'assegnazione di codici."
     }
   ]

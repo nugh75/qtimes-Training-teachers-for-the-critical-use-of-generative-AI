@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:31:11.825148+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -27,16 +29,17 @@
   ],
   "record_note": "Lo studente utilizza l'IA per migliorare l'efficienza e la personalizzazione dello studio, ma mostra consapevolezza dei rischi di plagio e distrazione.",
   "code_counts": {
-    "P2": 2,
-    "P5": 1,
     "P6": 1,
+    "X1": 2,
+    "P2": 2,
+    "X3": 2,
+    "P5": 1,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "X1": 2,
-    "X3": 2,
     "X5": 1,
-    "X6": 1
+    "N1": 1,
+    "X6": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -93,7 +96,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

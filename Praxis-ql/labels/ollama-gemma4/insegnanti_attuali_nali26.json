@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:15:21.496537+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "P3",
     "P5",
@@ -25,14 +27,15 @@
   ],
   "record_note": "L'uso principale è focalizzato sull'accessibilità (alunni stranieri) e sulla pianificazione didattica, con un riconoscimento limitato dei benefici e dei limiti dell'IA.",
   "code_counts": {
-    "I4": 1,
-    "P2": 2,
     "P3": 1,
-    "P5": 2,
-    "S7": 1,
-    "X1": 1,
+    "X4": 1,
+    "P2": 2,
     "X3": 2,
-    "X4": 1
+    "P5": 2,
+    "N1": 3,
+    "X1": 1,
+    "S7": 1,
+    "I4": 1
   },
   "items": [
     {
@@ -78,21 +81,27 @@
       "index": 5,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "Non ancora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 6,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "Non ancora",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Spiegare precisamente i bisogni",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica."
     },
     {

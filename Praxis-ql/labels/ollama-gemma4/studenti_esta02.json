@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:05:05.590823+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -27,16 +29,17 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per migliorare la comprensione e la preparazione attiva (quiz, rielaborazione), ma mostra consapevolezza dei limiti, specialmente sul non delegare il ragionamento e sul non usare l'IA per simulare esami.",
   "code_counts": {
+    "X1": 1,
     "P2": 1,
     "P4": 1,
-    "P5": 2,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S4": 1,
-    "S6": 1,
-    "X1": 1,
+    "P5": 2,
     "X2": 2,
-    "X3": 1
+    "N1": 1,
+    "S4": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -93,7 +96,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna in particolare",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -10,20 +10,23 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
     "A1",
     "I4",
+    "N1",
     "R3",
     "S3"
   ],
   "record_note": "L'insegnante non utilizza l'IA in didattica, motivando la scelta per la mancanza di necessità percepita nel contesto delle prime classi e esprimendo preoccupazioni sulla perdita di personalizzazione e sulla natura 'artefatta' dell'uso.",
   "code_counts": {
+    "N1": 2,
+    "R3": 1,
     "A1": 1,
     "I4": 1,
-    "R3": 1,
     "S3": 1
   },
   "items": [
@@ -31,7 +34,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -58,8 +63,10 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "non saprei",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

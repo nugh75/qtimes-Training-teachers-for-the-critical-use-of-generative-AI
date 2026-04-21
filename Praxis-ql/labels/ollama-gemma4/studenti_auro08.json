@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:56:09.565552+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -28,17 +30,18 @@
   ],
   "record_note": "L'utente è consapevole dei benefici operativi (rapidità, comprensione) ma anche dei rischi cognitivi (erosione del pensiero critico, plagio).",
   "code_counts": {
-    "P1": 2,
-    "P2": 1,
-    "P5": 1,
     "P6": 1,
+    "X1": 2,
+    "P2": 1,
+    "X3": 1,
+    "P5": 1,
     "P7": 1,
     "R4": 1,
-    "S2": 1,
-    "S4": 1,
-    "X1": 2,
+    "P1": 2,
     "X2": 2,
-    "X3": 1
+    "N1": 1,
+    "S4": 1,
+    "S2": 1
   },
   "items": [
     {
@@ -96,7 +99,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

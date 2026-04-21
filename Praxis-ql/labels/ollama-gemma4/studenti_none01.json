@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:21:44.202383+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -24,21 +26,24 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per approfondimenti e preparazione a verifiche/interrogazioni, mostrando un uso focalizzato sullo studio e l'apprendimento.",
   "code_counts": {
-    "P1": 1,
-    "P2": 1,
-    "P4": 2,
+    "N1": 2,
     "P6": 1,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "X2": 2,
-    "X3": 1
+    "P1": 1,
+    "P4": 2,
+    "X2": 2
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -95,7 +100,9 @@
       "index": 7,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "aiuta molto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica."
     }
   ]

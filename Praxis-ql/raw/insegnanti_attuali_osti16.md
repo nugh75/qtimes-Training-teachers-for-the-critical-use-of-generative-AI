@@ -11,6 +11,15 @@ note: "Il partecipante mostra una visione critica sull'uso dell'IA, valorizzando
 
 # Risposta osti16
 
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **P2**: Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+- **R1**: Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.
+- **R5**: Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +27,7 @@ note: "Il partecipante mostra una visione critica sull'uso dell'IA, valorizzando
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Sottolinea l'importanza del rapporto umano che va a mancare.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +35,7 @@ note: "Il partecipante mostra una visione critica sull'uso dell'IA, valorizzando
 **Codes**: R1 — Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.; R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Manifesta poca capacità pratica (R1) e rifiuto/non utilizzo motivato (R5), enfatizzando il valore del rapporto umano (I4).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +43,12 @@ note: "Il partecipante mostra una visione critica sull'uso dell'IA, valorizzando
 **Codes**: X6 — Coinvolgimento, arricchimento e innovazione.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
 **Reason**: Riconosce l'attrazione (X6) ma sottolinea la necessità di consolidare il rapporto interpersonale (I4).
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Credo che più che non utilizzare delle pratiche occorre introdurre queste pratiche in maniera protetta, corretta e solo a partire da una certa età. Credo che andrebbero inserite gradualmente dalle ultime classi della primaria, non prima e che i docenti debbano prima essere formati adeguatamente per questo.
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
 **Reason**: Suggerisce che l'introduzione debba essere graduale e che i docenti debbano essere formati (A1), implicando un approccio protetto (P2).
+
+**Cited in:** —

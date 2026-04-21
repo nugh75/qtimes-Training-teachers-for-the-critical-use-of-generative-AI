@@ -1,37 +1,49 @@
 {
   "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_tino16.md",
   "source_name": "insegnanti_futuri_tino16.md",
-  "title": "Risposta: Insegnanti pre-service - Record 70",
+  "title": "Risposta tino16",
   "group": "Insegnanti pre-service",
   "record_code": "tino16",
   "host": "http://192.168.129.14:11434",
   "model": "gemma4:e4b",
-  "generated_at": "2026-04-19T21:49:50.060209+00:00",
-  "record_dimensions": [],
-  "record_subcodes": [],
-  "record_note": "Il partecipante è una laureanda pre-service che dichiara non avere esperienza sull'uso dell'IA in didattica.",
-  "code_counts": {},
+  "generated_at": "2026-04-21T07:52:28.535397+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1"
+  ],
+  "record_note": "Il partecipante è una laureanda pre-service che dichiara di non avere esperienza sull'uso dell'IA in didattica.",
+  "code_counts": {
+    "N1": 3
+  },
   "items": [
     {
       "index": 1,
       "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
       "answer": "Non ho esperienza, sono una laureanda",
-      "codes": [],
-      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti analizzabili."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti classificabili."
     },
     {
       "index": 2,
       "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
       "answer": "Non ho esperienza",
-      "codes": [],
-      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti analizzabili."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti classificabili."
     },
     {
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Non ho esperienza",
-      "codes": [],
-      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti analizzabili."
+      "codes": [
+        "N1"
+      ],
+      "reason": "La risposta indica mancanza di esperienza, non fornendo contenuti classificabili."
     }
   ]
 }

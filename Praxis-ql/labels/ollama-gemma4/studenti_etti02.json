@@ -10,21 +10,24 @@
   "record_dimensions": [
     "A",
     "I",
+    "N",
     "R",
     "S"
   ],
   "record_subcodes": [
     "A1",
     "I2",
+    "N1",
     "R3",
     "S5",
     "S7"
   ],
   "record_note": "Profilo di studente con scarsa familiarità con l'IA, che manifesta resistenza e consapevolezza dei limiti tecnici (allucinazioni) e dei confini disciplinari (Medicina).",
   "code_counts": {
+    "N1": 1,
+    "R3": 1,
     "A1": 1,
     "I2": 1,
-    "R3": 1,
     "S5": 1,
     "S7": 1
   },
@@ -33,7 +36,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non sono capace ad utilizzarla, non l’ho mai usata. Sono all’antica.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto o incapacità di utilizzo, non informativa per i codici."
     },
     {

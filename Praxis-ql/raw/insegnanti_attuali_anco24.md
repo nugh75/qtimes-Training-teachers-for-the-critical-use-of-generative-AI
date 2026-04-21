@@ -11,6 +11,13 @@ note: "Il partecipante esprime scetticismo e timori pedagogici sull'uso dell'IA,
 
 # Risposta anco24
 
+## Legenda codici del record
+
+- **I2**: Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+- **S2**: Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +25,8 @@ note: "Il partecipante esprime scetticismo e timori pedagogici sull'uso dell'IA,
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
 **Reason**: Esprime timore e incertezza sull'uso dell'IA.
 
+**Cited in:**
+- [wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md](../wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md)
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -25,6 +34,8 @@ note: "Il partecipante esprime scetticismo e timori pedagogici sull'uso dell'IA,
 **Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.; S6 — Sostituzione del docente o della relazione educativa.; S4 — Erosione del pensiero critico.
 **Reason**: Esprime timore che l'IA possa sostituire l'educatore (S6) e che gli studenti perdano l'uso del pensiero critico (S4).
 
+**Cited in:**
+- [wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale.md](../wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale.md)
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -32,9 +43,12 @@ note: "Il partecipante esprime scetticismo e timori pedagogici sull'uso dell'IA,
 **Codes**: S4 — Erosione del pensiero critico.
 **Reason**: Preoccupazione che gli studenti lascino fare all'AI, perdendo la motivazione e la capacità di pensiero.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Produrre testi al posto degli studenti potrebbe diminuire la loro già scarsa capacità di inventare, creare, ragionare, riflettere. Lo stesso vale per la traduzione.
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S4 — Erosione del pensiero critico.
 **Reason**: Attenzione al rischio che produrre testi (S2) diminuisca la capacità di inventare, creare o ragionare (S4).
+
+**Cited in:** —

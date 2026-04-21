@@ -9,17 +9,20 @@
   "generated_at": "2026-04-19T20:56:34.612756+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S6",
     "X1",
     "X3"
   ],
   "record_note": "L'insegnante esprime una forte sfiducia nell'uso dell'IA, sottolineando l'importanza insostituibile della relazione umana e dell'azione educativa.",
   "code_counts": {
+    "N1": 2,
     "I4": 2,
     "S6": 2,
     "X1": 1,
@@ -30,7 +33,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne ho necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto o non applicabilità."
     },
     {
@@ -59,7 +64,9 @@
       "index": 4,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Simulazioni o altro",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su pratiche da evitare."
     }
   ]

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:48:21.071896+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P3",
     "S2",
@@ -20,9 +22,10 @@
   ],
   "record_note": "Il docente riconosce l'uso dell'IA per la creazione di verifiche (P1) ma esprime preoccupazione per il rischio di delega e plagio (S2) e per l'impatto sulla produzione linguistica.",
   "code_counts": {
+    "N1": 1,
     "P1": 2,
-    "P3": 1,
     "S2": 2,
+    "P3": 1,
     "X4": 1
   },
   "items": [
@@ -30,7 +33,9 @@
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {

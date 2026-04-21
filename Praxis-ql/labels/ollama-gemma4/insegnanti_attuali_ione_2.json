@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:09:17.349021+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P3",
@@ -26,16 +28,17 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la creazione di materiali di supporto (mappe, quiz) e per risparmiare tempo, ma evidenzia anche rischi di dipendenza e calo di attenzione.",
   "code_counts": {
+    "P5": 1,
+    "X1": 2,
     "P1": 5,
     "P2": 2,
     "P3": 1,
+    "X4": 1,
     "P4": 1,
-    "P5": 1,
+    "X2": 1,
     "S1": 1,
     "S4": 1,
-    "X1": 2,
-    "X2": 1,
-    "X4": 1
+    "N1": 1
   },
   "items": [
     {
@@ -122,8 +125,10 @@
       "index": 9,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
       "answer": "Per me possono essere utilizzate tutte, l'importante è essere consapevoli di quello che si sta facendo",
-      "codes": [],
-      "reason": ""
+      "codes": [
+        "N1"
+      ],
+      "reason": "Risposta non classificabile: troppo breve, generica o fuori tema."
     }
   ]
 }

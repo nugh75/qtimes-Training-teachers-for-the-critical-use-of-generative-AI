@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:51:05.873088+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S4",
@@ -25,21 +27,24 @@
   ],
   "record_note": "Il partecipante mostra consapevolezza dei benefici in termini di velocità (X1) ma anche dei rischi legati all'affidabilità (I2, S5) e alla potenziale atrofia del pensiero critico (S4).",
   "code_counts": {
-    "I2": 1,
+    "N1": 1,
     "P2": 1,
+    "X3": 1,
     "P5": 1,
-    "S4": 1,
-    "S5": 1,
-    "S7": 1,
     "X1": 3,
-    "X3": 1
+    "I2": 1,
+    "S5": 1,
+    "S4": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "chat gpt",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica e non specifica su strumenti o modalità di studio."
     },
     {

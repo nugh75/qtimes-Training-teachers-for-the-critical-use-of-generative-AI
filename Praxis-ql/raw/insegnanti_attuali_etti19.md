@@ -11,6 +11,14 @@ note: "Il partecipante mostra consapevolezza dei rischi (pigrizia, perdita di co
 
 # Risposta ETTI19
 
+## Legenda codici del record
+
+- **A1**: Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+- **P1**: Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S4**: Erosione del pensiero critico.
+- **X6**: Coinvolgimento, arricchimento e innovazione.
+
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
@@ -18,6 +26,7 @@ note: "Il partecipante mostra consapevolezza dei rischi (pigrizia, perdita di co
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
 **Reason**: Il partecipante cita la mancanza di metodo e formazione adeguata come motivo di non utilizzo dell'IA.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
@@ -25,9 +34,12 @@ note: "Il partecipante mostra consapevolezza dei rischi (pigrizia, perdita di co
 **Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.; X6 — Coinvolgimento, arricchimento e innovazione.
 **Reason**: Il partecipante menziona il rischio di pigrizia (S1) ma riconosce anche che l'IA può sviluppare la creatività (X6).
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
 **A**: Elaborazione di riassunti, perché lo studente deve riuscire a sviluppare questa competenza da sé
 **Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; S4 — Erosione del pensiero critico.
 **Reason**: Il partecipante sconsiglia l'elaborazione di riassunti (P1) perché lo studente deve sviluppare la competenza autonomamente (S4).
+
+**Cited in:** —

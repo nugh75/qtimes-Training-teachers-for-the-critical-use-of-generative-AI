@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:02:29.936265+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P4",
@@ -26,22 +28,25 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente come supporto per chiarimenti e quesiti, ma è consapevole dei limiti di personalizzazione e riassunto.",
   "code_counts": {
-    "P1": 1,
+    "N1": 2,
     "P2": 2,
     "P4": 2,
     "P5": 1,
     "R4": 2,
-    "S3": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1
+    "X3": 1,
+    "P1": 1,
+    "X1": 1,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Nessuno lo utilizzo poco",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {
@@ -88,7 +93,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa."
     },
     {

@@ -8,13 +8,16 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:57:21.630646+00:00",
   "record_dimensions": [
+    "N",
     "P"
   ],
   "record_subcodes": [
+    "N1",
     "P1"
   ],
   "record_note": "Il partecipante fornisce risposte molto generiche e non dettagliate sull'uso dell'IA nello studio, rendendo difficile l'assegnazione di codici specifici.",
   "code_counts": {
+    "N1": 7,
     "P1": 1
   },
   "items": [
@@ -22,28 +25,36 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Google  Perché mi aiuta tantissimo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica sull'uso didattico dell'IA."
     },
     {
       "index": 2,
       "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
       "answer": "Cerco notizie",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo vaga ('Cerco notizie') per assegnare codici specifici di personalizzazione dello studio."
     },
     {
       "index": 3,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Chabot",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è solo il nome di un tipo di strumento ('Chabot') e non un esempio di prompt."
     },
     {
       "index": 4,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
       "answer": "Per approfondire meglio e per apprendere",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica ('Per approfondire meglio e per apprendere') per assegnare codici specifici."
     },
     {
@@ -59,21 +70,27 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato nessuna difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di difficoltà, non fornendo informazioni utili per l'assegnazione di codici."
     },
     {
       "index": 7,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Gli ragazzi e i genitori",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta menziona solo 'ragazzi e genitori' senza specificare pro o contro dell'uso dell'IA."
     },
     {
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Perché quelle non raccomandate paghi troppo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un giudizio economico ('paghi troppo') e non un'indicazione di pratiche non raccomandate nell'uso dello studio."
     }
   ]

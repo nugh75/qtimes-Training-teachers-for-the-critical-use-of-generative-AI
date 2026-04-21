@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:31:37.426545+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P5",
     "S1",
@@ -26,22 +28,25 @@
   ],
   "record_note": "Lo studente utilizza l'IA per migliorare la comprensione e la rapidità di studio, ma mostra consapevolezza dei limiti tecnici e dei rischi di dipendenza.",
   "code_counts": {
-    "I2": 1,
+    "N1": 1,
     "P2": 2,
-    "P5": 2,
-    "S1": 1,
-    "S7": 1,
-    "X1": 1,
-    "X2": 2,
     "X3": 1,
-    "X5": 1
+    "P5": 2,
+    "X2": 2,
+    "I2": 1,
+    "X1": 1,
+    "X5": 1,
+    "S1": 1,
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat GPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo generica (solo nome dello strumento)."
     },
     {

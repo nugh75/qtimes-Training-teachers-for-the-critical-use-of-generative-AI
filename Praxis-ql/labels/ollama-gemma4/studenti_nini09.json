@@ -9,19 +9,22 @@
   "generated_at": "2026-04-19T22:21:03.229133+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "R5",
     "X2"
   ],
   "record_note": "Il partecipante mostra una consapevolezza limitata sull'uso critico dell'IA, riconoscendone i benefici ma anche i limiti (errori).",
   "code_counts": {
-    "I2": 1,
     "R5": 1,
-    "X2": 1
+    "X2": 1,
+    "I2": 1,
+    "N1": 1
   },
   "items": [
     {
@@ -47,7 +50,9 @@
       "index": 3,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "non ne sono a conoscenza",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è negativa e non fornisce informazioni utili o specifiche."
     }
   ]

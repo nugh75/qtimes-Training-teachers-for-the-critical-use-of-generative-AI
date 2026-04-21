@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:08:57.823930+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "S2",
     "S3",
@@ -21,18 +23,21 @@
   ],
   "record_note": "L'insegnante è in una classe prima della scuola primaria e mostra cautela nell'uso dell'IA, preoccupandosi principalmente di effetti negativi come l'appiattimento del pensiero e il plagio.",
   "code_counts": {
+    "N1": 1,
     "P2": 1,
-    "S2": 1,
+    "X3": 1,
     "S3": 1,
     "S4": 1,
-    "X3": 1
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "insegno in una classe prima della scuola primaria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sul non utilizzo dell'IA."
     },
     {

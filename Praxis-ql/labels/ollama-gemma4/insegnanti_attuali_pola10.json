@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:24:01.786395+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "P2",
     "P5",
     "P7",
@@ -27,23 +29,26 @@
   ],
   "record_note": "L'insegnante utilizza l'IA per la sintesi e la personalizzazione, ma è consapevole dei rischi di dipendenza e perdita di pensiero critico.",
   "code_counts": {
-    "I4": 1,
-    "P2": 1,
+    "N1": 2,
     "P5": 3,
+    "X2": 4,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "S4": 1,
+    "X6": 1,
+    "I4": 1,
     "S6": 1,
-    "S7": 1,
-    "X2": 4,
-    "X3": 1,
-    "X6": 1
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -108,7 +113,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('Nessuna')."
     },
     {

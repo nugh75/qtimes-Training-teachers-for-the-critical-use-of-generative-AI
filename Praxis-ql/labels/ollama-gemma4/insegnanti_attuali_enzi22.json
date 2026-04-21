@@ -8,27 +8,32 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:58:59.255975+00:00",
   "record_dimensions": [
+    "N",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "R2",
     "S2",
     "X2"
   ],
   "record_note": "Il partecipante mostra una scarsa familiarità con gli strumenti di IA, limitando l'uso a considerazioni generali sui pro e contro.",
   "code_counts": {
+    "N1": 1,
     "R2": 1,
-    "S2": 1,
-    "X2": 1
+    "X2": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non la conosco adeguatamente",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa sull'uso dell'IA."
     },
     {

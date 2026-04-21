@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:47:52.686691+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P1",
     "P3",
     "R3",
@@ -24,19 +26,22 @@
   ],
   "record_note": "Il partecipante è un insegnante pre-service che esprime scetticismo sull'uso dell'IA, riconoscendone solo parziali utilità (produzione materiali e inclusione) ma evidenziando rischi di affidabilità.",
   "code_counts": {
-    "I2": 1,
+    "N1": 1,
+    "R3": 1,
     "P1": 1,
     "P3": 1,
-    "R3": 1,
+    "X4": 1,
     "S5": 1,
-    "X4": 1
+    "I2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Credo di non averne la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto non informativa."
     },
     {

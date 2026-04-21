@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T21:15:02.055436+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I3",
+    "N1",
     "P5",
     "S2",
     "S4",
@@ -22,39 +24,48 @@
   ],
   "record_note": "L'insegnante è consapevole dei potenziali benefici (motivazione) ma evidenzia preoccupazioni significative legate all'uso non responsabile e alla perdita di competenze critiche da parte degli studenti.",
   "code_counts": {
-    "I3": 2,
+    "N1": 5,
     "P5": 1,
-    "S2": 1,
+    "X6": 2,
+    "I3": 2,
     "S4": 2,
-    "X6": 2
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"-\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
       "index": 2,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Non ho uno strumento preferito",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su strumenti o preferenze."
     },
     {
       "index": 3,
       "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
       "answer": "ancora non utilizzo l'IA per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di utilizzo attuale."
     },
     {
       "index": 4,
       "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
       "answer": "ancora non utilizzo l'IA per questo scopo",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di utilizzo attuale."
     },
     {
@@ -70,7 +81,9 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "non ho ancora dati relativi a questo punto",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta che indica assenza di dati relativi al punto."
     },
     {

@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:54:57.072574+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P6",
@@ -23,20 +25,23 @@
   ],
   "record_note": "Lo studente mostra un uso limitato e incerto dell'IA, esprimendo anche un desiderio di smettere di usarla, ma riconosce il suo potenziale per la spiegazione di concetti.",
   "code_counts": {
-    "P1": 1,
-    "P2": 2,
+    "N1": 4,
     "P6": 1,
+    "P2": 2,
+    "X3": 1,
     "P7": 1,
     "R5": 1,
-    "X2": 1,
-    "X3": 1
+    "P1": 1,
+    "X2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "“-“",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('-')."
     },
     {
@@ -80,21 +85,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
       "answer": "Nn ha migliorato",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non specifica."
     },
     {
       "index": 7,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa ('Nessuno')."
     },
     {
       "index": 8,
       "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
       "answer": "Pro e che ti aiuta contro e che nn dovrebbe",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta troppo vaga e non strutturata per l'assegnazione di codici specifici."
     },
     {

@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T21:00:20.240548+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "S",
@@ -16,6 +17,7 @@
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P7",
     "R4",
@@ -25,20 +27,23 @@
   ],
   "record_note": "L'insegnante utilizza l'IA principalmente per la personalizzazione e l'adattamento didattico, ma mostra cautela riguardo all'affidabilità degli output e ai limiti etici (valutazione).",
   "code_counts": {
-    "I2": 2,
+    "N1": 1,
     "P2": 4,
-    "P7": 1,
+    "X3": 3,
     "R4": 1,
-    "S7": 1,
+    "P7": 1,
+    "I2": 2,
     "X2": 1,
-    "X3": 3
+    "S7": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Preparazione delle lezioni",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è troppo generica e non specifica l'uso di strumenti IA."
     },
     {

@@ -8,10 +8,12 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T20:45:06.728600+00:00",
   "record_dimensions": [
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "S2",
     "S3",
     "S4",
@@ -19,17 +21,20 @@
   ],
   "record_note": "Il partecipante esprime scetticismo sull'uso dell'IA, evidenziando rischi come l'appiattimento creativo e la delega del pensiero, ma riconosce un potenziale di supporto analitico.",
   "code_counts": {
-    "S2": 1,
-    "S3": 1,
+    "N1": 1,
     "S4": 2,
-    "X6": 1
+    "X6": 1,
+    "S3": 1,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non ne sento la necessità",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto non informativa."
     },
     {

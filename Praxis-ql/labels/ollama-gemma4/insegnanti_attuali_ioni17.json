@@ -9,11 +9,13 @@
   "generated_at": "2026-04-19T21:09:19.161791+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "I4",
+    "N1",
     "S2",
     "S4",
     "S6",
@@ -22,19 +24,22 @@
   ],
   "record_note": "L'insegnante mostra una consapevolezza critica sull'uso dell'IA, evidenziando sia i benefici (efficienza, personalizzazione) sia i rischi (dipendenza, perdita di pensiero critico e ruolo relazionale).",
   "code_counts": {
-    "I4": 1,
-    "S2": 1,
+    "N1": 1,
     "S4": 1,
-    "S6": 2,
     "X1": 1,
-    "X3": 1
+    "X3": 1,
+    "I4": 1,
+    "S6": 2,
+    "S2": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Perché gli alunni sono ancora troppo piccoli.",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Motivazione legata all'età degli alunni, non un codice specifico del framework."
     },
     {

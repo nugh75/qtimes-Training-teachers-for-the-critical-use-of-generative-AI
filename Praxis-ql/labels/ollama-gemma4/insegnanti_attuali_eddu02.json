@@ -9,6 +9,7 @@
   "generated_at": "2026-04-19T20:54:08.780400+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "S",
     "X"
@@ -16,6 +17,7 @@
   "record_subcodes": [
     "I2",
     "I4",
+    "N1",
     "P1",
     "P3",
     "P6",
@@ -27,14 +29,15 @@
   "record_note": "L'utente mostra diffidenza (I2) ma ne evidenzia l'uso in ambiti di supporto all'inclusione (P3, X4), pur sottolineando la necessità del controllo umano (I4).",
   "code_counts": {
     "I2": 1,
-    "I4": 1,
+    "P6": 1,
     "P1": 1,
     "P3": 3,
-    "P6": 1,
-    "S4": 1,
-    "S6": 1,
+    "X4": 3,
+    "N1": 2,
     "X2": 1,
-    "X4": 3
+    "S4": 1,
+    "I4": 1,
+    "S6": 1
   },
   "items": [
     {
@@ -80,7 +83,9 @@
       "index": 5,
       "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
       "answer": "Monica",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "La risposta è un nome e non un esempio di prompt."
     },
     {
@@ -106,7 +111,9 @@
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {

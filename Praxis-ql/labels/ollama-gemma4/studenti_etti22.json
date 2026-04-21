@@ -9,12 +9,14 @@
   "generated_at": "2026-04-19T22:06:20.266290+00:00",
   "record_dimensions": [
     "I",
+    "N",
     "P",
     "R",
     "X"
   ],
   "record_subcodes": [
     "I2",
+    "N1",
     "P2",
     "P4",
     "P5",
@@ -25,13 +27,14 @@
   ],
   "record_note": "Lo studente utilizza l'IA principalmente per semplificare e chiarire concetti (P2, X2), ma mostra consapevolezza dei suoi limiti (I2) e della necessità di mantenere un ruolo attivo nello studio (P4, X7).",
   "code_counts": {
-    "I2": 2,
+    "N1": 2,
     "P2": 2,
-    "P4": 1,
     "P5": 2,
+    "X2": 3,
     "P7": 1,
     "R4": 1,
-    "X2": 3,
+    "I2": 2,
+    "P4": 1,
     "X7": 1
   },
   "items": [
@@ -39,7 +42,9 @@
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat gpt perché molto utile",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica e non specifica su metodi di studio."
     },
     {
@@ -86,7 +91,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Non ho incontrato difficoltà",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa, non fornisce informazioni codificabili."
     },
     {

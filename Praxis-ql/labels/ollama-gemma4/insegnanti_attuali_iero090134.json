@@ -9,26 +9,31 @@
   "generated_at": "2026-04-19T21:06:12.599122+00:00",
   "record_dimensions": [
     "A",
+    "N",
     "S",
     "X"
   ],
   "record_subcodes": [
     "A1",
+    "N1",
     "S4",
     "X2"
   ],
   "record_note": "L'insegnante mostra una scarsa familiarità con gli strumenti digitali e un atteggiamento di cautela, riconoscendo il potenziale ma enfatizzando l'importanza del pensiero umano.",
   "code_counts": {
+    "N1": 1,
     "A1": 1,
-    "S4": 1,
-    "X2": 1
+    "X2": 1,
+    "S4": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "Non la ritengo necessaria",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta di rifiuto non motivata o non informativa."
     },
     {

@@ -8,17 +8,20 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:13:13.617234+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P5",
     "X2"
   ],
   "record_note": "Lo studente percepisce l'IA come uno strumento efficace per ottenere contenuti sintetici e approfonditi, migliorando la sua capacità di studio attraverso la riscrittura e lo studio di materiali forniti.",
   "code_counts": {
     "P5": 2,
-    "X2": 2
+    "X2": 2,
+    "N1": 1
   },
   "items": [
     {
@@ -45,7 +48,9 @@
       "index": 3,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "nessuno",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     }
   ]

@@ -11,6 +11,15 @@ note: "Il partecipante mostra una forte sfiducia nell'uso dell'IA per compiti ch
 
 # Risposta Glio26
 
+## Legenda codici del record
+
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **S1**: Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+- **S4**: Erosione del pensiero critico.
+- **S6**: Sostituzione del docente o della relazione educativa.
+- **S7**: Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+- **X2**: Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
@@ -18,6 +27,7 @@ note: "Il partecipante mostra una forte sfiducia nell'uso dell'IA per compiti ch
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Preferisce affidarsi alle proprie abilità e al pensiero, indicando la non sostitutività dell'IA rispetto alle competenze umane.
 
+**Cited in:** —
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
@@ -25,6 +35,7 @@ note: "Il partecipante mostra una forte sfiducia nell'uso dell'IA per compiti ch
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
 **Reason**: Preferisce rivolgersi a persone reali per risposte più contestualizzate, sottolineando il limite dell'IA come fonte generica e impersonale.
 
+**Cited in:** —
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
@@ -32,9 +43,12 @@ note: "Il partecipante mostra una forte sfiducia nell'uso dell'IA per compiti ch
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; S4 — Erosione del pensiero critico.; S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
 **Reason**: Riconosce l'IA come utile per fini informativi (enciclopedia) ma critica l'uso eccessivo che porta a delegare il proprio lavoro e abilità personali.
 
+**Cited in:** —
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
 **A**: Ad esempio pratiche che richiedono l’inserimento di una propria visione personale, una percezione non solo oggettiva, anche un semplice articolo giornalistico, per quanto dovrebbe attenersi all’impersonalità, fa trapelare sempre un velo di soggettività che obbligatoriamente l’affidamento all’IA escluderebbe.
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
 **Reason**: Indica che l'IA non è adatta a pratiche che richiedono visione personale o soggettività, ambiti che richiedono l'interazione umana.
+
+**Cited in:** —

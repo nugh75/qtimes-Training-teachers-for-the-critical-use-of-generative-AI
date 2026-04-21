@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:52:41.198759+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P5",
     "P6",
@@ -28,17 +30,18 @@
   ],
   "record_note": "Lo studente è consapevole dell'efficienza degli strumenti IA (X1) e ne usa le capacità per approfondire e schematizzare (P2, P5), ma mostra anche consapevolezza dei rischi di dipendenza e limitazione delle capacità (S4, S3).",
   "code_counts": {
-    "P2": 1,
-    "P5": 1,
     "P6": 1,
+    "X1": 1,
+    "P2": 1,
+    "X3": 1,
     "P7": 1,
     "R4": 1,
-    "S3": 1,
-    "S4": 1,
-    "X1": 1,
     "X2": 1,
-    "X3": 1,
-    "X5": 1
+    "P5": 1,
+    "X5": 1,
+    "N1": 2,
+    "S4": 1,
+    "S3": 1
   },
   "items": [
     {
@@ -94,7 +97,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa o non informativa."
     },
     {
@@ -111,7 +116,9 @@
       "index": 8,
       "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
       "answer": "Non saprei",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa o di rifiuto di fornire dettagli."
     }
   ]

@@ -8,12 +8,14 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T22:09:35.984258+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "R",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P1",
     "P2",
     "P5",
@@ -26,22 +28,25 @@
   ],
   "record_note": "Lo studente utilizza l'IA per approfondire e semplificare concetti complessi, dimostrando una buona capacità di prompting e consapevolezza dei limiti (non usare per tesine/esami).",
   "code_counts": {
-    "P1": 1,
+    "N1": 2,
     "P2": 2,
+    "X3": 2,
     "P5": 2,
     "R4": 1,
-    "S2": 1,
-    "S6": 1,
-    "X1": 1,
+    "P1": 1,
     "X2": 1,
-    "X3": 2
+    "X1": 1,
+    "S2": 1,
+    "S6": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Quali sono i tuoi strumenti preferiti e perché?",
       "answer": "Chat GPT",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta generica che nomina solo uno strumento senza specificare l'uso didattico."
     },
     {
@@ -88,7 +93,9 @@
       "index": 6,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
       "answer": "Nessuna",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta negativa e non informativa."
     },
     {

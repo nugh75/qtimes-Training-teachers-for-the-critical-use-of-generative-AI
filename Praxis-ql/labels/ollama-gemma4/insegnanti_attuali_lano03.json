@@ -8,11 +8,13 @@
   "model": "gemma4:e4b",
   "generated_at": "2026-04-19T21:12:19.924479+00:00",
   "record_dimensions": [
+    "N",
     "P",
     "S",
     "X"
   ],
   "record_subcodes": [
+    "N1",
     "P2",
     "P6",
     "S3",
@@ -22,19 +24,22 @@
   ],
   "record_note": "L'insegnante non utilizza l'IA in classe, ma ne riconosce il potenziale arricchente e solleva preoccupazioni sulla perdita di pensiero critico e sulla standardizzazione.",
   "code_counts": {
-    "P2": 2,
+    "N1": 4,
     "P6": 2,
-    "S3": 1,
-    "S4": 2,
+    "P2": 2,
     "X3": 2,
-    "X6": 1
+    "X6": 1,
+    "S4": 2,
+    "S3": 1
   },
   "items": [
     {
       "index": 1,
       "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
       "answer": "\"_\"",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Risposta non informativa ('_')."
     },
     {
@@ -79,21 +84,27 @@
       "index": 6,
       "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
       "answer": "ho una prima elementare e non usano l'ia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non usa l'IA con i suoi studenti."
     },
     {
       "index": 7,
       "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
       "answer": "ho una prima elementare e non usano l'ia",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non usa l'IA con i suoi studenti."
     },
     {
       "index": 8,
       "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
       "answer": "nessuna perchè non la uso",
-      "codes": [],
+      "codes": [
+        "N1"
+      ],
       "reason": "Non usa l'IA, quindi non incontra difficoltà nell'implementazione."
     },
     {
