@@ -19,24 +19,35 @@ note: "Il partecipante non è un insegnante attivo e le risposte sono molto brev
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Velocità come pro,
+
 **Codes**: X1 — Efficienza e risparmio di tempo.
+
 **Reason**: Il partecipante menziona la 'Velocità' come vantaggio.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Non so
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa.
 
 **Cited in:** —

@@ -19,16 +19,23 @@ note: "Lo studente non utilizza l'IA e manifesta incertezza sulle modalità di u
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Non mi è’ mai capitato
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa o negativa.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+
 **A**: Non so come usarla
+
 **Codes**: R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+
 **Reason**: L'incapacità di usare l'IA è legata alla mancanza di competenze di prompting.
 
 **Cited in:**

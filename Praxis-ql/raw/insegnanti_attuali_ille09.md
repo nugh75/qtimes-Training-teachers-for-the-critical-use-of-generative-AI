@@ -21,33 +21,48 @@ note: "L'insegnante è consapevole dei potenziali benefici dell'IA (inclusività
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: ancora utilizzo altri strumenti
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta generica che indica l'uso di altri strumenti, senza specificare il contenuto o la funzione.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: utilizzo più strumenti pratici
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta generica che indica l'uso di 'strumenti pratici' senza specificare il contesto didattico o la funzione.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: pro: l'IA Potrebbe proporre una didattica più inclusiva. contro:  in alcuni casi potrebbe limitare il lavoro degli studenti
+
 **Codes**: P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; X4 — Inclusione e accesso.
+
 **Reason**: L'IA può proporre una didattica più inclusiva (P3), migliorando l'accesso (X4).
 
 **Cited in:**
 - [wiki/insegnanti-attuali/expectations/inclusione-digitale.md](../wiki/insegnanti-attuali/expectations/inclusione-digitale.md)
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: La messa in pratica di attività nella quale  l'IA non prevede alle necessità degli alunni
+
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.
+
 **Reason**: L'IA non dovrebbe essere usata se non risponde alle necessità degli alunni, suggerendo la necessità di adattare l'uso all'individuo/gruppo (P2).
 
 **Cited in:** —

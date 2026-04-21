@@ -20,32 +20,47 @@ note: "Lo studente percepisce l'IA come uno strumento di supporto alla comprensi
 ## Item 1 {#item-1}
 
 **Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+
 **A**: in maniera discorsiva
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: La risposta è troppo generica e non fornisce esempi di prompt.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+
 **A**: aiutandomi a comprendere meglio come procedere nell'apprendimento
+
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
 **Reason**: L'IA aiuta a comprendere meglio come procedere nell'apprendimento, indicando un miglioramento della comprensione.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+
 **A**: 0
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa (0).
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+
 **A**: pro: aiuta nell'elaborazione e quindi ad apprendere meglio. Contro: si rischia di utilizzare gli strumenti tecnologici come unica opzione di apprendimento e sostegno
+
 **Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; S4 — Erosione del pensiero critico.
+
 **Reason**: Il pro indica miglior apprendimento/elaborazione (X2), mentre il contro evidenzia il rischio di dipendenza e perdita di autonomia (S4).
 
 **Cited in:** —

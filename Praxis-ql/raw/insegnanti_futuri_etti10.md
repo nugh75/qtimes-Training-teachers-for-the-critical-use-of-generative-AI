@@ -18,24 +18,35 @@ note: "Il partecipante non ha esperienza nell'uso dell'IA in didattica, limitand
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta troppo breve e non informativa.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Non l ho usata
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta troppo breve e non informativa.
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Ancora non lo so
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —

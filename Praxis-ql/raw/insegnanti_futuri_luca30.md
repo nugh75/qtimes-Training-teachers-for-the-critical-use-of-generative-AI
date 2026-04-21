@@ -18,16 +18,23 @@ note: "Il partecipante è un insegnante pre-service che non ha ancora esperienza
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Pro
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Non ho esperienze di insegnamento
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —

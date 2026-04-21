@@ -21,32 +21,47 @@ note: "Il partecipante esprime difficoltà nell'uso dell'IA, attribuendole alla 
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Non ho la sufficiente formazione
+
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+
 **Reason**: Il partecipante cita la mancanza di formazione come motivo per non utilizzare l'IA.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Perché non ho adeguate competenze per poterla utilizzare
+
 **Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+
 **Reason**: Il partecipante attribuisce il non utilizzo dell'IA alla mancanza di competenze adeguate.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Se adeguatamente utilizzata i vantaggi potrebbero essere la velocità di ricerca e nei collegamenti. Gli svantaggi la perdita di capacità di lavorare con l'intelligenza "tradizionale" e la perdita della creatività.
+
 **Codes**: X1 — Efficienza e risparmio di tempo.; S3 — Appiattimento, omologazione, perdita di creativita'.
+
 **Reason**: Vantaggi citati sono la velocità di ricerca (X1), mentre gli svantaggi includono la perdita di creatività (S3).
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Non so
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —

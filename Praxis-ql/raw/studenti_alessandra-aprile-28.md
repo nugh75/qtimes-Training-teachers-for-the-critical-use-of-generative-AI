@@ -19,32 +19,47 @@ note: "La partecipante manifesta un rifiuto totale e consapevole dell'uso dell'I
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Io mai utilizzato artificiale   Non voglio usare
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Rifiuto esplicito di utilizzare l'IA.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+
 **A**: per me come Barare
+
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+
 **Reason**: Motivazione del rifiuto basata sul concetto di 'barare'.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+
 **A**: io non uso mai inteligenza  artificiale
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Rifiuto esplicito di utilizzare l'IA.
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+
 **A**: ma anche per lo studio   non voglio usare nessuna delle due
+
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+
 **Reason**: Rifiuto di utilizzare l'IA per lo studio, associato al concetto di 'non voglio usare'.
 
 **Cited in:** —

@@ -21,32 +21,47 @@ note: "Il partecipante mostra consapevolezza sui benefici (disabilità) e sui ri
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: "-"
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa ('-').
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Perché non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non pertinente al tema dell'uso dell'IA in didattica.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Pro aiuta soprattutto in caso di disabilità o fragilità nell'apprendimento. Può creare dipendenza
+
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X4 — Inclusione e accesso.
+
 **Reason**: L'IA aiuta in caso di disabilità o fragilità nell'apprendimento (P2, X4).
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Creare testi spontanei e introspettivi
+
 **Codes**: S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.
+
 **Reason**: Non raccomandare l'uso dell'IA per creare testi spontanei e introspettivi, ambiti che richiedono interazione umana (S7).
 
 **Cited in:** —

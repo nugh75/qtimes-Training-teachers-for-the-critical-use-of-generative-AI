@@ -80,7 +80,7 @@ def update_item_block(block: str, raw_path: Path, wiki_pages: list[str]) -> str:
         block = block.rstrip()
 
     backlink_lines = build_backlinks_lines(raw_path, wiki_pages)
-    return block + "\n\n" + "\n".join(backlink_lines) + "\n"
+    return block + "\n\n" + "\n".join(backlink_lines) + "\n\n"
 
 
 def update_raw(raw_path: Path, item_backlinks: dict[int, list[str]]) -> tuple[str, int, int]:

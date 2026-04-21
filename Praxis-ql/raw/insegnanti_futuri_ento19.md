@@ -19,16 +19,23 @@ note: "Il partecipante non utilizza l'IA in didattica e ne evidenzia un rischio 
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa (Non insegno).
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Ridurre la capacità di pensiero degli alunni
+
 **Codes**: S4 — Erosione del pensiero critico.
+
 **Reason**: Il partecipante menziona il rischio di 'Ridurre la capacità di pensiero degli alunni'.
 
 **Cited in:** —

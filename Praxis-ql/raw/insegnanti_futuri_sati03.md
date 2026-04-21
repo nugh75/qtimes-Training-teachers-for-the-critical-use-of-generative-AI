@@ -21,24 +21,35 @@ note: "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, evid
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non ho le competenze
+
 **Codes**: R1 — Competenza pratica percepita: saper usare o non saper usare strumenti e prompt.
+
 **Reason**: Il partecipante dichiara di non utilizzare l'IA per mancanza di competenze.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Pro: diminuzione/facilitazione del lavoro. Contro: errato utilizzo
+
 **Codes**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
+
 **Reason**: Vede un pro nella diminuzione del lavoro (X1), ma un contro nell'errato utilizzo (che implica un rischio per il pensiero critico/uso).
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Produzione di testi
+
 **Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+
 **Reason**: Identifica la produzione di testi come pratica non raccomandata, suggerendo un rischio di plagio o di non attribuire il lavoro.
 
 **Cited in:** —

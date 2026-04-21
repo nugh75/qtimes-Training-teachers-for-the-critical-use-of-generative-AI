@@ -22,32 +22,47 @@ note: "Il partecipante esprime una forte diffidenza verso l'IA, concentrandosi p
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: L'USO DELL'INTELLIGENZA ARIFICIALE  LIMITA LE PROPRIE CAPACITA' E RIDUCE DRASTICAMENTE I RAPPORTI  UMANI
+
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
+
 **Reason**: L'uso dell'IA limita i rapporti umani, indicando una preoccupazione per la relazione educativa e la sostituzione del docente.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: PERCHE' RIDUCE LO SVILUPPO DI ELABORAZIONE DEI CONTENUTI E RIDUCE IL RAPPORTO TRA PARI E TRA STUDENTE E INSEGNANTE
+
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
+
 **Reason**: L'IA riduce lo sviluppo dell'elaborazione dei contenuti e il rapporto tra pari e studente/insegnante, evidenziando il valore relazionale e la preoccupazione per la sostituzione del docente.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: L'INTELLIGENZA ARIFICIALE CONSENTE UN PROCESSO DI APPRENDIMENTO PIU' DINAMICO E PER CERTI ASPETTI PIU' INCLUSIVO, MA LIMITA I RAPPORTI UMANI TRA PARI E TRA DOCENTE E STUDENTE
+
 **Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
 **Reason**: Riconosce l'IA per l'apprendimento dinamico e l'aspetto inclusivo (P2, X3), ma sottolinea il limite sui rapporti umani (I4).
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —

@@ -20,32 +20,47 @@ note: "Il partecipante mostra una consapevolezza limitata sull'uso dell'IA, ma i
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Poca conoscenza
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta generica e non informativa sul non utilizzo dell'IA.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Poca conoscenza in merito
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta generica e non informativa sulla mancanza di conoscenza.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Una scienza innovativa utile per la metodologia d'insegnamento
+
 **Codes**: X6 — Coinvolgimento, arricchimento e innovazione.
+
 **Reason**: L'IA è vista come una scienza innovativa utile per la metodologia d'insegnamento.
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Per avere vantaggi nell'eseguire soluzioni di problemi con poco approfondimento!!!
+
 **Codes**: S4 — Erosione del pensiero critico.
+
 **Reason**: Si evidenzia il rischio di non approfondire le soluzioni dei problemi.
 
 **Cited in:** —

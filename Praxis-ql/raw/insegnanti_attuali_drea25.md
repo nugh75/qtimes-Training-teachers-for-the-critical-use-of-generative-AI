@@ -22,35 +22,50 @@ note: "L'insegnante esprime scetticismo sull'uso dell'IA, focalizzandosi sui ris
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Perché temo che possa impigrire gli studenti rispetto al pensiero critico o alla capacità di produrre un discorso scritto o orale con consapevolezza
+
 **Codes**: S4 — Erosione del pensiero critico.
+
 **Reason**: Preoccupazione che l'IA possa impigrire il pensiero critico e la capacità di produzione discorsiva.
 
 **Cited in:**
 - [wiki/insegnanti-attuali/expectations/peggioramento-efficace.md](../wiki/insegnanti-attuali/expectations/peggioramento-efficace.md)
 - [wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md](../wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md)
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Perché mi piace vederli ragionare in gruppo e confrontarsi
+
 **Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
 **Reason**: Preferisce l'interazione e il confronto tra studenti, sottolineando l'importanza della relazione umana.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Pro : possono essere di supporto per alcune disabilità  Contro :tolgono la necessità di cercare le fonti nel modo giusto
+
 **Codes**: P3 — Inclusione e accessibilita': CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili.; S5 — Informazioni false, imprecisione, affidabilita' debole.
+
 **Reason**: Riconosce il supporto per disabilità (P3), ma teme che l'IA tolga la necessità di cercare fonti (S5).
 
 **Cited in:**
 - [wiki/insegnanti-attuali/expectations/inclusione-digitale.md](../wiki/insegnanti-attuali/expectations/inclusione-digitale.md)
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Chat gpt
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non classificabile: troppo breve, generica o fuori tema.
 
 **Cited in:** —

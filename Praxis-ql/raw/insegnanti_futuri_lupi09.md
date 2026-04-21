@@ -21,24 +21,35 @@ note: "Il partecipante mostra una consapevolezza critica sui limiti e sui rischi
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Facilitano e velocizzano molti compiti e ricerche ma sarebbe opportuno saperli fare anche senza l'ia
+
 **Codes**: X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+
 **Reason**: Riconosce che l'IA velocizza compiti e ricerche, ma sottolinea la necessità di saperli fare anche senza IA.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Sostituzione del docente e automazione delle valutazioni
+
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.
+
 **Reason**: Identifica la sostituzione del docente e l'automazione delle valutazioni come pratiche non raccomandate.
 
 **Cited in:**

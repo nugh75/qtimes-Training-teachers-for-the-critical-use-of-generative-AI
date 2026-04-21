@@ -21,33 +21,48 @@ note: "Il partecipante esprime scetticismo sull'uso dell'IA, basandosi sulla man
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Non sono sufficientemente pratico
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: La risposta indica una mancanza di praticità, non un contenuto informativo da codificare.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: No ho sufficiente dimestichezza e confidenza
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: La risposta indica mancanza di dimestichezza e confidenza, ma non specifica un contenuto didattico o un'area di applicazione.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: PRO: Rapidità nelle ricerca di possibili soluzioni alternative.CONTRO: Spersonalizzazione acritica.
+
 **Codes**: X3 — Personalizzazione e attenzione al singolo.; S3 — Appiattimento, omologazione, perdita di creativita'.
+
 **Reason**: Viene evidenziata la rapidità (pro) ma anche il rischio di spersonalizzazione acritica (contro).
 
 **Cited in:**
 - [wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md](../wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md)
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Ricerche banalizzate con risultati piatti e stereotipati.
+
 **Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; S4 — Erosione del pensiero critico.
+
 **Reason**: Si critica la banalizzazione delle ricerche che porta a risultati piatti e stereotipati, indicando perdita di profondità e pensiero critico.
 
 **Cited in:** —

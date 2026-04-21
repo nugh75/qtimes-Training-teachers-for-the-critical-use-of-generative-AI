@@ -20,24 +20,35 @@ note: "Il partecipante esprime scetticismo sull'uso dell'IA, focalizzandosi sui 
 ## Item 1 {#item-1}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Perché ancora non insegno
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa sul rifiuto dell'uso dell'IA.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Utilizzo superficiale da parte dei ragazzi e mancanza di motivazione e stimoli degli insegnanti nella preparazione delle lezioni
+
 **Codes**: S4 — Erosione del pensiero critico.; S6 — Sostituzione del docente o della relazione educativa.
+
 **Reason**: Critica all'uso superficiale da parte degli studenti e alla mancanza di stimoli per gli insegnanti.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Fare ricerche compilative
+
 **Codes**: S4 — Erosione del pensiero critico.
+
 **Reason**: Identificazione di 'fare ricerche compilative' come pratica non raccomandata, che implica un rischio di appiattimento del pensiero.
 
 **Cited in:** —

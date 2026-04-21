@@ -18,33 +18,48 @@ note: "Il partecipante mostra una totale mancanza di conoscenza o esperienza sul
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: Non so utilizzarla
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta di incertezza ('Non so utilizzarla') che non fornisce informazioni classificabili.
 
 **Cited in:**
 - [wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md](../wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md)
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: Non so utilizzarla
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta di incertezza ('Non so utilizzarla') che non fornisce informazioni classificabili.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: Non saprei
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta di incertezza ('Non saprei') che non fornisce informazioni classificabili.
 
 **Cited in:** —
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: Non saprei
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta di incertezza ('Non saprei') che non fornisce informazioni classificabili.
 
 **Cited in:** —

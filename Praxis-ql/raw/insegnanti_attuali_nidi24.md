@@ -21,33 +21,48 @@ note: "L'intervistato mostra una diffidenza verso l'uso dell'IA, preferendo meto
 ## Item 1 {#item-1}
 
 **Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
 **A**: perchè ancora non ne ho avuto necessità
+
 **Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
 **Reason**: Risposta non informativa, indica assenza di necessità.
 
 **Cited in:** —
+
 ## Item 2 {#item-2}
 
 **Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
 **A**: preferisco dei video o testi
+
 **Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+
 **Reason**: Preferisce metodi tradizionali (video o testi) rispetto all'IA.
 
 **Cited in:** —
+
 ## Item 3 {#item-3}
 
 **Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
 **A**: abusare dell'intelligenza artificiale per arrivare in modo troppo semplificativo a delle risposte, meglio ragionare da se.
+
 **Codes**: S4 — Erosione del pensiero critico.
+
 **Reason**: Temere che l'IA porti a risposte troppo semplificative, scoraggiando il ragionamento personale.
 
 **Cited in:**
 - [wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md](../wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md)
+
 ## Item 4 {#item-4}
 
 **Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
 **A**: l'affidarsi a qualcuno che pensi al posto tuo
+
 **Codes**: S6 — Sostituzione del docente o della relazione educativa.
+
 **Reason**: Critica l'affidarsi all'IA come se pensasse per sé, implicando la sostituzione del pensiero umano.
 
 **Cited in:** —

@@ -111,11 +111,14 @@ def build_markdown(label: dict) -> str:
         lines.append(f"## Item {idx} {{#item-{idx}}}")
         lines.append("")
         lines.append(f"**Q**: {q}")
+        lines.append("")
         lines.append(f"**A**: {a}")
+        lines.append("")
         lines.append(f"**Codes**: {format_codes_inline(codes)}")
+        lines.append("")
         if reason:
             lines.append(f"**Reason**: {reason}")
-        lines.append("")
+            lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
 
