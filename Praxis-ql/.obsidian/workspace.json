@@ -11,10 +11,24 @@
             "id": "37a46b80de07ad56",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/studenti/practice-patterns/uso-strumentale-evasivo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "uso-strumentale-evasivo"
             }
           }
         ]
@@ -150,12 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "wiki/studenti/practice-patterns/uso-strumentale-evasivo.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Struttura di uso-strumentale-evasivo"
             }
           }
         ],
