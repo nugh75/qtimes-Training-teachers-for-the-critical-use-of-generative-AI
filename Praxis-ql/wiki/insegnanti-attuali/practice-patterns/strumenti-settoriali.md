@@ -26,6 +26,14 @@ In ambito informatico l'IA supporta direttamente la produzione di codice. Capu15
 
 Proprio da chi insegna in ambiti tecnici arriva però l'allarme più chiaro. Ione04, docente di scuola primaria che usa piattaforme con esercizi guidati e training cognitivo, avverte del pericolo di "*un totale delegare alla IA e di conseguenza un appiattimento del problem-solving, del pensiero creativo*" (source: [ione04](../../../raw/insegnanti_attuali_ione04.md)). Il paradosso è significativo: gli strumenti settoriali funzionano bene perché sono circoscritti — l'IA genera un modello 3D, un layout, un frammento di codice — ma il timore è che questa facilità d'uso si estenda a compiti dove l'obiettivo non è il prodotto ma il processo cognitivo.
 
+- (source: [etta24](../../../raw/insegnanti_attuali_etta24.md))
+
+- (source: [Ione10](../../../raw/insegnanti_attuali_ione10.md))
+
+- (source: [nini02](../../../raw/insegnanti_attuali_nini02.md))
+
+- (source: [tino06](../../../raw/insegnanti_attuali_tino06.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-insegnanti-attuali.md)
 - [Piattaforme e role-playing](piattaforme-e-role-playing.md)

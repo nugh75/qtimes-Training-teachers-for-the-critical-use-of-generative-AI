@@ -32,6 +32,10 @@ In questa direzione anche chi guarda dal lato docente: "Utilizzare l'IA per crea
 
 "Posso ipotizzare che gli studenti possano farne ricorso per evitare di impegnarsi in alcuni compiti" (source: [vich14](../../../raw/insegnanti_futuri_vich14.md)). Il verbo "ipotizzare" tradisce la posizione di chi non insegna ancora: il timore è già lì, l'esperienza no.
 
+- (source: [BOLI14](../../../raw/insegnanti_futuri_boli14.md))
+
+- (source: [colo01](../../../raw/insegnanti_futuri_colo01.md))
+
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-insegnanti-futuri.md)
 - [Indice insegnanti futuri](../index-insegnanti-futuri.md)

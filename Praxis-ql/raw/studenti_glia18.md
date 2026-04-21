@@ -1,19 +1,75 @@
-# Risposta: Studenti - Record 134
+---
+record_code: "glia18"
+group: Studenti
+dimensions: [P, S, X]
+subcodes: [P2, P6, P7, S2, S4, X1, X2, X3, X5]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:08:28.917028+00:00"
+label_source: labels/ollama-gemma4/studenti_glia18.json
+note: "Lo studente utilizza l'IA principalmente per la comprensione e la riformulazione dei concetti, ma esprime preoccupazioni riguardo al rischio di dipendenza e perdita di capacità di ragionamento."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta glia18
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: glia18
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Quali sono i tuoi strumenti preferiti e perché?**: chatGPT quando ho qualche dubbio
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: per capire con altre parole alcuni concetti
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: "da cosa deriva il modello CHC"
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: chiarifica i contenuti
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: leggendo con altre parole delle teorie o dei concetti ho compreso meglio il loro significato
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: non sono abituata al loro utilizzo
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: l'eccessiva fiducia, far fare tutto il lavoro a questi strumenti
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: chatGPT quando ho qualche dubbio
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Menziona l'uso di uno strumento specifico (ChatGPT).
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+**A**: per capire con altre parole alcuni concetti
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Utilizza l'IA per 'capire con altre parole' concetti, indicando personalizzazione e adattamento.
+
+## Item 4 {#item-4}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: "da cosa deriva il modello CHC"
+**Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+**Reason**: Fornisce un esempio di prompt specifico ('da cosa deriva il modello CHC').
+
+## Item 5 {#item-5}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: chiarifica i contenuti
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'IA aiuta a 'chiarificare i contenuti', migliorando la comprensione.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+**A**: leggendo con altre parole delle teorie o dei concetti ho compreso meglio il loro significato
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Leggere concetti 'con altre parole' migliora la comprensione (X2) e l'adattamento (P2).
+
+## Item 7 {#item-7}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: non sono abituata al loro utilizzo
+**Codes**: —
+**Reason**: Riferimento a difficoltà personali ('non sono abituata') non mappabile con i codici forniti.
+
+## Item 8 {#item-8}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi
+**Codes**: X1 — Efficienza e risparmio di tempo.; X5 — Autonomia, organizzazione e supporto al percorso.; S4 — Erosione del pensiero critico.
+**Reason**: Pro: 'supporto allo studio' (X5), 'fruibilità' (X1). Contro: rischio di 'ridurre le capacità di ragionamento' (S4).
+
+## Item 9 {#item-9}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: l'eccessiva fiducia, far fare tutto il lavoro a questi strumenti
+**Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; S4 — Erosione del pensiero critico.
+**Reason**: Avverte il rischio di 'far fare tutto il lavoro' (S2) e di 'eccessiva fiducia' che può compromettere il ragionamento (S4).

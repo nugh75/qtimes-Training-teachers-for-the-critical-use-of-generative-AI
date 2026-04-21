@@ -28,6 +28,10 @@ Il dato più significativo è ciò che *non* emerge: quasi nessuno descrive un u
 
 Fa eccezione chi formula il principio più lucido dell'intero corpus: "Dipende se sei tu a trascinare l'IA oppure il contrario" (source: [aria13](../../../raw/insegnanti_futuri_aria13.md)). In questa frase c'è un'intera pedagogia dell'IA: la questione non è se usarla, ma chi comanda.
 
+- (source: [00004M](../../../raw/insegnanti_futuri_00004m.md))
+
+- (source: [Rino01](../../../raw/insegnanti_futuri_rino01.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-insegnanti-futuri.md)
 - [Indice insegnanti futuri](../index-insegnanti-futuri.md)

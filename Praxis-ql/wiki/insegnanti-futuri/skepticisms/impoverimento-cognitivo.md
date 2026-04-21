@@ -36,6 +36,26 @@ Se il [plagio](plagio-e-disonesta.md) è la preoccupazione più visibile, l'impo
 
 "Rischio di una ridotta motivazione, perdita di creatività e dipendenza tecnologica" (source: [hini07](../../../raw/insegnanti_futuri_hini07.md)). La lista è una catena causale: prima si perde la motivazione, poi la creatività, infine si diventa dipendenti. Ciascun passaggio rende il successivo inevitabile.
 
+- (source: [Bone16](../../../raw/insegnanti_futuri_bone16.md))
+
+- (source: [Cara23](../../../raw/insegnanti_futuri_cara23.md))
+
+- (source: [Ento19](../../../raw/insegnanti_futuri_ento19.md))
+
+- (source: [FARO01](../../../raw/insegnanti_futuri_faro01.md))
+
+- (source: [Lari30](../../../raw/insegnanti_futuri_lari30.md))
+
+- (source: [lita25](../../../raw/insegnanti_futuri_lita25.md))
+
+- (source: [Pani16](../../../raw/insegnanti_futuri_pani16.md))
+
+- (source: [Toni22](../../../raw/insegnanti_futuri_toni22.md))
+
+- (source: [Toni23](../../../raw/insegnanti_futuri_toni23.md))
+
+- (source: [urdi30](../../../raw/insegnanti_futuri_urdi30.md))
+
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-insegnanti-futuri.md)
 - [Indice insegnanti futuri](../index-insegnanti-futuri.md)

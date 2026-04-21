@@ -34,6 +34,24 @@ Il contesto clinico introduce un confine specifico: glia26 identifica la mancanz
 
 Agli estremi del continuum, la sfiducia trascende il tecnico per diventare epistemica o esistenziale. Nelli23 introduce la formula del rifiuto categoriale: "*credo ed ho fiducia solo nell'intelligenza umana*" (source: [Nelli23](../../../raw/studenti_nelli23.md)) — non è un giudizio sull'affidabilità dello strumento, è un atto di fede nell'umano. AZZO23 esprime la paura viscerale: "*mi spaventa che il mio cervello possa essere sostituito da una macchina*" (source: [AZZO23](../../../raw/studenti_azzo23.md)). rone11 proietta il timore nel futuro: "*paura ci sfugga di mano, scavalchi le possibilità umane*" (source: [rone11](../../../raw/studenti_rone11.md)). Sociologicamente rivelatore è il sotto-gruppo per cui la preoccupazione non è etica ma tattica: Dini08 nota che il rischio principale è "*puoi essere sgamato dai prof*" (source: [Dini08](../../../raw/studenti_dini08.md)) — la sfiducia istituzionale come rischio di detection, non come problema di conoscenza.
 
+- (source: [anti09](../../../raw/studenti_anti09.md))
+
+- (source: [ARLO14](../../../raw/studenti_arlo14.md))
+
+- (source: [Coni](../../../raw/studenti_coni.md))
+
+- (source: [ella19](../../../raw/studenti_ella19.md))
+
+- (source: [emartello30](../../../raw/studenti_emartello30.md))
+
+- (source: [Enti09](../../../raw/studenti_enti09.md))
+
+- (source: [Mele08](../../../raw/studenti_mele08.md))
+
+- (source: [russo](../../../raw/studenti_russo.md))
+
+- (source: [Vese2](../../../raw/studenti_vese2.md))
+
 ## Pagine correlate
 - [Indice Interpersonal Trust](interpersonal-trust-studenti.md)
 - [Indice studenti](../index-studenti.md)

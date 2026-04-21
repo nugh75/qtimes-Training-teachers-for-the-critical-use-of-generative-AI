@@ -52,6 +52,10 @@ La dimensione relazionale viene difesa come condizione necessaria dell'insegname
 
 Il rifiuto più netto arriva da chi difende la relazione come esclusiva: "*Nel tutoraggio: per me è fondamentale il rapporto umano ed esclusivamente quello*" (source: [onti31](../../../raw/insegnanti_attuali_onti31.md)). L'avverbio *esclusivamente* chiude la porta a qualsiasi ibridazione. E chi la formula nel modo più essenziale dice semplicemente: ciò che non va delegato è "*tutto quello che ha a che fare con la relazione umana*" (source: [dini21](../../../raw/insegnanti_attuali_dini21.md)).
 
+- (source: [Fini18](../../../raw/insegnanti_attuali_fini18.md))
+
+- (source: [roni01](../../../raw/insegnanti_attuali_roni01.md))
+
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-insegnanti-attuali.md)
 - [Indice insegnanti attuali](../index-insegnanti-attuali.md)

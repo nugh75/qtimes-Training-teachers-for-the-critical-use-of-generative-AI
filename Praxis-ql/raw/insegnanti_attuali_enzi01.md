@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 15
+---
+record_code: "enzi01"
+group: Insegnanti in servizio
+dimensions: [R, S]
+subcodes: [R4, S4]
+model: gemma4:e4b
+generated_at: "2026-04-19T20:58:40.165698+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_enzi01.json
+note: "L'insegnante mostra cautela nell'uso dell'IA, esprimendo preoccupazioni principali riguardo all'erosione dello spirito critico degli studenti."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta enzi01
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: enzi01
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Devo ancora capire come utilizzarla in modo corretto
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: La mia perplessità e' che gli studenti perdano spirito critico,affidandosi all'IA per la produzione di testi scritti,riassunti,traduzioni,ecc...
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Produzione di testi scritti privi di spirito critico
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Devo ancora capire come utilizzarla in modo corretto
+**Codes**: R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+**Reason**: Esprime incertezza sulla corretta modalità di utilizzo dell'IA.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: La mia perplessità e' che gli studenti perdano spirito critico,affidandosi all'IA per la produzione di testi scritti,riassunti,traduzioni,ecc...
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Preoccupazione che gli studenti perdano lo spirito critico affidandosi all'IA per la produzione di contenuti.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Produzione di testi scritti privi di spirito critico
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Rifiuta l'uso di IA per la produzione di testi scritti privi di spirito critico.

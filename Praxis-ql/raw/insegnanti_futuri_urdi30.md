@@ -1,22 +1,40 @@
-# Risposta: Insegnanti pre-service - Record 84
+---
+record_code: "urdi30"
+group: Insegnanti pre-service
+dimensions: [S, X]
+subcodes: [S4, X1, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:50:13.881610+00:00"
+label_source: labels/ollama-gemma4/insegnanti_futuri_urdi30.json
+note: "Il partecipante menziona l'uso di strumenti IA (Chat GPT) ma le risposte sono generiche, focalizzandosi su benefici operativi (velocità) e cognitivi (comprensione), senza descrivere processi didattici specifici."
+---
 
-**Gruppo di origine:** Insegnanti pre-service
+# Risposta urdi30
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: urdi30
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché?**: Chat gbt
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: Come supporto
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: -
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Chat gbt
+**Codes**: —
+**Reason**: Risposta troppo generica e non specifica su strumenti o modalità d'uso.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: -
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: -
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: Migliorare la comprensione degli studenti
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: -
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Velocizzare il lavoro, Carenza di stimolo nella propria formazione
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: -
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: Come supporto
+**Codes**: —
+**Reason**: Risposta incompleta e non specifica su come l'IA viene usata per l'individualizzazione.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: Migliorare la comprensione degli studenti
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'obiettivo di 'migliorare la comprensione' è direttamente legato alla semplificazione e chiarificazione dei concetti.
+
+## Item 4 {#item-4}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Velocizzare il lavoro, Carenza di stimolo nella propria formazione
+**Codes**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
+**Reason**: Velocizzare il lavoro indica efficienza (X1); la carenza di stimolo nella formazione suggerisce un potenziale rischio di erosione del pensiero critico (S4).

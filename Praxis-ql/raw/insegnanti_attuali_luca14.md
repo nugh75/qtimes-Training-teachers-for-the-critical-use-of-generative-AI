@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 107
+---
+record_code: "luca14"
+group: Insegnanti in servizio
+dimensions: [R, S, X]
+subcodes: [R5, S4, S6, X6]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:13:35.880332+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_luca14.json
+note: "Il partecipante esprime una forte preferenza per i metodi tradizionali e umani, manifestando scetticismo e resistenza sull'uso dell'IA in didattica."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta luca14
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: luca14
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: 0
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Preferisco trovare soluzioni attraverso la riflessione, l'inventiva e le capacità di ognuno di noi
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: i pro può migliorare una situazione già creata , i contro che viene definitivamente sostituita alle capacità creative di ognuno di noi.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: esagerzione nel preparare un compito
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: 0
+**Codes**: —
+**Reason**: Risposta non informativa (0).
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Preferisco trovare soluzioni attraverso la riflessione, l'inventiva e le capacità di ognuno di noi
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; S6 — Sostituzione del docente o della relazione educativa.
+**Reason**: Rifiuto di usare l'IA perché preferisce la riflessione e le capacità umane, indicando una resistenza al suo uso didattico.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: i pro può migliorare una situazione già creata , i contro che viene definitivamente sostituita alle capacità creative di ognuno di noi.
+**Codes**: S6 — Sostituzione del docente o della relazione educativa.; X6 — Coinvolgimento, arricchimento e innovazione.
+**Reason**: Riconosce che l'IA può migliorare (X6) ma teme che possa sostituire le capacità creative umane (S6).
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: esagerzione nel preparare un compito
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Critica l'esagerazione nell'uso dell'IA per preparare compiti, suggerendo un rischio per il pensiero critico.

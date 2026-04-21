@@ -34,6 +34,18 @@ Un gruppo di docenti solleva un tema più strutturale: il rischio che l'IA ripro
 
 19albe ribadisce il legame tra dati e valutazione: tra gli svantaggi dell'IA figura "*il rischio di raccolta e utilizzo improprio dei dati e penalizzazione del ruolo del docente nel processo di valutazione scolastico*" (source: [19albe](../../../raw/insegnanti_attuali_19albe.md)). Iano18, pur usando attivamente l'IA, avverte che "*comporta rischi per la privacy*" e che "*non sono raccomandate le pratiche che affidano totalmente all'IA la valutazione degli studenti, che usano contenuti generati senza controllo, che sostituiscono la relazione umana o che ignorano le implicazioni etiche e la privacy*" (source: [iano18](../../../raw/insegnanti_attuali_iano18.md)).
 
+- (source: [bara29](../../../raw/insegnanti_attuali_bara29.md))
+
+- (source: [Boni47](../../../raw/insegnanti_attuali_boni47.md))
+
+- (source: [Elli04](../../../raw/insegnanti_attuali_elli04.md))
+
+- (source: [enti14](../../../raw/insegnanti_attuali_enti14.md))
+
+- (source: [illo31](../../../raw/insegnanti_attuali_illo31.md))
+
+- (source: [ra10](../../../raw/insegnanti_attuali_ra10.md))
+
 ## Pagine correlate
 - [Indice Interpersonal Trust](interpersonal-trust-insegnanti-attuali.md)
 - [Filosofia della fatica](filosofia-della-fatica.md)

@@ -1,11 +1,40 @@
-# Risposta: Studenti - Record 109
+---
+record_code: "AZZA22"
+group: Studenti
+dimensions: [P, R, S, X]
+subcodes: [P4, P5, R3, S2, S4, X5]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:56:41.392834+00:00"
+label_source: labels/ollama-gemma4/studenti_azza22.json
+note: "L'utente mostra una consapevolezza crescente sull'uso dell'IA, riconoscendo i benefici (simulazione) ma anche i rischi di dipendenza e di plagio."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta AZZA22
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: AZZA22
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Non sono abituato e di conseguenza non l'ho mai provata effettivamente
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?**: Ho pensato che non mi servisse utilizzarla inizialmente mentre ora che si sta diffondendo maggiormente dovrò necessariamente adattarmi e imparare. Non ho un rigetto, semplicemente non ho mai pensato di usarla
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: I pro credo siano la possibilità di farsi interrogare come fossimo effettivamente a un vero esame. Come contro mi sembra di notare in alcuni colleghi la completa incapacità di formulare un pensiero senza ausilio di Chat GPT ad esempio. In generale non vedo dei contro se non un utilizzo smodato.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: Credo che utilizzarla per creare per esempio un tema o un elaborato sia effettivamente scorretto. Probabilmente sarebbe uno strumento da considerare più d'ausilio che fondamentale nella stesura di un testo
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Non sono abituato e di conseguenza non l'ho mai provata effettivamente
+**Codes**: —
+**Reason**: Risposta non informativa, indica mancanza di abitudine.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+**A**: Ho pensato che non mi servisse utilizzarla inizialmente mentre ora che si sta diffondendo maggiormente dovrò necessariamente adattarmi e imparare. Non ho un rigetto, semplicemente non ho mai pensato di usarla
+**Codes**: R3 — Gap tra uso personale e uso didattico: uso privato piu' sicuro dell'uso pedagogico.; X5 — Autonomia, organizzazione e supporto al percorso.
+**Reason**: Riconosce inizialmente di non averne bisogno (uso privato vs didattico) ma accetta l'adattamento necessario (supporto al percorso).
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: I pro credo siano la possibilità di farsi interrogare come fossimo effettivamente a un vero esame. Come contro mi sembra di notare in alcuni colleghi la completa incapacità di formulare un pensiero senza ausilio di Chat GPT ad esempio. In generale non vedo dei contro se non un utilizzo smodato.
+**Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; S4 — Erosione del pensiero critico.
+**Reason**: Vede l'IA come utile per simulare interrogazioni (P4), ma nota il rischio di incapacità di formulare pensiero senza ausilio (S4).
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: Credo che utilizzarla per creare per esempio un tema o un elaborato sia effettivamente scorretto. Probabilmente sarebbe uno strumento da considerare più d'ausilio che fondamentale nella stesura di un testo
+**Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: Sconsiglia l'uso per creare temi o elaborati (S2), considerandolo uno strumento di ausilio piuttosto che fondamentale per la stesura (P5).

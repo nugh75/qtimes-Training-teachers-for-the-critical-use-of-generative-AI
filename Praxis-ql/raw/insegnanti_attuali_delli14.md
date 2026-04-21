@@ -1,22 +1,82 @@
-# Risposta: Insegnanti in servizio - Record 358
+---
+record_code: "Delli14"
+group: Insegnanti in servizio
+dimensions: [P, S, X]
+subcodes: [P2, P6, S1, X1, X3, X6]
+model: gemma4:e4b
+generated_at: "2026-04-19T20:53:16.897262+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_delli14.json
+note: "L'insegnante utilizza l'IA per migliorare l'efficienza e generare nuove idee, ma è consapevole del rischio di dipendenza da parte degli studenti."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Delli14
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Delli14
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: “-“
-- **Quali sono i tuoi strumenti preferiti e perché? **: Chatgpt
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: H
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: Renderlo più ricco di elementi ed idee
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: “-“
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: H
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: Ha reso il lavoro più veloce
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: Con nuove idee
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: Nessuno
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Pro; veloce, idee nuove  Contro: gli studenti ci si affidano troppo
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: B
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Chatgpt
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Menziona uno strumento specifico (ChatGPT) che fa parte dell'ecosistema di strumenti.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: H
+**Codes**: —
+**Reason**: Risposta non fornita.
+
+## Item 4 {#item-4}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: Renderlo più ricco di elementi ed idee
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: L'obiettivo di 'renderlo più ricco di elementi ed idee' è un esempio di personalizzazione e individualizzazione dell'apprendimento.
+
+## Item 5 {#item-5}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: H
+**Codes**: —
+**Reason**: Risposta non fornita.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+**A**: Ha reso il lavoro più veloce
+**Codes**: X1 — Efficienza e risparmio di tempo.
+**Reason**: Il miglioramento del lavoro 'più veloce' si riferisce all'efficienza e al risparmio di tempo.
+
+## Item 7 {#item-7}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: Con nuove idee
+**Codes**: X6 — Coinvolgimento, arricchimento e innovazione.
+**Reason**: L'uso dell'IA per fornire 'nuove idee' contribuisce all'arricchimento e all'innovazione.
+
+## Item 8 {#item-8}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+**A**: Nessuno
+**Codes**: —
+**Reason**: Risposta che indica assenza di difficoltà, non informativa per l'assegnazione di codici.
+
+## Item 9 {#item-9}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Pro; veloce, idee nuove  Contro: gli studenti ci si affidano troppo
+**Codes**: X1 — Efficienza e risparmio di tempo.; X6 — Coinvolgimento, arricchimento e innovazione.; S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+**Reason**: Veloce e idee nuove (X1, X6) sono pro; 'gli studenti ci si affidano troppo' indica un rischio di dipendenza cognitiva (S1).
+
+## Item 10 {#item-10}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: B
+**Codes**: —
+**Reason**: Risposta non fornita.

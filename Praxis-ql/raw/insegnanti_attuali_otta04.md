@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 202
+---
+record_code: "otta04"
+group: Insegnanti in servizio
+dimensions: [P, S, X]
+subcodes: [P2, S4, X3]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:20:46.123712+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_otta04.json
+note: "Il partecipante esprime un forte scetticismo sull'uso dell'IA, motivato dalla mancanza di formazione e dalla preoccupazione per lo sviluppo cognitivo degli studenti."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta otta04
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: otta04
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Perché non formato all'utilizzo
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Perchè non sono formato
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Pro: aiuto e personalizzazione dell'apprendimento Contro: mancanza di autonomia e di sviluppo cognitivo per il discente
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Da non utilizzare sistemi che non favoriscano l'apprendimento significativo e la crescita cognitiva del discente
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Perché non formato all'utilizzo
+**Codes**: —
+**Reason**: La risposta indica una mancanza di formazione, non un uso specifico o un'esperienza da codificare.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Perchè non sono formato
+**Codes**: —
+**Reason**: La risposta si limita a dichiarare la mancanza di formazione.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Pro: aiuto e personalizzazione dell'apprendimento Contro: mancanza di autonomia e di sviluppo cognitivo per il discente
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Il partecipante cita l'aiuto e la personalizzazione dell'apprendimento come pro.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Da non utilizzare sistemi che non favoriscano l'apprendimento significativo e la crescita cognitiva del discente
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Il partecipante raccomanda di non usare sistemi che non favoriscano la crescita cognitiva e l'apprendimento significativo.

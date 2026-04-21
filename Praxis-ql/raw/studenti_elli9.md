@@ -1,19 +1,40 @@
-# Risposta: Studenti - Record 1
+---
+record_code: "elli9"
+group: Studenti
+dimensions: [S, X]
+subcodes: [S4, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:02:50.809913+00:00"
+label_source: labels/ollama-gemma4/studenti_elli9.json
+note: "Lo studente percepisce l'IA come uno strumento di supporto alla comprensione, ma è consapevole del rischio di dipendenza e di non sviluppare autonomia nello studio."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta elli9
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: elli9
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché?**: -
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: -
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: in maniera discorsiva
+**Codes**: —
+**Reason**: La risposta è troppo generica e non fornisce esempi di prompt.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: in maniera discorsiva
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: aiutandomi a comprendere meglio come procedere nell'apprendimento
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: -
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: 0
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: pro: aiuta nell'elaborazione e quindi ad apprendere meglio. Contro: si rischia di utilizzare gli strumenti tecnologici come unica opzione di apprendimento e sostegno
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché? **: -
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: aiutandomi a comprendere meglio come procedere nell'apprendimento
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'IA aiuta a comprendere meglio come procedere nell'apprendimento, indicando un miglioramento della comprensione.
+
+## Item 3 {#item-3}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: 0
+**Codes**: —
+**Reason**: Risposta non informativa (0).
+
+## Item 4 {#item-4}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: pro: aiuta nell'elaborazione e quindi ad apprendere meglio. Contro: si rischia di utilizzare gli strumenti tecnologici come unica opzione di apprendimento e sostegno
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; S4 — Erosione del pensiero critico.
+**Reason**: Il pro indica miglior apprendimento/elaborazione (X2), mentre il contro evidenzia il rischio di dipendenza e perdita di autonomia (S4).

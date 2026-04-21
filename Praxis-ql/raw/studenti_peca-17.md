@@ -1,11 +1,33 @@
-# Risposta: Studenti - Record 196
+---
+record_code: "Peca 17"
+group: Studenti
+dimensions: [R, S]
+subcodes: [R5, S4]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:25:06.964903+00:00"
+label_source: labels/ollama-gemma4/studenti_peca-17.json
+note: "Il partecipante esprime una chiara resistenza all'uso dell'IA nello studio, preferendo un apprendimento autonomo e non mediato."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta Peca 17
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Peca 17
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?**: Perché non voglio
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: No
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: Perché voglio imparare senza intelligenza artificiale
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+**A**: Perché non voglio
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 2 {#item-2}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: No
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 3 {#item-3}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: Perché voglio imparare senza intelligenza artificiale
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.; S4 — Erosione del pensiero critico.
+**Reason**: Il partecipante rifiuta l'uso dell'IA per imparare, indicando una scelta epistemica o resistenza consapevole (R5) e un rifiuto di delegare il processo di apprendimento (S4).

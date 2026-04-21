@@ -1,11 +1,40 @@
-# Risposta: Studenti - Record 263
+---
+record_code: "Tta12"
+group: Studenti
+dimensions: [R]
+subcodes: [R5]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:32:08.484357+00:00"
+label_source: labels/ollama-gemma4/studenti_tta12.json
+note: "Il partecipante mostra una posizione di non utilizzo dell'IA, motivata dalla preferenza per i propri appunti."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta Tta12
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Tta12
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?**: Perché preferisco i miei appunti
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: Non lo so
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: Non lo so
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+**A**: Perché preferisco i miei appunti
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+**Reason**: Il partecipante spiega di preferire i propri appunti, indicando una scelta personale di non utilizzare l'IA.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').

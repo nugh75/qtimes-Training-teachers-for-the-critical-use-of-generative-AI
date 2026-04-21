@@ -36,6 +36,30 @@ Le lingue classiche sono l'unica zona di esclusione fondata su un test empirico 
 
 Il tabù si estende a due zone professionali: il campo medico-chirurgico e l'istruzione prescolare — "*campo medico per quanto riguarda la chirurgia e per quanto riguarda l'apprendimento nelle scuole materne, elementari e di primo grado*" (source: [fori04](../../../raw/studenti_fori04.md)); "*Medicina*" come zona di esclusione assoluta (source: [Etti02](../../../raw/studenti_etti02.md)). IESI19 aggiunge l'aggiornamento come limite: l'IA non è raccomandata per "*studiare dalla IA in quanto non è competente su tutto, non approfondisce, non è sempre attuale*" (source: [IESI19](../../../raw/studenti_iesi19.md)).
 
+- (source: [Asia17](../../../raw/studenti_asia17.md))
+
+- (source: [edko12](../../../raw/studenti_edko12.md))
+
+- (source: [Iano21](../../../raw/studenti_iano21.md))
+
+- (source: [ioni10](../../../raw/studenti_ioni10.md))
+
+- (source: [joka26](../../../raw/studenti_joka26.md))
+
+- (source: [Lini16](../../../raw/studenti_lini16.md))
+
+- (source: [Lini16](../../../raw/studenti_lini16_2.md))
+
+- (source: [naro18](../../../raw/studenti_naro18.md))
+
+- (source: [RMAS16](../../../raw/studenti_rmas16.md))
+
+- (source: [soli13](../../../raw/studenti_soli13.md))
+
+- (source: [Tese28](../../../raw/studenti_tese28.md))
+
+- (source: [Uppa08](../../../raw/studenti_uppa08.md))
+
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-studenti.md)
 - [Indice studenti](../index-studenti.md)

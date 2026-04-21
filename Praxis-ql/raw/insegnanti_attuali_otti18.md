@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 48
+---
+record_code: "otti18"
+group: Insegnanti in servizio
+dimensions: [A, I, X]
+subcodes: [A1, I4, X6]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:21:35.272350+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_otti18.json
+note: "Il partecipante mostra una scarsa consapevolezza sull'uso dell'IA in didattica, attribuendo il limite alla mancanza di formazione o conoscenza specifica."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta otti18
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: otti18
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: per poca conoscenza
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non sono informata in materia
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: La lezione in classe, il confronto con gli alunni, conoscere le loro opinioni ritengo sia importante; l'intelligenza artificiale può essere di aiuto per ampliare le loro conoscenze.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Data la mia poca conoscenza in materia, non posso esprimere un giudizio obbiettivo
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: per poca conoscenza
+**Codes**: —
+**Reason**: Risposta basata su una limitazione di conoscenza ('per poca conoscenza').
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non sono informata in materia
+**Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+**Reason**: L'utente dichiara di non essere informata sull'uso dell'IA in didattica.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: La lezione in classe, il confronto con gli alunni, conoscere le loro opinioni ritengo sia importante; l'intelligenza artificiale può essere di aiuto per ampliare le loro conoscenze.
+**Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; X6 — Coinvolgimento, arricchimento e innovazione.
+**Reason**: Sottolinea l'importanza del confronto umano (I4) ma riconosce l'IA come strumento per ampliare le conoscenze (X6).
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Data la mia poca conoscenza in materia, non posso esprimere un giudizio obbiettivo
+**Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+**Reason**: L'utente non può esprimere giudizi perché manca la conoscenza in materia.

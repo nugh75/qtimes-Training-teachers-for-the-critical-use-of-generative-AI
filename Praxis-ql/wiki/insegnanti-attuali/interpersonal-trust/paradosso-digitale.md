@@ -32,6 +32,8 @@ Arco02 descrive la stessa spirale discendente: "*L'utilizzo dell'IA, a mio avvis
 
 Anco24, che non usa l'IA in classe, esprime il timore che attraversa molte di queste risposte: "*Timore che possa non essere utilizzata in modo evolutivo e che possa essere vista come lo strumento che risolve i problemi al posto nostro, rischiando di far utilizzare meno la testa a tutti, educatori e studenti*" (source: [anco24](../../../raw/insegnanti_attuali_anco24.md)).
 
+- (source: [ente07](../../../raw/insegnanti_attuali_ente07.md))
+
 ## Pagine correlate
 - [Indice Interpersonal Trust](interpersonal-trust-insegnanti-attuali.md)
 - [Filosofia della fatica](filosofia-della-fatica.md)

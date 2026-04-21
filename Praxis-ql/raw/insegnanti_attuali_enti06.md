@@ -1,22 +1,61 @@
-# Risposta: Insegnanti in servizio - Record 297
+---
+record_code: "Enti06"
+group: Insegnanti in servizio
+dimensions: [P, S, X]
+subcodes: [P1, P2, P4, P5, S3, X1, X2, X3]
+model: gemma4:e4b
+generated_at: "2026-04-19T20:57:40.130332+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_enti06.json
+note: "L'insegnante utilizza l'IA principalmente per attività di supporto alla preparazione e alla burocrazia, mostrando consapevolezza dei rischi (appiattimento)."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Enti06
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Enti06
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché? **: Chatgpt per la velocizzazione di questioni legate alla burocrazia
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: Per la creazione di quiz e verifiche scritte, integrandolo con domande prodotte da me
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: Integrando mie idee a ciò che produce chatgpt
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Chatgpt per la velocizzazione di questioni legate alla burocrazia
+**Codes**: X1 — Efficienza e risparmio di tempo.
+**Reason**: Utilizzo di ChatGPT per velocizzare questioni burocratiche.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: Crea una verifica scritta composta da domanda aperte e a crocette per una classe II di un'istituto professionale enogastronomico
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: -
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: Avvicinandomi al loro metodo di apprendimento
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: -
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Potrebbe portare ad un "appiattimento" della messa in gioco del ragazzo
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Non conosco a sufficienza la materia per rispondere a questa domanda
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: Per la creazione di quiz e verifiche scritte, integrandolo con domande prodotte da me
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Creazione di quiz e verifiche scritte, integrando l'IA con domande proprie.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: Integrando mie idee a ciò che produce chatgpt
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Personalizzazione dell'insegnamento integrando le proprie idee con l'output di ChatGPT.
+
+## Item 4 {#item-4}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: Crea una verifica scritta composta da domanda aperte e a crocette per una classe II di un'istituto professionale enogastronomico
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: Esempio di prompt per creare una verifica scritta (domande aperte e a crocette).
+
+## Item 5 {#item-5}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: Avvicinandomi al loro metodo di apprendimento
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: L'IA aiuta ad avvicinarsi al metodo di apprendimento dello studente, indicando personalizzazione.
+
+## Item 6 {#item-6}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Potrebbe portare ad un "appiattimento" della messa in gioco del ragazzo
+**Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.
+**Reason**: Riconoscimento del rischio di 'appiattimento' della messa in gioco dello studente.
+
+## Item 7 {#item-7}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Non conosco a sufficienza la materia per rispondere a questa domanda
+**Codes**: —
+**Reason**: Risposta non informativa.

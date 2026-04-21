@@ -1,11 +1,33 @@
-# Risposta: Studenti - Record 185
+---
+record_code: "nini09"
+group: Studenti
+dimensions: [I, R, X]
+subcodes: [I2, R5, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:21:03.229133+00:00"
+label_source: labels/ollama-gemma4/studenti_nini09.json
+note: "Il partecipante mostra una consapevolezza limitata sull'uso critico dell'IA, riconoscendone i benefici ma anche i limiti (errori)."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta nini09
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: nini09
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?**: perchè ho gli appunti e i libri
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: pro: ti aiutano a capire una cosa che non capisci e te la spiegano anche nel modo che vuoi tu contro:alcune volte possono sbagliare
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: non ne sono a conoscenza
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?
+**A**: perchè ho gli appunti e i libri
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+**Reason**: Il partecipante spiega di non usare l'IA perché possiede già materiali di studio (appunti e libri).
+
+## Item 2 {#item-2}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: pro: ti aiutano a capire una cosa che non capisci e te la spiegano anche nel modo che vuoi tu contro:alcune volte possono sbagliare
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+**Reason**: Vede l'IA come utile per chiarire concetti difficili (X2), ma ne riconosce anche il rischio di errori (I2).
+
+## Item 3 {#item-3}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: non ne sono a conoscenza
+**Codes**: —
+**Reason**: La risposta è negativa e non fornisce informazioni utili o specifiche.

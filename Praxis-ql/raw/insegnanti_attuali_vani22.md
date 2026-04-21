@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 131
+---
+record_code: "vani22"
+group: Insegnanti in servizio
+dimensions: [S, X]
+subcodes: [S4, X1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:35:58.429133+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_vani22.json
+note: "Il partecipante mostra una posizione critica e cauta sull'uso dell'IA in didattica, evidenziando rischi legati alla superficialità e alla perdita di pensiero critico."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta vani22
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: vani22
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Al momento non lo ritengo utile
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non è un dispositivo che si utilizza a scuola
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Garantisce servizi rapidi
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Le risposte così immediate non consentono approfondimenti e giudizio critico
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Al momento non lo ritengo utile
+**Codes**: —
+**Reason**: Risposta di rifiuto non informativa.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non è un dispositivo che si utilizza a scuola
+**Codes**: —
+**Reason**: Motivazione di non utilizzo basata sul contesto (non è un dispositivo scolastico).
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Garantisce servizi rapidi
+**Codes**: X1 — Efficienza e risparmio di tempo.
+**Reason**: Il partecipante cita la rapidità dei servizi garantiti dall'IA.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Le risposte così immediate non consentono approfondimenti e giudizio critico
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Il partecipante critica l'immediatezza delle risposte che ostacolano l'approfondimento e il giudizio critico.

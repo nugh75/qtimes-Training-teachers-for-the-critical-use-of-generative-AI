@@ -1,22 +1,82 @@
-# Risposta: Insegnanti in servizio - Record 25
+---
+record_code: "Handa11"
+group: Insegnanti in servizio
+dimensions: [P, R, S, X]
+subcodes: [P5, P6, P7, R2, S4, X1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:03:46.830218+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_handa11.json
+note: "L'insegnante è consapevole degli strumenti e dei rischi dell'IA, utilizzandola principalmente per la ricerca, ma mostra cautela riguardo all'uso in processi cognitivi complessi."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Handa11
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Handa11
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Quali sono i tuoi strumenti preferiti e perché? **: Gemini advanced. Perché mi sembra abbastanza affidabile e intuitivo
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: Non la uso
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: Non la uso ancora
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: Si
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: Non ne ho sentore
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: Ricerche bibliografiche
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: Comprensione reale delle potenzialità e dei rischi
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Pro:Facilitazione ricerche; contro: manipolazione psichica
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Processo di ragionamento per implementare il libero pensiero (pensiero critico)
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Gemini advanced. Perché mi sembra abbastanza affidabile e intuitivo
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Menziona uno strumento specifico (Gemini advanced) e ne valuta l'affidabilità.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: Non la uso
+**Codes**: —
+**Reason**: Risposta negativa ('Non la uso').
+
+## Item 4 {#item-4}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: Non la uso ancora
+**Codes**: —
+**Reason**: Risposta negativa ('Non la uso ancora').
+
+## Item 5 {#item-5}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: Si
+**Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.
+**Reason**: Afferma di poter fornire esempi di prompt, indicando la consapevolezza del concetto di prompt.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+**A**: Non ne ho sentore
+**Codes**: —
+**Reason**: Risposta negativa ('Non ne ho sentore').
+
+## Item 7 {#item-7}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: Ricerche bibliografiche
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: Utilizza l'IA per la ricerca bibliografica, che è una forma di rielaborazione e supporto allo studio.
+
+## Item 8 {#item-8}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+**A**: Comprensione reale delle potenzialità e dei rischi
+**Codes**: R2 — Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell'IA.
+**Reason**: Riconosce la necessità di comprendere i potenziali e i rischi dell'IA.
+
+## Item 9 {#item-9}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Pro:Facilitazione ricerche; contro: manipolazione psichica
+**Codes**: X1 — Efficienza e risparmio di tempo.; S4 — Erosione del pensiero critico.
+**Reason**: Elenca i pro (facilitazione ricerche, X1) e i contro (manipolazione psichica, che implica un rischio per il pensiero critico, S4).
+
+## Item 10 {#item-10}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Processo di ragionamento per implementare il libero pensiero (pensiero critico)
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: Indica che il processo di ragionamento per il libero pensiero (pensiero critico) non dovrebbe essere delegato all'IA.

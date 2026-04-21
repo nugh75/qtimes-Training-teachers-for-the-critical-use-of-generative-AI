@@ -26,6 +26,62 @@ La dipendenza non è solo temuta: è descritta come già in atto. La formulazion
 
 Il tema della sostituzione non è solo un argomento razionale: emerge come paura viscerale. AZZO23 teme che "*il cervello possa essere sostituito da una macchina*" e che l'IA tolga "*una parte fondamentale del processo di studio: leggere, comprendere, spremere le meningi*" (source: [AZZO23](../../../raw/studenti_azzo23.md)). eppe03 descrive la sostituzione come atto violento: "*il maggiore contro è che spesso l'ia sostituisce in maniera troppo brutale l'operato degli esseri umani*" (source: [eppe03](../../../raw/studenti_eppe03.md)). Glia01 la proietta sul piano dell'apprendimento: l'IA "*sostituisce l'apprendimento attivo e critico*" (source: [Glia01](../../../raw/studenti_glia01.md)). iosi26 sposta il focus sull'impegno come valore umano: l'IA "*può sostituire l'impegno, caratteristica dell'essere umano*" (source: [iosi26](../../../raw/studenti_iosi26.md)). rone11 introduce la metafora del superamento: paura che l'IA "*scavalchi le possibilità umane e le risorse preziose che abbiamo*" (source: [rone11](../../../raw/studenti_rone11.md)). Silla25, in spagnolo, sintetizza con la formula della resistenza culturale all'abitudine: "*no debemos acostumbrarnos*" — non dobbiamo abituarci (source: [silla25](../../../raw/studenti_silla25.md)). ucci31 chiude con la formulazione più estrema: l'uso dell'IA "*si riduce il quoziente intellettivo dello studente*" (source: [ucci31](../../../raw/studenti_ucci31.md)).
 
+- (source: [2Z1UZ](../../../raw/studenti_2z1uz.md))
+
+- (source: [Alma18](../../../raw/studenti_alma18.md))
+
+- (source: [anti03](../../../raw/studenti_anti03.md))
+
+- (source: [Arcia13](../../../raw/studenti_arcia13.md))
+
+- (source: [Atto01](../../../raw/studenti_atto01.md))
+
+- (source: [curi04](../../../raw/studenti_curi04.md))
+
+- (source: [Elli04](../../../raw/studenti_elli04.md))
+
+- (source: [Enzi01](../../../raw/studenti_enzi01.md))
+
+- (source: [etti19](../../../raw/studenti_etti19.md))
+
+- (source: [fini21](../../../raw/studenti_fini21.md))
+
+- (source: [geri29](../../../raw/studenti_geri29.md))
+
+- (source: [ibus23](../../../raw/studenti_ibus23.md))
+
+- (source: [inti23](../../../raw/studenti_inti23.md))
+
+- (source: [Inzi03](../../../raw/studenti_inzi03.md))
+
+- (source: [ippa03](../../../raw/studenti_ippa03.md))
+
+- (source: [masu24](../../../raw/studenti_masu24.md))
+
+- (source: [mena06](../../../raw/studenti_mena06.md))
+
+- (source: [nari23](../../../raw/studenti_nari23.md))
+
+- (source: [niro27](../../../raw/studenti_niro27.md))
+
+- (source: [nzio14](../../../raw/studenti_nzio14.md))
+
+- (source: [orno24](../../../raw/studenti_orno24.md))
+
+- (source: [ozzi13](../../../raw/studenti_ozzi13.md))
+
+- (source: [RATI06](../../../raw/studenti_rati06.md))
+
+- (source: [Reco24](../../../raw/studenti_reco24.md))
+
+- (source: [SCIO16](../../../raw/studenti_scio16.md))
+
+- (source: [URDI04](../../../raw/studenti_urdi04.md))
+
+- (source: [uzzi27](../../../raw/studenti_uzzi27.md))
+
+- (source: [zano18](../../../raw/studenti_zano18.md))
+
 ## Pagine correlate
 - [Indice Expectations](expectations-studenti.md)
 - [Indice studenti](../index-studenti.md)

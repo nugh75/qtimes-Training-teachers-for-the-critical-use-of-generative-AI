@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 141
+---
+record_code: "iero090134"
+group: Insegnanti in servizio
+dimensions: [A, S, X]
+subcodes: [A1, S4, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:06:12.599122+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_iero090134.json
+note: "L'insegnante mostra una scarsa familiarità con gli strumenti digitali e un atteggiamento di cautela, riconoscendo il potenziale ma enfatizzando l'importanza del pensiero umano."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta iero090134
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: iero090134
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Non la ritengo necessaria
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non sono molto tecnologica
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Può aitare
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Si deve utilizzare il.propro cervello
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Non la ritengo necessaria
+**Codes**: —
+**Reason**: Risposta di rifiuto non motivata o non informativa.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non sono molto tecnologica
+**Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+**Reason**: La difficoltà nell'uso dell'IA è attribuita alla mancanza di competenze tecnologiche.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Può aitare
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'utente indica un potenziale di aiuto generico ('Può aiutare').
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Si deve utilizzare il.propro cervello
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: L'utente sottolinea la necessità di usare il proprio cervello, indicando un rischio di atrofia del pensiero critico.

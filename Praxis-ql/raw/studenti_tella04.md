@@ -1,19 +1,75 @@
-# Risposta: Studenti - Record 265
+---
+record_code: "tella04"
+group: Studenti
+dimensions: [I, P, R, S, X]
+subcodes: [I2, I4, P1, P6, P7, R4, S7, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:29:53.779272+00:00"
+label_source: labels/ollama-gemma4/studenti_tella04.json
+note: "Lo studente utilizza l'IA principalmente per la ricerca di informazioni, riconoscendone i benefici ma anche i limiti (errori e ambiti non adatti)."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta tella04
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: tella04
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: per le ricerche
-- **Quali sono i tuoi strumenti preferiti e perché?**: copilot, perché fa bene le ricerche
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: non personalizzare il mio studio
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: per le ricerche
+**Codes**: —
+**Reason**: Risposta generica ('per le ricerche') non specifica un uso didattico o di studio.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: chiedo ricerche
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: migliora la mia conoscenza
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: nella ricerche da più informazioni
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: alcuni errori negli esercizi
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: pro che mi aiuta cin i compiti contro che alcuni li fa male
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: per le relazioni umane
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: copilot, perché fa bene le ricerche
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Menziona uno strumento specifico (Copilot) usato per la ricerca.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+**A**: non personalizzare il mio studio
+**Codes**: —
+**Reason**: La risposta è un rifiuto di personalizzare lo studio, non fornendo dettagli o un'alternativa di supporto.
+
+## Item 4 {#item-4}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: chiedo ricerche
+**Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+**Reason**: L'uso di 'chiedo ricerche' è un esempio di prompting (R4) e indica un'attività di ricerca (P7).
+
+## Item 5 {#item-5}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: migliora la mia conoscenza
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Migliorare la conoscenza è un beneficio legato alla comprensione e all'acquisizione di informazioni.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+**A**: nella ricerche da più informazioni
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'uso dell'IA per la ricerca di più informazioni è un supporto alla produzione di materiali di studio (P1) e migliora la comprensione (X2).
+
+## Item 7 {#item-7}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: alcuni errori negli esercizi
+**Codes**: I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+**Reason**: Rileva difficoltà legate a 'alcuni errori negli esercizi', indicando sfiducia tecnica.
+
+## Item 8 {#item-8}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: pro che mi aiuta cin i compiti contro che alcuni li fa male
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; I2 — Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate.
+**Reason**: Il pro è l'aiuto nei compiti (X2); il contro è che 'alcuni li fa male', indicando sfiducia tecnica (I2).
+
+## Item 9 {#item-9}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: per le relazioni umane
+**Codes**: S7 — Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+**Reason**: Indica che l'IA non dovrebbe essere usata per 'le relazioni umane', che rientra negli ambiti off-limits (S7) e sottolinea l'importanza della relazione umana (I4).

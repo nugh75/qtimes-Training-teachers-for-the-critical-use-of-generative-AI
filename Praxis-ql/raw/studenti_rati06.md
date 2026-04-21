@@ -1,19 +1,68 @@
-# Risposta: Studenti - Record 60
+---
+record_code: "RATI06"
+group: Studenti
+dimensions: [P, S, X]
+subcodes: [P2, P5, S6, X1, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:25:53.973816+00:00"
+label_source: labels/ollama-gemma4/studenti_rati06.json
+note: "Lo studente utilizza l'IA principalmente per chiarire dubbi e definizioni, riconoscendone l'efficacia e la velocità, ma è consapevole del rischio di dipendenza o sostituzione del processo di apprendimento."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta RATI06
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: RATI06
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché?**: ChatGPT perché riesco a trovare facilmente risposte a dubbi che mi vengono in mente mentre studio
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: cerco cose su cui ho dubbi
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: ChatGPT perché riesco a trovare facilmente risposte a dubbi che mi vengono in mente mentre studio
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'uso di ChatGPT per trovare risposte a dubbi durante lo studio indica personalizzazione e chiarimento di dubbi.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: “Cos’è …?” Quindi cerco definizioni
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: È rapida e efficace
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: cerco velocemente definizioni e informazioni poco chiare
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: Nessuna
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: il pro è che è molto veloce ed efficace; il contro è che potrebbe essere abusata da molti
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: AI che sostituiscano le capacità che lo studente dovrebbe imparare
+**Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+**A**: cerco cose su cui ho dubbi
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Cercare dubbi è un modo per adattare lo studio e chiarire concetti.
+
+## Item 3 {#item-3}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: “Cos’è …?” Quindi cerco definizioni
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: L'uso di 'Cos'è...?' è una strategia di ricerca di definizioni.
+
+## Item 4 {#item-4}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: È rapida e efficace
+**Codes**: X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'utente valuta l'IA come rapida ed efficace.
+
+## Item 5 {#item-5}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+**A**: cerco velocemente definizioni e informazioni poco chiare
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Cercare definizioni e informazioni poco chiare è un atto di chiarimento e comprensione.
+
+## Item 6 {#item-6}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: Nessuna
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 7 {#item-7}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: il pro è che è molto veloce ed efficace; il contro è che potrebbe essere abusata da molti
+**Codes**: X1 — Efficienza e risparmio di tempo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'utente evidenzia la velocità ed efficacia come pro.
+
+## Item 8 {#item-8}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: AI che sostituiscano le capacità che lo studente dovrebbe imparare
+**Codes**: S6 — Sostituzione del docente o della relazione educativa.
+**Reason**: L'utente avverte che l'IA non deve sostituire le capacità che lo studente dovrebbe imparare, indicando un rischio di delega cognitiva eccessiva o sostituzione del processo di apprendimento.

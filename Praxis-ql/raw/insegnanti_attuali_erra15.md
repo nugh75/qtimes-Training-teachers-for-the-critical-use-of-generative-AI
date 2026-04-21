@@ -1,22 +1,82 @@
-# Risposta: Insegnanti in servizio - Record 304
+---
+record_code: "Erra15"
+group: Insegnanti in servizio
+dimensions: [P]
+subcodes: [P5]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:00:01.098296+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_erra15.json
+note: "Il partecipante ha fornito risposte molto limitate, menzionando solo la generazione di testi come strumento preferito."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Erra15
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Erra15
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Quali sono i tuoi strumenti preferiti e perché? **: Generazioni di testi
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: Non lo so
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: Non lo so
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: Non lo so
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: Non lo so
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: Non lo so
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: Nessuno
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Non lo so
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Non lo so
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Generazioni di testi
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: Generare testi è una forma di strategia operativa (riscrittura, spiegazioni).
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 4 {#item-4}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 5 {#item-5}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 7 {#item-7}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 8 {#item-8}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+**A**: Nessuno
+**Codes**: —
+**Reason**: Risposta non informativa ('Nessuno').
+
+## Item 9 {#item-9}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').
+
+## Item 10 {#item-10}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Non lo so
+**Codes**: —
+**Reason**: Risposta non informativa ('Non lo so').

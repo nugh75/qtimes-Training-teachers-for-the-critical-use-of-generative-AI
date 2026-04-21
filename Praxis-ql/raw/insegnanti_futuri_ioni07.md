@@ -1,11 +1,40 @@
-# Risposta: Insegnanti pre-service - Record 73
+---
+record_code: "Ioni07"
+group: Insegnanti pre-service
+dimensions: [P, R, X]
+subcodes: [P1, R5, X1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:44:55.873989+00:00"
+label_source: labels/ollama-gemma4/insegnanti_futuri_ioni07.json
+note: "Il partecipante mostra un basso livello di confidenza nell'uso dell'IA, esprimendo difficoltà e limitazioni nell'applicazione didattica."
+---
 
-**Gruppo di origine:** Insegnanti pre-service
+# Risposta Ioni07
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Ioni07
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Perche non mi piace
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non so usarla
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Velocità
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Riassumere e studiare
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Perche non mi piace
+**Codes**: —
+**Reason**: Risposta non informativa ('Perche non mi piace').
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non so usarla
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+**Reason**: Il partecipante dichiara di non saper usare l'IA, indicando un rifiuto o un'incapacità di utilizzo.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Velocità
+**Codes**: X1 — Efficienza e risparmio di tempo.
+**Reason**: Il partecipante cita la 'Velocità' come pro dell'IA.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Riassumere e studiare
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+**Reason**: Il partecipante menziona 'Riassumere e studiare', che rientra nella produzione di materiali di studio.

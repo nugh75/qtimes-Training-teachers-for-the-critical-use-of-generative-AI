@@ -38,6 +38,36 @@ Faro16 denuncia la stessa carenza dal versante istituzionale: la difficoltà pri
 
 Agna09 offre forse la sintesi più completa dell'intera dimensione Adequacy of support, condensando in una frase le due facce del problema: "*Le difficoltà che riscontro sono: una carente formazione di noi docenti e dispositivi non aggiornati*" (source: [agna09](../../../raw/insegnanti_attuali_agna09.md)). Mancano sia le competenze sia gli strumenti. Manca, in sostanza, il supporto del sistema.
 
+- (source: [Arco11](../../../raw/insegnanti_attuali_arco11.md))
+
+- (source: [chio08](../../../raw/insegnanti_attuali_chio08.md))
+
+- (source: [Drea02](../../../raw/insegnanti_attuali_drea02.md))
+
+- (source: [enza16](../../../raw/insegnanti_attuali_enza16.md))
+
+- (source: [ETTI19](../../../raw/insegnanti_attuali_etti19.md))
+
+- (source: [Gullo31](../../../raw/insegnanti_attuali_gullo31.md))
+
+- (source: [Iero07](../../../raw/insegnanti_attuali_iero07.md))
+
+- (source: [iero090134](../../../raw/insegnanti_attuali_iero090134.md))
+
+- (source: [Luca08](../../../raw/insegnanti_attuali_luca08.md))
+
+- (source: [naro28](../../../raw/insegnanti_attuali_naro28.md))
+
+- (source: [occa13](../../../raw/insegnanti_attuali_occa13.md))
+
+- (source: [Orco13](../../../raw/insegnanti_attuali_orco13.md))
+
+- (source: [otti18](../../../raw/insegnanti_attuali_otti18.md))
+
+- (source: [Sati26](../../../raw/insegnanti_attuali_sati26.md))
+
+- (source: [UONO16](../../../raw/insegnanti_attuali_uono16.md))
+
 ## Pagine correlate
 - [Indice Adequacy Of Support](adequacy-of-support-insegnanti-attuali.md)
 - [Logistica e dispositivi](logistica-e-dispositivi.md)

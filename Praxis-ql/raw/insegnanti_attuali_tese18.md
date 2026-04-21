@@ -1,11 +1,19 @@
-# Risposta: Insegnanti in servizio - Record 287
+---
+record_code: "tese18"
+group: Insegnanti in servizio
+dimensions: [S]
+subcodes: [S1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:31:10.407890+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_tese18.json
+note: "Il partecipante identifica un rischio negativo principale legato alla dipendenza dall'AI."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta tese18
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: tese18
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: -
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Contro: essere dipendenti dall’AI anche nella quotidianità
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: -
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Contro: essere dipendenti dall’AI anche nella quotidianità
+**Codes**: S1 — Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.
+**Reason**: Il partecipante menziona il rischio di dipendenza dall'AI nella quotidianità, che rientra nel concetto di delega cognitiva eccessiva.

@@ -26,6 +26,12 @@ Chi ha un profilo professionale più avanzato vede nell'IA uno strumento di effi
 
 Un caso isolato ma significativo mostra un prompt dettagliato per la costruzione di una verifica: "Devo elaborare una verifica per la mia classe di seconda superiore con tema ciclo dell'acqua, sono riuscita a trattare l'argomento e ti sottopongo il programma che ho seguito, elabora un test dove ci sono 4 domande a risposta multipla e 6 a risposta aperta. Cerca di essere chiaro nelle domande aperte e dammi una possibile griglia di valutazione" (source: [acca02](../../../raw/insegnanti_futuri_acca02.md)). Il prompt include contesto (classe, tema, programma svolto), vincoli (numero e tipo di domande) e meta-richieste (chiarezza, griglia): è il livello di articolazione più alto nell'intero campione dei futuri insegnanti.
 
+- (source: [Ente12](../../../raw/insegnanti_futuri_ente12.md))
+
+- (source: [Namo20/10/49](../../../raw/insegnanti_futuri_namo20-10-49.md))
+
+- (source: [Prella42](../../../raw/insegnanti_futuri_prella42.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-insegnanti-futuri.md)
 - [Indice insegnanti futuri](../index-insegnanti-futuri.md)

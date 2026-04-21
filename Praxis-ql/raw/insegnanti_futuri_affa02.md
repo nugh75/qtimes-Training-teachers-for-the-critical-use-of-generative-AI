@@ -1,11 +1,33 @@
-# Risposta: Insegnanti pre-service - Record 96
+---
+record_code: "affa02"
+group: Insegnanti pre-service
+dimensions: [S, X]
+subcodes: [S4, X1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:38:52.475327+00:00"
+label_source: labels/ollama-gemma4/insegnanti_futuri_affa02.json
+note: "Il partecipante è un insegnante pre-service che non ha esperienza didattica, ma è consapevole dei rischi (S4) e dei benefici (X1) dell'IA."
+---
 
-**Gruppo di origine:** Insegnanti pre-service
+# Risposta affa02
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: affa02
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non ho esperienza di insegnamento
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Non sviluppa il pensiero critico, non acquisisci determinate capacità.  Pro: può essere utile per velocizzare i tempi
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Non ho ancora utilizzato l'intelligenza artificiale poiché ancora non insegno
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non ho esperienza di insegnamento
+**Codes**: —
+**Reason**: Risposta basata sulla mancanza di esperienza di insegnamento.
+
+## Item 2 {#item-2}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Non sviluppa il pensiero critico, non acquisisci determinate capacità.  Pro: può essere utile per velocizzare i tempi
+**Codes**: S4 — Erosione del pensiero critico.; X1 — Efficienza e risparmio di tempo.
+**Reason**: Riconoscimento che l'IA non sviluppa il pensiero critico (S4), ma può velocizzare i tempi (X1).
+
+## Item 3 {#item-3}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Non ho ancora utilizzato l'intelligenza artificiale poiché ancora non insegno
+**Codes**: —
+**Reason**: Risposta basata sulla mancanza di esperienza di insegnamento.

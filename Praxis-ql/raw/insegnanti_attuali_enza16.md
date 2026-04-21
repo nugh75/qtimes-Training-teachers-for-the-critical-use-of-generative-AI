@@ -1,11 +1,39 @@
-# Risposta: Insegnanti in servizio - Record 134
+---
+record_code: "enza16"
+group: Insegnanti in servizio
+dimensions: [A, S, X]
+subcodes: [A1, S4, X6]
+model: gemma4:e4b
+generated_at: "2026-04-19T20:58:04.176011+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_enza16.json
+note: "Il partecipante esprime scetticismo sull'uso dell'IA in didattica, attribuendolo alla mancanza di formazione e alla complessità dello strumento."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta enza16
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: enza16
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Ancora non ho avuto troppo modo di utilizzarla e penso di non essere ancora abbastanza formata
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non utilizzo l'IA nella didattica in quanto ritengo sia ancora una cosa troppo complessa per il grado di scuola in cui lavoro
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Pro facilitazione di alcuni iter che vanno poi interpretati e anche la possibilità di avere un punto di vista diverso  Contro diminuzione del ragionamento e della creatività
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Non lo so
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Ancora non ho avuto troppo modo di utilizzarla e penso di non essere ancora abbastanza formata
+**Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+**Reason**: Il partecipante cita la mancanza di formazione come motivo per non utilizzare l'IA.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non utilizzo l'IA nella didattica in quanto ritengo sia ancora una cosa troppo complessa per il grado di scuola in cui lavoro
+**Codes**: A1 — Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.
+**Reason**: Il partecipante cita la complessità dell'IA per il grado di scuola, implicando una mancanza di preparazione o formazione adeguata.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Pro facilitazione di alcuni iter che vanno poi interpretati e anche la possibilità di avere un punto di vista diverso  Contro diminuzione del ragionamento e della creatività
+**Codes**: S4 — Erosione del pensiero critico.; X6 — Coinvolgimento, arricchimento e innovazione.
+**Reason**: Il partecipante menziona la diminuzione del ragionamento e della creatività come contro dell'uso dell'IA.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Non lo so
+**Codes**: —

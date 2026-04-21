@@ -40,6 +40,64 @@ Un sotto-gruppo esplicita una strategia consapevole di selezione: l'IA serve a *
 
 In mezzo all'uso strumentale emerge qualche pratica più sofisticata. ACIU28 usa l'IA per confrontare teorie simultaneamente, trovare testi altrimenti inaccessibili, e riformulare — un uso genuinamente *euristico* che si distingue dalla semplice delega (source: [ACIU28](../../../raw/studenti_aciu28.md)). iala12 chiede all'IA di assumere un registro specifico: "*puoi spiegarmi questo concetto come se stessi tenendo una lezione universitaria, fornendo qualche esempio?*" (source: [iala12](../../../raw/studenti_iala12.md)). DDEI10 pone una domanda disciplinare genuina: "*Mi spieghi perché la corrente Ih genera un sag in iperpolarizzazione?*" (source: [DDEI10](../../../raw/studenti_ddei10.md)) — un prompt che presuppone conoscenza di base e cerca approfondimento, non sostituzione. livi06 offre la riflessione metacognitiva più articolata dell'intero batch: "*Il fatto di generare un testo può essere uno spunto per creare un nuovo testo scritto da sé [...]. Mi rattrista pensare a quanto la mente umana possa essere creativa e vedere tutto questo potenziale sprecato adagiato all'uso dell'Ai*" (source: [livi06](../../../raw/studenti_livi06.md)). Queste eccezioni confermano per contrasto il pattern dominante: la grande maggioranza usa l'IA al livello più basso di complessità.
 
+- (source: [azza13](../../../raw/studenti_azza13.md))
+
+- (source: [chia10](../../../raw/studenti_chia10.md))
+
+- (source: [chia10](../../../raw/studenti_chia10_2.md))
+
+- (source: [Ddei02](../../../raw/studenti_ddei02.md))
+
+- (source: [ELLA17](../../../raw/studenti_ella17.md))
+
+- (source: [Ello18](../../../raw/studenti_ello18.md))
+
+- (source: [etta30](../../../raw/studenti_etta30.md))
+
+- (source: [Gelo05](../../../raw/studenti_gelo05.md))
+
+- (source: [iani17](../../../raw/studenti_iani17.md))
+
+- (source: [Ibba03](../../../raw/studenti_ibba03.md))
+
+- (source: [ieri 06](../../../raw/studenti_ieri-06.md))
+
+- (source: [illo24](../../../raw/studenti_illo24.md))
+
+- (source: [irulli24](../../../raw/studenti_irulli24.md))
+
+- (source: [kera01](../../../raw/studenti_kera01.md))
+
+- (source: [Lova26](../../../raw/studenti_lova26.md))
+
+- (source: [mata06](../../../raw/studenti_mata06.md))
+
+- (source: [Nchi12](../../../raw/studenti_nchi12.md))
+
+- (source: [onga28](../../../raw/studenti_onga28.md))
+
+- (source: [onte26](../../../raw/studenti_onte26.md))
+
+- (source: [onti04](../../../raw/studenti_onti04.md))
+
+- (source: [orsi12](../../../raw/studenti_orsi12.md))
+
+- (source: [osca30](../../../raw/studenti_osca30.md))
+
+- (source: [otta03](../../../raw/studenti_otta03.md))
+
+- (source: [pica11](../../../raw/studenti_pica11.md))
+
+- (source: [rone05](../../../raw/studenti_rone05.md))
+
+- (source: [RONE25](../../../raw/studenti_rone25.md))
+
+- (source: [Rosi06](../../../raw/studenti_rosi06.md))
+
+- (source: [rtic12](../../../raw/studenti_rtic12.md))
+
+- (source: [usso09](../../../raw/studenti_usso09.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-studenti.md)
 - [Indice studenti](../index-studenti.md)

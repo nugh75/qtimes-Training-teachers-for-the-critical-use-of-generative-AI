@@ -38,6 +38,10 @@ Il corpus studenti è quello con la maggiore diversificazione di strumenti. Oltr
 
 La scelta non è casuale: ogni strumento è associato a una funzione specifica, il che suggerisce una competenza d'uso che va oltre il singolo chatbot.
 
+- (source: [Fora21](../../../raw/studenti_fora21.md))
+
+- (source: [none01](../../../raw/studenti_none01.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-studenti.md)
 - [Indice studenti](../index-studenti.md)

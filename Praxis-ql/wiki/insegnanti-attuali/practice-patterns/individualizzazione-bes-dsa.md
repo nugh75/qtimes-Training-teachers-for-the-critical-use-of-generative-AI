@@ -30,6 +30,70 @@ Il caso più sofisticato è quello di ogri20, che usa l'IA per adattare le prove
 
 Molte di queste pratiche provengono da insegnanti di sostegno, per i quali l'IA rappresenta un salto di produttività nel lavoro di adattamento quotidiano. CATO05 usa l'IA per creare schemi calibrati sulle esigenze del singolo alunno (source: [CATO05](../../../raw/insegnanti_attuali_cato05.md)). Aisto30 adatta prove per studenti con Special Needs Education (source: [aisto30](../../../raw/insegnanti_attuali_aisto30.md)). Atti24 usa Socrative come facilitatore per BES (source: [atti24](../../../raw/insegnanti_attuali_atti24.md)), capu15 costruisce rubriche di valutazione specifiche per DSA (source: [capu15](../../../raw/insegnanti_attuali_capu15.md)). Isti12 progetta UDA intere per classi con profili multipli — ADHD, disturbo del linguaggio, DSA — in un solo prompt (source: [isti12](../../../raw/insegnanti_attuali_isti12.md)).
 
+- (source: [acci11](../../../raw/insegnanti_attuali_acci11.md))
+
+- (source: [anna19](../../../raw/insegnanti_attuali_anna19.md))
+
+- (source: [ARDO03](../../../raw/insegnanti_attuali_ardo03.md))
+
+- (source: [arta24](../../../raw/insegnanti_attuali_arta24.md))
+
+- (source: [Asio15](../../../raw/insegnanti_attuali_asio15.md))
+
+- (source: [atti22](../../../raw/insegnanti_attuali_atti22.md))
+
+- (source: [cari17](../../../raw/insegnanti_attuali_cari17.md))
+
+- (source: [EINI23](../../../raw/insegnanti_attuali_eini23.md))
+
+- (source: [endo15](../../../raw/insegnanti_attuali_endo15.md))
+
+- (source: [erio29](../../../raw/insegnanti_attuali_erio29.md))
+
+- (source: [Etta06](../../../raw/insegnanti_attuali_etta06.md))
+
+- (source: [etti27](../../../raw/insegnanti_attuali_etti27.md))
+
+- (source: [Ileo23](../../../raw/insegnanti_attuali_ileo23.md))
+
+- (source: [Illo01](../../../raw/insegnanti_attuali_illo01.md))
+
+- (source: [imone29](../../../raw/insegnanti_attuali_imone29.md))
+
+- (source: [ITTA09](../../../raw/insegnanti_attuali_itta09.md))
+
+- (source: [Izio06](../../../raw/insegnanti_attuali_izio06.md))
+
+- (source: [lano03](../../../raw/insegnanti_attuali_lano03.md))
+
+- (source: [liciaricci7@gmail.com](../../../raw/insegnanti_attuali_liciaricci7@gmail.com.md))
+
+- (source: [Mato22](../../../raw/insegnanti_attuali_mato22.md))
+
+- (source: [olmi21](../../../raw/insegnanti_attuali_olmi21.md))
+
+- (source: [onzi03](../../../raw/insegnanti_attuali_onzi03.md))
+
+- (source: [orio4](../../../raw/insegnanti_attuali_orio4.md))
+
+- (source: [otta04](../../../raw/insegnanti_attuali_otta04.md))
+
+- (source: [otta06](../../../raw/insegnanti_attuali_otta06.md))
+
+- (source: [otti15](../../../raw/insegnanti_attuali_otti15.md))
+
+- (source: [Rini09](../../../raw/insegnanti_attuali_rini09.md))
+
+- (source: [RINO23](../../../raw/insegnanti_attuali_rino23.md))
+
+- (source: [Sani19](../../../raw/insegnanti_attuali_sani19.md))
+
+- (source: [sini22](../../../raw/insegnanti_attuali_sini22.md))
+
+- (source: [soli24](../../../raw/insegnanti_attuali_soli24.md))
+
+- (source: [zano05](../../../raw/insegnanti_attuali_zano05.md))
+
 ## Pagine correlate
 - [Indice Practice Patterns](practice-patterns-insegnanti-attuali.md)
 - [CAA e autismo non verbale](caa-autismo-non-verbale.md)

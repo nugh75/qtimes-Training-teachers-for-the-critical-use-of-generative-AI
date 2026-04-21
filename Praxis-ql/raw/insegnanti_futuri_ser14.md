@@ -1,11 +1,40 @@
-# Risposta: Insegnanti pre-service - Record 14
+---
+record_code: "Ser14"
+group: Insegnanti pre-service
+dimensions: [S]
+subcodes: [S6]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:49:33.631438+00:00"
+label_source: labels/ollama-gemma4/insegnanti_futuri_ser14.json
+note: "Il partecipante non ha esperienza diretta con l'IA in didattica, ma esprime una forte preoccupazione teorica contro l'uso che sostituisce la produzione personale."
+---
 
-**Gruppo di origine:** Insegnanti pre-service
+# Risposta Ser14
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Ser14
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Mancanza d abitudine
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non lavoro
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Nn ho esperienza
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Tutte quelle che sostituiscono la produzione  personale
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Mancanza d abitudine
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non lavoro
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Nn ho esperienza
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Tutte quelle che sostituiscono la produzione  personale
+**Codes**: S6 — Sostituzione del docente o della relazione educativa.
+**Reason**: Il partecipante critica l'uso dell'IA che sostituisce la produzione personale, indicando un rischio di sostituzione del ruolo umano.

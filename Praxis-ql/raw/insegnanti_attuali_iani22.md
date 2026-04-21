@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 355
+---
+record_code: "Iani22"
+group: Insegnanti in servizio
+dimensions: [I, S, X]
+subcodes: [I4, S2, S4, S6, X6]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:04:19.384567+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_iani22.json
+note: "L'insegnante mostra una forte diffidenza verso l'uso dell'IA in didattica, temendo che possa compromettere l'apprendimento autonomo e la relazione educativa."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Iani22
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Iani22
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Perché non la conosco abbastanza bene
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Non la utilizzo nella didattica in quanto ho paura che i miei studenti la utilizzino in maniera non opportuna quindi evito io per prima di utilizzarla
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Pro: maggiore coinvolgimento degli studenti Contro: utilizzo da parte degli studenti per la risoluzione di compiti
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Ricerche effettuate tramite AI in quanto in questo modo gli studenti si trovano già il materiale pronto e non possono mettersi alla prova
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Perché non la conosco abbastanza bene
+**Codes**: —
+**Reason**: Rifiuto di fornire dettagli sulla non-utilizzazione dell'IA.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Non la utilizzo nella didattica in quanto ho paura che i miei studenti la utilizzino in maniera non opportuna quindi evito io per prima di utilizzarla
+**Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.; S6 — Sostituzione del docente o della relazione educativa.
+**Reason**: Paura che gli studenti usino l'IA in modo non opportuno, portando a un rifiuto di utilizzarla in didattica.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Pro: maggiore coinvolgimento degli studenti Contro: utilizzo da parte degli studenti per la risoluzione di compiti
+**Codes**: X6 — Coinvolgimento, arricchimento e innovazione.; S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+**Reason**: Riconosce il potenziale di coinvolgimento (X6) ma anche il rischio di uso per la risoluzione di compiti (S2).
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Ricerche effettuate tramite AI in quanto in questo modo gli studenti si trovano già il materiale pronto e non possono mettersi alla prova
+**Codes**: S4 — Erosione del pensiero critico.; S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+**Reason**: L'uso di AI per ricerche fornisce materiale pronto, impedendo agli studenti di mettersi alla prova e di sviluppare il pensiero critico.

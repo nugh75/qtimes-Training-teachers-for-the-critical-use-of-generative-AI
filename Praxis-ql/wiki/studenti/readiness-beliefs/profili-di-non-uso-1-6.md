@@ -34,6 +34,12 @@ Il profilo più paradossale: usare l'IA sapendo che non aiuta. Relli31 lo formul
 
 Il profilo più allarmante: uso senza beneficio percepito e incapacità di uscirne. Illi30 e Arli70 lo dichiarano esplicitamente: "*Non mi aiuta, vorrei smettere di usarla*" (source: [Illi30](../../../raw/studenti_illi30.md)) (source: [Arli70](../../../raw/studenti_arli70.md)). Il transfer gap è il meccanismo: gini04 lo formalizza — "*a casa puoi usarla, ma nelle verifiche no — e quindi sei svantaggiata*" (source: [gini04](../../../raw/studenti_gini04.md)). L'IA crea una competenza che non è trasferibile al contesto valutativo, producendo uno svantaggio netto. La battuta più concisa dell'intero corpus: "*è tutto inutile che veniamo a scuola*" (source: [Daro04](../../../raw/studenti_daro04.md)).
 
+- (source: [ardo03](../../../raw/studenti_ardo03.md))
+
+- (source: [ella14](../../../raw/studenti_ella14.md))
+
+- (source: [Peca 17](../../../raw/studenti_peca-17.md))
+
 ## Pagine correlate
 - [Indice Readiness Beliefs](readiness-beliefs-studenti.md)
 - [Indice studenti](../index-studenti.md)

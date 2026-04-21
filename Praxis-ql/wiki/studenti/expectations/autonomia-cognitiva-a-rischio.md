@@ -24,6 +24,8 @@ Il punto di convergenza tra le diverse formulazioni è la *delega*: affidare all
 
 Mar1946 aggiunge la creatività come seconda vittima: l'uso esclusivo dell'IA nella redazione di testi "*disallena capacità proprie e impigrisce la creatività*" (source: [Mar1946](../../../raw/studenti_mar1946.md)). Elli08 articola il punto con una norma esplicita: "*NON dovrebbero esser realizzati dei temi, composizioni solamente grazie all'uso di IA, poiché questo porta ad un appiattimento della creatività*" (source: [Elli08](../../../raw/studenti_elli08.md)). Rini11 ribadisce: "*L'utilizzo dell'IA potrebbe impigrire le persone nello studio*" (source: [Rini11](../../../raw/studenti_rini11.md)). Nomo27 nomina esplicitamente la pigrizia e la superficialità come contro strutturale: "*una di queste è sicuramente la 'pigrizia' o la 'superficialità' che si rischia di creare sapendo di poter usare l'IA*" (source: [nomo27](../../../raw/studenti_nomo27.md)).
 
+- (source: [gera26](../../../raw/studenti_gera26.md))
+
 ## Pagine correlate
 - [Indice Expectations](expectations-studenti.md)
 - [Indice studenti](../index-studenti.md)

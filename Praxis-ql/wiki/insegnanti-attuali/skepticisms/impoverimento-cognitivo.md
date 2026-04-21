@@ -58,6 +58,62 @@ Un docente esplicita il gradiente del rischio: "*Temo si rischi di cadere nella 
 
 Chi lavora con la produzione scritta e grafica vede un rischio concreto di svuotamento: "*Delegare all'A.I. la realizzazione di elaborati (ad es. testi o disegni) che lo studente dovrebbe realizzare da sé, altrimenti l'apprendimento e l'acquisizione di determinate capacità e competenze verrebbero seriamente compromessi*" (source: [MPUS21](../../../raw/insegnanti_attuali_mpus21.md)). Il *dovrebbe realizzare da sé* è il nucleo della preoccupazione: il fare è la condizione dell'imparare.
 
+- (source: [Arra16](../../../raw/insegnanti_attuali_arra16.md))
+
+- (source: [cato28](../../../raw/insegnanti_attuali_cato28.md))
+
+- (source: [elia14](../../../raw/insegnanti_attuali_elia14.md))
+
+- (source: [epre02](../../../raw/insegnanti_attuali_epre02.md))
+
+- (source: [etti07](../../../raw/insegnanti_attuali_etti07.md))
+
+- (source: [etto20](../../../raw/insegnanti_attuali_etto20.md))
+
+- (source: [Handa11](../../../raw/insegnanti_attuali_handa11.md))
+
+- (source: [luzi02](../../../raw/insegnanti_attuali_luzi02.md))
+
+- (source: [Mico26](../../../raw/insegnanti_attuali_mico26.md))
+
+- (source: [NALE22](../../../raw/insegnanti_attuali_nale22.md))
+
+- (source: [Nori29](../../../raw/insegnanti_attuali_nori29.md))
+
+- (source: [occa21](../../../raw/insegnanti_attuali_occa21.md))
+
+- (source: [occo16](../../../raw/insegnanti_attuali_occo16.md))
+
+- (source: [pena30](../../../raw/insegnanti_attuali_pena30.md))
+
+- (source: [Pizz03](../../../raw/insegnanti_attuali_pizz03.md))
+
+- (source: [podi30](../../../raw/insegnanti_attuali_podi30.md))
+
+- (source: [Puto11](../../../raw/insegnanti_attuali_puto11.md))
+
+- (source: [Rracca10](../../../raw/insegnanti_attuali_rracca10.md))
+
+- (source: [tano30](../../../raw/insegnanti_attuali_tano30.md))
+
+- (source: [tese18](../../../raw/insegnanti_attuali_tese18.md))
+
+- (source: [tina06](../../../raw/insegnanti_attuali_tina06.md))
+
+- (source: [Tini08](../../../raw/insegnanti_attuali_tini08_2.md))
+
+- (source: [TORI27](../../../raw/insegnanti_attuali_tori27.md))
+
+- (source: [turo 16](../../../raw/insegnanti_attuali_turo.md))
+
+- (source: [unni07](../../../raw/insegnanti_attuali_unni07.md))
+
+- (source: [ussa14](../../../raw/insegnanti_attuali_ussa14.md))
+
+- (source: [vani22](../../../raw/insegnanti_attuali_vani22.md))
+
+- (source: [vina23](../../../raw/insegnanti_attuali_vina23.md))
+
 ## Pagine correlate
 - [Indice Skepticisms](skepticisms-insegnanti-attuali.md)
 - [Indice insegnanti attuali](../index-insegnanti-attuali.md)

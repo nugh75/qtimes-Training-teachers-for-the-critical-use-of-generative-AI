@@ -1,0 +1,176 @@
+{
+  "total_raw": 731,
+  "previously_cited": 712,
+  "processed": 22,
+  "stats": {
+    "created": 3,
+    "injected": 22,
+    "no_label_recovered": 1
+  },
+  "pages_created": [
+    "wiki/insegnanti-attuali/non-classificati.md",
+    "wiki/insegnanti-futuri/non-classificati.md",
+    "wiki/studenti/non-classificati.md"
+  ],
+  "pages_modified": [
+    "wiki/insegnanti-attuali/non-classificati.md",
+    "wiki/insegnanti-futuri/non-classificati.md",
+    "wiki/studenti/non-classificati.md"
+  ],
+  "assignments": [
+    {
+      "stem": "insegnanti_attuali_anni20",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_bano37",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_erro26",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_icci16",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_ineo13",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_lbis20",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_levi16",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_attuali_vola24",
+      "pop": "insegnanti-attuali",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-attuali/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_cino-09-07-1968",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_dosa17",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_etti10",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_iosa01",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_luca30",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_nuti5",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_oisi08",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_pina06",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_rone14",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_tino16",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "insegnanti_futuri_tino71",
+      "pop": "insegnanti-futuri",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/insegnanti-futuri/non-classificati.md"
+    },
+    {
+      "stem": "studenti_di34e",
+      "pop": "studenti",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/studenti/non-classificati.md"
+    },
+    {
+      "stem": "studenti_iola13",
+      "pop": "studenti",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/studenti/non-classificati.md"
+    },
+    {
+      "stem": "studenti_ogna06",
+      "pop": "studenti",
+      "dim": null,
+      "subcode": null,
+      "page": "wiki/studenti/non-classificati.md"
+    }
+  ]
+}

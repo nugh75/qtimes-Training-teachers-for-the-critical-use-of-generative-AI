@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 73
+---
+record_code: "Rini08"
+group: Insegnanti in servizio
+dimensions: [P, S, X]
+subcodes: [P1, P2, S3, S4, X1, X3]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:25:45.452529+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_rini08.json
+note: "Il partecipante mostra una forte resistenza all'uso dell'IA, valorizzando l'adattamento umano e il processo di apprendimento attivo rispetto all'efficienza tecnologica."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta Rini08
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Rini08
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Non la utilizzo perché preferisco preparare le lezioni su misura adattate alle difficoltà della classe
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: L'IA penso che spegni la fantasia e la creatività e non tiene conto delle differenze degli alunni della classe, per me è importante valorizzare il talento che c'è in ogni bambino
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: I pro sono nell' agevolazione di compiti che richiedono molto tempo, ma i contro è che diventiamo piatti nel pensiero.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Produzione di testi perché mancherebbe la curiosità, la ricerca,blo studio per ampliare anche solo il nostro vocabolario quotidiano.
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Non la utilizzo perché preferisco preparare le lezioni su misura adattate alle difficoltà della classe
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Preferisce adattare le lezioni alle difficoltà della classe, indicando un'attenzione all'individualizzazione.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: L'IA penso che spegni la fantasia e la creatività e non tiene conto delle differenze degli alunni della classe, per me è importante valorizzare il talento che c'è in ogni bambino
+**Codes**: S3 — Appiattimento, omologazione, perdita di creativita'.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Temere che l'IA spegna la fantasia, la creatività e non tenga conto delle differenze degli alunni.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: I pro sono nell' agevolazione di compiti che richiedono molto tempo, ma i contro è che diventiamo piatti nel pensiero.
+**Codes**: X1 — Efficienza e risparmio di tempo.; S3 — Appiattimento, omologazione, perdita di creativita'.
+**Reason**: Riconosce l'agevolazione di compiti (X1), ma teme che porti a un appiattimento del pensiero (S3).
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Produzione di testi perché mancherebbe la curiosità, la ricerca,blo studio per ampliare anche solo il nostro vocabolario quotidiano.
+**Codes**: S4 — Erosione del pensiero critico.; P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+**Reason**: Non raccomanda la produzione di testi perché mancherebbe la curiosità e la ricerca, elementi fondamentali per lo sviluppo del pensiero critico.

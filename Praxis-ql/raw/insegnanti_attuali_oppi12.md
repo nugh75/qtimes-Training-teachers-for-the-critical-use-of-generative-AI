@@ -1,22 +1,47 @@
-# Risposta: Insegnanti in servizio - Record 205
+---
+record_code: "OPPI12"
+group: Insegnanti in servizio
+dimensions: [P, S, X]
+subcodes: [P1, P2, P4, P5, S2, X2, X3]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:19:37.885847+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_oppi12.json
+note: "L'insegnante utilizza l'IA per creare materiali di valutazione e riassunti, ma mostra cautela riguardo all'uso da parte degli studenti."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta OPPI12
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: OPPI12
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché? **: CREAZIONE QUIZ
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: -
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: CREARE CONTENUTI PERSONALIZZATI
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: CREAZIONE QUIZ
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.
+**Reason**: La creazione di quiz rientra nella produzione di materiali didattici.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: Mi servirebbe un riassunto del brano inserito per alunni di livello ___. alla fine preparami anche un quiz a risposta multipla contenente 5 domande.
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: non saprei
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: -
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: -
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: i ragazzi non devono abusarne
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: -
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: CREARE CONTENUTI PERSONALIZZATI
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: L'obiettivo è creare contenuti personalizzati per l'insegnamento, che è l'essenza della personalizzazione.
+
+## Item 3 {#item-3}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: Mi servirebbe un riassunto del brano inserito per alunni di livello ___. alla fine preparami anche un quiz a risposta multipla contenente 5 domande.
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Richiede riassunto (P5), quiz (P1, P4) e adattamento al livello dello studente (P2).
+
+## Item 4 {#item-4}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+**A**: non saprei
+**Codes**: —
+**Reason**: Risposta non informativa.
+
+## Item 5 {#item-5}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: i ragazzi non devono abusarne
+**Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+**Reason**: L'avvertimento che i ragazzi non devono abusarne si riferisce al rischio di plagio o dipendenza eccessiva.

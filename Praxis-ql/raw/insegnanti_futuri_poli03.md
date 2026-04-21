@@ -1,22 +1,33 @@
-# Risposta: Insegnanti pre-service - Record 95
+---
+record_code: "Poli03"
+group: Insegnanti pre-service
+dimensions: [S, X]
+subcodes: [S2, S4, X1]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:48:14.689044+00:00"
+label_source: labels/ollama-gemma4/insegnanti_futuri_poli03.json
+note: "Il partecipante evidenzia i rischi di dipendenza e uso improprio dell'IA da parte degli studenti, bilanciandoli con il potenziale di velocizzazione dei processi."
+---
 
-**Gruppo di origine:** Insegnanti pre-service
+# Risposta Poli03
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Poli03
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: -
-- **Quali sono i tuoi strumenti preferiti e perché?**: -
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: -
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: -
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+**A**: Capacità di utilizzarla adeguatamente
+**Codes**: —
+**Reason**: La risposta è troppo generica e non specifica una difficoltà o un'area di intervento.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: -
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: -
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: -
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: Capacità di utilizzarla adeguatamente
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: Contro: utilizzo improprio da parte degli studenti. Viene utilizzata per fare i compiti, verifiche ed  esami senza studiare e/o capire e/o ragionare.  Pro: velocizzare alcuni iter e focalizzarsi sull'obiettivo
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Tutte quelle pratiche in cui l'IA inibisce il ragionamento dei ragazzi
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: Contro: utilizzo improprio da parte degli studenti. Viene utilizzata per fare i compiti, verifiche ed  esami senza studiare e/o capire e/o ragionare.  Pro: velocizzare alcuni iter e focalizzarsi sull'obiettivo
+**Codes**: S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.; X1 — Efficienza e risparmio di tempo.
+**Reason**: L'uso improprio per fare compiti ed esami senza studiare indica plagio/svolgimento di compiti altrui (S2), mentre 'velocizzare alcuni iter' si riferisce all'efficienza (X1).
+
+## Item 3 {#item-3}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Tutte quelle pratiche in cui l'IA inibisce il ragionamento dei ragazzi
+**Codes**: S4 — Erosione del pensiero critico.
+**Reason**: L'inibizione del ragionamento dei ragazzi è un rischio per lo sviluppo del pensiero critico (S4).

@@ -1,11 +1,40 @@
-# Risposta: Insegnanti in servizio - Record 19
+---
+record_code: "zoli01"
+group: Insegnanti in servizio
+dimensions: [R, S, X]
+subcodes: [R5, S2, S4, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:37:42.814270+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_zoli01.json
+note: "Il partecipante mostra una posizione di non utilizzo dell'IA, basata sulla mancanza di utilità percepita, ma riconosce potenziali benefici in termini di rapidità di ricerca."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta zoli01
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: zoli01
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Nelle mie attività quotidiane non utilizzo l'intelligenza artificiale perché non ne sento la necessità.
-- **Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?**: Per le conoscenze che possiedo sull'argomento non ne ho riscontrato l'utilità. In futuro, forse.
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: In base alla mia esperienza potrebbe essere utile per reperire informazioni in modo più rapido ed efficace.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: Ritengo che gli studenti non debbano usare l'intelligenza artificiale, in modo sistematico, per risolvere problemi matematici o per la stesura di testi.
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Nelle mie attività quotidiane non utilizzo l'intelligenza artificiale perché non ne sento la necessità.
+**Codes**: —
+**Reason**: Il partecipante dichiara di non utilizzare l'IA perché non ne sente la necessità.
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+**A**: Per le conoscenze che possiedo sull'argomento non ne ho riscontrato l'utilità. In futuro, forse.
+**Codes**: R5 — Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole.
+**Reason**: Il partecipante non utilizza l'IA perché non ne ha riscontrato l'utilità per le conoscenze che possiede.
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: In base alla mia esperienza potrebbe essere utile per reperire informazioni in modo più rapido ed efficace.
+**Codes**: X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: L'utilità percepita è quella di reperire informazioni in modo più rapido ed efficace.
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: Ritengo che gli studenti non debbano usare l'intelligenza artificiale, in modo sistematico, per risolvere problemi matematici o per la stesura di testi.
+**Codes**: S4 — Erosione del pensiero critico.; S2 — Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri.
+**Reason**: Il partecipante sconsiglia l'uso sistematico dell'IA per risolvere problemi matematici e per la stesura di testi.

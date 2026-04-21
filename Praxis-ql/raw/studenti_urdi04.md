@@ -1,19 +1,70 @@
-# Risposta: Studenti - Record 57
+---
+record_code: "URDI04"
+group: Studenti
+dimensions: [P, R, X]
+subcodes: [P2, P5, P6, P7, R4, X2]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:33:46.527168+00:00"
+label_source: labels/ollama-gemma4/studenti_urdi04.json
+note: "Lo studente utilizza l'IA per la sintesi e la strutturazione dei contenuti, riconoscendone i benefici in termini di tempo e comprensione, ma evidenziando la mancanza di formazione adeguata."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta URDI04
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: URDI04
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: Non sono abituata ad usarla in ambiti che non siano di studio o lavoro. Penso subito ad altre vie per risolvere un problema.
-- **Quali sono i tuoi strumenti preferiti e perché?**: Uso solo chat, perché è gratuito ed efficace
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: Chiedo di riassumere in punti o produrre schemi per concettualizzare argomenti complessi
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: Non sono abituata ad usarla in ambiti che non siano di studio o lavoro. Penso subito ad altre vie per risolvere un problema.
+**Codes**: —
+**Reason**: Risposta non informativa sul rifiuto di utilizzo in ambiti diversi dallo studio/lavoro.
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: "Ciao, puoi sintetizzare questo testo...."
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: Grazie alla sintesi in punti chiave
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: Produrre report in poco tempo
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: Se non si specificano bene le richieste, tende a generalizzare le risposte, rendendole banali
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: Pro: tempi ridotti di studio o lavoro, facilitazione della comprensione di concetti. CONTRO: non c'é una formazione adeguata al corretto utilizzo dell'IA. Questo rischia di produrre menti poco critiche e superficiali.
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: Produzione da zero di prodotti di studio o di lavoro.
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Uso solo chat, perché è gratuito ed efficace
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Uso di chat per la sua gratuità ed efficacia.
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+**A**: Chiedo di riassumere in punti o produrre schemi per concettualizzare argomenti complessi
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Richiesta di riassunti e schemi per concettualizzare argomenti complessi, personalizzando lo studio.
+
+## Item 4 {#item-4}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: "Ciao, puoi sintetizzare questo testo...."
+**Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+**Reason**: Fornisce un esempio di prompt (
+
+## Item 5 {#item-5}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: Grazie alla sintesi in punti chiave
+**Codes**: —
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+**A**: Produrre report in poco tempo
+**Codes**: —
+
+## Item 7 {#item-7}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: Se non si specificano bene le richieste, tende a generalizzare le risposte, rendendole banali
+**Codes**: —
+
+## Item 8 {#item-8}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: Pro: tempi ridotti di studio o lavoro, facilitazione della comprensione di concetti. CONTRO: non c'é una formazione adeguata al corretto utilizzo dell'IA. Questo rischia di produrre menti poco critiche e superficiali.
+**Codes**: —
+
+## Item 9 {#item-9}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: Produzione da zero di prodotti di studio o di lavoro.
+**Codes**: —

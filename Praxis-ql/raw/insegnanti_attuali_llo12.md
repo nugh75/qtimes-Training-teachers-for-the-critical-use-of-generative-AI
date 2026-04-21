@@ -1,22 +1,82 @@
-# Risposta: Insegnanti in servizio - Record 241
+---
+record_code: "LLO12"
+group: Insegnanti in servizio
+dimensions: [I, P]
+subcodes: [I4, P2, P4, P5, P6]
+model: gemma4:e4b
+generated_at: "2026-04-19T21:13:21.449307+00:00"
+label_source: labels/ollama-gemma4/insegnanti_attuali_llo12.json
+note: "L'insegnante utilizza l'IA principalmente per supportare la valutazione e il tutoraggio, ma mostra consapevolezza dei limiti e dell'importanza del ruolo umano."
+---
 
-**Gruppo di origine:** Insegnanti in servizio
+# Risposta LLO12
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: LLO12
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: "-"
-- **Quali sono i tuoi strumenti preferiti e perché? **: SCRITTURA ,SEO,IMMAGINI,AUDIO,VIDEO,SOCIAL
-- **In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento?
-(Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)**: PUò ASSISTERE IN COMPITI QUALI LA VALUTAZIONE
-- **In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento?
-(Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)**: PIATTAFORME;SISTEMI DI TUTORAGGIO;REALTà VIRTUALE
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: "-"
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: RIASSUNTO DEL TESTO,ESTRAZIONE DI INFORMAZIONI,RISPOSTA ALLE DOMANDE,CONVERSAZIONE
-- **Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?**: PUò L'IA AUTOMATIZZARE IL PROCESSO DI VALUTAZIONE DEGLI ALUNNI
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?**: RISPOSTE IMMEDIATE RISPOSTE A COMPITI E TEST FORNENDO FEEDBACK IMMEDIATI
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?**: CREAZIONE DI CONTENUTI INTELLIGENTI,SISTEMI DI TUTORAGGIO INTELLIGENTI
-- **In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?**: INTELLIGENZA  E IL CYBERBULLISMO
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?**: I MIEI ALUNNI SONO ANCORA PICCOLI ED è CONSIGLIABILE L'USO DELL'IA IN PRESENZA DELL'ADULTO.
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: SCRITTURA ,SEO,IMMAGINI,AUDIO,VIDEO,SOCIAL
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Elenco di strumenti e piattaforme (scrittura, SEO, immagini, audio, video, social).
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)
+**A**: PUò ASSISTERE IN COMPITI QUALI LA VALUTAZIONE
+**Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: L'IA può assistere in compiti di valutazione, che rientrano nel supporto e nell'autovalutazione.
+
+## Item 4 {#item-4}
+
+**Q**: In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)
+**A**: PIATTAFORME;SISTEMI DI TUTORAGGIO;REALTà VIRTUALE
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: Riferimento a piattaforme, sistemi di tutoraggio e realtà virtuale per personalizzare l'insegnamento.
+
+## Item 5 {#item-5}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: RIASSUNTO DEL TESTO,ESTRAZIONE DI INFORMAZIONI,RISPOSTA ALLE DOMANDE,CONVERSAZIONE
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.
+**Reason**: Esempi di prompt come riassunto, estrazione di informazioni e risposta a domande sono strategie operative di produzione.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?
+**A**: PUò L'IA AUTOMATIZZARE IL PROCESSO DI VALUTAZIONE DEGLI ALUNNI
+**Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: L'IA può automatizzare il processo di valutazione degli alunni, fornendo supporto di tutoraggio/autovalutazione.
+
+## Item 7 {#item-7}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?
+**A**: RISPOSTE IMMEDIATE RISPOSTE A COMPITI E TEST FORNENDO FEEDBACK IMMEDIATI
+**Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: Fornire feedback immediati su compiti e test è un supporto di tutoraggio e allenamento.
+
+## Item 8 {#item-8}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?
+**A**: CREAZIONE DI CONTENUTI INTELLIGENTI,SISTEMI DI TUTORAGGIO INTELLIGENTI
+**Codes**: P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: Difficoltà nell'implementazione di sistemi di tutoraggio intelligenti.
+
+## Item 9 {#item-9}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+**A**: INTELLIGENZA  E IL CYBERBULLISMO
+**Codes**: —
+**Reason**: Il contenuto è troppo generico (intelligenza e cyberbullismo) per assegnare codici specifici.
+
+## Item 10 {#item-10}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+**A**: I MIEI ALUNNI SONO ANCORA PICCOLI ED è CONSIGLIABILE L'USO DELL'IA IN PRESENZA DELL'ADULTO.
+**Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+**Reason**: Raccomandazione di usare l'IA solo in presenza dell'adulto, sottolineando l'importanza della relazione umana.

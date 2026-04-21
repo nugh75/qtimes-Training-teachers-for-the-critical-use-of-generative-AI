@@ -1,19 +1,75 @@
-# Risposta: Studenti - Record 165
+---
+record_code: "Rdis30"
+group: Studenti
+dimensions: [P, R, S, X]
+subcodes: [P1, P2, P4, P5, P6, P7, R4, S4, X1, X2, X3, X5]
+model: gemma4:e4b
+generated_at: "2026-04-19T22:26:17.041128+00:00"
+label_source: labels/ollama-gemma4/studenti_rdis30.json
+note: "Lo studente utilizza l'IA per supportare lo studio e la comprensione, ma è consapevole dei rischi di dipendenza e di erosione del pensiero critico."
+---
 
-**Gruppo di origine:** Studenti
+# Risposta Rdis30
 
-## Dati raccolti
+## Item 1 {#item-1}
 
-- **Codice**: Rdis30
-- **Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi,  inserisci "-".)**: “-“
-- **Quali sono i tuoi strumenti preferiti e perché?**: Chatgpt, perché è semplice da utilizzare
-- **In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?**: Integro le spiegazioni fornite dall’intelligenza artificiale, utilizzo delle domande per ripetere, o degli schemi
-- **Puoi darci uno o più esempi di prompt che utilizzi?
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+**A**: “-“
+**Codes**: —
+**Reason**: Risposta non informativa ('-').
 
+## Item 2 {#item-2}
 
-Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.**: Mi puoi spiegare questo concetto
-- **In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?**: Mi offre una spiegazione semplice e riassuntiva alle mie domande
-- **Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?**: Mi permette di comprendere meglio un concetto difficile e di ricordarlo  Mi aiuta a creare delle mappe che strutturano e organizzano il mio studio
-- **Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?**: Attualmente non ho riscontrato difficoltà
-- **In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?**: I pro sono che aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo, i contro è che molte volte l’intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo
-- **Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?**: Nello svolgere compiti, verifiche, test ecc., in quanto l’uso dell’intelligenza artificiale non permette di andare a valutare correttamente il soggetto in base alle proprie conoscenze.
+**Q**: Quali sono i tuoi strumenti preferiti e perché?
+**A**: Chatgpt, perché è semplice da utilizzare
+**Codes**: P6 — Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.
+**Reason**: Indica l'uso di uno strumento specifico (ChatGPT).
+
+## Item 3 {#item-3}
+
+**Q**: In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?
+**A**: Integro le spiegazioni fornite dall’intelligenza artificiale, utilizzo delle domande per ripetere, o degli schemi
+**Codes**: P2 — Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.; P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; X3 — Personalizzazione e attenzione al singolo.
+**Reason**: Personalizza lo studio integrando spiegazioni, usando domande per ripetere e schemi.
+
+## Item 4 {#item-4}
+
+**Q**: Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.
+**A**: Mi puoi spiegare questo concetto
+**Codes**: P7 — Prompting visibile: presenza di prompt riportati o descritti come pratica concreta.; R4 — Competenza di prompting: capacita' di formulare prompt efficaci.
+**Reason**: Esemplifica un prompt semplice e dimostra la capacità di formulare richieste.
+
+## Item 5 {#item-5}
+
+**Q**: In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?
+**A**: Mi offre una spiegazione semplice e riassuntiva alle mie domande
+**Codes**: P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.
+**Reason**: Riceve spiegazioni semplici e riassuntive, migliorando la comprensione.
+
+## Item 6 {#item-6}
+
+**Q**: Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?
+**A**: Mi permette di comprendere meglio un concetto difficile e di ricordarlo  Mi aiuta a creare delle mappe che strutturano e organizzano il mio studio
+**Codes**: P5 — Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni.; P1 — Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto.; X2 — Semplificazione e comprensione: chiarificazione, comprensione piu' rapida, focalizzazione dei concetti.; X5 — Autonomia, organizzazione e supporto al percorso.
+**Reason**: Aiuta a comprendere concetti difficili, a ricordare e a creare mappe per strutturare lo studio.
+
+## Item 7 {#item-7}
+
+**Q**: Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?
+**A**: Attualmente non ho riscontrato difficoltà
+**Codes**: —
+**Reason**: Risposta che non menziona difficoltà.
+
+## Item 8 {#item-8}
+
+**Q**: In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?
+**A**: I pro sono che aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo, i contro è che molte volte l’intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo
+**Codes**: X1 — Efficienza e risparmio di tempo.; X5 — Autonomia, organizzazione e supporto al percorso.; S4 — Erosione del pensiero critico.
+**Reason**: Vede il vantaggio di risparmiare tempo e facilitare il lavoro, ma il contro è che può portare a non impegnarsi e non provare a risolvere da soli.
+
+## Item 9 {#item-9}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?
+**A**: Nello svolgere compiti, verifiche, test ecc., in quanto l’uso dell’intelligenza artificiale non permette di andare a valutare correttamente il soggetto in base alle proprie conoscenze.
+**Codes**: S4 — Erosione del pensiero critico.; P4 — Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento.
+**Reason**: Sconsiglia l'uso dell'IA per compiti e verifiche perché non permette di valutare correttamente le proprie conoscenze (impatto sul pensiero critico e sulla valutazione).

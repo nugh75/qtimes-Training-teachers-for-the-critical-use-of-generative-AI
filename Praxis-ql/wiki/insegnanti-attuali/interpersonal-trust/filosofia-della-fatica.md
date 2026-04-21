@@ -34,6 +34,52 @@ LANI13 condensa l'intera questione in una formula che ha la forza di uno slogan:
 
 Cini17 va nella stessa direzione: la pratica non raccomandata è "*utilizzarla per evitare il proprio impegno e il proprio tempo*" (source: [cini17](../../../raw/insegnanti_attuali_cini17.md)). Mano06 generalizza: vanno evitate "*tutte quelle [pratiche] che limitano l'impegno personale*" (source: [mano06](../../../raw/insegnanti_attuali_mano06.md)). La sfiducia nell'IA non è dunque un rifiuto della tecnologia in sé, ma la difesa di un principio pedagogico: senza fatica non c'è crescita.
 
+- (source: [aris05](../../../raw/insegnanti_attuali_aris05.md))
+
+- (source: [att17](../../../raw/insegnanti_attuali_att17.md))
+
+- (source: [badabess3879](../../../raw/insegnanti_attuali_badabess3879.md))
+
+- (source: [etti19](../../../raw/insegnanti_attuali_etti19_2.md))
+
+- (source: [fila18](../../../raw/insegnanti_attuali_fila18.md))
+
+- (source: [ICCI04](../../../raw/insegnanti_attuali_icci04.md))
+
+- (source: [Illi13](../../../raw/insegnanti_attuali_illi13.md))
+
+- (source: [illi3](../../../raw/insegnanti_attuali_illi3.md))
+
+- (source: [ista25](../../../raw/insegnanti_attuali_ista25.md))
+
+- (source: [izzo26](../../../raw/insegnanti_attuali_izzo26.md))
+
+- (source: [noni01](../../../raw/insegnanti_attuali_noni01.md))
+
+- (source: [osti16](../../../raw/insegnanti_attuali_osti16.md))
+
+- (source: [Otti06](../../../raw/insegnanti_attuali_otti06.md))
+
+- (source: [Otti59](../../../raw/insegnanti_attuali_otti59.md))
+
+- (source: [Ovanna](../../../raw/insegnanti_attuali_ovanna.md))
+
+- (source: [Ozza 25](../../../raw/insegnanti_attuali_ozza.md))
+
+- (source: [Pepe23](../../../raw/insegnanti_attuali_pepe23.md))
+
+- (source: [tino25](../../../raw/insegnanti_attuali_tino25.md))
+
+- (source: [ucci13](../../../raw/insegnanti_attuali_ucci13.md))
+
+- (source: [ucci19](../../../raw/insegnanti_attuali_ucci19.md))
+
+- (source: [Unicam96](../../../raw/insegnanti_attuali_unicam96.md))
+
+- (source: [Uzzi07](../../../raw/insegnanti_attuali_uzzi07.md))
+
+- (source: [vito02](../../../raw/insegnanti_attuali_vito02.md))
+
 ## Pagine correlate
 - [Indice Interpersonal Trust](interpersonal-trust-insegnanti-attuali.md)
 - [Paradosso digitale](paradosso-digitale.md)

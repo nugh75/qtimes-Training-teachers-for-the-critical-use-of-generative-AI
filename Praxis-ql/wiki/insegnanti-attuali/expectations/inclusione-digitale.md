@@ -36,6 +36,12 @@ Etti09 è consapevole di questa contraddizione e la inserisce tra gli svantaggi:
 
 Erio24 conferma la stessa tensione: tra i pro elenca "*personalizzazione dell'apprendimento, inclusione, apprendimento continuo*", tra i contro "*disumanizzazione dell'insegnamento, dipendenza dalla tecnologia, disuguaglianze digitali*" (source: [erio24](../../../raw/insegnanti_attuali_erio24.md)). Il cambiamento atteso, insomma, è ambivalente: l'IA può essere lo strumento più inclusivo mai creato, oppure il più escludente, a seconda delle condizioni materiali in cui viene introdotta.
 
+- (source: [Capomolla30](../../../raw/insegnanti_attuali_capomolla30.md))
+
+- (source: [Coli13](../../../raw/insegnanti_attuali_coli13.md))
+
+- (source: [Ioni22](../../../raw/insegnanti_attuali_ioni22.md))
+
 ## Pagine correlate
 - [Indice eXpectations](expectations-insegnanti-attuali.md)
 - [Peggioramento efficace](peggioramento-efficace.md)
