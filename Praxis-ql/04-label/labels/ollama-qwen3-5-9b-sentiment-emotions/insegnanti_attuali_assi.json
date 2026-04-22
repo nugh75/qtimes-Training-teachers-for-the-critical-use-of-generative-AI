@@ -1,0 +1,179 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_assi.md",
+  "source_name": "insegnanti_attuali_assi.md",
+  "title": "Risposta Assi",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Assi",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:03:40.878915+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 8,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "frustrazione": 1,
+    "gioia": 1,
+    "paura": 1,
+    "preoccupazione": 3
+  },
+  "avg_score": -0.01,
+  "avg_confidence": 0.885,
+  "avg_emotions_per_item": 0.7,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota, nessun contenuto emotivo rilevabile.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché semplicemente è la prima che ho scoperto e utilizzato",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Spiegazione fattuale basata sulla scoperta casuale dello strumento.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "prima che ho scoperto e utilizzato"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non la utilizzo per individualizzare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione negativa di utilizzo per un fine specifico.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la utilizzo per personalizzare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione negativa di utilizzo per un fine specifico.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Non utilizzo pront specifici",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione negativa di utilizzo di strumenti specifici.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta di incertezza o mancanza di conoscenza.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.5,
+          "evidence": "Non saprei"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Scandendo meglio l orario della lezione ho notato che il risultato è migliore",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Osservazione di un miglioramento del risultato ottenuto.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "il risultato è migliore"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta di incertezza o mancanza di conoscenza.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.5,
+          "evidence": "Non saprei"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizza Contro: non fa riflettere",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco bilanciato di pro e contro con tono oggettivo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Contro: non fa riflettere"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me, non è raccomandato usare l’intelligenza artificiale per valutazioni automatiche senza un controllo umano, perché può non cogliere sfumature importanti come il contesto, l’impegno o le difficoltà individuali. Inoltre, delegare troppo all’IA rischia di ridurre il rapporto umano e il pensiero critico, che restano centrali nel processo educativo.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Sconsiglio l'uso dell'IA per valutazioni automatiche.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "può non cogliere sfumature importanti"
+        },
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "rischia di ridurre il rapporto umano"
+        }
+      ]
+    }
+  ]
+}

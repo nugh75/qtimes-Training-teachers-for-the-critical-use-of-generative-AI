@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_bani10.md",
+  "source_name": "insegnanti_attuali_bani10.md",
+  "title": "Risposta bani10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "bani10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:00:19.005403+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3,
+    "positive": 4
+  },
+  "avg_score": 0.33125,
+  "avg_confidence": 0.85625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "CHAT gpt per la sua flessibilità e precisione, soprattutto dopo gli ultimi aggiornamenti",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Loda flessibilità e precisione del modello."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creazione di quiz",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive un'azione funzionale senza giudizio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "individuata l'area di intervento produco quiz specifici",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Evidenzia capacità di produrre quiz specifici."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"Genera quiz sulla posizione delle note sul pentagramma in chiave di violino\"",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "È un comando diretto senza valutazione."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Riesco ad ottimizzare i tempi per la produzione degli interventi",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.92,
+      "reason": "Riconosce l'ottimizzazione dei tempi."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Al momento non difficolta' significative",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.88,
+      "reason": "Assenza di difficoltà indica soddisfazione."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro efficienza nel produrre esercizi, Contro la ridondanza di alcuni modelli usati dall' AI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Elenco pro/contro bilanciato."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Tutte quelle pratiche che deviano dall' uso creativo delle proprie conoscenze.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Definisce pratiche come devianti dal creativo."
+    }
+  ]
+}

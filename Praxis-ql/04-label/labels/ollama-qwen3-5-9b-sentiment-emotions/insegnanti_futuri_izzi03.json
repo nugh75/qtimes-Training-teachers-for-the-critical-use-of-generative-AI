@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_izzi03.md",
+  "source_name": "insegnanti_futuri_izzi03.md",
+  "title": "Risposta izzi03",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "izzi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:23:55.330317+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.425,
+  "avg_confidence": 0.88,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per ricerche occasionali ed immediate",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive un uso occasionale senza giudizio positivo o negativo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non è il caso in quanto vizia i ragazzi ed impigrisce le loro menti",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime un giudizio negativo sull'impatto dell'IA sui ragazzi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "vizia i ragazzi ed impigrisce le loro menti"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Si può avere una risposta immediata riguardo un dubbio come pro, è tutto troppo facilitato come contro.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Presents pro e contro in modo bilanciato e oggettivo.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "Si può avere una risposta immediata riguardo un dubbio"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Negli elaborati personali e nei temi l’intelligenza artificiale dovrebbe essere bandita perché la creatività del discente deve manifestarsi in modo puro e autentico.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.92,
+      "reason": "Chiede il bando dell'IA per tutelare la creatività autentica.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "l'intelligenza artificiale dovrebbe essere bandita"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nato15.md",
+  "source_name": "insegnanti_attuali_nato15.md",
+  "title": "Risposta Nato15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Nato15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:07:52.027178+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 5,
+    "positive": 2
+  },
+  "avg_score": -0.011111,
+  "avg_confidence": 0.872222,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Titolo descrittivo senza contenuto emotivo."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Test personalizzati",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Titolo descrittivo senza contenuto emotivo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Ricerca di tabelle ed immagini",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Titolo descrittivo senza contenuto emotivo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Fai una tabella riassuntiva",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Titolo descrittivo senza contenuto emotivo."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Assicura personalizzazione a tutti gli studenti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Promuove la personalizzazione per tutti."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Assicura personalizzazione del percorso didattico",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Promuove la personalizzazione del percorso."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Uso non sempre appropriato da parte degli studenti",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Indica un uso non sempre appropriato."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro informazioni facili da reperire, contro le informazioni non sono sempre affidabili",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Confronto oggettivo tra pro e contro."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Lo svolgimento di relazioni/ compiti a casa a causa di errori",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Descrive svolgimento causato da errori."
+    }
+  ]
+}

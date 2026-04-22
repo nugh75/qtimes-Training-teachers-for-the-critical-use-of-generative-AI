@@ -1,0 +1,87 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti19.md",
+  "source_name": "insegnanti_attuali_etti19.md",
+  "title": "Risposta ETTI19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ETTI19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:10:17.048514+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.066667,
+  "avg_confidence": 0.866667,
+  "avg_emotions_per_item": 1.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho sviluppato un metodo né avuto adeguata formazione",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Mancanza di metodo e formazione adeguata.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non ho sviluppato un metodo né avuto adeguata formazione"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: permette di avere tanti contenuti utili alla didattica, sviluppa la creatività. Contro: rischio di pigrizia, rischio di non controllare il risultato di un compito sviluppato da IA",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Menziona sia pro che contro l'uso dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "rischio di pigrizia, rischio di non controllare il risultato"
+        },
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "sviluppa la creatività"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Elaborazione di riassunti, perché lo studente deve riuscire a sviluppare questa competenza da sé",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Focus su competenze da sviluppare autonomamente.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "studente deve riuscire a sviluppare questa competenza da sé"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_sati26.md",
+  "source_name": "insegnanti_attuali_sati26.md",
+  "title": "Risposta Sati26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Sati26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:11:33.766872+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.375,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho la sufficiente formazione",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Mancanza di formazione sufficiente esprime insoddisfazione."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho adeguate competenze per poterla utilizzare",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Mancanza di competenze adeguate per l'utilizzo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se adeguatamente utilizzata i vantaggi potrebbero essere la velocità di ricerca e nei collegamenti. Gli svantaggi la perdita di capacità di lavorare con l'intelligenza \"tradizionale\" e la perdita della creatività.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco vantaggi e svantaggi in modo equilibrato."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta non specifica né positiva né negativa."
+    }
+  ]
+}

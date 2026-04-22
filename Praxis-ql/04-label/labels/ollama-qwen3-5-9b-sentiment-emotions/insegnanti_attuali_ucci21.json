@@ -1,0 +1,33 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci21.md",
+  "source_name": "insegnanti_attuali_ucci21.md",
+  "title": "Risposta ucci21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:18:55.115417+00:00",
+  "item_count": 1,
+  "sentiment_counts": {
+    "neutral": 1
+  },
+  "emotion_counts": {},
+  "avg_score": 0.0,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Generazione di tesi e immagini per tradurre concetti in contenuti multimediali",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione tecnica di un'attività senza valenza emotiva.",
+      "emotions": []
+    }
+  ]
+}

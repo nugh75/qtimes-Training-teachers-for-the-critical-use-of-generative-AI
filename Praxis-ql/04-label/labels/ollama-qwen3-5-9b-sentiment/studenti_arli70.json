@@ -1,0 +1,101 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_arli70.md",
+  "source_name": "studenti_arli70.md",
+  "title": "Risposta Arli70",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Arli70",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:19:00.260952+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 6
+  },
+  "avg_score": -0.233333,
+  "avg_confidence": 0.833333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota non esprime alcuna opinione."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menzione generica di un'IA senza giudizio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo soluzioni",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Richiesta di aiuto neutrale senza valutazioni."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao potresti aiutarmi a……",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Saluto e richiesta di aiuto senza giudizio."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Nn mi aiuta infatti vorrei smettere di usarla",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime insoddisfazione e volontà di smettere."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Nn ha migliorato",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Afferma che non ha portato miglioramenti."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Risposta vaga senza esprimere un'opinione."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro e che ti aiuta contro e che nn dovrebbe",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Elenco pro e contro senza conclusione."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non dovrebbe farti tutti i compiti ma solo rispiegare concetti",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica l'uso dell'IA per fare i compiti."
+    }
+  ]
+}

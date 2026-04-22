@@ -1,0 +1,90 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ibus23.md",
+  "source_name": "studenti_ibus23.md",
+  "title": "Risposta ibus23",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ibus23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:35:55.327588+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.225,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "solitamente uso la chat per porre domande",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione neutra di un uso comune della chat.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "aiutandomi con riassunti o la traduzione di testi",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Evidenzia benefici utili come riassunti e traduzioni.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "aiutandomi con riassunti o la traduzione"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta nel velocizzare vari compiti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Sottolinea l'efficienza nel velocizzare i compiti.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "velocizzare vari compiti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Forse rende le persone più pigre nello svolgere certi compiti",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Esprime un dubbio negativo sulla pigrizia degli studenti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "rende le persone più pigre"
+        }
+      ]
+    }
+  ]
+}

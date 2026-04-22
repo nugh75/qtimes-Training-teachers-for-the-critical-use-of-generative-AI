@@ -1,0 +1,80 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_oni431055.md",
+  "source_name": "insegnanti_attuali_oni431055.md",
+  "title": "Risposta Oni431055",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Oni431055",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:12:01.164546+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "emotion_counts": {
+    "preoccupazione": 2
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non è necessaria per quello che faccio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa ma neutra sulla necessità.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ancora non ho riscontrato particolari esigenze che mi hanno portato poi allmutilizzo di AI.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di esigenze riscontrate finora.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro nella correzione e programmazione. Contro anestizqzione dle pensiero critico e dell'immaginazione",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Sottolinea svantaggi come l'anestesia del pensiero.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Contro anestizqzione dle pensiero critico"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Potrebbero essere usate ma sempre con la dovuta cautela",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Condiziona l'uso con cautela.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.75,
+          "evidence": "sempre con la dovuta cautela"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_otti59.md",
+  "source_name": "insegnanti_attuali_otti59.md",
+  "title": "Risposta Otti59",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Otti59",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:13:15.430772+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "gioia": 1,
+    "paura": 1
+  },
+  "avg_score": 0.266667,
+  "avg_confidence": 0.883333,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Timore",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "La parola 'Timore' indica chiaramente paura e negatività.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.95,
+          "evidence": "Timore"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Molto aggiornata",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.9,
+      "reason": "L'aggettivo 'Molto aggiornata' esprime un giudizio positivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Molto aggiornata"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Attività ludiche",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Le 'Attività ludiche' suggeriscono un tono positivo e coinvolgente.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Attività ludiche"
+        }
+      ]
+    }
+  ]
+}

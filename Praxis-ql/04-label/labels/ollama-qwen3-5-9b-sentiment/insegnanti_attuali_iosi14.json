@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iosi14.md",
+  "source_name": "insegnanti_attuali_iosi14.md",
+  "title": "Risposta iosi14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iosi14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:06:12.398139+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 4
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.925,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho le competenze necessarie, seguirò a breve un corso di formazione",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Menzione di formazione futura e mancanza attuale di competenze."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho le competenze necessarie per usare l'IA, sono in attesa di seguire un corso di formazione che attuerà la scuola in cui insegno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Menzione di corso di formazione in attesa da parte della scuola."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienza in merito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione esplicita di non avere esperienza in materia."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienza in merito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione esplicita di non avere esperienza in materia."
+    }
+  ]
+}

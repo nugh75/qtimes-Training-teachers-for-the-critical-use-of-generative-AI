@@ -1,0 +1,37 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_arda29.md",
+  "source_name": "studenti_arda29.md",
+  "title": "Risposta Arda29",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Arda29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:18:42.666954+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "negative": 2
+  },
+  "avg_score": -0.85,
+  "avg_confidence": 0.925,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non mi piace, non è sempre accurata, spesso inventa dati falsi e trovo possa influenzare negativamente l'apprendimento",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Esprime forte disapprovazione per inaccuratezza e inventiva dei dati."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Nel mio campo di studio è poco utile, non trovo quasi mai quello che cerco e se c'è non è qualitativo. A prescindere da queste motivazioni preferisco imparare da sola, lo trovo più efficace a lungo termine.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Descrive l'uso come poco utile e preferisce imparare da sola."
+    }
+  ]
+}

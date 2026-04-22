@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_elli26.md",
+  "source_name": "insegnanti_futuri_elli26.md",
+  "title": "Risposta ELLI26",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ELLI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:22:29.737943+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.2125,
+  "avg_confidence": 0.93,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta vuota non contiene informazioni emotive o sentimentali.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Al momento non insegno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione fattuale senza esprimere opinioni o sentimenti.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono: risparmio di tempo, facilitare l’accesso alle informazioni  può rendere meglio accessibile l’istruzione degli studenti disabili  I contro sono: Affidarsi eccessivamente all’intelligenza artificiale nel campo della formazione potrebbe portare a una riduzione delle interazioni tra studenti e insegnanti e a una minore opportunità di apprendimento pratico;",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Analisi bilanciata di pro e contro con tono oggettivo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "riduzione delle interazioni tra studenti e insegnanti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me l’utilizzo  competente dell'Intelligenza Artificiale è una risorsa strategica per i docenti e i formatori per migliorare la qualità dell'insegnamento e favorire lo sviluppo delle competenze degli studenti.",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.92,
+      "reason": "Esprime un forte sostegno all'uso competente dell'IA.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.88,
+          "evidence": "risorsa strategica per i docenti"
+        }
+      ]
+    }
+  ]
+}

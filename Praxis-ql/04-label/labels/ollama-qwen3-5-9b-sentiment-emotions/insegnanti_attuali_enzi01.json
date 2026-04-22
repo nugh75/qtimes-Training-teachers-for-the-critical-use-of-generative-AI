@@ -1,0 +1,70 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enzi01.md",
+  "source_name": "insegnanti_attuali_enzi01.md",
+  "title": "Risposta enzi01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enzi01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:08:53.439248+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "preoccupazione": 2
+  },
+  "avg_score": -0.433333,
+  "avg_confidence": 0.616667,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Devo ancora capire come utilizzarla in modo corretto",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Perplessità per il rischio di perdita di spirito critico.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "La mia perplessità e' che gli studenti perdano spirito critico"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La mia perplessità e' che gli studenti perdano spirito critico,affidandosi all'IA per la produzione di testi scritti,riassunti,traduzioni,ecc...",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Critica diretta alla produzione di testi privi di spirito critico.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Produzione di testi scritti privi di spirito critico"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi scritti privi di spirito critico",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello.",
+      "emotions": []
+    }
+  ]
+}

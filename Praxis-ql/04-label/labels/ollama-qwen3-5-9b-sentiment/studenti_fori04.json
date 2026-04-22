@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_fori04.md",
+  "source_name": "studenti_fori04.md",
+  "title": "Risposta fori04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "fori04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:22:38.381804+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.525,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Solitamente non la uso per situazioni quotidiane, ma sono consapevole che per molti aspetti mi potrebbe aiutare. La mia è solo pigrizia.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "L'utente attribuisce l'uso all'IA alla propria pigrizia."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Nello studio dell’utilizzo, l’intelligenza artificiale, perché mi impedisce di memorizzare al meglio i concetti che devo apprendere. Preferisco di gran lunga studiare di mio con i miei metodi di apprendimento. Se utilizzassi qualsiasi tipo di intelligenza artificiale né subirei conseguenze per quanto riguarda la memoria e tecniche di studio.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'utente afferma che l'IA impedisce di memorizzare i concetti."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Sicuramente il pro dell’intelligenza artificiale è la velocità con il quale si possono avere delle risposte dettagliate e anche schematizzate; ma un contro solo intelligenza artificiale è che non capisce mai in una volta sola il suo vero scopo (il compito non lo concepisce al primo tentativo).",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "L'utente elenca sia pro (velocità) che contro (limiti) dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Secondo la mia esperienza, alcune pratiche che non dovrebbero sfruttare l’utilizzo dell’intelligenza artificiale, dovrebbero essere quelle in campo medico per quanto riguarda la chirurgia e per quanto riguarda l’apprendimento nelle scuole materne, elementari e di primo grado",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "L'utente esclude l'uso dell'IA in ambiti sensibili come medicina e scuola."
+    }
+  ]
+}

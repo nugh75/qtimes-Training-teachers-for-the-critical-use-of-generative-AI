@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iani22.md",
+  "source_name": "insegnanti_attuali_iani22.md",
+  "title": "Risposta Iani22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Iani22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:11:30.901738+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "paura": 1
+  },
+  "avg_score": -0.325,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non la conosco abbastanza bene",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Motivazione neutra legata alla mancanza di conoscenza.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la utilizzo nella didattica in quanto ho paura che i miei studenti la utilizzino in maniera non opportuna quindi evito io per prima di utilizzarla",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Paura che gli studenti usino l'AI in modo non opportuno.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "ho paura che i miei studenti la utilizzino in maniera non opportuna"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: maggiore coinvolgimento degli studenti Contro: utilizzo da parte degli studenti per la risoluzione di compiti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco bilanciato di pro e contro sull'utilizzo.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ricerche effettuate tramite AI in quanto in questo modo gli studenti si trovano già il materiale pronto e non possono mettersi alla prova",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica all'uso dell'AI perché impedisce lo sforzo degli studenti.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non possono mettersi alla prova"
+        }
+      ]
+    }
+  ]
+}

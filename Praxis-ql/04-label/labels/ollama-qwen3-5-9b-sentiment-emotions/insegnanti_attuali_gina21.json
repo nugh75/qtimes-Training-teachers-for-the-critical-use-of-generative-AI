@@ -1,0 +1,145 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_gina21.md",
+  "source_name": "insegnanti_attuali_gina21.md",
+  "title": "Risposta Gina21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Gina21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:11:01.301548+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "neutral": 5,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "entusiasmo": 2,
+    "fiducia": 2
+  },
+  "avg_score": 0.333333,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.444444,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Computer",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che elenca uno strumento senza esprimere opinioni.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Chatgpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che elenca uno strumento senza esprimere opinioni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Personalizzare i percorsi",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Personalizzazione dei percorsi indica un approccio positivo e inclusivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Personalizzare i percorsi"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chatbot",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che elenca uno strumento senza esprimere opinioni.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso interazione con gli strumenti didattici uno con altro",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "L'interazione e la cooperazione tra strumenti e persone sono positive.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Attraverso interazione con gli strumenti didattici uno con altro"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso la cooperazione",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "La cooperazione è un valore educativo positivo e collaborativo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Attraverso la cooperazione"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Riuscire ad espletare  i contenuti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Risposta neutra focalizzata sull'espletamento dei contenuti.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro sui contenuti didattici",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "I pro sui contenuti didattici esprimono chiaramente un giudizio positivo.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Pro sui contenuti didattici"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per lo svoglimento delle prove scritte in classe",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta neutra che descrive uno scopo pratico delle prove.",
+      "emotions": []
+    }
+  ]
+}

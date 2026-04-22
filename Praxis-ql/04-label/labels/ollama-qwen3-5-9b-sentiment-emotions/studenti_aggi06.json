@@ -1,0 +1,114 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aggi06.md",
+  "source_name": "studenti_aggi06.md",
+  "title": "Risposta AGGI06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "AGGI06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:26:33.738284+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "preoccupazione": 1
+  },
+  "avg_score": 0.2125,
+  "avg_confidence": 0.88125,
+  "avg_emotions_per_item": 0.125,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt per efficacia e velocità",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Esprime apprezzamento per efficacia e velocità.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per fare riassunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Enuncia uno scopo funzionale senza giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi farmi un riassunto dettagliato riguardo questo argomento?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta diretta di informazioni dettagliate.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "ottimizza i tempi",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Indica un obiettivo di miglioramento dell'efficienza.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "aiutarmi a riformulare o ottimizzare i tempi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Chiede aiuto per ottimizzare i tempi.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa o di rifiuto neutrale.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "ottimizza i tempi ma se utilizzate troppo potrebbero limitare l’apprendimento",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Sottolinea il rischio di limitare l'apprendimento.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "potrebbero limitare l'apprendimento"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Esprime incertezza o mancanza di conoscenza.",
+      "emotions": []
+    }
+  ]
+}

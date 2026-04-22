@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_resi19.md",
+  "source_name": "insegnanti_attuali_resi19.md",
+  "title": "Risposta resi19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "resi19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:10:31.351953+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.325,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON NE HO AVUTO ANCORA LA NECESSITA'",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Afferma di non aver ancora avuto la necessità."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "LAVORANDO COME INSEGNANTE DI SOSTEGNO AL MOMENTO NON HO ANCORA AVUTO L'OCCASIONE DI UTILIZZARE L'IA NELLA DIDATTICA IN QUANTO L'ALLIEVO SEGUE UNA PROGRAMMAZIONE CON OBIETTIVI MINIMI E SPESSO E' ASSENTE.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Spiega assenza di utilizzo per limiti didattici."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PROPORRE AGLI STUDENTI STRUMENTI ALTERNATIVI VALIDI NEL PROCESSO DI INSEGNAMENTO-APPRENDIMENTO; UTILIZZO SREGOLATO DEI DISPOSITIVI E DELLO STRUMENTO.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Critica l'uso sregolato e propone strumenti alternativi."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODUZIONE TESTI, TRADUZIONE E RIASSUNTO, IN QUANTO FAVORISCONO L'IMPOVERIMENTO DEL SUDDETTO  PROCESSO NEL PERCORSO DIDATTICO.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Sostiene che l'uso favorisca l'impoverimento del processo."
+    }
+  ]
+}

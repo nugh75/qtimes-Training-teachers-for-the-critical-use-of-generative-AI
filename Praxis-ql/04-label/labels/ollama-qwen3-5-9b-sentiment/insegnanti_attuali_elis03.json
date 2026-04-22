@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elis03.md",
+  "source_name": "insegnanti_attuali_elis03.md",
+  "title": "Risposta Elis03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Elis03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:01:52.670401+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "avg_score": -0.5,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono in grado di utilizzare l'IA. Non ho frequentato corsi di formazione a riguardo,  pertanto non so farne un uso corretto, soprattutto nell'ambito della didattica.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Incapacità di usare l'IA per mancanza di formazione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale può essere un supporto alla didattica, quindi anche all'educazione, ma non può sostituire unicamente la persona. Nella mia piccola esperienza, ho notato che molti docenti e/o studenti ne fanno un uso improprio, pertanto non sfruttano le loro capacità logico-cognitive. Bisognerebbe informarsi e formarsi sull'AI prima di poterla utilizzate adeguatamente.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "L'IA è supporto ma uso improprio e serve formazione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me non bisognerebbe stilare i documeni utili alla didattica, come ad esempio le programmazioni e /o le relazioni sugli/ sulle studenti/esse utilizzando l'intelligenza artificiale",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Non usare l'IA per documenti didattici come programmazioni."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_enti09.md",
+  "source_name": "studenti_enti09.md",
+  "title": "Risposta Enti09",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Enti09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:32:41.771924+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.05,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "L'utente dichiara esplicitamente di utilizzare lo strumento.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché preferisco il cartaceo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Preferisce il cartaceo, indicando disinteresse per il digitale.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Perché preferisco il cartaceo"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Sicuramente è un buono strumento per la preparazione di progetti e programmi però può portare a distrazioni frequenti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Riconosce i pro ma evidenzia svantaggi come distrazioni.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "può portare a distrazioni frequenti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "L'utente esprime incertezza totale sull'argomento.",
+      "emotions": []
+    }
+  ]
+}

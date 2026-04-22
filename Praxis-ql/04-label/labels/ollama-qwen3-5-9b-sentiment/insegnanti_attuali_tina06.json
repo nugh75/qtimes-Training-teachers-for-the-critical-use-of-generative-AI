@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tina06.md",
+  "source_name": "insegnanti_attuali_tina06.md",
+  "title": "Risposta tina06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:12:11.089265+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.8625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La maggior parte della mia attività non usa lI.A.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Afferma che la maggior parte dell'attività non usa l'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Uso il corpo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Menziona l'uso del corpo senza esprimere giudizi positivi o negativi."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Aiuta ma non fà usare il cervello",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Sostiene che l'IA aiuti ma non faccia usare il cervello."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "usare per i compiti perchè deve essere usato il proprio cervello",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Suggerisce di usare l'IA per i compiti per stimolare il cervello."
+    }
+  ]
+}

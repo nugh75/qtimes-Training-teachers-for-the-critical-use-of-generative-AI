@@ -1,0 +1,73 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_iosa01.md",
+  "source_name": "insegnanti_futuri_iosa01.md",
+  "title": "Risposta Iosa01",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Iosa01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:23:47.389863+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 0.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "No",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa secca senza contesto emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione fattuale di non insegnare.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo sapevo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di conoscenza, tono neutro.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Si",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa chiara e diretta.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Si"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_urdi30.md",
+  "source_name": "insegnanti_futuri_urdi30.md",
+  "title": "Risposta urdi30",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "urdi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:17:38.268289+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 2
+  },
+  "avg_score": 0.175,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gbt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Testo irrilevante senza contenuto emotivo o informativo."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Come supporto",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Il termine 'supporto' indica un atteggiamento positivo e utile."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Migliorare la comprensione degli studenti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Migliorare la comprensione è un obiettivo educativo positivo."
+    },
+    {
+      "index": 4,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Velocizzare il lavoro, Carenza di stimolo nella propria formazione",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "La 'carenza di stimolo' esprime un sentimento negativo."
+    }
+  ]
+}

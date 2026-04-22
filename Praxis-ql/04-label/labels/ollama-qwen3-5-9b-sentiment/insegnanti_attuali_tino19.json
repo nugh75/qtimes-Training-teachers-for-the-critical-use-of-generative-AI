@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tino19.md",
+  "source_name": "insegnanti_attuali_tino19.md",
+  "title": "Risposta Tino19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Tino19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:12:28.299066+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.35,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la considero mai tra le opzioni per un compito",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esclude esplicitamente l'uso dell'AI per qualsiasi compito."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per qualsiasi informazione vado sempre su internet ma non utilizzo i software di AI perché sono meno personalizzabili anche se più veloci",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Preferisce internet all'AI per personalizzazione, senza giudizio morale."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un pro è sicuramente la velocità di creare riassunti, immagini, risposte e informarsi. Un contro è che il cervello si impigrisce come quando usiamo la calcolatrice per le operazioni più elementari. Un altro è la poca \"umanità\" dei risultati e dei compiti svolti.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Elenca svantaggi come l'impigrimento del cervello e mancanza di umanità."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sicuramente le pratiche che richiedono creatività",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Indica solo ambiti specifici (creatività) senza esprimere approvazione o disapprovazione."
+    }
+  ]
+}

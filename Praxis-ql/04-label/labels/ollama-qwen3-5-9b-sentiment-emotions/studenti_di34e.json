@@ -1,0 +1,168 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_di34e.md",
+  "source_name": "studenti_di34e.md",
+  "title": "Risposta Di34e",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Di34e",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:30:46.802896+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "curiosita": 2,
+    "fiducia": 4,
+    "frustrazione": 1
+  },
+  "avg_score": 0.144444,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.777778,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non mi piace",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'espressione 'non mi piace' indica chiaramente disapprovazione.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Perché non mi piace"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chitarra",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "La risposta è un semplice nome senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "34",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Un numero isolato non trasmette sentimenti o opinioni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Perché si",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "La frase 'Perché si' conferma un'opinione favorevole.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Perché si"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Si",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.85,
+      "reason": "La risposta affermativa 'Si' esprime un'opinione positiva.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Si"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Si",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.85,
+      "reason": "La risposta affermativa 'Si' esprime un'opinione positiva.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Si"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Si",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.85,
+      "reason": "La risposta affermativa 'Si' esprime un'opinione positiva.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Si"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "L'incertezza 'Non lo so' non esprime né positività né negatività.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Non lo so"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "L'incertezza 'Non lo so' non esprime né positività né negatività.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Non lo so"
+        }
+      ]
+    }
+  ]
+}

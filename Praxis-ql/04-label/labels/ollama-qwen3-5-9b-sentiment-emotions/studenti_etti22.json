@@ -1,0 +1,145 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etti22.md",
+  "source_name": "studenti_etti22.md",
+  "title": "Risposta etti22",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:33:56.498488+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 5,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "gioia": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.3,
+  "avg_confidence": 0.825,
+  "avg_emotions_per_item": 0.625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché molto utile",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Espressione di utilità e soddisfazione verso l'AI.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Chat gpt perché molto utile"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Cercando informazioni, sinonimi, parafrasi, spiegazioni ecc",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco di attività funzionali senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi dare una spiegazione chiara ed efficiente di questo argomento?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Richiesta di spiegazione chiara ed efficiente.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Mi puoi dare una spiegazione chiara"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Usando un linguaggio più comprensibile rispetto al linguaggio del libro alcune volte",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Apprezzamento per il linguaggio più comprensibile.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "linguaggio più comprensibile"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Per spiegazioni",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Motivo generico per l'uso delle spiegazioni.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Assenza di difficoltà indica soddisfazione.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Non ho incontrato difficoltà"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Spiegazioni chiare, aiuta a risolvere dubbi ma non tutto cioè che riporta é sempre corretto",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Valutazione mista: chiarezza ma con errori.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.65,
+          "evidence": "non tutto cioè che riporta é sempre corretto"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Per risolvere esercizi, é utile dare la spiegazione o punti da seguire ma non risolvere completamente l’esercizio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Definizione di un limite d'uso specifico.",
+      "emotions": []
+    }
+  ]
+}

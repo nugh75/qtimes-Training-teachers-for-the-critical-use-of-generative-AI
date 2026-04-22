@@ -16,5 +16,6 @@ Indice generale della knowledge base qualitativa. Ogni popolazione è analizzata
 - [Albero dei temi](albero-temi.md) — Mappa gerarchica di tutte le pagine wiki.
 - [PRAXIS Labels](../20-labels/labels-praxis.md) — Accesso alla sezione di etichettatura record (Quartz-native).
 - [PRAXIS Graph (React)](../30-visualizzazioni/grafo-dimensioni-praxis.md) — Grafo colorato delle relazioni tra dimensioni e frequenze.
+- [Sentiment + Emozioni Dashboard](../30-visualizzazioni/sentiment-qwen-dashboard.md) — Dashboard React con indicatori sentiment/emozioni per coorte.
 - [Wiki Graph](../30-visualizzazioni/grafo-wiki.md) — Grafo delle pagine in `01-wiki/` basato sui link markdown.
 - [Log di lavoro](../40-governance/log.md) — Diario delle modifiche strutturali al wiki.

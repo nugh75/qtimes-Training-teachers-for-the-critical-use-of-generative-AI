@@ -1,0 +1,169 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_uzza29.md",
+  "source_name": "studenti_uzza29.md",
+  "title": "Risposta uzza29",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "uzza29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:47:37.509803+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 3,
+    "preoccupazione": 2
+  },
+  "avg_score": 0.288889,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.777778,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "'-''.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta negativa o neutra indicata dal simbolo meno.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Conensus mi permette di cercare e consultare fonti affidabili, reperendole facilmente",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Parole chiave 'affidabili' e 'facilmente' indicano soddisfazione.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "fonti affidabili"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La uso come spunto iniziale per creare qualcosa",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Uso creativo dello strumento come spunto iniziale.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "bassa",
+          "confidence": 0.75,
+          "evidence": "creare qualcosa"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami la storia relativa allo scandalo di Edward Snowden e dove posso reperire materiale per approfondire il tema",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di informazioni fattuali senza giudizio emotivo.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Spiegami la storia"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "è uno strumento veloce che permette di organizzare e concettualizzare in modo facile gli argomenti",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Descrizione dello strumento come 'veloce' e 'facile'.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "organizzare e concettualizzare in modo facile"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha permesso di migliorare la mia capacità di fare ricerca",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.88,
+      "reason": "Miglioramento di una capacità indica un risultato positivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.82,
+          "evidence": "migliorare la mia capacità"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.92,
+      "reason": "Risposta secca 'Nessuna' indica assenza di sentimento.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono la facilità con cui poter reperire le informazioni, il contro può essere un'eccessiva delega di compiti a strumenti di intelligenza artificiale che impoverirebbero le nostre capacità",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.85,
+      "reason": "Bilancia pro e contro, mostrando una visione equilibrata.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "eccessiva delega di compiti"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non si dovrebbe delegare alle IA lo svolgimento diretto di compiti, poiché NON favorirebbe un apprendimento funzionale. Andrebbe utilizzata, piuttosto, come strumento di supporto",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Sconsiglia la delega diretta per non favorire l'apprendimento.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "NON favorirebbe un apprendimento funzionale"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_otti27.md",
+  "source_name": "insegnanti_attuali_otti27.md",
+  "title": "Risposta Otti27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Otti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:13:12.972668+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1
+  },
+  "avg_score": 0.066667,
+  "avg_confidence": 0.883333,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Devo imparare bene ad usarla",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di un obiettivo di apprendimento neutro.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: rapidità nel trovare i concetti Contro: non si usa più il ragionamento rapido e la capacità di sintesi",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Punti di forza e di debolezza con perdita di capacità.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "non si usa più il ragionamento rapido"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Testi già pronti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.9,
+      "reason": "Menzione di risorse pronte e utili.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "Testi già pronti"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gelo14.md",
+  "source_name": "studenti_gelo14.md",
+  "title": "Risposta gelo14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gelo14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:22:45.859190+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 3,
+    "positive": 3
+  },
+  "avg_score": 0.13125,
+  "avg_confidence": 0.91875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè è l'unico che conosco",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra basata sulla familiarità con l'unico strumento noto."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La ritengo utile quando non comprendo una frase o devo cercare degli approfondimenti riguardo un concetto e in breve tempo mi permette di avere tutte le info necessarie",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Esprime utilità, risparmio di tempo e capacità di fornire informazioni necessarie."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"Mi semplifichi questo concetto\" \"me lo riassumi meglio\"",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenca esempi di frasi senza esprimere un giudizio positivo o negativo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiegandomi meglio i concetto che non comprendo",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Descrive un beneficio nell'aiutare a comprendere concetti non chiari."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ad esempio quando stavo preparando un esame, il cui libro era molto complesso soprattutto a livello di scrittura, con l'IA sono riuscita a comprendere meglio alcuni concetti che sul libro non mi erano chiari",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Evidenzia il successo nel comprendere meglio concetti complessi grazie all'IA."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta neutra che indica assenza di esperienze o opinioni specifiche."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono il tempo che si risparmia e la semplificazione, i contro una riduzione di attenzione , di impegno ed una minor voglia di fare e imparare in quanto c'è qualcuno che lo fa al posto tuo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Elenco pro e contro con focus su svantaggi come riduzione di attenzione e impegno."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Ad esempio lo scrivere temi, perchè si perde l'abilità di produrre un testo con parole proprie",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Sottolinea il rischio di perdere l'abilità di produrre testi con parole proprie."
+    }
+  ]
+}

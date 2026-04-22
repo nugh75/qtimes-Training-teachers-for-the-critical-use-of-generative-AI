@@ -1,0 +1,111 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_assi14.md",
+  "source_name": "insegnanti_attuali_assi14.md",
+  "title": "Risposta assi14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "assi14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:59:54.530874+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.18,
+  "avg_confidence": 0.855,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne ho  bisogno  nella mia vita quatidiana",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione di non necessità nella vita quotidiana."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "sono in fase di  formazione in merito proprio  perché vorrei  selezionarli  con criterio",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Desiderio di selezionare con criterio e formazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "sono in fase di  formazione in merito proprio  perché vorrei  selezionarli  con criterio",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Desiderio di selezionare con criterio e formazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "sono in fase di  formazione in merito proprio  perché vorrei  selezionarli  con criterio",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Desiderio di selezionare con criterio e formazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "sono in fase di  formazione in merito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menzione generica di essere in fase di formazione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "sono in fase di  formazione in merito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menzione generica di essere in fase di formazione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "stimola l'apprendimento, incentiva la partecipazione, consente di  mostrare la loro  padronanza degli  strumenti  tecnologici  avanzati",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Stimola apprendimento, incentiva partecipazione."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "una discreta difficoltà",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.9,
+      "reason": "Menzione esplicita di una discreta difficoltà."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "trovare il  tempo  per formarsi  e utilizzarla nella maniera più  corretta e utile, senza approfittarne e senza delegare ad essa il  nostro  ragionamento",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Riflessione sul tempo e uso corretto senza delega."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Il confine è  molto  labile, dipende dal contesto e dalle finalità, l'intelligenza artificiale ha una duplicità  che può  rivelarsi  tanto utile quanto eccessiva, il  rischio  che vada a sostituire la nostra capacità  critica e di  selezione  e di  autodeterminazione del  nostro  pensiero mi  fa dubitare. Per questo  prima di  esprimere un'opinione precisa ho  bisogno  di  fare chiarezza tenendomi in apertura verso  le opportunità di  formazione",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.8,
+      "reason": "Dubbio sulla sostituzione del pensiero critico."
+    }
+  ]
+}

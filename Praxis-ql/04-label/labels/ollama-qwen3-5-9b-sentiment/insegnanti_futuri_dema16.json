@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_dema16.md",
+  "source_name": "insegnanti_futuri_dema16.md",
+  "title": "Risposta dema16",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "dema16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:15:01.754590+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.9125,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La conosco molto poco",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Esprime una conoscenza limitata senza giudizio positivo o negativo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Conosco molto poco le applicazioni dell'IA per la didattica",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiara una scarsa conoscenza delle applicazioni dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sicuramente L'IA darebbe accesso ad una mole di informazioni e di applicazione e comunicazione di esse notevolmente più ampie. Semplificherebbe il lavoro di ricerca, lasciando più tempo alla messa in pratica della messa in pratica dell'attività educativa. Di contro , credo possa livellare troppo il processo educativo.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Pregi e difetti dell'IA si bilanciano, risultando in una visione neutra."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non raccomanderei di valutare e auto-valutare grazie all'IA, perché  non credo sia possibile estromettere da questo ambito il dato prettamente umano",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Sconsiglia l'uso dell'IA per valutazione, temendo la perdita del dato umano."
+    }
+  ]
+}

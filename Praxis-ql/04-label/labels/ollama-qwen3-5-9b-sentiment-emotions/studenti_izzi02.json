@@ -1,0 +1,163 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_izzi02.md",
+  "source_name": "studenti_izzi02.md",
+  "title": "Risposta Izzi02",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Izzi02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:37:29.946331+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 2,
+    "sollievo": 1
+  },
+  "avg_score": 0.077778,
+  "avg_confidence": 0.766667,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché preferisco non affidarmi per non perdere capacità",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Paura di perdere capacità di scrittura e argomentazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.95,
+          "evidence": "non perdere capacità"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt e gemini perché sono gratuiti e abbastanza completi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Strumenti gratuiti e completi apprezzati.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "gratuiti e abbastanza completi"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per scrivere tesine",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Motivo funzionale specifico per scrivere tesine.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi spiegarmi il capitolo 1 del libro….",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Richiesta di spiegazione diretta su un capitolo.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Puoi spiegarmi"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Perché sintetizza informazioni",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Valutazione positiva della sintesi delle informazioni.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Se non conosco qualcosa, faccio la domanda diretta e leggo la risposta, così non devo andare a cercare su libri, siti internet ecc",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Efficienza nel trovare risposte senza cercare altrove.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "così non devo andare a cercare"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Poche",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.5,
+      "reason": "Risposta breve senza contenuto emotivo rilevante.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la facilità di fruizione, i contro e che ora non si può far senza!",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Pro e contro bilanciati con dipendenza attuale.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "ora non si può far senza"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere testi, perché si perde la capacità di scrivere, argomentare e creare",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Perdita di capacità di scrivere e creare.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "si perde la capacità"
+        }
+      ]
+    }
+  ]
+}

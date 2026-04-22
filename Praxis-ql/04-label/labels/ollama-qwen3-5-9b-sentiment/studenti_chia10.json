@@ -1,0 +1,92 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_chia10.md",
+  "source_name": "studenti_chia10.md",
+  "title": "Risposta chia10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "chia10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:19:54.450802+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 5
+  },
+  "avg_score": 0.48125,
+  "avg_confidence": 0.8375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "la possibilità di risoluzione di dubbi e domande istantanea senza aspettare di vedere il professore e la chiarezza con cui espone un testo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Menziona istantaneità, chiarezza e risoluzione dubbi."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "riassunti, schemi e scalette mentali",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Elenca strumenti utili come schemi e riassunti."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "riassumi in modo semplice e chiaro",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.9,
+      "reason": "Apprezza semplicità e chiarezza degli riassunti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "attraverso lo studio di altre materie ma anche per capire meglio l’ AI",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Valuta positivamente lo studio di altre materie."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "grazie a riassunti di power point o schemi che facilitano lo studio",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Schemi e riassunti facilitano lo studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta neutra indicando assenza di elementi."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro sicuramente l’allegare file o foto contro per ora nessuno",
+      "sentiment": "neutral",
+      "score": 0.2,
+      "confidence": 0.7,
+      "reason": "Mischia opinioni positive e negative su file."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "secondo me nessuno dovrebbe farsi fare i compiti da chat ma dovrebbe farsi aiutare solamente in caso di dubbi o domande",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.75,
+      "reason": "Definisce limiti d'uso dell'AI per dubbi."
+    }
+  ]
+}

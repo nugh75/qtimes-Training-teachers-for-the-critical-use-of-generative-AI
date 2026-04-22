@@ -1,0 +1,143 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_relli31.md",
+  "source_name": "studenti_relli31.md",
+  "title": "Risposta Relli31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Relli31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:43:49.678796+00:00",
+  "item_count": 7,
+  "sentiment_counts": {
+    "negative": 4,
+    "neutral": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "paura": 1,
+    "preoccupazione": 1,
+    "rabbia": 1,
+    "tristezza": 1
+  },
+  "avg_score": -0.335714,
+  "avg_confidence": 0.864286,
+  "avg_emotions_per_item": 0.857143,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché è più approfondito",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'utente esprime soddisfazione per la profondità del contenuto.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Chat gpt perché è più approfondito"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "I riassunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta neutra che elenca semplicemente un'opzione.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassunto o richiesta",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta neutra che propone una scelta tra due opzioni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Non mi aiuta perché rimango ignorante",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "L'utente dichiara di rimanere ignorante e non trovare aiuto.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non mi aiuta perché rimango ignorante"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non l'ha miglioratl",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "L'utente afferma che la situazione non è migliorata.",
+      "emotions": [
+        {
+          "label": "tristezza",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Non l'ha miglioratl"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Riduce i tempi, non impari",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "L'utente nota che non si impara nonostante il risparmio di tempo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Riduce i tempi, non impari"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nessuna perché atrofizzano il cervello umano",
+      "sentiment": "negative",
+      "score": -0.95,
+      "confidence": 0.95,
+      "reason": "L'utente usa termini forti come 'atrofizzano' sul cervello.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "atrofizzano il cervello umano"
+        },
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Nessuna perché atrofizzano il cervello umano"
+        }
+      ]
+    }
+  ]
+}

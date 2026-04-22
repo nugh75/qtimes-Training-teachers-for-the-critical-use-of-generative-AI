@@ -1,0 +1,136 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_omeo18.md",
+  "source_name": "studenti_omeo18.md",
+  "title": "Risposta Omeo18",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Omeo18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:41:37.035300+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "fiducia": 2,
+    "gioia": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.4125,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo generico senza contenuto emotivo rilevante.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Integro concetti complessi in discorsi più semplici e per articolare meglio il discorso e genero domande per valutare la mia conoscenza",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "L'utente esprime soddisfazione per l'approfondimento e la generazione di domande.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Integro concetti complessi in discorsi più semplici"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il significato di …,  oppure riassumi questo paragrafo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di istruzioni senza esprimere opinioni o sentimenti.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplifica concetti difficili per renderli più comprensibili e  memorizzarli",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.88,
+      "reason": "L'utente apprezza la semplificazione per comprendere e memorizzare.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Semplifica concetti difficili per renderli più comprensibili"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho approfondito la differenza tra alcune patologie per la materia di psicopatologia",
+      "sentiment": "positive",
+      "score": 0.65,
+      "confidence": 0.82,
+      "reason": "L'utente segnala un utile approfondimento su un argomento specifico.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'assenza di difficoltà indica un'esperienza positiva e fluida.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non ho incontrato difficoltà"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Si possono generare domande per valutare le conoscenze",
+      "sentiment": "positive",
+      "score": 0.55,
+      "confidence": 0.8,
+      "reason": "Conferma della funzionalità di generazione domande.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Si possono generare domande per valutare le conoscenze"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non è indicato usare l’IA per svolgere tesi, temi o qualsiasi esercizio in cui bisogna applicare le proprie conoscenze",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Enuncia un limite d'uso senza esprimere emozioni forti.",
+      "emotions": []
+    }
+  ]
+}

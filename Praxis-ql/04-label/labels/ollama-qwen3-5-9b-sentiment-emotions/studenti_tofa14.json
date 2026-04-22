@@ -1,0 +1,130 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tofa14.md",
+  "source_name": "studenti_tofa14.md",
+  "title": "Risposta tofa14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tofa14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:46:14.778793+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 5,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.1125,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché mi capisce",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime soddisfazione per la comprensione del modello.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "perché mi capisce"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per finire i compiti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Motivo funzionale legato al completamento dei compiti.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non uso altro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa di esclusione di altri strumenti.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi aiuta con i compiti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Indica un beneficio pratico nell'aiuto con i compiti.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "mi aiuta con i compiti"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "si",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta monosillabica senza informazioni emotive.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Risposta negativa all'uso di altri strumenti.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro che posso finire i compiti e avere il pomeriggio libero i contro si peggiora nella vita",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Menziona peggioramento della vita come contro.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "si peggiora nella vita"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fare le verifiche",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Motivo funzionale legato alle verifiche scolastiche.",
+      "emotions": []
+    }
+  ]
+}

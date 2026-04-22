@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_naro20.md",
+  "source_name": "studenti_naro20.md",
+  "title": "Risposta naro20",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "naro20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:26:21.758108+00:00",
+  "item_count": 6,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4
+  },
+  "avg_score": -0.166667,
+  "avg_confidence": 0.866667,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo non analizzato, solo nome modello."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per svolgere esercizi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrizione funzionale neutra dell'uso."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedo semplicemente un modo per essere più chiara e formale possibile",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Richiesta di miglioramento formale neutra."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "non lo utilizzo per apprendere meglio",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Mancanza di utilizzo per apprendere."
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "ogni tanto fa qualche errore di comprensione",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.95,
+      "reason": "Presenza di errori di comprensione."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono per rendere lo svolgimento dei compiti meno noioso e più veloce, dando anche buoni spunti per testi. I contro potrebbero rendere le capacità di studio obsoleta.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco bilanciato di pro e contro."
+    }
+  ]
+}

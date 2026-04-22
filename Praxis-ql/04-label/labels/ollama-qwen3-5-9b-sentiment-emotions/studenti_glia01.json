@@ -1,0 +1,79 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_glia01.md",
+  "source_name": "studenti_glia01.md",
+  "title": "Risposta Glia01",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Glia01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:34:57.993531+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.3,
+  "avg_confidence": 0.883333,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non la trovo utile nello studio",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'utente esprime chiaramente che lo strumento non è utile.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non la trovo utile"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Penso che l’intelligenza artificiale nello studio non sia utile perché penso che sostituisca l’apprendimento attivo e critico",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "L'utente teme che l'IA sostituisca l'apprendimento attivo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "penso che sostituisca l'apprendimento attivo"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Risoluzione di compiti, creazione di mappe o appunti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "L'utente elenca funzioni utili come risoluzione compiti e mappe.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Risoluzione di compiti, creazione di mappe"
+        }
+      ]
+    }
+  ]
+}

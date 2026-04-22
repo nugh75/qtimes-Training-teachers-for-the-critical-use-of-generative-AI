@@ -1,0 +1,78 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_fini18.md",
+  "source_name": "insegnanti_attuali_fini18.md",
+  "title": "Risposta Fini18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Fini18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:10:55.921477+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "rabbia": 1
+  },
+  "avg_score": -0.566667,
+  "avg_confidence": 0.843333,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non vedo l efficacia e l miglioramento della stessa",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Mancanza di efficacia e miglioramento percepita.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non vedo l efficacia e l miglioramento"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sono antieducativi e non formano un adolescente",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Metodi definiti antieducativi e inefficaci.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.95,
+          "evidence": "Sono antieducativi"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "non formano un adolescente"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Già specificato...la sostituzione del ragionamento individuale",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Riferimento a informazioni già fornite.",
+      "emotions": []
+    }
+  ]
+}

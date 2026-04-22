@@ -1,0 +1,110 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ogri20.md",
+  "source_name": "insegnanti_attuali_ogri20.md",
+  "title": "Risposta ogri20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ogri20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:08:35.389930+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 8
+  },
+  "avg_score": 0.595,
+  "avg_confidence": 0.88,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "la utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione fattuale senza giudizio emotivo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt  perchè per il grado di scuola in cui insegno, va bene",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Esprime soddisfazione per l'adeguatezza dello strumento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo all'IA di semplificarmi testi, creare storie con i dati che inserisco io.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Descrive un utilizzo attivo e utile dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per esempio con i testi invalsi per bimbi DSA chiedo di semplificare il testo che assegno a tutti e di proporre le stesse domande a risposta multipla per i bimbi in diifficoltà",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Evidenzia benefici concreti per studenti con difficoltà."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Faccio immagina all'AI di essere il soggetto che deve risolvere la domanda che gli do e gli assegno un a temperatura per far si che la risposta sia più o meno facile",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Descrive un metodo creativo per facilitare l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Per la simulazione delle prove invalsi gli alunni DSA hanno avuto una sintesi del testo consegnato ai compagni, ma con le stesse domande e hanno risposto bene a tutte",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Riferisce a un successo nella simulazione delle prove."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Mi aiuta a semplificare il lavoro.",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Afferma chiaramente che lo strumento facilita il lavoro."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta neutra che indica assenza di utilizzo."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se viene usata per aiutarmi nel trovare strategie di miglioramento nella mia didattica, ho trovato solo i pro.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Evidenzia esclusivamente i pro dell'utilizzo."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Io penso che debba essere usata ma bisogna anche partecipare a corsi di formazione per il suo utilizzo",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Sostiene l'uso dell'IA con la condizione di formazione."
+    }
+  ]
+}

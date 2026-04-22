@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uono16.md",
+  "source_name": "insegnanti_attuali_uono16.md",
+  "title": "Risposta UONO16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "UONO16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:13:07.910792+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 1,
+    "positive": 3
+  },
+  "avg_score": 0.525,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Mi sto per informando da poco sull'argomento che intendo comunque approfondire molto di più perchè è in atto una rivoluzione.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Intenzione di approfondire e percepire il cambiamento come rivoluzione positiva."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno da poco la disciplina, dopo tanti anni sul sostegno. Ho dato la priorità allo studio approfondito dei contenuti fondanti della disciplina. Presto mi occuperò anche di capire di più circa I.A.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Priorità allo studio approfondito e futura occupazione di nuovi argomenti."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro tanti. Contro tanti ma come tutte le tecnologie. Vanno gestite con consapevolezze e razionalità per essere comunque sempre noi ad indirizzarle.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pro e contro bilanciati, gestione razionale richiesta per le tecnologie."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Penso che non esistano divieti a priori.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Assenza di divieti a priori indica apertura e fiducia nel contesto."
+    }
+  ]
+}

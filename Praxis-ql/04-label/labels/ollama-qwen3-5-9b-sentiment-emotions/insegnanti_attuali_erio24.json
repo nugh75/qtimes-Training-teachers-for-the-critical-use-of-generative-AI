@@ -1,0 +1,164 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_erio24.md",
+  "source_name": "insegnanti_attuali_erio24.md",
+  "title": "Risposta erio24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "erio24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:09:23.063056+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 8,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "paura": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.01,
+  "avg_confidence": 0.895,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La uso qualche volta per lavoro, raramente nella vita quotidiana perché non ho esigenza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrive un uso limitato e assenza di necessità.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non capisco la domanda",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Esprime incapacità di comprendere la richiesta.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "Non capisco la domanda"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per ora non la utilizzo per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Indica una non utilizzazione attuale dello strumento.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per ora non la utilizzo per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Indica una non utilizzazione attuale dello strumento.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Dialogo con 19 battute sull’importanza di una dieta sana ed equilibrata per bambini di 7/8 anni",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Discute l'importanza di una dieta sana ed equilibrata.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "importanza di una dieta sana ed equilibrata"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "No",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta negativa secca senza ulteriori dettagli.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non l’ho utilizzata per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Conferma la mancata utilizzazione per lo scopo.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non l’ho utilizzata per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Conferma la mancata utilizzazione per lo scopo.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: personalizzazione dell’apprendimento, inclusione, apprendimento continuo. Contro: disumanizzazione dell’insegnamento, dipendenza dalla tecnologia, disuguaglianze digitali.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco bilanciato di pro e contro dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "disumanizzazione dell'insegnamento, dipendenza"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Affidare la valutazione degli studenti esclusivamente all’IA (valutazione troppo rigida); generare contenuti educativi senza supervisione umana (può contenere errori o non essere adatti al livello degli studenti); sostituire il ruolo relazionale dell’insegnante (l’IA non può replicare l’empatia e l’ascolto).",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Elenca rischi gravi come errori e mancanza di empatia.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "contenere errori o non essere adatti"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "sostituire il ruolo relazionale dell'insegnante"
+        }
+      ]
+    }
+  ]
+}

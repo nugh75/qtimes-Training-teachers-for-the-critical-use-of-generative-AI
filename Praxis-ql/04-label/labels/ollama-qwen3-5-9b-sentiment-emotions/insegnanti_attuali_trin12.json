@@ -1,0 +1,80 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_trin12.md",
+  "source_name": "insegnanti_attuali_trin12.md",
+  "title": "Risposta trin12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "trin12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:18:33.870633+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 2
+  },
+  "avg_score": -0.275,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché ancora non ho imparato come utilizzarla al meglio",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Espressione di insuccesso nell'apprendimento.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Perché ancora non ho imparato"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho ancora imparato come utilizzarla",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Riconoscimento di una mancanza di competenza.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "bassa",
+          "confidence": 0.8,
+          "evidence": "Perché non ho ancora imparato"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Punti di forza: velocità nelle ricerche anche Punti di debolezza: non sempre le informazioni sono veritiere.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Analisi oggettiva di pro e contro.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Mancanza di informazioni specifiche.",
+      "emotions": []
+    }
+  ]
+}

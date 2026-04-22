@@ -1,0 +1,73 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ione04.md",
+  "source_name": "insegnanti_attuali_ione04.md",
+  "title": "Risposta ione04",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ione04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:07:22.456049+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "emotion_counts": {
+    "paura": 1
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 0.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "insegno in una classe prima della scuola primaria",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Fatto dichiarativo senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non utilizzo ancora l'intelligenza a. nella didattica poiché insegnando in una classe prima della scuola primaria cerco di indirizzare la mia didattica all'apprendimento delle abilità strumentali di base. Mi avvalgo però di strumenti informatici software e piattaforme con esercizi guidati e training cognitivo per facilitare il processo di apprendimento soprattutto nel caso di alunni che mostrano difficoltà.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrizione tecnica di strategie didattiche.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "nel caso di studenti che abbiano superato l'età per poter avere accesso a tali strumenti un  \"totale\"  delegare alla IA  e di conseguenza un appiattimento del Problem- solving, del pensiero creativo etc.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Paura di appiattimento del problem-solving.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "un appiattimento del Problem- solving"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "creazione di testi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Titolo o frase nominale senza contesto.",
+      "emotions": []
+    }
+  ]
+}

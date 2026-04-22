@@ -1,0 +1,148 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_dori06.md",
+  "source_name": "insegnanti_attuali_dori06.md",
+  "title": "Risposta dori06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "dori06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:06:41.933652+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 5,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.044444,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.444444,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt perchè mi aiuta nelle incombenze burocratiche",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Aiuto nelle incombenze burocratiche",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "perchè mi aiuta"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "non la utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Non la utilizzo",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "non la utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Non la utilizzo",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "orienteering e cittadinanza globale",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.7,
+      "reason": "Orienteeing e cittadinanza globale",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "orienteering e cittadinanza globale"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "no",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa secca",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "non so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Non so",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "i ragazzi non possono usare il cellulare in classe",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Ragazzi non possono usare cellulare",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "ragazzi non possono usare il cellulare"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "aiuta nella risoluzione di alcuni problemi ma diminuisce la prorpia capacità di problem solving",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Diminuisce capacità problem solving",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "diminuisce la prorpia capacità"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Non so",
+      "emotions": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gini04.md",
+  "source_name": "studenti_gini04.md",
+  "title": "Risposta gini04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gini04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:34:55.437267+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "paura": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.425,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che possa sbagliare in quanto sia una macchina e si noti la differenza magari di un testo scritto,traduzioni o altro. Alla fine poi non mi rimane nulla",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Esprime perdita di capacità e insicurezza dovuta all'uso della macchina.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "alla fine poi non mi rimane nulla"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Se utilizziamo una macchina che svolge gli esercizi o testi per conto nostro alla fine non rimane nulla e in futuro non sapremo essere capaci nel svolgerli indipendentemente.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Sottolinea la perdita di capacità futura e l'incapacità di agire indipendentemente.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "in futuro non sapremo essere capaci"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: può essere magari utile quando sei in difficoltà o svolgere in meno tempo i compiti quando proprio non hai il tempo a disposizione. Contro: se lo usi regolarmente non ti sarà utile perché non avrai appreso nulla. Esempio: a casa puoi anche usarlo ma nelle verifiche no e quindi è a tuo svantaggio perché in classe avrai maggiore difficoltà non essendoci esercitata a sufficienza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Presenta pro e contro bilanciati senza una posizione netta.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "non avrai appreso nulla"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta indeterminata che non esprime né emozioni né opinioni.",
+      "emotions": []
+    }
+  ]
+}

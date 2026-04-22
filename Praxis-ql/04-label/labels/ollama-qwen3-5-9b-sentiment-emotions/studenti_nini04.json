@@ -1,0 +1,176 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_nini04.md",
+  "source_name": "studenti_nini04.md",
+  "title": "Risposta Nini04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Nini04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:40:53.209060+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 6
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 3,
+    "preoccupazione": 2,
+    "sollievo": 1
+  },
+  "avg_score": 0.488889,
+  "avg_confidence": 0.805556,
+  "avg_emotions_per_item": 0.888889,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\" _\"",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota non fornisce informazioni sul sentiment.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt 3.5 perché permette di rapportarsi con un agente come se fosse un utente umano, Gemini perché permette di trovare facilmente informaziini.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "Descrive vantaggi positivi di rapportarsi con un agente umano.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "permette di rapportarsi con un agente come se fosse un utente umano"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "L'intelligenza artificiale mi permette di creare e personalizzare presentazioni, mappe o lavori di sintesi.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Elenca capacità utili come creare e personalizzare presentazioni.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "mi permette di creare e personalizzare presentazioni"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Un prompt che utilizzo spesso è  suggerire idee di video basate su un determinato tema.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.7,
+      "reason": "Descrive un uso frequente e utile dell'IA per idee creative.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.65,
+          "evidence": "suggerire idee di video basate su un determinato tema"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Permettendo una vasta gamma di informazioni generali e specifiche sull'argomento",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Evidenzia la vastità delle informazioni disponibili.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Permettendo una vasta gamma di informazioni"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Attraverso la costruzione di mappe concettuali su argomenti di storia contemporanea e approfondimenti richiesti.",
+      "sentiment": "positive",
+      "score": 0.65,
+      "confidence": 0.75,
+      "reason": "Descrive un metodo di lavoro efficace per approfondire.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Attraverso la costruzione di mappe concettuali"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato particolari difficoltà",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Assenza di difficoltà indica soddisfazione e facilità d'uso.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Non ho incontrato particolari difficoltà"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "In base alla mia esperienza i pro dell'uso dell 'intelligenza artificiale sono: ottimizzazione del tempo, approfondimento e possibilità di  rappresentare il lavoro in modo organizzato. I contro: limite nel personalizzare il lavoro.",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.8,
+      "reason": "Elenco bilanciato di pro e contro sull'uso dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "limite nel personalizzare il lavoro"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nella,produzione di un elaborato dove si richiede una competenza di  critica o analisi personale su un argomento perché l'opinione propria non può essere sostituita.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Spiega un limite dell'IA nella sostituzione del pensiero critico.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "l'opinione propria non può essere sostituita"
+        }
+      ]
+    }
+  ]
+}

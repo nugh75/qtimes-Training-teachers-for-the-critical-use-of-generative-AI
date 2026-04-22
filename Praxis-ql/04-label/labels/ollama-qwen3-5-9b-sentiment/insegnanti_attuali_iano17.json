@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iano17.md",
+  "source_name": "insegnanti_attuali_iano17.md",
+  "title": "Risposta Iano17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Iano17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:04:39.467917+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.525,
+  "avg_confidence": 0.905,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono formata e abituata",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime inadeguatezza e mancanza di abitudine."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non posso personalizzare",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Indica un'incapacità di personalizzare l'attività."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro perché dipende da caso a caso, pro se usata bene velocizza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Valuta pro e contro in modo dipendente dal caso."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Esercizi e problemi no, perché i ragazzi la usano per copiare e non per imparare",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.92,
+      "reason": "Sostiene che gli strumenti favoriscano il copia-incolla."
+    }
+  ]
+}

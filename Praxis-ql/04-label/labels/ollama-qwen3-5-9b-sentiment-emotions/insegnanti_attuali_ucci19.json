@@ -1,0 +1,101 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci19.md",
+  "source_name": "insegnanti_attuali_ucci19.md",
+  "title": "Risposta ucci19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:18:51.068109+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 4
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 1.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ancora non sono ben informata al riguardo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di incertezza e mancanza di informazioni.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "ancora non sono ben informata"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono ancora ben informata a riguardo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di incertezza e mancanza di informazioni.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Non sono ancora ben informata"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'I.A. può facilitare nello svolgimento di alcune attività, ma bisogna utilizzarla con parsimonia, in quanto non deve sostituire il cervello umano, il quale deve comunque tenersi in allenamento.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Punto di vista equilibrato su pro e contro l'uso.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "non deve sostituire il cervello umano"
+        },
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "L'I.A. può facilitare"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Gli alunni non dovrebbero svolgere i compiti assegnati con l'I.A. in quanto i compiti scolastici sono utili nello studio della disciplina.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Sconsiglia l'uso dell'IA per i compiti scolastici.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "non dovrebbero svolgere i compiti"
+        }
+      ]
+    }
+  ]
+}

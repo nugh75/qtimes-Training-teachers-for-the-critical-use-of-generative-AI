@@ -1,0 +1,82 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uzzi07.md",
+  "source_name": "insegnanti_attuali_uzzi07.md",
+  "title": "Risposta Uzzi07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Uzzi07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:19:35.508996+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1
+  },
+  "avg_score": 0.175,
+  "avg_confidence": 0.895,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "L'uso attivo del termine 'utilizzo' indica un atteggiamento favorevole.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché preferisco la ricerca cartacea",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "La preferenza per la cartacea è un'opinione neutra senza valenza emotiva forte.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Troppa dipendenza poca ricerca",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Le parole 'dipendenza' e 'poca ricerca' esprimono insoddisfazione e critica.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Troppa dipendenza poca ricerca"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La velocità per reperire le informazioni",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.88,
+      "reason": "La velocità nel reperire informazioni è un vantaggio percepito positivamente.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "La velocità per reperire le informazioni"
+        }
+      ]
+    }
+  ]
+}

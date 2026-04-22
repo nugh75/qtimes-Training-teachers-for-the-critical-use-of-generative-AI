@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orgi03.md",
+  "source_name": "studenti_orgi03.md",
+  "title": "Risposta Orgi03",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Orgi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:27:26.067604+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 5,
+    "positive": 2
+  },
+  "avg_score": 0.1125,
+  "avg_confidence": 0.80625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Claude. Riassume molto bene i testi",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Riassume molto bene i testi"
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Riassumere testi di approfondimento.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrive un compito generico"
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo di questo articolo senza essere sintetico. Spiega tutti i passaggi in maniera discorsiva",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Istruzione su come riassumere"
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Riesco ad organizzare diverse idee durante il brainstorming",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.7,
+      "reason": "Capacità di organizzare idee"
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Di solito da solo non faccio brainstorming",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Afferma una preferenza personale"
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Quando si lavora con argomenti complessi potrebbe faticare a centrare il focus del discorso",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Potrebbe faticare a centrare focus"
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: permette di diversificare la routine Contro: a volte il processo è un po' dispersivo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco pro e contro bilanciato"
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere testi complessi al posto nostro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrive un'azione funzionale"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_fazi28.md",
+  "source_name": "insegnanti_attuali_fazi28.md",
+  "title": "Risposta fazi28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "fazi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:04:07.562316+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.45,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "strumento ancora ininfluente nel campo della performance strumentale di repertori complessi",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Il testo indica che lo strumento è ininfluente sulla performance."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ancora efficace nella pratica esecutiva di repertori complessi",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "La risposta afferma che lo strumento non è ancora efficace."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "strumento estremamente potente non adeguatamente compensato dal potenziamento delle competenze critiche e metacognitive",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Le competenze critiche non sono adeguatamente compensate dal potenziamento."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "produrre testi, risolvere problemi matematici.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "L'elenco di attività descritte è fattuale e privo di giudizio."
+    }
+  ]
+}

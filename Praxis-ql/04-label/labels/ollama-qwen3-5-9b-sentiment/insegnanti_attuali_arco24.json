@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_arco24.md",
+  "source_name": "insegnanti_attuali_arco24.md",
+  "title": "Risposta arco24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "arco24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:59:23.482648+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2
+  },
+  "avg_score": -0.133333,
+  "avg_confidence": 0.85,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "perchè preferisco pensare io agli esercizi piuttosto che spiegare al programma cosa deve fare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Preferenza personale per pensare agli esercizi senza giudizio emotivo."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i contro si perde il contatto umano con la persona con cui devi interagire, tra i pro c'è la velocità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco oggettivo di pro e contro senza toni emotivi."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "preparare test, fare riassunti, risolvere esercizi. potrebbero esserci errori che lo studente non riesce a riconoscere",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.9,
+      "reason": "Menzione di possibili errori e incapacità dello studente di riconoscerli."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zano29.md",
+  "source_name": "insegnanti_attuali_zano29.md",
+  "title": "Risposta zano29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zano29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:20:34.229063+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 2,
+    "frustrazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.29,
+  "avg_confidence": 0.87,
+  "avg_emotions_per_item": 0.6,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo incompleto, solo parola 'Utilizzo'.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Questionari",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo incompleto, solo parola 'Questionari'.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creare riassunti o articoli",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Descrive un'attività utile e produttiva.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Creare riassunti o articoli"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per creare contenuti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Indica uno scopo chiaro e costruttivo.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Per creare contenuti"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mappe",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo incompleto, solo parola 'Mappe'.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Facilita la creazione di mappe concettuali",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Evidenzia un beneficio diretto e facilitante.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Facilita la creazione di mappe concettuali"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Sintetizza i concetti",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Descrive un'azione efficace di sintesi.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Sintetizza i concetti"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Porre le giuste domande",
+      "sentiment": "positive",
+      "score": 0.65,
+      "confidence": 0.8,
+      "reason": "Indica un metodo pedagogico corretto.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "Porre le giuste domande"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilita la sintesi di contenuti contro non stimola il pensiero logico / deduttivo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Esprime un limite o un effetto contrario.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "contro non stimola il pensiero logico"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Lo studio mnemonico",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo incompleto, solo frase 'Lo studio mnemonico'.",
+      "emotions": []
+    }
+  ]
+}

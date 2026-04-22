@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_nini09.md",
+  "source_name": "studenti_nini09.md",
+  "title": "Risposta nini09",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "nini09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:26:41.622180+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perchè ho gli appunti e i libri",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta fattuale senza valenza emotiva."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: ti aiutano a capire una cosa che non capisci e te la spiegano anche nel modo che vuoi tu contro:alcune volte possono sbagliare",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Prospetta aiuto e spiegazione personalizzata."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non ne sono a conoscenza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione di ignoranza neutrale."
+    }
+  ]
+}

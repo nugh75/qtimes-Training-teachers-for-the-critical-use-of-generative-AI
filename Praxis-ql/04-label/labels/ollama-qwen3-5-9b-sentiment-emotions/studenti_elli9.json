@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_elli9.md",
+  "source_name": "studenti_elli9.md",
+  "title": "Risposta elli9",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "elli9",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:32:12.035797+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "in maniera discorsiva",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta descrittiva neutra senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "aiutandomi a comprendere meglio come procedere nell'apprendimento",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime un aiuto attivo per la comprensione.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "aiutandomi a comprendere meglio"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "0",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta numerica priva di contenuto emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: aiuta nell'elaborazione e quindi ad apprendere meglio. Contro: si rischia di utilizzare gli strumenti tecnologici come unica opzione di apprendimento e sostegno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analisi pro/contro con tono oggettivo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "si rischia di utilizzare gli strumenti tecnologici"
+        }
+      ]
+    }
+  ]
+}

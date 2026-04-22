@@ -1,0 +1,156 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_niro27.md",
+  "source_name": "studenti_niro27.md",
+  "title": "Risposta niro27",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "niro27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:41:02.718934+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.111111,
+  "avg_confidence": 0.833333,
+  "avg_emotions_per_item": 0.555556,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Trovo più costruttivo chiedere informazioni a persone oppure una effettuare una rapida ricerca generale su internet, uso spesso il mio intuito su dei dubbi e uso internet per conferme, anche confrontarmi in famiglia",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive metodi misti senza esprimere giudizi positivi o negativi.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è pratico e spesso mi soddisfa nelle richieste",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime soddisfazione per la praticità e il soddisfacimento delle richieste.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "spesso mi soddisfa nelle richieste"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "A volte faccio ricerche per riassumere un determinato argomento o aggiungere informazioni ulteriori, spesso la uso per capire meglio anche i concetti più complessi, in modo che me li spieghi più fluidamente",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Evidenzia l'utilità per comprendere meglio concetti complessi.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "per capire meglio anche i concetti più complessi"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il rapporto tra individuo e ambiente nel modello psicodinamico di Freud",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "È una richiesta di spiegazione, non un'opinione personale.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplificando i concetti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Frase incompleta che non permette di dedurre un sentimento.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non lo ha completamente migliorato, ma ha fornito supporto in situazioni di blocco o confusione nello studio di una materia",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Riconosce il supporto fornito nonostante alcune limitazioni.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "ha fornito supporto in situazioni di blocco"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Capitava di ricevere nozioni non precise o riferite ad altro piuttosto che all’argomento che avevo citato",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Segnala l'arrivo di nozioni non precise o errate.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "ricevere nozioni non precise o riferite ad altro"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sicuramente riguardano la rapidità, la semplicità e l’efficienza dell’utilizzo, trai contro inserirei l’abuso",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Elenco bilanciato di pro e contro senza polarizzazione.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Spesso Chatgpt è molto riduttivo se non lo si istruisce o se ne fa poco utilizzo, credo che a volte  si cade nella credenza che un sistema di questo tipo sia la soluzione a tutto, per il resto delle altre IA non sono abbastanza informato ma credo che nella pratica siano molto utili, sulla teoria usufruirei altri metodi",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.8,
+      "reason": "Critica la riduttività e la credenza eccessiva nel sistema.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "si cade nella credenza che un sistema di questo tipo sia la soluzione a tutto"
+        }
+      ]
+    }
+  ]
+}

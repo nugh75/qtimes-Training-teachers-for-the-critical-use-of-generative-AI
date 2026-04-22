@@ -1,0 +1,179 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ata25.md",
+  "source_name": "insegnanti_attuali_ata25.md",
+  "title": "Risposta ata25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ata25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:04:06.207383+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "gioia": 1,
+    "preoccupazione": 1,
+    "rabbia": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.177778,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.888889,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Canva, Kahoot, PanQuiz, Padlet",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Elenco di strumenti didattici senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "attraverso una didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Approccio inclusivo e olistico alla didattica.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "ottica UDL e bio-psico-sociale"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "attraverso un metodo induttivo e una didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.88,
+      "reason": "Metodo induttivo e approccio inclusivo.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "metodo induttivo e una didattica digitale integrata"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Utilizzo principalmente l'AI integrata a tool digitali",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.8,
+      "reason": "Affermazione fattuale sull'uso dell'AI.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "AI integrata al game based learning",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.75,
+      "reason": "Integrazione positiva dell'AI nel game based learning.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "AI integrata al game based learning"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso il gioco e le domande stimolo",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.82,
+      "reason": "Uso del gioco come stimolo educativo.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.78,
+          "evidence": "Attraverso il gioco e le domande stimolo"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Difficoltà di connettività, ampliamento dell'offerta formativa per i docenti e un disinteresse generale dei colleghi",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Elenco di difficoltà e disinteresse dei colleghi.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Difficoltà di connettività... disinteresse generale"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Difficoltà di connettività, ampliamento dell'offerta"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Supporto creativo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.92,
+      "reason": "Riconoscimento del valore del supporto creativo.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Supporto creativo"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "il plagio",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Accusa diretta di plagio.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.95,
+          "evidence": "il plagio"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ello07.md",
+  "source_name": "insegnanti_attuali_ello07.md",
+  "title": "Risposta ello07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ello07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:07:59.553742+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.15,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne ho necessità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che esprime assenza di necessità.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè l'IA non può sostituire la figura dell'insegnante, la sua azione educativo-didattica, l'empatia e la sua interazione con gli allievi.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Sottolinea l'irrinunciabilità dell'empatia e dell'insegnante.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "l'IA non può sostituire la figura dell'insegnante"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: gli insegnanti possono svolgere attività come valutazione di compiti e dedicare più tempo al supporto diretto agli studenti. Contro: minore apprendimento pratico e riduzione delle relazioni.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco bilanciato di pro e contro senza polarizzazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "minore apprendimento pratico e riduzione delle relazioni"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Simulazioni o altro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta vaga che non esprime né emozioni né opinioni.",
+      "emotions": []
+    }
+  ]
+}

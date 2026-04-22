@@ -1,0 +1,130 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_vito21.md",
+  "source_name": "studenti_vito21.md",
+  "title": "Risposta Vito21",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Vito21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:48:02.175049+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 5,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "sorpresa": 1
+  },
+  "avg_score": -0.0875,
+  "avg_confidence": 0.86875,
+  "avg_emotions_per_item": 0.375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta neutra che cita un'entità esterna senza giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Studio da sola",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione fattuale su un'azione senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Gli faccio domanda diretta",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrizione di un metodo comunicativo diretto e neutro.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Si scoprono cose nuove",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.9,
+      "reason": "Esprime un risultato positivo legato alla scoperta di novità.",
+      "emotions": [
+        {
+          "label": "sorpresa",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Si scoprono cose nuove"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non mi viene in mente",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Mancanza di idee espressa in modo neutro e privo di emozioni.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta negativa assoluta che indica assenza di elementi.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro si apprende contro fa diminuire la fantasia",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Contrappone pro e contro evidenziando un impatto negativo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "contro fa diminuire la fantasia"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat nn dovrebbe essere usato per risolvere gli esercizi",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Esprime un divieto o un'opinione critica sull'uso dello strumento.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Chat nn dovrebbe essere usato"
+        }
+      ]
+    }
+  ]
+}

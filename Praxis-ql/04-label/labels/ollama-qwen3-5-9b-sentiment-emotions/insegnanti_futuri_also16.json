@@ -1,0 +1,78 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_also16.md",
+  "source_name": "insegnanti_futuri_also16.md",
+  "title": "Risposta ALso16",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ALso16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:21:20.162755+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.266667,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno, quindi nelle classi dove svolgo il tirocinio, in base alle attività proposte dai docenti, credo che i ragazzi non debbano usarla... In quanto se la usano per produrre un tema da svolgere in classe,la validità di quella prova diventa nulla...",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Sostiene che l'uso annulli la validità della prova scolastica.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "la validità di quella prova diventa nulla"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Io credo che l'intelligenza artificiale sia utile per invogliare i ragazzi a studiare e a seguire la lezione,un contro è che possano utilizzarla troppo e quindi non fare più nulla da soli",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Riconosce l'utilità per invogliare gli studenti, pur notando un rischio.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "credo che l'intelligenza artificiale sia utile"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere usata dai ragazzi nel corso dei compiti in classe e per produrre testi se no diventa nulla l'attività data...",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Vieta l'uso per compiti e testi perché ne annulla il valore.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "se no diventa nulla l'attività data"
+        }
+      ]
+    }
+  ]
+}

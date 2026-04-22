@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_vale6.md",
+  "source_name": "studenti_vale6.md",
+  "title": "Risposta vale6",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "vale6",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:30:58.356048+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "positive": 1
+  },
+  "avg_score": -0.166667,
+  "avg_confidence": 0.883333,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché voglio usare le mie conoscenze e apllicarmi da sola senza l'intelligenza artificiale",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Voglio usare le mie conoscenze e applicarmi da sola."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che ti salva per quando non riesci a fare un compito i contro che non ragioni più con la tua testa",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Non ragioni più con la tua testa."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "secondo me una pratica che non è raccomandata nell' uso dell' intelligenza artificiale e il fatto che ti prende le cose già svolte e magari può anche sbagliare a darti le informazioni",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Pratica non raccomandata, può sbagliare informazioni."
+    }
+  ]
+}

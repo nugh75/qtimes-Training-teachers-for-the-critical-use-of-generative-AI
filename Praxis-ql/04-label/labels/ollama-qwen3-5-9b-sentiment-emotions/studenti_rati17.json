@@ -1,0 +1,143 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rati17.md",
+  "source_name": "studenti_rati17.md",
+  "title": "Risposta RATI17",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "RATI17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:43:28.208325+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 2,
+    "sollievo": 2
+  },
+  "avg_score": 0.3625,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta monosillabica senza contenuto emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trasformare pacchetti di slide in testo, chiedere informazioni riguardo manuali diagnostici di psicologia e psichiatria",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Proposta costruttiva per migliorare lo studio.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "chiedere informazioni riguardo manuali"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Quali sono i criteri diagnostici del disturbo schizoaffettivo? Come si diagnostica un episodio depressivo maggiore?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Domanda tecnica diretta senza tono emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Risparmia tempo",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Enfasi sui benefici di risparmio tempo.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "Risparmia tempo"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Risparmiato tempo",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Conferma del beneficio ottenuto.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "Risparmiato tempo"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa secca senza sfumature.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: personalizzazione dello studio e risparmio di tempo. Contro: aumento della prigrizia concreta ed intellettuale.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Elenco bilanciato con focus su vantaggi.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "Pro: personalizzazione dello studio"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Estrapolazione di significati profondi e concettuali di un testo. Riassunto (va esaminato bene il lavoro eseguito dallo strumento)",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Valutazione positiva del lavoro dello strumento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Estrapolazione di significati profondi"
+        }
+      ]
+    }
+  ]
+}

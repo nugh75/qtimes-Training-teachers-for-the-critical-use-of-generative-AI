@@ -1,0 +1,128 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ello16.md",
+  "source_name": "studenti_ello16.md",
+  "title": "Risposta ello16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ello16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:32:22.504488+00:00",
+  "item_count": 7,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 3,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.014286,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.571429,
+  "items": [
+    {
+      "index": 1,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per riassunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta neutra di riassunti.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "spiegami questo argomento e concetti principali",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Richiesta chiara e costruttiva.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "spiegami questo argomento"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "schematizzando",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta neutra di schematizzazione.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "per sintetizzare",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Obiettivo chiaro di sintesi.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "per sintetizzare"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.5,
+      "reason": "Domanda non specifica.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "aiuta con riassunti ma non esprime tutti i concetti chiave",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Critica all'efficacia del riassunto.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non esprime tutti i concetti chiave"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "basarsi solo su essa perché fa acquisire uno studio superficiale",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Critica severa sullo studio superficiale.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "fa acquisire uno studio superficiale"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_vito02.md",
+  "source_name": "insegnanti_attuali_vito02.md",
+  "title": "Risposta vito02",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "vito02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:20:10.097537+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 1,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "fiducia": 2
+  },
+  "avg_score": 0.433333,
+  "avg_confidence": 0.866667,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Preferisco ancora usare metodi tradizionali",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Preferenza per metodi tradizionali senza giudizio positivo o negativo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Accesso a tutte le informazioni.  Spersonalizzazione dei lavori",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Elenco benefici come accesso a informazioni e personalizzazione.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Accesso a tutte le informazioni"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sostituzione della AI laddove serve intelligenza emotiva",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Sostituzione AI dove serve intelligenza emotiva indica valore.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "laddove serve intelligenza emotiva"
+        }
+      ]
+    }
+  ]
+}

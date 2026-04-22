@@ -1,0 +1,145 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_daro04.md",
+  "source_name": "studenti_daro04.md",
+  "title": "Risposta Daro04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Daro04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:30:29.291703+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 6
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "rabbia": 2
+  },
+  "avg_score": -0.233333,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.444444,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Io la utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa neutra sull'utilizzo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chiat got",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo non in italiano, impossibile analisi.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per mappe",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che cita uno strumento.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che cita uno strumento.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "I testi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che cita un tipo di contenuto.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non la migliorato",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Espressione di insoddisfazione sul miglioramento.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Non la migliorato"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che esprime ignoranza.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro é che ti agevola i contro sono quelli che non usiamo più la testa per studiare",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica all'uso della testa durante lo studio.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "non usiamo più la testa per studiare"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "non usiamo più la testa per studiare"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non deve essere usata perché sennò é tutto inutile che veniamo a scuola",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Affermazione forte contro l'utilizzo dello strumento.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non deve essere usata perché sennò é tutto inutile"
+        }
+      ]
+    }
+  ]
+}

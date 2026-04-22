@@ -1,0 +1,61 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_lupi31.md",
+  "source_name": "studenti_lupi31.md",
+  "title": "Risposta Lupi31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Lupi31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:38:33.656818+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.3,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perchè preferisco usufruire degli strumenti che si hanno sempre avuti a disposizione e per i quali ho speso i soldi, come per esempio i libri.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Preferisce strumenti esistenti e critica l'uso di denaro per nuovi strumenti.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "preferisco usufruire degli strumenti che si hanno sempre avuti"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "L’intelligenza artificiale può comportare ripercussioni positive o negative, in base all’utilizzo che si fa di essa. Può essere utile per amplificare le conoscenze o approfondire un argomento, ma sempre nei limiti, facendo in modo che non vada a sostituire i libri cartacei.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analizza pro e contro dell'IA con cautela, evitando estremismi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "non vada a sostituire i libri cartacei"
+        }
+      ]
+    }
+  ]
+}

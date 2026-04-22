@@ -1,0 +1,83 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_oppi12.md",
+  "source_name": "insegnanti_attuali_oppi12.md",
+  "title": "Risposta OPPI12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "OPPI12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:12:17.755069+00:00",
+  "item_count": 5,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4
+  },
+  "emotion_counts": {
+    "frustrazione": 1
+  },
+  "avg_score": -0.12,
+  "avg_confidence": 0.89,
+  "avg_emotions_per_item": 0.2,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "CREAZIONE QUIZ",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Istruzione diretta senza tono emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "CREARE CONTENUTI PERSONALIZZATI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Istruzione diretta senza tono emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi servirebbe un riassunto del brano inserito per alunni di livello ___. alla fine preparami anche un quiz a risposta multipla contenente 5 domande.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta tecnica specifica senza emozioni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "non saprei",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Espressione di incapacità o mancanza di sapere.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non saprei"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i ragazzi non devono abusarne",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione normativa senza carica emotiva.",
+      "emotions": []
+    }
+  ]
+}

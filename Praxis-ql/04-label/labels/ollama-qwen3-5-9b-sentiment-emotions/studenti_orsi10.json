@@ -1,0 +1,95 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orsi10.md",
+  "source_name": "studenti_orsi10.md",
+  "title": "Risposta orsi10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "orsi10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:42:11.992196+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.6125,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la ritengo una fonte utile per approfondire e apprendere conoscenze",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Espressione esplicita di inutilità e rifiuto della fonte.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Non la ritengo una fonte utile"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non ritengo che sia una fonte sicura e utile per avere delle informazioni che possono riguardare lo studio , conoscenze generali",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.92,
+      "reason": "Sottolinea insicurezza e inutilità per lo studio.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Non ritengo che sia una fonte sicura"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: facilita le richieste Contro: ci abituiamo a cercare tutto online senza consultare manuali cartacei o altre fonti cartacee",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analisi bilanciata tra pro e contro dell'uso.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "ci abituiamo a cercare tutto online"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Le pratiche che utilizza l’intelligenza artificiale che non dovrebbero essere usate per lo studio sono le risposte ad esercizi o a quesiti specifici che uno studente domanda.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.88,
+      "reason": "Definisce l'uso di IA per esercizi come pratica sbagliata.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "non dovrebbero essere usate per lo studio"
+        }
+      ]
+    }
+  ]
+}

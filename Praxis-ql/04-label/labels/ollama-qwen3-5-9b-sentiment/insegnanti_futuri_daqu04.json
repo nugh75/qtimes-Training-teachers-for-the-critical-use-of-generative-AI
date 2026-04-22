@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_daqu04.md",
+  "source_name": "insegnanti_futuri_daqu04.md",
+  "title": "Risposta Daqu04",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Daqu04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:14:59.079062+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2
+  },
+  "avg_score": -0.133333,
+  "avg_confidence": 0.583333,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Menzione di dipendenza come effetto negativo del supporto."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro aiuta soprattutto in caso di disabilità o fragilità nell'apprendimento. Può creare dipendenza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione tecnica di un obiettivo didattico senza giudizio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creare testi spontanei e introspettivi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

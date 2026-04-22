@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rrin08_2.md",
+  "source_name": "insegnanti_attuali_rrin08_2.md",
+  "title": "Risposta Rrin08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Rrin08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:11:09.960923+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "avg_score": -0.5,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non sento di essere adeguatamente formata.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Mancanza di formazione adeguata percepita dall'insegnante."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono risparmio di tempo, facilitazione di accesso alle informazioni, riduzione degli errori umani in determinate attività, facilitazione nell'analisi dei dati.... Contro: uso improprio, riduzione delle interazioni sociali dirette, dipendenza, limitazione del pensiero critico",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco bilanciato di pro e contro sull'uso della tecnologia."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella creazione di contenuti che non siano controllati e nell'automatizzazione della valutazione  che, se affidata completamente all'intelligenza artificiale, potrebbe portare a valuzioni  ingiuste in quanto non prende in considerazione l'empatia e di alcune sfumature del lavoro degli studenti.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Rischio di valutazioni ingiuste e mancanza di empatia."
+    }
+  ]
+}

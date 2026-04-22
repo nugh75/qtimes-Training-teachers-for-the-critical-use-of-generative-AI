@@ -1,0 +1,169 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rini29.md",
+  "source_name": "insegnanti_attuali_rini29.md",
+  "title": "Risposta RINI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "RINI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:15:23.251103+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 3,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "ansia": 1,
+    "entusiasmo": 1,
+    "fiducia": 2,
+    "paura": 2,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.777778,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "GEMINI E CHAT GPT. LI TROVO FACILI DA UTILIZZARE E UTILI",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Descrive gli strumenti come facili da usare e utili.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "LI TROVO FACILI DA UTILIZZARE E UTILI"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E  AI BISOGNI DI CIASCUN ALUNNO.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Enuncia uno scopo funzionale senza esprimere giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "PER CREARE CONTENUTI SU MISURA",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Indica un vantaggio specifico nella creazione di contenuti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "PER CREARE CONTENUTI SU MISURA"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "CREA UNA VERIFICA COMPOSTA DA TRE DOMANDE CON RISPOSTA VERO/FALSO E TRE DOMANDE CON RISPOSTA MULTIPLA (SCRIVENDO L'ARGOMENTO SU CUI COSTRUIRE LA VERIFICA)",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "È un'istruzione operativa per generare una verifica.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "ABBIAMO USATO L'AI NON PER TROVARE SOLUZIONI MA PER CERCARE LA VERIDICITA' DELLE RISPOSTE A DOMANDE POSTE ALL' AI.  HO SOTTOLINEATO L'IMPORTANZA DI CHIEDERE LE FONTI DELLE RISPOSTE DATE DALL'AI PER VERIFICARNE LA VERIDICITA' E LA CORRETTEZZA",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.75,
+      "reason": "Sottolinea l'importanza della veridicità e delle fonti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "CERCARE LA VERIDICITA' DELLE RISPOSTE"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "UTILIZZARLA COME SGTRUMENTO DI RICERCA",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Definisce un uso strumentale dell'AI senza toni emotivi.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "LA MIA NON CONOSCENZA DI TUTTI I SSTRUMENTI DI AI",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Riconosce una mancanza di conoscenza degli strumenti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "NON CONOSCENZA DI TUTTI I SSTRUMENTI DI AI"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: VELOCIZZARE IL LAVORO CONTRO: DIVENTARNE DIPENDENTI, AFFIDARSI TROPPO AGLI STRUMENTI DELL'AI E  RIDURRE LA CAPACITA' DI APPRENDERE E FORMARE UN PENSIERO CRITICO; FATICARE A TROVARE GIUSTE SOLUZIONI A PROBLEMI ED ESSRE AUTONOMI. IL RISCHIO MOLTO ELEVATO  E' QUELLO DI NON DIVENTARE COMPETENTI.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Elenca rischi gravi come la dipendenza e la perdita di autonomia.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "IL RISCHIO MOLTO ELEVATO E' QUELLO DI NON DIVENTARE COMPETENTI"
+        },
+        {
+          "label": "ansia",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "RIDURRE LA CAPACITA' DI APPRENDERE E FORMARE UN PENSIERO CRITICO"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "LA TOTALE SOSTITUZIONE DEL LAVORO  UMANO. IN OGNI ATIVITA' SONO NECESSARIE L'EMPATIA, LE EMOZIONI E IL RAPPORTO DIRETTO CON CIASCUN ALUNNO",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Sottolinea il pericolo della sostituzione totale del lavoro umano.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "LA TOTALE SOSTITUZIONE DEL LAVORO UMANO"
+        }
+      ]
+    }
+  ]
+}

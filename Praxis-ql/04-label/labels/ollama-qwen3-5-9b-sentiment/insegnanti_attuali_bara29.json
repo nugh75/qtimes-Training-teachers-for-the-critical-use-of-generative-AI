@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_bara29.md",
+  "source_name": "insegnanti_attuali_bara29.md",
+  "title": "Risposta bara29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "bara29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:00:24.355302+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.675,
+  "avg_confidence": 0.8625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "sono molto diffidente",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Espressione di forte diffidenza e scetticismo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ritengo giusto sostituire l'attivita' mentale degli alunni con l'AI",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Sostiene che non sia giusto sostituire l'attività mentale."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SOLO CONTRO",
+      "sentiment": "negative",
+      "score": -1.0,
+      "confidence": 1.0,
+      "reason": "Posizione esplicitamente contraria indicata da 'SOLO CONTRO'."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODURRE TESTI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Menzione di un'attività specifica senza giudizio emotivo."
+    }
+  ]
+}

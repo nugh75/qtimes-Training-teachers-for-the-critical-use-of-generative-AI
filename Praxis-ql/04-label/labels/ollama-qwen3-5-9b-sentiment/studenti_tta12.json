@@ -1,0 +1,46 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tta12.md",
+  "source_name": "studenti_tta12.md",
+  "title": "Risposta Tta12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Tta12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:30:09.081887+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 3
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.6,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché preferisco i miei appunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "La risposta 'Non lo so' non esprime né positività né negatività."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "La risposta 'Non lo so' non esprime né positività né negatività."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

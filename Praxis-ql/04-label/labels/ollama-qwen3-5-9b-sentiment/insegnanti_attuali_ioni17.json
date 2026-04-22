@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ioni17.md",
+  "source_name": "insegnanti_attuali_ioni17.md",
+  "title": "Risposta ioni17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ioni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:06:03.135064+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": -0.025,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché gli alunni sono ancora troppo piccoli.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Motivazione fattuale senza giudizio emotivo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non favorisce il pensiero critico e creativo.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.95,
+      "reason": "Critica diretta verso la mancanza di pensiero critico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I vantaggi sono: risparmio di tempo, aumenta le nostre possibilità di conoscenza, personalizzazione. Gli svantaggi sono: riduzione delle relazioni sociali, dipendenza dalla tecnologia.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.85,
+      "reason": "Elenco di vantaggi che supera gli svantaggi."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sostituzione completa nell'elaborazione di un compito.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione descrittiva senza valenza emotiva."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_pena30.md",
+  "source_name": "insegnanti_attuali_pena30.md",
+  "title": "Risposta pena30",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "pena30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:09:57.257590+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.35,
+  "avg_confidence": 0.9125,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non saprei come usarla",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Espressione di incertezza e mancanza di conoscenza sull'uso."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Sono abituata a non usarla e  non la uso,  nemmeno saprei in che modo usarla",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Abitudine a non usare lo strumento e incapacità di utilizzarlo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: Si potrebbe migliorare l'apprendimento in modo più coinvolgente, si possono ottenere  risposte corrette e subito su argomenti che non si conoscono. Contro: Eccesiva dipendenza dell'intelligenza artificiale potrebbe ridurre l'interazione umana nell'insegnamento o pure i professori dovrebbero essere formati adeguatamente per integrarla correttamente nel processo educativo.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco equilibrato di pro e contro sull'uso dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Un uso eccessivo dell'intelligenza artificiale, la dipendenza, il mostrare contenuti apparentemente corretti ma non esistenti nella realtà.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Evidenzia rischi negativi come dipendenza e disallineamento realtà."
+    }
+  ]
+}

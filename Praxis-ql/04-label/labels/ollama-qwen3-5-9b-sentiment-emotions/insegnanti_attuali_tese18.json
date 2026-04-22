@@ -1,0 +1,42 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tese18.md",
+  "source_name": "insegnanti_attuali_tese18.md",
+  "title": "Risposta tese18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tese18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:17:33.882674+00:00",
+  "item_count": 1,
+  "sentiment_counts": {
+    "negative": 1
+  },
+  "emotion_counts": {
+    "preoccupazione": 1
+  },
+  "avg_score": -0.6,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: essere dipendenti dall’AI anche nella quotidianità",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "L'utente esprime opposizione alla dipendenza dall'AI nella vita quotidiana.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "essere dipendenti dall'AI anche nella quotidianità"
+        }
+      ]
+    }
+  ]
+}

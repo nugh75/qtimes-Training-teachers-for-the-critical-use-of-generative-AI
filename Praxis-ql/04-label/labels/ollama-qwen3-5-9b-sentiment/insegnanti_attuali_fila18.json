@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_fila18.md",
+  "source_name": "insegnanti_attuali_fila18.md",
+  "title": "Risposta fila18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "fila18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:04:12.742629+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.85,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Al momento non mi è servito ma non escludo che possa servirmi in futuro per formalure esercizi o schemi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Non è stato utile ora, ma potrebbe esserlo in futuro."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che si può creare una forma di educazione più ampia, variegata e interattiva. I contro sicuramente riguarda l'aspetto più emotivo e psicologo di cosa significhi educare",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.9,
+      "reason": "Pro: educazione più ampia, variegata e interattiva."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non si deve utilizzare nel fare lezione ma può essere visto come un supporto.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Non per lezione, ma come supporto."
+    }
+  ]
+}

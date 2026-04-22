@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_glio26.md",
+  "source_name": "studenti_glio26.md",
+  "title": "Risposta Glio26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Glio26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:23:16.137061+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 2
+  },
+  "avg_score": 0.225,
+  "avg_confidence": 0.85,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco affidarmi alle mie competenze, al mio pensiero e alle mie abilità",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime fiducia nelle proprie competenze e abilità personali."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché preferisco in caso di dubbi nello studio rivolgermi a persone reali che forniscono una risposta più contestualizzata e meno generica e impersonale.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Valuta positivamente l'approccio umano contestualizzato rispetto all'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Ritengo che sia utile affidarsi all’intelligenza artificiale sé questa viene adottata con criterio a fini informativi, come se fosse una grande enciclopedia. L’aspetto negativo risiede nell’uso eccessivo che di essa si può fare, quando ad esempio si delega all’IA il proprio lavoro, escludendo a priori un esercizio e abilità personali.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pesa pro e contro dell'uso dell'IA con equilibrio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Ad esempio pratiche che richiedono l’inserimento di una propria visione personale, una percezione non solo oggettiva, anche un semplice articolo giornalistico, per quanto dovrebbe attenersi all’impersonalità, fa trapelare sempre un velo di soggettività che obbligatoriamente l’affidamento all’IA escluderebbe.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Sottolinea come l'IA escluda la soggettività e la visione personale."
+    }
+  ]
+}

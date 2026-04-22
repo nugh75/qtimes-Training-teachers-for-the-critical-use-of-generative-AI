@@ -1,0 +1,101 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uzzi13.md",
+  "source_name": "insegnanti_attuali_uzzi13.md",
+  "title": "Risposta uzzi13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "uzzi13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:13:24.755581+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "neutral": 4,
+    "positive": 5
+  },
+  "avg_score": 0.388889,
+  "avg_confidence": 0.844444,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, di facile utilizzo ed è possibile modificare in corso d'opera i risultati modificandoli per il mio obiettivo didattico.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Facile utilizzo e possibilità di modificare i risultati."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Semplifico dei materiali per bambini con difficoltà di apprendimento o, al contrario, ricerco materiale un po' più impegnativo per alcuni bambini più dotati.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Semplifica materiali e adatta contenuti ai bisogni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Mostrando loro che le proprie richieste e quindi i loro obiettivi, possono modificare i risultati e che quindi possono modificare e migliorare ciò che l'AI offre loro, con massima attenzione ai dati che ricevono perchè non sempre reali.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Mostra come modificare e migliorare ciò che l'AI offre."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ricerca informazioni sugli stambecchi italiani, tenendo presente che devono emozionare bambini di seconda primaria. Grazie",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Ricerca informazioni emozionanti per bambini di seconda."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ancora, abbiamo cominciato da poco.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Attività appena iniziata, non ancora conclusa."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "A volte riproducono informazioni più interessanti.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "A volte riproducono informazioni più interessanti."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nelle normative di privacy, scolastiche e quindi sugli utilizzi degli strumenti informatici in rete.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Menzione di normative privacy e utilizzi strumenti."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che si riescono ad ottenere facilmente molte informazioni in pochissimo tempo. I contro che le informazioni vanno sempre e comunque verificate e che queste spesso, non sono coerenti al 100%",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pro e contro: informazioni veloci ma da verificare."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nell'insegnamento non possono sostituire la rielaborazione di testi, la creazione degli stessi da parte degli studenti. I testi ricevuti sono come i testi dei libri, gli alunni devono imparare a rielaborare a parole proprie e a scrivere sviluppando il loro intelletto.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Non sostituisce rielaborazione e creazione testi."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etti02.md",
+  "source_name": "studenti_etti02.md",
+  "title": "Risposta Etti02",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Etti02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:33:37.356309+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.525,
+  "avg_confidence": 0.8875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono capace ad utilizzarla, non l’ho mai usata. Sono all’antica.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime incapacità e autoetichettamento come 'all'antica'.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Non sono capace ad utilizzarla"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Sinceramente non saprei da dove iniziare. Ho chiuso i libri 30 anni fa quando mi sono diplomata e sono ancora legata ad una forma di studio ‘arcaica’.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Riconosce un divario generazionale e difficoltà attuali.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Sinceramente non saprei da dove iniziare"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: anche quando non sa le risposte, le dà sbagliate",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Critica l'efficacia dello strumento citato.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "le dà sbagliate"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Medicina",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che indica solo un campo di studio.",
+      "emotions": []
+    }
+  ]
+}

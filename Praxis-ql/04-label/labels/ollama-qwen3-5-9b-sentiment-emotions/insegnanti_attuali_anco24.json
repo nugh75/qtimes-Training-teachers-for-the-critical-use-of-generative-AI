@@ -1,0 +1,101 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anco24.md",
+  "source_name": "insegnanti_attuali_anco24.md",
+  "title": "Risposta anco24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anco24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:02:18.293197+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 4
+  },
+  "emotion_counts": {
+    "ansia": 1,
+    "paura": 2,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.6875,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 1.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ne ho ancora timore",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione esplicita di timore e paura.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Ne ho ancora timore"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Forse non la conosco abbastanza, ne ho ancora timore. Timore che possa non essere utilizzata in modo evolutivo e che possa essere vista come lo strumento che risolve i problemi al posto nostro, rischiando di far utilizzare meno la testa a tutti, educatori e studenti. So che può esserci d'aiuto ma non mi sento a mio agio nell'aiutare l'AI nello sviluppo e nella diffusione, anche per timore che possa sostituirci e non solo aiutarci.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Timore di sostituzione e insicurezza professionale.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "ne ho ancora timore"
+        },
+        {
+          "label": "ansia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "non mi sento a mio agio"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti lascerebbero fare all'AI, perdendo la già poca motivazione",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Paura della perdita di motivazione degli studenti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Gli studenti lascerebbero fare all'AI"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produrre testi al posto degli studenti potrebbe diminuire la loro già scarsa capacità di inventare, creare, ragionare, riflettere. Lo stesso vale per la traduzione.",
+      "sentiment": "negative",
+      "score": -0.65,
+      "confidence": 0.85,
+      "reason": "Preoccupazione per il calo delle capacità cognitive.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "potrebbe diminuire la loro già scarsa capacità"
+        }
+      ]
+    }
+  ]
+}

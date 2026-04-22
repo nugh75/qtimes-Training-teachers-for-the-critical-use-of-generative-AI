@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ruso12.md",
+  "source_name": "studenti_ruso12.md",
+  "title": "Risposta ruso12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ruso12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:29:03.412241+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.233333,
+  "avg_confidence": 0.861111,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ne necessito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa ma neutra sull'utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché varia su molti argomenti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Variazione su molti argomenti vista positivamente."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "la uso per aiutarmi con schemi, per capire un argomento che non mi è chiaro, per sinonimi di parole che sono troppo complicate da ricordare per me, per facilitarmi lo studio in generale.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Aiuto attivo per schemi, comprensione e studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "qual è il sinonimo di sgarbato?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Domanda diretta senza esprimere un giudizio."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "attraverso il suo modo di trasferire informazioni in modo chiaro e schematico e vario.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Modalità chiara, schematica e varia apprezzata."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "ad esempio schematizzando meglio di me un argomento.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Schematizzazione migliore dell'utente apprezzata."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte mi dà risposte errate.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Ricezione di risposte errate da parte dell'AI."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "un pro sicuramente che ti spiega un argomento in modo veloce e riassuntivo, un contro che molto spesso mi è capitato di ricevere risposte più che errate.",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.7,
+      "reason": "Pro e contro bilanciati con un errore frequente."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Mancanza di conoscenza o informazione."
+    }
+  ]
+}

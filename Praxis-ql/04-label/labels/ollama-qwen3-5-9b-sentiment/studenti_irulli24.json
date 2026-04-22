@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_irulli24.md",
+  "source_name": "studenti_irulli24.md",
+  "title": "Risposta irulli24",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "irulli24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:24:28.981713+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.266667,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè ti da delle risposte brevi ma anche approfondite",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'utente esprime soddisfazione per risposte brevi ma approfondite."
+    },
+    {
+      "index": 2,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perche se chiedi un argomento all'intelligenza artificiale di da l'argomento e tu lo devi solo riscrivere e studiare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrizione neutra del processo di studio senza giudizio emotivo."
+    },
+    {
+      "index": 3,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta neutra che indica assenza di preferenze specifiche."
+    }
+  ]
+}

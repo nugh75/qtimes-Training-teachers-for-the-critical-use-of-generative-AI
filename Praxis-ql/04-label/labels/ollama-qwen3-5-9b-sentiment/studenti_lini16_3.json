@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_lini16_3.md",
+  "source_name": "studenti_lini16_3.md",
+  "title": "Risposta Lini16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Lini16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:25:05.215315+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.6,
+  "avg_confidence": 0.845,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che possa influenzarmi e sostituire la rielaborazione dei concetti del mio cervello",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime preoccupazione per l'influenza e la sostituzione dei propri processi cognitivi."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché avrebbe un impatto negativo sul mio andamento",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Indica chiaramente un impatto negativo sul proprio andamento scolastico."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro: solo utilizzo dell’intelligenza artificiale per svolgere il 100% dei xompiti",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Si oppone all'utilizzo esclusivo dell'IA per svolgere completamente i compiti."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "ah boh",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "L'espressione 'ah boh' indica indifferenza o mancanza di una posizione definita."
+    }
+  ]
+}

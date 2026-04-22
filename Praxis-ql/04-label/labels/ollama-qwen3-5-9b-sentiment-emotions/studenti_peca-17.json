@@ -1,0 +1,84 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_peca-17.md",
+  "source_name": "studenti_peca-17.md",
+  "title": "Risposta Peca 17",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Peca 17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:42:55.099777+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 3
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "preoccupazione": 1,
+    "rabbia": 1
+  },
+  "avg_score": -0.8,
+  "avg_confidence": 0.95,
+  "avg_emotions_per_item": 1.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché non voglio",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Rifiuto esplicito motivato dalla preferenza per metodi tradizionali.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Perché non voglio"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "No",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Risposta secca di rifiuto senza ulteriori spiegazioni.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "No"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Perché voglio imparare senza intelligenza artificiale",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.92,
+      "reason": "Opposizione all'uso dell'intelligenza artificiale nell'apprendimento.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "voglio imparare senza intelligenza artificiale"
+        },
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Perché voglio imparare senza intelligenza artificiale"
+        }
+      ]
+    }
+  ]
+}

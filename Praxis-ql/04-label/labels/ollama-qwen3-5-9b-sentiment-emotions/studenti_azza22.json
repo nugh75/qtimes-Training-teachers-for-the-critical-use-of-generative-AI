@@ -1,0 +1,89 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_azza22.md",
+  "source_name": "studenti_azza22.md",
+  "title": "Risposta AZZA22",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "AZZA22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:29:04.207288+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "preoccupazione": 1,
+    "rabbia": 1
+  },
+  "avg_score": -0.225,
+  "avg_confidence": 0.8675,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono abituato e di conseguenza non l'ho mai provata effettivamente",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di esperienza e uso effettivo dello strumento.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Ho pensato che non mi servisse utilizzarla inizialmente mentre ora che si sta diffondendo maggiormente dovrò necessariamente adattarmi e imparare. Non ho un rigetto, semplicemente non ho mai pensato di usarla",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.8,
+      "reason": "Accettazione dell'adattamento senza rigetto o opposizione.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.65,
+          "evidence": "imparare"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro credo siano la possibilità di farsi interrogare come fossimo effettivamente a un vero esame. Come contro mi sembra di notare in alcuni colleghi la completa incapacità di formulare un pensiero senza ausilio di Chat GPT ad esempio. In generale non vedo dei contro se non un utilizzo smodato.",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.9,
+      "reason": "Critica verso l'incapacità di pensare senza ausilio.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "completa incapacità"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Credo che utilizzarla per creare per esempio un tema o un elaborato sia effettivamente scorretto. Probabilmente sarebbe uno strumento da considerare più d'ausilio che fondamentale nella stesura di un testo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.92,
+      "reason": "Giudizio negativo sull'utilizzo scorretto dello strumento.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "effettivamente scorretto"
+        }
+      ]
+    }
+  ]
+}

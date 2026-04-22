@@ -1,0 +1,146 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ovanna.md",
+  "source_name": "insegnanti_attuali_ovanna.md",
+  "title": "Risposta Ovanna",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Ovanna",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:13:22.954672+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "neutral": 4,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 2,
+    "gioia": 1
+  },
+  "avg_score": 0.4,
+  "avg_confidence": 0.844444,
+  "avg_emotions_per_item": 0.444444,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Per creare ambienti di apprendimento",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Creare ambienti di apprendimento è un obiettivo educativo positivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Analizzare grande quantità di informazioni",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive un'attività cognitiva senza esprimere un giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Supporto agli insegnanti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Il supporto agli insegnanti è un concetto generalmente positivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "Supporto agli insegnanti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "graduated guidance (guida graduata),e i prompting simultaneo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrive tecniche didattiche specifiche senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Anche i Bes hanno numerose opportunità di apprendimento",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.75,
+      "reason": "Riconoscere opportunità di apprendimento è un messaggio positivo.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "bassa",
+          "confidence": 0.5,
+          "evidence": "numerose opportunità di apprendimento"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Li rende più consapevoli del loro auto apprendimento",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "La consapevolezza dell'autoapprendimento è un risultato positivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "più consapevoli del loro auto apprendimento"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "La risposta 'Nessuna' indica assenza di contenuto emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Apprendimento attivo e contro chiusura nella relazione",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "L'apprendimento attivo e la relazione sono aspetti positivi.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "Apprendimento attivo e contro chiusura nella relazione"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "La risposta 'Nessuna' indica assenza di contenuto emotivo.",
+      "emotions": []
+    }
+  ]
+}

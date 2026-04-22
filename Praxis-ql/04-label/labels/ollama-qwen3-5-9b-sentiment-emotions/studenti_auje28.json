@@ -1,0 +1,63 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_auje28.md",
+  "source_name": "studenti_auje28.md",
+  "title": "Risposta auje28",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "auje28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:28:43.627542+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché preferisco studiare attraverso i libri",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Motivazione neutra basata su preferenza di studio.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che può essere molto utile il contro invece che un giorno si userà solo quella",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Esprime utilità e vantaggio dell'approccio.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "può essere molto utile"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna perché non le ho mai usate per studiare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Spiegazione fattuale senza valenza emotiva.",
+      "emotions": []
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ummo22.md",
+  "source_name": "studenti_ummo22.md",
+  "title": "Risposta Ummo22",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Ummo22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:47:04.372977+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.5,
+  "avg_confidence": 0.825,
+  "avg_emotions_per_item": 0.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt poiché facile da utilizzare e facilmente accessibile",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Facile da usare e accessibile.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La utilizzo per riorganizzare gli appunti, per spiegare concetti che mi sono poco chiari e anche per tradurre testi in lingua",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Utile per riorganizzare e spiegare.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti tradurmi il testo che sto per fornirti in italiano?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di traduzione, non giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi semplifica la riorganizzazione degli appunti",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Semplifica la riorganizzazione.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi aiuta a comprendere concetti che mi sono poco chiari spiegandomelo in modo più semplice",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Aiuta a comprendere concetti.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Nessuna difficoltà incontrata.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro mi aiuta in ciò che non ho capito bene e contro non sempre mi fornisce ciò che ho richiesto",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.6,
+      "reason": "Pro e contro misti.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "non sempre mi fornisce ciò che ho richiesto"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Può essere usata come supporto ma senza esagerare perché altrimenti non sfruttiamo a pieno le nostre capacità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Supporto ma senza esagerare.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "senza esagerare"
+        }
+      ]
+    }
+  ]
+}

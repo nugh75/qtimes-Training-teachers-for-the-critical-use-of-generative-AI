@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_fazi28.md",
+  "source_name": "insegnanti_attuali_fazi28.md",
+  "title": "Risposta fazi28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "fazi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:10:45.664156+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.25,
+  "avg_confidence": 0.895,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "strumento ancora ininfluente nel campo della performance strumentale di repertori complessi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive uno strumento come ininfluente senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ancora efficace nella pratica esecutiva di repertori complessi",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Indica inefficacia nella pratica esecutiva di compiti complessi.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non ancora efficace nella pratica esecutiva"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "strumento estremamente potente non adeguatamente compensato dal potenziamento delle competenze critiche e metacognitive",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.88,
+      "reason": "Potente strumento ma competenze critiche non adeguatamente compensate.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non adeguatamente compensato dal potenziamento"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "produrre testi, risolvere problemi matematici.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Elenco di funzioni strumentali senza valenza emotiva.",
+      "emotions": []
+    }
+  ]
+}

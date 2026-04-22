@@ -1,0 +1,109 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etti08.md",
+  "source_name": "studenti_etti08.md",
+  "title": "Risposta etti08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etti08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:33:46.253417+00:00",
+  "item_count": 6,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "gioia": 1
+  },
+  "avg_score": 0.383333,
+  "avg_confidence": 0.891667,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "tendo a prendere solo spunto dai prodotti dell’intelligenza artificiale",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Affermazione fattuale senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“ciao, puoi riassumere il file che allego?”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Richiesta diretta e impersonale.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi fa risparmiare tempo e mettermi in pratica",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Parole chiave 'risparmiare tempo' e 'pratica'.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "mi fa risparmiare tempo"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "a volte chiedo di creare dei quota su alcuni argomenti studiati",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Uso attivo e propositivo degli strumenti.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "bassa",
+          "confidence": 0.75,
+          "evidence": "a volte chiedo di creare"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta secca senza contenuto emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "minimo sforzo massima resa",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Massimo sforzo minima resa indica efficienza.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "massima resa"
+        }
+      ]
+    }
+  ]
+}

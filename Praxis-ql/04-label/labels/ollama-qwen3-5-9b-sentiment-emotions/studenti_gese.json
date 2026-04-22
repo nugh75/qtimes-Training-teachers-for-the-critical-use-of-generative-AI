@@ -1,0 +1,138 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gese.md",
+  "source_name": "studenti_gese.md",
+  "title": "Risposta gese",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gese",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:34:52.405905+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 5,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "frustrazione": 1,
+    "gioia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.1125,
+  "avg_confidence": 0.8125,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "genie perché spiega bene",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Esprime soddisfazione per la chiarezza delle spiegazioni.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "spiega bene"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "con il telefono",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta secca senza esprimere opinioni o sentimenti.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di informazioni per determinare il sentimento.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "con informazioni che non ci sono sul libro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Descrizione fattuale senza giudizio emotivo esplicito.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "facendo testi o interrogazioni con parole che prima non conoscevo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "Esprime crescita personale e soddisfazione per l'apprendimento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "parole che prima non conoscevo"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non mi fa studiare bene",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Esprime insoddisfazione per la qualità dello studio.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non mi fa studiare bene"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: informazioni che non ci sono sul libro  contro: non riesco ad apprendere bene dal telefono",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Presenta pro e contro bilanciati senza polarizzazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "non riesco ad apprendere bene"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di informazioni per determinare il sentimento.",
+      "emotions": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_elis07.md",
+  "source_name": "insegnanti_futuri_elis07.md",
+  "title": "Risposta Elis07",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Elis07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:15:09.684491+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.05,
+  "avg_confidence": 0.8875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché sono ancora in grado di vivere senza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Affermazione sulla capacità di vivere senza, senza giudizio emotivo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non conosco gli strumenti per la didattica che potrebbero rivelarsi utili",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Mancanza di strumenti didattici utili percepita come svantaggio."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Il vaglio critico dell'essere umano è imprescindibile soprattutto in relazione alla componente emotiva, in relazione alla creatività umana che è ben diversa da quella generata dall'intelligenza artificiale, in relazione alla creazione di una relazione educativa autentica, in relazione al feedback che può fare un insegnante e anche in qualità di adulto di riferimento",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Enfasi su valore umano, creatività e relazione educativa autentica."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa che indica assenza di elementi da valutare."
+    }
+  ]
+}

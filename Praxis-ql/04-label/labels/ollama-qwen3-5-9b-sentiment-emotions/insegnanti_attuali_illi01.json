@@ -1,0 +1,156 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi01.md",
+  "source_name": "insegnanti_attuali_illi01.md",
+  "title": "Risposta ILLI01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ILLI01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:06:33.894385+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 5,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "frustrazione": 1,
+    "gioia": 1,
+    "paura": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.027778,
+  "avg_confidence": 0.903333,
+  "avg_emotions_per_item": 0.555556,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Riassumere testi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrizione neutra di un'attività di riassunto.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Semplificazione materiali didattici",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrizione neutra di un'attività di semplificazione.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Semplificazione materiali didattici",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrizione neutra di un'attività di semplificazione.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo utilizzando un linguaggio comprensibile a un ragazzo di prima media con scarse capacità lessicali e di comprensione del testo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Istruzione neutra su come riassumere il testo.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha semplificato velocizzato  il mio lavoro a loro favore",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'utente esprime gratitudine per il lavoro facilitato.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Ha semplificato velocizzato il mio lavoro a loro favore"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Grazie alla velocità con cui riesco a diversificare le attività rispetto alle varie esigenze degli studenti",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.88,
+      "reason": "L'utente apprezza la rapidità e la flessibilità.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.82,
+          "evidence": "Grazie alla velocità con cui riesco a diversificare"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Imparo da sola e impiego molto tempo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "L'utente lamenta di impiegare molto tempo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Impiego molto tempo"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: la rapidità e la flessibiltà con cui si preparano materiali di diverso tipo per diverse esigenze educative; avere rapidamente proposte alternative rispetto a una richiesta. CONTRO: lasciare che IA pensi al nostro posto, indebolimento  del pensiero creativo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analisi bilanciata con pro e contro.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "indebolimento del pensiero creativo"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produrre materiali e soluzioni al posto degli studenti. cioè smettere di usare criticamente e creativamente la propria mente",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica forte verso la perdita di pensiero critico.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "smettere di usare criticamente e creativamente la propria mente"
+        }
+      ]
+    }
+  ]
+}

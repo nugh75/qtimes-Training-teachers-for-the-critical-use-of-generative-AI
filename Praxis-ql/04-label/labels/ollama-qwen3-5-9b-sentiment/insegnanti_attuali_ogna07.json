@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ogna07.md",
+  "source_name": "insegnanti_attuali_ogna07.md",
+  "title": "Risposta ogna07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ogna07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:08:31.360428+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.327778,
+  "avg_confidence": 0.855556,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Creazione di immagini, lavagne visive, mappe. Tutto utile alla didattica ed alla crescita personale.",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Tutto utile alla didattica ed alla crescita personale."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Mappe concettuali, schemi, ideazione di testo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco di strumenti didattici senza valutazione esplicita."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Utilizzo di immagini/mapppe, ecc. per arricchire gli argomenti trattati",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Arricchire gli argomenti trattati con immagini e mappe."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea un'immagine raffigurante la città di Leonia di Italo Calvino, inserendo le strade piene di rifiuti, con persone che trovano difficoltà a camminare sui marciapiedi e, sullo sfondo, alti palazzi, con luci molto colorate.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Istruzione per creare un'immagine specifica senza giudizio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha rafforzato l'interesse per gli argomenti trattati, utilizzando l'IA nel cooperative learning, ed ha arricchito di fonti create dagli studenti, gli argomenti di studio.",
+      "sentiment": "positive",
+      "score": 0.95,
+      "confidence": 0.98,
+      "reason": "Ha rafforzato l'interesse e arricchito gli argomenti di studio."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "E' più vicina al loro \"mondo\" di nativi digitali e rende più accattivante la lezione. Utilizza più canali sensoriali rispetto alla lezione frontale ed include un certo grado di partecipazione alla creazione digitale (es. letteratura +  informatica + creatività). Utile altresì nell'elaborazione di mappe concettuali.",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.92,
+      "reason": "Più accattivante, coinvolgente e utile per mappe concettuali."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna difficoltà.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Affermazione di assenza di difficoltà senza valutazione."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: implementazione nella didattica. Contro: uso non consono da parte degli studenti della IA (es. scorciatoie per compiti a cas o in classe...).",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Contro: uso non consono da parte degli studenti della IA."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Attualmente non ritengo ci siano pratiche da sconsigliare. Tuttavia, suggerisco un'ETICA dell'utilizzo, un vademecum scolastico, definito anche a livello Nazionale, per il corretto utilizzo della IA da parte degli studenti.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Nessuna pratica da sconsigliare ma suggerimento etico."
+    }
+  ]
+}

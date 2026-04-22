@@ -1,0 +1,152 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_otta03.md",
+  "source_name": "studenti_otta03.md",
+  "title": "Risposta otta03",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "otta03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:42:45.295900+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 2
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 2,
+    "sollievo": 1
+  },
+  "avg_score": 0.05625,
+  "avg_confidence": 0.84375,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt 4, Claude perché mi aiutano con lo studio e sono molto recettivi e mi aiutano a rielaborare i concetti che devo studiare o a sintetizzarli  o a rispiegarmelo",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Aiuto con lo studio, recettivi e rielaborazione concetti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "mi aiutano con lo studio e sono molto recettivi"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Le faccio fare delle tabelle riassuntive",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrizione di un'azione didattica senza giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat mi puoi spiegare ….",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Richiesta di spiegazione diretta e neutra.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Chiarifica e semplifica concetti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Azione di chiarire e semplificare concetti.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Chiarifica e semplifica concetti"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "avevo bisogno di sintetizzare paragrafi per un esame",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Espressione di un bisogno specifico di sintesi.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte non capisce ciò le chiedo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Non capisce ciò che le chiedo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "A volte non capisce ciò le chiedo"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro ti aiuta a comprendere/ elaborare/ associare ad esempi concreti cose che da sola ci metteresti molti di più  Contro potrebbe fare il lavoro per te",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Analisi bilanciata pro e contro.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Pro ti aiuta a comprendere/ elaborare"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Contro potrebbe fare il lavoro per te"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La completa scrittura di tesi o documenti importanti",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Scrittura completa di tesi o documenti importanti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "La completa scrittura di tesi o documenti importanti"
+        }
+      ]
+    }
+  ]
+}

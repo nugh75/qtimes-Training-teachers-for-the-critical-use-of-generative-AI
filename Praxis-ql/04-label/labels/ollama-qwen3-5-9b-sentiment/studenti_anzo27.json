@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_anzo27.md",
+  "source_name": "studenti_anzo27.md",
+  "title": "Risposta Anzo27",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Anzo27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:18:38.031669+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.222222,
+  "avg_confidence": 0.872222,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo in maniere mirata per specifiche attività di ricerca ma non quotidianamente",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Uso mirato per ricerca, non quotidiano."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT è l’unico che ho provato e mi è molto utile per sintetizzare o creare alternative per la stesura di lavori o per la ricerca scientifica",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Molto utile per sintesi e ricerca scientifica."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per poter fornire alternative all’esposizione orale o all’elaborazione di scritti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Fornisce alternative per esposizione orale o scritti."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti sintetizzare questo concetto e renderlo più esplicito/ potresti fornirmi un esempio con fonte scientifica",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di sintesi e esempio scientifico."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza molto la sintesi di concetti e aiuta nella ricerca di materiale",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Velocizza sintesi concetti e ricerca materiale."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Velocizza i tempi",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Velocizza i tempi."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna difficoltà",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.85,
+      "reason": "Nessuna difficoltà."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il pro è avere un sistema che possa rispondere anche ai dubbi più semplici. Il contro è ovviamente l’utilizzo improprio dello strumento per fare le cose al posto nostro come la produzione di un testo o un lavoro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pro e contro dell'utilizzo improprio dello strumento."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Produrre materiale al posto nostro e sostituire le persone per i propri lavori nella totalità",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Sostituisce le persone per i propri lavori."
+    }
+  ]
+}

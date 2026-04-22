@@ -1,0 +1,53 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_erro26.md",
+  "source_name": "insegnanti_attuali_erro26.md",
+  "title": "Risposta erro26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "erro26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:09:40.784987+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 3
+  },
+  "emotion_counts": {},
+  "avg_score": 0.0,
+  "avg_confidence": 0.883333,
+  "avg_emotions_per_item": 0.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho avuto tempo di provare a farlo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Risposta fattuale che indica mancanza di tempo senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vaga che esprime incertezza senza toni emotivi specifici.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta identica alla precedente, priva di contenuti emotivi rilevanti.",
+      "emotions": []
+    }
+  ]
+}

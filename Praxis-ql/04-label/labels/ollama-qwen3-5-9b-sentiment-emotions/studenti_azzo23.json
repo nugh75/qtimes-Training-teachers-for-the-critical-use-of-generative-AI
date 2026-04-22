@@ -1,0 +1,81 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_azzo23.md",
+  "source_name": "studenti_azzo23.md",
+  "title": "Risposta AZZO23",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "AZZO23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:29:06.932576+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "paura": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.375,
+  "avg_confidence": 0.8125,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "mi spaventa che il mio cervello possa essere sostituito da una macchina",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime paura e spavento per la sostituzione del cervello con una macchina.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "mi spaventa che il mio cervello possa essere sostituito"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "non vorrei che una macchina, un robot, facesse il lavoro al mio posto, togliendomi una parte fondamentale del processo di studio: leggere, comprendere, spremere le meningi.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Esprime preoccupazione per la perdita di autonomia e capacità di studio.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non vorrei che una macchina... facesse il lavoro al mio posto"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "può agevolare lo studio qualora ci si ritrovi davanti ad un paragrafo particolarmente difficile (come può esserlo un testo di filosofia teoretica); può essere nocivo se lo si usa come sostituto al proprio cervello e alla propria capacità di ragionare.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analizza pro e contro in modo bilanciato senza polarizzazione emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Risposta monosillabica priva di contenuto emotivo o sentimentale.",
+      "emotions": []
+    }
+  ]
+}

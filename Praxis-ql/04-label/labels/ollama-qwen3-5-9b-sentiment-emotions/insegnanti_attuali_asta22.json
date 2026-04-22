@@ -1,0 +1,84 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_asta22.md",
+  "source_name": "insegnanti_attuali_asta22.md",
+  "title": "Risposta asta22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "asta22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:03:59.655912+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 3
+  },
+  "avg_score": -0.366667,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.333333,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho ancora la formazione necessaria per farne un corretto utilizzo e non ne conosco ancora tutte le potenzialità",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Mancanza di formazione e conoscenza delle potenzialità.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "non ho ancora la formazione necessaria"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L' IA può aiutare nelle vasi fasi della didattica, dalla progettazione, all'attuazione, alla valutazione degli studenti. Può essere utili a smaltire il lavoro e a personalizzare efficacemente l'apprendimento di ogni singolo alunno: Per contro, a mio avviso, può non aiutare nell'empatia e nel rapporto con i ragazzi e, negli stessa, potrebbe condurli ad uno sbagliato utilizzo della tecnologia.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pesi positivi e negativi bilanciati sull'uso dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "può non aiutare nell'empatia"
+        },
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Può aiutare nelle varie fasi della didattica"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella produzione, nei riassunti e nell'elaborazione di testi. Nella risoluzione di esercizi matematici se non per una verifica finale. In ogni aspetto che possa sostituire lo sviluppo delle abilità degli studenti.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Rischio di sostituire lo sviluppo delle abilità degli studenti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "sostituire lo sviluppo delle abilità degli studenti"
+        }
+      ]
+    }
+  ]
+}

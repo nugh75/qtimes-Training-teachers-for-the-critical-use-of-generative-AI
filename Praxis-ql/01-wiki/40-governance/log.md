@@ -207,3 +207,9 @@ Per tutte le dimensioni: ogni citazione verificata tramite grep sui file raw/ins
 
 ### Nota metodologica
 Per tutte le dimensioni: eliminate sezioni meccaniche "Ulteriori evidenze dalle fonti", summary generici "Sotto-tema che esplora...", pattern ripetitivi "Diversi rispondenti pongono l'accento su...". Citazioni misclassificate rimosse (non trasferite). Riferimenti batch (S1-S6) eliminati. Ogni citazione mantenuta verificata tramite grep su raw/studenti_*.md.
+
+## [2026-04-22] query | aggiornamento dashboard sentiment+emozioni
+
+- Eseguito run `sentiment_emotions_qwen_by_cohort.py` sul corpus operativo con output in `04-label/labels/ollama-qwen3-5-9b-sentiment-emotions/`.
+- Aggiornata dashboard `viz/sentiment` con KPI sentiment+emozioni e grafici su frequenza emozioni e top emozioni per coorte.
+- Aggiornate pagine wiki correlate in `01-wiki/20-labels/` e `01-wiki/30-visualizzazioni/` con nuovi riferimenti dati.

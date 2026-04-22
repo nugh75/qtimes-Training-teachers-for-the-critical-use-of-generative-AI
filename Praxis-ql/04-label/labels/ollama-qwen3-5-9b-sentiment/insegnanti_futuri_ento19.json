@@ -1,0 +1,38 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ento19.md",
+  "source_name": "insegnanti_futuri_ento19.md",
+  "title": "Risposta Ento19",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ento19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:15:17.793026+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1
+  },
+  "avg_score": -0.45,
+  "avg_confidence": 0.965,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Affermazione fattuale senza valenza emotiva."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ridurre la capacità di pensiero degli alunni",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Esprime un impatto dannoso sul pensiero degli alunni."
+    }
+  ]
+}

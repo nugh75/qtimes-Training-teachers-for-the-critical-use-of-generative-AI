@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_dini06.md",
+  "source_name": "insegnanti_futuri_dini06.md",
+  "title": "Risposta dini06",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "dini06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:22:15.483418+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": 0.225,
+  "avg_confidence": 0.7875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco il contatto umano, in quanto non ha solo conoscenze ma anche credenze ed emozioni",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Valorizza il contatto umano, le credenze e le emozioni.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Preferisco il contatto umano"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per lo stesso motivo descritto nella domanda precedente",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Riferimento generico senza contenuto specifico.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ho poca esperienza in merito. Il mio pensiero è che un rapporto educativo si basi sulla relazione, di conseguenza l'IA può/deve essere solo uno strumento e non un motus oprendi",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.7,
+      "reason": "Definisce l'IA come strumento, non motore dell'apprendimento.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "IA può/deve essere solo uno strumento"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Espressione di incertezza e mancanza di conoscenza.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.5,
+          "evidence": "Non saprei"
+        }
+      ]
+    }
+  ]
+}

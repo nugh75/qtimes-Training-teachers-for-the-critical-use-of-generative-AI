@@ -1,0 +1,155 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ioni25.md",
+  "source_name": "studenti_ioni25.md",
+  "title": "Risposta Ioni25",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Ioni25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:36:55.667676+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 2,
+    "fiducia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.277778,
+  "avg_confidence": 0.872222,
+  "avg_emotions_per_item": 0.555556,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota non fornisce informazioni sul sentiment.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt, perché produce risposte immediate e posso parlarci a voce",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Apprezzamento per la velocità e l'interazione vocale.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "risposte immediate e posso parlarci a voce"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo di spiegarmi un determinato concetto in diversi modi",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Richiesta attiva di spiegazioni in diversi modi.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Chiedo di spiegarmi un determinato concetto in diversi modi"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Ciao chatgpt, potresti parlarmi del DOC?”",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.85,
+      "reason": "Semplice richiesta di informazioni senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Perché sembra di avere una conversazione con un’altra persona, e questo mi aiuta a concentrarmi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Percezione positiva dell'interazione conversazionale.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "mi aiuta a concentrarmi"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Attraverso la chat vocale, l’IA mi aiuta spiegandomi a voce degli argomenti, e io propongo altre domande in base a quello che mi dice. Infine, riassumo a chatgpt quello che ho appreso e ricevo un suo feedback",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Descrizione di un ciclo di apprendimento attivo e feedback.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "l'IA mi aiuta spiegandomi a voce"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta negativa assoluta che non esprime emozioni.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono molti: ricerca immediata di informazioni, la multifunzionalità del mezzo. I contro sono: maggiore inquinamento, utilizzo inappropriato dello strumento, aumento della “pigrizia” mentale se utilizzato erroneamente.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco equilibrato di pro e contro senza polarizzazione.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Sicuramente il farsi fare tesi o riassunti, perché produce una riduzione del ragionamento nella persona. È fondamentale utilizzare l’IA come strumento in più, non come una sostituzione del cervello umano.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Preoccupazione per la riduzione del ragionamento umano.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "riduzione del ragionamento nella persona"
+        }
+      ]
+    }
+  ]
+}

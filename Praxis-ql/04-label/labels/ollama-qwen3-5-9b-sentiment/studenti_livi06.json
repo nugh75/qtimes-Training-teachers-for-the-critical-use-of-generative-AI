@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_livi06.md",
+  "source_name": "studenti_livi06.md",
+  "title": "Risposta livi06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "livi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:25:08.415595+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3,
+    "positive": 4
+  },
+  "avg_score": 0.29375,
+  "avg_confidence": 0.84375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, mi da le risposte più complete",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Descrive le risposte come complete."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "posso risolvere dei dubbi che sorgono con lo studio.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Permette di risolvere dubbi di studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi spiegarmi quali sono le differenze tra le scale supplementari e le scale del comportamento?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "È una semplice richiesta di spiegazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "rende più chiaro lo studio",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Rende lo studio più chiaro."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "posso chiedere all’ai di dirmi gli step di un modello che sul libro sono descritti in modo confusionario.",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Aiuta a chiarire modelli confusionari."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "0",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Non contiene informazioni utili."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non sempre le informazioni sono corrette, bisogna sempre avere un’occhio critico. Questo è sia un pro che un contro, perché almeno ti porta a verificare sempre le informazioni e non adagiarsi sul fatto di avere immediatamente la risposta. L’uso dell’Ai può essere utile, l’abuso porta all’impigrimento più totale e ignoranza. Non sempre esiste una sola risposta a un problema, la verità assoluta non ce l’ha nessuno",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.7,
+      "reason": "Analizza pro e contro dell'uso critico."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per qualunque cosa, l’abuso è sempre sbagliato. L’uso consapevole e limitato aiuta a migliorarsi. Ad esempio rispondere a domande di un quiz, può essere usato impropriamente (per copiare a un test) o usarlo per allenarsi e capire a quali risposte si ha dato una risposta corretta. Il fatto di generare un testo può essere uno spunto per creare un nuovo testo scritto da sé, ma può essere anche copiato e incollato e quindi usato impropriamente. Mi rattrista pensare a quanto la mente umana possa essere creativa e vedere tutto questo potenziale sprecato adagiato all’uso dell’Ai, soprattutto in età precoci.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Esprime tristezza per lo spreco del potenziale."
+    }
+  ]
+}

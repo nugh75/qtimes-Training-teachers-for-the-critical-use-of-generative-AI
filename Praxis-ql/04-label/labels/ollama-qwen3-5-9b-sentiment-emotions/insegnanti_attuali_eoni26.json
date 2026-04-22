@@ -1,0 +1,101 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_eoni26.md",
+  "source_name": "insegnanti_attuali_eoni26.md",
+  "title": "Risposta EONI26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "EONI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:09:13.648096+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 4
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "paura": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.825,
+  "avg_confidence": 0.9325,
+  "avg_emotions_per_item": 1.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON HO LE COMPETENZE NECESSARIE",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Espressione esplicita di mancanza di competenze necessarie.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "NON HO LE COMPETENZE NECESSARIE"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "NON HO LA COMPETENZA PER USARE QUESTI STRUMENTI E LA SCUOLA NON è ATTREZZATA PER FORNIRE GLI STRUMENTI ADEGUATI",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.92,
+      "reason": "Mancanza di strumenti e attrezzature adeguate.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "SCUOLA NON è ATTREZZATA PER FORNIRE GLI STRUMENTI ADEGUATI"
+        },
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "NON HO LA COMPETENZA PER USARE QUESTI STRUMENTI"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: UN SOSTEGNO VALIDO, CONTRO: SOSTITUIRE IL DOCENTE",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.88,
+      "reason": "Contro sostituisce il docente con un supporto valido.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "CONTRO: SOSTITUIRE IL DOCENTE"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "LASCIARE CHE L'INTELLIGENZA ARTIFICIALE SOSTITUISCA DEL TUTTO LA FIGURA DEL DOCENTE",
+      "sentiment": "negative",
+      "score": -0.95,
+      "confidence": 0.98,
+      "reason": "Sostituzione totale della figura del docente da parte dell'IA.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.92,
+          "evidence": "LASCIARE CHE L'INTELLIGENZA ARTIFICIALE SOSTITUISCA DEL TUTTO LA FIGURA DEL DOCENTE"
+        }
+      ]
+    }
+  ]
+}

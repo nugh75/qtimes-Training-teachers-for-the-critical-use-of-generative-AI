@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_agna09.md",
+  "source_name": "insegnanti_attuali_agna09.md",
+  "title": "Risposta agna09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "agna09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:58:41.615136+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 6
+  },
+  "avg_score": 0.482222,
+  "avg_confidence": 0.903333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Quizizz ed Edpuzzle poichè i bambini ricevono feedback immediati, che li aiutano ad autocorreggersi e imparare in modo attivo. Canva  è molto funzionale per creare velocemente schede didattiche e infografiche per spiegare concetti difficili in modo visivo.",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Feedback immediati, apprendimento attivo e strumenti funzionali."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l' intelligenza artificiale per creare testi semplificati o tradotti, schede didattiche differenziate, mappe concettuali e test a risposta multipla con supporti visivi.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Creazione di materiali semplificati, differenziati e visivi."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Utilizzo l' intelligenza artificiale per offrire percorsi di approfondimento per incuriosire agli alunni, per proporre sfide cognitive graduate e incoraggiare ciascuno a esprimere una propria eccellenza, sia essa logico-matematica, linguistica o creativa.",
+      "sentiment": "positive",
+      "score": 0.82,
+      "confidence": 0.92,
+      "reason": "Percorsi di approfondimento, sfide cognitive e valorizzazione eccellenze."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Un prompt che propongo è quello relativo alla creazione di una lezione coinvolgente e inclusiva sul ciclo dell' acqua: spiegazione chiara e semplice del ciclo dell’acqua;  immagine descrittiva che rappresenti il ciclo dell’acqua; video esplicativo (con link o suggerimenti); attività manipolativa (ad esempio, creare un modello o fare un esperimento semplice); test di comprensione per monitorare il livello raggiunto (adatte anche a bambini DSA e BES).\"",
+      "sentiment": "positive",
+      "score": 0.78,
+      "confidence": 0.88,
+      "reason": "Lezione coinvolgente, inclusiva e attività manipolative."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L' I A mi permette di monitorare i progressi degli alunni in tempo reale e di intervenire tempestivamente con strategie didattiche mirate. L'uso dell'IA mi permette di proporre attività, come giochi o simulazioni, che rendono l'apprendimento più coinvolgente. Inoltre, mi consente di adattare i contenuti didattici alle esigenze individuali degli allievi.",
+      "sentiment": "positive",
+      "score": 0.88,
+      "confidence": 0.94,
+      "reason": "Monitoraggio progressi, attività coinvolgenti e adattamento contenuti."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "L' intelligenza artificiale mi offre strumenti innovativi per personalizzare l'insegnamento, supportare ogni discente nel proprio percorso educativo e ottimizzare i tempi.",
+      "sentiment": "positive",
+      "score": 0.86,
+      "confidence": 0.93,
+      "reason": "Strumenti innovativi per personalizzazione e ottimizzazione tempi."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Le difficoltà che riscontro sono: una carente formazione di noi docenti e dispositivi non aggiornati.",
+      "sentiment": "negative",
+      "score": -0.75,
+      "confidence": 0.96,
+      "reason": "Formazione carente e dispositivi non aggiornati."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono: personalizzazione del percorso educativo-didattico, apprendimento continuo, sviluppo di competenze digitali e monitoraggio e analisi dei progressi degli allievi. I contro sono: riduzione dell' interazione umana; dipendenza dalla tecnologia e preoccupazione inerente il rischio sulla privacy e sicurezza dei dati.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco bilanciato di pro (personalizzazione) e contro (privacy)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "A mio avviso, l'intelligenza artificiale non dovrebbe mai sostituire la dimensione relazionale, che è essenziale nell'insegnamento, specialmente per quanto riguarda la comprensione, l'empatia e il supporto psicologico. L'integrazione dell'IA nell'educazione dovrebbe avvenire in modo equilibrato, tenendo in considerazione l'equità, la privacy e la personalizzazione del percorso didattico.",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.8,
+      "reason": "Sottolinea limiti relazionali ma propone integrazione equilibrata."
+    }
+  ]
+}

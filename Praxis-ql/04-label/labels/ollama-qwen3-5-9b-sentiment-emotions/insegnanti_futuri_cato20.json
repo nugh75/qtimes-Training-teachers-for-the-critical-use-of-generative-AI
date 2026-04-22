@@ -1,0 +1,73 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_cato20.md",
+  "source_name": "insegnanti_futuri_cato20.md",
+  "title": "Risposta Cato20",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Cato20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:21:57.925051+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1
+  },
+  "avg_score": 0.15,
+  "avg_confidence": 0.905,
+  "avg_emotions_per_item": 0.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Io sono laureata in farmacia e svolgo la professione del farmacista e quindi il mio lavoro non prevede l'uso dell' intelligenza artificiale",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Lavoro diverso non prevede uso di IA.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non utilizzo perché non sono una docente,ma mi sto specializzando per poterlo diventare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Non sono docente, mi sto specializzando.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale nella maggior parte delle situazioni può essere utile per facilitare qualsiasi lavoro,ma non deve sostituirsi del tutto alla mente e al lavoro umano",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "L'IA è utile per facilitare il lavoro.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "può essere utile per facilitare"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei cosa dire perché non ho mai lavorato nel mondo della scuola... Pertanto sono nelle condizioni di non poter rispondere",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.92,
+      "reason": "Non ho mai lavorato nella scuola.",
+      "emotions": []
+    }
+  ]
+}

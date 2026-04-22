@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ioli21.md",
+  "source_name": "insegnanti_futuri_ioli21.md",
+  "title": "Risposta ioli21",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ioli21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:23:36.997902+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.45,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho mai pensato di farlo, senza un particolare motivo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta affermativa di non aver mai pensato di farlo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non mi è capitato di sfruttarla, ma pensamdoci bene perchè non avrei neanche le competenze necessarie per farlo.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Mancanza di competenze e opportunità percepita.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non avrei neanche le competenze necessarie"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho un'esperienza. Tra i pro si potrebbe considerare la possibilità di avere spunti di idee; tra i contro il rischio di un utilizzo inappropriato che azzera la possibilità di sviluppo",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Rischio di utilizzo inappropriato che blocca lo sviluppo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "rischio di un utilizzo inappropriato"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so, ma forse non bisognerebbe sostituire le competenze umane con le competenze \"artificiali\".",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Sostituzione delle competenze umane con quelle artificiali.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non bisognerebbe sostituire le competenze umane"
+        }
+      ]
+    }
+  ]
+}

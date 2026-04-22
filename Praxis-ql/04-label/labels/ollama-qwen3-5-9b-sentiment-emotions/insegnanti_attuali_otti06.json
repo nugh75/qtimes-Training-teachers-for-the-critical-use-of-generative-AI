@@ -1,0 +1,89 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_otti06.md",
+  "source_name": "insegnanti_attuali_otti06.md",
+  "title": "Risposta Otti06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Otti06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:13:03.371380+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": 0.05,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt 4. Mi dà spunti e idee su cui riflettere e creare",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Fornisce spunti e idee utili per riflettere e creare.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Mi dà spunti e idee su cui riflettere e creare"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "A partire dal testo caricato genera 10 domande a risposta multipla con 4 opzioni di risposta di cui solo una corretta",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Istruzione tecnica per generare domande senza valore emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: fornisce idee e spunti, aiuta a creare contenuti su cui riflettere e materiale su cui lavorare Contro: necessita una conoscenza approfondita e adeguata per essere realmente utili, quindi quando ci si approccia in maniera inconsapevole può essere più nocivo che utile",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco pro e contro che bilancia aspetti positivi e negativi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "può essere più nocivo che utile"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nei criteri di valutazione perché l'intelligenza artificiale non tiene conto di parametri umani, come l'imbarazzo, le difficoltà emotive legate a un momento e i progressi sulla base del livello di partenza e dell'impegno messo in campo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Critica l'IA per ignorare parametri umani ed emotivi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "l'intelligenza artificiale non tiene conto di parametri umani"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci20.md",
+  "source_name": "insegnanti_attuali_ucci20.md",
+  "title": "Risposta ucci20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:18:54.456343+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "paura": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.125,
+  "avg_confidence": 0.825,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco progettare le mie attività in modo autonomo; ho facilità nella scrittura e quindi non fatico nella produzione di testi",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime autonomia, facilità e assenza di fatica nella produzione.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "ho facilità nella scrittura e quindi non fatico"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Mi spaventa la delega di alcune attività che io vorrei continuare a fare da sola per non delegare l'aspetto creativo e di progettazione ragionata che fa parte del mio lavoro. Ho sempre studiato molto e amo il mio lavoro perchè mi permette di continuare a studiare e prepararmi, temo di accontentarmi da quello che produce l'AI e perdere il desiderio di approfondire.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Esprime paura di delegare, accontentarsi e perdere il desiderio di approfondire.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Mi spaventa la delega... temo di accontentarmi"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "perdere il desiderio di approfondire"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La delega, l'accesso ad informazioni immediate che non favoriscono il processo deduttivo che è alla base dell'apprendimento per tentativi ed errori.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Critica l'accesso immediato alle informazioni come ostacolo all'apprendimento.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "che non favoriscono il processo deduttivo"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La produzione di testi, la traduzione, la ricerca di informazioni.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Elenco neutro di attività senza esprimere giudizi o emozioni.",
+      "emotions": []
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etta30.md",
+  "source_name": "studenti_etta30.md",
+  "title": "Risposta etta30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etta30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:33:34.455364+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "paura": 1,
+    "preoccupazione": 1,
+    "sollievo": 2
+  },
+  "avg_score": 0.34375,
+  "avg_confidence": 0.76875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassumere, parafrasare, spiegazioni più approfondite, domande di autovalutazione per preparare esami",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Menzione di spiegazioni approfondite e autovalutazione per esami.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "spiegazioni più approfondite"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per riassumere concetti ripetitivi o schematizzare materie complesse",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Utile per schematizzare materie complesse e concetti ripetitivi.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "schematizzare materie complesse"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“parafrasa” “spiegami in maniera più approfondita” “riassumi”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Elenco di comandi senza valutazione esplicita dell'efficacia.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi riduce il carico di lavoro",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Riduce chiaramente il carico di lavoro dello studente.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "mi riduce il carico di lavoro"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi velocizza lo studio e mi aiuta a imparare nuove terminologie",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Velocizza lo studio e aiuta a imparare nuove terminologie.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "mi velocizza lo studio"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "per il momento nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.5,
+      "reason": "Nessuno strumento utile al momento secondo l'utente.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: tempo ridotto, schemi semplificati, riassunti dettagliati , comprensione di temi complessi contro: diventarne dipendenti e non essere in grado di svolgere normali attività senza l’uso di IA, soprattutto se in età troppo precoce",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Preoccupazione per la dipendenza dall'IA e incapacità futura.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "diventarne dipendenti"
+        },
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "non essere in grado di svolgere normali attività"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "risolvere esercizi di logica perché non spiega bene tutti i procedimenti",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.65,
+      "reason": "Strumento usato per risolvere esercizi di logica specifici.",
+      "emotions": []
+    }
+  ]
+}

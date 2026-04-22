@@ -1,0 +1,80 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_daqu04.md",
+  "source_name": "insegnanti_futuri_daqu04.md",
+  "title": "Risposta Daqu04",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Daqu04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:22:07.723371+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.033333,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Il docente spiega esplicitamente le ragioni per cui non insegna.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Perché non insegno"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro aiuta soprattutto in caso di disabilità o fragilità nell'apprendimento. Può creare dipendenza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Descrive pro e contro (dipendenza) di uno strumento didattico.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "Può creare dipendenza"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creare testi spontanei e introspettivi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Il docente esprime l'intenzione di creare testi spontanei.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Creare testi spontanei"
+        }
+      ]
+    }
+  ]
+}

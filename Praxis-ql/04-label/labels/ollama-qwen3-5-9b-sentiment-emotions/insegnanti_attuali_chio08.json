@@ -1,0 +1,78 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_chio08.md",
+  "source_name": "insegnanti_attuali_chio08.md",
+  "title": "Risposta chio08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "chio08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:05:53.226840+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.166667,
+  "avg_confidence": 0.923333,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la utilizzo ancora perché credo di non avere degli strumenti necessari ed adeguati che mi permettano di utilizzarla in modo appropriato. Mi piacerebbe molto informarmi e studiarne meglio le potenzialità, per poterla utilizzare soprattutto con gli studenti con disabilità, in modo da facilitare la creazione di risorse utili per il loro apprendimento.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Mancanza di strumenti adeguati e difficoltà nell'utilizzo appropriato.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "credo di non avere degli strumenti necessari ed adeguati"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Credo sia un ottimo strumento soprattutto dal punto di vista burocratico, per esempio all'interno degli organi collegiali. Permette di velocizzare molte fasi del lavoro. Penso anche che sia necessaria una formazione per gli studenti, per consentire loro di adoperarla in modo consapevole.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Strumento ottimo per la burocrazia e velocizza il lavoro.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Credo sia un ottimo strumento soprattutto dal punto di vista burocratico"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non utilizzerei l'intelligenza artificiale per la creazione di testi, poiché credo che in questo specifico caso vada ad interferire con i processi creativi, con la libertà di immaginazione dei singoli studenti.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.92,
+      "reason": "L'IA interferisce con i processi creativi e la libertà di immaginazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.88,
+          "evidence": "va ad interferire con i processi creativi, con la libertà di immaginazione"
+        }
+      ]
+    }
+  ]
+}

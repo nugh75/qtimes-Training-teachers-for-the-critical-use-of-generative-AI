@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rani05.md",
+  "source_name": "studenti_rani05.md",
+  "title": "Risposta rani05",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "rani05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:28:03.947262+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 4
+  },
+  "avg_score": -0.75,
+  "avg_confidence": 0.92,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ne vedo il bisogno",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione di rifiuto e assenza di bisogno percepito."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "preferisco contare sulle mie sole capacità. le macchine sono comunque programmate dagli esseri umani, e possono comunque commettere errori, ma un errore commesso da una macchina è più difficile da individuare rispetto a quello di una persona, inoltre, trovo che l'utilizzo dell'IA nello studio sia un'agevolazione solo momentanea, che comporterà la mancanza dell'argomento per cui è stato usato nella mente della persona nel momento del bisogno",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Critica all'IA come agevolazione momentanea che danneggia la mente."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: meno tempo impiegato in appunti e schemi; contro: le macchine non sono perfette ma le si danno per tali, quindi in caso di errori spesso non ci si fa caso finchè non è troppo tardi.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Sottolinea che le macchine non sono perfette e gli errori passano inosservati."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fare ricerche al posto dello studente per la scuola, per esempio, perchè non sempre le informazioni sono corretti.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Sottolinea che le informazioni fornite non sono sempre corrette."
+    }
+  ]
+}

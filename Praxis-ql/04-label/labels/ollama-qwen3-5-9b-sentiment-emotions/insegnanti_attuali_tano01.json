@@ -1,0 +1,171 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tano01.md",
+  "source_name": "insegnanti_attuali_tano01.md",
+  "title": "Risposta tano01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tano01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:17:17.270653+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 5,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "entusiasmo": 2,
+    "fiducia": 2,
+    "preoccupazione": 2
+  },
+  "avg_score": 0.235,
+  "avg_confidence": 0.865,
+  "avg_emotions_per_item": 0.6,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non la ritengo necessaria per il momento",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Risposta neutra che esclude la necessità attuale.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "preferisco usare power point per la presentazione di argomenti e lasciare che gli studenti li approfondiscano con le indicazioni che dò loro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Preferenza neutra per PowerPoint rispetto all'AI.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "non la utilizzo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione neutra di non utilizzo dello strumento.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "in questo caso la utilizzo per darmi delle indicazioni operative",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.8,
+      "reason": "Uso positivo per ottenere indicazioni operative.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "la utilizzo per darmi delle indicazioni operative"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "il prompt che di solito creo o è una domanda ben strutturata, oppure indico la tipologia di classe e studenti, l'argomento specifico, le caratteristiche di un eventuale questionario",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Descrizione dettagliata e strutturata dei prompt.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "domanda ben strutturata"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "dopo una ricerca e una selezione di informazioni sul Romanticismo e aver creato una presentazione che hanno relazionato in classe, nell'inserire tale presentazione in piattaforma ho chiesto loro di chiedere all'AI di formulare 5 domande a risposta aperta, alle quali hanno risposto in classe durante la presentazione.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Attivazione positiva degli studenti tramite AI.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "hanno relazionato in classe"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "approfondendo gli argomenti trattati e organizzando la pluridisciplinarità degli stessi",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.8,
+      "reason": "Approccio positivo all'approfondimento e multidisciplinarità.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "approfondendo gli argomenti trattati"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "molta perchè non conosco molto bene la lingua inglese e ho bisogno spesso di un traduttore poichè molte piattaforme sono in lingua inglese",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Difficoltà dovuta alla scarsa conoscenza della lingua.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "non conosco molto bene la lingua inglese"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "come tutte le novità bisogna avere un approccio cauto, ma soprattutto saperla usare in modo adeguato, non deve sostituire il docente",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.75,
+      "reason": "Approccio cauto ma con consapevolezza dell'uso.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "bisogna avere un approccio cauto"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta neutra che esprime incertezza.",
+      "emotions": []
+    }
+  ]
+}

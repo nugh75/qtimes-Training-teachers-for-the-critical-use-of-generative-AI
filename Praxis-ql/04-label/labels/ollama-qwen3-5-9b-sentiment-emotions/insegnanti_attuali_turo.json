@@ -1,0 +1,80 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_turo.md",
+  "source_name": "insegnanti_attuali_turo.md",
+  "title": "Risposta turo 16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "turo 16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:18:36.432914+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.033333,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno temporaneamente sul sostegno, per ora non è adattabile alle strategie didattiche che sto applicando",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Esprime un limite attuale e inadattabilità delle strategie didattiche.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "per ora non è adattabile alle strategie didattiche"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere molto stimolante ma allo stesso tempo potrebbe essere utilizzata in modi non adeguati al contesto didattico, evitando agli studenti di sviluppare le loro capacità.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Pregi e rischi bilanciati, con rischio di non sviluppare capacità.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "potrebbe essere utilizzata in modi non adeguati"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I ragazzi devono essere in grado di sviluppare pensieri personali, svolgere esercizi, risolvere problemi ecc in modo autonomo, l'AI deve solo essere uno strumento per potenziare le loro abilità già sviluppate, invitandoli ad approfondimenti e riflessioni.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Definisce l'AI come strumento per potenziare abilità esistenti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "l'AI deve solo essere uno strumento per potenziare"
+        }
+      ]
+    }
+  ]
+}

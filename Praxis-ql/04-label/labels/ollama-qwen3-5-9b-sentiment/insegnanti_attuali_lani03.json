@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lani03.md",
+  "source_name": "insegnanti_attuali_lani03.md",
+  "title": "Risposta lani03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "lani03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:06:47.448514+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2
+  },
+  "avg_score": -0.133333,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "devo ancora capire bene come poterla utilizzare in maniera efficace",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di incertezza e bisogno di comprensione."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Stando in classe, ho notato che spesso gli studenti hanno trovato nell'IA non tanto un \"supporto per\" quanto un modo per sottrarsi da alcune attività (ricerche online, sintesi di testi, produzione di testi ecc.). Tra i possibili contro che vedo c'è la mancanza di motivazione. Tra i pro: la possibilità di usare l'AI, in una fase posteriore, per dare una forma a un testo prodotto in precedenza. Infine credo possa essere utile per l'insegnante in fase di valutazione.",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Evidenzia rischi, demotivazione e uso improprio dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta vaga che indica mancanza di conoscenza."
+    }
+  ]
+}

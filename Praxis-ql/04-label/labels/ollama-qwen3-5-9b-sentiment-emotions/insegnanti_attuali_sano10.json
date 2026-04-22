@@ -1,0 +1,97 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_sano10.md",
+  "source_name": "insegnanti_attuali_sano10.md",
+  "title": "Risposta SANO10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "SANO10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:16:22.607605+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "ansia": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.3,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON HO AVUTO MODO",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione di incapacità e mancanza di opportunità.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "NON HO AVUTO MODO"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "MOMENTANEAMENTO NON MI SENTO PREPARATA",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Senso di inadeguatezza e insicurezza professionale.",
+      "emotions": [
+        {
+          "label": "ansia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "NON MI SENTO PREPARATA"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SI RISPARMIA TEMPO NELLA REALIZZAZIONE DI PROGETTAZIONI ELIMINANDO ERRORI. LA LIMITAZIONE DELLE PROPRIE CAPACITA'",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Riconoscimento dei benefici in termini di efficienza.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "SI RISPARMIA TEMPO NELLA REALIZZAZIONE"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'ECCESSIVA DIPENDENZA NELLA RISOLUZIONE AUTOMATICA DI TEST E COMPITI. PERCHE' POTREBBE RIDURRE L'IMPORTANZA INSEGNANTE- ALUNNO",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Preoccupazione per l'erosione del ruolo docente.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "PERCHE' POTREBBE RIDURRE L'IMPORTANZA INSEGNANTE- ALUNNO"
+        }
+      ]
+    }
+  ]
+}

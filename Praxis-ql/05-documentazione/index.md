@@ -17,6 +17,7 @@ Benvenuto nel wiki del progetto Praxis-ql.
 - [Governance Corpus PRAXIS](governance-corpus.md)
 - [Progetto di allineamento](progetto-allineamento.md)
 - [Pipeline canonica dati -> corpus](pipeline-dati-corpus.md)
+- [Proposta estensione sentiment + emozioni (Qwen)](proposta-sentiment-emozioni-qwen.md)
 - [Fase Opus storica](fase-opus-storica.md)
 - [Registro decisionale wiki-vs-label](../01-wiki/40-governance/decision-log-wiki-vs-label.md)
 - [Tabella tracciabilita end-to-end](tracciabilita-e2e.md)

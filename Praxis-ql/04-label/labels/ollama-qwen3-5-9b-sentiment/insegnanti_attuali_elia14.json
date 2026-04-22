@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elia14.md",
+  "source_name": "insegnanti_attuali_elia14.md",
+  "title": "Risposta elia14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "elia14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:01:51.280555+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.425,
+  "avg_confidence": 0.9125,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "fino ad ora non mi è servita",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'utente afferma esplicitamente che lo strumento non gli è servito finora."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora utilizzato l'IA nella didattica perché non ne ho ravvisato la necessità, ma non escludo che in futuro potrei utilizzarla.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Non ha ancora usato l'IA per mancanza di necessità, ma non esclude il futuro."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I \"Pro\" dell'uso dell'IA nell'educazione consistono in un risparmio di tempo nell'organizzazione e nella scrittura di documenti che poi potrebbero comunque essere modificati a seconda delle proprie esigenze. Di \"Contro\" ci si potrebbe affidare troppo o completamente all'IA senza lasciare spazio all'elaborazione delle proprie idee e alla costruzione del proprio pensiero critico.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Elenca sia pro (risparmio tempo) che contro (perdita pensiero critico) in modo bilanciato."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non condivido affidare la valutazione delle capacità, delle abilità e delle competenze all'IA perché questa implica un processo che coinvolge tantissimi aspetti che un computer non potrebbe mai considerare appieno.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Non condivide l'uso dell'IA per la valutazione, ritenendola inadeguata."
+    }
+  ]
+}

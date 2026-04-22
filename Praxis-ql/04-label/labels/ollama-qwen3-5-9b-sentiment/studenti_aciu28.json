@@ -1,0 +1,92 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aciu28.md",
+  "source_name": "studenti_aciu28.md",
+  "title": "Risposta ACIU28",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ACIU28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:17:54.430068+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 6
+  },
+  "avg_score": 0.5625,
+  "avg_confidence": 0.8725,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat Gpt, semplice da utilizzare, intuitivo",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Descrive lo strumento come semplice e intuitivo."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Sinonimi, trovare spunti e idee da portare avanti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Permette di trovare spunti e idee utili."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "quali teorie parlano di questo argomento. trova idee da sviluppare. come potrei continuare. traduci questo testo. trova sinonimi. riformula.",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.92,
+      "reason": "Aiuta a trovare idee e a sviluppare teorie."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi permette di trovare testi che non avrei trovato autonomamente o con maggiore velocità. mi permette di confrontare simultaneamente diverse teorie e approcci.",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.98,
+      "reason": "Trova testi autonomamente e confronta teorie."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "più veloce",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Indica che lo studio è più veloce."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "lavorare autonomamente senza ricorrere a questi strumenti una volta che si è iniziati ad utilizzare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Suggerisce l'autonomia senza bisogno di aiuto."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "studio più veloce",
+      "sentiment": "positive",
+      "score": 0.65,
+      "confidence": 0.88,
+      "reason": "Afferma che lo studio avviene più velocemente."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "completare i compiti. dovrebbero solo fornire aiuti",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.7,
+      "reason": "Completa compiti ma richiede solo aiuti."
+    }
+  ]
+}

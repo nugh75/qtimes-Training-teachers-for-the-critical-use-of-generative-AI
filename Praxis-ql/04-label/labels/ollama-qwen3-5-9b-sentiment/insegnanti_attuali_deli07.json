@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_deli07.md",
+  "source_name": "insegnanti_attuali_deli07.md",
+  "title": "Risposta deli07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "deli07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:01:24.803359+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.425,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La tecnologia sta annientado la fantasia, l'aspetto emotivo dello studente e del docente, l'empatia e la ricerca tecniche di interazione",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Parole come 'annientare' e 'aspetto emotivo' indicano un impatto fortemente negativo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè a mio avviso annulla la personalità di ogni essere ed il valore umano che ognuno può dare.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Esprime preoccupazione per l'annullamento della personalità e del valore umano."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: comodità nell'attirare attenzione, contro:Tutt il non interesse su tutto ciò che è legato alla fantasia e alla personalizzazione",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Presenta sia pro che contro, mostrando un bilancio equilibrato delle opinioni."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non utilizzandole non ne conosco in maniera approfondita",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiara di non conoscere la tecnologia, esprimendo neutralità e mancanza di opinione."
+    }
+  ]
+}

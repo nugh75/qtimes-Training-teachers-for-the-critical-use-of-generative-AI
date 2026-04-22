@@ -1,0 +1,138 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enzi06.md",
+  "source_name": "insegnanti_attuali_enzi06.md",
+  "title": "Risposta enzi06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enzi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:09:00.180130+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1,
+    "positive": 5
+  },
+  "emotion_counts": {
+    "preoccupazione": 3
+  },
+  "avg_score": 0.261111,
+  "avg_confidence": 0.844444,
+  "avg_emotions_per_item": 0.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Utilizzo molto Canva perché al suo interno ha diversi strumenti che permettono di lavorare anche in lingua straniera.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Menziona strumenti utili per lavorare in lingua straniera.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di contenuti specifici e fruibili.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Evidenzia la creazione di contenuti fruibili.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di contenuti personalizzati.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Sottolinea la creazione di contenuti personalizzati.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "- \"Scrivi una biografia dell'autore in 50 parole\".  - \"Crea una mappa concettuale sull'argomento X\".  - \"Crea un'immagine in cui ci siano gli elementi X, Y, Z\".",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Elenco di istruzioni senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "I contenuti sono immediati e il fatto di utilizzare strumenti a loro familiari è estremamente utile.",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Strumenti familiari risultano estremamente utili.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Si possono creare dei contenuti estremamente sintetici e facilmente fruibili e gli studenti possono imparare a ricrearli.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "Contenuti sintetici, fruibili e imitabili dagli studenti.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Gli studenti tendono spesso a far sì che l'IA si sostituisca a loro (ad esempio traducendo un testo o svolgendo un esercizio al posto loro). Noi docenti dovremmo fare in modo che gli studenti non diventino fruitori acritici e passivi ma che imparino ad utilizzare questi strumenti in maniera attiva e critica, riconoscendone i limiti.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Rischio di fruizione acritica e passiva da parte degli studenti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "fruitori acritici e passivi"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro elencherei soprattutto la possibilità di creare contenuti personalizzati e originali in tempi molto ridotti. Tra i contro sicuramente direi che attualmente riscontro una preoccupante deriva nell'utilizzo dell'IA che porta spesso anche noi docenti ad utilizzare questi strumenti in maniera acritica.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Preoccupante deriva nell'utilizzo acritico dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "preoccupante deriva"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "In quanto docente di lingue straniere, la pratica che in assoluto mi sento di sconsigliare è quella relativa alla traduzione.",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.75,
+      "reason": "Sconsiglia la traduzione come pratica da evitare.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "pratica che in assoluto mi sento di sconsigliare"
+        }
+      ]
+    }
+  ]
+}

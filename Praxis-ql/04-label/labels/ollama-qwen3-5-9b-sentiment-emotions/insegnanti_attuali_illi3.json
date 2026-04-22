@@ -1,0 +1,94 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi3.md",
+  "source_name": "insegnanti_attuali_illi3.md",
+  "title": "Risposta illi3",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "illi3",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:06:49.099166+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 3
+  },
+  "avg_score": -0.4,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L'USO DELL'INTELLIGENZA ARIFICIALE  LIMITA LE PROPRIE CAPACITA' E RIDUCE DRASTICAMENTE I RAPPORTI  UMANI",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.95,
+      "reason": "Esprime limitazione delle capacità e riduzione drastica dei rapporti umani.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "riduce drasticamente i rapporti umani"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "PERCHE' RIDUCE LO SVILUPPO DI ELABORAZIONE DEI CONTENUTI E RIDUCE IL RAPPORTO TRA PARI E TRA STUDENTE E INSEGNANTE",
+      "sentiment": "negative",
+      "score": -0.75,
+      "confidence": 0.9,
+      "reason": "Indica riduzione dello sviluppo e del rapporto tra pari e docente.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "riduce il rapporto tra pari e tra studente e insegnante"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'INTELLIGENZA ARIFICIALE CONSENTE UN PROCESSO DI APPRENDIMENTO PIU' DINAMICO E PER CERTI ASPETTI PIU' INCLUSIVO, MA LIMITA I RAPPORTI UMANI TRA PARI E TRA DOCENTE E STUDENTE",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Mantiene un tono bilanciato tra aspetti positivi e negativi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "ma limita i rapporti umani"
+        },
+        {
+          "label": "fiducia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "consente un processo di apprendimento più dinamico"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione fattuale di non utilizzo senza giudizio emotivo.",
+      "emotions": []
+    }
+  ]
+}

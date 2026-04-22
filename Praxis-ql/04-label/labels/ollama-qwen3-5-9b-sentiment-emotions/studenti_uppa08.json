@@ -1,0 +1,95 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_uppa08.md",
+  "source_name": "studenti_uppa08.md",
+  "title": "Risposta Uppa08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Uppa08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:47:10.214753+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 2,
+    "rabbia": 1
+  },
+  "avg_score": -0.25,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per il momento cerco di farne a meno/ non mi è indispensabile",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Esprime un'indifferenza o una scelta di evitare l'uso.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Cerco di farne a meno, non mi è indispensabile dunque utilizzo altri strumenti per studiare",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.9,
+      "reason": "Indica un rifiuto attivo e la ricerca di alternative.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Cerco di farne a meno"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: il risultato non è frutto del nostro cervello, non promuove l’intuizione Pro: aiuta ad avere i risultati nel minor tempo possibile e con meno sforzi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro in modo bilanciato e oggettivo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "non promuove l'intuizione"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat GPT per scrivere le tesi perché dovrebbe essere un lavoro personale, molti articoli parlano del problema del plagio in particolare modo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.95,
+      "reason": "Esprime un forte disaccordo basato su etica e plagio.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "dovrebbe essere un lavoro personale"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "problema del plagio"
+        }
+      ]
+    }
+  ]
+}

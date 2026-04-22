@@ -1,0 +1,162 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ella19.md",
+  "source_name": "studenti_ella19.md",
+  "title": "Risposta ella19",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ella19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:31:37.086487+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "rabbia": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.20625,
+  "avg_confidence": 0.86875,
+  "avg_emotions_per_item": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chagpt perchè riesce a spiegare concetti complessi in una forma più semplice e comprensibile.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Spiega concetti complessi in modo semplice e comprensibile.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "forma più semplice e comprensibile"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per comprendere alcuni argomenti e creare dei collegamenti tra temi diversi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Permette di comprendere argomenti e creare collegamenti.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "creare dei collegamenti tra temi diversi"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "dare un'istruzione a un assistente virtuale",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrive un'azione funzionale senza esprimere giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Ricevendo una spiegazione migliore",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Ricevendo una spiegazione migliore indica soddisfazione.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "spiegazione migliore"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Riesco a creare più collegamenti e a trovare analogie tra temi differenti",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "Permette di creare collegamenti e trovare analogie.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "trovare analogie tra temi differenti"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non sempre forniscono spiegazioni corrette",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Non sempre forniscono spiegazioni corrette.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Non sempre forniscono spiegazioni corrette"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "L'affidarsi all'AI può rappresentare entrambi: da una parte ti aiuta in vari compiti, dall'altra c'è il rischio che non si venga aiutati in modo totalmente corretto",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Riconosce sia vantaggi che rischi dell'uso dell'AI.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "rischio che non si venga aiutati"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chatgpt perchè non sempre da informazioni corrette e non crea mappe concettuali",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Non dà informazioni corrette e non crea mappe.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "non sempre da informazioni corrette"
+        }
+      ]
+    }
+  ]
+}

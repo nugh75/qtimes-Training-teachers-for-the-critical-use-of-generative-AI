@@ -1,0 +1,96 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_boni47.md",
+  "source_name": "insegnanti_attuali_boni47.md",
+  "title": "Risposta Boni47",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Boni47",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:05:01.749758+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.905,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non la conosco",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta neutra che indica semplice ignoranza del soggetto.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ne ho sentito parlare ma ancora non l'ho mai utilizzata",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta neutra che descrive una situazione di non utilizzo.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "ne ho sentito parlare"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro - L'inutilizzo dell'intelligenza umana a favore di quella digitale e l'eventuale inesattezza dei feedback. Pro - supporto e ottimizzazione dei tempi nel lavoro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Misto di critiche e apprezzamenti che si bilanciano.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "inesattezza dei feedback"
+        },
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "supporto e ottimizzazione"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei proprio perché non competente!",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.92,
+      "reason": "Autodefinizione negativa dovuta a mancanza di competenza.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "non competente"
+        }
+      ]
+    }
+  ]
+}

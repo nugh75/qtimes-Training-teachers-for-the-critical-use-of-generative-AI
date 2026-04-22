@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rdis30.md",
+  "source_name": "studenti_rdis30.md",
+  "title": "Risposta Rdis30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Rdis30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:28:21.565200+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.283333,
+  "avg_confidence": 0.894444,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta vuota non contiene informazioni sul sentiment."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è semplice da utilizzare",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Descrive l'AI come semplice da utilizzare."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Integro le spiegazioni fornite dall’intelligenza artificiale, utilizzo delle domande per ripetere, o degli schemi",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Integra spiegazioni e aiuta a ripetere concetti."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi spiegare questo concetto",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "È una richiesta di spiegazione, non un giudizio."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi offre una spiegazione semplice e riassuntiva alle mie domande",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Offre spiegazioni semplici e riassuntive utili."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi permette di comprendere meglio un concetto difficile e di ricordarlo  Mi aiuta a creare delle mappe che strutturano e organizzano il mio studio",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Aiuta a comprendere, ricordare e organizzare lo studio."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Attualmente non ho riscontrato difficoltà",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Afferma assenza di difficoltà, ma non elogia."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo, i contro è che molte volte l’intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenca pro e contro con tono equilibrato."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nello svolgere compiti, verifiche, test ecc., in quanto l’uso dell’intelligenza artificiale non permette di andare a valutare correttamente il soggetto in base alle proprie conoscenze.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica l'uso dell'AI per valutare le conoscenze."
+    }
+  ]
+}

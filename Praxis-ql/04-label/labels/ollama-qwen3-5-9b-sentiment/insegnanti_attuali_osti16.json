@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_osti16.md",
+  "source_name": "insegnanti_attuali_osti16.md",
+  "title": "Risposta osti16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "osti16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:09:08.128288+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1,
+    "positive": 2
+  },
+  "avg_score": 0.1,
+  "avg_confidence": 0.8125,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ho poca capacità io di utilizzarla ma credo anche che il rapporto umano, che oggi va spesso a mancare, va utilizzato molto nelle scuole",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Valorizza il rapporto umano spesso mancante nelle scuole."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho grandi competenze pratiche per poterla utilizzare soprattutto perchè non mi affascina e perchè credo che che viene utilizzata già troppo e troppo presto per poterla proporre anche a scuola.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Esprime mancanza di interesse e critica l'uso precoce."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono il fascino e l'attrazione che hanno oggi nei confronti dei ragazzi quindi aiuta ad attrarre la loro attenzione i contro hanno la stessa motivazione dei pro e a mio parere serve consolidare e favoreggiare il rapporto interpersonale nell'educazione e nella didattica",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Elenca pro e contro in modo equilibrato senza giudizio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Credo che più che non utilizzare delle pratiche occorre introdurre queste pratiche in maniera protetta, corretta e solo a partire da una certa età. Credo che andrebbero inserite gradualmente dalle ultime classi della primaria, non prima e che i docenti debbano prima essere formati adeguatamente per questo.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Propone un approccio graduale e corretto all'introduzione."
+    }
+  ]
+}

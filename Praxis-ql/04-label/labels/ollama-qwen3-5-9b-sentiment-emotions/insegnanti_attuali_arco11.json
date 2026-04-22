@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_arco11.md",
+  "source_name": "insegnanti_attuali_arco11.md",
+  "title": "Risposta Arco11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Arco11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:02:59.569626+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.275,
+  "avg_confidence": 0.825,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota non contiene informazioni emotive.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non sono formata abbastanza",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Esprime insoddisfazione per la mancanza di formazione.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Perché ancora non sono formata abbastanza"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: perdita del pensiero critico e plagio di testi.pro,: aiuta chi èIn difficoltà, può correggere esercizi, generare o suggerire attività facilitando il lavoro dell’insegnante.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Mischia pro e contro senza polarizzazione netta.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "perdita del pensiero critico e plagio di testi"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Che l’intelligenza artificiale si possa sostituire Alla spiegazione dell’insegnante che può dare molteplici spunti e Interazioni col discente.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.75,
+      "reason": "Sottolinea limiti dell'IA rispetto all'insegnante.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Che l'intelligenza artificiale si possa sostituire Alla spiegazione dell'insegnante"
+        }
+      ]
+    }
+  ]
+}

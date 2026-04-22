@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gemi14.md",
+  "source_name": "studenti_gemi14.md",
+  "title": "Risposta gemi14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gemi14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:22:50.823267+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.325,
+  "avg_confidence": 0.8625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non mi è pratica",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di incertezza o mancanza di esperienza sulla pratica."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché preferisco studiare di testa mia",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Preferenza per lo studio autonomo, rifiuto dell'approccio suggerito."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "come pro sicuramente si risparmia del tempo, mentre come contro mi verrebbe da dire che non ci si impegna più come si sarebbe fatto senza",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analisi bilanciata tra vantaggi di risparmio tempo e svantaggi di impegno."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "personalmente non raccomanderei utilizzare come pratica di studio l'IE che risolva completamente un problema o un compito poiché impegna di meno la nostra mente facendoci sembrare perfetti in tutto",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Non raccomandazione dell'uso dell'IE per risolvere completamente i problemi."
+    }
+  ]
+}

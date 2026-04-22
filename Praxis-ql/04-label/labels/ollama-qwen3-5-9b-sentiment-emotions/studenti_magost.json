@@ -1,0 +1,158 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_magost.md",
+  "source_name": "studenti_magost.md",
+  "title": "Risposta magost",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "magost",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:38:39.637981+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 3,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "fiducia": 2,
+    "frustrazione": 2,
+    "preoccupazione": 2,
+    "sollievo": 1
+  },
+  "avg_score": 0.13125,
+  "avg_confidence": 0.86875,
+  "avg_emotions_per_item": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassunti perché riesco a rilevare i concetti più importanti",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Esprime soddisfazione per aver rilevato i concetti importanti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "riesco a rilevare i concetti più importanti"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Inviandole un oggetto interessato e chiedendole di trovarmi i concetti più importanti all’interno di esso",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive un'azione neutra di delega per trovare concetti.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Puoi rilevarmi i contenuti più importanti di questo testo”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Formula una richiesta diretta senza esprimere emozioni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendomi comprendere come si identificano all’interno di un brano le cose più importanti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.88,
+      "reason": "Indica comprensione e apprendimento del metodo di identificazione.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "facendomi comprendere come si identificano"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho imparato a riassumere e a trovare i concetti più importanti",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.92,
+      "reason": "Dichiara di aver imparato a riassumere e trovare concetti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Ho imparato a riassumere e a trovare i concetti più importanti"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che non sempre convengo con ciò che vi è scritto",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Esprime disaccordo con quanto scritto nel testo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "non sempre convengo con ciò che vi è scritto"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che spesso riesce a “semplificare” lo studio per certi aspetti, i contro che non sempre la reputo affidabile",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.75,
+      "reason": "Elenca pro e contro in modo equilibrato e oggettivo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "non sempre la reputo affidabile"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "In alcuni casi mi sono ritrovata a chiedere a ChatGPT di crearmi degli esercizi e una volta fatti avrei visto le risposte…diciamo che non mi sono trovata con le risposte che mi ha fornito… Ho chiesto di ricontrollare se fossero giusti e ChatGPT è convenuto con me che sul fatto che ci fossero degli errori",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Rileva errori e insoddisfazione per le risposte fornite.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "non mi sono trovata con le risposte che mi ha fornito"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "ci fossero degli errori"
+        }
+      ]
+    }
+  ]
+}

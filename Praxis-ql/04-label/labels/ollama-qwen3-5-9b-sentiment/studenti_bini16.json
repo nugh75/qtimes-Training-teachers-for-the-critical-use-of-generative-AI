@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_bini16.md",
+  "source_name": "studenti_bini16.md",
+  "title": "Risposta BINI16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "BINI16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:19:47.462461+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 3
+  },
+  "avg_score": 0.20625,
+  "avg_confidence": 0.8625,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt, mi aiuta a comprendere argomenti complicati o spiegati male, mi aiuta a rendere più completo il materiale di studio. in questo modo apprendo meglio e più velocemente",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Aiuta a comprendere meglio e apprende più velocemente."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "integrazione di info",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menzione generica di integrazione di informazioni."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao! potresti spiegarmi meglio questo? “___”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di chiarimenti, non un giudizio sul servizio."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi permette di velocizzare il mio processo di apprendimento su argomenti complicati, specialmente se il materiale che possiedo è incompleto",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Velocizza l'apprendimento su argomenti complicati."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ad esempio quest’anno mi sono preparata per un esame molto lungo che non aveva materiale adeguato, i blocchi di slide erano incompleti e non sapevo da dove studiare. l’IA mi ha aiutato a completare il materiale.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.85,
+      "reason": "Aiuta a completare materiale di studio inadeguato."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "informazioni errate nelle risposte dell’IA",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Presenza di informazioni errate nelle risposte."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro = maggiore velocità e completezza, comprensione più chiara del materiale. contro = eccessive informazioni oppure utilizzo dell’ia anche quando non è necessaria",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Elenco bilanciato di pro e contro."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non saprei",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di conoscenza o opinione specifica."
+    }
+  ]
+}

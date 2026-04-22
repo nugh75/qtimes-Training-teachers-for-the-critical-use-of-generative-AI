@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cchi25.md",
+  "source_name": "insegnanti_attuali_cchi25.md",
+  "title": "Risposta cchi25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cchi25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:00:59.674094+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 1,
+    "positive": 2
+  },
+  "avg_score": 0.433333,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non mi sono ancora formata a dovere circa l'IA nel mio campo d'insegnamento",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Esprime un'insufficienza formativa senza giudizio positivo o negativo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro- snellisce il lavoro facilitandolo e accorciandone le tempistiche contro- deve essere usato con consapevolezza e da un pubblico più adulto (scuola secondaria di secondo grado)",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.9,
+      "reason": "Sottolinea i benefici di snellimento e facilitazione del lavoro."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Se in ausilio e a supporto dell'insegnante come anche facilitatori per studenti bes o dsa non penso ci debbano essere limitazioni. Tutto sta nell'aver in mente l'obiettivo d'uso e la relativa competenza in adeguamento al pubblico per cui viene utilizzata",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Sostiene l'uso dell'IA come ausilio e supporto senza limitazioni."
+    }
+  ]
+}

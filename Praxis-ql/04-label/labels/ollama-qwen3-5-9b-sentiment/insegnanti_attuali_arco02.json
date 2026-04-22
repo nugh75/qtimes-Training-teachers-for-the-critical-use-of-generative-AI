@@ -1,0 +1,55 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_arco02.md",
+  "source_name": "insegnanti_attuali_arco02.md",
+  "title": "Risposta arco02",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "arco02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:59:20.352238+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 4
+  },
+  "avg_score": -0.7,
+  "avg_confidence": 0.92,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Lavorando con bambini di classe prima di scuola primaria  mi sembra prematuro usare l'intelligenza artificiale",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Considera l'uso dell'IA prematuro per bambini di prima elementare."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "insegno in una classe prima di scuola primaria e non credo si possa utilizzare l'IA con dei bambini di 6 anni. Forse in futuro la utilizzerò",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Non crede opportuno usare l'IA con bambini di sei anni."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Insegno in un ambiente classe dove la maggior parte degli alunni sono stranieri e non tutti hanno a disposizione risorse tecnologiche necessarie. Utilizzando l'IA, andrei a creare un divario digitale. Questi sono i contro. I pro per l'uso dell'IA: facilita l'apprendimento, la formazione e l'informazione, offrendo agli alunni nuove opportunità,",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Sottolinea il rischio di creare un divario digitale tra gli alunni."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'utilizzo dell'IA, a mio avviso, rende gli studenti meno autonomi sia nel pensiero che nella risoluzione dei problemi. E' inammissibile che l'IA si sostituisca all'alunno per fare un tema o un riassunto. Si andrà a  perde, così, la capacità critica e si verificherà sempre più una eccessiva dipendenza.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Sostiene che l'IA renda gli studenti meno autonomi e critici."
+    }
+  ]
+}

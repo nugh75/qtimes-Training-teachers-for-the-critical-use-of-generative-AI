@@ -1,0 +1,4 @@
+cohort,items_total,positive,neutral,negative,avg_score,avg_confidence,emotions_total,avg_emotions_per_item,top_emotions
+insegnanti_in_servizio,2220,598,1105,517,0.040775,0.868689,1417,0.638288,preoccupazione:435|fiducia:311|frustrazione:225
+insegnanti_pre_service,502,77,331,94,-0.016235,0.868884,218,0.434263,preoccupazione:74|frustrazione:46|fiducia:42
+studenti,1895,635,886,374,0.118596,0.864396,1175,0.620053,fiducia:297|preoccupazione:288|frustrazione:177

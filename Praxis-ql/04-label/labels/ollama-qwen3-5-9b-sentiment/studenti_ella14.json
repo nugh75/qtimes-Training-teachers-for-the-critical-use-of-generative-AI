@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ella14.md",
+  "source_name": "studenti_ella14.md",
+  "title": "Risposta ella14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ella14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:20:54.612747+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.266667,
+  "avg_confidence": 0.883333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "nello studio mi affido alle mie capacità e conoscenze per essere preparata maggiormente",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime fiducia nelle proprie capacità e preparazione."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che l’ai fornisce nozioni “universali”, ovvero ha una preparazione su tutte le materie e da risposte semplici da capire ma allo stesso tempo efficaci e corrette, un pro è che secondo me limita le capacità autonome degli alunni",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro in modo equilibrato senza polarizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non ho esperienza in questo campo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiara esplicitamente di non avere esperienza nel campo."
+    }
+  ]
+}

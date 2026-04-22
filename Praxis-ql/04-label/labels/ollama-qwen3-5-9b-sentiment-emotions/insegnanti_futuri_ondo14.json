@@ -1,0 +1,62 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ondo14.md",
+  "source_name": "insegnanti_futuri_ondo14.md",
+  "title": "Risposta ondo14",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ondo14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:24:36.018859+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "neutral": 3
+  },
+  "emotion_counts": {
+    "preoccupazione": 1
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.916667,
+  "avg_emotions_per_item": 0.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sto insegnando",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Afferma di non insegnare, quindi non ha esperienza da valutare.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: può facilitare l’apprendimento in alcuni contesti; contro: si cade spesso in usi sbagliati (gli studenti possono chiedere di risolvere esercizi per casa e copiare i procedimenti )",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Elenca pro e contro in modo equilibrato senza polarizzazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "si cade spesso in usi sbagliati"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non avendo molta esperienza nell’insegnamento non ho avuto modo di usarlo in classe",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Spiega l'assenza di utilizzo dovuta alla mancanza di esperienza.",
+      "emotions": []
+    }
+  ]
+}

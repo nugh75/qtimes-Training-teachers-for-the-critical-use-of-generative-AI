@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_isto14.md",
+  "source_name": "studenti_isto14.md",
+  "title": "Risposta isto14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "isto14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:24:30.795518+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "positive": 2
+  },
+  "avg_score": 0.1,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per mantenere la mia autonomia, dipendere il meno possibile dall'AI e dimostrare in primis a me stessa di poter svolgere la mia vita anche senza il supporto dell'AI",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Esprime autonomia e fiducia nelle proprie capacità senza supporto AI."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché so di potercela fare bene anche senza: è grazie alla mia intelligenza se vado avanti nel mio percorso",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.95,
+      "reason": "Dimostra alta fiducia nelle proprie intelligenze e capacità personali."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "sicuramente può facilitare il processo di studio ma anche alimentare la pigrizia",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Sottolinea il rischio di pigrizia e facilitazione eccessiva dello studio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Quando il lavoro dell'AI viene spacciato per quello di uno studente",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.8,
+      "reason": "Critica l'uso dell'AI quando viene attribuito erroneamente allo studente."
+    }
+  ]
+}

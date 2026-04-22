@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ddei10.md",
+  "source_name": "studenti_ddei10.md",
+  "title": "Risposta DDEI10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "DDEI10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:20:27.313432+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 3
+  },
+  "avg_score": 0.033333,
+  "avg_confidence": 0.827778,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota non contiene informazioni valutabili."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, l’unico che ho provato",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menzione dell'unico strumento provato senza giudizio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Principalmente per trovare informazioni e chiarirmi dubbi nel modo più veloce ed efficiente possibile (anche se qualche volta genera errori)",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Evidenzia velocità ed efficienza, pur notando errori."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi spieghi perché la corrente Ih genera un sag in iperpolarizzazione?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "È una domanda tecnica, non un'opinione."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Parola 'Velocizza' indica un beneficio percepito."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "rende più veloce certe cose meccaniche",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Indica che rende più veloci certe attività."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Spesso ci sono errori soprattutto su argomenti di alto livello",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Segnala frequenti errori su argomenti complessi."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro velocità ed efficienza contro può togliere l’autonomia e lo sviluppo di capacità di gestione dello studio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro in modo equilibrato."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Pervhe rischia di inficiare il processo naturale di apprendimento e di sviluppo di un metodo di studio",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Sottolinea rischi per l'apprendimento e lo sviluppo."
+    }
+  ]
+}

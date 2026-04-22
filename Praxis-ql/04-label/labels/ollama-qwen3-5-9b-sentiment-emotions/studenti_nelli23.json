@@ -1,0 +1,89 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_nelli23.md",
+  "source_name": "studenti_nelli23.md",
+  "title": "Risposta Nelli23",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Nelli23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:40:44.562274+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.275,
+  "avg_confidence": 0.8375,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Credo ed ho fiducia solo nell’intelligenza umana perché è solo questa che potrà essere sostenuta e reale. È solo un mezzo d’aiuto, ma fondamentalmente non risolve un quesito qualsiasi preposto.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Sottolinea limiti dell'IA e fiducia esclusiva nell'intelligenza umana.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Credo ed ho fiducia solo nell'intelligenza umana"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché i concetti dello studio li assorbo solo utilizzando fotocopie o libri cartacei.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Spiega preferenza personale per materiali cartacei senza giudizio.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizza i processi di risposta; Contro: non aiuta a far lavorare la mente.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenca pro e contro in modo equilibrato e oggettivo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Contro: non aiuta a far lavorare la mente"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Perché non sono concetti sempre esattamente giusti",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Esprime insoddisfazione per l'inaccuratezza dei concetti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "Perché non sono concetti sempre esattamente giusti"
+        }
+      ]
+    }
+  ]
+}

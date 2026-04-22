@@ -1,0 +1,153 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_more08.md",
+  "source_name": "studenti_more08.md",
+  "title": "Risposta more08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "more08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:39:42.949708+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 3,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "ansia": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "gioia": 1,
+    "paura": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.15,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo non analizzabile, contiene solo il nome del modello.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "chiedo sempre di pormi domande riguardo all'argomento di studio per simulare un esame",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Simulazione d'esame per migliorare lo studio.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "simulare un esame"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedimi i criteri del DSM-5  per diagnosticare il binge eating disorder",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Richiesta tecnica specifica senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "semplicizza argomenti complessi e così aiuta a memorizzarli meglio",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Semplificazione aiuta a memorizzare meglio.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "aiuta a memorizzarli meglio"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Certe volte presa dall'ansia temo di invertire determinati concetti, con l'ai verifico se sono nel torto o se veramente ricordo i vari concetti.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Ansia e paura di invertire concetti.",
+      "emotions": [
+        {
+          "label": "ansia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "presa dall'ansia"
+        },
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "temo di invertire"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "certe volte si contraddice o rimane troppo sul generale",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Critica per contraddizioni e generalizzazioni.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "rimane troppo sul generale"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "si ottengono subito le informazioni che si chiedono senza \"perdere tempo\" nel cercare nei vari articoli",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Efficienza nel fornire informazioni subito.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "senza perdere tempo"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "creare riassunti o chiedere di scrivere tesi o tesine. Questo perché ritengo in primis che debbano essere frutto dello studente in questione, in secondo luogo perché è più probabile cadere nel plagio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Motivazione pedagogica per evitare plagio.",
+      "emotions": []
+    }
+  ]
+}

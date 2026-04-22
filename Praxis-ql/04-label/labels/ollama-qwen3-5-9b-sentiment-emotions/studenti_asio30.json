@@ -1,0 +1,53 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_asio30.md",
+  "source_name": "studenti_asio30.md",
+  "title": "Risposta asio30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "asio30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:28:25.303882+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1
+  },
+  "avg_score": -0.3,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 0.5,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non mi è’ mai capitato",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione fattuale di assenza di esperienza.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non so come usarla",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Incertezza e incapacità percepita nell'uso.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Non so come usarla"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_lico31.md",
+  "source_name": "studenti_lico31.md",
+  "title": "Risposta lico31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "lico31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:37:59.177817+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "paura": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.35,
+  "avg_confidence": 0.8,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "utilizzare l'intelligenza artificiale mi da l'idea di barare e che non sia affatto farina del mio sacco.",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'utente esprime l'idea di barare e di non aver fatto il lavoro da solo.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "mi da l'idea di barare"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "non ho praticità nell'usare oltre al fatto che mi fa sentire come se non fossi stato io a fare quelle cose.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Mancanza di praticità e sensazione di non aver prodotto le cose.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non ho praticità"
+        },
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "mi fa sentire come se non fossi stato io"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "possono aiutare nella semplifiazione ma a mio parere possono anche confondere i materiali oltre ad un certo margine di errore che possono commettere. un contro nell'utilizzo è il propt che deve essere quello giusto affinche si possa ottenere quel che si vuole.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Menziona sia aiuto che confusione e necessità di precisione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "possono anche confondere i materiali"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non usando l'intelligenza artificiale per studiare non saprei esattamente",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Esprime incertezza su cosa farebbe senza l'AI.",
+      "emotions": []
+    }
+  ]
+}

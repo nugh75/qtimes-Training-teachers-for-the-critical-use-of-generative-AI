@@ -1,0 +1,77 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_orsa17.md",
+  "source_name": "insegnanti_futuri_orsa17.md",
+  "title": "Risposta Orsa17",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Orsa17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:24:51.886038+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 3
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.633333,
+  "avg_confidence": 0.866667,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Dichiarazione di non insegnare indica forte disinteresse o rifiuto.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Non insegno"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pratica e comoda, ma  con rischio di anestetizzare il cervello.",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.8,
+      "reason": "Riconosce comodità ma teme l'effetto negativo sull'intelletto.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "rischio di anestetizzare il cervello"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Risoluzione di problemi e esercizi. Perché la mente non lavora e non si capisce il metodo.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Critica il metodo attuale per la mancanza di comprensione.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "la mente non lavora e non si capisce"
+        }
+      ]
+    }
+  ]
+}

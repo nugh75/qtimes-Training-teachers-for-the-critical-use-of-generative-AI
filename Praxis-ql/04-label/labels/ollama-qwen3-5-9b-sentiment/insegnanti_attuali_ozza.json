@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ozza.md",
+  "source_name": "insegnanti_attuali_ozza.md",
+  "title": "Risposta Ozza 25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Ozza 25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:09:38.706048+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.5875,
+  "avg_confidence": 0.905,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la utilizzo perché ho tanto naturale tangibile a portata di mano",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Rifiuto dell'uso per preferenza al naturale tangibile."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché le lezioni le creo con la mia immaginazione e il mio sapere",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Preferenza personale per immaginazione e sapere proprio."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ritengo che nella scuola dell infanzia bisogna basarsi tutto sul reale e non sull artificiale",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica all'artificiale a favore del reale nella scuola."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ritengo che nella scuola dell'infanzia gli alunni devono apprendere dal monto reale che li circonda, non da un mondo irreale e finto creato dell'intelligenza artificiale",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.92,
+      "reason": "Rifiuto del mondo irreale creato dall'intelligenza artificiale."
+    }
+  ]
+}

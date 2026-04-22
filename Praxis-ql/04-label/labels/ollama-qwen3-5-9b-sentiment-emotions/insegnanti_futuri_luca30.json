@@ -1,0 +1,44 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_luca30.md",
+  "source_name": "insegnanti_futuri_luca30.md",
+  "title": "Risposta Luca30",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Luca30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:24:08.266115+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {},
+  "avg_score": 0.4,
+  "avg_confidence": 0.925,
+  "avg_emotions_per_item": 0.0,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "La risposta 'Pro' indica un atteggiamento favorevole.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienze di insegnamento",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "L'assenza di esperienze rende il tono neutro.",
+      "emotions": []
+    }
+  ]
+}

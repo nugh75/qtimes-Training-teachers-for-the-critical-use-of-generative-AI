@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_faro01.md",
+  "source_name": "insegnanti_futuri_faro01.md",
+  "title": "Risposta FARO01",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "FARO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:15:35.938616+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2
+  },
+  "avg_score": -0.133333,
+  "avg_confidence": 0.85,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "È un nuovo modo di pensare alla didattica, con annesse criticità, primo fra tutti la difficoltà di gestire e controllarne l'uso fatto dagli studenti.",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.85,
+      "reason": "Menziona criticità e difficoltà di gestione e controllo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro si può pensare la scoperta e l'importanza che l'intelligenza artificiale riveste nella vista di ognuno di noi. Tra i contro l'uso improprio che ne potrebbe derivare.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro in modo bilanciato senza giudizio."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Fare ricerche per produrre testi o per la risoluzione di esercizi matatici.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrive un'attività didattica senza esprimere opinioni."
+    }
+  ]
+}

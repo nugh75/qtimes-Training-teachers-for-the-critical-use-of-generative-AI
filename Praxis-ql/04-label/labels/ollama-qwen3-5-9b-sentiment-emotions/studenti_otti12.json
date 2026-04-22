@@ -1,0 +1,71 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_otti12.md",
+  "source_name": "studenti_otti12.md",
+  "title": "Risposta otti12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "otti12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:42:47.474260+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.466667,
+  "avg_confidence": 0.9,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché non sarebbe utile per apprendere le competenze",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Esprime un giudizio negativo sull'utilità dell'azione per l'apprendimento.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "perché non sarebbe utile"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro: disponibilità continua, i contro:mancanza di competenze",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco bilanciato di pro e contro senza giudizio emotivo forte.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Utilizzare software di IA per copiare e incollare risposte in quiz o esami",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Descrive un comportamento scorretto (copiare) in un contesto valutativo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "copiare e incollare risposte"
+        }
+      ]
+    }
+  ]
+}

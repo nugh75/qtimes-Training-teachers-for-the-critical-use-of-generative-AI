@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_elli08.md",
+  "source_name": "studenti_elli08.md",
+  "title": "Risposta Elli08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Elli08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:21:07.608410+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3,
+    "positive": 4
+  },
+  "avg_score": 0.3125,
+  "avg_confidence": 0.8875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt perché mi aiuta nel riassumere e tradurre testi. Inoltre anche per cercare alcune informazioni o chiarire dei concetti.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Aiuta a riassumere, tradurre e chiarire concetti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La utilizzo per riassumere e schematizzare ció che ho appreso",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Utilizzata per riassumere e schematizzare apprendimenti."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Traducimi questo testo: esempio Riassumi in punti questo testo: esempio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Testo contenente solo comandi e esempi di istruzioni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a fissare i concetti, grazie agli elenchi puntati e schemi",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Aiuta a fissare concetti tramite elenchi e schemi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a identificare gli elementi centrali nei miei studi",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.9,
+      "reason": "Aiuta a identificare elementi centrali negli studi."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Risposta negativa o neutra indicata esplicitamente."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzare alcuni processi che ricorrerebbero Maggio tempo Contro: l'uso spropositato puó portare ad esserne dipendenti e a perdere alcune capacità di ragionamento, affidandosi totalmente all'IA",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenca pro e contro con tono equilibrato."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "NON dovrebbero esser realizzati dei temi, composizioni solamente grazie all'uso di IA, poiché questo porta ad un appiattimento della creatività e a lasciar si che l'IA faccia tutto da sola, senza quindi mettere delle nostro all'interno della composizione",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Sconsiglia uso esclusivo IA per temi e composizioni."
+    }
+  ]
+}

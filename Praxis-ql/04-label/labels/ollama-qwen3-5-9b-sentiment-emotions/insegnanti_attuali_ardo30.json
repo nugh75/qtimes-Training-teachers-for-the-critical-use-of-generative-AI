@@ -1,0 +1,95 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ardo30.md",
+  "source_name": "insegnanti_attuali_ardo30.md",
+  "title": "Risposta ardo30",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ardo30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:03:15.033489+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 2,
+    "preoccupazione": 2
+  },
+  "avg_score": -0.45,
+  "avg_confidence": 0.875,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Credo che l'intelligenza artificiale generativa sia un sistema ancora parecchio perfezionabile, per cui spesso per un risultato più efficace ed efficiente ho fatto meglio e prima da me.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "L'utente preferisce fare da solo, criticando l'efficienza dell'IA.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "ho fatto meglio e prima da me"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché spesso produrre materiale didattico con l'ausilio dell'IA richiede un dispendio di tempo ed energie superiore a quello che impiegherei facendo da me. Credo che il sistema dell'IA generativa vada ancora parecchio perfezionato.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Richiede troppo tempo ed energie rispetto al lavoro manuale.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "dispendio di tempo ed energie superiore"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Uno dei vantaggi dell'uso dell'AI nell'educazione è ottenere in tempo reale lo sviluppo di un'idea iniziale di proposta didattica che ben si attagli ad uno specifico contesto classe. Il risvolto negativo può essere costituito dall'uso che gli studenti potrebbero fare dell'AI durante lo svolgimento dei compiti per casa.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca vantaggi e svantaggi dell'uso dell'AI in modo equilibrato.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "risvolto negativo può essere costituito dall'uso che gli studenti potrebbero fare"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Credo che la valutazione sia un aspetto talmente complesso e cruciale dell'azione didattica da non poter essere totalmente demandato all'intelligenza artificiale, poiché risulterebbe spersonalizzato, dal momento che non terrebbe in considerazione una serie di fattori influenti sulla valutazione stessa.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Sottolinea i rischi di spersonalizzazione e complessità della valutazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non poter essere totalmente demandato... risulterebbe spersonalizzato"
+        }
+      ]
+    }
+  ]
+}

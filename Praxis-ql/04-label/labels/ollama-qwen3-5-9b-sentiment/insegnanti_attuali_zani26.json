@@ -1,0 +1,111 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zani26.md",
+  "source_name": "insegnanti_attuali_zani26.md",
+  "title": "Risposta zani26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zani26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:13:48.991056+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 6
+  },
+  "avg_score": 0.335,
+  "avg_confidence": 0.885,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\"_\".",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Testo vuoto, impossibile determinare il sentiment."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Utilizzo. la piattaforma ALGOR education per fornire mappe dettagliate sui contenuti spiegati",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Descrive un utilizzo costruttivo della piattaforma per fornire mappe dettagliate."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Fornisco mappe e schermi agli studenti BES che hanno necessità di facilitazione esemplificazione",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.9,
+      "reason": "Azione proattiva di fornire supporti specifici per facilitare lo studio."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "utilizzo svariate strategie per creare quiz che possano stimolare gli studenti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Utilizzo di strategie per creare quiz stimolanti per gli studenti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chiedo la semplificazione e la rielaborazione di concetti al fine di facilitare lo studio e rendere accessibile anche ciò che resta ostico",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Obiettivo chiaro di facilitare lo studio e rendere accessibile l'ostico."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Fornire mappe e anticipatore permette agli studenti di avere chiaro ciò che si andrà a spiegare e rende più facile seguire la lezione",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Strumenti che chiariscono i contenuti e facilitano il seguire della lezione."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Grazie alla costruzione di schemi gli studenti focalizzano fin da sunto le parole chiave e i concetti fondamentali",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Gli schemi aiutano gli studenti a focalizzare parole chiave e concetti."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Va utilizzata con coscienza e responsabileneve",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Richiede coscienza e responsabilità, implicando rischi o criticità."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: diminuisce i tempi di creazione di supporti per gli studenti Contro: gli studenti possono trovarla una scorciatoia e non un \"in più\"",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco pro e contro che bilancia vantaggi e svantaggi dell'uso."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'IA non può sostituire Il rapporto tra pari, il confronto e la capacità di problem solving, oltre ovviamente al fatto che non allena al pensiero divergente",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Sottolinea limiti dell'IA: non sostituisce il confronto o il pensiero divergente."
+    }
+  ]
+}

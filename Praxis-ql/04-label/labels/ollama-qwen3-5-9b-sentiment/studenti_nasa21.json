@@ -1,0 +1,84 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_nasa21.md",
+  "source_name": "studenti_nasa21.md",
+  "title": "Risposta Nasa21",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Nasa21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:26:24.548079+00:00",
+  "item_count": 7,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 4
+  },
+  "avg_score": 0.364286,
+  "avg_confidence": 0.875714,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGBT e Photomath perché mi aiutano nello studio",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Aiuto nello studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo mappe che mi facilitano lo studio",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Facilita lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "ChatGBT",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Menzione semplice dell'AI."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a capire testi difficili , tradurre delle parole in un altra lingua , fare riassunti/schemi che mi aiutano a studiare o ripassare.",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.98,
+      "reason": "Aiuta a capire, tradurre e studiare."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Capire parole , trovare sinonimi , tradurre parole in altre lingue (es: inglese, latino)",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Aiuta a capire e tradurre."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte questi strumenti non capiscono bene la domanda che scrivo  (spiegando male ) .",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Strumenti che non capiscono bene."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: l’intelligenza artificiale può aiutare molto specialmente nello studio creando appunto schemi, riassunti ecc. contro:Non sempre l’intelligenza artificiale é usata in modo corretto , perché in molti forse potrebbero sfruttare queste app per fare i compiti in modo superficiale.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Pro e contro bilanciati."
+    }
+  ]
+}

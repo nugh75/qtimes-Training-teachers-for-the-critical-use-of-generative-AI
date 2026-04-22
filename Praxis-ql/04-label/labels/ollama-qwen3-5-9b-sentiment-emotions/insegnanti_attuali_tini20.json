@@ -1,0 +1,177 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tini20.md",
+  "source_name": "insegnanti_attuali_tini20.md",
+  "title": "Risposta Tini20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Tini20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:17:52.381389+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 6
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 3,
+    "paura": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.344444,
+  "avg_confidence": 0.877778,
+  "avg_emotions_per_item": 0.888889,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Testo generico senza contenuto emotivo o valutativo.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Lo utilizzo per supporto nella creazione di quiz di verifica",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Uso dello strumento per supporto nella creazione di quiz.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Lo utilizzo per supporto"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Come supporto per la creazione di contenuti",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Definizione chiara del ruolo di supporto per i contenuti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Come supporto per la creazione"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao chat devo creare 3 file di compiti per la mia classe. Ho creato già 20 domande (e le inserisco) puoi suggerirmi alternative sempre sullo stesso argomento con lo stesso livello di difficoltà? (E inserisco anche il testo pdf) alla fine verifico/modifico e integro le domande",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Richiesta attiva di suggerimenti per migliorare il lavoro.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "puoi suggerirmi alternative"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Da molto supporto nelle ricerche di approfondimento! Lo sfrutto per far approfondire alcuni temi ai ragazzi",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Enfasi sul grande supporto per le ricerche di approfondimento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Da molto supporto nelle ricerche"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Sicuramente rende la ricerca delle informazioni più semplice",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Riconoscimento del vantaggio nella semplificazione della ricerca.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "rende la ricerca delle informazioni più semplice"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta negativa assoluta senza sfumature emotive.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I contro possono essere l’ abuso che ne fanno i ragazzi, come all’’ uso di AI per creare temi si italiano o relazioni, bloccando il processo creativo e sostituendo l’ elaborazione delle informazioni apprese",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Descrizione di rischi come abuso e blocco del processo creativo.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "l’ abuso che ne fanno i ragazzi"
+        },
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "sostituendo l’ elaborazione delle informazioni"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me non ci sono pratiche sbagliate o pratiche giuste ma la giusta moderazione é la via corretta! Saper utilizzare uno strumento ma con la consapevolezza di dover verificare le informazioni, modificarle ed eventualmente integrarle é per me la chiave per un uso consapevole e corretto di questi strumenti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Promozione della moderazione e dell'uso consapevole.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "la chiave per un uso consapevole"
+        }
+      ]
+    }
+  ]
+}

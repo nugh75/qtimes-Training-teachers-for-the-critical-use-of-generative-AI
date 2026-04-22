@@ -1,0 +1,158 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_mati29.md",
+  "source_name": "studenti_mati29.md",
+  "title": "Risposta mati29",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "mati29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:39:05.181308+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 3,
+    "preoccupazione": 3
+  },
+  "avg_score": 0.25,
+  "avg_confidence": 0.91,
+  "avg_emotions_per_item": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è intuitivo, pratico e si adatta alle diverse esigenze che maturo nel tempo",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Intuitivo, pratico e si adatta alle esigenze.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "intuitivo, pratico e si adatta"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Lo utilizzo prettamente per ampliare il vocabolario e comprendere argomenti che non mi risultano chiari, anche attraverso forme di confronto attivo quando necessario",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Amplia vocabolario e chiarisce argomenti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "ampliare il vocabolario e comprendere"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Per favore, rielabora il testo che ti allego in modo più semplice ma esaustivo. Non omettere dettagli e non riassumere, piuttosto prova a riparafrasare elementi ripetitivi o superflui. Eventualmente attingi alla lettura scientifica. Grazie.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Richiesta di rielaborazione del testo.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi fornisce spiegazioni più lineari e semplici che mi orientano nello studio successivo e mi permettono di avere una solida base da arricchire con dettagli e concetti più articolati",
+      "sentiment": "positive",
+      "score": 0.82,
+      "confidence": 0.92,
+      "reason": "Spiegazioni lineari e solida base.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.88,
+          "evidence": "spiegazioni più lineari e semplici"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho ampliato molto il vocabolario e ho imparato a scomporre meglio i testi in piccole parti in base agli argomenti principali, riuscendo ad avere più dimestichezza nella lettura e nella comprensione",
+      "sentiment": "positive",
+      "score": 0.88,
+      "confidence": 0.93,
+      "reason": "Ampliato vocabolario e miglior comprensione.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Ho ampliato molto il vocabolario"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte si presentano imprecisioni e informazioni non fondate sulla letteratura scientifica",
+      "sentiment": "negative",
+      "score": -0.75,
+      "confidence": 0.9,
+      "reason": "Imprecisioni e informazioni non fondate.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "si presentano imprecisioni e informazioni non fondate"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro riguardano una maggior velocità di comprensione, lettura e analisi delle informazioni, nonché di una possibilità di confronto e arricchimento sempre possibile. I contro che noto è che si sfocia facilmente in forme di passività e pigrizia mentale che risultano controproducenti per lo studio e per lo sviluppo di quel pensiero critico che è necessario per diventare davvero padroni delle nozioni. Se usata impropriamente, non aiuta a ragionare ma ‘ragiona al tuo posto’.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Rischio di passività e pigrizia mentale.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.82,
+          "evidence": "sfocia facilmente in forme di passività e pigrizia"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non andrebbe usata eccessivamente per scrivere temi, risolvere esercizi e compiti simili, perché è anche attraverso questi strumenti che si ha modo di mettere in pratica le conoscenze, manipolarle e farle proprie (un discorso diverso riguarda la risoluzione di compiti per comprenderne il ragionamento sottostante o avere un esempio in base al quale orientare il proprio lavoro).",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.88,
+      "reason": "Avvertimento sull'uso eccessivo per compiti.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Non andrebbe usata eccessivamente"
+        }
+      ]
+    }
+  ]
+}

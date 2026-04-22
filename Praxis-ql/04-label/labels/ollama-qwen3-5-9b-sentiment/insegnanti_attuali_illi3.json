@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi3.md",
+  "source_name": "insegnanti_attuali_illi3.md",
+  "title": "Risposta illi3",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "illi3",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:05:30.598896+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "avg_score": -0.425,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L'USO DELL'INTELLIGENZA ARIFICIALE  LIMITA LE PROPRIE CAPACITA' E RIDUCE DRASTICAMENTE I RAPPORTI  UMANI",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Limita capacità e riduce drasticamente i rapporti umani."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "PERCHE' RIDUCE LO SVILUPPO DI ELABORAZIONE DEI CONTENUTI E RIDUCE IL RAPPORTO TRA PARI E TRA STUDENTE E INSEGNANTE",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Riduce sviluppo elaborazione contenuti e rapporti umani."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'INTELLIGENZA ARIFICIALE CONSENTE UN PROCESSO DI APPRENDIMENTO PIU' DINAMICO E PER CERTI ASPETTI PIU' INCLUSIVO, MA LIMITA I RAPPORTI UMANI TRA PARI E TRA DOCENTE E STUDENTE",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Mista: apprende dinamico ma limita i rapporti umani."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Non ha mai usato l'intelligenza artificiale."
+    }
+  ]
+}

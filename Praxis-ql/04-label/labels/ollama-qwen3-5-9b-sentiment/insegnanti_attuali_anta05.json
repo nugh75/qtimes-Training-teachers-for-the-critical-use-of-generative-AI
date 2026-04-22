@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anta05.md",
+  "source_name": "insegnanti_attuali_anta05.md",
+  "title": "Risposta anta05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anta05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:59:12.905585+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.6,
+  "avg_confidence": 0.92,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne sento la necessità",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione chiara di non percepire la necessità."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ne sento la necessità, e allo stesso tempo non la trovo utile nella disciplina che insegno.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Mancanza di necessità e utilità percepita nella disciplina."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Il pro potrebbe essere utile per aumentare le angolazioni da cui guardare una data situazione, sostegno e supporto nell'analizzare una situazione. il contro appiattimento della fantasia e trovare facili scorciatoie",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Bilancia pro e contro, evidenziando rischi e benefici."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Rimandare a qualcuno il proprio compito da svolgere.  Nell'insegnamento uno dei cardini principali secondo me non è tanto cosa si insegna (che si potrebbe imparare a qualsiasi età) ma il fatto di riuscire a svolgere il proprio compito, ricorrere all'AI potrebbe diventare la scorciatoia proprio allo svolgimento del compito dato.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "AI vista come scorciatoia che compromette lo svolgimento del compito."
+    }
+  ]
+}

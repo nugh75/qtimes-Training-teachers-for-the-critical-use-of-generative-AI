@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_mano06.md",
+  "source_name": "studenti_mano06.md",
+  "title": "Risposta mano06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "mano06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:25:21.991235+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "avg_score": -0.566667,
+  "avg_confidence": 0.933333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché interferisce con l'imparare e con lo studio, ogni scorciatoia è un'opportunità in meno di crescere intellettualmente e culturalmente",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Interferisce con l'apprendimento e riduce le opportunità di crescita."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non vi sono pro",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Afferma l'assenza di pro senza esprimere giudizi negativi."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Qualsiasi cosa eviti l'impegno personale e l'uso dell'IA come oracolo, perché rendono inutile il tempo dedicato agli studi",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Rende inutile il tempo dedicato agli studi evitando l'impegno."
+    }
+  ]
+}

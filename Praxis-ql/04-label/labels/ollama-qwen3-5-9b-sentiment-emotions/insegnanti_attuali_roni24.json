@@ -1,0 +1,102 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_roni24.md",
+  "source_name": "insegnanti_attuali_roni24.md",
+  "title": "Risposta roni24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "roni24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:15:45.229535+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 4
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "paura": 2,
+    "preoccupazione": 1,
+    "rabbia": 1
+  },
+  "avg_score": -0.675,
+  "avg_confidence": 0.88,
+  "avg_emotions_per_item": 1.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ho timore di essere utilizzata per far apprendere, e quindi migliorare sempre di più l’AI",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Esprime timore di essere strumentalizzata dall'AI.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "Ho timore di essere utilizzata"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché sento di non avere le competenze necessarie e sufficienti",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Sente di non possedere le competenze necessarie.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non avere le competenze necessarie"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "CONTRO: L’AI rischia di sostituirsi agli studenti in alcune pratiche che servono a metabolizzare gli apprendimenti e ad acquisire competenze permanenti come lo svolgimento dei compiti PRO: l’esperienza dell’apprendimento è sicuramente più accattivante per il discente, ma secondo me sarà superficiale e caratterizzato da basi poco solide, pertanto anche questo aspetto diventa un CONTRO",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.8,
+      "reason": "Sostiene che l'esperienza sarà superficiale e poco solida.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "sarà superficiale e caratterizzato da basi poco solide"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Chiedere la risoluzione di quesiti/problemi piuttosto che la scrittura di brani/riassunti, perché essendo queste tutte attività per le quali è necessario ragionare, se le facciamo risolvere all’AI non stimoliamo il cervello dei nostri ragazzi, anzi al contrario lo sediamo totalmente. E così avalliamo il completamento del lavoro di manipolazione delle menti dei più giovani (e quindi del futuro dell’umanità) che già si sta facendo attraverso l’uso dei social.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.92,
+      "reason": "Paura che l'AI sedia il cervello e manipoli le menti.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "lo sediamo totalmente"
+        },
+        {
+          "label": "rabbia",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "avalliamo il completamento del lavoro di manipolazione"
+        }
+      ]
+    }
+  ]
+}

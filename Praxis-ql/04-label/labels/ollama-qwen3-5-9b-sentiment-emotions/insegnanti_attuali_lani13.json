@@ -1,0 +1,77 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lani13.md",
+  "source_name": "insegnanti_attuali_lani13.md",
+  "title": "Risposta LANI13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "LANI13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:08:52.487433+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "preoccupazione": 3
+  },
+  "avg_score": -0.45,
+  "avg_confidence": 0.89,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono favorevole all'utilizzo dell'intelligenza artificiale nella didattica, sebbene essa possa rappresentare un valido supporto. I docenti, infatti, non possono essere esperti in ogni ambito e l'IA potrebbe aiutarci in situazioni specifiche. Tuttavia, ritengo che il suo impiego possa indebolire il fondamentale rapporto di interazione tra alunno e docente. Questo legame è cruciale, poiché attraverso una spiegazione diretta, il docente ha la possibilità di trasmettere non solo conoscenze, ma anche la propria passione e il proprio amore per gli argomenti trattati.",
+      "sentiment": "negative",
+      "score": -0.65,
+      "confidence": 0.92,
+      "reason": "Sottolinea il rischio di indebolire il rapporto umano e la passione del docente.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.88,
+          "evidence": "può indebolire il fondamentale rapporto di interazione"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: informazioni che si possono trovare subito,  CONTRO: vengono meno i rapporti fra le persone e l'utilizzo di mezzi di ricerca come libri",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenca pro e contro senza esprimere un giudizio netto o un'emozione forte.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "vengono meno i rapporti fra le persone"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me non si dovrebbe usare l'IA per valutazioni o per lavori da svolgere poichè viene meno il ruolo stesso dell'insegnamento e dell'impegno. Si creerebbe l'idea del minimo sforzo massimo profitto.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Critica l'uso dell'IA per valutazioni, temendo la perdita del ruolo dell'insegnante.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "viene meno il ruolo stesso dell'insegnamento"
+        }
+      ]
+    }
+  ]
+}

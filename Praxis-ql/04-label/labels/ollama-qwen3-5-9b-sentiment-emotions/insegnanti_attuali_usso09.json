@@ -1,0 +1,164 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_usso09.md",
+  "source_name": "insegnanti_attuali_usso09.md",
+  "title": "Risposta usso09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "usso09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:19:32.725384+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "ansia": 1,
+    "curiosita": 1,
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "gioia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.222222,
+  "avg_confidence": 0.855556,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT, Gemini: perché di utilizzo generale",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta generica senza dettagli specifici sull'uso.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Es. per la ricerca di esempi realistici per svolgere degli esrecizi : es ricerca di valori tabulati di parametri biomedici che si prestino bene ad esempi di crosscorrelazione, ricerca di tabelle dei coefficienti di estinzione molare per simulare un esame spettrofotometrico",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Descrive esempi concreti e utili per la didattica.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "es. ricerca di valori tabulati di parametri biomedici"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non ho ancora fatto un particolare utilizzo dell'intelligenza artificiale per questo scopo.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione di non aver ancora utilizzato lo strumento.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Supponiamo di voler spiegare la correlazione multivariata, puoi fornirmi in forma tabulare i valori di quattro parametri biologici tra loro più o meni correlati positivamente o negativamente per 20 campioni?",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.8,
+      "reason": "Propone un esempio pratico di richiesta all'IA.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "puoi fornirmi in forma tabulare i valori di quattro parametri"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L'IA ha permesso di costruire agevolmente degli esercizi da svolgere autonomamente da parte degli studenti, anche con l'utilzizo di un semplice foglio elettronico, che fossero verosimili, es. una heatmap della matrice di correlazione tra più parametri biolaboratoristico  realistici.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Evidenzia facilità e realismo degli esercizi costruiti.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "L'IA ha permesso di costruire agevolmente degli esercizi"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Costruendo delle tracce di esercizi che gli allievi possono sviluppare autonomamente.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.75,
+      "reason": "Menziona la creazione di tracce per l'autonomia.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "tracce di esercizi che gli allievi possono sviluppare autonomamente"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Al livello utilizzato nessuna.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta breve che nega un livello di utilizzo.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "A livello si strumento didattico non vedo contro. Non ho ancora esperienza a livello degli alievi.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Menziona mancanza di esperienza a livello degli allievi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.65,
+          "evidence": "Non ho ancora esperienza a livello degli alievi"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Abbandonare gli allievi all'uso autonomo dell'a IA",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.8,
+      "reason": "Suggerimento di abbandonare gli allievi all'uso autonomo.",
+      "emotions": [
+        {
+          "label": "ansia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Abbandonare gli allievi all'uso autonomo dell'a IA"
+        }
+      ]
+    }
+  ]
+}

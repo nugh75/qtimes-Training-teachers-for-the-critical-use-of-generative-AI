@@ -1,0 +1,98 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_mico24.md",
+  "source_name": "insegnanti_attuali_mico24.md",
+  "title": "Risposta MICO24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "MICO24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:10:00.397045+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.1,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "NON HO MAI UTILIZZATO L'INTELLIGENZA ARTIFICIALE PERCHE' PREFERISCO USARE LA MIA ESPERIENZA E COMPETENZA.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Rifiuto dell'IA basato sulla preferenza per l'esperienza personale.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "preferisco usare la mia esperienza"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE PERCHE' NON LA RITENGO NECESSARIA CON I BAMBINI DELLA SCUOLA PRIMARIA.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Percezione dell'IA come non necessaria per la scuola primaria.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.75,
+          "evidence": "non la ritengo necessaria"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I \"pro\" potrebbero essere che si potrebbero avere più informazioni e che si potrebbero ripetere più volte anche nello stesso modo. I \"contro\" che verrebbe meno il rapporto umano tra docente e alunno.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Analisi bilanciata di pro e contro dell'uso dell'intelligenza artificiale.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.6,
+          "evidence": "verrebbe meno il rapporto umano"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Gli insegnanti dovrebbero educare, l'intelligenza artificiale dovrebbe aiutare gli insegnanti e gli alunni per approfondire meglio le conoscenze.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Visione collaborativa dove l'IA aiuta docenti e alunni.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "dovrebbe aiutare gli insegnanti"
+        }
+      ]
+    }
+  ]
+}

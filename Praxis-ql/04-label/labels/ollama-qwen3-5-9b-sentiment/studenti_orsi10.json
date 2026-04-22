@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orsi10.md",
+  "source_name": "studenti_orsi10.md",
+  "title": "Risposta orsi10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "orsi10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:27:31.254686+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.6125,
+  "avg_confidence": 0.88,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la ritengo una fonte utile per approfondire e apprendere conoscenze",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.95,
+      "reason": "Esprime chiaramente che la fonte non è utile per apprendere."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non ritengo che sia una fonte sicura e utile per avere delle informazioni che possono riguardare lo studio , conoscenze generali",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.92,
+      "reason": "Definisce la fonte come non sicura e non utile per lo studio."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: facilita le richieste Contro: ci abituiamo a cercare tutto online senza consultare manuali cartacei o altre fonti cartacee",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro, mostrando un giudizio bilanciato."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Le pratiche che utilizza l’intelligenza artificiale che non dovrebbero essere usate per lo studio sono le risposte ad esercizi o a quesiti specifici che uno studente domanda.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Sconsiglia l'uso dell'IA per rispondere a esercizi o quesiti."
+    }
+  ]
+}

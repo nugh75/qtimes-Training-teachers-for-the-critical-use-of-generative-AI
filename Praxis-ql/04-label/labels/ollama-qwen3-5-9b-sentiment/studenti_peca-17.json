@@ -1,0 +1,46 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_peca-17.md",
+  "source_name": "studenti_peca-17.md",
+  "title": "Risposta Peca 17",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Peca 17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:27:58.093988+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 3
+  },
+  "avg_score": -0.8,
+  "avg_confidence": 0.946667,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché non voglio",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione di rifiuto esplicito verso l'uso dell'intelligenza artificiale."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "No",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.99,
+      "reason": "Risposta breve e diretta che nega l'interesse o la disponibilità."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Perché voglio imparare senza intelligenza artificiale",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Motivazione di rifiuto basata sulla preferenza per l'apprendimento senza AI."
+    }
+  ]
+}

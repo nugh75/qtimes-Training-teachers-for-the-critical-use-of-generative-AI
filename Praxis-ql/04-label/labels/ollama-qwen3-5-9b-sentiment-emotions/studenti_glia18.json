@@ -1,0 +1,153 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_glia18.md",
+  "source_name": "studenti_glia18.md",
+  "title": "Risposta glia18",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "glia18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:35:03.570528+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 2,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "fiducia": 2,
+    "frustrazione": 1,
+    "paura": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.0375,
+  "avg_confidence": 0.8625,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatGPT quando ho qualche dubbio",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrive un uso strumentale neutro per chiarire dubbi.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per capire con altre parole alcuni concetti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Esprime soddisfazione nel comprendere meglio i concetti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "ho compreso meglio il loro significato"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"da cosa deriva il modello CHC\"",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Domanda diretta senza esprimere opinioni o sentimenti.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "chiarifica i contenuti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Il verbo 'chiarifica' indica un risultato positivo e utile.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "chiarifica i contenuti"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "leggendo con altre parole delle teorie o dei concetti ho compreso meglio il loro significato",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'utente conferma di aver compreso meglio grazie all'AI.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "ho compreso meglio il loro significato"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non sono abituata al loro utilizzo",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "L'utente non è abituata all'uso, esprimendo disagio.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non sono abituata al loro utilizzo"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Elenca rischi e contro dell'uso eccessivo dell'AI.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "rischio che questa progressivamente possa essere usata eccessivamente"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "l'eccessiva fiducia, far fare tutto il lavoro a questi strumenti",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Sottolinea il pericolo di affidarsi totalmente agli strumenti.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "far fare tutto il lavoro a questi strumenti"
+        }
+      ]
+    }
+  ]
+}

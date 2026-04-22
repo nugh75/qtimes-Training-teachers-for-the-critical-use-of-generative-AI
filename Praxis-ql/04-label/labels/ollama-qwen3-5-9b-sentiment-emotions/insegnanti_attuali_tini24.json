@@ -1,0 +1,176 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tini24.md",
+  "source_name": "insegnanti_attuali_tini24.md",
+  "title": "Risposta tini24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tini24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:17:59.066496+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 6
+  },
+  "emotion_counts": {
+    "entusiasmo": 2,
+    "fiducia": 3,
+    "gioia": 1,
+    "preoccupazione": 1,
+    "rabbia": 1
+  },
+  "avg_score": 0.433333,
+  "avg_confidence": 0.861111,
+  "avg_emotions_per_item": 0.888889,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Internet",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta monosillabica senza valenza emotiva.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Fornendo materiale in base alle competenze di ognuno",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Personalizzazione e adattamento alle competenze.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "in base alle competenze di ognuno"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creando contenuti unici, per semplificare l'insegnamento della matematica",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Obiettivo di semplificazione e creazione di valore.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "per semplificare l'insegnamento della matematica"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Aiutami a rendere comprensibile \"l'argomento\" per aiutare uno studente con lacune scolastiche",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Supporto attivo per studenti con difficoltà.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "aiutare uno studente con lacune scolastiche"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Sicuramente riescono a comprendere meglio degli argomenti che generalmente potrebbero sembrare difficili",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.88,
+      "reason": "Riconoscimento della capacità di comprensione.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "riescono a comprendere meglio degli argomenti"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Fornendo esempi quotidiani",
+      "sentiment": "positive",
+      "score": 0.65,
+      "confidence": 0.82,
+      "reason": "Uso di esempi pratici per facilitare l'apprendimento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "bassa",
+          "confidence": 0.75,
+          "evidence": "Fornendo esempi quotidiani"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Far capire al boot cosa volevo sapere",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.7,
+      "reason": "Risposta generica sulla soddisfazione dell'utente.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: Il primo di tutti è il non usarlo per copiare/barare Poi non deve spegnere il cervello di chi lo usa  Pro: fornisce nuovi idee e nuovi spunti di riflessione",
+      "sentiment": "negative",
+      "score": -0.4,
+      "confidence": 0.9,
+      "reason": "Sottolineazione di rischi negativi come il barare.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "non deve spegnere il cervello di chi lo usa"
+        },
+        {
+          "label": "rabbia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Contro: Il primo di tutti è il non usarlo per copiare/barare"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Realizzare sintesi di testi (capacità di sintesi); Risolvere problemi (capacità di problem solving)",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Elenca capacità cognitive positive come sintesi.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "capacità di sintesi; Risolvere problemi"
+        }
+      ]
+    }
+  ]
+}

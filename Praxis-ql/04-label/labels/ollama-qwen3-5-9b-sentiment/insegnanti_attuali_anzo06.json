@@ -1,0 +1,57 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anzo06.md",
+  "source_name": "insegnanti_attuali_anzo06.md",
+  "title": "Risposta ANZO06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ANZO06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T09:59:18.445404+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 1
+  },
+  "avg_score": 0.025,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Ridurre l'esposizione agli schermi è un'azione positiva per la salute."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Resto ancorata ai numerosi libri di testo, sia moderni che non, che ho reperito negli anni per lavorare al meglio. Ne ricavo tante informazione con alta qualità che, ad ora, non trovo sia online che nei nuovi testi didattici. Disegni, testi narrativi, immagini evocative che catturano la fantasia dei bambini scritti in un lessico ricco che ora, purtroppo, si è andato a ridurre fin troppo anche nei libri di testo ufficiali.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Critica la riduzione del lessico e la qualità dei nuovi testi didattici."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità nell'esecuzione, dal mio punto di vista, è un pro e un contro. Si possono realizzare attività strutturate in pochissimo tempo dando solo un piccolo input di partenza. D'altro canto ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Analizza pro e contro della velocità, evidenziando limiti alla creatività."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non possiedo la giusta conoscenza per rispondere a questa domanda. Ma, nel dubbio, preferire vedere utilizzata l'IA per salvare delle vite e lasciar perdere tutto il resto che può camminare benissimo anche senza.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Dichiara di non possedere la conoscenza per rispondere alla domanda."
+    }
+  ]
+}

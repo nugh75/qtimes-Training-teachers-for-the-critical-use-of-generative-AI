@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ella26.md",
+  "source_name": "insegnanti_attuali_ella26.md",
+  "title": "Risposta ella26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ella26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:02:04.174088+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 3,
+    "positive": 1
+  },
+  "avg_score": 0.2,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho avuto la necessità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta breve che esprime assenza di necessità."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Utilizzo altre app",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Indica l'uso di altre applicazioni senza giudizio."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'AI agisce sui dati della sua \"esperienza\", impara da noi, è al nostro servizio e non al posto nostro. Noi possiamo creare in poco tempo con l'IA, potrà essere utilizzata a integrazione degli approcci tradizionali, per sviluppare competenze critiche di uso della tecnologia in relazione alla lingua e alla letteratura (correzione degli errori, analisi, creazione di contenuti..)mettendo lo studente nella condizione di sfruttare le possibilità offerte dall'IA in modo ancillare rispetto all'azione umana(e non in sostituzione di essa). Sarà utile, per esempio,  guidare gli studenti nella lettura e quindi nella riscrittura di testi prodotti dall'IA; riconoscere i pregi e i difetti, saperli rielaborare, cogliere la loro mancanza di originalità, imparare a integrarli con spunti personali. Con l'IA si possono creare giochi didattici, mappe, scritture creative, inserire video, foto, progetti, storie, verifiche, editor di foto, utilizzare excel, tabelle, grafici, fare determinate funzioni, formule magiche,  con canva fogli e con elementi d posso elaborare le informazioni.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Descrive l'IA come strumento di supporto e integrazione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ho esperienza con chatGPT è una macchina che dipende da noi , invece Gemini è migliore per generare le immagini. Poi conosco Canva + Al.   Non ho conoscenza di altre per ora.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Elenco strumenti conosciuti senza esprimere preferenze."
+    }
+  ]
+}

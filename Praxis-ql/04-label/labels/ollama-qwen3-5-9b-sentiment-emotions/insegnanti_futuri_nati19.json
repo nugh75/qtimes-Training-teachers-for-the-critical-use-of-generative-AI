@@ -1,0 +1,186 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_nati19.md",
+  "source_name": "insegnanti_futuri_nati19.md",
+  "title": "Risposta nati19",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "nati19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:24:27.599535+00:00",
+  "item_count": 10,
+  "sentiment_counts": {
+    "neutral": 4,
+    "positive": 6
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "entusiasmo": 2,
+    "fiducia": 2,
+    "preoccupazione": 2,
+    "sollievo": 1
+  },
+  "avg_score": 0.47,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.8,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La uso in modo gratuito",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Dichiarazione fattuale sull'utilizzo gratuito.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Mi piacerebbe utilizzare Algor education che crea riassunti e mappe dalle foto",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Espressione di desiderio e interesse per lo strumento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "Mi piacerebbe utilizzare"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando riassunti di alcuni argomenti ed esercitazioni",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Descrizione di un'applicazione utile per lo studio.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Creando riassunti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creando riassunti di alcuni argomenti ed esercitazioni personalizzate",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "Proposta di personalizzazione utile per l'apprendimento.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "ed esercitazioni personalizzate"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Creami un riassunto sulla civiltà greca",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.7,
+      "reason": "Richiesta diretta di supporto per un argomento specifico.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "bassa",
+          "confidence": 0.5,
+          "evidence": "Creami un riassunto"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Velocizza il mio lavoro di tutor",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.9,
+      "reason": "Riconoscimento del valore nel velocizzare il lavoro.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Velocizza il mio lavoro"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Fornisce le informazioni più importanti",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Valutazione positiva della qualità delle informazioni.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "Fornisce le informazioni più importanti"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Inserimento input",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrizione tecnica dell'azione di inserimento dati.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: ci dà la possibilità di accedere molto velocemente alle informazioni  Contro: porterà il nostro cervello a lavorare di meno soprattutto per gli studenti che non lo utilizzano rispettando i limiti",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.85,
+      "reason": "Analisi bilanciata tra vantaggi e svantaggi.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "porterà il nostro cervello a lavorare di meno"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Svolgere i compiti assegnati attraverso l'intelligenza artificiale, sicuramente è una risorsa utile ma va utilizzata con precauzione.",
+      "sentiment": "neutral",
+      "score": 0.2,
+      "confidence": 0.8,
+      "reason": "Valutazione equilibrata tra utilità e necessità di cautela.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "va utilizzata con precauzione"
+        }
+      ]
+    }
+  ]
+}

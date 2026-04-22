@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_icci24.md",
+  "source_name": "insegnanti_attuali_icci24.md",
+  "title": "Risposta icci24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "icci24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:04:53.393996+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 5,
+    "positive": 3
+  },
+  "avg_score": 0.133333,
+  "avg_confidence": 0.861111,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "L'intelligenza artificiale in generale può ottimizzare le risorse e ridurre i tempi di lavoro, purché ci sia alla base un'elaborazione ed una pianificazione meditata e studiata dal docente.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Ottimizza risorse e riduce tempi con pianificazione meditata."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non mi è mai successo di utilizzarla per per diversificare, ma solo per organizzare o riordinare i concetti da me proposti. La diversificazione richiede una rielaborazione.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Utilizzata solo per organizzare concetti, non per diversificare."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Ogni situazione è diversa. Ad esempio in casi di DSA l'accostamento del testo alle immagini può semplificare il lavoro, quindi creare immagini o ricercare immagini che affianchino il testo da studiare potrebbe rivelarsi ottimale ai fini dell'appartamento.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Accostamento testo-immagini semplifica lavoro e crea immagini ottimali."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riorganizza, ordina i concetti proposti.  Crea una linea del tempo dei seguenti eventi che catturi l'attenzione degli studenti.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Descrive funzioni di riorganizzazione e creazione linea del tempo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "L'accostamento di immagini al testo.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Menzione generica dell'accostamento immagini al testo."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Accostando le immagini al testo e realizzando grafiche adeguate.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Accostamento immagini e grafiche adeguate suggeriti positivamente."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuno",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Risposta negativa assoluta (Nessuno) senza contesto."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: buono per un lavoro di limatura  Contro: dannoso se si affida il ragionamento alla IA",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Pro e contro bilanciati: buono per limatura, dannoso per ragionamento."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Affidarsi completamente alle traduzioni suggerite dalla IA. Ad esempio nel caso delle traduzioni latino-italiano o viceversa; la traduzione è ragionamento indispensabile che deve svolgersi nel più tempo possibile e non il contrario.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Affidarsi completamente alle traduzioni è sconsigliato."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_atti24.md",
+  "source_name": "insegnanti_attuali_atti24.md",
+  "title": "Risposta atti24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "atti24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:04:19.920727+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": -0.366667,
+  "avg_confidence": 0.85,
+  "avg_emotions_per_item": 0.666667,
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora dedicato del tempo alla programmazione di attività con IA. La utilizzo solamente nella creazione di verifiche in digitale ( su Piattaforma Socrative).",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione fattuale dell'uso attuale dell'IA senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L' intelligenza artificiale viene usata in modo improprio dagli studenti, che delegano all'IA lo svolgimento di compiti, traduzione e  produzione di testi. In quanto docente di lingua non posso più assegnare a casa compiti di produzione scritta o traduzione . Può invece rappresentare un aiuto per gli alunni con Bes in quanto facilitatore.",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Esprime frustrazione per l'uso improprio dell'IA e limitazioni didattiche.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "L' intelligenza artificiale viene usata in modo improprio dagli studenti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi, traduzioni di testi per quanto concerne l'insegnamento delle lingue; gli alunni non sono in grado di assimilare le strutture linguistiche studiate e producono testi in lingua troppo complessi che non sono in grado di esporre o memorizzare.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.8,
+      "reason": "Descrive l'incapacità degli alunni di assimilare le strutture linguistiche.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "gli alunni non sono in grado di assimilare le strutture linguistiche studiate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etti19.md",
+  "source_name": "studenti_etti19.md",
+  "title": "Risposta etti19",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etti19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:33:51.378899+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "neutral": 4,
+    "positive": 4
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 2,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.4025,
+  "avg_confidence": 0.85625,
+  "avg_emotions_per_item": 0.625,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt,perché mi aiuta a comprendere gli argomenti più difficili",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.95,
+      "reason": "Aiuta a comprendere argomenti difficili.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "mi aiuta a comprendere gli argomenti più difficili"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "l'intelligenza artificiale riesce ad aiutarmi per fare i compiti più velocemente",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.9,
+      "reason": "Aiuta a fare i compiti più velocemente.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.85,
+          "evidence": "riesce ad aiutarmi per fare i compiti più velocemente"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi spiegarmi cosa dice il testo soffermandoti sui punti più importanti.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Richiesta di spiegazione del testo.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiegandomi in modo chiaro gli argomenti",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.92,
+      "reason": "Spiegazione chiara degli argomenti.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.88,
+          "evidence": "spiegandomi in modo chiaro gli argomenti"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "riesce a farmi capire bene l'argomento che sto studiando",
+      "sentiment": "positive",
+      "score": 0.82,
+      "confidence": 0.93,
+      "reason": "Capisce bene l'argomento studiato.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "riesce a farmi capire bene l'argomento"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Nessuna risposta fornita.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono: aiuta tutti a trovare un modo più semplice per apprendere gli argomenti che si studiano ma anche nella vita quotidiana l'intelligenza artificiale può avere una grande importanza e può fornire informazioni di ogni genere  Contro: se viene utilizzata in modo eccessivo porterà un effetto negativo sull'uomo in quanto esso non si impegnerà e non avrà la motivazione per apprendere e studiare.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Analisi pro e contro dell'IA.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "porterà un effetto negativo sull'uomo"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nessuna se viene usata in modo coretto ed efficace",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Condizionale sull'uso corretto.",
+      "emotions": []
+    }
+  ]
+}

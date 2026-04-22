@@ -1,0 +1,97 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uono16.md",
+  "source_name": "insegnanti_attuali_uono16.md",
+  "title": "Risposta UONO16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "UONO16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:19:12.187041+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "neutral": 1,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "entusiasmo": 1,
+    "fiducia": 1,
+    "preoccupazione": 1,
+    "sollievo": 1
+  },
+  "avg_score": 0.45,
+  "avg_confidence": 0.8125,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Mi sto per informando da poco sull'argomento che intendo comunque approfondire molto di più perchè è in atto una rivoluzione.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Intenzione di approfondire e percezione di una rivoluzione positiva.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "intendo comunque approfondire molto di più"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno da poco la disciplina, dopo tanti anni sul sostegno. Ho dato la priorità allo studio approfondito dei contenuti fondanti della disciplina. Presto mi occuperò anche di capire di più circa I.A.",
+      "sentiment": "positive",
+      "score": 0.5,
+      "confidence": 0.7,
+      "reason": "Priorità data allo studio e apertura verso nuove tecnologie.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "media",
+          "confidence": 0.65,
+          "evidence": "Ho dato la priorità allo studio approfondito"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro tanti. Contro tanti ma come tutte le tecnologie. Vanno gestite con consapevolezze e razionalità per essere comunque sempre noi ad indirizzarle.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Pro e contro bilanciati, necessità di gestione consapevole.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.6,
+          "evidence": "Contro tanti ma come tutte le tecnologie"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Penso che non esistano divieti a priori.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.8,
+      "reason": "Assenza di divieti percepita come apertura e libertà.",
+      "emotions": [
+        {
+          "label": "sollievo",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Penso che non esistano divieti a priori"
+        }
+      ]
+    }
+  ]
+}

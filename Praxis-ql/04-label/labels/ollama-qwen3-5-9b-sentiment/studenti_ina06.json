@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ina06.md",
+  "source_name": "studenti_ina06.md",
+  "title": "Risposta Ina06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Ina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:24:00.428751+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 3
+  },
+  "avg_score": -0.15,
+  "avg_confidence": 0.875,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Cerco di evitare",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di una strategia personale neutra."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Cerco di evitare di utilizzarla perchè ho paura che delegargli dei compiti così frequentemente minaccerebbero le mie competenze in futuro",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.95,
+      "reason": "Paura che l'uso frequente minacci le competenze."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: semplifica di molto il livello di approfondimento, appiattisce l’indagine critica e gli studenti tendono ad affidarsi troppo all’IA Pro: può essere utile per integrare delle informazioni ed elaborare in modo più esaustivo dei contenuti carenti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Presenta sia pro che contro in modo bilanciato."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Ad esempio affidarsi solo a dei riassunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Esempio fattuale senza giudizio emotivo esplicito."
+    }
+  ]
+}

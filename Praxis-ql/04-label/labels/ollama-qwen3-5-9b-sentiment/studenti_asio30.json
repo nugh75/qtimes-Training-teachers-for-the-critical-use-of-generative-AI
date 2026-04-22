@@ -1,0 +1,37 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_asio30.md",
+  "source_name": "studenti_asio30.md",
+  "title": "Risposta asio30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "asio30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:19:04.520186+00:00",
+  "item_count": 2,
+  "sentiment_counts": {
+    "neutral": 2
+  },
+  "avg_score": 0.0,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non mi è’ mai capitato",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Espressione di non aver mai sperimentato l'evento."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non so come usarla",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Indicazione di incertezza sulle procedure d'uso."
+    }
+  ]
+}

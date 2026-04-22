@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_azzo01.md",
+  "source_name": "insegnanti_attuali_azzo01.md",
+  "title": "Risposta AZZO01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "AZZO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:00:14.009032+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 1,
+    "neutral": 4,
+    "positive": 4
+  },
+  "avg_score": 0.272222,
+  "avg_confidence": 0.872222,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "VIDNOZ PER LA REALIZZAZIONE DI VIDEO-LEZIONI CON PERSONAGGI PIU' VICINI AI BAMBINI E ACCATTIVANTI",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Personaggi vicini ai bambini e accattivanti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER LA CREAZIONE DI MAPPE CON CONCETTI-CHIAV E IMMAGINI A SUPPORTO",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrizione funzionale di mappe e immagini."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "SEMPLIFICAZIONE DI ESERCIZI PER LA COMPRENSIONE E SVOLGIMNETO GUIDATO DI ATTIVITA'",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Semplificazione per comprensione e guida."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "GENERA L'IMMAGINE ADATTA A BAMBINI DI 8 ANNI DI UN PAPA' CHE ABBRACCIA IL FIGLIO DI 5 ANNI SEDUTI SULLA PANCHINA DI LEGNO SOTTO UN CILIEGIO FIORITO IN UN PARCO CON LO SFONDO DI UN CIELO SERENO",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Prompt descrittivo per generazione immagine."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "APPRENDERE LE PARTI DEL DISCORSO CON I SIMBOLI MONTESSORIANI GUIDATI DA TOPO GIGIO CHE LI CONDUCE NELPAESE DELLE PARTI DEL DISCORSO PRESENTANDO I DIVERSI SIMBOLI CON ANIMAZIONE",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.92,
+      "reason": "Simboli Montessori e Topo Gigio accattivanti."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "RENDE PIU'  ACCATTIVANTI LE LEZIONI,  DESTA   INTERESSE  E CURIOSITA'",
+      "sentiment": "positive",
+      "score": 0.9,
+      "confidence": 0.98,
+      "reason": "Lezioni più accattivanti, interesse e curiosità."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "NON AVERE TUTTI GLI STRUMENTI A DISPOSIZIONE",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Mancanza di tutti gli strumenti a disposizione."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SUPPORTO NELLA PREDISPOSIZIONE E ORGANIZZAZIONE DELLE ATTIVITA',  DIPENDENZA",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.7,
+      "reason": "Supporto organizzativo e dipendenza."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODUZIONE DI TESTI, PERCHE' SI DISABITUA ALLO SVOLGIMENTO DI ELABORATI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Produzione testi per disabituare agli elaborati."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "run": {
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "host": "http://192.168.129.14:11434",
+    "processed_files": 730,
+    "output_dir": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-sentiment-emotions",
+    "summary_source": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-sentiment-emotions/summary_by_cohort.csv",
+    "summary_emotions_source": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-sentiment-emotions/summary_emotions_by_cohort.csv"
+  },
+  "totals": {
+    "items_total": 4617,
+    "positive": 1310,
+    "neutral": 2322,
+    "negative": 985,
+    "avg_score_weighted": 0.066517,
+    "avg_confidence_weighted": 0.866948,
+    "emotions_total": 2810,
+    "avg_emotions_per_item": 0.60862
+  },
+  "emotion_totals": {
+    "preoccupazione": 797,
+    "fiducia": 650,
+    "frustrazione": 448,
+    "entusiasmo": 254,
+    "sollievo": 179,
+    "curiosita": 144,
+    "gioia": 115,
+    "rabbia": 87,
+    "paura": 86,
+    "ansia": 27,
+    "tristezza": 15,
+    "sorpresa": 8
+  },
+  "cohorts": [
+    {
+      "cohort": "insegnanti_in_servizio",
+      "label": "Insegnanti in servizio",
+      "items_total": 2220,
+      "positive": 598,
+      "neutral": 1105,
+      "negative": 517,
+      "avg_score": 0.040775,
+      "avg_confidence": 0.868689,
+      "emotions_total": 1417,
+      "avg_emotions_per_item": 0.638288,
+      "top_emotions": "preoccupazione:435|fiducia:311|frustrazione:225"
+    },
+    {
+      "cohort": "insegnanti_pre_service",
+      "label": "Insegnanti pre-service",
+      "items_total": 502,
+      "positive": 77,
+      "neutral": 331,
+      "negative": 90,
+      "avg_score": -0.016235,
+      "avg_confidence": 0.868884,
+      "emotions_total": 218,
+      "avg_emotions_per_item": 0.434263,
+      "top_emotions": "preoccupazione:74|frustrazione:46|fiducia:42"
+    },
+    {
+      "cohort": "studenti",
+      "label": "Studenti",
+      "items_total": 1895,
+      "positive": 635,
+      "neutral": 886,
+      "negative": 374,
+      "avg_score": 0.118596,
+      "avg_confidence": 0.864396,
+      "emotions_total": 1175,
+      "avg_emotions_per_item": 0.620053,
+      "top_emotions": "fiducia:297|preoccupazione:288|frustrazione:177"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_onte26.md",
+  "source_name": "studenti_onte26.md",
+  "title": "Risposta onte26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "onte26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:41:51.660372+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 7
+  },
+  "emotion_counts": {
+    "frustrazione": 1,
+    "preoccupazione": 1,
+    "tristezza": 1
+  },
+  "avg_score": -0.144444,
+  "avg_confidence": 0.883333,
+  "avg_emotions_per_item": 0.333333,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Risposta vuota, nessun contenuto emotivo rilevabile.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Mid journey",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Menzione di uno strumento tecnico senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trovare ulteriori riferimenti e suggerimenti di testi. Scrivere bibliografia.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione di attività accademiche standard senza toni.",
+      "emotions": []
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Give me the citation of this book […] in this […] style",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Richiesta di citazioni in stile formale, tono neutro.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Riassunti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Elenco di output (riassunti) descritto in modo oggettivo.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Schematizzare contenuti",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Istruzione a schematizzare contenuti, tono puramente funzionale.",
+      "emotions": []
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Difficile reperire citazioni fedeli ai testi o che siano coerenti con ambiti di ricerca specifici",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.85,
+      "reason": "Difficoltà nel reperire citazioni fedeli esprime frustrazione.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "Difficile reperire citazioni fedeli"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro - velocizzare schematizzazione di concetti sempllici, forniire riferimenti,  traduzioni, parafrasi, adattamento della sintassi a determinati bisogni. compilare bibliografia. Contro: aiuto limitato nella stesura di testi specifici",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco pro/contro bilanciato, tono analitico e oggettivo.",
+      "emotions": []
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nello studio di materie creative, fare affidamento all’ai per la fase di creazione limita molto il valore dell’esperienza anche a fronte di risultati decenti e limita immaginazione e potere creativo.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Limitazione del valore dell'esperienza e dell'immaginazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "limita molto il valore dell'esperienza"
+        },
+        {
+          "label": "tristezza",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "limita immaginazione e potere creativo"
+        }
+      ]
+    }
+  ]
+}

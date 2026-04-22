@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rosi06.md",
+  "source_name": "studenti_rosi06.md",
+  "title": "Risposta Rosi06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Rosi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:28:56.473104+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 4
+  },
+  "avg_score": 0.16875,
+  "avg_confidence": 0.8375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Qualsiasi AI che mi possa aiutare a organizzare la mole di studio, ad esempio creando schemi, elenchi puntati, flashcards, o spiegandomi alcuni concetti con altre parole",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "L'utente esprime desiderio di aiuto per organizzare lo studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Sono molto specifico nelle richieste e uso l’AI in modo da fluidificare o facilitare la lettura di alcuni concetti o creare flash cards.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "L'uso dell'AI è descritto come un modo per facilitare la lettura."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Es. Per favore potresti riassumere questo pezzo di testo/file, mantenendo la completezza e rendendolo più facile da leggere? / potresti crearmi delle flashcards su questo argomento?",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Il testo elenca esempi di richieste senza esprimere un giudizio."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizzando i tempi di studio",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.7,
+      "reason": "Velocizzare i tempi di studio è visto come un beneficio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Semplicemente assistendo il mio studio che resta autonomo",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.85,
+      "reason": "L'AI assiste lo studio mantenendo l'autonomia dello studente."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte l’AI inventa o modifica i contenuti",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'AI inventa o modifica contenuti, creando inaffidabilità."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzare il processo di apprendimento , Contro: affidarsi troppo all’AI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenco di pro e contro che bilancia i punti di vista."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Produrre test ex novo perché si perde gradualmente la capacità di stenderli da soli",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.85,
+      "reason": "Produrre test ex novo porta a perdere la capacità di farli da soli."
+    }
+  ]
+}

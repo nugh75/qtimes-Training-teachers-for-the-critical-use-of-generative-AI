@@ -1,0 +1,155 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_adei10.md",
+  "source_name": "insegnanti_attuali_adei10.md",
+  "title": "Risposta adei10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "adei10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:01:44.033373+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 4,
+    "positive": 3
+  },
+  "emotion_counts": {
+    "entusiasmo": 2,
+    "frustrazione": 1,
+    "gioia": 1,
+    "preoccupazione": 1
+  },
+  "avg_score": 0.088889,
+  "avg_confidence": 0.877778,
+  "avg_emotions_per_item": 0.555556,
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Essendo un 'insegnante di grafica ,gli strumenti sono inevitabilmente i PC",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Affermazione fattuale sulla professione senza giudizio emotivo.",
+      "emotions": []
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per realizzare finisch layout grafici più accattivanti.",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Obiettivo chiaro e motivante per migliorare i layout.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.7,
+          "evidence": "layout grafici più accattivanti"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Nel mio caso ,sono gli alunni ad utilizzare l'intelligenza artificiale per personalizzare  i loro lavori di grafica",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Descrizione neutra di un'attività didattica in corso.",
+      "emotions": []
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "software di grafica come: Firefly- Topaz labs",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Elenco tecnico di software senza commenti emotivi.",
+      "emotions": []
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Hanno imparato ad utilizzare nuovi software di grafica per ottenere dei risultati eccellenti in poco tempo.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Risultati eccellenti ottenuti in poco tempo.",
+      "emotions": [
+        {
+          "label": "gioia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "risultati eccellenti"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Essendo un indirizzo di grafica ,è importante stare a passo con i tempi",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Necessità professionale legata al contesto di indirizzo.",
+      "emotions": []
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna è stato una implemazione naturale",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.8,
+      "reason": "Mancanza di naturalezza percepita nell'implementazione.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Nessuna è stato una implemazione naturale"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende dalle materie che si insegnano, essendo una docente di grafica per me è inevitabile l'utilizzo nei laboratori, diverso e per le materie umanistiche e scientifiche, l'utilizzo ci deve essere ma non abusarne, perchè il problema e che gli alunni a lungo andare non avranno la capacità di apprendere, ragionare, risolvere problemi e prendere decisioni autonome.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Paura che l'uso eccessivo riduca capacità cognitive.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "non avranno la capacità di apprendere, ragionare"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "È chiaro che l'intelligenza artificiale stia cambiando il mondo della scuola alla velocità della luce. Ma per sfruttare al meglio questa rivoluzione, dobbiamo rimboccarci le maniche e affrontare alcune sfide importanti, cogliendo allo stesso tempo le grandi opportunità che si aprono davanti a noi.",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.85,
+      "reason": "Ottimismo verso le opportunità e la rivoluzione.",
+      "emotions": [
+        {
+          "label": "entusiasmo",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "grandi opportunità che si aprono davanti a noi"
+        }
+      ]
+    }
+  ]
+}

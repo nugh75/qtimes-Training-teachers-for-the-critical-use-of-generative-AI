@@ -1,0 +1,93 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_magost.md",
+  "source_name": "studenti_magost.md",
+  "title": "Risposta magost",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "magost",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:25:20.587189+00:00",
+  "item_count": 8,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2,
+    "positive": 4
+  },
+  "avg_score": 0.225,
+  "avg_confidence": 0.90375,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassunti perché riesco a rilevare i concetti più importanti",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.95,
+      "reason": "Rilevare concetti importanti è un risultato positivo."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Inviandole un oggetto interessato e chiedendole di trovarmi i concetti più importanti all’interno di esso",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Descrive un metodo di lavoro neutro."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Puoi rilevarmi i contenuti più importanti di questo testo”",
+      "sentiment": "positive",
+      "score": 0.7,
+      "confidence": 0.9,
+      "reason": "Chiedere di rilevare contenuti è un'azione utile."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendomi comprendere come si identificano all’interno di un brano le cose più importanti",
+      "sentiment": "positive",
+      "score": 0.75,
+      "confidence": 0.92,
+      "reason": "Comprendere come identificare cose importanti è positivo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho imparato a riassumere e a trovare i concetti più importanti",
+      "sentiment": "positive",
+      "score": 0.85,
+      "confidence": 0.98,
+      "reason": "Imparare a riassumere e trovare concetti è ottimo."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che non sempre convengo con ciò che vi è scritto",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.88,
+      "reason": "Non sempre convengo indica disaccordo o insoddisfazione."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che spesso riesce a “semplificare” lo studio per certi aspetti, i contro che non sempre la reputo affidabile",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Elenca pro e contro in modo equilibrato."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "In alcuni casi mi sono ritrovata a chiedere a ChatGPT di crearmi degli esercizi e una volta fatti avrei visto le risposte…diciamo che non mi sono trovata con le risposte che mi ha fornito… Ho chiesto di ricontrollare se fossero giusti e ChatGPT è convenuto con me che sul fatto che ci fossero degli errori",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "Risposte errate e insoddisfazione sono aspetti negativi."
+    }
+  ]
+}

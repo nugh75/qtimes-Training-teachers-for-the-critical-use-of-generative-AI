@@ -1,0 +1,96 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_pali25.md",
+  "source_name": "insegnanti_attuali_pali25.md",
+  "title": "Risposta pali25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "pali25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:13:48.412182+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1,
+    "positive": 1
+  },
+  "emotion_counts": {
+    "fiducia": 1,
+    "preoccupazione": 1,
+    "rabbia": 2
+  },
+  "avg_score": -0.2,
+  "avg_confidence": 0.92,
+  "avg_emotions_per_item": 1.0,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne sento la necessità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "L'assenza di valore espresso indica neutralità.",
+      "emotions": []
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Voglio promuovere autonomia e spirito critico negli studenti.",
+      "sentiment": "positive",
+      "score": 0.8,
+      "confidence": 0.9,
+      "reason": "Promuovere autonomia e spirito critico è un obiettivo educativo positivo.",
+      "emotions": [
+        {
+          "label": "fiducia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "Voglio promuovere autonomia e spirito critico"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Solo contro: gli studenti si affidano totalmente all’intelligenza artificiale e non usano il proprio cervello. Per loro è solo la via più rapida per svolgere i compiti.",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.95,
+      "reason": "La critica all'uso dell'IA e la paura che gli studenti non usino il cervello.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "gli studenti si affidano totalmente all'intelligenza artificiale"
+        },
+        {
+          "label": "rabbia",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "Solo contro: gli studenti si affidano totalmente"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere utilizzata a scuola.",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "Il divieto assoluto di utilizzo esprime un forte sentimento negativo.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.95,
+          "evidence": "Non dovrebbe essere utilizzata a scuola"
+        }
+      ]
+    }
+  ]
+}

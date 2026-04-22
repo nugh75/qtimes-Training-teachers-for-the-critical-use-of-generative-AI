@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_epre02.md",
+  "source_name": "insegnanti_attuali_epre02.md",
+  "title": "Risposta epre02",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "epre02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:03:10.647019+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "avg_score": -0.6375,
+  "avg_confidence": 0.8425,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "blocca la creatività, e il fare",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Blocca creatività e fare, impatto negativo."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non adatta alla scuola dell infanzia",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.9,
+      "reason": "Non adatta alla scuola dell'infanzia."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "contro: limita le capacità  elaborazione e critica - pro  facilita l informazione",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "Contro e pro bilanciati, impatto neutro."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "riduce competenze il pensiero critico e la risoluzione dei problemi",
+      "sentiment": "negative",
+      "score": -0.85,
+      "confidence": 0.92,
+      "reason": "Riduce competenze pensiero critico e problemi."
+    }
+  ]
+}

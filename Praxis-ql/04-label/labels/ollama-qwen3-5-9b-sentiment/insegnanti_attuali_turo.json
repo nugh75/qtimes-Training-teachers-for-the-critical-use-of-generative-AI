@@ -1,0 +1,47 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_turo.md",
+  "source_name": "insegnanti_attuali_turo.md",
+  "title": "Risposta turo 16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "turo 16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:12:46.803103+00:00",
+  "item_count": 3,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 1
+  },
+  "avg_score": -0.366667,
+  "avg_confidence": 0.85,
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno temporaneamente sul sostegno, per ora non è adattabile alle strategie didattiche che sto applicando",
+      "sentiment": "negative",
+      "score": -0.6,
+      "confidence": 0.9,
+      "reason": "Esprime limitazione e inadeguatezza rispetto alle strategie didattiche attuali."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere molto stimolante ma allo stesso tempo potrebbe essere utilizzata in modi non adeguati al contesto didattico, evitando agli studenti di sviluppare le loro capacità.",
+      "sentiment": "negative",
+      "score": -0.5,
+      "confidence": 0.85,
+      "reason": "Sottolinea rischi di uso non adeguato e impedimento allo sviluppo studentesco."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I ragazzi devono essere in grado di sviluppare pensieri personali, svolgere esercizi, risolvere problemi ecc in modo autonomo, l'AI deve solo essere uno strumento per potenziare le loro abilità già sviluppate, invitandoli ad approfondimenti e riflessioni.",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.8,
+      "reason": "Definisce un ruolo strumentale dell'AI senza esprimere giudizi di valore."
+    }
+  ]
+}

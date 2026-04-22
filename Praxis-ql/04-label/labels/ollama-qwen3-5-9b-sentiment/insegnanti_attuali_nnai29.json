@@ -1,0 +1,102 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nnai29.md",
+  "source_name": "insegnanti_attuali_nnai29.md",
+  "title": "Risposta NNAI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "NNAI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-22T10:08:09.035689+00:00",
+  "item_count": 9,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 6,
+    "positive": 1
+  },
+  "avg_score": -0.1,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "non ho strumenti preferiti, utilizzo talvolta chatGPT per avere degli spunti sulla strutturazione delle lezioni o per creare immagini adeguate alla lezione che progetto",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Uso strumentale senza preferenze o opinioni forti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non la utilizzo per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione di non utilizzo dello strumento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la utilizzo per questo scopo",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.95,
+      "reason": "Dichiarazione di non utilizzo dello strumento."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Prepara una lezione di chimica per una seconda superiore che riguardi le trasformazioni fisiche e chimiche, con esempi di applicazioni pratiche in laboratorio”",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Esempio neutro di prompt generato dall'utente."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non posso fornire esempi specifici",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.9,
+      "reason": "Impossibilità di fornire esempi specifici."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Al momento non possiedo gli strumenti per applicarla in modo concreto al fine di migliorare l’apprendimento degli studenti. Ad oggi non credo che ne migliori l’apprendimento, perché penso che non siano in grado di utilizzarlo come supporto alla didattica ma piuttosto come strumento che li permetta di evitare il ragionamento",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.9,
+      "reason": "Mancanza di strumenti e scetticismo sull'efficacia."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna, ma non ne conosco le potenzialità",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Nessuno strumento ma ignoranza delle potenzialità."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: infiniti! Permette di creare ciò che si può immaginare, arrivare con contenuti visivi e non anche a chi ha poca immaginazione.  Contro: è un’arma a doppio taglio. Penso che sia necessario che chi la usa la sappia usare in modo coscienzioso e con cognizione, che sappia discernere le informazioni e selezionare i contenuti",
+      "sentiment": "positive",
+      "score": 0.6,
+      "confidence": 0.85,
+      "reason": "Pro: infiniti contenuti visivi, contro: uso coscienzioso."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I ragazzi usano l’intelligenza artificiale in sostituzione al motore di ricerca, non sono in grado di eseguire semplici operazioni sul web (es. inviare una mail) però si fidano ciecamente di chatGPT. Questo secondo me non è ammissibile",
+      "sentiment": "negative",
+      "score": -0.7,
+      "confidence": 0.9,
+      "reason": "Sostituzione motore di ricerca e fiducia cieca."
+    }
+  ]
+}

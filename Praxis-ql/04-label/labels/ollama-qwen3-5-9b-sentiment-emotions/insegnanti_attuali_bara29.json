@@ -1,0 +1,88 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_bara29.md",
+  "source_name": "insegnanti_attuali_bara29.md",
+  "title": "Risposta bara29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "bara29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T19:04:48.203791+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 3,
+    "neutral": 1
+  },
+  "emotion_counts": {
+    "paura": 1,
+    "rabbia": 2
+  },
+  "avg_score": -0.675,
+  "avg_confidence": 0.88,
+  "avg_emotions_per_item": 0.75,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "sono molto diffidente",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "L'aggettivo 'diffidente' esprime chiaramente sfiducia e scetticismo.",
+      "emotions": [
+        {
+          "label": "paura",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "sono molto diffidente"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ritengo giusto sostituire l'attivita' mentale degli alunni con l'AI",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.98,
+      "reason": "L'espressione 'non ritengo giusto' indica un forte disaccordo morale.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.8,
+          "evidence": "non ritengo giusto"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SOLO CONTRO",
+      "sentiment": "negative",
+      "score": -1.0,
+      "confidence": 0.99,
+      "reason": "La locuzione 'SOLO CONTRO' esprime un rifiuto totale e assoluto.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "SOLO CONTRO"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODURRE TESTI",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.6,
+      "reason": "L'azione 'PRODURRE TESTI' è descrittiva e priva di valenza emotiva.",
+      "emotions": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "sentiment_emotions.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tano19.md",
+  "source_name": "insegnanti_attuali_tano19.md",
+  "title": "Risposta tano19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tano19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "max_emotions": 2,
+  "generated_at": "2026-04-22T18:17:20.794763+00:00",
+  "item_count": 4,
+  "sentiment_counts": {
+    "negative": 2,
+    "neutral": 2
+  },
+  "emotion_counts": {
+    "curiosita": 1,
+    "frustrazione": 1,
+    "preoccupazione": 2,
+    "rabbia": 1
+  },
+  "avg_score": -0.4,
+  "avg_confidence": 0.88,
+  "avg_emotions_per_item": 1.25,
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non mi sembra utile per ora",
+      "sentiment": "negative",
+      "score": -0.8,
+      "confidence": 0.95,
+      "reason": "Espressione di inutilità percepita.",
+      "emotions": [
+        {
+          "label": "frustrazione",
+          "intensity": "alta",
+          "confidence": 0.9,
+          "evidence": "non mi sembra utile per ora"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ho ancora sperimentato e non ho formazione adeguata",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "confidence": 0.85,
+      "reason": "Mancanza di esperienza e formazione.",
+      "emotions": [
+        {
+          "label": "preoccupazione",
+          "intensity": "media",
+          "confidence": 0.8,
+          "evidence": "non ho ancora sperimentato e non ho formazione adeguata"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "può offrire nuove modalità d'insegnamento supportando nuove modalita' d'apprendimento ma i limiti di un corretto utilizzo sono tutti da definire e interiorizzare",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "confidence": 0.8,
+      "reason": "Riconoscimento di potenzialità e limiti.",
+      "emotions": [
+        {
+          "label": "curiosita",
+          "intensity": "media",
+          "confidence": 0.75,
+          "evidence": "può offrire nuove modalità d'insegnamento"
+        },
+        {
+          "label": "preoccupazione",
+          "intensity": "bassa",
+          "confidence": 0.7,
+          "evidence": "i limiti di un corretto utilizzo sono tutti da definire"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non dovrebbe facilitare attività in maniera passiva altrimenti viene utilizzata come mero strumento per non attivare anzi bypassare fasi del processo di apprendimento",
+      "sentiment": "negative",
+      "score": -0.9,
+      "confidence": 0.92,
+      "reason": "Critica all'uso passivo e bypass.",
+      "emotions": [
+        {
+          "label": "rabbia",
+          "intensity": "alta",
+          "confidence": 0.85,
+          "evidence": "viene utilizzata come mero strumento per non attivare"
+        }
+      ]
+    }
+  ]
+}
