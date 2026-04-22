@@ -1,0 +1,62 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_elis03.md",
+  "source_name": "insegnanti_attuali_elis03.md",
+  "title": "Risposta Elis03",
+  "group": "Insegnanti in servizio",
+  "record_code": "Elis03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:54.684643+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "R1",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il record mostra un insegnante con bassa competenza tecnica (R1/A1) che percepisce l'IA come strumento di supporto non sostitutivo (I4) e identifica rischi specifici per l'uso improprio (S4) e la delega di compiti istituzionali (S7).",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "R1": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono in grado di utilizzare l'IA. Non ho frequentato corsi di formazione a riguardo,  pertanto non so farne un uso corretto, soprattutto nell'ambito della didattica.",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "R1: Esplicita incapacità percepita di usare l'IA. A1: Cita esplicitamente la mancanza di corsi di formazione come causa."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale può essere un supporto alla didattica, quindi anche all'educazione, ma non può sostituire unicamente la persona. Nella mia piccola esperienza, ho notato che molti docenti e/o studenti ne fanno un uso improprio, pertanto non sfruttano le loro capacità logico-cognitive. Bisognerebbe informarsi e formarsi sull'AI prima di poterla utilizzate adeguatamente.",
+      "codes": [
+        "X2",
+        "I4",
+        "S4"
+      ],
+      "reason": "X2: L'IA come supporto ma non sostitutiva. I4: Necessità della persona umana. S4: Uso improprio che non sviluppa capacità logico-cognitive."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me non bisognerebbe stilare i documeni utili alla didattica, come ad esempio le programmazioni e /o le relazioni sugli/ sulle studenti/esse utilizzando l'intelligenza artificiale",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

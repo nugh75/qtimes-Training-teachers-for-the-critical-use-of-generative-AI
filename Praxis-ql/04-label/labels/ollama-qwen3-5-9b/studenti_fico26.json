@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_fico26.md",
+  "source_name": "studenti_fico26.md",
+  "title": "Risposta fico26",
+  "group": "Studenti",
+  "record_code": "fico26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:06:04.056445+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P6",
+    "P7",
+    "S5",
+    "X2",
+    "X5",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso pragmatico dell'IA per l'efficienza (riassunti, esercizi) ma evidenzia anche preoccupazioni sulla qualità dei contenuti (greco) e la necessità di controllo umano.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 2,
+    "P6": 1,
+    "P7": 1,
+    "S5": 1,
+    "X2": 2,
+    "X5": 2,
+    "X6": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "la creazione di foto tramite un testo, mi diverte",
+      "codes": [
+        "P6",
+        "X6"
+      ],
+      "reason": "Menzione di uno strumento specifico (creazione foto da testo) e percezione di beneficio legato all'innovazione/divertimento."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "boh",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'boh' troppo breve e non informativa per attribuzione di codici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "ciao chat, potresti..",
+      "codes": [
+        "N1a",
+        "P7"
+      ],
+      "reason": "Risposta breve (N1a) ma contiene un esempio esplicito di prompt visibile (P7)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "riassunti, risoluzione esercizi",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Menzione di riassunti e risoluzione esercizi come aiuto all'apprendimento (semplificazione/organizzazione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non devo passare le ore a riassumere, lo fa chat GPT e io mando in stampa",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA sostituisce il riassunto manuale, ottimizzando tempo e processo di studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "le versioni di greco, perché non sono fatte bene, sono sbagliate",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Menzione di versioni sbagliate e non corrette (errori/allucinazioni e informazioni false)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "io trovo solo pro: ottimizzare e studiare meglio",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Percezione di benefici unici (pro) legati all'ottimizzazione e miglioramento dello studio."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non bisogna approfittarne troppo, ma usarla con parsimonia",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Condiziona l'uso alla parsimonia e al non esagerare (cambiamento condizionato)."
+    }
+  ]
+}

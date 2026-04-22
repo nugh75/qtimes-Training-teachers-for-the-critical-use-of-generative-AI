@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ucci20.md",
+  "source_name": "insegnanti_attuali_ucci20.md",
+  "title": "Risposta ucci20",
+  "group": "Insegnanti in servizio",
+  "record_code": "ucci20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:06.751925+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S1",
+    "S4",
+    "S5",
+    "S7",
+    "X3"
+  ],
+  "record_note": "Profilo di docente con forte resistenza all'uso dell'IA, motivata da valori pedagogici (autonomia, pensiero critico) e competenza personale nella scrittura.",
+  "code_counts": {
+    "S1": 2,
+    "S4": 2,
+    "S5": 1,
+    "S7": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco progettare le mie attività in modo autonomo; ho facilità nella scrittura e quindi non fatico nella produzione di testi",
+      "codes": [
+        "X3",
+        "S1"
+      ],
+      "reason": "Preferenza per autonomia progettuale (X3) e rifiuto della delega cognitiva (S1) dovuta alla propria competenza nella scrittura."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Mi spaventa la delega di alcune attività che io vorrei continuare a fare da sola per non delegare l'aspetto creativo e di progettazione ragionata che fa parte del mio lavoro. Ho sempre studiato molto e amo il mio lavoro perchè mi permette di continuare a studiare e prepararmi, temo di accontentarmi da quello che produce l'AI e perdere il desiderio di approfondire.",
+      "codes": [
+        "S1",
+        "S4"
+      ],
+      "reason": "Paura di delegare aspetti creativi/progettuali (S1) e rischio di erosione del pensiero critico e della curiosità (S4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La delega, l'accesso ad informazioni immediate che non favoriscono il processo deduttivo che è alla base dell'apprendimento per tentativi ed errori.",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Critica alla delega che ostacola il processo deduttivo (S4) e all'accesso immediato a informazioni che bypassa l'apprendimento attivo (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La produzione di testi, la traduzione, la ricerca di informazioni.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (scrittura, traduzione, ricerca) da non delegare all'IA."
+    }
+  ]
+}

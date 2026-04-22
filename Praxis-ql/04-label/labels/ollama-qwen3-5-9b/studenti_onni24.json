@@ -1,0 +1,132 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_onni24.md",
+  "source_name": "studenti_onni24.md",
+  "title": "Risposta onni24",
+  "group": "Studenti",
+  "record_code": "onni24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:21.236286+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "N1b",
+    "P2",
+    "P6",
+    "P7",
+    "R4",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso maturo dell'IA: gli studenti ne riconoscono l'efficienza e la capacità di semplificare, ma mantengono una forte consapevolezza critica sui limiti (allucinazioni, necessità di verifica) e sui rischi di delega acritica.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "N1b": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S5": 1,
+    "X1": 2,
+    "X2": 4,
+    "X3": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt, perché rapidamente mi permette di arrivare ad informazioni che altrimenti dovrei selezionare io, andando a cercare su vari siti",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Identificazione dello strumento (ChatGpt), beneficio di efficienza (risparmio tempo) e semplificazione nella ricerca."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo spunti per la scrittura di temi i progetti e informazioni generali",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per generare spunti personalizzati per temi e progetti, adattando il supporto allo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Generami una scaletta di temi da trattare, in un articolo giornalistico che parla di…",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio esplicito di prompt fornito, dimostrando competenza nella formulazione di istruzioni specifiche."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi dà diversi punti di vista su ciò che cerco",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA offre diversi punti di vista, facilitando la comprensione e l'approfondimento del tema."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha dato importanti spunti per la realizzazione di un progetto universitario",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite spunti che supportano la realizzazione di un progetto (organizzazione/aiuto)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Poca chiarezza dei temi richiesti, in alcuni casi",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta cita 'poca chiarezza dei temi', che non è una difficoltà tecnica dell'implementazione dello strumento né un problema di IA, ma un problema di contesto/compito."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Un pro è la semplificazione del lavoro da fare, un contro è che a volte si tende a fare completo affidamento sull’ia senza controllare la veridicità delle informazioni",
+      "codes": [
+        "X1",
+        "X2",
+        "X7",
+        "I1"
+      ],
+      "reason": "Pro: semplificazione (X1, X2). Contro: affidamento acritico (X7) e necessità di controllo umano (I1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La generazione di testi perché si tende a non ricontrollare ciò che viene scritto da una macchina che crediamo perfetta, ma non sempre lo è",
+      "codes": [
+        "S5",
+        "I2"
+      ],
+      "reason": "Rischio di non ricontrollare le informazioni (S5) e consapevolezza che l'IA può essere imprecisa (I2)."
+    }
+  ]
+}

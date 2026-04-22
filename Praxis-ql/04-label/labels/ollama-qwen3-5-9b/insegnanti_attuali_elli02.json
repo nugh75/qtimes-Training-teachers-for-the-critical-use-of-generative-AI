@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_elli02.md",
+  "source_name": "insegnanti_attuali_elli02.md",
+  "title": "Risposta Elli02",
+  "group": "Insegnanti in servizio",
+  "record_code": "Elli02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:42.337096+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S3",
+    "S4",
+    "X6"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'uso dell'IA da parte dell'insegnante, motivata da preoccupazioni sulla perdita di competenze umane e creative, oltre a risposte non pertinenti o insufficienti.",
+  "code_counts": {
+    "N1b": 2,
+    "S3": 1,
+    "S4": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Sto lavorando a un concorso multimediale",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non risponde alla domanda specifica sull'uso dell'IA, ma menziona un progetto lavorativo (concorso) non pertinente."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non mi serve",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non mi serve' è troppo generica e non fornisce motivazioni classificate nel framework PRAXIS."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Che l'essere umano perderà molte delle sue abilità; facilità i compiti e apre yun mondo di possibilità di applicazione",
+      "codes": [
+        "S4",
+        "X6"
+      ],
+      "reason": "Il partecipante cita la perdita di abilità umane (S4) e l'apertura di nuove possibilità (X6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La parte creativa umana diminuirà",
+      "codes": [
+        "S3"
+      ],
+      "reason": "La risposta indica la diminuzione della parte creativa umana, coerente con il codice S3 (perdita di creatività)."
+    }
+  ]
+}

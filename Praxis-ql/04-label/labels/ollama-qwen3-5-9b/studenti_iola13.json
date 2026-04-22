@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iola13.md",
+  "source_name": "studenti_iola13.md",
+  "title": "Risposta Iola13",
+  "group": "Studenti",
+  "record_code": "Iola13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:52.765701+00:00",
+  "record_dimensions": [
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "R1",
+    "R5"
+  ],
+  "record_note": "Profilo di studente con difficoltà di competenza tecnica (R1) e tendenza a non utilizzare l'IA per insicurezza o percezione di inutilità (R5).",
+  "code_counts": {
+    "N1a": 4,
+    "R1": 1,
+    "R5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non so usarli",
+      "codes": [
+        "R1",
+        "N1a"
+      ],
+      "reason": "Risposta breve ('Perché non so usarli') indica mancanza di competenza pratica (R1) e insufficiente informazione (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché non mi serve",
+      "codes": [
+        "R5",
+        "N1a"
+      ],
+      "reason": "Risposta breve ('Perché non mi serve') indica non-uso motivato da scelta epistemica (R5) e insufficiente informazione (N1a)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non ho tanta esperienza",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Non ho tanta esperienza') che impedisce l'attribuzione di codici specifici (N1a)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non so rispondere a questa domanda",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Non so rispondere a questa domanda') che impedisce l'attribuzione di codici specifici (N1a)."
+    }
+  ]
+}

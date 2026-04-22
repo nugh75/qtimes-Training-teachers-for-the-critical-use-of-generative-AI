@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ibba03.md",
+  "source_name": "studenti_ibba03.md",
+  "title": "Risposta Ibba03",
+  "group": "Studenti",
+  "record_code": "Ibba03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:15.372807+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P1",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "X1",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza attivamente l'IA per semplificazione e risparmio di tempo, con buona competenza tecnica ma risposte talvolta generiche o non specifiche.",
+  "code_counts": {
+    "N1a": 3,
+    "P1": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché è intuitivo, veloce e in realtà ho sempre usato solo questo",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e percezione di competenza nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per riassumermi i testi, spiegarli in modo piu semplice e prepararmi dei discorsi appositi per ripetere",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "Descrizione di attività di riassunto e spiegazione (P1, P5) finalizzate a semplificare concetti (X2) e personalizzare lo studio (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi riassumere questo testo senza tralasciare informazioni importanti?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito, dimostrando competenza nella formulazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi semplifica i concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio percepito nella semplificazione dei concetti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "in questo momento non saprei",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro principale è la riduzione del carico di lavoro e quindi un’ottimizzazione dei tempi, non trovo contro al momento",
+      "codes": [
+        "X1",
+        "X7"
+      ],
+      "reason": "Identificazione del risparmio di tempo come beneficio principale, con accenno all'ottimizzazione."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    }
+  ]
+}

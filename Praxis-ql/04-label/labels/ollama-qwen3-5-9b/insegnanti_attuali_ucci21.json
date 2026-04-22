@@ -1,0 +1,41 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ucci21.md",
+  "source_name": "insegnanti_attuali_ucci21.md",
+  "title": "Risposta ucci21",
+  "group": "Insegnanti in servizio",
+  "record_code": "ucci21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:09.573696+00:00",
+  "record_dimensions": [
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P5",
+    "X2",
+    "X6"
+  ],
+  "record_note": "L'insegnante evidenzia l'uso dell'IA per la creazione di materiali complessi e la loro funzione di supporto alla comprensione.",
+  "code_counts": {
+    "P1": 1,
+    "P5": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Generazione di tesi e immagini per tradurre concetti in contenuti multimediali",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X6"
+      ],
+      "reason": "La risposta descrive la produzione di contenuti (tesi, immagini) e la loro funzione di chiarificazione concettuale e arricchimento didattico."
+    }
+  ]
+}

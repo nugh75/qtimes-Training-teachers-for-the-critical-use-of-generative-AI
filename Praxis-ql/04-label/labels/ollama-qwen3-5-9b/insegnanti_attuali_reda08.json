@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_reda08.md",
+  "source_name": "insegnanti_attuali_reda08.md",
+  "title": "Risposta REDA08",
+  "group": "Insegnanti in servizio",
+  "record_code": "REDA08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:18.733172+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I4",
+    "S3",
+    "S4",
+    "S7",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di insegnante critico verso l'IA, che privilegia lo sviluppo autonomo delle capacità cognitive e la relazione umana, vedendo nell'IA un rischio per l'autonomia e la creatività.",
+  "code_counts": {
+    "I1": 1,
+    "I4": 2,
+    "S3": 1,
+    "S4": 2,
+    "S7": 1,
+    "X2": 2,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che bisogni allenare il cervello a superare ostacoli, formulare ipotesi e trovare soluzioni ai problemi in maniera graduale e adeguata al soggetto.",
+      "codes": [
+        "X2",
+        "X5",
+        "I4"
+      ],
+      "reason": "L'insegnante valorizza l'allenamento cognitivo graduale (X2, X5) e la necessità della relazione educativa umana insostituibile (I4) come alternativa all'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "perchè preferisco suggerire agli studenti i mezzi e i modi per risolvere i problemi allenando il proprio cervello",
+      "codes": [
+        "X2",
+        "X5",
+        "I4"
+      ],
+      "reason": "Preferenza per l'allenamento attivo degli studenti (X2, X5) e difesa della relazione educativa (I4) come mezzo per risolvere i problemi."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "non permette agli studenti di lavorare stimolando le proprie capacità ma potrebbe esser utile per stimolare la fantasia",
+      "codes": [
+        "S4",
+        "S3",
+        "I1"
+      ],
+      "reason": "Critica all'IA per non stimolare le capacità (S4, S3) ma con un riconoscimento parziale del suo potenziale per la fantasia (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "le chat che compongono testi, effettuano ricerche  e traducono.",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Identificazione di pratiche come ghostwriting e ricerca automatica come ambiti off-limits (S7) che erodono il pensiero critico (S4)."
+    }
+  ]
+}

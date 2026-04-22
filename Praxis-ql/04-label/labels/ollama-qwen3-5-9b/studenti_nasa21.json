@@ -1,0 +1,107 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nasa21.md",
+  "source_name": "studenti_nasa21.md",
+  "title": "Risposta Nasa21",
+  "group": "Studenti",
+  "record_code": "Nasa21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:10:24.981194+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "N1a",
+    "P5",
+    "P6",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Studente che utilizza attivamente l'IA per supporto allo studio (mappe, riassunti) ma manifesta consapevolezza dei limiti tecnici e rischi etici.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "N1a": 1,
+    "P5": 1,
+    "P6": 1,
+    "X1": 2,
+    "X2": 4,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGBT e Photomath perché mi aiutano nello studio",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione esplicita degli strumenti (ChatGBT, Photomath) e beneficio di aiuto nello studio (efficienza)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo mappe che mi facilitano lo studio",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di mappe (strategia operativa) che facilitano lo studio (semplificazione/comprensione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "ChatGBT",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve (solo nome dello strumento) per la domanda che chiedeva esempi di prompt."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a capire testi difficili , tradurre delle parole in un altra lingua , fare riassunti/schemi che mi aiutano a studiare o ripassare.",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Aiuto a capire testi difficili e fare riassunti (comprensione, organizzazione del percorso)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Capire parole , trovare sinonimi , tradurre parole in altre lingue (es: inglese, latino)",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite comprensione di parole e traduzione (semplificazione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte questi strumenti non capiscono bene la domanda che scrivo  (spiegando male ) .",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Menzione di errori dell'IA (non capire la domanda, spiegazioni errate) = sfiducia tecnica."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: l’intelligenza artificiale può aiutare molto specialmente nello studio creando appunto schemi, riassunti ecc. contro:Non sempre l’intelligenza artificiale é usata in modo corretto , perché in molti forse potrebbero sfruttare queste app per fare i compiti in modo superficiale.",
+      "codes": [
+        "X1",
+        "X2",
+        "I1"
+      ],
+      "reason": "Pro: schemi/riassunti (efficienza, comprensione). Contro: uso scorretto/superficiale (fiducia condizionata/etica)."
+    }
+  ]
+}

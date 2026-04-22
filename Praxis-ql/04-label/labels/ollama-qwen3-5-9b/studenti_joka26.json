@@ -1,0 +1,53 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_joka26.md",
+  "source_name": "studenti_joka26.md",
+  "title": "Risposta joka26",
+  "group": "Studenti",
+  "record_code": "joka26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:30.990968+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S4",
+    "S5",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record evidenzia una posizione critica verso l'IA basata sulla priorità dell'apprendimento attivo e della memoria, con preoccupazioni riguardo alla dipendenza cognitiva e alla superficialità dell'apprendimento.",
+  "code_counts": {
+    "I4": 1,
+    "S4": 1,
+    "S5": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perche penso che studiare da solo ti ricordi le informazioni meglio",
+      "codes": [
+        "X3",
+        "I4"
+      ],
+      "reason": "L'utente rifiuta l'IA per favorire l'autostudio (X3) e per la convinzione che la memoria e l'apprendimento richiedano uno sforzo umano diretto, sottolineando l'insostituibilità del processo cognitivo personale (I4)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro posso essere che ti auita a fare le mappe su quell argomento e i contro possono essere fai tutto senza imparare niente",
+      "codes": [
+        "X2",
+        "S4",
+        "S5"
+      ],
+      "reason": "Vengono citati pro (mappatura rapida, comprensione) e contro (dipendenza, plagio implicito, perdita di apprendimento attivo, rischio di imprecisioni)."
+    }
+  ]
+}

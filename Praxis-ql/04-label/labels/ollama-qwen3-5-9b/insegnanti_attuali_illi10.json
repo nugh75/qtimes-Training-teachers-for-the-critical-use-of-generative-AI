@@ -1,0 +1,81 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_illi10.md",
+  "source_name": "insegnanti_attuali_illi10.md",
+  "title": "Risposta illi10",
+  "group": "Insegnanti in servizio",
+  "record_code": "illi10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:30.922453+00:00",
+  "record_dimensions": [
+    "A",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "R2",
+    "S3",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Insegnanti che evidenziano gap di competenza tecnica (R2/A1) e preoccupazioni etico-pedagogiche (S4, S7).",
+  "code_counts": {
+    "A1": 2,
+    "R2": 2,
+    "S3": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Scarsa conoscenza dei meccanismi alla base del suo utilizzo",
+      "codes": [
+        "R2",
+        "A1"
+      ],
+      "reason": "Mancanza di comprensione dei meccanismi (R2) e assenza di formazione/formale (A1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Scarsa conoscenza",
+      "codes": [
+        "R2",
+        "A1"
+      ],
+      "reason": "Scarsa conoscenza dei meccanismi (R2) e mancanza di formazione (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizzazione nell'acquisizione delle informazioni, nel reperimento dati Contro: riduzione del ricorso alle proprie risorse personali, rinuncia all'approfondimento individuale, passa il messaggio del tutto e subito, della liceità a surrogare il proprio operato. Rischio dell'omogeneita' generalizzata e della similarità forzata per docenti e discenti",
+      "codes": [
+        "X1",
+        "X2",
+        "X6",
+        "S4",
+        "S3"
+      ],
+      "reason": "Pro: velocizzazione (X1), comprensione rapida (X2), innovazione (X6). Contro: dipendenza (S4), omogeneizzazione (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Il momento della valutazione da parte del docente. La strutturazione di una lezione di qualsiasi materia",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Valutazione e strutturazione della lezione identificati come ambiti off-limits (S7)."
+    }
+  ]
+}

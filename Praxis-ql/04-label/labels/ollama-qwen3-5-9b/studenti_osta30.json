@@ -1,0 +1,133 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_osta30.md",
+  "source_name": "studenti_osta30.md",
+  "title": "Risposta OSTA30",
+  "group": "Studenti",
+  "record_code": "OSTA30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:56.058203+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A4",
+    "I2",
+    "N1b",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per recupero informazioni e semplificazione, con consapevolezza dei limiti teorici e rifiuto dell'uso in contesti valutativi.",
+  "code_counts": {
+    "A4": 1,
+    "I2": 1,
+    "N1b": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 2,
+    "X4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Identificazione dello strumento preferito (Chat GPT)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trovare info che non trovo nei manuali",
+      "codes": [
+        "X4",
+        "A4"
+      ],
+      "reason": "Uso dell'IA per trovare informazioni non presenti nei manuali (compensazione di lacune)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi questo testo",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Prompt visibile ('Riassumi questo testo') che attiva una strategia operativa (riassunto)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi semplifica le informazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificazione delle informazioni."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non trovavo una soluzione precisa sulle slides del professore (numero di item di u test) e mi ha aiutato",
+      "codes": [
+        "X2",
+        "X4"
+      ],
+      "reason": "Miglioramento dell'apprendimento risolvendo problemi di comprensione (slides) e accesso a soluzioni."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Nessuna' non fornisce dati per codici PRAXIS specifici oltre al rifiuto/assenza di problemi."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizza l’apprendimento di info,  Contro: non conosco la teoria",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Pro: velocizzazione (X1); Contro: ignoranza della teoria (I2 - sfiducia/limiti)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Risolvere test, perché in quel caso stai falsando un documento e inoltre non impari cose fondamentali per la tua preparazione futura",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Rifiuto di usare l'IA per risolvere test (S7 - ambito off-limits) per evitare falsificazione e perdita di apprendimento (S4)."
+    }
+  ]
+}

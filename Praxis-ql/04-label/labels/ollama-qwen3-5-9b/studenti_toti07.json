@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_toti07.md",
+  "source_name": "studenti_toti07.md",
+  "title": "Risposta Toti07",
+  "group": "Studenti",
+  "record_code": "Toti07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:27.419198+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per sintesi e velocità, con consapevolezza dei limiti (medicina) e assenza di difficoltà tecniche.",
+  "code_counts": {
+    "N1a": 2,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt per la sua velocità",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (ChatGpt) e percezione della sua velocità/competenza d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per riassumere e schematizzare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso di funzioni di sintesi e schematizzazione per facilitare la comprensione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Puoi farmi un riassunto dettagliato di questo testo”",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Esempio esplicito di prompt fornito dall'utente."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a schematizzare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Riferimento alla schematizzazione come metodo di aiuto all'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non mi vengono in mente",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "A volte può essere troppo riassuntivo. Un pro è che è molto utile quando si ha poco tempo",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Pro (utilità con poco tempo) e contro (troppo riassuntivo) relativi a efficienza e comprensione."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Ad esempio per chiedere consulti medici",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di un ambito off-limits (consulti medici)."
+    }
+  ]
+}

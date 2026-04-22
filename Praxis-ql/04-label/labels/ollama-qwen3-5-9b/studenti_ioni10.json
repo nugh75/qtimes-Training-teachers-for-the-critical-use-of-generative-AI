@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ioni10.md",
+  "source_name": "studenti_ioni10.md",
+  "title": "Risposta ioni10",
+  "group": "Studenti",
+  "record_code": "ioni10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:54.795547+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S3",
+    "S4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di studente critico verso l'IA, che ne vede i rischi cognitivi e linguistici superiori ai benefici, preferendo metodi tradizionali.",
+  "code_counts": {
+    "I4": 1,
+    "S3": 2,
+    "S4": 2,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché utilizzo libri cartacei, appunti e non mi piace usare Chat GPT o simili chatbot",
+      "codes": [
+        "X3",
+        "I4"
+      ],
+      "reason": "Preferenza per materiali cartacei e appunti personali (X3) e percezione dell'IA come minaccia alla relazione educativa o al processo di pensiero critico (I4)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "L'IA può aiutare a migliorare le nostre capacità e  e conoscenze ed aiutarci nelle difficoltà, tuttavia impoverisce le nostre proprietà di linguaggio, il nostro modo di esprimerci, il nostro sforzo di pensare in modo critico e le nostre conoscenze.",
+      "codes": [
+        "X2",
+        "S4",
+        "S3"
+      ],
+      "reason": "Riconoscimento dei benefici di comprensione (X2) ma anche dei rischi di impoverimento linguistico (S3) ed erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Usare troppo spesso piattaforme come Chat GPT impedisce di sforarci a ragionare.",
+      "codes": [
+        "S4",
+        "S3"
+      ],
+      "reason": "Percezione che l'uso eccessivo dell'IA impedisca lo sforzo cognitivo, portando a una perdita di capacità di ragionamento autonomo (S4, S3)."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_sati26.md",
+  "source_name": "insegnanti_attuali_sati26.md",
+  "title": "Risposta Sati26",
+  "group": "Insegnanti in servizio",
+  "record_code": "Sati26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:53:34.274868+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1b",
+    "R1",
+    "S3",
+    "S4",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di docente con barriere all'adozione legate alla formazione (A1) e consapevolezza dei rischi cognitivi (S3, S4).",
+  "code_counts": {
+    "A1": 2,
+    "N1b": 1,
+    "R1": 2,
+    "S3": 1,
+    "S4": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho la sufficiente formazione",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Mancanza di formazione formale (A1) e percezione di non saper usare lo strumento (R1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho adeguate competenze per poterla utilizzare",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Riferimento esplicito a competenze inadeguate (A1) e incapacità percepita (R1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se adeguatamente utilizzata i vantaggi potrebbero essere la velocità di ricerca e nei collegamenti. Gli svantaggi la perdita di capacità di lavorare con l'intelligenza \"tradizionale\" e la perdita della creatività.",
+      "codes": [
+        "X2",
+        "X6",
+        "S3",
+        "S4"
+      ],
+      "reason": "Vantaggi: velocità e comprensione (X2), innovazione (X6). Svantaggi: perdita di creatività (S3) e pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulle pratiche non raccomandate."
+    }
+  ]
+}

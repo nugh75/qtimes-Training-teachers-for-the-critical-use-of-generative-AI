@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_lova26.md",
+  "source_name": "studenti_lova26.md",
+  "title": "Risposta Lova26",
+  "group": "Studenti",
+  "record_code": "Lova26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:07.925638+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P6",
+    "P7",
+    "S4",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Studente che utilizza l'IA principalmente per velocizzare lo studio e riassumere contenuti, con consapevolezza dei rischi di superficialità e rifiuto dell'uso in contesti valutativi.",
+  "code_counts": {
+    "N1a": 2,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 3,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' indica assenza di contenuto informativo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Identificazione di uno strumento specifico (ChatGpt) utilizzato."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per semplificare o riassumere nozioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per semplificare e riassumere nozioni."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti riassumermi in maniera dettagliata…",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt esplicito (P7) finalizzato a riassumere (X2)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi velocizza e rende lo studio più dinamico",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Benefici percepiti: velocizzazione (X1) e dinamismo/comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi velocizza nel ripasso di un esame",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite velocizzazione del ripasso."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ne ho incontrate",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non ne ho incontrate') per attribuzione di codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Rende lo studio dinamico e veloce ma al contempo puó evitare un impegno approfondito personale",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: velocità (X1), dinamismo (X2); Contro: rischio di evitare impegno personale/erosione pensiero critico (S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Durante i test per non falsificare i risultati",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di un ambito off-limits (test/falsificazione) da evitare."
+    }
+  ]
+}

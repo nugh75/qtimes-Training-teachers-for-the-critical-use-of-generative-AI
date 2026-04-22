@@ -1,0 +1,77 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_anzo06.md",
+  "source_name": "insegnanti_attuali_anzo06.md",
+  "title": "Risposta ANZO06",
+  "group": "Insegnanti in servizio",
+  "record_code": "ANZO06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:39:29.489026+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R2",
+    "S3",
+    "S4",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Profilo di insegnante scettico verso l'IA, che privilegia materiali tradizionali e teme la standardizzazione e la perdita di creatività, pur riconoscendo l'efficienza tecnica.",
+  "code_counts": {
+    "N1b": 2,
+    "R2": 1,
+    "S3": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta parla di riduzione dell'esposizione agli schermi in generale, non affrontando il tema specifico dell'uso dell'IA nella didattica richiesto dalla domanda."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Resto ancorata ai numerosi libri di testo, sia moderni che non, che ho reperito negli anni per lavorare al meglio. Ne ricavo tante informazione con alta qualità che, ad ora, non trovo sia online che nei nuovi testi didattici. Disegni, testi narrativi, immagini evocative che catturano la fantasia dei bambini scritti in un lessico ricco che ora, purtroppo, si è andato a ridurre fin troppo anche nei libri di testo ufficiali.",
+      "codes": [
+        "X4",
+        "X2"
+      ],
+      "reason": "L'uso di libri di testo e materiali tradizionali per garantire qualità e catturare la fantasia degli studenti riflette i codici di inclusione/accesso (X4) e semplificazione/comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità nell'esecuzione, dal mio punto di vista, è un pro e un contro. Si possono realizzare attività strutturate in pochissimo tempo dando solo un piccolo input di partenza. D'altro canto ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante.",
+      "codes": [
+        "X1",
+        "S3",
+        "S4"
+      ],
+      "reason": "La velocità è un pro (X1), ma la standardizzazione dei lavori annulla la creatività (S3) e il pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non possiedo la giusta conoscenza per rispondere a questa domanda. Ma, nel dubbio, preferire vedere utilizzata l'IA per salvare delle vite e lasciar perdere tutto il resto che può camminare benissimo anche senza.",
+      "codes": [
+        "R2",
+        "N1b"
+      ],
+      "reason": "L'utente dichiara di non possedere la conoscenza per rispondere (R2), e la risposta successiva è fuori tema rispetto alla domanda sulle pratiche non raccomandate (N1b)."
+    }
+  ]
+}

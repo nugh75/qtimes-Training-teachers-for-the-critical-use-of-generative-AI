@@ -1,0 +1,137 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_enti14.md",
+  "source_name": "insegnanti_attuali_enti14.md",
+  "title": "Risposta enti14",
+  "group": "Insegnanti in servizio",
+  "record_code": "enti14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:25.415502+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "P5",
+    "P7",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Insegnante con esperienza limitata (item 1), risposte spesso generiche o focalizzate su aspetti tecnici di base, con evidenti preoccupazioni per l'affidabilità dei dati generati.",
+  "code_counts": {
+    "I2": 2,
+    "N1b": 3,
+    "P5": 2,
+    "P7": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L'ho conosciuta da poco",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Attraverso contenuto organizzati",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Organizzazione di contenuti (P5) che facilita la comprensione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Contenuti personalizzati",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di contenuti personalizzati (P5) per l'attenzione al singolo (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea un certo testo, un podcast di 5 minuti...",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt visibile (P7) per semplificare la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Lezioni simpatiche e d'impatto",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Lezioni d'impatto indicano coinvolgimento e arricchimento (X6)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "La dinamicità",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La dinamicità favorisce la comprensione più rapida (X2)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (nessuna difficoltà) rispetto alla domanda sulle difficoltà incontrate."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: facilità e velocità di creazione. Contro: i numeri non sono corretti",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Pro: efficienza (X1); Contro: imprecisione numerica (I2)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La ricerca di statistiche. I numeri non sono corretti",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Rischio di allucinazioni (I2) e informazioni false (S5)."
+    }
+  ]
+}

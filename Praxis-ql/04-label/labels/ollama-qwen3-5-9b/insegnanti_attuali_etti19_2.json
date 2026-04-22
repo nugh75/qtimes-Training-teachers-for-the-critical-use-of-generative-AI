@@ -1,0 +1,59 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etti19_2.md",
+  "source_name": "insegnanti_attuali_etti19_2.md",
+  "title": "Risposta etti19",
+  "group": "Insegnanti in servizio",
+  "record_code": "etti19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:44:41.544995+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R2",
+    "S4",
+    "S7",
+    "X6"
+  ],
+  "record_note": "Insegnanti che evidenziano limiti disciplinari, rischi etici e aree di esclusione nell'uso dell'IA.",
+  "code_counts": {
+    "R2": 1,
+    "S4": 1,
+    "S7": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Al momento non la trovo di utilità nell'insegnamento della mia disciplina (matemtica)",
+      "codes": [
+        "R2",
+        "S7"
+      ],
+      "reason": "R2: comprensione dei limiti dell'IA nella disciplina (matematica); S7: rifiuto di usare l'IA in ambiti off-limits come la valutazione o la disciplina specifica."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "didattica più accattivante - uso acritico",
+      "codes": [
+        "X6",
+        "S4"
+      ],
+      "reason": "X6: percezione di innovazione/coinvolgimento (didattica accattivante); S4: rischio di erosione del pensiero critico (uso acritico)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La valutazione, perché nella valutazione concorrono molti fattori e variabili che non sono predeterminabili ai fini di una valutazione formativa.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "S7: identificazione della valutazione come ambito off-limits per l'uso dell'IA."
+    }
+  ]
+}

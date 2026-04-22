@@ -1,0 +1,77 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_izzo26.md",
+  "source_name": "insegnanti_attuali_izzo26.md",
+  "title": "Risposta izzo26",
+  "group": "Insegnanti in servizio",
+  "record_code": "izzo26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:00.968978+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "R5",
+    "S3",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante scettico verso l'IA per motivi epistemici e pedagogici, con particolare attenzione alla tutela della relazione educativa e della capacità di ricerca autonoma.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 1,
+    "R5": 1,
+    "S3": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "faccio da solo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non mi piace preferisco fidarmi delle mie nozioni e fare le mie ricerche",
+      "codes": [
+        "R5",
+        "I4"
+      ],
+      "reason": "Non uso motivato da scelta epistemica (fiducia nelle proprie nozioni) e preferenza per la relazione umana."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Usare IA è troppo semplice, secondo me non sviluppala capacità dell'alunno nella ricerca e curiosità. Riconoscimento facciale è un fattore positivo",
+      "codes": [
+        "S4",
+        "S3",
+        "X2"
+      ],
+      "reason": "Perdita di capacità di ricerca e curiosità (S4, S3), semplificazione eccessiva (X2), con un'eccezione positiva sul riconoscimento facciale."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Riconoscimento facciale si",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il riconoscimento facciale è indicato come ambito off-limits o non raccomandato."
+    }
+  ]
+}

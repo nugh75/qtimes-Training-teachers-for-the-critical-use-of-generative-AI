@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_sati03.md",
+  "source_name": "insegnanti_futuri_sati03.md",
+  "title": "Risposta sati03",
+  "group": "Insegnanti pre-service",
+  "record_code": "sati03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:00:19.952020+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R1",
+    "R5",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Insegnante pre-service che evidenzia barriere di competenza tecnica e consapevolezza dei rischi etici (plagio, errori).",
+  "code_counts": {
+    "I2": 1,
+    "R1": 1,
+    "R5": 1,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho le competenze",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Mancanza di competenze tecniche (R1) porta al non-uso motivato da insicurezza (R5)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: diminuzione/facilitazione del lavoro. Contro: errato utilizzo",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Pro: efficienza e risparmio di tempo (X1); Contro: rischio di errori o uso improprio (I2)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "La produzione di testi è identificata come ambito off-limits (S7) per evitare plagio o perdita di autonomia."
+    }
+  ]
+}

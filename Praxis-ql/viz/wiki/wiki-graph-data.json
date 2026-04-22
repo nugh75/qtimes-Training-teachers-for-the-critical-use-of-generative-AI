@@ -1,37 +1,45 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T13:08:42.945970+00:00",
-    "nodes_total": 102,
-    "edges_total": 216
+    "generated_at": "2026-04-22T08:24:16.159167+00:00",
+    "nodes_total": 103,
+    "edges_total": 224
   },
   "sections": {
-    "_root": 10,
+    "00-indice": 2,
+    "10-framework": 2,
+    "20-labels": 2,
+    "30-visualizzazioni": 2,
+    "40-governance": 2,
     "insegnanti-attuali": 39,
     "insegnanti-futuri": 26,
-    "studenti": 27
+    "studenti": 28
   },
   "groups": {
-    "_root": 10,
+    "00-indice": 2,
+    "10-framework": 2,
+    "20-labels": 2,
+    "30-visualizzazioni": 2,
+    "40-governance": 2,
     "insegnanti-attuali": 39,
     "insegnanti-futuri": 26,
-    "studenti": 27
+    "studenti": 28
   },
   "praxis_elements": {
-    "_index": 20,
-    "adequacy-of-support": 4,
-    "expectations": 14,
-    "interpersonal-trust": 13,
-    "practice-patterns": 23,
-    "readiness-beliefs": 13,
-    "skepticisms": 15
+    "01-practice-patterns": 23,
+    "02-readiness-beliefs": 13,
+    "03-adequacy-of-support": 6,
+    "04-expectations": 14,
+    "05-interpersonal-trust": 13,
+    "06-skepticisms": 15,
+    "_index": 19
   },
   "nodes": [
     {
-      "id": "wiki/albero-temi",
+      "id": "01-wiki/00-indice/albero-temi",
       "title": "Albero dei temi — LLM Wiki",
-      "path": "wiki/albero-temi.md",
-      "section": "_root",
-      "group": "_root",
+      "path": "01-wiki/00-indice/albero-temi.md",
+      "section": "00-indice",
+      "group": "00-indice",
       "praxis": "_index",
       "subtheme": "albero-temi",
       "degree": 1,
@@ -39,35 +47,11 @@
       "in_degree": 1
     },
     {
-      "id": "wiki/grafo-dimensioni-praxis",
-      "title": "Grafo Dimensioni PRAXIS",
-      "path": "wiki/grafo-dimensioni-praxis.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "grafo-dimensioni-praxis",
-      "degree": 4,
-      "out_degree": 1,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/grafo-wiki",
-      "title": "Grafo Wiki",
-      "path": "wiki/grafo-wiki.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "grafo-wiki",
-      "degree": 2,
-      "out_degree": 1,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/index-wiki",
+      "id": "01-wiki/00-indice/index-wiki",
       "title": "LLM Wiki Index",
-      "path": "wiki/index-wiki.md",
-      "section": "_root",
-      "group": "_root",
+      "path": "01-wiki/00-indice/index-wiki.md",
+      "section": "00-indice",
+      "group": "00-indice",
       "praxis": "_index",
       "subtheme": "index-wiki",
       "degree": 12,
@@ -75,129 +59,537 @@
       "in_degree": 1
     },
     {
-      "id": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "title": "A — Adequacy of support (Adeguatezza del supporto)",
-      "path": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
+      "id": "01-wiki/10-framework/praxis-framework",
+      "title": "PRAXIS Framework",
+      "path": "01-wiki/10-framework/praxis-framework.md",
+      "section": "10-framework",
+      "group": "10-framework",
+      "praxis": "_index",
+      "subtheme": "praxis-framework",
+      "degree": 4,
+      "out_degree": 0,
+      "in_degree": 4
+    },
+    {
+      "id": "01-wiki/10-framework/sintesi-cross-coorte",
+      "title": "Sintesi Cross-Coorte (PRAXIS)",
+      "path": "01-wiki/10-framework/sintesi-cross-coorte.md",
+      "section": "10-framework",
+      "group": "10-framework",
+      "praxis": "_index",
+      "subtheme": "sintesi-cross-coorte",
+      "degree": 1,
+      "out_degree": 0,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/20-labels/labels-legacy",
+      "title": "PRAXIS Labels",
+      "path": "01-wiki/20-labels/labels-legacy.md",
+      "section": "20-labels",
+      "group": "20-labels",
+      "praxis": "_index",
+      "subtheme": "labels-legacy",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/20-labels/labels-praxis",
+      "title": "Labels PRAXIS",
+      "path": "01-wiki/20-labels/labels-praxis.md",
+      "section": "20-labels",
+      "group": "20-labels",
+      "praxis": "_index",
+      "subtheme": "labels-praxis",
+      "degree": 4,
+      "out_degree": 1,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/30-visualizzazioni/grafo-dimensioni-praxis",
+      "title": "Grafo Dimensioni PRAXIS",
+      "path": "01-wiki/30-visualizzazioni/grafo-dimensioni-praxis.md",
+      "section": "30-visualizzazioni",
+      "group": "30-visualizzazioni",
+      "praxis": "_index",
+      "subtheme": "grafo-dimensioni-praxis",
+      "degree": 4,
+      "out_degree": 1,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/30-visualizzazioni/grafo-wiki",
+      "title": "Grafo Wiki",
+      "path": "01-wiki/30-visualizzazioni/grafo-wiki.md",
+      "section": "30-visualizzazioni",
+      "group": "30-visualizzazioni",
+      "praxis": "_index",
+      "subtheme": "grafo-wiki",
+      "degree": 2,
+      "out_degree": 1,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/40-governance/decision-log-wiki-vs-label",
+      "title": "Registro Decisionale Wiki vs Label",
+      "path": "01-wiki/40-governance/decision-log-wiki-vs-label.md",
+      "section": "40-governance",
+      "group": "40-governance",
+      "praxis": "_index",
+      "subtheme": "decision-log-wiki-vs-label",
+      "degree": 0,
+      "out_degree": 0,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/40-governance/log",
+      "title": "Wiki Maintenance Log",
+      "path": "01-wiki/40-governance/log.md",
+      "section": "40-governance",
+      "group": "40-governance",
+      "praxis": "_index",
+      "subtheme": "log",
+      "degree": 1,
+      "out_degree": 0,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "title": "CAA e autismo non verbale",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "adequacy-of-support",
+      "praxis": "01-practice-patterns",
+      "subtheme": "caa-autismo-non-verbale",
+      "degree": 8,
+      "out_degree": 4,
+      "in_degree": 4
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "title": "Individualizzazione BES/DSA e prove INVALSI",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "individualizzazione-bes-dsa",
+      "degree": 10,
+      "out_degree": 5,
+      "in_degree": 5
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione",
+      "title": "NAI e traduzione",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "nai-e-traduzione",
+      "degree": 6,
+      "out_degree": 4,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing",
+      "title": "Piattaforme e role-playing pedagogico",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "piattaforme-e-role-playing",
+      "degree": 7,
+      "out_degree": 4,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "title": "P — Practice patterns",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "practice-patterns-insegnanti-attuali",
+      "degree": 23,
+      "out_degree": 10,
+      "in_degree": 13
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/produzione-materiali",
+      "title": "Produzione di materiali didattici o di studio",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/produzione-materiali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "produzione-materiali",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
+      "title": "Prompt engineering avanzato",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "prompt-engineering",
+      "degree": 7,
+      "out_degree": 4,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/strategie-produzione",
+      "title": "Strategie operative di produzione",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/strategie-produzione.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "strategie-produzione",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali",
+      "title": "Strumenti settoriali",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "strumenti-settoriali",
+      "degree": 6,
+      "out_degree": 4,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/tutoraggio-simulazione",
+      "title": "Supporto allo studio, simulazione, tutoraggio",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/tutoraggio-simulazione.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "tutoraggio-simulazione",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification",
+      "title": "UDL e gamification",
+      "path": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "01-practice-patterns",
+      "subtheme": "udl-e-gamification",
+      "degree": 7,
+      "out_degree": 4,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-epistemologica",
+      "title": "Competenza teorica o epistemologica",
+      "path": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-epistemologica.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "competenza-epistemologica",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-prompting",
+      "title": "Competenza di prompting",
+      "path": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-prompting.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "competenza-prompting",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/02-readiness-beliefs/gap-uso-personale-didattico",
+      "title": "Gap tra uso personale e uso didattico",
+      "path": "01-wiki/insegnanti-attuali/02-readiness-beliefs/gap-uso-personale-didattico.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "gap-uso-personale-didattico",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/02-readiness-beliefs/non-uso-consapevole",
+      "title": "Non-uso per impreparazione o rifiuto competente",
+      "path": "01-wiki/insegnanti-attuali/02-readiness-beliefs/non-uso-consapevole.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "non-uso-consapevole",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "title": "A — Adequacy of support (Adeguatezza del supporto)",
+      "path": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "adequacy-of-support-insegnanti-attuali",
       "degree": 12,
       "out_degree": 6,
       "in_degree": 6
     },
     {
-      "id": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi",
+      "id": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi",
       "title": "Logistica e dispositivi",
-      "path": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md",
+      "path": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "adequacy-of-support",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "logistica-e-dispositivi",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
     },
     {
-      "id": "wiki/insegnanti-attuali/adequacy-of-support/paywall",
+      "id": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall",
       "title": "Paywall",
-      "path": "wiki/insegnanti-attuali/adequacy-of-support/paywall.md",
+      "path": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "adequacy-of-support",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "paywall",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
     },
     {
-      "id": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale",
+      "id": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale",
       "title": "Resistenza manageriale",
-      "path": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale.md",
+      "path": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "adequacy-of-support",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "resistenza-manageriale",
       "degree": 7,
       "out_degree": 4,
       "in_degree": 3
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/efficienza-tempo",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/efficienza-tempo",
       "title": "Efficienza e risparmio di tempo",
-      "path": "wiki/insegnanti-attuali/expectations/efficienza-tempo.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/efficienza-tempo.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "efficienza-tempo",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
       "title": "X — eXpectations (Cambiamento percepito)",
-      "path": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "expectations-insegnanti-attuali",
       "degree": 13,
       "out_degree": 5,
       "in_degree": 8
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/inclusione-digitale",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/inclusione-digitale",
       "title": "Inclusione digitale",
-      "path": "wiki/insegnanti-attuali/expectations/inclusione-digitale.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/inclusione-digitale.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "inclusione-digitale",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/peggioramento-efficace",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/peggioramento-efficace",
       "title": "Peggioramento efficace",
-      "path": "wiki/insegnanti-attuali/expectations/peggioramento-efficace.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/peggioramento-efficace.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "peggioramento-efficace",
       "degree": 5,
       "out_degree": 3,
       "in_degree": 2
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/personalizzazione-singolo",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/personalizzazione-singolo",
       "title": "Personalizzazione e attenzione al singolo",
-      "path": "wiki/insegnanti-attuali/expectations/personalizzazione-singolo.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/personalizzazione-singolo.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "personalizzazione-singolo",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-attuali/expectations/semplificazione-comprensione",
+      "id": "01-wiki/insegnanti-attuali/04-expectations/semplificazione-comprensione",
       "title": "Semplificazione e comprensione",
-      "path": "wiki/insegnanti-attuali/expectations/semplificazione-comprensione.md",
+      "path": "01-wiki/insegnanti-attuali/04-expectations/semplificazione-comprensione.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "semplificazione-comprensione",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "id": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione",
+      "title": "Rischio bias e allucinazione",
+      "path": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "bias-e-allucinazione",
+      "degree": 7,
+      "out_degree": 4,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/05-interpersonal-trust/fiducia-tecnica-condizionata",
+      "title": "Fiducia tecnica condizionata",
+      "path": "01-wiki/insegnanti-attuali/05-interpersonal-trust/fiducia-tecnica-condizionata.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "fiducia-tecnica-condizionata",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
+      "title": "Filosofia della fatica",
+      "path": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "filosofia-della-fatica",
+      "degree": 8,
+      "out_degree": 5,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
+      "path": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "interpersonal-trust-insegnanti-attuali",
+      "degree": 13,
+      "out_degree": 6,
+      "in_degree": 7
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale",
+      "title": "Paradosso digitale",
+      "path": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "paradosso-digitale",
+      "degree": 7,
+      "out_degree": 4,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/ansia-occupazionale",
+      "title": "Ansia occupazionale",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/ansia-occupazionale.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "ansia-occupazionale",
+      "degree": 3,
+      "out_degree": 2,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/appiattimento-omologazione",
+      "title": "Appiattimento, omologazione, perdita di creatività",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/appiattimento-omologazione.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "appiattimento-omologazione",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/crollo-relazionale",
+      "title": "Crollo relazionale e didattico",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/crollo-relazionale.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "crollo-relazionale",
+      "degree": 3,
+      "out_degree": 2,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/ghostwriting-plagio",
+      "title": "Ghostwriting e plagio",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/ghostwriting-plagio.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "ghostwriting-plagio",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/impoverimento-cognitivo",
+      "title": "Impoverimento cognitivo",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/impoverimento-cognitivo.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "impoverimento-cognitivo",
+      "degree": 4,
+      "out_degree": 2,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
+      "title": "S — Skepticisms (Preoccupazioni)",
+      "path": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali.md",
+      "section": "insegnanti-attuali",
+      "group": "insegnanti-attuali",
+      "praxis": "06-skepticisms",
+      "subtheme": "skepticisms-insegnanti-attuali",
+      "degree": 15,
+      "out_degree": 6,
+      "in_degree": 9
+    },
+    {
+      "id": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "title": "Insegnanti Attuali",
-      "path": "wiki/insegnanti-attuali/index-insegnanti-attuali.md",
+      "path": "01-wiki/insegnanti-attuali/index-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
       "praxis": "_index",
@@ -207,69 +599,9 @@
       "in_degree": 41
     },
     {
-      "id": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione",
-      "title": "Rischio bias e allucinazione",
-      "path": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "interpersonal-trust",
-      "subtheme": "bias-e-allucinazione",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/interpersonal-trust/fiducia-tecnica-condizionata",
-      "title": "Fiducia tecnica condizionata",
-      "path": "wiki/insegnanti-attuali/interpersonal-trust/fiducia-tecnica-condizionata.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "interpersonal-trust",
-      "subtheme": "fiducia-tecnica-condizionata",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
-      "title": "Filosofia della fatica",
-      "path": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "interpersonal-trust",
-      "subtheme": "filosofia-della-fatica",
-      "degree": 8,
-      "out_degree": 5,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
-      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
-      "path": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "interpersonal-trust",
-      "subtheme": "interpersonal-trust-insegnanti-attuali",
-      "degree": 13,
-      "out_degree": 6,
-      "in_degree": 7
-    },
-    {
-      "id": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale",
-      "title": "Paradosso digitale",
-      "path": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "interpersonal-trust",
-      "subtheme": "paradosso-digitale",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/non-classificati",
+      "id": "01-wiki/insegnanti-attuali/non-classificati",
       "title": "Record non classificati",
-      "path": "wiki/insegnanti-attuali/non-classificati.md",
+      "path": "01-wiki/insegnanti-attuali/non-classificati.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
       "praxis": "_index",
@@ -279,333 +611,297 @@
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
-      "title": "CAA e autismo non verbale",
-      "path": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale.md",
+      "id": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
+      "title": "R - Readiness beliefs (Competenza percepita)",
+      "path": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md",
       "section": "insegnanti-attuali",
       "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "caa-autismo-non-verbale",
-      "degree": 8,
+      "praxis": "_index",
+      "subtheme": "readiness-beliefs-insegnanti-attuali",
+      "degree": 11,
       "out_degree": 4,
-      "in_degree": 4
+      "in_degree": 7
     },
     {
-      "id": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
-      "title": "Individualizzazione BES/DSA e prove INVALSI",
-      "path": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "individualizzazione-bes-dsa",
-      "degree": 10,
+      "id": "01-wiki/insegnanti-futuri/01-practice-patterns/facilitazione-accademica",
+      "title": "Facilitazione accademica personale",
+      "path": "01-wiki/insegnanti-futuri/01-practice-patterns/facilitazione-accademica.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "01-practice-patterns",
+      "subtheme": "facilitazione-accademica",
+      "degree": 3,
+      "out_degree": 2,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/01-practice-patterns/individualizzazione-personalizzazione",
+      "title": "Individualizzazione e personalizzazione",
+      "path": "01-wiki/insegnanti-futuri/01-practice-patterns/individualizzazione-personalizzazione.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "01-practice-patterns",
+      "subtheme": "individualizzazione-personalizzazione",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
+      "title": "P — Practice patterns (Modelli d'uso)",
+      "path": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "01-practice-patterns",
+      "subtheme": "practice-patterns-insegnanti-futuri",
+      "degree": 12,
       "out_degree": 5,
-      "in_degree": 5
+      "in_degree": 7
     },
     {
-      "id": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione",
-      "title": "NAI e traduzione",
-      "path": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "nai-e-traduzione",
-      "degree": 6,
-      "out_degree": 4,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing",
-      "title": "Piattaforme e role-playing pedagogico",
-      "path": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "piattaforme-e-role-playing",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "title": "P — Practice patterns",
-      "path": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "practice-patterns-insegnanti-attuali",
-      "degree": 23,
-      "out_degree": 10,
-      "in_degree": 13
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/produzione-materiali",
+      "id": "01-wiki/insegnanti-futuri/01-practice-patterns/produzione-materiali",
       "title": "Produzione di materiali didattici o di studio",
-      "path": "wiki/insegnanti-attuali/practice-patterns/produzione-materiali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
+      "path": "01-wiki/insegnanti-futuri/01-practice-patterns/produzione-materiali.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "01-practice-patterns",
       "subtheme": "produzione-materiali",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
-      "title": "Prompt engineering avanzato",
-      "path": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "prompt-engineering",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/strategie-produzione",
-      "title": "Strategie operative di produzione",
-      "path": "wiki/insegnanti-attuali/practice-patterns/strategie-produzione.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "strategie-produzione",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali",
-      "title": "Strumenti settoriali",
-      "path": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "strumenti-settoriali",
-      "degree": 6,
-      "out_degree": 4,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/tutoraggio-simulazione",
-      "title": "Supporto allo studio, simulazione, tutoraggio",
-      "path": "wiki/insegnanti-attuali/practice-patterns/tutoraggio-simulazione.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "tutoraggio-simulazione",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification",
-      "title": "UDL e gamification",
-      "path": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "practice-patterns",
-      "subtheme": "udl-e-gamification",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/readiness-beliefs/competenza-epistemologica",
-      "title": "Competenza teorica o epistemologica",
-      "path": "wiki/insegnanti-attuali/readiness-beliefs/competenza-epistemologica.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "readiness-beliefs",
-      "subtheme": "competenza-epistemologica",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/readiness-beliefs/competenza-prompting",
-      "title": "Competenza di prompting",
-      "path": "wiki/insegnanti-attuali/readiness-beliefs/competenza-prompting.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "readiness-beliefs",
-      "subtheme": "competenza-prompting",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/readiness-beliefs/gap-uso-personale-didattico",
-      "title": "Gap tra uso personale e uso didattico",
-      "path": "wiki/insegnanti-attuali/readiness-beliefs/gap-uso-personale-didattico.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "readiness-beliefs",
-      "subtheme": "gap-uso-personale-didattico",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole",
-      "title": "Non-uso per impreparazione o rifiuto competente",
-      "path": "wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "readiness-beliefs",
-      "subtheme": "non-uso-consapevole",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
-      "title": "R - Readiness beliefs (Competenza percepita)",
-      "path": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "_index",
-      "subtheme": "readiness-beliefs-insegnanti-attuali",
-      "degree": 7,
-      "out_degree": 4,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/ansia-occupazionale",
-      "title": "Ansia occupazionale",
-      "path": "wiki/insegnanti-attuali/skepticisms/ansia-occupazionale.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "ansia-occupazionale",
-      "degree": 3,
-      "out_degree": 2,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/appiattimento-omologazione",
-      "title": "Appiattimento, omologazione, perdita di creatività",
-      "path": "wiki/insegnanti-attuali/skepticisms/appiattimento-omologazione.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "appiattimento-omologazione",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/crollo-relazionale",
-      "title": "Crollo relazionale e didattico",
-      "path": "wiki/insegnanti-attuali/skepticisms/crollo-relazionale.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "crollo-relazionale",
-      "degree": 3,
-      "out_degree": 2,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/ghostwriting-plagio",
-      "title": "Ghostwriting e plagio",
-      "path": "wiki/insegnanti-attuali/skepticisms/ghostwriting-plagio.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "ghostwriting-plagio",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo",
-      "title": "Impoverimento cognitivo",
-      "path": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "impoverimento-cognitivo",
-      "degree": 4,
-      "out_degree": 2,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
-      "title": "S — Skepticisms (Preoccupazioni)",
-      "path": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali.md",
-      "section": "insegnanti-attuali",
-      "group": "insegnanti-attuali",
-      "praxis": "skepticisms",
-      "subtheme": "skepticisms-insegnanti-attuali",
-      "degree": 15,
-      "out_degree": 6,
-      "in_degree": 9
-    },
-    {
-      "id": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
-      "title": "A - Adequacy of support (Adeguatezza del supporto)",
-      "path": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri.md",
+      "id": "01-wiki/insegnanti-futuri/01-practice-patterns/uso-cross-disciplinare",
+      "title": "Uso cross-disciplinare e progettazione",
+      "path": "01-wiki/insegnanti-futuri/01-practice-patterns/uso-cross-disciplinare.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "_index",
+      "praxis": "01-practice-patterns",
+      "subtheme": "uso-cross-disciplinare",
+      "degree": 3,
+      "out_degree": 2,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-epistemologica",
+      "title": "Competenza teorica o epistemologica",
+      "path": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-epistemologica.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "competenza-epistemologica",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-pratica",
+      "title": "Competenza pratica percepita",
+      "path": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-pratica.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "competenza-pratica",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-prompting",
+      "title": "Competenza di prompting",
+      "path": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-prompting.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "competenza-prompting",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/02-readiness-beliefs/non-uso-consapevole",
+      "title": "Non-uso per impreparazione o rifiuto competente",
+      "path": "01-wiki/insegnanti-futuri/02-readiness-beliefs/non-uso-consapevole.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "non-uso-consapevole",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
+      "title": "A - Adequacy of support (Adeguatezza del supporto)",
+      "path": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "adequacy-of-support-insegnanti-futuri",
       "degree": 8,
       "out_degree": 4,
       "in_degree": 4
     },
     {
-      "id": "wiki/insegnanti-futuri/expectations/cambiamento-positivo",
+      "id": "01-wiki/insegnanti-futuri/04-expectations/cambiamento-positivo",
       "title": "Cambiamento positivo condizionato",
-      "path": "wiki/insegnanti-futuri/expectations/cambiamento-positivo.md",
+      "path": "01-wiki/insegnanti-futuri/04-expectations/cambiamento-positivo.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "cambiamento-positivo",
       "degree": 4,
       "out_degree": 3,
       "in_degree": 1
     },
     {
-      "id": "wiki/insegnanti-futuri/expectations/efficienza-tempo",
+      "id": "01-wiki/insegnanti-futuri/04-expectations/efficienza-tempo",
       "title": "Efficienza e risparmio di tempo",
-      "path": "wiki/insegnanti-futuri/expectations/efficienza-tempo.md",
+      "path": "01-wiki/insegnanti-futuri/04-expectations/efficienza-tempo.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "efficienza-tempo",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
+      "id": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
       "title": "X — eXpectations (Cambiamento percepito)",
-      "path": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri.md",
+      "path": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "expectations-insegnanti-futuri",
       "degree": 12,
       "out_degree": 5,
       "in_degree": 7
     },
     {
-      "id": "wiki/insegnanti-futuri/expectations/omologazione",
+      "id": "01-wiki/insegnanti-futuri/04-expectations/omologazione",
       "title": "Timori di omologazione",
-      "path": "wiki/insegnanti-futuri/expectations/omologazione.md",
+      "path": "01-wiki/insegnanti-futuri/04-expectations/omologazione.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "omologazione",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
     },
     {
-      "id": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "id": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
+      "path": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "interpersonal-trust-insegnanti-futuri",
+      "degree": 11,
+      "out_degree": 5,
+      "in_degree": 6
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/05-interpersonal-trust/relazione-educativa",
+      "title": "Centralità della relazione educativa",
+      "path": "01-wiki/insegnanti-futuri/05-interpersonal-trust/relazione-educativa.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "relazione-educativa",
+      "degree": 4,
+      "out_degree": 2,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sfiducia-tecnica",
+      "title": "Sfiducia tecnica: errori e allucinazioni",
+      "path": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sfiducia-tecnica.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "sfiducia-tecnica",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sostituzione-docente",
+      "title": "Timore della sostituzione del docente",
+      "path": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sostituzione-docente.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "sostituzione-docente",
+      "degree": 3,
+      "out_degree": 2,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/06-skepticisms/appiattimento-omologazione",
+      "title": "Appiattimento, omologazione, perdita di creatività",
+      "path": "01-wiki/insegnanti-futuri/06-skepticisms/appiattimento-omologazione.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "06-skepticisms",
+      "subtheme": "appiattimento-omologazione",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/06-skepticisms/copyright",
+      "title": "Copyright e proprietà intellettuale",
+      "path": "01-wiki/insegnanti-futuri/06-skepticisms/copyright.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "06-skepticisms",
+      "subtheme": "copyright",
+      "degree": 4,
+      "out_degree": 3,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/06-skepticisms/impoverimento-cognitivo",
+      "title": "Impoverimento cognitivo e dipendenza",
+      "path": "01-wiki/insegnanti-futuri/06-skepticisms/impoverimento-cognitivo.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "06-skepticisms",
+      "subtheme": "impoverimento-cognitivo",
+      "degree": 4,
+      "out_degree": 3,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta",
+      "title": "Plagio e disonestà accademica",
+      "path": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "06-skepticisms",
+      "subtheme": "plagio-e-disonesta",
+      "degree": 5,
+      "out_degree": 2,
+      "in_degree": 3
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
+      "title": "S — Skepticisms (Preoccupazioni)",
+      "path": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri.md",
+      "section": "insegnanti-futuri",
+      "group": "insegnanti-futuri",
+      "praxis": "06-skepticisms",
+      "subtheme": "skepticisms-insegnanti-futuri",
+      "degree": 14,
+      "out_degree": 7,
+      "in_degree": 7
+    },
+    {
+      "id": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "title": "Insegnanti Futuri",
-      "path": "wiki/insegnanti-futuri/index-insegnanti-futuri.md",
+      "path": "01-wiki/insegnanti-futuri/index-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
       "praxis": "_index",
@@ -615,57 +911,9 @@
       "in_degree": 28
     },
     {
-      "id": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
-      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
-      "path": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "interpersonal-trust",
-      "subtheme": "interpersonal-trust-insegnanti-futuri",
-      "degree": 11,
-      "out_degree": 5,
-      "in_degree": 6
-    },
-    {
-      "id": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa",
-      "title": "Centralità della relazione educativa",
-      "path": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "interpersonal-trust",
-      "subtheme": "relazione-educativa",
-      "degree": 4,
-      "out_degree": 2,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/insegnanti-futuri/interpersonal-trust/sfiducia-tecnica",
-      "title": "Sfiducia tecnica: errori e allucinazioni",
-      "path": "wiki/insegnanti-futuri/interpersonal-trust/sfiducia-tecnica.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "interpersonal-trust",
-      "subtheme": "sfiducia-tecnica",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-futuri/interpersonal-trust/sostituzione-docente",
-      "title": "Timore della sostituzione del docente",
-      "path": "wiki/insegnanti-futuri/interpersonal-trust/sostituzione-docente.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "interpersonal-trust",
-      "subtheme": "sostituzione-docente",
-      "degree": 3,
-      "out_degree": 2,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/insegnanti-futuri/non-classificati",
+      "id": "01-wiki/insegnanti-futuri/non-classificati",
       "title": "Record non classificati",
-      "path": "wiki/insegnanti-futuri/non-classificati.md",
+      "path": "01-wiki/insegnanti-futuri/non-classificati.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
       "praxis": "_index",
@@ -675,309 +923,321 @@
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/practice-patterns/facilitazione-accademica",
-      "title": "Facilitazione accademica personale",
-      "path": "wiki/insegnanti-futuri/practice-patterns/facilitazione-accademica.md",
+      "id": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "title": "R — Readiness beliefs (Competenza percepita)",
+      "path": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri.md",
       "section": "insegnanti-futuri",
       "group": "insegnanti-futuri",
-      "praxis": "practice-patterns",
-      "subtheme": "facilitazione-accademica",
-      "degree": 3,
-      "out_degree": 2,
-      "in_degree": 1
+      "praxis": "_index",
+      "subtheme": "readiness-beliefs-insegnanti-futuri",
+      "degree": 12,
+      "out_degree": 4,
+      "in_degree": 8
     },
     {
-      "id": "wiki/insegnanti-futuri/practice-patterns/individualizzazione-personalizzazione",
+      "id": "01-wiki/studenti/01-practice-patterns/ecosistema-strumenti",
+      "title": "Ecosistema di strumenti",
+      "path": "01-wiki/studenti/01-practice-patterns/ecosistema-strumenti.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
+      "subtheme": "ecosistema-strumenti",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/studenti/01-practice-patterns/inclusione-accessibilita",
+      "title": "Inclusione e accessibilità",
+      "path": "01-wiki/studenti/01-practice-patterns/inclusione-accessibilita.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
+      "subtheme": "inclusione-accessibilita",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/studenti/01-practice-patterns/individualizzazione-personalizzazione",
       "title": "Individualizzazione e personalizzazione",
-      "path": "wiki/insegnanti-futuri/practice-patterns/individualizzazione-personalizzazione.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "practice-patterns",
+      "path": "01-wiki/studenti/01-practice-patterns/individualizzazione-personalizzazione.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
       "subtheme": "individualizzazione-personalizzazione",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
-      "title": "P — Practice patterns (Modelli d'uso)",
-      "path": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "practice-patterns",
-      "subtheme": "practice-patterns-insegnanti-futuri",
-      "degree": 12,
-      "out_degree": 5,
-      "in_degree": 7
+      "id": "01-wiki/studenti/01-practice-patterns/interrogatore-e-autovalutazione",
+      "title": "IA come interrogatore simulato e partner di studio",
+      "path": "01-wiki/studenti/01-practice-patterns/interrogatore-e-autovalutazione.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
+      "subtheme": "interrogatore-e-autovalutazione",
+      "degree": 5,
+      "out_degree": 3,
+      "in_degree": 2
     },
     {
-      "id": "wiki/insegnanti-futuri/practice-patterns/produzione-materiali",
+      "id": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
+      "title": "P — Practice patterns (Modelli d'uso)",
+      "path": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
+      "subtheme": "practice-patterns-studenti",
+      "degree": 14,
+      "out_degree": 5,
+      "in_degree": 9
+    },
+    {
+      "id": "01-wiki/studenti/01-practice-patterns/produzione-materiali",
       "title": "Produzione di materiali didattici o di studio",
-      "path": "wiki/insegnanti-futuri/practice-patterns/produzione-materiali.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "practice-patterns",
+      "path": "01-wiki/studenti/01-practice-patterns/produzione-materiali.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
       "subtheme": "produzione-materiali",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/practice-patterns/uso-cross-disciplinare",
-      "title": "Uso cross-disciplinare e progettazione",
-      "path": "wiki/insegnanti-futuri/practice-patterns/uso-cross-disciplinare.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "practice-patterns",
-      "subtheme": "uso-cross-disciplinare",
-      "degree": 3,
-      "out_degree": 2,
-      "in_degree": 1
+      "id": "01-wiki/studenti/01-practice-patterns/uso-strumentale-evasivo",
+      "title": "Uso strumentale-evasivo",
+      "path": "01-wiki/studenti/01-practice-patterns/uso-strumentale-evasivo.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "01-practice-patterns",
+      "subtheme": "uso-strumentale-evasivo",
+      "degree": 5,
+      "out_degree": 3,
+      "in_degree": 2
     },
     {
-      "id": "wiki/insegnanti-futuri/readiness-beliefs/competenza-epistemologica",
+      "id": "01-wiki/studenti/02-readiness-beliefs/competenza-epistemologica",
       "title": "Competenza teorica o epistemologica",
-      "path": "wiki/insegnanti-futuri/readiness-beliefs/competenza-epistemologica.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "readiness-beliefs",
+      "path": "01-wiki/studenti/02-readiness-beliefs/competenza-epistemologica.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "02-readiness-beliefs",
       "subtheme": "competenza-epistemologica",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-futuri/readiness-beliefs/competenza-pratica",
-      "title": "Competenza pratica percepita",
-      "path": "wiki/insegnanti-futuri/readiness-beliefs/competenza-pratica.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "readiness-beliefs",
-      "subtheme": "competenza-pratica",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-futuri/readiness-beliefs/competenza-prompting",
-      "title": "Competenza di prompting",
-      "path": "wiki/insegnanti-futuri/readiness-beliefs/competenza-prompting.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "readiness-beliefs",
-      "subtheme": "competenza-prompting",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-futuri/readiness-beliefs/non-uso-consapevole",
-      "title": "Non-uso per impreparazione o rifiuto competente",
-      "path": "wiki/insegnanti-futuri/readiness-beliefs/non-uso-consapevole.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "readiness-beliefs",
-      "subtheme": "non-uso-consapevole",
-      "degree": 1,
-      "out_degree": 1,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
-      "title": "R — Readiness beliefs (Competenza percepita)",
-      "path": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "_index",
-      "subtheme": "readiness-beliefs-insegnanti-futuri",
-      "degree": 8,
-      "out_degree": 4,
-      "in_degree": 4
-    },
-    {
-      "id": "wiki/insegnanti-futuri/skepticisms/appiattimento-omologazione",
-      "title": "Appiattimento, omologazione, perdita di creatività",
-      "path": "wiki/insegnanti-futuri/skepticisms/appiattimento-omologazione.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "skepticisms",
-      "subtheme": "appiattimento-omologazione",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/skepticisms/copyright",
-      "title": "Copyright e proprietà intellettuale",
-      "path": "wiki/insegnanti-futuri/skepticisms/copyright.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "skepticisms",
-      "subtheme": "copyright",
-      "degree": 4,
-      "out_degree": 3,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo",
-      "title": "Impoverimento cognitivo e dipendenza",
-      "path": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "skepticisms",
-      "subtheme": "impoverimento-cognitivo",
-      "degree": 4,
-      "out_degree": 3,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
-      "title": "Plagio e disonestà accademica",
-      "path": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "skepticisms",
-      "subtheme": "plagio-e-disonesta",
-      "degree": 5,
+      "id": "01-wiki/studenti/02-readiness-beliefs/gap-uso-personale-didattico",
+      "title": "Gap tra uso personale e uso didattico",
+      "path": "01-wiki/studenti/02-readiness-beliefs/gap-uso-personale-didattico.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "gap-uso-personale-didattico",
+      "degree": 2,
       "out_degree": 2,
-      "in_degree": 3
+      "in_degree": 0
     },
     {
-      "id": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
-      "title": "S — Skepticisms (Preoccupazioni)",
-      "path": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri.md",
-      "section": "insegnanti-futuri",
-      "group": "insegnanti-futuri",
-      "praxis": "skepticisms",
-      "subtheme": "skepticisms-insegnanti-futuri",
-      "degree": 14,
-      "out_degree": 7,
+      "id": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-1-6",
+      "title": "Profili di non-uso 1–6",
+      "path": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-1-6.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "profili-di-non-uso-1-6",
+      "degree": 4,
+      "out_degree": 2,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-7-9",
+      "title": "Profili di non-uso 7–9 e lock-in cognitivo",
+      "path": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-7-9.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "profili-di-non-uso-7-9",
+      "degree": 4,
+      "out_degree": 3,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
+      "title": "R — Readiness beliefs (Competenza percepita)",
+      "path": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "02-readiness-beliefs",
+      "subtheme": "readiness-beliefs-studenti",
+      "degree": 12,
+      "out_degree": 5,
       "in_degree": 7
     },
     {
-      "id": "wiki/labels-legacy",
-      "title": "PRAXIS Labels",
-      "path": "wiki/labels-legacy.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "labels-legacy",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/labels-praxis",
-      "title": "Labels PRAXIS",
-      "path": "wiki/labels-praxis.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "labels-praxis",
-      "degree": 4,
-      "out_degree": 1,
-      "in_degree": 3
-    },
-    {
-      "id": "wiki/log",
-      "title": "Wiki Maintenance Log",
-      "path": "wiki/log.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "log",
-      "degree": 1,
-      "out_degree": 0,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/praxis-framework",
-      "title": "PRAXIS Framework",
-      "path": "wiki/praxis-framework.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "praxis-framework",
-      "degree": 4,
-      "out_degree": 0,
-      "in_degree": 4
-    },
-    {
-      "id": "wiki/sintesi-cross-coorte",
-      "title": "Sintesi Cross-Coorte (PRAXIS)",
-      "path": "wiki/sintesi-cross-coorte.md",
-      "section": "_root",
-      "group": "_root",
-      "praxis": "_index",
-      "subtheme": "sintesi-cross-coorte",
-      "degree": 1,
-      "out_degree": 0,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/studenti/adequacy-of-support-studenti",
+      "id": "01-wiki/studenti/03-adequacy-of-support/adequacy-of-support-studenti",
       "title": "A — Adequacy of support (Adeguatezza del supporto)",
-      "path": "wiki/studenti/adequacy-of-support-studenti.md",
+      "path": "01-wiki/studenti/03-adequacy-of-support/adequacy-of-support-studenti.md",
       "section": "studenti",
       "group": "studenti",
-      "praxis": "_index",
+      "praxis": "03-adequacy-of-support",
       "subtheme": "adequacy-of-support-studenti",
       "degree": 6,
       "out_degree": 3,
       "in_degree": 3
     },
     {
-      "id": "wiki/studenti/expectations/autonomia-cognitiva-a-rischio",
+      "id": "01-wiki/studenti/04-expectations/autonomia-cognitiva-a-rischio",
       "title": "Autonomia cognitiva a rischio",
-      "path": "wiki/studenti/expectations/autonomia-cognitiva-a-rischio.md",
+      "path": "01-wiki/studenti/04-expectations/autonomia-cognitiva-a-rischio.md",
       "section": "studenti",
       "group": "studenti",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "autonomia-cognitiva-a-rischio",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
     },
     {
-      "id": "wiki/studenti/expectations/efficienza-tempo",
+      "id": "01-wiki/studenti/04-expectations/efficienza-tempo",
       "title": "Efficienza e risparmio di tempo",
-      "path": "wiki/studenti/expectations/efficienza-tempo.md",
+      "path": "01-wiki/studenti/04-expectations/efficienza-tempo.md",
       "section": "studenti",
       "group": "studenti",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "efficienza-tempo",
       "degree": 2,
       "out_degree": 2,
       "in_degree": 0
     },
     {
-      "id": "wiki/studenti/expectations/expectations-studenti",
+      "id": "01-wiki/studenti/04-expectations/expectations-studenti",
       "title": "X — eXpectations (Cambiamento percepito)",
-      "path": "wiki/studenti/expectations/expectations-studenti.md",
+      "path": "01-wiki/studenti/04-expectations/expectations-studenti.md",
       "section": "studenti",
       "group": "studenti",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "expectations-studenti",
       "degree": 13,
       "out_degree": 6,
       "in_degree": 7
     },
     {
-      "id": "wiki/studenti/expectations/supporto-vs-sostituzione",
+      "id": "01-wiki/studenti/04-expectations/supporto-vs-sostituzione",
       "title": "Supporto vs. sostituzione",
-      "path": "wiki/studenti/expectations/supporto-vs-sostituzione.md",
+      "path": "01-wiki/studenti/04-expectations/supporto-vs-sostituzione.md",
       "section": "studenti",
       "group": "studenti",
-      "praxis": "expectations",
+      "praxis": "04-expectations",
       "subtheme": "supporto-vs-sostituzione",
       "degree": 3,
       "out_degree": 2,
       "in_degree": 1
     },
     {
-      "id": "wiki/studenti/index-studenti",
+      "id": "01-wiki/studenti/05-interpersonal-trust/conferma-sfiducia-e-privacy",
+      "title": "Conferma sfiducia, privacy e paywall",
+      "path": "01-wiki/studenti/05-interpersonal-trust/conferma-sfiducia-e-privacy.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "conferma-sfiducia-e-privacy",
+      "degree": 4,
+      "out_degree": 3,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/studenti/05-interpersonal-trust/fiducia-relazionale",
+      "title": "Fiducia relazionale e pedagogica",
+      "path": "01-wiki/studenti/05-interpersonal-trust/fiducia-relazionale.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "fiducia-relazionale",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
+      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
+      "path": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "interpersonal-trust-studenti",
+      "degree": 11,
+      "out_degree": 5,
+      "in_degree": 6
+    },
+    {
+      "id": "01-wiki/studenti/05-interpersonal-trust/sfiducia-tecnica-e-strutturale",
+      "title": "Sfiducia tecnica e strutturale",
+      "path": "01-wiki/studenti/05-interpersonal-trust/sfiducia-tecnica-e-strutturale.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "05-interpersonal-trust",
+      "subtheme": "sfiducia-tecnica-e-strutturale",
+      "degree": 4,
+      "out_degree": 2,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/studenti/06-skepticisms/evoluzione-del-tabu",
+      "title": "Evoluzione del tabù",
+      "path": "01-wiki/studenti/06-skepticisms/evoluzione-del-tabu.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "06-skepticisms",
+      "subtheme": "evoluzione-del-tabu",
+      "degree": 4,
+      "out_degree": 2,
+      "in_degree": 2
+    },
+    {
+      "id": "01-wiki/studenti/06-skepticisms/ghostwriting-plagio",
+      "title": "Ghostwriting e plagio",
+      "path": "01-wiki/studenti/06-skepticisms/ghostwriting-plagio.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "06-skepticisms",
+      "subtheme": "ghostwriting-plagio",
+      "degree": 2,
+      "out_degree": 2,
+      "in_degree": 0
+    },
+    {
+      "id": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
+      "title": "S — Skepticisms (Preoccupazioni)",
+      "path": "01-wiki/studenti/06-skepticisms/skepticisms-studenti.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "06-skepticisms",
+      "subtheme": "skepticisms-studenti",
+      "degree": 13,
+      "out_degree": 6,
+      "in_degree": 7
+    },
+    {
+      "id": "01-wiki/studenti/06-skepticisms/zone-di-esclusione-s6",
+      "title": "Zone di esclusione",
+      "path": "01-wiki/studenti/06-skepticisms/zone-di-esclusione-s6.md",
+      "section": "studenti",
+      "group": "studenti",
+      "praxis": "06-skepticisms",
+      "subtheme": "zone-di-esclusione-s6",
+      "degree": 4,
+      "out_degree": 3,
+      "in_degree": 1
+    },
+    {
+      "id": "01-wiki/studenti/index-studenti",
       "title": "Studenti",
-      "path": "wiki/studenti/index-studenti.md",
+      "path": "01-wiki/studenti/index-studenti.md",
       "section": "studenti",
       "group": "studenti",
       "praxis": "_index",
@@ -987,57 +1247,9 @@
       "in_degree": 29
     },
     {
-      "id": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy",
-      "title": "Conferma sfiducia, privacy e paywall",
-      "path": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "interpersonal-trust",
-      "subtheme": "conferma-sfiducia-e-privacy",
-      "degree": 4,
-      "out_degree": 3,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/studenti/interpersonal-trust/fiducia-relazionale",
-      "title": "Fiducia relazionale e pedagogica",
-      "path": "wiki/studenti/interpersonal-trust/fiducia-relazionale.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "interpersonal-trust",
-      "subtheme": "fiducia-relazionale",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
-      "title": "I — Interpersonal & Institutional trust (Fiducia e confidenza)",
-      "path": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "interpersonal-trust",
-      "subtheme": "interpersonal-trust-studenti",
-      "degree": 11,
-      "out_degree": 5,
-      "in_degree": 6
-    },
-    {
-      "id": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale",
-      "title": "Sfiducia tecnica e strutturale",
-      "path": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "interpersonal-trust",
-      "subtheme": "sfiducia-tecnica-e-strutturale",
-      "degree": 4,
-      "out_degree": 2,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/studenti/non-classificati",
+      "id": "01-wiki/studenti/non-classificati",
       "title": "Record non classificati",
-      "path": "wiki/studenti/non-classificati.md",
+      "path": "01-wiki/studenti/non-classificati.md",
       "section": "studenti",
       "group": "studenti",
       "praxis": "_index",
@@ -1047,203 +1259,11 @@
       "in_degree": 0
     },
     {
-      "id": "wiki/studenti/practice-patterns/ecosistema-strumenti",
-      "title": "Ecosistema di strumenti",
-      "path": "wiki/studenti/practice-patterns/ecosistema-strumenti.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "ecosistema-strumenti",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/inclusione-accessibilita",
-      "title": "Inclusione e accessibilità",
-      "path": "wiki/studenti/practice-patterns/inclusione-accessibilita.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "inclusione-accessibilita",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/individualizzazione-personalizzazione",
-      "title": "Individualizzazione e personalizzazione",
-      "path": "wiki/studenti/practice-patterns/individualizzazione-personalizzazione.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "individualizzazione-personalizzazione",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione",
-      "title": "IA come interrogatore simulato e partner di studio",
-      "path": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "interrogatore-e-autovalutazione",
-      "degree": 5,
-      "out_degree": 3,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/practice-patterns-studenti",
-      "title": "P — Practice patterns (Modelli d'uso)",
-      "path": "wiki/studenti/practice-patterns/practice-patterns-studenti.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "practice-patterns-studenti",
-      "degree": 14,
-      "out_degree": 5,
-      "in_degree": 9
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/produzione-materiali",
-      "title": "Produzione di materiali didattici o di studio",
-      "path": "wiki/studenti/practice-patterns/produzione-materiali.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "produzione-materiali",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/practice-patterns/uso-strumentale-evasivo",
-      "title": "Uso strumentale-evasivo",
-      "path": "wiki/studenti/practice-patterns/uso-strumentale-evasivo.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "practice-patterns",
-      "subtheme": "uso-strumentale-evasivo",
-      "degree": 5,
-      "out_degree": 3,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/studenti/readiness-beliefs/competenza-epistemologica",
-      "title": "Competenza teorica o epistemologica",
-      "path": "wiki/studenti/readiness-beliefs/competenza-epistemologica.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "readiness-beliefs",
-      "subtheme": "competenza-epistemologica",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/readiness-beliefs/gap-uso-personale-didattico",
-      "title": "Gap tra uso personale e uso didattico",
-      "path": "wiki/studenti/readiness-beliefs/gap-uso-personale-didattico.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "readiness-beliefs",
-      "subtheme": "gap-uso-personale-didattico",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6",
-      "title": "Profili di non-uso 1–6",
-      "path": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "readiness-beliefs",
-      "subtheme": "profili-di-non-uso-1-6",
-      "degree": 4,
-      "out_degree": 2,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9",
-      "title": "Profili di non-uso 7–9 e lock-in cognitivo",
-      "path": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "readiness-beliefs",
-      "subtheme": "profili-di-non-uso-7-9",
-      "degree": 4,
-      "out_degree": 3,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
-      "title": "R — Readiness beliefs (Competenza percepita)",
-      "path": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "readiness-beliefs",
-      "subtheme": "readiness-beliefs-studenti",
-      "degree": 12,
-      "out_degree": 5,
-      "in_degree": 7
-    },
-    {
-      "id": "wiki/studenti/skepticisms/evoluzione-del-tabu",
-      "title": "Evoluzione del tabù",
-      "path": "wiki/studenti/skepticisms/evoluzione-del-tabu.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "skepticisms",
-      "subtheme": "evoluzione-del-tabu",
-      "degree": 4,
-      "out_degree": 2,
-      "in_degree": 2
-    },
-    {
-      "id": "wiki/studenti/skepticisms/ghostwriting-plagio",
-      "title": "Ghostwriting e plagio",
-      "path": "wiki/studenti/skepticisms/ghostwriting-plagio.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "skepticisms",
-      "subtheme": "ghostwriting-plagio",
-      "degree": 2,
-      "out_degree": 2,
-      "in_degree": 0
-    },
-    {
-      "id": "wiki/studenti/skepticisms/skepticisms-studenti",
-      "title": "S — Skepticisms (Preoccupazioni)",
-      "path": "wiki/studenti/skepticisms/skepticisms-studenti.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "skepticisms",
-      "subtheme": "skepticisms-studenti",
-      "degree": 13,
-      "out_degree": 6,
-      "in_degree": 7
-    },
-    {
-      "id": "wiki/studenti/skepticisms/zone-di-esclusione-s6",
-      "title": "Zone di esclusione",
-      "path": "wiki/studenti/skepticisms/zone-di-esclusione-s6.md",
-      "section": "studenti",
-      "group": "studenti",
-      "praxis": "skepticisms",
-      "subtheme": "zone-di-esclusione-s6",
-      "degree": 4,
-      "out_degree": 3,
-      "in_degree": 1
-    },
-    {
-      "id": "wiki/studenti",
+      "id": "01-wiki/studenti/studenti",
       "title": "Studenti (Sintesi PRAXIS — FINALE)",
-      "path": "wiki/studenti.md",
-      "section": "_root",
-      "group": "_root",
+      "path": "01-wiki/studenti/studenti.md",
+      "section": "studenti",
+      "group": "studenti",
       "praxis": "_index",
       "subtheme": "studenti",
       "degree": 1,
@@ -1253,1083 +1273,1123 @@
   ],
   "edges": [
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
-      "target": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
-      "target": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione",
-      "target": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing",
-      "target": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/ansia-occupazionale",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/ansia-occupazionale",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/crollo-relazionale",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/crollo-relazionale",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/impoverimento-cognitivo",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/expectations/autonomia-cognitiva-a-rischio",
-      "target": "wiki/studenti/expectations/expectations-studenti",
+      "source": "01-wiki/studenti/01-practice-patterns/interrogatore-e-autovalutazione",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/expectations/expectations-studenti",
-      "target": "wiki/studenti/expectations/supporto-vs-sostituzione",
+      "source": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
+      "target": "01-wiki/studenti/01-practice-patterns/uso-strumentale-evasivo",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy",
-      "target": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
+      "source": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-1-6",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
-      "target": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale",
+      "source": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-7-9",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/studenti/04-expectations/autonomia-cognitiva-a-rischio",
+      "target": "01-wiki/studenti/04-expectations/expectations-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/practice-patterns/practice-patterns-studenti",
-      "target": "wiki/studenti/practice-patterns/uso-strumentale-evasivo",
+      "source": "01-wiki/studenti/04-expectations/expectations-studenti",
+      "target": "01-wiki/studenti/04-expectations/supporto-vs-sostituzione",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/studenti/05-interpersonal-trust/conferma-sfiducia-e-privacy",
+      "target": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
+      "target": "01-wiki/studenti/05-interpersonal-trust/sfiducia-tecnica-e-strutturale",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/skepticisms/evoluzione-del-tabu",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/studenti/06-skepticisms/evoluzione-del-tabu",
+      "target": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
       "weight": 3
     },
     {
-      "source": "wiki/studenti/skepticisms/skepticisms-studenti",
-      "target": "wiki/studenti/skepticisms/zone-di-esclusione-s6",
+      "source": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
+      "target": "01-wiki/studenti/06-skepticisms/zone-di-esclusione-s6",
       "weight": 3
     },
     {
-      "source": "wiki/grafo-dimensioni-praxis",
-      "target": "wiki/labels-praxis",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/30-visualizzazioni/grafo-wiki",
       "weight": 2
     },
     {
-      "source": "wiki/grafo-wiki",
-      "target": "wiki/index-wiki",
+      "source": "01-wiki/20-labels/labels-praxis",
+      "target": "01-wiki/30-visualizzazioni/grafo-dimensioni-praxis",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/paywall",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/adequacy-of-support-insegnanti-attuali",
-      "target": "wiki/studenti/adequacy-of-support-studenti",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/paywall",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/paywall",
-      "target": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/expectations/inclusione-digitale",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/expectations/peggioramento-efficace",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/studenti/expectations/expectations-studenti",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/inclusione-digitale",
-      "target": "wiki/insegnanti-attuali/expectations/peggioramento-efficace",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/adequacy-of-support-insegnanti-attuali",
+      "target": "01-wiki/studenti/03-adequacy-of-support/adequacy-of-support-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall",
+      "target": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/inclusione-digitale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/peggioramento-efficace",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/studenti/04-expectations/expectations-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/inclusione-digitale",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/peggioramento-efficace",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
-      "target": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
-      "target": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/impoverimento-cognitivo",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
-      "target": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
-      "target": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
-      "target": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
-      "target": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "target": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing",
-      "target": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
+      "target": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/facilitazione-accademica",
+      "target": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/01-practice-patterns/uso-cross-disciplinare",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
-      "target": "wiki/studenti/adequacy-of-support-studenti",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/cambiamento-positivo",
-      "target": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/expectations/omologazione",
+      "source": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
-      "target": "wiki/studenti/expectations/expectations-studenti",
+      "source": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
+      "target": "01-wiki/studenti/03-adequacy-of-support/adequacy-of-support-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/cambiamento-positivo",
+      "target": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/04-expectations/omologazione",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
+      "target": "01-wiki/studenti/04-expectations/expectations-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/05-interpersonal-trust/relazione-educativa",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sostituzione-docente",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/sostituzione-docente",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
-      "target": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "target": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/practice-patterns/facilitazione-accademica",
-      "target": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/copyright",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/uso-cross-disciplinare",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/impoverimento-cognitivo",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/copyright",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
+      "target": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/adequacy-of-support-studenti",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/studenti/01-practice-patterns/interrogatore-e-autovalutazione",
+      "target": "01-wiki/studenti/01-practice-patterns/uso-strumentale-evasivo",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/expectations/expectations-studenti",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/expectations/expectations-studenti",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
+      "source": "01-wiki/studenti/03-adequacy-of-support/adequacy-of-support-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/studenti/04-expectations/expectations-studenti",
+      "target": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/studenti/04-expectations/expectations-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione",
-      "target": "wiki/studenti/practice-patterns/uso-strumentale-evasivo",
+      "source": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 2
     },
     {
-      "source": "wiki/albero-temi",
-      "target": "wiki/index-wiki",
+      "source": "01-wiki/00-indice/albero-temi",
+      "target": "01-wiki/00-indice/index-wiki",
       "weight": 1
     },
     {
-      "source": "wiki/grafo-dimensioni-praxis",
-      "target": "wiki/index-wiki",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/10-framework/praxis-framework",
       "weight": 1
     },
     {
-      "source": "wiki/grafo-dimensioni-praxis",
-      "target": "wiki/labels-legacy",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/10-framework/sintesi-cross-coorte",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/20-labels/labels-praxis",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/30-visualizzazioni/grafo-dimensioni-praxis",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/labels-praxis",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/40-governance/log",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/log",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/praxis-framework",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/sintesi-cross-coorte",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/studenti",
+      "source": "01-wiki/00-indice/index-wiki",
+      "target": "01-wiki/studenti/studenti",
       "weight": 1
     },
     {
-      "source": "wiki/index-wiki",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/10-framework/praxis-framework",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/10-framework/praxis-framework",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/paywall",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/10-framework/praxis-framework",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/adequacy-of-support/resistenza-manageriale",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/20-labels/labels-legacy",
+      "target": "01-wiki/20-labels/labels-praxis",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/efficienza-tempo",
-      "target": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
+      "source": "01-wiki/20-labels/labels-legacy",
+      "target": "01-wiki/30-visualizzazioni/grafo-dimensioni-praxis",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/efficienza-tempo",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/expectations/personalizzazione-singolo",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/caa-autismo-non-verbale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/expectations-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/expectations/semplificazione-comprensione",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/inclusione-digitale",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/individualizzazione-bes-dsa",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/peggioramento-efficace",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/nai-e-traduzione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/personalizzazione-singolo",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/piattaforme-e-role-playing",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/expectations/semplificazione-comprensione",
-      "target": "wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/produzione-materiali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/bias-e-allucinazione",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/strategie-produzione",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/fiducia-tecnica-condizionata",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/practice-patterns-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/tutoraggio-simulazione",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/produzione-materiali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/paradosso-digitale",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
+      "target": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/non-classificati",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/prompt-engineering",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/strategie-produzione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/strumenti-settoriali",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/tutoraggio-simulazione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/piattaforme-e-role-playing",
+      "source": "01-wiki/insegnanti-attuali/01-practice-patterns/udl-e-gamification",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/produzione-materiali",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strategie-produzione",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-prompting",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/competenza-prompting",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/tutoraggio-simulazione",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/gap-uso-personale-didattico",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/udl-e-gamification",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/gap-uso-personale-didattico",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/readiness-beliefs/competenza-epistemologica",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/non-uso-consapevole",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/readiness-beliefs/competenza-prompting",
+      "source": "01-wiki/insegnanti-attuali/02-readiness-beliefs/non-uso-consapevole",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/readiness-beliefs/gap-uso-personale-didattico",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/readiness-beliefs/non-uso-consapevole",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/paywall",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/ansia-occupazionale",
+      "source": "01-wiki/insegnanti-attuali/03-adequacy-of-support/resistenza-manageriale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/appiattimento-omologazione",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/efficienza-tempo",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/crollo-relazionale",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/efficienza-tempo",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/ghostwriting-plagio",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/personalizzazione-singolo",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/impoverimento-cognitivo",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/expectations-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/04-expectations/semplificazione-comprensione",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/index-insegnanti-attuali",
-      "target": "wiki/praxis-framework",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/inclusione-digitale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/interpersonal-trust/fiducia-tecnica-condizionata",
-      "target": "wiki/insegnanti-attuali/interpersonal-trust/interpersonal-trust-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/peggioramento-efficace",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/caa-autismo-non-verbale",
-      "target": "wiki/insegnanti-attuali/practice-patterns/nai-e-traduzione",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/personalizzazione-singolo",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/individualizzazione-bes-dsa",
-      "target": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
+      "source": "01-wiki/insegnanti-attuali/04-expectations/semplificazione-comprensione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/produzione-materiali",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/bias-e-allucinazione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strategie-produzione",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/fiducia-tecnica-condizionata",
+      "target": "01-wiki/insegnanti-attuali/05-interpersonal-trust/interpersonal-trust-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/practice-patterns-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/practice-patterns/tutoraggio-simulazione",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/fiducia-tecnica-condizionata",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/practice-patterns/prompt-engineering",
-      "target": "wiki/insegnanti-attuali/practice-patterns/strumenti-settoriali",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/05-interpersonal-trust/paradosso-digitale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/appiattimento-omologazione",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/ansia-occupazionale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-attuali/skepticisms/ghostwriting-plagio",
-      "target": "wiki/insegnanti-attuali/skepticisms/skepticisms-insegnanti-attuali",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/appiattimento-omologazione",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/adequacy-of-support-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/expectations/cambiamento-positivo",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/appiattimento-omologazione",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/cambiamento-positivo",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/crollo-relazionale",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/efficienza-tempo",
-      "target": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/ghostwriting-plagio",
+      "target": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/efficienza-tempo",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/ghostwriting-plagio",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/expectations-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/impoverimento-cognitivo",
+      "target": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/expectations/omologazione",
-      "target": "wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-attuali/06-skepticisms/skepticisms-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/readiness-beliefs-insegnanti-attuali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa",
+      "source": "01-wiki/insegnanti-attuali/index-insegnanti-attuali",
+      "target": "01-wiki/insegnanti-attuali/non-classificati",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/sfiducia-tecnica",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/facilitazione-accademica",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/sostituzione-docente",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/individualizzazione-personalizzazione",
+      "target": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/non-classificati",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/individualizzazione-personalizzazione",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/facilitazione-accademica",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/practice-patterns-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/01-practice-patterns/produzione-materiali",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/individualizzazione-personalizzazione",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/produzione-materiali",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/produzione-materiali",
+      "source": "01-wiki/insegnanti-futuri/01-practice-patterns/uso-cross-disciplinare",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/uso-cross-disciplinare",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs/competenza-epistemologica",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs/competenza-pratica",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-pratica",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs/competenza-prompting",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-pratica",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs/non-uso-consapevole",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-prompting",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/appiattimento-omologazione",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/competenza-prompting",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/copyright",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/non-uso-consapevole",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo",
+      "source": "01-wiki/insegnanti-futuri/02-readiness-beliefs/non-uso-consapevole",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
+      "source": "01-wiki/insegnanti-futuri/03-adequacy-of-support/adequacy-of-support-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/04-expectations/cambiamento-positivo",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/index-insegnanti-futuri",
-      "target": "wiki/praxis-framework",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/cambiamento-positivo",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/interpersonal-trust/interpersonal-trust-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/interpersonal-trust/sfiducia-tecnica",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/efficienza-tempo",
+      "target": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/interpersonal-trust/relazione-educativa",
-      "target": "wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/efficienza-tempo",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/practice-patterns/individualizzazione-personalizzazione",
-      "target": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/expectations-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/practice-patterns/practice-patterns-insegnanti-futuri",
-      "target": "wiki/insegnanti-futuri/practice-patterns/produzione-materiali",
+      "source": "01-wiki/insegnanti-futuri/04-expectations/omologazione",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/appiattimento-omologazione",
-      "target": "wiki/insegnanti-futuri/skepticisms/skepticisms-insegnanti-futuri",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/interpersonal-trust-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sfiducia-tecnica",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/copyright",
-      "target": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/relazione-educativa",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/insegnanti-futuri/skepticisms/impoverimento-cognitivo",
-      "target": "wiki/insegnanti-futuri/skepticisms/plagio-e-disonesta",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/relazione-educativa",
+      "target": "01-wiki/insegnanti-futuri/readiness-beliefs-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/labels-legacy",
-      "target": "wiki/labels-praxis",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sfiducia-tecnica",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/praxis-framework",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-futuri/05-interpersonal-trust/sostituzione-docente",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/expectations/autonomia-cognitiva-a-rischio",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/appiattimento-omologazione",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/skepticisms-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/expectations/efficienza-tempo",
-      "target": "wiki/studenti/expectations/expectations-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/appiattimento-omologazione",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/expectations/efficienza-tempo",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/copyright",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/expectations/supporto-vs-sostituzione",
-      "target": "wiki/studenti/index-studenti",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/copyright",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/impoverimento-cognitivo",
+      "target": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/interpersonal-trust/fiducia-relazionale",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/impoverimento-cognitivo",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale",
+      "source": "01-wiki/insegnanti-futuri/06-skepticisms/plagio-e-disonesta",
+      "target": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/non-classificati",
+      "source": "01-wiki/insegnanti-futuri/index-insegnanti-futuri",
+      "target": "01-wiki/insegnanti-futuri/non-classificati",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/ecosistema-strumenti",
+      "source": "01-wiki/studenti/01-practice-patterns/ecosistema-strumenti",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/inclusione-accessibilita",
+      "source": "01-wiki/studenti/01-practice-patterns/ecosistema-strumenti",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/individualizzazione-personalizzazione",
+      "source": "01-wiki/studenti/01-practice-patterns/inclusione-accessibilita",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/interrogatore-e-autovalutazione",
+      "source": "01-wiki/studenti/01-practice-patterns/inclusione-accessibilita",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/produzione-materiali",
+      "source": "01-wiki/studenti/01-practice-patterns/individualizzazione-personalizzazione",
+      "target": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/practice-patterns/uso-strumentale-evasivo",
+      "source": "01-wiki/studenti/01-practice-patterns/individualizzazione-personalizzazione",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/readiness-beliefs/competenza-epistemologica",
+      "source": "01-wiki/studenti/01-practice-patterns/interrogatore-e-autovalutazione",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/readiness-beliefs/gap-uso-personale-didattico",
+      "source": "01-wiki/studenti/01-practice-patterns/practice-patterns-studenti",
+      "target": "01-wiki/studenti/01-practice-patterns/produzione-materiali",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6",
+      "source": "01-wiki/studenti/01-practice-patterns/produzione-materiali",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9",
+      "source": "01-wiki/studenti/01-practice-patterns/uso-strumentale-evasivo",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/skepticisms/evoluzione-del-tabu",
+      "source": "01-wiki/studenti/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/skepticisms/ghostwriting-plagio",
+      "source": "01-wiki/studenti/02-readiness-beliefs/competenza-epistemologica",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/index-studenti",
-      "target": "wiki/studenti/skepticisms/zone-di-esclusione-s6",
+      "source": "01-wiki/studenti/02-readiness-beliefs/gap-uso-personale-didattico",
+      "target": "01-wiki/studenti/02-readiness-beliefs/readiness-beliefs-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/interpersonal-trust/conferma-sfiducia-e-privacy",
-      "target": "wiki/studenti/interpersonal-trust/sfiducia-tecnica-e-strutturale",
+      "source": "01-wiki/studenti/02-readiness-beliefs/gap-uso-personale-didattico",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/interpersonal-trust/fiducia-relazionale",
-      "target": "wiki/studenti/interpersonal-trust/interpersonal-trust-studenti",
+      "source": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-1-6",
+      "target": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-7-9",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/practice-patterns/ecosistema-strumenti",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-1-6",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/practice-patterns/inclusione-accessibilita",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/studenti/02-readiness-beliefs/profili-di-non-uso-7-9",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/practice-patterns/individualizzazione-personalizzazione",
-      "target": "wiki/studenti/practice-patterns/practice-patterns-studenti",
+      "source": "01-wiki/studenti/04-expectations/autonomia-cognitiva-a-rischio",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/practice-patterns/practice-patterns-studenti",
-      "target": "wiki/studenti/practice-patterns/produzione-materiali",
+      "source": "01-wiki/studenti/04-expectations/efficienza-tempo",
+      "target": "01-wiki/studenti/04-expectations/expectations-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/readiness-beliefs/competenza-epistemologica",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/studenti/04-expectations/efficienza-tempo",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/readiness-beliefs/gap-uso-personale-didattico",
-      "target": "wiki/studenti/readiness-beliefs/readiness-beliefs-studenti",
+      "source": "01-wiki/studenti/04-expectations/supporto-vs-sostituzione",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/readiness-beliefs/profili-di-non-uso-1-6",
-      "target": "wiki/studenti/readiness-beliefs/profili-di-non-uso-7-9",
+      "source": "01-wiki/studenti/05-interpersonal-trust/conferma-sfiducia-e-privacy",
+      "target": "01-wiki/studenti/05-interpersonal-trust/sfiducia-tecnica-e-strutturale",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/skepticisms/evoluzione-del-tabu",
-      "target": "wiki/studenti/skepticisms/zone-di-esclusione-s6",
+      "source": "01-wiki/studenti/05-interpersonal-trust/conferma-sfiducia-e-privacy",
+      "target": "01-wiki/studenti/index-studenti",
       "weight": 1
     },
     {
-      "source": "wiki/studenti/skepticisms/ghostwriting-plagio",
-      "target": "wiki/studenti/skepticisms/skepticisms-studenti",
+      "source": "01-wiki/studenti/05-interpersonal-trust/fiducia-relazionale",
+      "target": "01-wiki/studenti/05-interpersonal-trust/interpersonal-trust-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/05-interpersonal-trust/fiducia-relazionale",
+      "target": "01-wiki/studenti/index-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/05-interpersonal-trust/sfiducia-tecnica-e-strutturale",
+      "target": "01-wiki/studenti/index-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/06-skepticisms/evoluzione-del-tabu",
+      "target": "01-wiki/studenti/06-skepticisms/zone-di-esclusione-s6",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/06-skepticisms/evoluzione-del-tabu",
+      "target": "01-wiki/studenti/index-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/06-skepticisms/ghostwriting-plagio",
+      "target": "01-wiki/studenti/06-skepticisms/skepticisms-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/06-skepticisms/ghostwriting-plagio",
+      "target": "01-wiki/studenti/index-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/06-skepticisms/zone-di-esclusione-s6",
+      "target": "01-wiki/studenti/index-studenti",
+      "weight": 1
+    },
+    {
+      "source": "01-wiki/studenti/index-studenti",
+      "target": "01-wiki/studenti/non-classificati",
       "weight": 1
     }
   ]

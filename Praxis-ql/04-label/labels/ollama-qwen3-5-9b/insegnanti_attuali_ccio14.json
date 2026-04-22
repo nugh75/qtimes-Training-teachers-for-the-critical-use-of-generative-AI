@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ccio14.md",
+  "source_name": "insegnanti_attuali_ccio14.md",
+  "title": "Risposta Ccio14",
+  "group": "Insegnanti in servizio",
+  "record_code": "Ccio14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:41:27.350869+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1b",
+    "R1"
+  ],
+  "record_note": "Profilo di insegnanti con barriere all'adozione legate alla mancanza di formazione e competenze tecniche.",
+  "code_counts": {
+    "A1": 2,
+    "N1b": 2,
+    "R1": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho la formazione per poterla utilizzare",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Mancanza di formazione formale (A1) e percezione di non-saper usare gli strumenti (R1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non so utilizzare gli strumenti dell'AI",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Non-saper usare gli strumenti (R1) attribuito alla mancanza di formazione (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sui pro e contro (N1b)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulle pratiche non raccomandate (N1b)."
+    }
+  ]
+}

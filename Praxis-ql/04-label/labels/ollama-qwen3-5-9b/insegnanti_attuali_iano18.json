@@ -1,0 +1,156 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_iano18.md",
+  "source_name": "insegnanti_attuali_iano18.md",
+  "title": "Risposta iano18",
+  "group": "Insegnanti in servizio",
+  "record_code": "iano18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:40:45.530872+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "A3",
+    "I2",
+    "I4",
+    "I5",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R5",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Il record descrive un uso pedagogico dell'IA focalizzato su personalizzazione, inclusione e supporto alla pianificazione, bilanciato da una forte consapevolezza dei rischi etici, di privacy e delle barriere infrastrutturali.",
+  "code_counts": {
+    "A1": 1,
+    "A2": 1,
+    "A3": 1,
+    "I2": 1,
+    "I4": 1,
+    "I5": 1,
+    "P2": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R5": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 3,
+    "X4": 4,
+    "X5": 2,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "L’intelligenza artificiale consente di individualizzare l’insegnamento analizzando in tempo reale i dati sullo studio degli studenti e adattando di conseguenza attività, contenuti e livelli di difficoltà. In questo modo, ciascun alunno può seguire un percorso personalizzato che risponde ai suoi bisogni, aiutandolo a colmare eventuali lacune e a raggiungere le competenze fondamentali del curricolo. L’IA può anche supportare l’insegnante nella pianificazione didattica e nella gestione di gruppi eterogenei, facilitando un’azione educativa più mirata ed efficace.",
+      "codes": [
+        "P6",
+        "X6"
+      ],
+      "reason": "Menzione esplicita di strumenti (piattaforme) e focus su innovazione e arricchimento dell'insegnamento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l’intelligenza artificiale per individualizzare l’insegnamento adattando contenuti e attività in base ai bisogni specifici di ciascun alunno. Attraverso piattaforme educative intelligenti, monitoro i progressi degli studenti, rilevo eventuali difficoltà e propongo esercizi personalizzati con livelli di difficoltà adeguati. In questo modo, ogni studente può seguire un percorso diversificato, mirato al raggiungimento delle competenze fondamentali del curricolo. L’IA mi supporta anche nella pianificazione, suggerendo strategie didattiche efficaci e aiutandomi a gestire la classe in modo più inclusivo.",
+      "codes": [
+        "P2",
+        "X3",
+        "X4"
+      ],
+      "reason": "Descrizione dettagliata di strategie di individualizzazione (adattamento contenuti) e inclusione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Utilizzo l’intelligenza artificiale per personalizzare l’insegnamento offrendo agli studenti percorsi formativi flessibili, in grado di valorizzare le loro inclinazioni, interessi e stili cognitivi. Le piattaforme basate su IA permettono di proporre attività differenziate, suggerire approfondimenti mirati e stimolare lo sviluppo del pensiero critico e creativo. In questo modo, ogni studente può coltivare le proprie potenzialità, esplorare ambiti di eccellenza personale e raggiungere obiettivi formativi più alti, secondo le proprie capacità e aspirazioni.",
+      "codes": [
+        "P2",
+        "X3",
+        "X6"
+      ],
+      "reason": "Focus sulla personalizzazione per eccellenza cognitiva, valorizzazione delle potenzialità e pensiero creativo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea una serie di esercizi di grammatica italiana di livello base con correzione automatica e spiegazione degli errori, adatta per studenti con difficoltà di apprendimento.",
+      "codes": [
+        "P7",
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempio concreto di prompt (P7), produzione di esercizi e spiegazioni (P5), e semplificazione/apprendimento (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Le piattaforme di apprendimento adattivo basate su IA analizzano le prestazioni degli studenti in tempo reale, identificando aree di forza e debolezza. Questo consente di fornire contenuti e attività personalizzate, migliorando il rendimento scolastico e assicurando che nessuno studente venga lasciato indietro",
+      "codes": [
+        "X2",
+        "X4",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite analisi dati, personalizzazione e supporto al percorso (nessuno lasciato indietro)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Le piattaforme di apprendimento adattivo basate su IA analizzano le prestazioni degli studenti in tempo reale, identificando aree di forza e debolezza. Questo consente di fornire contenuti e attività personalizzate, migliorando il rendimento scolastico e assicurando che nessuno studente venga lasciato indietro.",
+      "codes": [
+        "X2",
+        "X4",
+        "X5"
+      ],
+      "reason": "Identico contenuto alla risposta 6: analisi prestazioni, personalizzazione e supporto al percorso."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Le principali difficoltà nell’uso dell’intelligenza artificiale nella didattica sono: la necessità di formazione iniziale, le disuguaglianze nell’accesso alla tecnologia, le questioni legate alla privacy, l’adattamento degli strumenti ai diversi livelli scolastici e una certa resistenza al cambiamento da parte di colleghi e famiglie. Nonostante ciò, l’IA si è dimostrata utile se utilizzata con consapevolezza.",
+      "codes": [
+        "A1",
+        "A2",
+        "A3",
+        "R5"
+      ],
+      "reason": "Elenco di difficoltà: mancanza formazione (A1), supporto diseguale (A2), vincoli infrastrutturali (A3), resistenza al cambiamento (R5)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: l’IA permette di personalizzare l’apprendimento, offre feedback immediato, supporta l’inclusione, semplifica la valutazione e aumenta la motivazione.  Contro: comporta rischi per la privacy, può accentuare le disuguaglianze digitali, richiede formazione specifica, non sostituisce la relazione educativa e può fornire contenuti non sempre affidabili.",
+      "codes": [
+        "X3",
+        "X4",
+        "X1",
+        "I2",
+        "I5",
+        "I4"
+      ],
+      "reason": "Pro: personalizzazione (X3), inclusione (X4), risparmio tempo (X1). Contro: privacy (I5), disuguaglianze (X4), affidabilità (I2), relazione educativa (I4)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non sono raccomandate le pratiche che affidano totalmente all’IA la valutazione degli studenti, che usano contenuti generati senza controllo, che sostituiscono la relazione umana o che ignorano le implicazioni etiche e la privacy. L’IA va usata con criterio, supervisione e scopo educativo chiaro.",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

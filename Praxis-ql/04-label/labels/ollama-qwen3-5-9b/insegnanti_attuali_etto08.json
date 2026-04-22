@@ -1,0 +1,60 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etto08.md",
+  "source_name": "insegnanti_attuali_etto08.md",
+  "title": "Risposta etto08",
+  "group": "Insegnanti in servizio",
+  "record_code": "etto08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:44:50.149353+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1a",
+    "R1",
+    "X2"
+  ],
+  "record_note": "Profilo di docente con approccio cauto verso l'IA, che ne percepisce i benefici ma ne evidenzia i limiti (fiducia condizionata) e la propria attuale insicurezza tecnica.",
+  "code_counts": {
+    "I1": 1,
+    "N1a": 2,
+    "R1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non conosco ancora bene questa risorsa digitale",
+      "codes": [
+        "N1a",
+        "R1"
+      ],
+      "reason": "Risposta breve che indica mancanza di familiarità con lo strumento (R1) e insufficiente dettaglio per codificare altre dimensioni (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Agevolazione e facilitazione nel produrre materiale utile per la didattica Conoscere i limiti e verificare sempre le fonti",
+      "codes": [
+        "X2",
+        "I1"
+      ],
+      "reason": "Menzione di facilitazione nella produzione (X2) e necessità di verificare le fonti/limiti (I1)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho ancora sufficiente esperienza",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo generica ('non ho ancora sufficiente esperienza') che non permette di attribuire codici specifici."
+    }
+  ]
+}

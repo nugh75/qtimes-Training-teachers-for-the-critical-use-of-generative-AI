@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_erti16.md",
+  "source_name": "insegnanti_futuri_erti16.md",
+  "title": "Risposta erti16",
+  "group": "Insegnanti pre-service",
+  "record_code": "erti16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:08.794148+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "R"
+  ],
+  "record_subcodes": [
+    "A3",
+    "N1b",
+    "P6",
+    "P7",
+    "R1",
+    "R4"
+  ],
+  "record_note": "Il partecipante dichiara di non aver mai insegnato, rendendo la maggior parte delle risposte relative all'esperienza didattica non applicabili (N1b). Solo le domande su strumenti e prompt ricevono codici pertinenti.",
+  "code_counts": {
+    "A3": 1,
+    "N1b": 7,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt. Di facile utilizzo, immediato.",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (ChatGpt) e percezione di facilità d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sull'uso didattico (non ha mai insegnato)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla personalizzazione (non ha mai insegnato)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Elabora..., crea...",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio di prompt fornito e indicazione di capacità di formulazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sui miglioramenti per gli studenti (non ha mai insegnato)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sul supporto all'apprendimento (non ha mai insegnato)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non ho mai insegnato. Probabilmente conoscere e saper utilizzare la grande varietà di strumenti a disposizione.",
+      "codes": [
+        "N1b",
+        "A3"
+      ],
+      "reason": "Risposta fuori tema principale (non ha mai insegnato), con accenno a vincoli legati alla varietà di strumenti."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sui pro e contro (non ha mai insegnato)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho mai insegnato.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulle pratiche non raccomandate (non ha mai insegnato)."
+    }
+  ]
+}

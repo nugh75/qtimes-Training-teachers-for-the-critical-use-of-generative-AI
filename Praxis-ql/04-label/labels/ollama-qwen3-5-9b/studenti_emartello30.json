@@ -1,0 +1,107 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_emartello30.md",
+  "source_name": "studenti_emartello30.md",
+  "title": "Risposta emartello30",
+  "group": "Studenti",
+  "record_code": "emartello30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:45:31.932354+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "R1"
+  ],
+  "record_note": "Il record mostra un uso strumentale dell'IA con evidenti limiti percepiti (allucinazioni) e restrizioni etiche/accademiche (latino).",
+  "code_counts": {
+    "I2": 2,
+    "N1a": 3,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Copilot",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento 'Copilot' (P6) e indicazione di competenza nell'uso (R1)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Scrivedo cose",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Scrivedo cose' troppo generica e non informativa per attribuzione codici specifici."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Fammi un riassunto di",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Prompt riportato esplicitamente (P7) e contenuto descrittivo di un'attività di riassunto (P5)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuno' troppo breve per supportare codici PRAXIS."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuno' troppo breve per supportare codici PRAXIS."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Avvolte non risponde bene",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Descrizione di limiti e allucinazioni dell'IA (non risponde bene) (I2)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Avvolte fa cose giuste altre no",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Descrizione di inaffidabilità dell'IA (fa cose giuste altre no) (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chatgpt per latino",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

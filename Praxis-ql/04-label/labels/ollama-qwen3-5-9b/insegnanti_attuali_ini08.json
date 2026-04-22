@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ini08.md",
+  "source_name": "insegnanti_attuali_ini08.md",
+  "title": "Risposta ini08",
+  "group": "Insegnanti in servizio",
+  "record_code": "ini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:53.724974+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "I3",
+    "N1a",
+    "R1",
+    "R5",
+    "S7"
+  ],
+  "record_note": "Profilo di docente con barriere all'adozione legate alla competenza percepita e preoccupazioni etiche/educative.",
+  "code_counts": {
+    "I3": 1,
+    "N1a": 1,
+    "R1": 1,
+    "R5": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota, non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non sono ancora adeguatamente competente",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Mancanza di competenza percepita (R1) che porta al non-uso motivato da insicurezza (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "uso improprio da parte di studenti",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Percezione di un uso improprio da parte degli utenti (studenti), implicando una questione di fiducia/responsabilità (I3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "esercitazioni",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione delle esercitazioni come ambito off-limits o pratica non raccomandata (S7)."
+    }
+  ]
+}

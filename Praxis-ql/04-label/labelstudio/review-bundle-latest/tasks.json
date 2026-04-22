@@ -1,0 +1,262 @@
+[
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "1",
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 1\n\nQuestion:\nSe no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)\n\nAnswer:\n“-“",
+      "model_a_codes": "N1",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "2",
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt e gemini (quelle che conosco e utilizzo )",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 2\n\nQuestion:\nQuali sono i tuoi strumenti preferiti e perché?\n\nAnswer:\nChatgpt e gemini (quelle che conosco e utilizzo )",
+      "model_a_codes": "P6",
+      "model_b_codes": "P6",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "3",
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Strategie, strumenti da utilizzare",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 3\n\nQuestion:\nIn che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)\n\nAnswer:\nStrategie, strumenti da utilizzare",
+      "model_a_codes": "P2 | P5",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "4",
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per il successo formativo",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 4\n\nQuestion:\nIn che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)\n\nAnswer:\nPer il successo formativo",
+      "model_a_codes": "P2 | X3",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "5",
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Misure compensative dispensative per Nai",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 5\n\nQuestion:\nPuoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.\n\nAnswer:\nMisure compensative dispensative per Nai",
+      "model_a_codes": "P3",
+      "model_b_codes": "N1b | P3",
+      "exact_match": "False",
+      "jaccard": "0.5"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "6",
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Applicando le strategia suggerite",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 6\n\nQuestion:\nPuoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?\n\nAnswer:\nApplicando le strategia suggerite",
+      "model_a_codes": "P5",
+      "model_b_codes": "N1c",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "7",
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Applicando le informazioni ottenute",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 7\n\nQuestion:\nIn che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?\n\nAnswer:\nApplicando le informazioni ottenute",
+      "model_a_codes": "P5",
+      "model_b_codes": "N1c",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "8",
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Bisogna sempre essere a conoscenza di ciò che si chiede, spesso alcune risposte sono dubbie",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 8\n\nQuestion:\nQuali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?\n\nAnswer:\nBisogna sempre essere a conoscenza di ciò che si chiede, spesso alcune risposte sono dubbie",
+      "model_a_codes": "I2",
+      "model_b_codes": "I2",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "9",
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilita, arricchisce, ma al tempo stesso limita la creatività",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 9\n\nQuestion:\nIn base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?\n\nAnswer:\nFacilita, arricchisce, ma al tempo stesso limita la creatività",
+      "model_a_codes": "S3 | X6",
+      "model_b_codes": "S3 | X1 | X6",
+      "exact_match": "False",
+      "jaccard": "0.6667"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_21giugno2025",
+      "item_index": "10",
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "context": "Raw stem: insegnanti_attuali_21giugno2025\nItem index: 10\n\nQuestion:\nSecondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?\n\nAnswer:\nNon lo so",
+      "model_a_codes": "N1",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "1",
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 1\n\nQuestion:\nSe no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)\n\nAnswer:\n.",
+      "model_a_codes": "N1",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "2",
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "contenuti didattici",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 2\n\nQuestion:\nQuali sono i tuoi strumenti preferiti e perché?\n\nAnswer:\ncontenuti didattici",
+      "model_a_codes": "P1",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "3",
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "trovare il giusto supporto",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 3\n\nQuestion:\nIn che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)\n\nAnswer:\ntrovare il giusto supporto",
+      "model_a_codes": "P2 | X3",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "4",
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "la finalizzo ad ogni studente",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 4\n\nQuestion:\nIn che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)\n\nAnswer:\nla finalizzo ad ogni studente",
+      "model_a_codes": "P2 | X3",
+      "model_b_codes": "P2",
+      "exact_match": "False",
+      "jaccard": "0.5"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "5",
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "argomento materia",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 5\n\nQuestion:\nPuoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.\n\nAnswer:\nargomento materia",
+      "model_a_codes": "N1",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "6",
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "creare percorsi",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 6\n\nQuestion:\nPuoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?\n\nAnswer:\ncreare percorsi",
+      "model_a_codes": "P2 | X3",
+      "model_b_codes": "N1a",
+      "exact_match": "False",
+      "jaccard": "0.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "7",
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "semplificando",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 7\n\nQuestion:\nIn che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?\n\nAnswer:\nsemplificando",
+      "model_a_codes": "X2",
+      "model_b_codes": "X2",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "8",
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "all'inizio il non saperla utilizzare",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 8\n\nQuestion:\nQuali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?\n\nAnswer:\nall'inizio il non saperla utilizzare",
+      "model_a_codes": "R1",
+      "model_b_codes": "R1",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "9",
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "rende più attuale la lezione",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 9\n\nQuestion:\nIn base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?\n\nAnswer:\nrende più attuale la lezione",
+      "model_a_codes": "X6",
+      "model_b_codes": "X6",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  },
+  {
+    "data": {
+      "raw_stem": "insegnanti_attuali_acci11",
+      "item_index": "10",
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "lo svolgere il compito in toto",
+      "context": "Raw stem: insegnanti_attuali_acci11\nItem index: 10\n\nQuestion:\nSecondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?\n\nAnswer:\nlo svolgere il compito in toto",
+      "model_a_codes": "S2",
+      "model_b_codes": "S2",
+      "exact_match": "True",
+      "jaccard": "1.0"
+    }
+  }
+]

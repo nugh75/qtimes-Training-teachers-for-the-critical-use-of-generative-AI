@@ -1,0 +1,58 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_enzi01.md",
+  "source_name": "insegnanti_attuali_enzi01.md",
+  "title": "Risposta enzi01",
+  "group": "Insegnanti in servizio",
+  "record_code": "enzi01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:40:14.053242+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I2",
+    "R5",
+    "S4"
+  ],
+  "record_note": "Profilo di docente con forte resistenza all'IA basata su preoccupazioni etiche (pensiero critico) e percezione di inadeguatezza tecnica.",
+  "code_counts": {
+    "A1": 1,
+    "I2": 1,
+    "R5": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Devo ancora capire come utilizzarla in modo corretto",
+      "codes": [
+        "R5",
+        "A1"
+      ],
+      "reason": "Non uso motivato da insicurezza (R5) e mancanza di formazione/formale (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La mia perplessità e' che gli studenti perdano spirito critico,affidandosi all'IA per la produzione di testi scritti,riassunti,traduzioni,ecc...",
+      "codes": [
+        "S4",
+        "I2"
+      ],
+      "reason": "Erosione del pensiero critico (S4) e sfiducia tecnica/rischi (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi scritti privi di spirito critico",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

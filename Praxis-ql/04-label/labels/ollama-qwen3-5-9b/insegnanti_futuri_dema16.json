@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_dema16.md",
+  "source_name": "insegnanti_futuri_dema16.md",
+  "title": "Risposta dema16",
+  "group": "Insegnanti pre-service",
+  "record_code": "dema16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:32.218756+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "R1",
+    "S4",
+    "S7",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di un insegnante pre-service con bassa familiarità tecnica (R1) che percepisce l'IA come strumento utile ma da usare con cautela, temendo l'erosione del pensiero critico e la perdita della dimensione umana nella valutazione.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 2,
+    "R1": 2,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La conosco molto poco",
+      "codes": [
+        "N1a",
+        "R1"
+      ],
+      "reason": "Risposta troppo breve (N1a) che indica scarsa conoscenza degli strumenti (R1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Conosco molto poco le applicazioni dell'IA per la didattica",
+      "codes": [
+        "N1a",
+        "R1"
+      ],
+      "reason": "Risposta breve e non informativa (N1a) che evidenzia mancanza di competenza pratica (R1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sicuramente L'IA darebbe accesso ad una mole di informazioni e di applicazione e comunicazione di esse notevolmente più ampie. Semplificherebbe il lavoro di ricerca, lasciando più tempo alla messa in pratica della messa in pratica dell'attività educativa. Di contro , credo possa livellare troppo il processo educativo.",
+      "codes": [
+        "X2",
+        "X6",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione e accesso alle informazioni (X2), innovazione (X6). Contro: rischio di livellamento che può erodere il pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non raccomanderei di valutare e auto-valutare grazie all'IA, perché  non credo sia possibile estromettere da questo ambito il dato prettamente umano",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Identificazione di ambiti off-limits come valutazione (S7) e difesa del dato umano/relazionale (I4)."
+    }
+  ]
+}

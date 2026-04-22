@@ -1,0 +1,111 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ello16.md",
+  "source_name": "studenti_ello16.md",
+  "title": "Risposta ello16",
+  "group": "Studenti",
+  "record_code": "ello16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:55.802546+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P7",
+    "R4",
+    "S3",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per sintesi e schematizzazione, con evidenti percezioni dei limiti (superficialità) e assenza di riferimenti a problemi infrastrutturali o etici complessi.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P5": 4,
+    "P7": 1,
+    "R4": 1,
+    "S3": 1,
+    "S4": 1,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per riassunti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "La risposta 'per riassunti' indica l'uso di strategie operative di produzione (P5) e la semplificazione/comprensione (X2)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "spiegami questo argomento e concetti principali",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "La risposta riporta esplicitamente un prompt (P7) e dimostra la capacità di formulare prompt efficaci (R4)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "schematizzando",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "La risposta 'schematizzando' si riferisce a strategie operative di produzione (P5) e semplificazione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "per sintetizzare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "La risposta 'per sintetizzare' indica l'uso di strategie operative di produzione (P5) e semplificazione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "?",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta '?' è troppo breve e non informativa per permettere l'attribuzione di codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "aiuta con riassunti ma non esprime tutti i concetti chiave",
+      "codes": [
+        "P5",
+        "X2",
+        "I2"
+      ],
+      "reason": "La risposta menziona riassunti (P5, X2) e un limite nella comprensione dei concetti chiave (I2)."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "basarsi solo su essa perché fa acquisire uno studio superficiale",
+      "codes": [
+        "S4",
+        "S3"
+      ],
+      "reason": "La risposta descrive rischi di superficialità (S4) e studio superficiale/omologazione (S3)."
+    }
+  ]
+}

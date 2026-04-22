@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_nas23.md",
+  "source_name": "insegnanti_attuali_nas23.md",
+  "title": "Risposta nas23",
+  "group": "Insegnanti in servizio",
+  "record_code": "nas23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:49:11.464145+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R1",
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti con bassa familiarità operativa o percezione di inadeguatezza tecnica, che evidenziano rischi di erosione del pensiero critico e necessità di formazione.",
+  "code_counts": {
+    "N1b": 2,
+    "R1": 1,
+    "R5": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non conosco le modalità di utilizzo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sull'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non mi sento qualificata per farlo.",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Percezione di mancanza di competenza pratica (R1) che porta a un non-uso motivato da insicurezza (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: poter predisporre di informazioni aggiuntive su tutto in tempi brevi e un meccanismo semplice; Contro: crea dei percorsi facilitati che non stimolano le capacità personali.",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione e comprensione rapida (X2); Contro: erosione del pensiero critico e percorsi facilitati (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non conosco ancora le pratiche utilizzabili",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: ammette di non conoscere le pratiche, non elencandole."
+    }
+  ]
+}

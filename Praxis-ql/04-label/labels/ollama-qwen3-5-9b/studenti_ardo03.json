@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ardo03.md",
+  "source_name": "studenti_ardo03.md",
+  "title": "Risposta ardo03",
+  "group": "Studenti",
+  "record_code": "ardo03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:03.282582+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S6",
+    "X2"
+  ],
+  "record_note": "Il record mostra una resistenza all'IA basata su abitudini tradizionali (item 1), percezioni generiche del futuro (item 2) e assenza di consapevolezza delle criticità (item 3).",
+  "code_counts": {
+    "N1b": 2,
+    "S6": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché utilizzo i libri e gli appunti",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non affronta il tema dell'uso o non-uso dell'IA, ma cita strumenti tradizionali (libri, appunti) senza motivare la scelta in relazione all'IA."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: ti aiuta a comprendere meglio un argomento, un testo o degli esercizi. contro: cambierà il nostro futuro.",
+      "codes": [
+        "X2",
+        "S6"
+      ],
+      "reason": "Il 'pro' indica benefici di comprensione (X2), mentre il 'contro' ('cambierà il nostro futuro') allude genericamente a rischi esistenziali o sostitutivi (S6)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non ne sono a conoscenza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta dichiara di non avere conoscenze sulle pratiche non raccomandate, risultando fuori tema rispetto alla richiesta di identificare tali pratiche."
+    }
+  ]
+}

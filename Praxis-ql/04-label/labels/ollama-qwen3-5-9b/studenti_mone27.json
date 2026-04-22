@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_mone27.md",
+  "source_name": "studenti_mone27.md",
+  "title": "Risposta mone27",
+  "group": "Studenti",
+  "record_code": "mone27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:50.306068+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P6",
+    "P7",
+    "S2",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente consapevole che usa l'IA per supporto e personalizzazione, ma con forti preoccupazioni etiche riguardo alla sostituzione del lavoro cognitivo e alla necessità di controllo critico.",
+  "code_counts": {
+    "I2": 1,
+    "P6": 1,
+    "P7": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X5": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat Gpt, come supporto allo studio",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Identificazione dello strumento (Chat Gpt) e uso per supporto/organizzazione dello studio."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo approfondimenti e aiuti quando non comprendo qualcosa.",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Uso dell'IA per chiedere approfondimenti specifici quando manca la comprensione (personalizzazione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "mi potresti spiegare meglio la teoria della mente?",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt esplicito e funzione di chiarificazione/comprensione rapida."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiegandomi informazioni in modo specifico, le quali non sono rintracciabili in libri di testo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite spiegazioni specifiche e focalizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "ha ridotto le fonti da cui cerco informazioni, quindi di conseguenza il tempo impiegato a studiare",
+      "codes": [
+        "X1",
+        "X5"
+      ],
+      "reason": "Riduzione delle fonti e risparmio di tempo, organizzazione del percorso."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non sempre risulta preciso e attendibile, bisogna sempre approcciarsi in modo critico",
+      "codes": [
+        "I2",
+        "X7"
+      ],
+      "reason": "Menzione di imprecisioni (allucinazioni) e necessità di approccio critico/controllo umano."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "PRO: semplicizza alcuni temi e spiega in modo pratico. CONTRO: può ridurre il ragionamento e minimizzare l'applicazione nei compiti",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione; Contro: riduzione del ragionamento (erosione pensiero critico)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non dovrebbe essere utilizzata all'interno soprattutto delle scuole superiori perchè c'è rischio che venga utilizzata per svolgere interi compiti, sostituendo lo studio che dovrebbe essere effettuato dal soggetto.",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "Rischio di ghostwriting (svolgimento interi compiti) e sostituzione dello studio/relazione."
+    }
+  ]
+}

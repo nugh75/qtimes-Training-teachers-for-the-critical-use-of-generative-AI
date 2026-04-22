@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_otta03.md",
+  "source_name": "studenti_otta03.md",
+  "title": "Risposta otta03",
+  "group": "Studenti",
+  "record_code": "otta03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:59.530776+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "S3",
+    "S5",
+    "S7",
+    "X2",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso maturo dell'IA focalizzato su supporto allo studio e sintesi, con consapevolezza dei rischi di delega cognitiva e limiti etici.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S3": 1,
+    "S5": 1,
+    "S7": 2,
+    "X2": 4,
+    "X3": 2,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt 4, Claude perché mi aiutano con lo studio e sono molto recettivi e mi aiutano a rielaborare i concetti che devo studiare o a sintetizzarli  o a rispiegarmelo",
+      "codes": [
+        "P6",
+        "X3",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti specifici (ChatGPT, Claude) e benefici legati alla personalizzazione e semplificazione concettuale."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Le faccio fare delle tabelle riassuntive",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di tabelle riassuntive (strategia operativa) per personalizzare lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat mi puoi spiegare ….",
+      "codes": [
+        "N1a",
+        "P7"
+      ],
+      "reason": "Risposta troppo breve (N1a) ma contiene un esempio di prompt visibile (P7)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Chiarifica e semplifica concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio descritto come chiarificazione e semplificazione dei concetti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "avevo bisogno di sintetizzare paragrafi per un esame",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Uso dell'IA per sintetizzare (semplificazione) e organizzare lo studio per un esame (organizzazione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte non capisce ciò le chiedo",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Difficoltà nel comprendere le richieste (sfiducia tecnica) e produzione di output imprecisi."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro ti aiuta a comprendere/ elaborare/ associare ad esempi concreti cose che da sola ci metteresti molti di più  Contro potrebbe fare il lavoro per te",
+      "codes": [
+        "X2",
+        "X6",
+        "S3",
+        "S7"
+      ],
+      "reason": "Pro: comprensione e arricchimento (X2, X6); Contro: rischio di delega eccessiva e plagio (S3, S7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La completa scrittura di tesi o documenti importanti",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione della scrittura di tesi come ambito off-limits."
+    }
+  ]
+}

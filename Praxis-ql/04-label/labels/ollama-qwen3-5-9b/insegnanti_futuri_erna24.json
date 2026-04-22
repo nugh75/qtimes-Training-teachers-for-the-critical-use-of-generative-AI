@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_erna24.md",
+  "source_name": "insegnanti_futuri_erna24.md",
+  "title": "Risposta erna24",
+  "group": "Insegnanti pre-service",
+  "record_code": "erna24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:05.185827+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "R4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Il record mostra una transizione da un contesto pre-service a uno post-professionale (item 1), un'analisi equilibrata di rischi e benefici con focus sulla competenza tecnica (item 2), e una chiara definizione di confini etici (item 3).",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 1,
+    "R4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sto insegnando al momento",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta indica un contesto lavorativo diverso (non insegna) e non affronta il tema della didattica o dell'IA, risultando fuori tema rispetto alla domanda."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utile per raccogliere informazioni, fare ricerche ecc...bisogna controllare le risposte per non incorrere in errori, conoscere come comunicare i prompt è fondamentale per non ricevere risposte falsate",
+      "codes": [
+        "X2",
+        "I2",
+        "R4"
+      ],
+      "reason": "Riconoscimento dei pro (X2: comprensione rapida), dei contro (I2: allucinazioni/errori) e della competenza di prompting come requisito fondamentale (R4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Correzioni automatiche",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Le correzioni automatiche sono esplicitamente citate come pratica off-limits (S7) per la valutazione o la relazione educativa."
+    }
+  ]
+}

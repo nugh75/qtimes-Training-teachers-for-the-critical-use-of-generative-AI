@@ -1,0 +1,109 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_silla25.md",
+  "source_name": "studenti_silla25.md",
+  "title": "Risposta silla25",
+  "group": "Studenti",
+  "record_code": "silla25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:13:28.582076+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P6",
+    "X2"
+  ],
+  "record_note": "Il record presenta una forte eterogeneità linguistica (domande in italiano, risposte prevalentemente in spagnolo) che impedisce la classificazione semantica per la maggior parte degli item, portando a frequenti codici N1b.",
+  "code_counts": {
+    "N1b": 7,
+    "P6": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Solo a veces",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Solo a veces' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, sencilla",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenco di strumenti (chatgpt, sencilla) citati esplicitamente."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "no se",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'no se' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chatgpt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'chatgpt' non risponde alla richiesta di esempi di prompt ma cita solo uno strumento."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "resumiendo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Il termine 'resumiendo' indica l'uso dell'IA per semplificare e comprendere meglio (riassunti)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "no se",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'no se' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "ninguna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'ninguna' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "no debemos acostumbrarnos",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'no debemos acostumbrarnos' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "contestar cosas",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'contestar cosas' (spagnolo) non risponde alla domanda in italiano né fornisce informazioni classificate."
+    }
+  ]
+}

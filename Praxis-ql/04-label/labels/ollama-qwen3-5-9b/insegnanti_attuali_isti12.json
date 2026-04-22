@@ -1,0 +1,138 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_isti12.md",
+  "source_name": "insegnanti_attuali_isti12.md",
+  "title": "Risposta isti12",
+  "group": "Insegnanti in servizio",
+  "record_code": "isti12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:41:21.505099+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "N1a",
+    "P2",
+    "P3",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "X1",
+    "X3",
+    "X4",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Insegnante in fase di avvio dell'uso dell'IA, con focus su inclusione e gestione dei tempi.",
+  "code_counts": {
+    "A2": 1,
+    "N1a": 2,
+    "P2": 2,
+    "P3": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "X1": 2,
+    "X3": 2,
+    "X4": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini per la semplicità",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento Gemini e della percezione della sua semplicità."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per ideare percorsi fruibili da tutti gli alunni",
+      "codes": [
+        "P2",
+        "X3",
+        "X4"
+      ],
+      "reason": "Creazione di percorsi fruibili da tutti (inclusione/accessibilità) e adattamento ai bisogni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Per ideare percorsi che tengano conto dei diversi stili di apprendimento",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creazione di percorsi basati su stili di apprendimento diversi (personalizzazione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti aiutarmi a costruire un uda sulle divisioni per una classe terza primaria in cui è presente un alunno ADHD, un alunno con disturbo del linguaggio e un'alunna con DSA",
+      "codes": [
+        "P7",
+        "P5",
+        "P3"
+      ],
+      "reason": "Prompt esplicito per la creazione di un UDA inclusiva (ADHD, DSA, disturbo del linguaggio)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ho appena iniziato ad usare l'intelligenza artificiale",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Ho appena iniziato') che non permette di attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Ancora non ho evidenze poiché ho appena iniziato",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Ancora non ho evidenze') che non permette di attribuire codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "La difficoltà maggiore è legata ai tempi troppo serrati",
+      "codes": [
+        "A2",
+        "X1"
+      ],
+      "reason": "Difficoltà legata ai tempi serrati (vincoli organizzativi/risparmio di tempo mancato)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro la possibilità di implementare la didattica con spunti innovativi e la velocità nell'ideazione, tra i contro il rischio di sovraccarico di stimoli",
+      "codes": [
+        "X6",
+        "X1",
+        "X7"
+      ],
+      "reason": "Pro: innovazione e velocità; Contro: sovraccarico (necessità di controllo)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Secondo me non ci sono pratiche da non utilizzare semplicemente bisogna utilizzarle con consapevolezza",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

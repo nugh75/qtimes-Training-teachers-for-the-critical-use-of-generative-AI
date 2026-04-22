@@ -1,0 +1,124 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rani23.md",
+  "source_name": "studenti_rani23.md",
+  "title": "Risposta RANI23",
+  "group": "Studenti",
+  "record_code": "RANI23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:18.226840+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P6",
+    "P7",
+    "R4",
+    "S2",
+    "S7",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso maturo dell'IA focalizzato su chiarificazione e personalizzazione, con consapevolezza dei limiti (costi, allucinazioni, plagio) e della necessità di discernimento critico.",
+  "code_counts": {
+    "I2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S2": 1,
+    "S7": 1,
+    "X2": 4,
+    "X3": 1,
+    "X4": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché è mirato nel risolvere delle questioni specifiche",
+      "codes": [
+        "P6",
+        "R4"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e capacità di formulare un prompt mirato."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "approfondimento di contenuti",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Uso dell'IA per approfondire contenuti specifici, indicando una personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi spiegarmi le differenze tra un attaccamento insicuro e uno ambivalente",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt (domanda su differenze psicologiche) e funzione di chiarificazione/conoscenza rapida."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Aiuta a capire i concetti fondamentali senza perdere tempo nel leggere altre informazioni non pertinenti alla mia domanda.",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite focalizzazione sui concetti fondamentali e risparmio di tempo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a capire concetti che non riuscivo a capire.",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Superamento di difficoltà di comprensione grazie all'IA (chiarificazione concettuale)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "difficoltà nel discernere alla fine le informazioni rilevanti da quelle di troppo.",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Difficoltà nel discernimento delle informazioni, indicando la necessità di controllo umano/critico."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "PRO: aiuta ad approfondire argomenti, a schematizzare in maniera efficace, etc.  CONTRO: difficoltà nel discernere informazioni rilevanti da quelle non rilevanti, alcune funzioni sono a pagamento.",
+      "codes": [
+        "X2",
+        "X4",
+        "I2"
+      ],
+      "reason": "Pro: approfondimento e schematizzazione (X2, X3); Contro: difficoltà di discernimento (X7/I2) e costi (A3)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "creare tesine e tesi, etc.",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Identificazione di pratiche non raccomandate come la creazione di tesine (ghostwriting/plagio e ambiti off-limits)."
+    }
+  ]
+}

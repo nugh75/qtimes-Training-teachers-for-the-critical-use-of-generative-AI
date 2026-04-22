@@ -1,0 +1,57 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_futuri_also16.md",
+  "source_name": "insegnanti_futuri_also16.md",
+  "title": "Risposta ALso16",
+  "group": "Insegnanti pre-service",
+  "record_code": "ALso16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:43:53.031518+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S1",
+    "S7",
+    "X6"
+  ],
+  "record_note": "Profilo coerente con la fase pre-service: forte enfasi sulla tutela della validità delle prove tradizionali e sulla centralità della relazione educativa, con percezione dell'IA come strumento a doppio taglio (utile per motivare ma pericoloso se delegato).",
+  "code_counts": {
+    "I4": 1,
+    "S1": 1,
+    "S7": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno, quindi nelle classi dove svolgo il tirocinio, in base alle attività proposte dai docenti, credo che i ragazzi non debbano usarla... In quanto se la usano per produrre un tema da svolgere in classe,la validità di quella prova diventa nulla...",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Rifiuto dell'uso dell'IA per compiti in classe (S7) e difesa della validità della prova e della relazione educativa umana (I4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Io credo che l'intelligenza artificiale sia utile per invogliare i ragazzi a studiare e a seguire la lezione,un contro è che possano utilizzarla troppo e quindi non fare più nulla da soli",
+      "codes": [
+        "X6",
+        "S1"
+      ],
+      "reason": "Pro: motivazione e coinvolgimento (X6); Contro: rischio di delega cognitiva eccessiva e pigrizia (S1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere usata dai ragazzi nel corso dei compiti in classe e per produrre testi se no diventa nulla l'attività data...",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

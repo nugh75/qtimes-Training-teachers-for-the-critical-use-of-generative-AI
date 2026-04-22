@@ -1,0 +1,124 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_obon09.md",
+  "source_name": "studenti_obon09.md",
+  "title": "Risposta obon09",
+  "group": "Studenti",
+  "record_code": "obon09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:08.102439+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "S6",
+    "X2",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per organizzazione e semplificazione, con una percezione mista (benefici cognitivi vs rischi etici/sociali).",
+  "code_counts": {
+    "N1a": 3,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S6": 1,
+    "X2": 3,
+    "X5": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' indica assenza di contenuto informativo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché mi aiuta ad organizzare lo studio",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e beneficio organizzativo dello studio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "chiedendo di spiegare in modo più semplice gli argomenti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempio di strategia operativa (spiegazione semplice) che facilita la comprensione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi spiegarmi in parole più semplici ciò che sta scritto nella foto che ti ho allegato",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Prompt esplicitamente riportato e finalizzato alla semplificazione del contenuto."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi aiuta perché mi spiega gli argomenti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio descritto come chiarificazione degli argomenti tramite spiegazioni."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "per esempio perché mi aiuta ad organizzarmi lo studio",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Menzione dell'aiuto all'organizzazione dello studio come miglioramento dell'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuno' è troppo breve per attribuire codici specifici di difficoltà."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro che aiuta molto i contro é che sostituisce molte professioni",
+      "codes": [
+        "X6",
+        "S6"
+      ],
+      "reason": "Pro (coinvolgimento/innovazione) e contro (sostituzione di professioni)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuna' è troppo breve per attribuire codici specifici di pratiche non raccomandate."
+    }
+  ]
+}

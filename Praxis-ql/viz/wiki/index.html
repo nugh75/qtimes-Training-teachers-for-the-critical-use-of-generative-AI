@@ -43,6 +43,32 @@
       color: var(--muted);
       font-size: 0.94rem;
     }
+    .header-nav {
+      margin-top: 8px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .header-nav-sep {
+      color: #9aa9ba;
+    }
+    .header-nav-link {
+      color: #3d8bfd;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.16s ease, text-decoration-color 0.16s ease;
+    }
+    .header-nav-link:hover,
+    .header-nav-link:focus-visible {
+      color: #1f5f8b;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .header-nav-current {
+      font-weight: 700;
+      color: #1f3347;
+    }
     .controls {
       display: grid;
       grid-template-columns: minmax(220px, 300px) minmax(180px, 260px) minmax(170px, 220px) auto;

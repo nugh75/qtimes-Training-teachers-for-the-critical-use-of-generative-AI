@@ -1,0 +1,51 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_pina54.md",
+  "source_name": "insegnanti_futuri_pina54.md",
+  "title": "Risposta pina54",
+  "group": "Insegnanti pre-service",
+  "record_code": "pina54",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:56.827839+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1b"
+  ],
+  "record_note": "Record caratterizzato prevalentemente da risposte non informative o fuori tema (N1a, N1b).",
+  "code_counts": {
+    "N1a": 2,
+    "N1b": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: dichiara di non insegnare, non rispondendo alla domanda sulla didattica."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Velocità come pro,",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici PRAXIS."
+    }
+  ]
+}

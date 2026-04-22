@@ -1,0 +1,48 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_lupi31.md",
+  "source_name": "studenti_lupi31.md",
+  "title": "Risposta Lupi31",
+  "group": "Studenti",
+  "record_code": "Lupi31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:09.371414+00:00",
+  "record_dimensions": [
+    "X"
+  ],
+  "record_subcodes": [
+    "X2",
+    "X4",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Studente che privilegia il materiale cartaceo posseduto e vede l'IA come strumento da usare con cautela senza sostituire le fonti tradizionali.",
+  "code_counts": {
+    "X2": 1,
+    "X4": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perchè preferisco usufruire degli strumenti che si hanno sempre avuti a disposizione e per i quali ho speso i soldi, come per esempio i libri.",
+      "codes": [
+        "X4",
+        "X5"
+      ],
+      "reason": "Preferenza per strumenti posseduti (libri) per garantire accesso (X4) e autonomia/organizzazione del percorso (X5)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "L’intelligenza artificiale può comportare ripercussioni positive o negative, in base all’utilizzo che si fa di essa. Può essere utile per amplificare le conoscenze o approfondire un argomento, ma sempre nei limiti, facendo in modo che non vada a sostituire i libri cartacei.",
+      "codes": [
+        "X2",
+        "X7"
+      ],
+      "reason": "Riconoscimento di pro (amplificazione conoscenze, X2) e contro (sostituzione libri, uso condizionato al controllo umano, X7)."
+    }
+  ]
+}

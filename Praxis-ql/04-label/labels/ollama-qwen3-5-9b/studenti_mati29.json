@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_mati29.md",
+  "source_name": "studenti_mati29.md",
+  "title": "Risposta mati29",
+  "group": "Studenti",
+  "record_code": "mati29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:33.120793+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "S4",
+    "S5",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Profilo di studente consapevole che utilizza l'IA per supporto e personalizzazione, ma manifesta forte cautela verso la delega cognitiva eccessiva e la perdita di autonomia critica.",
+  "code_counts": {
+    "I2": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S4": 2,
+    "S5": 1,
+    "S7": 2,
+    "X1": 1,
+    "X2": 5,
+    "X3": 1,
+    "X5": 3,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt, perché è intuitivo, pratico e si adatta alle diverse esigenze che maturo nel tempo",
+      "codes": [
+        "P6",
+        "R1",
+        "X3"
+      ],
+      "reason": "Identificazione di ChatGpt come strumento (P6), percezione di competenza nell'uso (R1) e adattamento alle esigenze individuali (X3)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Lo utilizzo prettamente per ampliare il vocabolario e comprendere argomenti che non mi risultano chiari, anche attraverso forme di confronto attivo quando necessario",
+      "codes": [
+        "P2",
+        "X2",
+        "X5"
+      ],
+      "reason": "Uso per personalizzare lo studio (P2), semplificazione della comprensione (X2) e supporto all'organizzazione del percorso (X5)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Per favore, rielabora il testo che ti allego in modo più semplice ma esaustivo. Non omettere dettagli e non riassumere, piuttosto prova a riparafrasare elementi ripetitivi o superflui. Eventualmente attingi alla lettura scientifica. Grazie.",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Presenza di un prompt visibile (P7) e funzione di chiarificazione/riparafasatura (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi fornisce spiegazioni più lineari e semplici che mi orientano nello studio successivo e mi permettono di avere una solida base da arricchire con dettagli e concetti più articolati",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento della comprensione lineare (X2) e orientamento nello studio (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho ampliato molto il vocabolario e ho imparato a scomporre meglio i testi in piccole parti in base agli argomenti principali, riuscendo ad avere più dimestichezza nella lettura e nella comprensione",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Ampliamento del vocabolario e scomposizione dei testi per migliorare la comprensione (X2) e autonomia (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte si presentano imprecisioni e informazioni non fondate sulla letteratura scientifica",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Rilevazione di imprecisioni e informazioni non fondate (I2, S5)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro riguardano una maggior velocità di comprensione, lettura e analisi delle informazioni, nonché di una possibilità di confronto e arricchimento sempre possibile. I contro che noto è che si sfocia facilmente in forme di passività e pigrizia mentale che risultano controproducenti per lo studio e per lo sviluppo di quel pensiero critico che è necessario per diventare davvero padroni delle nozioni. Se usata impropriamente, non aiuta a ragionare ma ‘ragiona al tuo posto’.",
+      "codes": [
+        "X1",
+        "X2",
+        "X6",
+        "S4",
+        "S7"
+      ],
+      "reason": "Vantaggi di velocità (X1), comprensione (X2), arricchimento (X6); svantaggi di passività (S4) e rischio di delega cognitiva in ambiti di ragionamento (S7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non andrebbe usata eccessivamente per scrivere temi, risolvere esercizi e compiti simili, perché è anche attraverso questi strumenti che si ha modo di mettere in pratica le conoscenze, manipolarle e farle proprie (un discorso diverso riguarda la risoluzione di compiti per comprenderne il ragionamento sottostante o avere un esempio in base al quale orientare il proprio lavoro).",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Identificazione di ambiti off-limits come la scrittura di temi (S7) e il rischio di erosione del pensiero critico (S4)."
+    }
+  ]
+}

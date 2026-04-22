@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_cato20.md",
+  "source_name": "insegnanti_futuri_cato20.md",
+  "title": "Risposta Cato20",
+  "group": "Insegnanti pre-service",
+  "record_code": "Cato20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:22.302839+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1b",
+    "S6",
+    "S7",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti pre-service che non operano ancora nella scuola, portando risposte spesso fuori tema o basate su percezioni esterne al contesto didattico.",
+  "code_counts": {
+    "I1": 1,
+    "N1b": 3,
+    "S6": 1,
+    "S7": 1,
+    "X2": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Io sono laureata in farmacia e svolgo la professione del farmacista e quindi il mio lavoro non prevede l'uso dell' intelligenza artificiale",
+      "codes": [
+        "N1b",
+        "S7"
+      ],
+      "reason": "Risposta fuori tema (non usa IA nella didattica) e cita ambiti off-limits (professione farmacia)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non utilizzo perché non sono una docente,ma mi sto specializzando per poterlo diventare",
+      "codes": [
+        "N1b",
+        "S6"
+      ],
+      "reason": "Risposta fuori tema (non è ancora docente) e percepisce l'IA come sostituta del ruolo docente."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale nella maggior parte delle situazioni può essere utile per facilitare qualsiasi lavoro,ma non deve sostituirsi del tutto alla mente e al lavoro umano",
+      "codes": [
+        "X2",
+        "X7",
+        "I1"
+      ],
+      "reason": "Riconosce utilità (X2), ma pone limiti al controllo umano (X7) e necessità di verifica (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei cosa dire perché non ho mai lavorato nel mondo della scuola... Pertanto sono nelle condizioni di non poter rispondere",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: dichiara incapacità di rispondere per mancanza di esperienza nel settore."
+    }
+  ]
+}

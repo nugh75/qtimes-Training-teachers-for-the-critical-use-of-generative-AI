@@ -1,0 +1,91 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_osti16.md",
+  "source_name": "insegnanti_attuali_osti16.md",
+  "title": "Risposta osti16",
+  "group": "Insegnanti in servizio",
+  "record_code": "osti16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:43.876279+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "I4",
+    "R1",
+    "R2",
+    "S6",
+    "S7",
+    "X2",
+    "X3",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Insegnante con forte orientamento relazionale, scettico verso l'uso precoce dell'IA, percepisce carenze formative e rischi di erosione della relazione educativa.",
+  "code_counts": {
+    "A1": 1,
+    "A2": 1,
+    "I4": 2,
+    "R1": 2,
+    "R2": 1,
+    "S6": 1,
+    "S7": 1,
+    "X2": 1,
+    "X3": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ho poca capacità io di utilizzarla ma credo anche che il rapporto umano, che oggi va spesso a mancare, va utilizzato molto nelle scuole",
+      "codes": [
+        "R1",
+        "I4",
+        "S6"
+      ],
+      "reason": "R1 (non sa usarla), I4 (valore della relazione umana), S6 (sostituzione della relazione educativa)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho grandi competenze pratiche per poterla utilizzare soprattutto perchè non mi affascina e perchè credo che che viene utilizzata già troppo e troppo presto per poterla proporre anche a scuola.",
+      "codes": [
+        "R1",
+        "R2",
+        "S7"
+      ],
+      "reason": "R1 (mancanza di competenza pratica), R2 (scelta epistemica/valutazione dei rischi), S7 (uso in ambiti off-limits o prematuro)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono il fascino e l'attrazione che hanno oggi nei confronti dei ragazzi quindi aiuta ad attrarre la loro attenzione i contro hanno la stessa motivazione dei pro e a mio parere serve consolidare e favoreggiare il rapporto interpersonale nell'educazione e nella didattica",
+      "codes": [
+        "X2",
+        "X6",
+        "I4",
+        "X3"
+      ],
+      "reason": "X2 (fascino/attenzione), X6 (coinvolgimento ragazzi), I4 (rapporto interpersonale), X3 (attenzione al singolo/ragazzi)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Credo che più che non utilizzare delle pratiche occorre introdurre queste pratiche in maniera protetta, corretta e solo a partire da una certa età. Credo che andrebbero inserite gradualmente dalle ultime classi della primaria, non prima e che i docenti debbano prima essere formati adeguatamente per questo.",
+      "codes": [
+        "A1",
+        "A2",
+        "X7"
+      ],
+      "reason": "A1 (mancanza di formazione docenti), A2 (supporto insufficiente), X7 (cambiamento condizionato a formazione e controllo)."
+    }
+  ]
+}

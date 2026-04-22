@@ -1,0 +1,1475 @@
+20:38:40 INFO Avvio labeling: files=731 model=qwen3.5:9b host=http://192.168.129.14:11434 workers=1 dry_run=False output_dir=/home/nugh75/-qtimes/Praxis-ql/labels/ollama-qwen3-5-9b
+20:38:40 INFO [1/731] start insegnanti_attuali_060580.md
+20:38:40 INFO [1/731] skipped insegnanti_attuali_060580.md subcodes=4
+20:38:40 INFO [2/731] start insegnanti_attuali_19albe.md
+20:38:47 INFO [2/731] ok insegnanti_attuali_19albe.md subcodes=13
+20:38:47 INFO [3/731] start insegnanti_attuali_21giugno2025.md
+20:38:47 INFO [3/731] skipped insegnanti_attuali_21giugno2025.md subcodes=9
+20:38:47 INFO [4/731] start insegnanti_attuali_acci11.md
+20:38:47 INFO [4/731] skipped insegnanti_attuali_acci11.md subcodes=6
+20:38:47 INFO [5/731] start insegnanti_attuali_acci15.md
+20:38:47 INFO [5/731] skipped insegnanti_attuali_acci15.md subcodes=9
+20:38:47 INFO [6/731] start insegnanti_attuali_adei10.md
+20:38:51 INFO [6/731] ok insegnanti_attuali_adei10.md subcodes=9
+20:38:51 INFO [7/731] start insegnanti_attuali_affo10.md
+20:38:53 INFO [7/731] ok insegnanti_attuali_affo10.md subcodes=3
+20:38:53 INFO [8/731] start insegnanti_attuali_agna09.md
+20:38:53 INFO [8/731] skipped insegnanti_attuali_agna09.md subcodes=15
+20:38:53 INFO [9/731] start insegnanti_attuali_aisto30.md
+20:38:56 INFO [9/731] ok insegnanti_attuali_aisto30.md subcodes=9
+20:38:56 INFO [10/731] start insegnanti_attuali_aleo23.md
+20:38:58 INFO [10/731] ok insegnanti_attuali_aleo23.md subcodes=1
+20:38:58 INFO [11/731] start insegnanti_attuali_alli07.md
+20:38:58 INFO [11/731] skipped insegnanti_attuali_alli07.md subcodes=12
+20:38:58 INFO [12/731] start insegnanti_attuali_amor11.md
+20:39:02 INFO [12/731] ok insegnanti_attuali_amor11.md subcodes=15
+20:39:02 INFO [13/731] start insegnanti_attuali_anco24.md
+20:39:05 INFO [13/731] ok insegnanti_attuali_anco24.md subcodes=7
+20:39:05 INFO [14/731] start insegnanti_attuali_anco27.md
+20:39:08 INFO [14/731] ok insegnanti_attuali_anco27.md subcodes=12
+20:39:08 INFO [15/731] start insegnanti_attuali_ando20.md
+20:39:12 INFO [15/731] ok insegnanti_attuali_ando20.md subcodes=6
+20:39:12 INFO [16/731] start insegnanti_attuali_anna18.md
+20:39:14 INFO [16/731] ok insegnanti_attuali_anna18.md subcodes=4
+20:39:14 INFO [17/731] start insegnanti_attuali_anna19.md
+20:39:19 INFO [17/731] ok insegnanti_attuali_anna19.md subcodes=11
+20:39:19 INFO [18/731] start insegnanti_attuali_anni20.md
+20:39:21 INFO [18/731] ok insegnanti_attuali_anni20.md subcodes=1
+20:39:21 INFO [19/731] start insegnanti_attuali_anta05.md
+20:39:23 INFO [19/731] ok insegnanti_attuali_anta05.md subcodes=5
+20:39:23 INFO [20/731] start insegnanti_attuali_anti03.md
+20:39:26 INFO [20/731] ok insegnanti_attuali_anti03.md subcodes=8
+20:39:26 INFO [21/731] start insegnanti_attuali_anzo06.md
+20:39:29 INFO [21/731] ok insegnanti_attuali_anzo06.md subcodes=7
+20:39:29 INFO [22/731] start insegnanti_attuali_arco02.md
+20:39:31 INFO [22/731] ok insegnanti_attuali_arco02.md subcodes=6
+20:39:31 INFO [23/731] start insegnanti_attuali_arco11.md
+20:39:33 INFO [23/731] ok insegnanti_attuali_arco11.md subcodes=9
+20:39:33 INFO [24/731] start insegnanti_attuali_arco24.md
+20:39:35 INFO [24/731] ok insegnanti_attuali_arco24.md subcodes=6
+20:39:35 INFO [25/731] start insegnanti_attuali_ardi29.md
+20:39:38 INFO [25/731] ok insegnanti_attuali_ardi29.md subcodes=8
+20:39:38 INFO [26/731] start insegnanti_attuali_ardo03.md
+20:39:41 INFO [26/731] ok insegnanti_attuali_ardo03.md subcodes=6
+20:39:41 INFO [27/731] start insegnanti_attuali_ardo30.md
+20:39:43 INFO [27/731] ok insegnanti_attuali_ardo30.md subcodes=7
+20:39:43 INFO [28/731] start insegnanti_attuali_aris05.md
+20:39:45 INFO [28/731] ok insegnanti_attuali_aris05.md subcodes=6
+20:39:45 INFO [29/731] start insegnanti_attuali_arra16.md
+20:39:47 INFO [29/731] ok insegnanti_attuali_arra16.md subcodes=3
+20:39:47 INFO [30/731] start insegnanti_attuali_arta24.md
+20:39:52 INFO [30/731] ok insegnanti_attuali_arta24.md subcodes=10
+20:39:52 INFO [31/731] start insegnanti_attuali_asio15.md
+20:39:56 INFO [31/731] ok insegnanti_attuali_asio15.md subcodes=6
+20:39:56 INFO [32/731] start insegnanti_attuali_assi.md
+20:40:00 INFO [32/731] ok insegnanti_attuali_assi.md subcodes=8
+20:40:00 INFO [33/731] start insegnanti_attuali_assi12.md
+20:40:04 INFO [33/731] ok insegnanti_attuali_assi12.md subcodes=11
+20:40:04 INFO [34/731] start insegnanti_attuali_assi14.md
+20:40:08 INFO [34/731] ok insegnanti_attuali_assi14.md subcodes=6
+20:40:08 INFO [35/731] start insegnanti_attuali_asso25.md
+20:40:10 INFO [35/731] ok insegnanti_attuali_asso25.md subcodes=4
+20:40:10 INFO [36/731] start insegnanti_attuali_asta22.md
+20:40:12 INFO [36/731] ok insegnanti_attuali_asta22.md subcodes=7
+20:40:12 INFO [37/731] start insegnanti_attuali_ata25.md
+20:40:16 INFO [37/731] ok insegnanti_attuali_ata25.md subcodes=7
+20:40:16 INFO [38/731] start insegnanti_attuali_att17.md
+20:40:18 INFO [38/731] ok insegnanti_attuali_att17.md subcodes=3
+20:40:18 INFO [39/731] start insegnanti_attuali_atti22.md
+20:40:24 INFO [39/731] ok insegnanti_attuali_atti22.md subcodes=15
+20:40:24 INFO [40/731] start insegnanti_attuali_atti24.md
+20:40:26 INFO [40/731] ok insegnanti_attuali_atti24.md subcodes=5
+20:40:26 INFO [41/731] start insegnanti_attuali_azio17.md
+20:40:28 INFO [41/731] ok insegnanti_attuali_azio17.md subcodes=5
+20:40:28 INFO [42/731] start insegnanti_attuali_azzo01.md
+20:40:31 INFO [42/731] ok insegnanti_attuali_azzo01.md subcodes=8
+20:40:31 INFO [43/731] start insegnanti_attuali_badabess3879.md
+20:40:34 INFO [43/731] ok insegnanti_attuali_badabess3879.md subcodes=5
+20:40:34 INFO [44/731] start insegnanti_attuali_bani10.md
+20:40:37 INFO [44/731] ok insegnanti_attuali_bani10.md subcodes=10
+20:40:37 INFO [45/731] start insegnanti_attuali_bano37.md
+20:40:41 INFO [45/731] ok insegnanti_attuali_bano37.md subcodes=8
+20:40:41 INFO [46/731] start insegnanti_attuali_bara29.md
+20:40:43 INFO [46/731] ok insegnanti_attuali_bara29.md subcodes=7
+20:40:43 INFO [47/731] start insegnanti_attuali_bella12.md
+20:40:47 INFO [47/731] ok insegnanti_attuali_bella12.md subcodes=8
+20:40:47 INFO [48/731] start insegnanti_attuali_bone29.md
+20:40:49 INFO [48/731] ok insegnanti_attuali_bone29.md subcodes=5
+20:40:49 INFO [49/731] start insegnanti_attuali_boni0503.md
+20:40:53 INFO [49/731] ok insegnanti_attuali_boni0503.md subcodes=4
+20:40:53 INFO [50/731] start insegnanti_attuali_boni47.md
+20:40:55 INFO [50/731] ok insegnanti_attuali_boni47.md subcodes=3
+20:40:55 INFO [51/731] start insegnanti_attuali_capomolla30.md
+20:40:59 INFO [51/731] ok insegnanti_attuali_capomolla30.md subcodes=4
+20:40:59 INFO [52/731] start insegnanti_attuali_capu15.md
+20:41:03 INFO [52/731] ok insegnanti_attuali_capu15.md subcodes=18
+20:41:03 INFO [53/731] start insegnanti_attuali_cari17.md
+20:41:07 INFO [53/731] ok insegnanti_attuali_cari17.md subcodes=10
+20:41:07 INFO [54/731] start insegnanti_attuali_cato05.md
+20:41:11 INFO [54/731] ok insegnanti_attuali_cato05.md subcodes=14
+20:41:11 INFO [55/731] start insegnanti_attuali_cato28.md
+20:41:15 INFO [55/731] ok insegnanti_attuali_cato28.md subcodes=6
+20:41:15 INFO [56/731] start insegnanti_attuali_cchi04.md
+20:41:17 INFO [56/731] ok insegnanti_attuali_cchi04.md subcodes=5
+20:41:17 INFO [57/731] start insegnanti_attuali_cchi23.md
+20:41:21 INFO [57/731] ok insegnanti_attuali_cchi23.md subcodes=12
+20:41:21 INFO [58/731] start insegnanti_attuali_cchi25.md
+20:41:25 INFO [58/731] ok insegnanti_attuali_cchi25.md subcodes=6
+20:41:25 INFO [59/731] start insegnanti_attuali_ccio14.md
+20:41:27 INFO [59/731] ok insegnanti_attuali_ccio14.md subcodes=3
+20:41:27 INFO [60/731] start insegnanti_attuali_cera21.md
+20:41:31 INFO [60/731] ok insegnanti_attuali_cera21.md subcodes=10
+20:41:31 INFO [61/731] start insegnanti_attuali_chio08.md
+20:41:33 INFO [61/731] ok insegnanti_attuali_chio08.md subcodes=6
+20:41:33 INFO [62/731] start insegnanti_attuali_cini13.md
+20:41:36 INFO [62/731] ok insegnanti_attuali_cini13.md subcodes=6
+20:41:36 INFO [63/731] start insegnanti_attuali_cini17.md
+20:41:38 INFO [63/731] ok insegnanti_attuali_cini17.md subcodes=4
+20:41:38 INFO [64/731] start insegnanti_attuali_coli13.md
+20:41:42 INFO [64/731] ok insegnanti_attuali_coli13.md subcodes=14
+20:41:42 INFO [65/731] start insegnanti_attuali_como14.md
+20:41:46 INFO [65/731] ok insegnanti_attuali_como14.md subcodes=9
+20:41:46 INFO [66/731] start insegnanti_attuali_curi05.md
+20:41:48 INFO [66/731] ok insegnanti_attuali_curi05.md subcodes=6
+20:41:48 INFO [67/731] start insegnanti_attuali_damo20.md
+20:41:51 INFO [67/731] ok insegnanti_attuali_damo20.md subcodes=8
+20:41:51 INFO [68/731] start insegnanti_attuali_deli07.md
+20:41:53 INFO [68/731] ok insegnanti_attuali_deli07.md subcodes=6
+20:41:53 INFO [69/731] start insegnanti_attuali_delli14.md
+20:41:59 INFO [69/731] ok insegnanti_attuali_delli14.md subcodes=8
+20:41:59 INFO [70/731] start insegnanti_attuali_dini21.md
+20:42:01 INFO [70/731] ok insegnanti_attuali_dini21.md subcodes=2
+20:42:01 INFO [71/731] start insegnanti_attuali_dini24.md
+20:42:03 INFO [71/731] ok insegnanti_attuali_dini24.md subcodes=6
+20:42:03 INFO [72/731] start insegnanti_attuali_dori06.md
+20:42:06 INFO [72/731] ok insegnanti_attuali_dori06.md subcodes=5
+20:42:06 INFO [73/731] start insegnanti_attuali_drea02.md
+20:42:08 INFO [73/731] ok insegnanti_attuali_drea02.md subcodes=5
+20:42:08 INFO [74/731] start insegnanti_attuali_drea25.md
+20:42:11 INFO [74/731] ok insegnanti_attuali_drea25.md subcodes=6
+20:42:11 INFO [75/731] start insegnanti_attuali_eddu02.md
+20:42:14 INFO [75/731] ok insegnanti_attuali_eddu02.md subcodes=7
+20:42:14 INFO [76/731] start insegnanti_attuali_eggi21.md
+20:42:17 INFO [76/731] ok insegnanti_attuali_eggi21.md subcodes=6
+20:42:17 INFO [77/731] start insegnanti_attuali_eini23.md
+20:42:20 INFO [77/731] ok insegnanti_attuali_eini23.md subcodes=8
+20:42:20 INFO [78/731] start insegnanti_attuali_elia14.md
+20:42:22 INFO [78/731] ok insegnanti_attuali_elia14.md subcodes=5
+20:42:22 INFO [79/731] start insegnanti_attuali_elis03.md
+20:42:24 INFO [79/731] ok insegnanti_attuali_elis03.md subcodes=5
+20:42:24 INFO [80/731] start insegnanti_attuali_ella06.md
+20:42:30 INFO [80/731] ok insegnanti_attuali_ella06.md subcodes=17
+20:42:30 INFO [81/731] start insegnanti_attuali_ella09.md
+20:42:35 INFO [81/731] ok insegnanti_attuali_ella09.md subcodes=14
+20:42:35 INFO [82/731] start insegnanti_attuali_ella13.md
+20:42:37 INFO [82/731] ok insegnanti_attuali_ella13.md subcodes=6
+20:42:37 INFO [83/731] start insegnanti_attuali_ella26.md
+20:42:40 INFO [83/731] ok insegnanti_attuali_ella26.md subcodes=8
+20:42:40 INFO [84/731] start insegnanti_attuali_elli02.md
+20:42:42 INFO [84/731] ok insegnanti_attuali_elli02.md subcodes=4
+20:42:42 INFO [85/731] start insegnanti_attuali_elli04.md
+20:42:45 INFO [85/731] ok insegnanti_attuali_elli04.md subcodes=2
+20:42:45 INFO [86/731] start insegnanti_attuali_elli12.md
+20:42:49 INFO [86/731] ok insegnanti_attuali_elli12.md subcodes=10
+20:42:49 INFO [87/731] start insegnanti_attuali_elli17.md
+20:42:51 INFO [87/731] ok insegnanti_attuali_elli17.md subcodes=7
+20:42:51 INFO [88/731] start insegnanti_attuali_elli24.md
+20:42:54 INFO [88/731] ok insegnanti_attuali_elli24.md subcodes=8
+20:42:54 INFO [89/731] start insegnanti_attuali_elli6.md
+20:42:55 INFO [89/731] ok insegnanti_attuali_elli6.md subcodes=2
+20:42:55 INFO [90/731] start insegnanti_attuali_ello04.md
+20:42:57 INFO [90/731] ok insegnanti_attuali_ello04.md subcodes=5
+20:42:57 INFO [91/731] start insegnanti_attuali_ello07.md
+20:43:01 INFO [91/731] ok insegnanti_attuali_ello07.md subcodes=9
+20:43:01 INFO [92/731] start insegnanti_attuali_ello27.md
+20:43:03 INFO [92/731] ok insegnanti_attuali_ello27.md subcodes=4
+20:43:03 INFO [93/731] start insegnanti_attuali_ello27_2.md
+20:43:07 INFO [93/731] ok insegnanti_attuali_ello27_2.md subcodes=8
+20:43:07 INFO [94/731] start insegnanti_attuali_endo15.md
+20:43:11 ERROR [94/731] failed insegnanti_attuali_endo15.md: Expecting ',' delimiter: line 6 column 28 (char 85)
+20:43:11 INFO [95/731] start insegnanti_attuali_engo17.md
+20:43:15 INFO [95/731] ok insegnanti_attuali_engo17.md subcodes=13
+20:43:15 INFO [96/731] start insegnanti_attuali_ente07.md
+20:43:18 INFO [96/731] ok insegnanti_attuali_ente07.md subcodes=7
+20:43:18 INFO [97/731] start insegnanti_attuali_enti06.md
+20:43:21 INFO [97/731] ok insegnanti_attuali_enti06.md subcodes=10
+20:43:21 INFO [98/731] start insegnanti_attuali_enti14.md
+20:43:25 INFO [98/731] ok insegnanti_attuali_enti14.md subcodes=9
+20:43:25 INFO [99/731] start insegnanti_attuali_enti38.md
+20:43:29 INFO [99/731] ok insegnanti_attuali_enti38.md subcodes=11
+20:43:29 INFO [100/731] start insegnanti_attuali_enza16.md
+20:43:33 INFO [100/731] ok insegnanti_attuali_enza16.md subcodes=8
+20:43:33 INFO [101/731] start insegnanti_attuali_enza18.md
+20:43:36 INFO [101/731] ok insegnanti_attuali_enza18.md subcodes=10
+20:43:36 INFO [102/731] start insegnanti_attuali_enza21.md
+20:43:38 INFO [102/731] ok insegnanti_attuali_enza21.md subcodes=3
+20:43:38 INFO [103/731] start insegnanti_attuali_enzi01.md
+20:43:40 INFO [103/731] ok insegnanti_attuali_enzi01.md subcodes=4
+20:43:40 INFO [104/731] start insegnanti_attuali_enzi06.md
+20:43:44 INFO [104/731] ok insegnanti_attuali_enzi06.md subcodes=11
+20:43:44 INFO [105/731] start insegnanti_attuali_enzi22.md
+20:43:46 INFO [105/731] ok insegnanti_attuali_enzi22.md subcodes=8
+20:43:46 INFO [106/731] start insegnanti_attuali_eoni17.md
+20:43:50 INFO [106/731] ok insegnanti_attuali_eoni17.md subcodes=12
+20:43:50 INFO [107/731] start insegnanti_attuali_eoni26.md
+20:43:52 INFO [107/731] ok insegnanti_attuali_eoni26.md subcodes=6
+20:43:52 INFO [108/731] start insegnanti_attuali_epre02.md
+20:43:54 INFO [108/731] ok insegnanti_attuali_epre02.md subcodes=4
+20:43:54 INFO [109/731] start insegnanti_attuali_erio24.md
+20:43:58 INFO [109/731] ok insegnanti_attuali_erio24.md subcodes=10
+20:43:58 INFO [110/731] start insegnanti_attuali_erio29.md
+20:44:05 INFO [110/731] ok insegnanti_attuali_erio29.md subcodes=5
+20:44:05 INFO [111/731] start insegnanti_attuali_erra15.md
+20:44:08 INFO [111/731] ok insegnanti_attuali_erra15.md subcodes=1
+20:44:08 INFO [112/731] start insegnanti_attuali_erri10.md
+20:44:12 INFO [112/731] ok insegnanti_attuali_erri10.md subcodes=7
+20:44:12 INFO [113/731] start insegnanti_attuali_erro26.md
+20:44:14 INFO [113/731] ok insegnanti_attuali_erro26.md subcodes=1
+20:44:14 INFO [114/731] start insegnanti_attuali_etta06.md
+20:44:18 INFO [114/731] ok insegnanti_attuali_etta06.md subcodes=10
+20:44:18 INFO [115/731] start insegnanti_attuali_etta24.md
+20:44:22 INFO [115/731] ok insegnanti_attuali_etta24.md subcodes=4
+20:44:22 INFO [116/731] start insegnanti_attuali_etti07.md
+20:44:24 INFO [116/731] ok insegnanti_attuali_etti07.md subcodes=6
+20:44:24 INFO [117/731] start insegnanti_attuali_etti09.md
+20:44:28 INFO [117/731] ok insegnanti_attuali_etti09.md subcodes=14
+20:44:28 INFO [118/731] start insegnanti_attuali_etti10.md
+20:44:32 INFO [118/731] ok insegnanti_attuali_etti10.md subcodes=8
+20:44:32 INFO [119/731] start insegnanti_attuali_etti17.md
+20:44:37 INFO [119/731] ok insegnanti_attuali_etti17.md subcodes=13
+20:44:37 INFO [120/731] start insegnanti_attuali_etti19.md
+20:44:39 INFO [120/731] ok insegnanti_attuali_etti19.md subcodes=6
+20:44:39 INFO [121/731] start insegnanti_attuali_etti19_2.md
+20:44:41 INFO [121/731] ok insegnanti_attuali_etti19_2.md subcodes=4
+20:44:41 INFO [122/731] start insegnanti_attuali_etti25.md
+20:44:45 INFO [122/731] ok insegnanti_attuali_etti25.md subcodes=12
+20:44:45 INFO [123/731] start insegnanti_attuali_etti27.md
+20:44:48 INFO [123/731] ok insegnanti_attuali_etti27.md subcodes=11
+20:44:48 INFO [124/731] start insegnanti_attuali_etto08.md
+20:44:50 INFO [124/731] ok insegnanti_attuali_etto08.md subcodes=4
+20:44:50 INFO [125/731] start insegnanti_attuali_etto20.md
+20:44:52 INFO [125/731] ok insegnanti_attuali_etto20.md subcodes=7
+20:44:52 INFO [126/731] start insegnanti_attuali_faro16.md
+20:44:56 INFO [126/731] ok insegnanti_attuali_faro16.md subcodes=13
+20:44:56 INFO [127/731] start insegnanti_attuali_fazi28.md
+20:44:58 INFO [127/731] ok insegnanti_attuali_fazi28.md subcodes=6
+20:44:58 INFO [128/731] start insegnanti_attuali_fico70.md
+20:45:02 INFO [128/731] ok insegnanti_attuali_fico70.md subcodes=9
+20:45:02 INFO [129/731] start insegnanti_attuali_fila18.md
+20:45:04 INFO [129/731] ok insegnanti_attuali_fila18.md subcodes=4
+20:45:04 INFO [130/731] start insegnanti_attuali_fini18.md
+20:45:08 INFO [130/731] ok insegnanti_attuali_fini18.md subcodes=4
+20:45:08 INFO [131/731] start insegnanti_attuali_gina21.md
+20:45:11 INFO [131/731] ok insegnanti_attuali_gina21.md subcodes=6
+20:45:11 INFO [132/731] start insegnanti_attuali_glia09.md
+20:45:14 INFO [132/731] ok insegnanti_attuali_glia09.md subcodes=5
+20:45:14 INFO [133/731] start insegnanti_attuali_glio22.md
+20:45:17 INFO [133/731] ok insegnanti_attuali_glio22.md subcodes=13
+20:45:17 INFO [134/731] start insegnanti_attuali_gullo31.md
+20:45:19 INFO [134/731] ok insegnanti_attuali_gullo31.md subcodes=7
+20:45:19 INFO [135/731] start insegnanti_attuali_handa11.md
+20:45:23 INFO [135/731] ok insegnanti_attuali_handa11.md subcodes=10
+20:45:23 INFO [136/731] start insegnanti_attuali_hesi09.md
+20:45:25 INFO [136/731] ok insegnanti_attuali_hesi09.md subcodes=7
+20:45:25 INFO [137/731] start insegnanti_attuali_hini13.md
+20:45:28 INFO [137/731] ok insegnanti_attuali_hini13.md subcodes=6
+20:45:28 INFO [138/731] start insegnanti_attuali_iani07.md
+20:45:30 INFO [138/731] ok insegnanti_attuali_iani07.md subcodes=7
+20:45:30 INFO [139/731] start insegnanti_attuali_iani22.md
+20:45:32 INFO [139/731] ok insegnanti_attuali_iani22.md subcodes=7
+20:45:32 INFO [140/731] start insegnanti_attuali_iano12.md
+20:45:34 INFO [140/731] ok insegnanti_attuali_iano12.md subcodes=8
+20:45:34 INFO [141/731] start insegnanti_attuali_iano17.md
+20:45:38 INFO [141/731] ok insegnanti_attuali_iano17.md subcodes=7
+20:45:38 INFO [142/731] start insegnanti_attuali_iano18.md
+20:45:43 INFO [142/731] ok insegnanti_attuali_iano18.md subcodes=16
+20:45:43 INFO [143/731] start insegnanti_attuali_icci04.md
+20:45:45 INFO [143/731] ok insegnanti_attuali_icci04.md subcodes=4
+20:45:45 INFO [144/731] start insegnanti_attuali_icci15.md
+20:45:47 INFO [144/731] ok insegnanti_attuali_icci15.md subcodes=6
+20:45:47 INFO [145/731] start insegnanti_attuali_icci16.md
+20:45:50 INFO [145/731] ok insegnanti_attuali_icci16.md subcodes=2
+20:45:50 INFO [146/731] start insegnanti_attuali_icci24.md
+20:45:55 INFO [146/731] ok insegnanti_attuali_icci24.md subcodes=11
+20:45:55 INFO [147/731] start insegnanti_attuali_icci28.md
+20:45:57 INFO [147/731] ok insegnanti_attuali_icci28.md subcodes=4
+20:45:57 INFO [148/731] start insegnanti_attuali_ico584.md
+20:46:00 INFO [148/731] ok insegnanti_attuali_ico584.md subcodes=4
+20:46:00 INFO [149/731] start insegnanti_attuali_iddi22.md
+20:46:04 INFO [149/731] ok insegnanti_attuali_iddi22.md subcodes=14
+20:46:04 INFO [150/731] start insegnanti_attuali_iduca18.md
+20:46:06 INFO [150/731] ok insegnanti_attuali_iduca18.md subcodes=7
+20:46:06 INFO [151/731] start insegnanti_attuali_iero07.md
+20:46:10 INFO [151/731] ok insegnanti_attuali_iero07.md subcodes=4
+20:46:10 INFO [152/731] start insegnanti_attuali_iero090134.md
+20:46:12 INFO [152/731] ok insegnanti_attuali_iero090134.md subcodes=2
+20:46:12 INFO [153/731] start insegnanti_attuali_ifeo03.md
+20:46:16 INFO [153/731] ok insegnanti_attuali_ifeo03.md subcodes=12
+20:46:16 INFO [154/731] start insegnanti_attuali_ileo20.md
+20:46:18 INFO [154/731] ok insegnanti_attuali_ileo20.md subcodes=3
+20:46:18 INFO [155/731] start insegnanti_attuali_ileo23.md
+20:46:22 INFO [155/731] ok insegnanti_attuali_ileo23.md subcodes=8
+20:46:22 INFO [156/731] start insegnanti_attuali_ille09.md
+20:46:24 INFO [156/731] ok insegnanti_attuali_ille09.md subcodes=4
+20:46:24 INFO [157/731] start insegnanti_attuali_illi01.md
+20:46:28 INFO [157/731] ok insegnanti_attuali_illi01.md subcodes=9
+20:46:28 INFO [158/731] start insegnanti_attuali_illi10.md
+20:46:30 INFO [158/731] ok insegnanti_attuali_illi10.md subcodes=8
+20:46:30 INFO [159/731] start insegnanti_attuali_illi13.md
+20:46:33 INFO [159/731] ok insegnanti_attuali_illi13.md subcodes=7
+20:46:33 INFO [160/731] start insegnanti_attuali_illi23.md
+20:46:36 INFO [160/731] ok insegnanti_attuali_illi23.md subcodes=8
+20:46:36 INFO [161/731] start insegnanti_attuali_illi3.md
+20:46:39 INFO [161/731] ok insegnanti_attuali_illi3.md subcodes=5
+20:46:39 INFO [162/731] start insegnanti_attuali_illo01.md
+20:46:44 INFO [162/731] ok insegnanti_attuali_illo01.md subcodes=9
+20:46:44 INFO [163/731] start insegnanti_attuali_illo31.md
+20:46:46 INFO [163/731] ok insegnanti_attuali_illo31.md subcodes=5
+20:46:46 INFO [164/731] start insegnanti_attuali_imone29.md
+20:46:50 INFO [164/731] ok insegnanti_attuali_imone29.md subcodes=7
+20:46:50 INFO [165/731] start insegnanti_attuali_ineo13.md
+20:46:51 INFO [165/731] ok insegnanti_attuali_ineo13.md subcodes=2
+20:46:51 INFO [166/731] start insegnanti_attuali_ini08.md
+20:46:53 INFO [166/731] ok insegnanti_attuali_ini08.md subcodes=5
+20:46:53 INFO [167/731] start insegnanti_attuali_iola29.md
+20:46:57 INFO [167/731] ok insegnanti_attuali_iola29.md subcodes=9
+20:46:57 INFO [168/731] start insegnanti_attuali_ione.md
+20:47:01 INFO [168/731] ok insegnanti_attuali_ione.md subcodes=3
+20:47:01 INFO [169/731] start insegnanti_attuali_ione04.md
+20:47:03 INFO [169/731] ok insegnanti_attuali_ione04.md subcodes=6
+20:47:03 INFO [170/731] start insegnanti_attuali_ione10.md
+20:47:07 INFO [170/731] ok insegnanti_attuali_ione10.md subcodes=4
+20:47:07 INFO [171/731] start insegnanti_attuali_ione_2.md
+20:47:11 INFO [171/731] ok insegnanti_attuali_ione_2.md subcodes=12
+20:47:11 INFO [172/731] start insegnanti_attuali_ioni17.md
+20:47:14 INFO [172/731] ok insegnanti_attuali_ioni17.md subcodes=9
+20:47:14 INFO [173/731] start insegnanti_attuali_ioni22.md
+20:47:18 INFO [173/731] ok insegnanti_attuali_ioni22.md subcodes=7
+20:47:18 INFO [174/731] start insegnanti_attuali_iore01.md
+20:47:20 INFO [174/731] ok insegnanti_attuali_iore01.md subcodes=6
+20:47:20 INFO [175/731] start insegnanti_attuali_iore23.md
+20:47:22 INFO [175/731] ok insegnanti_attuali_iore23.md subcodes=6
+20:47:22 INFO [176/731] start insegnanti_attuali_iosi14.md
+20:47:24 INFO [176/731] ok insegnanti_attuali_iosi14.md subcodes=3
+20:47:24 INFO [177/731] start insegnanti_attuali_ippi15.md
+20:47:26 INFO [177/731] ok insegnanti_attuali_ippi15.md subcodes=6
+20:47:26 INFO [178/731] start insegnanti_attuali_ista13.md
+20:47:30 INFO [178/731] ok insegnanti_attuali_ista13.md subcodes=14
+20:47:30 INFO [179/731] start insegnanti_attuali_ista25.md
+20:47:32 INFO [179/731] ok insegnanti_attuali_ista25.md subcodes=5
+20:47:32 INFO [180/731] start insegnanti_attuali_isti12.md
+20:47:36 INFO [180/731] ok insegnanti_attuali_isti12.md subcodes=11
+20:47:36 INFO [181/731] start insegnanti_attuali_isti13.md
+20:47:38 INFO [181/731] ok insegnanti_attuali_isti13.md subcodes=4
+20:47:38 INFO [182/731] start insegnanti_attuali_isti28.md
+20:47:40 INFO [182/731] ok insegnanti_attuali_isti28.md subcodes=3
+20:47:40 INFO [183/731] start insegnanti_attuali_itta09.md
+20:47:46 INFO [183/731] ok insegnanti_attuali_itta09.md subcodes=10
+20:47:46 INFO [184/731] start insegnanti_attuali_iuso21.md
+20:47:49 INFO [184/731] ok insegnanti_attuali_iuso21.md subcodes=14
+20:47:49 INFO [185/731] start insegnanti_attuali_izio06.md
+20:47:53 INFO [185/731] ok insegnanti_attuali_izio06.md subcodes=9
+20:47:53 INFO [186/731] start insegnanti_attuali_izzi20.md
+20:47:55 INFO [186/731] ok insegnanti_attuali_izzi20.md subcodes=6
+20:47:55 INFO [187/731] start insegnanti_attuali_izzo20.md
+20:47:58 INFO [187/731] ok insegnanti_attuali_izzo20.md subcodes=6
+20:47:58 INFO [188/731] start insegnanti_attuali_izzo26.md
+20:48:00 INFO [188/731] ok insegnanti_attuali_izzo26.md subcodes=7
+20:48:00 INFO [189/731] start insegnanti_attuali_lani03.md
+20:48:02 INFO [189/731] ok insegnanti_attuali_lani03.md subcodes=8
+20:48:02 INFO [190/731] start insegnanti_attuali_lani13.md
+20:48:04 INFO [190/731] ok insegnanti_attuali_lani13.md subcodes=3
+20:48:04 INFO [191/731] start insegnanti_attuali_lano03.md
+20:48:08 INFO [191/731] ok insegnanti_attuali_lano03.md subcodes=8
+20:48:08 INFO [192/731] start insegnanti_attuali_lbis20.md
+20:48:10 INFO [192/731] ok insegnanti_attuali_lbis20.md subcodes=3
+20:48:10 INFO [193/731] start insegnanti_attuali_levi16.md
+20:48:12 INFO [193/731] ok insegnanti_attuali_levi16.md subcodes=1
+20:48:12 INFO [194/731] start insegnanti_attuali_liciaricci7@gmail.com.md
+20:48:18 INFO [194/731] ok insegnanti_attuali_liciaricci7@gmail.com.md subcodes=13
+20:48:18 INFO [195/731] start insegnanti_attuali_lisi03.md
+20:48:20 INFO [195/731] ok insegnanti_attuali_lisi03.md subcodes=8
+20:48:20 INFO [196/731] start insegnanti_attuali_llia22.md
+20:48:24 INFO [196/731] ok insegnanti_attuali_llia22.md subcodes=8
+20:48:24 INFO [197/731] start insegnanti_attuali_llo12.md
+20:48:27 INFO [197/731] ok insegnanti_attuali_llo12.md subcodes=6
+20:48:27 INFO [198/731] start insegnanti_attuali_loni01.md
+20:48:29 INFO [198/731] ok insegnanti_attuali_loni01.md subcodes=5
+20:48:29 INFO [199/731] start insegnanti_attuali_luca08.md
+20:48:31 INFO [199/731] ok insegnanti_attuali_luca08.md subcodes=4
+20:48:31 INFO [200/731] start insegnanti_attuali_luca14.md
+20:48:33 INFO [200/731] ok insegnanti_attuali_luca14.md subcodes=7
+20:48:33 INFO [201/731] start insegnanti_attuali_luzi02.md
+20:48:36 INFO [201/731] ok insegnanti_attuali_luzi02.md subcodes=4
+20:48:36 INFO [202/731] start insegnanti_attuali_macc29.md
+20:48:38 INFO [202/731] ok insegnanti_attuali_macc29.md subcodes=5
+20:48:38 INFO [203/731] start insegnanti_attuali_mano06.md
+20:48:40 INFO [203/731] ok insegnanti_attuali_mano06.md subcodes=6
+20:48:40 INFO [204/731] start insegnanti_attuali_masi15.md
+20:48:43 INFO [204/731] ok insegnanti_attuali_masi15.md subcodes=8
+20:48:43 INFO [205/731] start insegnanti_attuali_mato22.md
+20:48:49 INFO [205/731] ok insegnanti_attuali_mato22.md subcodes=8
+20:48:49 INFO [206/731] start insegnanti_attuali_meri05.md
+20:48:51 INFO [206/731] ok insegnanti_attuali_meri05.md subcodes=5
+20:48:51 INFO [207/731] start insegnanti_attuali_mico24.md
+20:48:53 INFO [207/731] ok insegnanti_attuali_mico24.md subcodes=5
+20:48:53 INFO [208/731] start insegnanti_attuali_mico26.md
+20:48:55 INFO [208/731] ok insegnanti_attuali_mico26.md subcodes=4
+20:48:55 INFO [209/731] start insegnanti_attuali_mpus21.md
+20:48:57 INFO [209/731] ok insegnanti_attuali_mpus21.md subcodes=6
+20:48:57 INFO [210/731] start insegnanti_attuali_nale19.md
+20:49:01 INFO [210/731] ok insegnanti_attuali_nale19.md subcodes=5
+20:49:01 INFO [211/731] start insegnanti_attuali_nale22.md
+20:49:03 INFO [211/731] ok insegnanti_attuali_nale22.md subcodes=6
+20:49:03 INFO [212/731] start insegnanti_attuali_nali26.md
+20:49:07 INFO [212/731] ok insegnanti_attuali_nali26.md subcodes=11
+20:49:07 INFO [213/731] start insegnanti_attuali_naro28.md
+20:49:09 INFO [213/731] ok insegnanti_attuali_naro28.md subcodes=4
+20:49:09 INFO [214/731] start insegnanti_attuali_nas23.md
+20:49:11 INFO [214/731] ok insegnanti_attuali_nas23.md subcodes=5
+20:49:11 INFO [215/731] start insegnanti_attuali_nato15.md
+20:49:14 INFO [215/731] ok insegnanti_attuali_nato15.md subcodes=9
+20:49:14 INFO [216/731] start insegnanti_attuali_ndel18.md
+20:49:18 INFO [216/731] ok insegnanti_attuali_ndel18.md subcodes=9
+20:49:18 INFO [217/731] start insegnanti_attuali_ngia06.md
+20:49:23 INFO [217/731] ok insegnanti_attuali_ngia06.md subcodes=11
+20:49:23 INFO [218/731] start insegnanti_attuali_nidi24.md
+20:49:26 INFO [218/731] ok insegnanti_attuali_nidi24.md subcodes=6
+20:49:26 INFO [219/731] start insegnanti_attuali_nini02.md
+20:49:30 INFO [219/731] ok insegnanti_attuali_nini02.md subcodes=2
+20:49:30 INFO [220/731] start insegnanti_attuali_nnai29.md
+20:49:33 INFO [220/731] ok insegnanti_attuali_nnai29.md subcodes=11
+20:49:33 INFO [221/731] start insegnanti_attuali_noce25.md
+20:49:37 INFO [221/731] ok insegnanti_attuali_noce25.md subcodes=11
+20:49:37 INFO [222/731] start insegnanti_attuali_noni01.md
+20:49:39 INFO [222/731] ok insegnanti_attuali_noni01.md subcodes=6
+20:49:39 INFO [223/731] start insegnanti_attuali_nori29.md
+20:49:41 INFO [223/731] ok insegnanti_attuali_nori29.md subcodes=4
+20:49:41 INFO [224/731] start insegnanti_attuali_ntis26.md
+20:49:45 INFO [224/731] ok insegnanti_attuali_ntis26.md subcodes=13
+20:49:45 INFO [225/731] start insegnanti_attuali_nza29.md
+20:49:47 INFO [225/731] ok insegnanti_attuali_nza29.md subcodes=7
+20:49:47 INFO [226/731] start insegnanti_attuali_occa13.md
+20:49:49 INFO [226/731] ok insegnanti_attuali_occa13.md subcodes=6
+20:49:49 INFO [227/731] start insegnanti_attuali_occa21.md
+20:49:53 INFO [227/731] ok insegnanti_attuali_occa21.md subcodes=6
+20:49:53 INFO [228/731] start insegnanti_attuali_occo16.md
+20:49:56 INFO [228/731] ok insegnanti_attuali_occo16.md subcodes=8
+20:49:56 INFO [229/731] start insegnanti_attuali_ogna07.md
+20:50:00 INFO [229/731] ok insegnanti_attuali_ogna07.md subcodes=10
+20:50:00 INFO [230/731] start insegnanti_attuali_ogri20.md
+20:50:04 INFO [230/731] ok insegnanti_attuali_ogri20.md subcodes=13
+20:50:04 INFO [231/731] start insegnanti_attuali_olmi21.md
+20:50:06 INFO [231/731] ok insegnanti_attuali_olmi21.md subcodes=7
+20:50:06 INFO [232/731] start insegnanti_attuali_ondi20.md
+20:50:09 INFO [232/731] ok insegnanti_attuali_ondi20.md subcodes=6
+20:50:09 INFO [233/731] start insegnanti_attuali_ongo01.md
+20:50:13 INFO [233/731] ok insegnanti_attuali_ongo01.md subcodes=5
+20:50:13 INFO [234/731] start insegnanti_attuali_oni431055.md
+20:50:15 INFO [234/731] ok insegnanti_attuali_oni431055.md subcodes=5
+20:50:15 INFO [235/731] start insegnanti_attuali_onti02.md
+20:50:17 INFO [235/731] ok insegnanti_attuali_onti02.md subcodes=8
+20:50:17 INFO [236/731] start insegnanti_attuali_onti13.md
+20:50:19 INFO [236/731] ok insegnanti_attuali_onti13.md subcodes=3
+20:50:19 INFO [237/731] start insegnanti_attuali_onti31.md
+20:50:23 INFO [237/731] ok insegnanti_attuali_onti31.md subcodes=6
+20:50:23 INFO [238/731] start insegnanti_attuali_onzi03.md
+20:50:28 INFO [238/731] ok insegnanti_attuali_onzi03.md subcodes=13
+20:50:28 INFO [239/731] start insegnanti_attuali_oppi12.md
+20:50:30 INFO [239/731] ok insegnanti_attuali_oppi12.md subcodes=9
+20:50:30 INFO [240/731] start insegnanti_attuali_orco13.md
+20:50:32 INFO [240/731] ok insegnanti_attuali_orco13.md subcodes=5
+20:50:32 INFO [241/731] start insegnanti_attuali_orio4.md
+20:50:36 INFO [241/731] ok insegnanti_attuali_orio4.md subcodes=7
+20:50:36 INFO [242/731] start insegnanti_attuali_orlandi28.md
+20:50:41 INFO [242/731] ok insegnanti_attuali_orlandi28.md subcodes=13
+20:50:41 INFO [243/731] start insegnanti_attuali_osti16.md
+20:50:43 INFO [243/731] ok insegnanti_attuali_osti16.md subcodes=11
+20:50:43 INFO [244/731] start insegnanti_attuali_osti31.md
+20:50:48 INFO [244/731] ok insegnanti_attuali_osti31.md subcodes=14
+20:50:48 INFO [245/731] start insegnanti_attuali_otta04.md
+20:50:50 INFO [245/731] ok insegnanti_attuali_otta04.md subcodes=3
+20:50:50 INFO [246/731] start insegnanti_attuali_otta06.md
+20:50:56 INFO [246/731] ok insegnanti_attuali_otta06.md subcodes=10
+20:50:56 INFO [247/731] start insegnanti_attuali_otti05.md
+20:50:58 INFO [247/731] ok insegnanti_attuali_otti05.md subcodes=5
+20:50:58 INFO [248/731] start insegnanti_attuali_otti05_2.md
+20:51:01 INFO [248/731] ok insegnanti_attuali_otti05_2.md subcodes=6
+20:51:01 INFO [249/731] start insegnanti_attuali_otti06.md
+20:51:03 INFO [249/731] ok insegnanti_attuali_otti06.md subcodes=8
+20:51:03 INFO [250/731] start insegnanti_attuali_otti15.md
+20:51:07 INFO [250/731] ok insegnanti_attuali_otti15.md subcodes=12
+20:51:07 INFO [251/731] start insegnanti_attuali_otti18.md
+20:51:09 INFO [251/731] ok insegnanti_attuali_otti18.md subcodes=4
+20:51:09 INFO [252/731] start insegnanti_attuali_otti27.md
+20:51:11 INFO [252/731] ok insegnanti_attuali_otti27.md subcodes=4
+20:51:11 INFO [253/731] start insegnanti_attuali_otti59.md
+20:51:13 INFO [253/731] ok insegnanti_attuali_otti59.md subcodes=1
+20:51:13 INFO [254/731] start insegnanti_attuali_otto19.md
+20:51:15 INFO [254/731] ok insegnanti_attuali_otto19.md subcodes=5
+20:51:15 INFO [255/731] start insegnanti_attuali_ovanna.md
+20:51:19 INFO [255/731] ok insegnanti_attuali_ovanna.md subcodes=10
+20:51:19 INFO [256/731] start insegnanti_attuali_ozza.md
+20:51:21 INFO [256/731] ok insegnanti_attuali_ozza.md subcodes=4
+20:51:21 INFO [257/731] start insegnanti_attuali_ozzi03.md
+20:51:23 INFO [257/731] ok insegnanti_attuali_ozzi03.md subcodes=6
+20:51:23 INFO [258/731] start insegnanti_attuali_ozzi17.md
+20:51:27 INFO [258/731] ok insegnanti_attuali_ozzi17.md subcodes=4
+20:51:27 INFO [259/731] start insegnanti_attuali_ozzi18.md
+20:51:31 INFO [259/731] ok insegnanti_attuali_ozzi18.md subcodes=10
+20:51:31 INFO [260/731] start insegnanti_attuali_pace11.md
+20:51:34 INFO [260/731] ok insegnanti_attuali_pace11.md subcodes=8
+20:51:34 INFO [261/731] start insegnanti_attuali_pali25.md
+20:51:36 INFO [261/731] ok insegnanti_attuali_pali25.md subcodes=5
+20:51:36 INFO [262/731] start insegnanti_attuali_paro03.md
+20:51:38 INFO [262/731] ok insegnanti_attuali_paro03.md subcodes=6
+20:51:38 INFO [263/731] start insegnanti_attuali_pass19.md
+20:51:40 INFO [263/731] ok insegnanti_attuali_pass19.md subcodes=6
+20:51:40 INFO [264/731] start insegnanti_attuali_pena30.md
+20:51:42 INFO [264/731] ok insegnanti_attuali_pena30.md subcodes=10
+20:51:42 INFO [265/731] start insegnanti_attuali_pepe23.md
+20:51:45 INFO [265/731] ok insegnanti_attuali_pepe23.md subcodes=9
+20:51:45 INFO [266/731] start insegnanti_attuali_peri27.md
+20:51:47 INFO [266/731] ok insegnanti_attuali_peri27.md subcodes=7
+20:51:47 INFO [267/731] start insegnanti_attuali_pizz03.md
+20:51:49 INFO [267/731] ok insegnanti_attuali_pizz03.md subcodes=4
+20:51:49 INFO [268/731] start insegnanti_attuali_podi30.md
+20:51:52 INFO [268/731] ok insegnanti_attuali_podi30.md subcodes=6
+20:51:52 INFO [269/731] start insegnanti_attuali_pola10.md
+20:51:55 INFO [269/731] ok insegnanti_attuali_pola10.md subcodes=8
+20:51:55 INFO [270/731] start insegnanti_attuali_puto11.md
+20:51:59 INFO [270/731] ok insegnanti_attuali_puto11.md subcodes=4
+20:51:59 INFO [271/731] start insegnanti_attuali_ra10.md
+20:52:01 INFO [271/731] ok insegnanti_attuali_ra10.md subcodes=3
+20:52:01 INFO [272/731] start insegnanti_attuali_raia30.md
+20:52:05 INFO [272/731] ok insegnanti_attuali_raia30.md subcodes=13
+20:52:05 INFO [273/731] start insegnanti_attuali_rara56.md
+20:52:08 INFO [273/731] ok insegnanti_attuali_rara56.md subcodes=6
+20:52:08 INFO [274/731] start insegnanti_attuali_raro28.md
+20:52:12 INFO [274/731] ok insegnanti_attuali_raro28.md subcodes=13
+20:52:12 INFO [275/731] start insegnanti_attuali_rati06.md
+20:52:16 INFO [275/731] ok insegnanti_attuali_rati06.md subcodes=13
+20:52:16 INFO [276/731] start insegnanti_attuali_reda08.md
+20:52:18 INFO [276/731] ok insegnanti_attuali_reda08.md subcodes=7
+20:52:18 INFO [277/731] start insegnanti_attuali_rese10.md
+20:52:21 INFO [277/731] ok insegnanti_attuali_rese10.md subcodes=7
+20:52:21 INFO [278/731] start insegnanti_attuali_resi19.md
+20:52:23 INFO [278/731] ok insegnanti_attuali_resi19.md subcodes=6
+20:52:23 INFO [279/731] start insegnanti_attuali_rini08.md
+20:52:25 INFO [279/731] ok insegnanti_attuali_rini08.md subcodes=7
+20:52:25 INFO [280/731] start insegnanti_attuali_rini09.md
+20:52:31 INFO [280/731] ok insegnanti_attuali_rini09.md subcodes=7
+20:52:31 INFO [281/731] start insegnanti_attuali_rini13.md
+20:52:34 INFO [281/731] ok insegnanti_attuali_rini13.md subcodes=7
+20:52:34 INFO [282/731] start insegnanti_attuali_rini15.md
+20:52:38 INFO [282/731] ok insegnanti_attuali_rini15.md subcodes=12
+20:52:38 INFO [283/731] start insegnanti_attuali_rini29.md
+20:52:42 INFO [283/731] ok insegnanti_attuali_rini29.md subcodes=17
+20:52:42 INFO [284/731] start insegnanti_attuali_rino23.md
+20:52:46 INFO [284/731] ok insegnanti_attuali_rino23.md subcodes=10
+20:52:46 INFO [285/731] start insegnanti_attuali_rise08.md
+20:52:48 INFO [285/731] ok insegnanti_attuali_rise08.md subcodes=5
+20:52:48 INFO [286/731] start insegnanti_attuali_roni01.md
+20:52:50 INFO [286/731] ok insegnanti_attuali_roni01.md subcodes=3
+20:52:50 INFO [287/731] start insegnanti_attuali_roni06.md
+20:52:54 INFO [287/731] ok insegnanti_attuali_roni06.md subcodes=12
+20:52:54 INFO [288/731] start insegnanti_attuali_roni24.md
+20:52:56 INFO [288/731] ok insegnanti_attuali_roni24.md subcodes=8
+20:52:56 INFO [289/731] start insegnanti_attuali_rpia18.md
+20:52:59 INFO [289/731] ok insegnanti_attuali_rpia18.md subcodes=7
+20:52:59 INFO [290/731] start insegnanti_attuali_rracca10.md
+20:53:02 INFO [290/731] ok insegnanti_attuali_rracca10.md subcodes=5
+20:53:02 INFO [291/731] start insegnanti_attuali_rrin08.md
+20:53:06 INFO [291/731] ok insegnanti_attuali_rrin08.md subcodes=10
+20:53:06 INFO [292/731] start insegnanti_attuali_rrin08_2.md
+20:53:08 INFO [292/731] ok insegnanti_attuali_rrin08_2.md subcodes=7
+20:53:08 INFO [293/731] start insegnanti_attuali_runi06.md
+20:53:10 INFO [293/731] ok insegnanti_attuali_runi06.md subcodes=8
+20:53:10 INFO [294/731] start insegnanti_attuali_runo01.md
+20:53:14 INFO [294/731] ok insegnanti_attuali_runo01.md subcodes=7
+20:53:14 INFO [295/731] start insegnanti_attuali_rzio16.md
+20:53:17 INFO [295/731] ok insegnanti_attuali_rzio16.md subcodes=9
+20:53:17 INFO [296/731] start insegnanti_attuali_sani19.md
+20:53:21 INFO [296/731] ok insegnanti_attuali_sani19.md subcodes=10
+20:53:21 INFO [297/731] start insegnanti_attuali_sano10.md
+20:53:23 INFO [297/731] ok insegnanti_attuali_sano10.md subcodes=6
+20:53:23 INFO [298/731] start insegnanti_attuali_santi13.md
+20:53:26 INFO [298/731] ok insegnanti_attuali_santi13.md subcodes=11
+20:53:26 INFO [299/731] start insegnanti_attuali_sario2.md
+20:53:30 INFO [299/731] ok insegnanti_attuali_sario2.md subcodes=9
+20:53:30 INFO [300/731] start insegnanti_attuali_sati26.md
+20:53:34 INFO [300/731] ok insegnanti_attuali_sati26.md subcodes=7
+20:53:34 INFO [301/731] start insegnanti_attuali_schi10.md
+20:53:37 INFO [301/731] ok insegnanti_attuali_schi10.md subcodes=2
+20:53:37 INFO [302/731] start insegnanti_attuali_sepe29.md
+20:53:41 INFO [302/731] ok insegnanti_attuali_sepe29.md subcodes=13
+20:53:41 INFO [303/731] start insegnanti_attuali_sini22.md
+20:53:44 INFO [303/731] ok insegnanti_attuali_sini22.md subcodes=11
+20:53:44 INFO [304/731] start insegnanti_attuali_soli24.md
+20:53:49 INFO [304/731] ok insegnanti_attuali_soli24.md subcodes=8
+20:53:49 INFO [305/731] start insegnanti_attuali_stini27.md
+20:53:54 INFO [305/731] ok insegnanti_attuali_stini27.md subcodes=19
+20:53:54 INFO [306/731] start insegnanti_attuali_tano01.md
+20:53:59 INFO [306/731] ok insegnanti_attuali_tano01.md subcodes=12
+20:53:59 INFO [307/731] start insegnanti_attuali_tano19.md
+20:54:01 INFO [307/731] ok insegnanti_attuali_tano19.md subcodes=10
+20:54:01 INFO [308/731] start insegnanti_attuali_tano27.md
+20:54:05 INFO [308/731] ok insegnanti_attuali_tano27.md subcodes=10
+20:54:05 INFO [309/731] start insegnanti_attuali_tano30.md
+20:54:07 INFO [309/731] ok insegnanti_attuali_tano30.md subcodes=6
+20:54:07 INFO [310/731] start insegnanti_attuali_taro21.md
+20:54:11 INFO [310/731] ok insegnanti_attuali_taro21.md subcodes=10
+20:54:11 INFO [311/731] start insegnanti_attuali_tese18.md
+20:54:12 INFO [311/731] ok insegnanti_attuali_tese18.md subcodes=1
+20:54:12 INFO [312/731] start insegnanti_attuali_tili17.md
+20:54:14 INFO [312/731] ok insegnanti_attuali_tili17.md subcodes=6
+20:54:14 INFO [313/731] start insegnanti_attuali_tina06.md
+20:54:16 INFO [313/731] ok insegnanti_attuali_tina06.md subcodes=6
+20:54:16 INFO [314/731] start insegnanti_attuali_tini08.md
+20:54:18 INFO [314/731] ok insegnanti_attuali_tini08.md subcodes=3
+20:54:18 INFO [315/731] start insegnanti_attuali_tini08_2.md
+20:54:20 INFO [315/731] ok insegnanti_attuali_tini08_2.md subcodes=3
+20:54:20 INFO [316/731] start insegnanti_attuali_tini20.md
+20:54:24 INFO [316/731] ok insegnanti_attuali_tini20.md subcodes=14
+20:54:24 INFO [317/731] start insegnanti_attuali_tini24.md
+20:54:28 INFO [317/731] ok insegnanti_attuali_tini24.md subcodes=10
+20:54:28 INFO [318/731] start insegnanti_attuali_tino06.md
+20:54:31 INFO [318/731] ok insegnanti_attuali_tino06.md subcodes=3
+20:54:31 INFO [319/731] start insegnanti_attuali_tino19.md
+20:54:34 INFO [319/731] ok insegnanti_attuali_tino19.md subcodes=7
+20:54:34 INFO [320/731] start insegnanti_attuali_tino25.md
+20:54:37 INFO [320/731] ok insegnanti_attuali_tino25.md subcodes=5
+20:54:37 INFO [321/731] start insegnanti_attuali_tino28.md
+20:54:41 INFO [321/731] ok insegnanti_attuali_tino28.md subcodes=10
+20:54:41 INFO [322/731] start insegnanti_attuali_tito07.md
+20:54:45 INFO [322/731] ok insegnanti_attuali_tito07.md subcodes=15
+20:54:45 INFO [323/731] start insegnanti_attuali_tore26.md
+20:54:49 INFO [323/731] ok insegnanti_attuali_tore26.md subcodes=8
+20:54:49 INFO [324/731] start insegnanti_attuali_tori27.md
+20:54:51 INFO [324/731] ok insegnanti_attuali_tori27.md subcodes=5
+20:54:51 INFO [325/731] start insegnanti_attuali_trin12.md
+20:54:53 INFO [325/731] ok insegnanti_attuali_trin12.md subcodes=5
+20:54:53 INFO [326/731] start insegnanti_attuali_turo.md
+20:54:55 INFO [326/731] ok insegnanti_attuali_turo.md subcodes=7
+20:54:55 INFO [327/731] start insegnanti_attuali_ucci06.md
+20:55:00 INFO [327/731] ok insegnanti_attuali_ucci06.md subcodes=10
+20:55:00 INFO [328/731] start insegnanti_attuali_ucci13.md
+20:55:02 INFO [328/731] ok insegnanti_attuali_ucci13.md subcodes=9
+20:55:02 INFO [329/731] start insegnanti_attuali_ucci19.md
+20:55:04 INFO [329/731] ok insegnanti_attuali_ucci19.md subcodes=5
+20:55:04 INFO [330/731] start insegnanti_attuali_ucci20.md
+20:55:06 INFO [330/731] ok insegnanti_attuali_ucci20.md subcodes=5
+20:55:06 INFO [331/731] start insegnanti_attuali_ucci21.md
+20:55:09 INFO [331/731] ok insegnanti_attuali_ucci21.md subcodes=4
+20:55:09 INFO [332/731] start insegnanti_attuali_udio01.md
+20:55:13 INFO [332/731] ok insegnanti_attuali_udio01.md subcodes=6
+20:55:13 INFO [333/731] start insegnanti_attuali_unicam96.md
+20:55:15 INFO [333/731] ok insegnanti_attuali_unicam96.md subcodes=5
+20:55:15 INFO [334/731] start insegnanti_attuali_unni07.md
+20:55:17 INFO [334/731] ok insegnanti_attuali_unni07.md subcodes=7
+20:55:17 INFO [335/731] start insegnanti_attuali_uoli09.md
+20:55:19 INFO [335/731] ok insegnanti_attuali_uoli09.md subcodes=10
+20:55:19 INFO [336/731] start insegnanti_attuali_uono16.md
+20:55:22 INFO [336/731] ok insegnanti_attuali_uono16.md subcodes=5
+20:55:22 INFO [337/731] start insegnanti_attuali_urro18.md
+20:55:25 INFO [337/731] ok insegnanti_attuali_urro18.md subcodes=12
+20:55:25 INFO [338/731] start insegnanti_attuali_urzi15.md
+20:55:28 INFO [338/731] ok insegnanti_attuali_urzi15.md subcodes=9
+20:55:28 INFO [339/731] start insegnanti_attuali_ussa14.md
+20:55:30 INFO [339/731] ok insegnanti_attuali_ussa14.md subcodes=4
+20:55:30 INFO [340/731] start insegnanti_attuali_usso09.md
+20:55:34 INFO [340/731] ok insegnanti_attuali_usso09.md subcodes=13
+20:55:34 INFO [341/731] start insegnanti_attuali_uzzi07.md
+20:55:36 INFO [341/731] ok insegnanti_attuali_uzzi07.md subcodes=4
+20:55:36 INFO [342/731] start insegnanti_attuali_uzzi13.md
+20:55:42 INFO [342/731] ok insegnanti_attuali_uzzi13.md subcodes=12
+20:55:42 INFO [343/731] start insegnanti_attuali_vani22.md
+20:55:44 INFO [343/731] ok insegnanti_attuali_vani22.md subcodes=6
+20:55:44 INFO [344/731] start insegnanti_attuali_vari16.md
+20:55:48 INFO [344/731] ok insegnanti_attuali_vari16.md subcodes=10
+20:55:48 INFO [345/731] start insegnanti_attuali_vese28.md
+20:55:52 INFO [345/731] ok insegnanti_attuali_vese28.md subcodes=9
+20:55:52 INFO [346/731] start insegnanti_attuali_vigo15.md
+20:55:54 INFO [346/731] ok insegnanti_attuali_vigo15.md subcodes=3
+20:55:54 INFO [347/731] start insegnanti_attuali_vina23.md
+20:55:57 INFO [347/731] ok insegnanti_attuali_vina23.md subcodes=8
+20:55:57 INFO [348/731] start insegnanti_attuali_vini18.md
+20:56:00 INFO [348/731] ok insegnanti_attuali_vini18.md subcodes=11
+20:56:00 INFO [349/731] start insegnanti_attuali_vito02.md
+20:56:01 INFO [349/731] ok insegnanti_attuali_vito02.md subcodes=3
+20:56:01 INFO [350/731] start insegnanti_attuali_vola24.md
+20:56:04 INFO [350/731] ok insegnanti_attuali_vola24.md subcodes=2
+20:56:04 INFO [351/731] start insegnanti_attuali_zani26.md
+20:56:08 INFO [351/731] ok insegnanti_attuali_zani26.md subcodes=12
+20:56:08 INFO [352/731] start insegnanti_attuali_zano05.md
+20:56:13 INFO [352/731] ok insegnanti_attuali_zano05.md subcodes=14
+20:56:13 INFO [353/731] start insegnanti_attuali_zano29.md
+20:56:17 INFO [353/731] ok insegnanti_attuali_zano29.md subcodes=8
+20:56:17 INFO [354/731] start insegnanti_attuali_zoli01.md
+20:56:20 INFO [354/731] ok insegnanti_attuali_zoli01.md subcodes=3
+20:56:20 INFO [355/731] start insegnanti_attuali_zone05.md
+20:56:23 INFO [355/731] ok insegnanti_attuali_zone05.md subcodes=14
+20:56:23 INFO [356/731] start insegnanti_attuali_zoni01.md
+20:56:26 INFO [356/731] ok insegnanti_attuali_zoni01.md subcodes=7
+20:56:26 INFO [357/731] start insegnanti_attuali_zzei19.md
+20:56:29 INFO [357/731] ok insegnanti_attuali_zzei19.md subcodes=12
+20:56:29 INFO [358/731] start insegnanti_attuali_zzo26.md
+20:56:31 INFO [358/731] ok insegnanti_attuali_zzo26.md subcodes=4
+20:56:31 INFO [359/731] start insegnanti_futuri_00004m.md
+20:56:35 INFO [359/731] ok insegnanti_futuri_00004m.md subcodes=5
+20:56:35 INFO [360/731] start insegnanti_futuri_acca02.md
+20:56:39 INFO [360/731] ok insegnanti_futuri_acca02.md subcodes=7
+20:56:39 INFO [361/731] start insegnanti_futuri_affa02.md
+20:56:41 INFO [361/731] ok insegnanti_futuri_affa02.md subcodes=3
+20:56:41 INFO [362/731] start insegnanti_futuri_agna12.md
+20:56:44 INFO [362/731] ok insegnanti_futuri_agna12.md subcodes=4
+20:56:44 INFO [363/731] start insegnanti_futuri_aldi28.md
+20:56:47 INFO [363/731] ok insegnanti_futuri_aldi28.md subcodes=6
+20:56:47 INFO [364/731] start insegnanti_futuri_allo13.md
+20:56:50 INFO [364/731] ok insegnanti_futuri_allo13.md subcodes=7
+20:56:50 INFO [365/731] start insegnanti_futuri_also16.md
+20:56:52 INFO [365/731] ok insegnanti_futuri_also16.md subcodes=4
+20:56:52 INFO [366/731] start insegnanti_futuri_ani15.md
+20:56:54 INFO [366/731] ok insegnanti_futuri_ani15.md subcodes=5
+20:56:54 INFO [367/731] start insegnanti_futuri_anzi18.md
+20:56:58 INFO [367/731] ok insegnanti_futuri_anzi18.md subcodes=11
+20:56:58 INFO [368/731] start insegnanti_futuri_ardi11.md
+20:57:00 INFO [368/731] ok insegnanti_futuri_ardi11.md subcodes=4
+20:57:00 INFO [369/731] start insegnanti_futuri_aria13.md
+20:57:04 INFO [369/731] ok insegnanti_futuri_aria13.md subcodes=9
+20:57:04 INFO [370/731] start insegnanti_futuri_arta20.md
+20:57:06 INFO [370/731] ok insegnanti_futuri_arta20.md subcodes=4
+20:57:06 INFO [371/731] start insegnanti_futuri_bello20.md
+20:57:10 INFO [371/731] ok insegnanti_futuri_bello20.md subcodes=8
+20:57:10 INFO [372/731] start insegnanti_futuri_boli14.md
+20:57:12 INFO [372/731] ok insegnanti_futuri_boli14.md subcodes=6
+20:57:12 INFO [373/731] start insegnanti_futuri_bone16.md
+20:57:16 INFO [373/731] ok insegnanti_futuri_bone16.md subcodes=4
+20:57:16 INFO [374/731] start insegnanti_futuri_buri03.md
+20:57:18 INFO [374/731] ok insegnanti_futuri_buri03.md subcodes=1
+20:57:18 INFO [375/731] start insegnanti_futuri_cara23.md
+20:57:20 INFO [375/731] ok insegnanti_futuri_cara23.md subcodes=3
+20:57:20 INFO [376/731] start insegnanti_futuri_cato20.md
+20:57:22 INFO [376/731] ok insegnanti_futuri_cato20.md subcodes=6
+20:57:22 INFO [377/731] start insegnanti_futuri_cchi07.md
+20:57:24 INFO [377/731] ok insegnanti_futuri_cchi07.md subcodes=5
+20:57:24 INFO [378/731] start insegnanti_futuri_cino-09-07-1968.md
+20:57:25 INFO [378/731] ok insegnanti_futuri_cino-09-07-1968.md subcodes=2
+20:57:25 INFO [379/731] start insegnanti_futuri_colo01.md
+20:57:28 INFO [379/731] ok insegnanti_futuri_colo01.md subcodes=4
+20:57:28 INFO [380/731] start insegnanti_futuri_daqu04.md
+20:57:29 INFO [380/731] ok insegnanti_futuri_daqu04.md subcodes=3
+20:57:29 INFO [381/731] start insegnanti_futuri_dema16.md
+20:57:32 INFO [381/731] ok insegnanti_futuri_dema16.md subcodes=7
+20:57:32 INFO [382/731] start insegnanti_futuri_deni17.md
+20:57:34 INFO [382/731] ok insegnanti_futuri_deni17.md subcodes=6
+20:57:34 INFO [383/731] start insegnanti_futuri_dini06.md
+20:57:36 INFO [383/731] ok insegnanti_futuri_dini06.md subcodes=3
+20:57:36 INFO [384/731] start insegnanti_futuri_dosa17.md
+20:57:37 INFO [384/731] ok insegnanti_futuri_dosa17.md subcodes=1
+20:57:37 INFO [385/731] start insegnanti_futuri_ecca04.md
+20:57:39 INFO [385/731] ok insegnanti_futuri_ecca04.md subcodes=2
+20:57:39 INFO [386/731] start insegnanti_futuri_elis07.md
+20:57:42 INFO [386/731] ok insegnanti_futuri_elis07.md subcodes=6
+20:57:42 INFO [387/731] start insegnanti_futuri_elli07.md
+20:57:44 INFO [387/731] ok insegnanti_futuri_elli07.md subcodes=6
+20:57:44 INFO [388/731] start insegnanti_futuri_elli26.md
+20:57:48 INFO [388/731] ok insegnanti_futuri_elli26.md subcodes=7
+20:57:48 INFO [389/731] start insegnanti_futuri_ente12.md
+20:57:51 INFO [389/731] ok insegnanti_futuri_ente12.md subcodes=5
+20:57:51 INFO [390/731] start insegnanti_futuri_ento19.md
+20:57:53 INFO [390/731] ok insegnanti_futuri_ento19.md subcodes=2
+20:57:53 INFO [391/731] start insegnanti_futuri_eone18.md
+20:57:57 INFO [391/731] ok insegnanti_futuri_eone18.md subcodes=7
+20:57:57 INFO [392/731] start insegnanti_futuri_eres08.md
+20:57:59 INFO [392/731] ok insegnanti_futuri_eres08.md subcodes=6
+20:57:59 INFO [393/731] start insegnanti_futuri_erlo23.md
+20:58:03 INFO [393/731] ok insegnanti_futuri_erlo23.md subcodes=1
+20:58:03 INFO [394/731] start insegnanti_futuri_erna24.md
+20:58:05 INFO [394/731] ok insegnanti_futuri_erna24.md subcodes=5
+20:58:05 INFO [395/731] start insegnanti_futuri_erti16.md
+20:58:08 INFO [395/731] ok insegnanti_futuri_erti16.md subcodes=6
+20:58:08 INFO [396/731] start insegnanti_futuri_etti10.md
+20:58:10 INFO [396/731] ok insegnanti_futuri_etti10.md subcodes=1
+20:58:10 INFO [397/731] start insegnanti_futuri_faro01.md
+20:58:12 INFO [397/731] ok insegnanti_futuri_faro01.md subcodes=5
+20:58:12 INFO [398/731] start insegnanti_futuri_fini10.md
+20:58:15 INFO [398/731] ok insegnanti_futuri_fini10.md subcodes=5
+20:58:15 INFO [399/731] start insegnanti_futuri_garo04.md
+20:58:20 INFO [399/731] ok insegnanti_futuri_garo04.md subcodes=6
+20:58:20 INFO [400/731] start insegnanti_futuri_glia03.md
+20:58:22 INFO [400/731] ok insegnanti_futuri_glia03.md subcodes=3
+20:58:22 INFO [401/731] start insegnanti_futuri_hini07.md
+20:58:24 INFO [401/731] ok insegnanti_futuri_hini07.md subcodes=5
+20:58:24 INFO [402/731] start insegnanti_futuri_iali12.md
+20:58:26 INFO [402/731] ok insegnanti_futuri_iali12.md subcodes=6
+20:58:26 INFO [403/731] start insegnanti_futuri_iano06.md
+20:58:28 INFO [403/731] ok insegnanti_futuri_iano06.md subcodes=4
+20:58:28 INFO [404/731] start insegnanti_futuri_iano11.md
+20:58:30 INFO [404/731] ok insegnanti_futuri_iano11.md subcodes=5
+20:58:30 INFO [405/731] start insegnanti_futuri_ifra19.md
+20:58:32 INFO [405/731] ok insegnanti_futuri_ifra19.md subcodes=9
+20:58:32 INFO [406/731] start insegnanti_futuri_ilio18.md
+20:58:35 INFO [406/731] ok insegnanti_futuri_ilio18.md subcodes=4
+20:58:35 INFO [407/731] start insegnanti_futuri_ino18.md
+20:58:39 INFO [407/731] ok insegnanti_futuri_ino18.md subcodes=10
+20:58:39 INFO [408/731] start insegnanti_futuri_ioli21.md
+20:58:42 INFO [408/731] ok insegnanti_futuri_ioli21.md subcodes=8
+20:58:42 INFO [409/731] start insegnanti_futuri_ioli28.md
+20:58:46 INFO [409/731] ok insegnanti_futuri_ioli28.md subcodes=11
+20:58:46 INFO [410/731] start insegnanti_futuri_ioni07.md
+20:58:48 INFO [410/731] ok insegnanti_futuri_ioni07.md subcodes=2
+20:58:48 INFO [411/731] start insegnanti_futuri_iosa01.md
+20:58:51 INFO [411/731] ok insegnanti_futuri_iosa01.md subcodes=1
+20:58:51 INFO [412/731] start insegnanti_futuri_iosi12.md
+20:58:54 INFO [412/731] ok insegnanti_futuri_iosi12.md subcodes=4
+20:58:54 INFO [413/731] start insegnanti_futuri_irra61.md
+20:58:55 INFO [413/731] ok insegnanti_futuri_irra61.md subcodes=5
+20:58:55 INFO [414/731] start insegnanti_futuri_izzi03.md
+20:58:58 INFO [414/731] ok insegnanti_futuri_izzi03.md subcodes=5
+20:58:58 INFO [415/731] start insegnanti_futuri_lari30.md
+20:59:00 INFO [415/731] ok insegnanti_futuri_lari30.md subcodes=3
+20:59:00 INFO [416/731] start insegnanti_futuri_lino15.md
+20:59:02 INFO [416/731] ok insegnanti_futuri_lino15.md subcodes=5
+20:59:02 INFO [417/731] start insegnanti_futuri_lisi21.md
+20:59:04 INFO [417/731] ok insegnanti_futuri_lisi21.md subcodes=5
+20:59:04 INFO [418/731] start insegnanti_futuri_lita25.md
+20:59:06 INFO [418/731] ok insegnanti_futuri_lita25.md subcodes=3
+20:59:06 INFO [419/731] start insegnanti_futuri_luca30.md
+20:59:07 INFO [419/731] ok insegnanti_futuri_luca30.md subcodes=0
+20:59:07 INFO [420/731] start insegnanti_futuri_lupi09.md
+20:59:09 INFO [420/731] ok insegnanti_futuri_lupi09.md subcodes=6
+20:59:09 INFO [421/731] start insegnanti_futuri_manci11.md
+20:59:12 INFO [421/731] ok insegnanti_futuri_manci11.md subcodes=8
+20:59:12 INFO [422/731] start insegnanti_futuri_namo20-10-49.md
+20:59:16 INFO [422/731] ok insegnanti_futuri_namo20-10-49.md subcodes=7
+20:59:16 INFO [423/731] start insegnanti_futuri_nati19.md
+20:59:22 INFO [423/731] ok insegnanti_futuri_nati19.md subcodes=10
+20:59:22 INFO [424/731] start insegnanti_futuri_nuti5.md
+20:59:24 INFO [424/731] ok insegnanti_futuri_nuti5.md subcodes=4
+20:59:24 INFO [425/731] start insegnanti_futuri_oisi08.md
+20:59:26 INFO [425/731] ok insegnanti_futuri_oisi08.md subcodes=2
+20:59:26 INFO [426/731] start insegnanti_futuri_ondo14.md
+20:59:28 INFO [426/731] ok insegnanti_futuri_ondo14.md subcodes=3
+20:59:28 INFO [427/731] start insegnanti_futuri_oni11.md
+20:59:30 INFO [427/731] ok insegnanti_futuri_oni11.md subcodes=2
+20:59:30 INFO [428/731] start insegnanti_futuri_onti28.md
+20:59:32 INFO [428/731] ok insegnanti_futuri_onti28.md subcodes=6
+20:59:32 INFO [429/731] start insegnanti_futuri_orgi03.md
+20:59:36 INFO [429/731] ok insegnanti_futuri_orgi03.md subcodes=9
+20:59:36 INFO [430/731] start insegnanti_futuri_orgi15.md
+20:59:38 INFO [430/731] ok insegnanti_futuri_orgi15.md subcodes=3
+20:59:38 INFO [431/731] start insegnanti_futuri_orio18.md
+20:59:40 INFO [431/731] ok insegnanti_futuri_orio18.md subcodes=3
+20:59:40 INFO [432/731] start insegnanti_futuri_orsa17.md
+20:59:42 INFO [432/731] ok insegnanti_futuri_orsa17.md subcodes=4
+20:59:42 INFO [433/731] start insegnanti_futuri_ossi27.md
+20:59:47 INFO [433/731] ok insegnanti_futuri_ossi27.md subcodes=7
+20:59:47 INFO [434/731] start insegnanti_futuri_ozzi17.md
+20:59:49 INFO [434/731] ok insegnanti_futuri_ozzi17.md subcodes=7
+20:59:49 INFO [435/731] start insegnanti_futuri_pani16.md
+20:59:51 INFO [435/731] ok insegnanti_futuri_pani16.md subcodes=3
+20:59:51 INFO [436/731] start insegnanti_futuri_pina06.md
+20:59:55 INFO [436/731] ok insegnanti_futuri_pina06.md subcodes=2
+20:59:55 INFO [437/731] start insegnanti_futuri_pina54.md
+20:59:56 INFO [437/731] ok insegnanti_futuri_pina54.md subcodes=2
+20:59:56 INFO [438/731] start insegnanti_futuri_poli03.md
+20:59:58 INFO [438/731] ok insegnanti_futuri_poli03.md subcodes=6
+20:59:58 INFO [439/731] start insegnanti_futuri_prella42.md
+21:00:02 INFO [439/731] ok insegnanti_futuri_prella42.md subcodes=4
+21:00:02 INFO [440/731] start insegnanti_futuri_rghi08.md
+21:00:04 INFO [440/731] ok insegnanti_futuri_rghi08.md subcodes=5
+21:00:04 INFO [441/731] start insegnanti_futuri_rigo23.md
+21:00:08 INFO [441/731] ok insegnanti_futuri_rigo23.md subcodes=11
+21:00:08 INFO [442/731] start insegnanti_futuri_rini29.md
+21:00:10 INFO [442/731] ok insegnanti_futuri_rini29.md subcodes=3
+21:00:10 INFO [443/731] start insegnanti_futuri_rino01.md
+21:00:13 INFO [443/731] ok insegnanti_futuri_rino01.md subcodes=4
+21:00:13 INFO [444/731] start insegnanti_futuri_rone14.md
+21:00:14 INFO [444/731] ok insegnanti_futuri_rone14.md subcodes=1
+21:00:14 INFO [445/731] start insegnanti_futuri_sani26.md
+21:00:18 INFO [445/731] ok insegnanti_futuri_sani26.md subcodes=4
+21:00:18 INFO [446/731] start insegnanti_futuri_sati03.md
+21:00:19 INFO [446/731] ok insegnanti_futuri_sati03.md subcodes=5
+21:00:19 INFO [447/731] start insegnanti_futuri_ser14.md
+21:00:21 INFO [447/731] ok insegnanti_futuri_ser14.md subcodes=4
+21:00:21 INFO [448/731] start insegnanti_futuri_sser26.md
+21:00:27 INFO [448/731] ok insegnanti_futuri_sser26.md subcodes=12
+21:00:27 INFO [449/731] start insegnanti_futuri_tese26.md
+21:00:29 INFO [449/731] ok insegnanti_futuri_tese26.md subcodes=6
+21:00:29 INFO [450/731] start insegnanti_futuri_tino16.md
+21:00:31 INFO [450/731] ok insegnanti_futuri_tino16.md subcodes=1
+21:00:31 INFO [451/731] start insegnanti_futuri_tino71.md
+21:00:33 INFO [451/731] ok insegnanti_futuri_tino71.md subcodes=1
+21:00:33 INFO [452/731] start insegnanti_futuri_toni22.md
+21:00:35 INFO [452/731] ok insegnanti_futuri_toni22.md subcodes=3
+21:00:35 INFO [453/731] start insegnanti_futuri_toni23.md
+21:00:37 INFO [453/731] ok insegnanti_futuri_toni23.md subcodes=4
+21:00:37 INFO [454/731] start insegnanti_futuri_urdi30.md
+21:00:39 INFO [454/731] ok insegnanti_futuri_urdi30.md subcodes=6
+21:00:39 INFO [455/731] start insegnanti_futuri_urso12.md
+21:00:41 INFO [455/731] ok insegnanti_futuri_urso12.md subcodes=5
+21:00:41 INFO [456/731] start insegnanti_futuri_usso06.md
+21:00:45 INFO [456/731] ok insegnanti_futuri_usso06.md subcodes=4
+21:00:45 INFO [457/731] start insegnanti_futuri_vich14.md
+21:00:47 INFO [457/731] ok insegnanti_futuri_vich14.md subcodes=4
+21:00:47 INFO [458/731] start metodologia.md
+21:00:47 INFO [458/731] empty metodologia.md subcodes=0
+21:00:47 INFO [459/731] start studenti_2z1uz.md
+21:00:50 INFO [459/731] ok studenti_2z1uz.md subcodes=8
+21:00:50 INFO [460/731] start studenti_aber28.md
+21:00:53 INFO [460/731] ok studenti_aber28.md subcodes=10
+21:00:53 INFO [461/731] start studenti_aciu28.md
+21:00:58 INFO [461/731] ok studenti_aciu28.md subcodes=11
+21:00:58 INFO [462/731] start studenti_aggi06.md
+21:01:01 INFO [462/731] ok studenti_aggi06.md subcodes=5
+21:01:01 INFO [463/731] start studenti_aggi23.md
+21:01:05 INFO [463/731] ok studenti_aggi23.md subcodes=12
+21:01:05 INFO [464/731] start studenti_agie16.md
+21:01:09 INFO [464/731] ok studenti_agie16.md subcodes=11
+21:01:09 INFO [465/731] start studenti_aldi03.md
+21:01:12 INFO [465/731] ok studenti_aldi03.md subcodes=5
+21:01:12 INFO [466/731] start studenti_alessandra-aprile-28.md
+21:01:14 INFO [466/731] ok studenti_alessandra-aprile-28.md subcodes=3
+21:01:14 INFO [467/731] start studenti_alma15.md
+21:01:16 INFO [467/731] ok studenti_alma15.md subcodes=3
+21:01:16 INFO [468/731] start studenti_alma18.md
+21:01:20 INFO [468/731] ok studenti_alma18.md subcodes=8
+21:01:20 INFO [469/731] start studenti_ande26.md
+21:01:23 INFO [469/731] ok studenti_ande26.md subcodes=8
+21:01:23 INFO [470/731] start studenti_anio03.md
+21:01:26 INFO [470/731] ok studenti_anio03.md subcodes=7
+21:01:26 INFO [471/731] start studenti_anna11.md
+21:01:32 INFO [471/731] ok studenti_anna11.md subcodes=12
+21:01:32 INFO [472/731] start studenti_anni26.md
+21:01:35 INFO [472/731] ok studenti_anni26.md subcodes=9
+21:01:35 INFO [473/731] start studenti_anti03.md
+21:01:39 INFO [473/731] ok studenti_anti03.md subcodes=8
+21:01:39 INFO [474/731] start studenti_anti09.md
+21:01:41 INFO [474/731] ok studenti_anti09.md subcodes=4
+21:01:41 INFO [475/731] start studenti_anzo27.md
+21:01:44 INFO [475/731] ok studenti_anzo27.md subcodes=8
+21:01:44 INFO [476/731] start studenti_arcia13.md
+21:01:48 INFO [476/731] ok studenti_arcia13.md subcodes=7
+21:01:48 INFO [477/731] start studenti_arda29.md
+21:01:49 INFO [477/731] ok studenti_arda29.md subcodes=4
+21:01:49 INFO [478/731] start studenti_ardi01.md
+21:01:52 INFO [478/731] ok studenti_ardi01.md subcodes=7
+21:01:52 INFO [479/731] start studenti_ardi03.md
+21:01:55 INFO [479/731] ok studenti_ardi03.md subcodes=6
+21:01:55 INFO [480/731] start studenti_ardi09.md
+21:01:59 INFO [480/731] ok studenti_ardi09.md subcodes=10
+21:01:59 INFO [481/731] start studenti_ardo03.md
+21:02:03 INFO [481/731] ok studenti_ardo03.md subcodes=3
+21:02:03 INFO [482/731] start studenti_ardo30.md
+21:02:06 INFO [482/731] ok studenti_ardo30.md subcodes=11
+21:02:06 INFO [483/731] start studenti_arli70.md
+21:02:10 INFO [483/731] ok studenti_arli70.md subcodes=14
+21:02:10 INFO [484/731] start studenti_arlo14.md
+21:02:12 INFO [484/731] ok studenti_arlo14.md subcodes=6
+21:02:12 INFO [485/731] start studenti_asia17.md
+21:02:14 INFO [485/731] ok studenti_asia17.md subcodes=5
+21:02:14 INFO [486/731] start studenti_asio30.md
+21:02:15 INFO [486/731] ok studenti_asio30.md subcodes=3
+21:02:15 INFO [487/731] start studenti_assa25.md
+21:02:19 INFO [487/731] ok studenti_assa25.md subcodes=8
+21:02:19 INFO [488/731] start studenti_atti14.md
+21:02:23 INFO [488/731] ok studenti_atti14.md subcodes=11
+21:02:23 INFO [489/731] start studenti_atto01.md
+21:02:26 INFO [489/731] ok studenti_atto01.md subcodes=10
+21:02:26 INFO [490/731] start studenti_auje28.md
+21:02:28 INFO [490/731] ok studenti_auje28.md subcodes=4
+21:02:28 INFO [491/731] start studenti_auro08.md
+21:02:31 INFO [491/731] ok studenti_auro08.md subcodes=8
+21:02:31 INFO [492/731] start studenti_ayed027.md
+21:02:36 INFO [492/731] ok studenti_ayed027.md subcodes=5
+21:02:36 INFO [493/731] start studenti_azio3.md
+21:02:38 INFO [493/731] ok studenti_azio3.md subcodes=4
+21:02:38 INFO [494/731] start studenti_azza13.md
+21:02:41 INFO [494/731] ok studenti_azza13.md subcodes=3
+21:02:41 INFO [495/731] start studenti_azza22.md
+21:02:43 INFO [495/731] ok studenti_azza22.md subcodes=9
+21:02:43 INFO [496/731] start studenti_azzo23.md
+21:02:46 INFO [496/731] ok studenti_azzo23.md subcodes=5
+21:02:46 INFO [497/731] start studenti_bara20.md
+21:02:50 INFO [497/731] ok studenti_bara20.md subcodes=11
+21:02:50 INFO [498/731] start studenti_bara29.md
+21:02:52 INFO [498/731] ok studenti_bara29.md subcodes=6
+21:02:52 INFO [499/731] start studenti_beni22.md
+21:02:55 INFO [499/731] ok studenti_beni22.md subcodes=11
+21:02:55 INFO [500/731] start studenti_bini02.md
+21:02:59 INFO [500/731] ok studenti_bini02.md subcodes=6
+21:02:59 INFO [501/731] start studenti_bini16.md
+21:03:02 INFO [501/731] ok studenti_bini16.md subcodes=10
+21:03:02 INFO [502/731] start studenti_caro22.md
+21:03:08 INFO [502/731] ok studenti_caro22.md subcodes=6
+21:03:08 INFO [503/731] start studenti_chia10.md
+21:03:11 INFO [503/731] ok studenti_chia10.md subcodes=8
+21:03:11 INFO [504/731] start studenti_chia10_2.md
+21:03:15 INFO [504/731] ok studenti_chia10_2.md subcodes=12
+21:03:15 INFO [505/731] start studenti_chio05.md
+21:03:18 INFO [505/731] ok studenti_chio05.md subcodes=7
+21:03:18 INFO [506/731] start studenti_cini21.md
+21:03:22 INFO [506/731] ok studenti_cini21.md subcodes=10
+21:03:22 INFO [507/731] start studenti_ciuc31.md
+21:03:26 INFO [507/731] ok studenti_ciuc31.md subcodes=10
+21:03:26 INFO [508/731] start studenti_coll01.md
+21:03:29 INFO [508/731] ok studenti_coll01.md subcodes=12
+21:03:29 INFO [509/731] start studenti_coni.md
+21:03:31 INFO [509/731] ok studenti_coni.md subcodes=2
+21:03:31 INFO [510/731] start studenti_curi04.md
+21:03:35 INFO [510/731] ok studenti_curi04.md subcodes=11
+21:03:35 INFO [511/731] start studenti_daro04.md
+21:03:40 INFO [511/731] ok studenti_daro04.md subcodes=5
+21:03:40 INFO [512/731] start studenti_ddei02.md
+21:03:44 INFO [512/731] ok studenti_ddei02.md subcodes=8
+21:03:44 INFO [513/731] start studenti_ddei10.md
+21:03:47 INFO [513/731] ok studenti_ddei10.md subcodes=11
+21:03:47 INFO [514/731] start studenti_di34e.md
+21:03:51 INFO [514/731] ok studenti_di34e.md subcodes=1
+21:03:51 INFO [515/731] start studenti_diego.md
+21:03:52 INFO [515/731] ok studenti_diego.md subcodes=4
+21:03:52 INFO [516/731] start studenti_dini04.md
+21:03:55 INFO [516/731] ok studenti_dini04.md subcodes=6
+21:03:55 INFO [517/731] start studenti_dini08.md
+21:03:59 INFO [517/731] ok studenti_dini08.md subcodes=7
+21:03:59 INFO [518/731] start studenti_ecco19-09-81.md
+21:04:01 INFO [518/731] ok studenti_ecco19-09-81.md subcodes=5
+21:04:01 INFO [519/731] start studenti_edko12.md
+21:04:03 INFO [519/731] ok studenti_edko12.md subcodes=4
+21:04:03 INFO [520/731] start studenti_egri25.md
+21:04:08 INFO [520/731] ok studenti_egri25.md subcodes=8
+21:04:08 INFO [521/731] start studenti_ele07.md
+21:04:12 INFO [521/731] ok studenti_ele07.md subcodes=13
+21:04:12 INFO [522/731] start studenti_ella.md
+21:04:15 INFO [522/731] ok studenti_ella.md subcodes=11
+21:04:15 INFO [523/731] start studenti_ella14.md
+21:04:17 INFO [523/731] ok studenti_ella14.md subcodes=5
+21:04:17 INFO [524/731] start studenti_ella17.md
+21:04:20 INFO [524/731] ok studenti_ella17.md subcodes=10
+21:04:20 INFO [525/731] start studenti_ella19.md
+21:04:24 INFO [525/731] ok studenti_ella19.md subcodes=7
+21:04:24 INFO [526/731] start studenti_elli04.md
+21:04:27 INFO [526/731] ok studenti_elli04.md subcodes=13
+21:04:27 INFO [527/731] start studenti_elli08.md
+21:04:31 INFO [527/731] ok studenti_elli08.md subcodes=8
+21:04:31 INFO [528/731] start studenti_elli23.md
+21:04:35 INFO [528/731] ok studenti_elli23.md subcodes=6
+21:04:35 INFO [529/731] start studenti_elli24.md
+21:04:38 INFO [529/731] ok studenti_elli24.md subcodes=9
+21:04:38 INFO [530/731] start studenti_elli27.md
+21:04:43 INFO [530/731] ok studenti_elli27.md subcodes=12
+21:04:43 INFO [531/731] start studenti_elli28.md
+21:04:47 INFO [531/731] ok studenti_elli28.md subcodes=9
+21:04:47 INFO [532/731] start studenti_elli9.md
+21:04:49 INFO [532/731] ok studenti_elli9.md subcodes=4
+21:04:49 INFO [533/731] start studenti_ello14.md
+21:04:52 INFO [533/731] ok studenti_ello14.md subcodes=8
+21:04:52 INFO [534/731] start studenti_ello16.md
+21:04:55 INFO [534/731] ok studenti_ello16.md subcodes=8
+21:04:55 INFO [535/731] start studenti_ello18.md
+21:04:57 INFO [535/731] ok studenti_ello18.md subcodes=6
+21:04:57 INFO [536/731] start studenti_ello27.md
+21:04:59 INFO [536/731] ok studenti_ello27.md subcodes=6
+21:04:59 INFO [537/731] start studenti_emartello30.md
+21:05:03 INFO [537/731] ok studenti_emartello30.md subcodes=6
+21:05:03 INFO [538/731] start studenti_enna19.md
+21:05:06 INFO [538/731] ok studenti_enna19.md subcodes=8
+21:05:06 INFO [539/731] start studenti_enti09.md
+21:05:08 INFO [539/731] ok studenti_enti09.md subcodes=5
+21:05:08 INFO [540/731] start studenti_enzi01.md
+21:05:13 INFO [540/731] ok studenti_enzi01.md subcodes=12
+21:05:13 INFO [541/731] start studenti_eppe03.md
+21:05:17 INFO [541/731] ok studenti_eppe03.md subcodes=11
+21:05:17 INFO [542/731] start studenti_erta03.md
+21:05:21 INFO [542/731] ok studenti_erta03.md subcodes=2
+21:05:21 INFO [543/731] start studenti_erto07.md
+21:05:24 INFO [543/731] ok studenti_erto07.md subcodes=12
+21:05:24 INFO [544/731] start studenti_esca26.md
+21:05:28 INFO [544/731] ok studenti_esca26.md subcodes=10
+21:05:28 INFO [545/731] start studenti_esco22.md
+21:05:31 INFO [545/731] ok studenti_esco22.md subcodes=10
+21:05:31 INFO [546/731] start studenti_esta02.md
+21:05:34 INFO [546/731] ok studenti_esta02.md subcodes=8
+21:05:34 INFO [547/731] start studenti_etta07.md
+21:05:37 INFO [547/731] ok studenti_etta07.md subcodes=7
+21:05:37 INFO [548/731] start studenti_etta30.md
+21:05:41 INFO [548/731] ok studenti_etta30.md subcodes=11
+21:05:41 INFO [549/731] start studenti_etti02.md
+21:05:45 INFO [549/731] ok studenti_etti02.md subcodes=6
+21:05:45 INFO [550/731] start studenti_etti07.md
+21:05:49 INFO [550/731] ok studenti_etti07.md subcodes=8
+21:05:49 INFO [551/731] start studenti_etti08.md
+21:05:51 INFO [551/731] ok studenti_etti08.md subcodes=5
+21:05:51 INFO [552/731] start studenti_etti19.md
+21:05:54 INFO [552/731] ok studenti_etti19.md subcodes=4
+21:05:54 INFO [553/731] start studenti_etti22.md
+21:05:58 INFO [553/731] ok studenti_etti22.md subcodes=9
+21:05:58 INFO [554/731] start studenti_etto06.md
+21:06:00 INFO [554/731] ok studenti_etto06.md subcodes=4
+21:06:00 INFO [555/731] start studenti_fico26.md
+21:06:04 INFO [555/731] ok studenti_fico26.md subcodes=9
+21:06:04 INFO [556/731] start studenti_fini21.md
+21:06:06 INFO [556/731] ok studenti_fini21.md subcodes=2
+21:06:06 INFO [557/731] start studenti_fora21.md
+21:06:08 INFO [557/731] ok studenti_fora21.md subcodes=5
+21:06:08 INFO [558/731] start studenti_fori04.md
+21:06:11 INFO [558/731] ok studenti_fori04.md subcodes=8
+21:06:11 INFO [559/731] start studenti_gelo05.md
+21:06:15 INFO [559/731] ok studenti_gelo05.md subcodes=5
+21:06:15 INFO [560/731] start studenti_gelo14.md
+21:06:19 INFO [560/731] ok studenti_gelo14.md subcodes=12
+21:06:19 INFO [561/731] start studenti_gelo25.md
+21:06:23 INFO [561/731] ok studenti_gelo25.md subcodes=12
+21:06:23 INFO [562/731] start studenti_gemi14.md
+21:06:25 INFO [562/731] ok studenti_gemi14.md subcodes=5
+21:06:25 INFO [563/731] start studenti_gera26.md
+21:06:28 INFO [563/731] ok studenti_gera26.md subcodes=9
+21:06:28 INFO [564/731] start studenti_geri29.md
+21:06:31 INFO [564/731] ok studenti_geri29.md subcodes=5
+21:06:31 INFO [565/731] start studenti_gese.md
+21:06:34 INFO [565/731] ok studenti_gese.md subcodes=9
+21:06:34 INFO [566/731] start studenti_gini04.md
+21:06:37 INFO [566/731] ok studenti_gini04.md subcodes=7
+21:06:37 INFO [567/731] start studenti_glia01.md
+21:06:38 INFO [567/731] ok studenti_glia01.md subcodes=3
+21:06:38 INFO [568/731] start studenti_glia18.md
+21:06:42 INFO [568/731] ok studenti_glia18.md subcodes=12
+21:06:42 INFO [569/731] start studenti_glia24.md
+21:06:45 INFO [569/731] ok studenti_glia24.md subcodes=8
+21:06:45 INFO [570/731] start studenti_glia26.md
+21:06:50 INFO [570/731] ok studenti_glia26.md subcodes=7
+21:06:50 INFO [571/731] start studenti_glio26.md
+21:06:52 INFO [571/731] ok studenti_glio26.md subcodes=6
+21:06:52 INFO [572/731] start studenti_hini29.md
+21:06:56 INFO [572/731] ok studenti_hini29.md subcodes=8
+21:06:56 INFO [573/731] start studenti_hino05.md
+21:06:59 INFO [573/731] ok studenti_hino05.md subcodes=12
+21:06:59 INFO [574/731] start studenti_iala12.md
+21:07:02 INFO [574/731] ok studenti_iala12.md subcodes=10
+21:07:02 INFO [575/731] start studenti_iani17.md
+21:07:06 INFO [575/731] ok studenti_iani17.md subcodes=9
+21:07:06 INFO [576/731] start studenti_iano21.md
+21:07:08 INFO [576/731] ok studenti_iano21.md subcodes=7
+21:07:08 INFO [577/731] start studenti_iase11.md
+21:07:12 INFO [577/731] ok studenti_iase11.md subcodes=12
+21:07:12 INFO [578/731] start studenti_ibba03.md
+21:07:15 INFO [578/731] ok studenti_ibba03.md subcodes=11
+21:07:15 INFO [579/731] start studenti_ibus23.md
+21:07:19 INFO [579/731] ok studenti_ibus23.md subcodes=6
+21:07:19 INFO [580/731] start studenti_ieco10.md
+21:07:22 INFO [580/731] ok studenti_ieco10.md subcodes=11
+21:07:22 INFO [581/731] start studenti_ieri-06.md
+21:07:26 INFO [581/731] ok studenti_ieri-06.md subcodes=8
+21:07:26 INFO [582/731] start studenti_ieri23.md
+21:07:29 INFO [582/731] ok studenti_ieri23.md subcodes=17
+21:07:29 INFO [583/731] start studenti_iesi19.md
+21:07:31 INFO [583/731] ok studenti_iesi19.md subcodes=5
+21:07:31 INFO [584/731] start studenti_illi30.md
+21:07:35 INFO [584/731] ok studenti_illi30.md subcodes=10
+21:07:35 INFO [585/731] start studenti_illo24.md
+21:07:38 INFO [585/731] ok studenti_illo24.md subcodes=7
+21:07:38 INFO [586/731] start studenti_ina06.md
+21:07:40 INFO [586/731] ok studenti_ina06.md subcodes=6
+21:07:40 INFO [587/731] start studenti_inno09.md
+21:07:42 INFO [587/731] ok studenti_inno09.md subcodes=9
+21:07:42 INFO [588/731] start studenti_inti23.md
+21:07:45 INFO [588/731] ok studenti_inti23.md subcodes=4
+21:07:45 INFO [589/731] start studenti_inzi03.md
+21:07:48 INFO [589/731] ok studenti_inzi03.md subcodes=3
+21:07:48 INFO [590/731] start studenti_iola13.md
+21:07:52 INFO [590/731] ok studenti_iola13.md subcodes=3
+21:07:52 INFO [591/731] start studenti_ioni10.md
+21:07:54 INFO [591/731] ok studenti_ioni10.md subcodes=5
+21:07:54 INFO [592/731] start studenti_ioni10_2.md
+21:07:56 INFO [592/731] ok studenti_ioni10_2.md subcodes=4
+21:07:56 INFO [593/731] start studenti_ioni25.md
+21:08:00 INFO [593/731] ok studenti_ioni25.md subcodes=15
+21:08:00 INFO [594/731] start studenti_iosi26.md
+21:08:04 INFO [594/731] ok studenti_iosi26.md subcodes=8
+21:08:04 INFO [595/731] start studenti_ippa03.md
+21:08:07 INFO [595/731] ok studenti_ippa03.md subcodes=11
+21:08:07 INFO [596/731] start studenti_ippa04.md
+21:08:11 INFO [596/731] ok studenti_ippa04.md subcodes=13
+21:08:11 INFO [597/731] start studenti_irulli24.md
+21:08:13 INFO [597/731] ok studenti_irulli24.md subcodes=4
+21:08:13 INFO [598/731] start studenti_isto14.md
+21:08:15 INFO [598/731] ok studenti_isto14.md subcodes=5
+21:08:15 INFO [599/731] start studenti_itti17.md
+21:08:17 INFO [599/731] ok studenti_itti17.md subcodes=6
+21:08:17 INFO [600/731] start studenti_itti19.md
+21:08:19 INFO [600/731] ok studenti_itti19.md subcodes=7
+21:08:19 INFO [601/731] start studenti_izzi02.md
+21:08:25 INFO [601/731] ok studenti_izzi02.md subcodes=10
+21:08:25 INFO [602/731] start studenti_izzo20.md
+21:08:29 INFO [602/731] ok studenti_izzo20.md subcodes=10
+21:08:29 INFO [603/731] start studenti_joka26.md
+21:08:30 INFO [603/731] ok studenti_joka26.md subcodes=5
+21:08:30 INFO [604/731] start studenti_kera01.md
+21:08:33 INFO [604/731] ok studenti_kera01.md subcodes=5
+21:08:33 INFO [605/731] start studenti_lachi02.md
+21:08:37 INFO [605/731] ok studenti_lachi02.md subcodes=6
+21:08:37 INFO [606/731] start studenti_laia07.md
+21:08:40 INFO [606/731] ok studenti_laia07.md subcodes=10
+21:08:40 INFO [607/731] start studenti_lani31.md
+21:08:42 INFO [607/731] ok studenti_lani31.md subcodes=4
+21:08:42 INFO [608/731] start studenti_lico31.md
+21:08:44 INFO [608/731] ok studenti_lico31.md subcodes=6
+21:08:44 INFO [609/731] start studenti_liev17.md
+21:08:47 INFO [609/731] ok studenti_liev17.md subcodes=7
+21:08:47 INFO [610/731] start studenti_lini16.md
+21:08:50 INFO [610/731] ok studenti_lini16.md subcodes=4
+21:08:50 INFO [611/731] start studenti_lini16_2.md
+21:08:54 INFO [611/731] ok studenti_lini16_2.md subcodes=4
+21:08:54 INFO [612/731] start studenti_lini16_3.md
+21:08:56 INFO [612/731] ok studenti_lini16_3.md subcodes=4
+21:08:56 INFO [613/731] start studenti_livi06.md
+21:09:00 INFO [613/731] ok studenti_livi06.md subcodes=12
+21:09:00 INFO [614/731] start studenti_lman28.md
+21:09:04 INFO [614/731] ok studenti_lman28.md subcodes=10
+21:09:04 INFO [615/731] start studenti_lova26.md
+21:09:07 INFO [615/731] ok studenti_lova26.md subcodes=7
+21:09:07 INFO [616/731] start studenti_lupi31.md
+21:09:09 INFO [616/731] ok studenti_lupi31.md subcodes=4
+21:09:09 INFO [617/731] start studenti_magost.md
+21:09:13 INFO [617/731] ok studenti_magost.md subcodes=10
+21:09:13 INFO [618/731] start studenti_mano06.md
+21:09:15 INFO [618/731] ok studenti_mano06.md subcodes=3
+21:09:15 INFO [619/731] start studenti_mar1946.md
+21:09:17 INFO [619/731] ok studenti_mar1946.md subcodes=8
+21:09:17 INFO [620/731] start studenti_masu24.md
+21:09:22 INFO [620/731] ok studenti_masu24.md subcodes=4
+21:09:22 INFO [621/731] start studenti_masè05.md
+21:09:23 INFO [621/731] ok studenti_masè05.md subcodes=3
+21:09:23 INFO [622/731] start studenti_mata06.md
+21:09:29 INFO [622/731] ok studenti_mata06.md subcodes=11
+21:09:29 INFO [623/731] start studenti_mati29.md
+21:09:33 INFO [623/731] ok studenti_mati29.md subcodes=13
+21:09:33 INFO [624/731] start studenti_mele08.md
+21:09:36 INFO [624/731] ok studenti_mele08.md subcodes=5
+21:09:36 INFO [625/731] start studenti_mena06.md
+21:09:40 INFO [625/731] ok studenti_mena06.md subcodes=7
+21:09:40 INFO [626/731] start studenti_mico26.md
+21:09:43 INFO [626/731] ok studenti_mico26.md subcodes=10
+21:09:43 INFO [627/731] start studenti_mili08.md
+21:09:46 INFO [627/731] ok studenti_mili08.md subcodes=10
+21:09:46 INFO [628/731] start studenti_mone27.md
+21:09:50 INFO [628/731] ok studenti_mone27.md subcodes=11
+21:09:50 INFO [629/731] start studenti_moni30.md
+21:09:53 INFO [629/731] ok studenti_moni30.md subcodes=9
+21:09:53 INFO [630/731] start studenti_more08.md
+21:09:58 INFO [630/731] ok studenti_more08.md subcodes=12
+21:09:58 INFO [631/731] start studenti_musa30.md
+21:10:02 INFO [631/731] ok studenti_musa30.md subcodes=12
+21:10:02 INFO [632/731] start studenti_muto03.md
+21:10:06 INFO [632/731] ok studenti_muto03.md subcodes=13
+21:10:06 INFO [633/731] start studenti_nani01.md
+21:10:09 INFO [633/731] ok studenti_nani01.md subcodes=8
+21:10:09 INFO [634/731] start studenti_nani19.md
+21:10:12 INFO [634/731] ok studenti_nani19.md subcodes=11
+21:10:12 INFO [635/731] start studenti_nari23.md
+21:10:15 INFO [635/731] ok studenti_nari23.md subcodes=5
+21:10:15 INFO [636/731] start studenti_naro18.md
+21:10:19 INFO [636/731] ok studenti_naro18.md subcodes=8
+21:10:19 INFO [637/731] start studenti_naro20.md
+21:10:21 INFO [637/731] ok studenti_naro20.md subcodes=12
+21:10:21 INFO [638/731] start studenti_nasa21.md
+21:10:24 INFO [638/731] ok studenti_nasa21.md subcodes=8
+21:10:24 INFO [639/731] start studenti_ncas14.md
+21:10:26 INFO [639/731] ok studenti_ncas14.md subcodes=5
+21:10:26 INFO [640/731] start studenti_nchi12.md
+21:10:32 INFO [640/731] ok studenti_nchi12.md subcodes=8
+21:10:32 INFO [641/731] start studenti_ndri11.md
+21:10:36 INFO [641/731] ok studenti_ndri11.md subcodes=10
+21:10:36 INFO [642/731] start studenti_nelli23.md
+21:10:38 INFO [642/731] ok studenti_nelli23.md subcodes=7
+21:10:38 INFO [643/731] start studenti_nese01.md
+21:10:40 INFO [643/731] ok studenti_nese01.md subcodes=4
+21:10:40 INFO [644/731] start studenti_nini04.md
+21:10:44 INFO [644/731] ok studenti_nini04.md subcodes=10
+21:10:44 INFO [645/731] start studenti_nini09.md
+21:10:45 INFO [645/731] ok studenti_nini09.md subcodes=4
+21:10:45 INFO [646/731] start studenti_niro27.md
+21:10:49 INFO [646/731] ok studenti_niro27.md subcodes=13
+21:10:49 INFO [647/731] start studenti_noli14.md
+21:10:53 INFO [647/731] ok studenti_noli14.md subcodes=11
+21:10:53 INFO [648/731] start studenti_nomo27.md
+21:10:57 INFO [648/731] ok studenti_nomo27.md subcodes=15
+21:10:57 INFO [649/731] start studenti_none01.md
+21:11:02 INFO [649/731] ok studenti_none01.md subcodes=6
+21:11:02 INFO [650/731] start studenti_nzio14.md
+21:11:04 INFO [650/731] ok studenti_nzio14.md subcodes=5
+21:11:04 INFO [651/731] start studenti_obon09.md
+21:11:08 INFO [651/731] ok studenti_obon09.md subcodes=8
+21:11:08 INFO [652/731] start studenti_ogna06.md
+21:11:10 INFO [652/731] ok studenti_ogna06.md subcodes=4
+21:11:10 INFO [653/731] start studenti_omeo18.md
+21:11:14 INFO [653/731] ok studenti_omeo18.md subcodes=11
+21:11:14 INFO [654/731] start studenti_onga28.md
+21:11:17 INFO [654/731] ok studenti_onga28.md subcodes=8
+21:11:17 INFO [655/731] start studenti_onni24.md
+21:11:21 INFO [655/731] ok studenti_onni24.md subcodes=13
+21:11:21 INFO [656/731] start studenti_onte26.md
+21:11:25 INFO [656/731] ok studenti_onte26.md subcodes=16
+21:11:25 INFO [657/731] start studenti_onti04.md
+21:11:28 INFO [657/731] ok studenti_onti04.md subcodes=9
+21:11:28 INFO [658/731] start studenti_orgi03.md
+21:11:34 INFO [658/731] ok studenti_orgi03.md subcodes=12
+21:11:34 INFO [659/731] start studenti_orno24.md
+21:11:37 INFO [659/731] ok studenti_orno24.md subcodes=11
+21:11:37 INFO [660/731] start studenti_orsi10.md
+21:11:39 INFO [660/731] ok studenti_orsi10.md subcodes=6
+21:11:39 INFO [661/731] start studenti_orsi12.md
+21:11:42 INFO [661/731] ok studenti_orsi12.md subcodes=10
+21:11:42 INFO [662/731] start studenti_orvi02.md
+21:11:46 INFO [662/731] ok studenti_orvi02.md subcodes=10
+21:11:46 INFO [663/731] start studenti_osca30.md
+21:11:49 INFO [663/731] ok studenti_osca30.md subcodes=9
+21:11:49 INFO [664/731] start studenti_ossi15.md
+21:11:52 INFO [664/731] ok studenti_ossi15.md subcodes=8
+21:11:52 INFO [665/731] start studenti_osta30.md
+21:11:56 INFO [665/731] ok studenti_osta30.md subcodes=11
+21:11:56 INFO [666/731] start studenti_otta03.md
+21:11:59 INFO [666/731] ok studenti_otta03.md subcodes=12
+21:11:59 INFO [667/731] start studenti_otti12.md
+21:12:01 INFO [667/731] ok studenti_otti12.md subcodes=6
+21:12:01 INFO [668/731] start studenti_ozzi13.md
+21:12:06 INFO [668/731] ok studenti_ozzi13.md subcodes=8
+21:12:06 INFO [669/731] start studenti_peca-17.md
+21:12:08 INFO [669/731] ok studenti_peca-17.md subcodes=3
+21:12:08 INFO [670/731] start studenti_pica11.md
+21:12:12 INFO [670/731] ok studenti_pica11.md subcodes=10
+21:12:12 INFO [671/731] start studenti_rani05.md
+21:12:14 INFO [671/731] ok studenti_rani05.md subcodes=7
+21:12:14 INFO [672/731] start studenti_rani23.md
+21:12:18 INFO [672/731] ok studenti_rani23.md subcodes=11
+21:12:18 INFO [673/731] start studenti_rasso10.md
+21:12:21 INFO [673/731] ok studenti_rasso10.md subcodes=14
+21:12:21 INFO [674/731] start studenti_rati06.md
+21:12:25 INFO [674/731] ok studenti_rati06.md subcodes=8
+21:12:25 INFO [675/731] start studenti_rati17.md
+21:12:28 INFO [675/731] ok studenti_rati17.md subcodes=8
+21:12:28 INFO [676/731] start studenti_rdis30.md
+21:12:32 INFO [676/731] ok studenti_rdis30.md subcodes=15
+21:12:32 INFO [677/731] start studenti_reco08.md
+21:12:34 INFO [677/731] ok studenti_reco08.md subcodes=5
+21:12:34 INFO [678/731] start studenti_reco24.md
+21:12:39 INFO [678/731] ok studenti_reco24.md subcodes=7
+21:12:39 INFO [679/731] start studenti_relli31.md
+21:12:42 INFO [679/731] ok studenti_relli31.md subcodes=6
+21:12:42 INFO [680/731] start studenti_rini11.md
+21:12:44 INFO [680/731] ok studenti_rini11.md subcodes=4
+21:12:44 INFO [681/731] start studenti_rino07.md
+21:12:47 ERROR [681/731] failed studenti_rino07.md: Expecting ',' delimiter: line 21 column 47 (char 567)
+21:12:47 INFO [682/731] start studenti_risi02.md
+21:12:51 INFO [682/731] ok studenti_risi02.md subcodes=10
+21:12:51 INFO [683/731] start studenti_rmas16.md
+21:12:54 INFO [683/731] ok studenti_rmas16.md subcodes=10
+21:12:54 INFO [684/731] start studenti_rone05.md
+21:12:58 INFO [684/731] ok studenti_rone05.md subcodes=9
+21:12:58 INFO [685/731] start studenti_rone11.md
+21:13:00 INFO [685/731] ok studenti_rone11.md subcodes=9
+21:13:00 INFO [686/731] start studenti_rone25.md
+21:13:03 INFO [686/731] ok studenti_rone25.md subcodes=8
+21:13:03 INFO [687/731] start studenti_roni18.md
+21:13:08 INFO [687/731] ok studenti_roni18.md subcodes=9
+21:13:08 INFO [688/731] start studenti_rosi06.md
+21:13:12 INFO [688/731] ok studenti_rosi06.md subcodes=11
+21:13:12 INFO [689/731] start studenti_rtic12.md
+21:13:15 INFO [689/731] ok studenti_rtic12.md subcodes=10
+21:13:15 INFO [690/731] start studenti_ruso12.md
+21:13:19 INFO [690/731] ok studenti_ruso12.md subcodes=7
+21:13:19 INFO [691/731] start studenti_russo.md
+21:13:21 INFO [691/731] ok studenti_russo.md subcodes=4
+21:13:21 INFO [692/731] start studenti_scio16.md
+21:13:24 INFO [692/731] ok studenti_scio16.md subcodes=8
+21:13:24 INFO [693/731] start studenti_silla25.md
+21:13:28 INFO [693/731] ok studenti_silla25.md subcodes=3
+21:13:28 INFO [694/731] start studenti_simi25.md
+21:13:31 INFO [694/731] ok studenti_simi25.md subcodes=5
+21:13:31 INFO [695/731] start studenti_soli13.md
+21:13:33 INFO [695/731] ok studenti_soli13.md subcodes=6
+21:13:33 INFO [696/731] start studenti_solo11.md
+21:13:37 INFO [696/731] ok studenti_solo11.md subcodes=12
+21:13:37 INFO [697/731] start studenti_tella04.md
+21:13:42 INFO [697/731] ok studenti_tella04.md subcodes=5
+21:13:42 INFO [698/731] start studenti_tese28.md
+21:13:44 INFO [698/731] ok studenti_tese28.md subcodes=8
+21:13:44 INFO [699/731] start studenti_tesi11.md
+21:13:48 INFO [699/731] ok studenti_tesi11.md subcodes=12
+21:13:48 INFO [700/731] start studenti_tili10.md
+21:13:52 INFO [700/731] ok studenti_tili10.md subcodes=7
+21:13:52 INFO [701/731] start studenti_tini07.md
+21:13:56 INFO [701/731] ok studenti_tini07.md subcodes=9
+21:13:56 INFO [702/731] start studenti_tini30.md
+21:13:58 INFO [702/731] ok studenti_tini30.md subcodes=3
+21:13:58 INFO [703/731] start studenti_tino03.md
+21:14:02 INFO [703/731] ok studenti_tino03.md subcodes=8
+21:14:02 INFO [704/731] start studenti_tino1.md
+21:14:06 INFO [704/731] ok studenti_tino1.md subcodes=10
+21:14:06 INFO [705/731] start studenti_tioli20.md
+21:14:09 INFO [705/731] ok studenti_tioli20.md subcodes=6
+21:14:09 INFO [706/731] start studenti_tisti14.md
+21:14:14 INFO [706/731] ok studenti_tisti14.md subcodes=10
+21:14:14 INFO [707/731] start studenti_tofa14.md
+21:14:17 INFO [707/731] ok studenti_tofa14.md subcodes=6
+21:14:17 INFO [708/731] start studenti_tone10.md
+21:14:20 INFO [708/731] ok studenti_tone10.md subcodes=10
+21:14:20 INFO [709/731] start studenti_tori07.md
+21:14:24 INFO [709/731] ok studenti_tori07.md subcodes=8
+21:14:24 INFO [710/731] start studenti_toti07.md
+21:14:27 INFO [710/731] ok studenti_toti07.md subcodes=8
+21:14:27 INFO [711/731] start studenti_tta12.md
+21:14:29 INFO [711/731] ok studenti_tta12.md subcodes=2
+21:14:29 INFO [712/731] start studenti_ucci09.md
+21:14:32 INFO [712/731] ok studenti_ucci09.md subcodes=4
+21:14:32 INFO [713/731] start studenti_ucci14.md
+21:14:34 INFO [713/731] ok studenti_ucci14.md subcodes=5
+21:14:34 INFO [714/731] start studenti_ucci19.md
+21:14:38 INFO [714/731] ok studenti_ucci19.md subcodes=12
+21:14:38 INFO [715/731] start studenti_ucci31.md
+21:14:41 INFO [715/731] ok studenti_ucci31.md subcodes=9
+21:14:41 INFO [716/731] start studenti_uida30.md
+21:14:46 INFO [716/731] ok studenti_uida30.md subcodes=7
+21:14:46 INFO [717/731] start studenti_ulou14.md
+21:14:49 INFO [717/731] ok studenti_ulou14.md subcodes=11
+21:14:49 INFO [718/731] start studenti_ummo22.md
+21:14:53 INFO [718/731] ok studenti_ummo22.md subcodes=11
+21:14:53 INFO [719/731] start studenti_uovo24.md
+21:14:55 INFO [719/731] ok studenti_uovo24.md subcodes=5
+21:14:55 INFO [720/731] start studenti_uppa08.md
+21:14:57 INFO [720/731] ok studenti_uppa08.md subcodes=6
+21:14:57 INFO [721/731] start studenti_urdi04.md
+21:15:01 INFO [721/731] ok studenti_urdi04.md subcodes=10
+21:15:01 INFO [722/731] start studenti_usso09.md
+21:15:05 INFO [722/731] ok studenti_usso09.md subcodes=10
+21:15:05 INFO [723/731] start studenti_usso14.md
+21:15:07 INFO [723/731] ok studenti_usso14.md subcodes=6
+21:15:07 INFO [724/731] start studenti_usso26.md
+21:15:10 INFO [724/731] ok studenti_usso26.md subcodes=5
+21:15:10 INFO [725/731] start studenti_uzza29.md
+21:15:15 INFO [725/731] ok studenti_uzza29.md subcodes=11
+21:15:15 INFO [726/731] start studenti_uzzi27.md
+21:15:19 INFO [726/731] ok studenti_uzzi27.md subcodes=11
+21:15:19 INFO [727/731] start studenti_vacci21.md
+21:15:22 INFO [727/731] ok studenti_vacci21.md subcodes=5
+21:15:22 INFO [728/731] start studenti_vale6.md
+21:15:24 INFO [728/731] ok studenti_vale6.md subcodes=6
+21:15:24 INFO [729/731] start studenti_vese2.md
+21:15:27 INFO [729/731] ok studenti_vese2.md subcodes=9
+21:15:27 INFO [730/731] start studenti_vito21.md
+21:15:30 INFO [730/731] ok studenti_vito21.md subcodes=8
+21:15:30 INFO [731/731] start studenti_zano18.md
+21:15:34 INFO [731/731] ok studenti_zano18.md subcodes=8
+21:15:34 INFO Completato: processed=729 failures=2 statuses={'skipped': 6, 'ok': 722, 'empty': 1} elapsed=2213.35s
+{
+  "processed": 729,
+  "failures": 2,
+  "statuses": {
+    "skipped": 6,
+    "ok": 722,
+    "empty": 1
+  },
+  "output_dir": "/home/nugh75/-qtimes/Praxis-ql/labels/ollama-qwen3-5-9b",
+  "elapsed_seconds": 2213.35
+}

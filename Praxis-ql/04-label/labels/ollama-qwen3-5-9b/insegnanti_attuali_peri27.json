@@ -1,0 +1,81 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_peri27.md",
+  "source_name": "insegnanti_attuali_peri27.md",
+  "title": "Risposta peri27",
+  "group": "Insegnanti in servizio",
+  "record_code": "peri27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:51:47.864153+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1a",
+    "R1",
+    "S3",
+    "S4",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di insegnante in fase di transizione: riconosce potenzialità (X6, X2) ma teme l'erosione del pensiero critico (S4) e l'appiattimento (S3). Attualmente non usa l'IA per mancanza di formazione (A1, R1).",
+  "code_counts": {
+    "A1": 2,
+    "N1a": 2,
+    "R1": 2,
+    "S3": 1,
+    "S4": 2,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ancora non utilizzo AI son sono specializzata a farlo appena finisco il corso penso che la utilizzerò.",
+      "codes": [
+        "N1a",
+        "R1",
+        "A1"
+      ],
+      "reason": "Risposta breve che esprime mancanza di competenza pratica (R1) e assenza di formazione/formale (A1), rendendo l'etichettatura completa difficile (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho esperienza",
+      "codes": [
+        "N1a",
+        "R1",
+        "A1"
+      ],
+      "reason": "Risposta estremamente breve che indica mancanza di esperienza (R1) e assenza di formazione (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro aiuterebbe a creare nuove strategie nella didattica per l'infanzia, i contro fare attenzione ad non abusare",
+      "codes": [
+        "X6",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: arricchimento e innovazione (X6), comprensione più rapida (X2). Contro: erosione del pensiero critico (S4) se non controllato."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Agli studenti, limiterebbe la loro creatività e inventiva",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Limitare creatività e inventiva degli studenti corrisponde a appiattimento/omologazione (S3) ed erosione del pensiero critico (S4)."
+    }
+  ]
+}

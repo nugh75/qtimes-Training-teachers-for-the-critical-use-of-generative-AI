@@ -1,0 +1,58 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_irulli24.md",
+  "source_name": "studenti_irulli24.md",
+  "title": "Risposta irulli24",
+  "group": "Studenti",
+  "record_code": "irulli24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:13.228760+00:00",
+  "record_dimensions": [
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studenti che vedono l'IA come strumento di supporto alla riscrittura e sintesi, con assenza di difficoltà segnalate.",
+  "code_counts": {
+    "N1a": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè ti da delle risposte brevi ma anche approfondite",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "Risposta evidenzia risposte brevi ma approfondite (X2) e adattamento al singolo (X3)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perche se chiedi un argomento all'intelligenza artificiale di da l'argomento e tu lo devi solo riscrivere e studiare",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA fornisce l'argomento per riscrivere e studiare, indicando semplificazione (X2) e supporto all'organizzazione del percorso (X5)."
+    },
+    {
+      "index": 3,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuno' è troppo breve per supportare un'attribuzione di codici specifici."
+    }
+  ]
+}

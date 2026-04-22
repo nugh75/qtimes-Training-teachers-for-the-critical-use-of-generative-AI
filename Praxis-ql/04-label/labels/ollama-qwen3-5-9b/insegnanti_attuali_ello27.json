@@ -1,0 +1,59 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ello27.md",
+  "source_name": "insegnanti_attuali_ello27.md",
+  "title": "Risposta Ello27",
+  "group": "Insegnanti in servizio",
+  "record_code": "Ello27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:03.677171+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "S4",
+    "S5",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti con esperienza limitata o incerta sull'uso dell'IA, focalizzati su rischi percepiti (perdita capacità riassuntiva) e mancanza di pratiche consolidate.",
+  "code_counts": {
+    "N1a": 2,
+    "S4": 1,
+    "S5": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora sperimentato, ho solo provato a creare dei quiz",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro perché può trovare informazioni in vari siti in contemporanea contro uso sproposito e inadeguato da parte degli alunni che non sono più in grado di riassumere niente",
+      "codes": [
+        "X2",
+        "S4",
+        "S5"
+      ],
+      "reason": "Pro: semplificazione e comprensione (X2). Contro: erosione pensiero critico (S4) e informazioni false/imprecisione (S5)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_garo04.md",
+  "source_name": "insegnanti_futuri_garo04.md",
+  "title": "Risposta Garo04",
+  "group": "Insegnanti pre-service",
+  "record_code": "Garo04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:20.102562+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P6",
+    "R1",
+    "S2",
+    "S4",
+    "X1"
+  ],
+  "record_note": "Partecipante in fase pre-service (non insegna ancora), risposte prevalentemente fuori tema o vuote.",
+  "code_counts": {
+    "N1b": 7,
+    "P6": 1,
+    "R1": 1,
+    "S2": 2,
+    "S4": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "\" \"",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgbc perché la uso anche sul cell",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGBC) e uso personale."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non insegno ancora",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sull'uso didattico."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla personalizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Nulla",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota/non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Per fare i compiti",
+      "codes": [
+        "X1",
+        "S2"
+      ],
+      "reason": "Uso compensativo per i compiti (efficienza) e rischio di ghostwriting/plagio."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non insegno ancora",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sull'uso didattico."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non insegno ancora",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulle difficoltà."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti copiano",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Copia degli studenti (plagio) e erosione del pensiero critico."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non insegno ancora",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulle pratiche non raccomandate."
+    }
+  ]
+}

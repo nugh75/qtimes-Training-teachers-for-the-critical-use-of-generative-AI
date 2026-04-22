@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tone10.md",
+  "source_name": "studenti_tone10.md",
+  "title": "Risposta tone10",
+  "group": "Studenti",
+  "record_code": "tone10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:20.714264+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S1",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che usa l'IA per efficienza e semplificazione, consapevole dei limiti tecnici e dei rischi di dipendenza cognitiva, evitando ambiti sensibili come la medicina.",
+  "code_counts": {
+    "I2": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S1": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat GPT",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (Chat GPT) e percezione della competenza d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Riassumere concetti complessi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Azione di schematizzazione/riassunto per semplificare e comprendere concetti complessi."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi potresti spiegare questo concetto in modo tale che lo capisca anche se non sono esperto in materia",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio esplicito di prompt e dimostrazione di competenza nella formulazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Schematizza concetti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Azione di schematizzazione concettuale per migliorare l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ha migliorato la rapidità con la quale apprendo",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Miglioramento della rapidità di apprendimento e comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte se troppo specifico non capisce il concetto",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Limitazione funzionale dell'IA (non capisce concetti troppo specifici)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono molteplici, soprattutto la rapidità con la quale riesco a modificare la risposta di IA, o cercare affermazioni che più si adeguano alla mia domanda. Mi aiuta anche a scrivere mail formali.  I contro sono quelli che con il tempo divento più pigro nel cercare soluzioni",
+      "codes": [
+        "X1",
+        "X2",
+        "S1"
+      ],
+      "reason": "Pro: efficienza e personalizzazione; Contro: dipendenza/pigrizia cognitiva."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Per revisionare casi clinici, a volte da diagnosi troppo superficiali",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (diagnosi medica) e rischio di superficialità."
+    }
+  ]
+}

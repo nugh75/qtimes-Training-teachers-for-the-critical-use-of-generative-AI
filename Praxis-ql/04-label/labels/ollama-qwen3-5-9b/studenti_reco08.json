@@ -1,0 +1,63 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_reco08.md",
+  "source_name": "studenti_reco08.md",
+  "title": "Risposta Reco08",
+  "group": "Studenti",
+  "record_code": "Reco08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:47:21.461764+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Il record evidenzia un approccio critico all'IA: rifiuto basato su metodi consolidati, riconoscimento dei rischi di dipendenza e plagio, e definizione di confini etici precisi.",
+  "code_counts": {
+    "R5": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché ho trovato un mio metodo che non implica l'uso dell'IA.",
+      "codes": [
+        "X3",
+        "X5",
+        "R5"
+      ],
+      "reason": "L'utente cita un metodo personale (X3), che gli permette di organizzarsi (X5) e rifiuta l'IA per scelta epistemica/consapevole (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che facilità il lavoro e velocizza il processo, i contro sono che le persone non ci mettono più impegno nelle cose che fanno",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Vantati: facilità e velocità (X1, X2). Svantato: mancanza di impegno che porta all'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "L'IA per me non dovrebbe essere usata per svolgere i compiti a casa o scrivere i temi in classe",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

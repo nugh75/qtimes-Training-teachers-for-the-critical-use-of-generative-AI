@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_itti17.md",
+  "source_name": "studenti_itti17.md",
+  "title": "Risposta Itti17",
+  "group": "Studenti",
+  "record_code": "Itti17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:17.447388+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "N1b",
+    "R5",
+    "S1",
+    "X2"
+  ],
+  "record_note": "Profilo di studenti che mostrano resistenza all'uso dell'IA per abitudine allo studio tradizionale e sfiducia tecnica, con percezione di rischi legati alla riduzione dell'impegno personale.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "R5": 2,
+    "S1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non ne ho la necessità",
+      "codes": [
+        "N1a",
+        "R5"
+      ],
+      "reason": "Risposta breve (N1a) che indica una scelta motivata da insicurezza o rifiuto (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché sono stata abituata ad uno studio tradizionale e personale.  Mancanza di fiducia nello strumento",
+      "codes": [
+        "R5",
+        "I2"
+      ],
+      "reason": "Non uso motivato da insicurezza (R5) e mancanza di fiducia nello strumento (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: approfondire tematiche  Contro: ridotto impegno personale",
+      "codes": [
+        "X2",
+        "S1"
+      ],
+      "reason": "Pro: comprensione più rapida (X2); Contro: ridotto impegno personale (S1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat gbt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (N1b) che cita solo un nome di strumento senza spiegare le pratiche non raccomandate."
+    }
+  ]
+}

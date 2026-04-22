@@ -1,0 +1,132 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_illi01.md",
+  "source_name": "insegnanti_attuali_illi01.md",
+  "title": "Risposta ILLI01",
+  "group": "Insegnanti in servizio",
+  "record_code": "ILLI01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:41:04.065870+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "P2",
+    "P5",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso dell'IA focalizzato sulla produzione di materiali (riassunti, semplificazione) e sulla velocità, con una chiara consapevolezza dei rischi di delega cognitiva e perdita di creatività.",
+  "code_counts": {
+    "A1": 1,
+    "A2": 1,
+    "P2": 1,
+    "P5": 4,
+    "S4": 1,
+    "X1": 3,
+    "X2": 6,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Riassumere testi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Riassumere testi è un'attività di produzione (P5) che porta a semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Semplificazione materiali didattici",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Semplificazione materiali didattici rientra nella produzione (P5) e nella semplificazione/comprensione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Semplificazione materiali didattici",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Semplificazione materiali didattici rientra nella produzione (P5) e nella semplificazione/comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo utilizzando un linguaggio comprensibile a un ragazzo di prima media con scarse capacità lessicali e di comprensione del testo",
+      "codes": [
+        "P5",
+        "P2",
+        "X3",
+        "X2"
+      ],
+      "reason": "Il prompt descrive un riassunto (P5) personalizzato per uno studente specifico (P2, X3) con linguaggio semplice (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha semplificato velocizzato  il mio lavoro a loro favore",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Semplificazione e velocizzazione del lavoro (X1, X2)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Grazie alla velocità con cui riesco a diversificare le attività rispetto alle varie esigenze degli studenti",
+      "codes": [
+        "X1",
+        "X3"
+      ],
+      "reason": "Velocità di diversificazione delle attività per esigenze diverse (X1, X3)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Imparo da sola e impiego molto tempo",
+      "codes": [
+        "A2",
+        "A1"
+      ],
+      "reason": "Imparare da sola indica assenza di supporto formale (A1) o supporto insufficiente (A2)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: la rapidità e la flessibiltà con cui si preparano materiali di diverso tipo per diverse esigenze educative; avere rapidamente proposte alternative rispetto a una richiesta. CONTRO: lasciare che IA pensi al nostro posto, indebolimento  del pensiero creativo",
+      "codes": [
+        "X1",
+        "X2",
+        "X6",
+        "S4"
+      ],
+      "reason": "Pro: rapidità (X1), flessibilità (X2), innovazione (X6). Contro: indebolimento pensiero creativo (S4)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produrre materiali e soluzioni al posto degli studenti. cioè smettere di usare criticamente e creativamente la propria mente",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

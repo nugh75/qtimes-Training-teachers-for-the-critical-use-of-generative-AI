@@ -1,0 +1,135 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_atti14.md",
+  "source_name": "studenti_atti14.md",
+  "title": "Risposta Atti14",
+  "group": "Studenti",
+  "record_code": "Atti14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:23.159307+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "N1a",
+    "N1b",
+    "P5",
+    "P7",
+    "R1",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per supporto operativo (riassunti, velocità) ma manifesta incertezza sulle funzionalità avanzate e consapevolezza dei limiti etici/epistemici (falsità, delega eccessiva).",
+  "code_counts": {
+    "I2": 1,
+    "I4": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "P5": 1,
+    "P7": 1,
+    "R1": 1,
+    "S7": 1,
+    "X1": 3,
+    "X2": 4,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono molto pratica e non conosco bene le sue funzioni",
+      "codes": [
+        "R1",
+        "N1a"
+      ],
+      "reason": "R1: dichiara di non conoscere le funzioni (competenza percepita bassa); N1a: risposta breve e non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt abbastanza facile da usare",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "X1: facile da usare (risparmio tempo/efficienza); X2: facile da usare (semplificazione)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo di aiutare a fare riassunti o chiarirmi informazioni più complesse",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "P5: richiesta di riassunti e chiarimenti (strategie operative); X3: personalizzazione dello studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao puoi aiutarmi a riassumere questi appunti in maniera completa e universitaria",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "P7: prompt visibile descritto; X2: chiarificazione e comprensione rapida."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi velocizza nello studio e completa le informazioni",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "X1: velocizza lo studio; X2: completa informazioni (comprensione)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho approfondito informazioni che non capivo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "X2: approfondimento di informazioni non capite (comprensione)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nell’ottobre risposte chiare sin da subito",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "N1b: risposta fuori tema (affermazione positiva su chiarezza invece di elencare difficoltà)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Velocizzare lo studio/ non ottenere informazioni vere",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "X1: velocizzare lo studio; I2: non ottenere informazioni vere (sfiducia/errori)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Facilitare compiti per cui si dovrebbe avere una conoscenza già approfondita",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "S7: ambiti off-limits (compiti che richiedono conoscenza approfondita); I4: insostituibilità del giudizio umano."
+    }
+  ]
+}

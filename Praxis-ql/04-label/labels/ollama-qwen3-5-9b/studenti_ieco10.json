@@ -1,0 +1,133 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ieco10.md",
+  "source_name": "studenti_ieco10.md",
+  "title": "Risposta IECO10",
+  "group": "Studenti",
+  "record_code": "IECO10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:22.607066+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I3",
+    "N1a",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per semplificazione e personalizzazione, con consapevolezza dei rischi di abuso altrui e rifiuto di usi che compromettono l'apprendimento attivo.",
+  "code_counts": {
+    "I3": 1,
+    "N1a": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota/non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché è l’unico che utilizzo",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Identificazione di uno strumento specifico (ChatGPT) e dichiarazione di esclusività d'uso."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "facendo rielaborare i concetti quando sul libro sono troppo prolissi o di difficile comprensione",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per semplificare testi prolissi (X2) e adattare la spiegazione al singolo studente (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi rielaborare questo concetto",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formulare istruzioni."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendomi capire alcuni concetti in modo più veloce",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio percepito nella comprensione più rapida dei concetti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "rielaborando concetti che facevo fatica a capire",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Esempio specifico di miglioramento dell'apprendimento tramite rielaborazione di concetti difficili."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota/non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro :alcune persone fanno abuso dell’IA, pro: può essere uno strumento utile che velocizza lo studio",
+      "codes": [
+        "X1",
+        "X6",
+        "I3"
+      ],
+      "reason": "Pro: velocizzazione (X1), utilità (X6); Contro: abuso da parte di altri (I3 - fiducia/etica utenti)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "le pratiche di risoluzione dei quiz",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di un ambito off-limits (risoluzione quiz) per lo studio."
+    }
+  ]
+}

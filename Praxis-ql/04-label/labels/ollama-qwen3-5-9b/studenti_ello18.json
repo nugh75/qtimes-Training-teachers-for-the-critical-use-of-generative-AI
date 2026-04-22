@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ello18.md",
+  "source_name": "studenti_ello18.md",
+  "title": "Risposta Ello18",
+  "group": "Studenti",
+  "record_code": "Ello18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:57.898536+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S7",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che distingue nettamente tra uso analogico preferito e uso strumentale dell'IA, con attenzione alla valutazione delle capacità umane.",
+  "code_counts": {
+    "R5": 2,
+    "S7": 1,
+    "X2": 1,
+    "X3": 2,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco l’analogico",
+      "codes": [
+        "R5",
+        "X3"
+      ],
+      "reason": "Rifiuto consapevole (R5) basato su preferenza per l'analogico (X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Preferenza per l’analogico",
+      "codes": [
+        "R5",
+        "X3"
+      ],
+      "reason": "Non-uso motivato da scelta epistemica/preferenza per l'analogico (R5, X3)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Può aiutare nella schematizzazione di grasse quantità di dati (es. indici di più libri)",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Benefici percepiti: schematizzazione dati (X2) e supporto al percorso (X5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Usarlo durante una prova d’esame, bisogna valutare le capacità della persona e non della macchina",
+      "codes": [
+        "S7",
+        "X7"
+      ],
+      "reason": "Ambito off-limits valutazione (S7) subordinato a controllo umano (X7)."
+    }
+  ]
+}

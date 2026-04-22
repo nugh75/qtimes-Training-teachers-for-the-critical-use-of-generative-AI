@@ -1,0 +1,124 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_curi04.md",
+  "source_name": "studenti_curi04.md",
+  "title": "Risposta curi04",
+  "group": "Studenti",
+  "record_code": "curi04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:03:35.889680+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per supporto cognitivo (spiegazioni, semplificazione) ma mantiene una forte consapevolezza dei limiti etici (scrittura) e pedagogici (metabolizzazione dei contenuti).",
+  "code_counts": {
+    "N1a": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 4,
+    "X3": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gtp 4 e Siri per la velocità e la semplicità",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti specifici (ChatGPT, Siri) e benefici legati a velocità, semplicità e comprensione rapida."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per farmi spiegare un argomento complesso",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per spiegare argomenti complessi, adattando il contenuto al singolo studente."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi spiegarmi meglio questo concetto o puoi semplificarlo",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt ('Puoi spiegarmi meglio...') e funzione di semplificazione/concettualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Perchè argomenti complessi vengono riportati all’essenziale, grazie alla quale è più facile trovarne il senso , una definizione e una visione d’insieme",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite focalizzazione sull'essenziale e visione d'insieme."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Tramite la creazione di risposte precise e semplici o tramite la spiegazione di argomenti complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento tramite risposte precise, semplici e spiegazioni di concetti complessi."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuno' è troppo breve per attribuire codici specifici di difficoltà o contesto."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la rapidità dell’apprendimento e la precisione dell’apprendimento, i contro sono che a volte sembra che sostituiscano i processi individuali di metabolizzazione ed elaborazione dei contenuti",
+      "codes": [
+        "X1",
+        "X7",
+        "S4"
+      ],
+      "reason": "Pro: rapidità (X1); Contro: sostituzione processi individuali (S4) e rischio di omologazione (S3) se non controllati (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La scrittura di testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione della scrittura di testi come ambito off-limits per l'uso accademico."
+    }
+  ]
+}

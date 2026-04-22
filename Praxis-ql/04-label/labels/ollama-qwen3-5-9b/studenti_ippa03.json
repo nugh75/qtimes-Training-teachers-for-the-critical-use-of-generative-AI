@@ -1,0 +1,125 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ippa03.md",
+  "source_name": "studenti_ippa03.md",
+  "title": "Risposta ippa03",
+  "group": "Studenti",
+  "record_code": "ippa03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:07.503501+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per efficienza e ricerca, con consapevolezza dei limiti (allucinazioni) ma senza difficoltà tecniche segnalate.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 2,
+    "P2": 1,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "X1": 1,
+    "X2": 5,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "perché riesco a trovare informazioni che spesso non riesco a trovare su internet",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti preferiti (P6) e beneficio di comprensione più rapida/focalizzazione (X2)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "lo uso per ricerche",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per personalizzare lo studio (P2) e attenzione al singolo (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedo di fare riassunti o ricerche o spiegazioni",
+      "codes": [
+        "P5",
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempi di prompt per riassunti/spiegazioni (P5, P7) e semplificazione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "riesce ad abbreviare i tempi e mi trasmette le informazioni necessarie in modo chiaro",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Abbreviazione dei tempi (X2) e supporto al percorso (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "interrogazioni andate bene per ricerche fatte con l’IA",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Miglioramento tramite simulazione/interrogazioni (P4) e comprensione rapida (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro è che abbreviò i temi e ricevo molte informazioni necessarie i contro che magri a volte le info sono sbagliate",
+      "codes": [
+        "X2",
+        "I2",
+        "X1"
+      ],
+      "reason": "Pro: efficienza (X2); Contro: informazioni sbagliate (I2); Pro: risparmio tempo (X1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non saprei",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa."
+    }
+  ]
+}

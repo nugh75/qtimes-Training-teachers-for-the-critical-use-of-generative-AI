@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ella26.md",
+  "source_name": "insegnanti_attuali_ella26.md",
+  "title": "Risposta ella26",
+  "group": "Insegnanti in servizio",
+  "record_code": "ella26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:40.189048+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1b",
+    "P1",
+    "P5",
+    "S4",
+    "X2",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record mostra una forte variabilità: da risposte non informative o fuori tema a una riflessione complessa sull'integrazione dell'IA con attenzione al controllo umano e ai rischi di perdita di originalità.",
+  "code_counts": {
+    "I1": 1,
+    "N1b": 3,
+    "P1": 1,
+    "P5": 1,
+    "S4": 1,
+    "X2": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho avuto la necessità",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente nega la necessità senza spiegare il motivo del non uso richiesto dalla domanda."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Utilizzo altre app",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente risponde citando l'uso di altre app, ignorando la richiesta di spiegare il perché del non uso dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'AI agisce sui dati della sua \"esperienza\", impara da noi, è al nostro servizio e non al posto nostro. Noi possiamo creare in poco tempo con l'IA, potrà essere utilizzata a integrazione degli approcci tradizionali, per sviluppare competenze critiche di uso della tecnologia in relazione alla lingua e alla letteratura (correzione degli errori, analisi, creazione di contenuti..)mettendo lo studente nella condizione di sfruttare le possibilità offerte dall'IA in modo ancillare rispetto all'azione umana(e non in sostituzione di essa). Sarà utile, per esempio,  guidare gli studenti nella lettura e quindi nella riscrittura di testi prodotti dall'IA; riconoscere i pregi e i difetti, saperli rielaborare, cogliere la loro mancanza di originalità, imparare a integrarli con spunti personali. Con l'IA si possono creare giochi didattici, mappe, scritture creative, inserire video, foto, progetti, storie, verifiche, editor di foto, utilizzare excel, tabelle, grafici, fare determinate funzioni, formule magiche,  con canva fogli e con elementi d posso elaborare le informazioni.",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X6",
+        "X7",
+        "I1",
+        "S4"
+      ],
+      "reason": "Descrive la produzione di materiali (P1, P5), la semplificazione e comprensione (X2), l'arricchimento e innovazione (X6), il cambiamento condizionato al controllo umano (X7), la fiducia tecnica condizionata (I1) e l'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ho esperienza con chatGPT è una macchina che dipende da noi , invece Gemini è migliore per generare le immagini. Poi conosco Canva + Al.   Non ho conoscenza di altre per ora.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente elenca strumenti conosciuti invece di rispondere alla domanda su pratiche non raccomandate."
+    }
+  ]
+}

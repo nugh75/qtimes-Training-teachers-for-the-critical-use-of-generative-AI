@@ -1,0 +1,57 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_vito02.md",
+  "source_name": "insegnanti_attuali_vito02.md",
+  "title": "Risposta vito02",
+  "group": "Insegnanti in servizio",
+  "record_code": "vito02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:43:40.885106+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S7",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record mostra una posizione critica verso l'IA, distinguendo tra ambiti tecnici e relazionali, con una preferenza marcata per i metodi tradizionali.",
+  "code_counts": {
+    "R5": 1,
+    "S7": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Preferisco ancora usare metodi tradizionali",
+      "codes": [
+        "R5",
+        "S7"
+      ],
+      "reason": "Rifiuto consapevole (R5) basato sulla preferenza per metodi tradizionali e rispetto dei limiti etici (S7) come l'intelligenza emotiva."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Accesso a tutte le informazioni.  Spersonalizzazione dei lavori",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "Pro: accesso informazioni (X2) e personalizzazione (X3). Contro: 'Spersonalizzazione' (X3 negativo/ambiguo) o S3/S4 non esplicitati, ma il codice X3 copre l'aspetto personalizzazione/attenzione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sostituzione della AI laddove serve intelligenza emotiva",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

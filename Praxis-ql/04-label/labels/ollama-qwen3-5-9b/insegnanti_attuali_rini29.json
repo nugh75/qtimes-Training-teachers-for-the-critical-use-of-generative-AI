@@ -1,0 +1,154 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rini29.md",
+  "source_name": "insegnanti_attuali_rini29.md",
+  "title": "Risposta RINI29",
+  "group": "Insegnanti in servizio",
+  "record_code": "RINI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:42.962006+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I2",
+    "I4",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S1",
+    "S4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Insegnante con approccio critico e riflessivo: utilizza l'IA per supporto e verifica ma ne evidenzia i rischi di dipendenza e perdita di autonomia, valorizzando la relazione umana.",
+  "code_counts": {
+    "A1": 1,
+    "I2": 1,
+    "I4": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S1": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 3,
+    "X3": 2,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "GEMINI E CHAT GPT. LI TROVO FACILI DA UTILIZZARE E UTILI",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di strumenti specifici (Gemini, ChatGPT) e citazione di facilità d'uso e utilità (risparmio tempo)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E  AI BISOGNI DI CIASCUN ALUNNO.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adattamento dei percorsi alle caratteristiche degli alunni (individualizzazione) e attenzione al singolo."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "PER CREARE CONTENUTI SU MISURA",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di contenuti su misura (produzione) per garantire eccellenza e potenzialità (personalizzazione)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "CREA UNA VERIFICA COMPOSTA DA TRE DOMANDE CON RISPOSTA VERO/FALSO E TRE DOMANDE CON RISPOSTA MULTIPLA (SCRIVENDO L'ARGOMENTO SU CUI COSTRUIRE LA VERIFICA)",
+      "codes": [
+        "P1",
+        "P5",
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt per creare verifiche (produzione, strategie operative, prompting visibile) che semplifica e focalizza l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "ABBIAMO USATO L'AI NON PER TROVARE SOLUZIONI MA PER CERCARE LA VERIDICITA' DELLE RISPOSTE A DOMANDE POSTE ALL' AI.  HO SOTTOLINEATO L'IMPORTANZA DI CHIEDERE LE FONTI DELLE RISPOSTE DATE DALL'AI PER VERIFICARNE LA VERIDICITA' E LA CORRETTEZZA",
+      "codes": [
+        "I2",
+        "X2",
+        "X5"
+      ],
+      "reason": "Uso dell'IA per verificare la veridicità (sfiducia/allucinazioni) e ricerca di fonti, migliorando autonomia e supporto al percorso."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "UTILIZZARLA COME SGTRUMENTO DI RICERCA",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Uso come strumento di ricerca per migliorare l'apprendimento (comprensione e supporto)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "LA MIA NON CONOSCENZA DI TUTTI I SSTRUMENTI DI AI",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Difficoltà dovuta alla non conoscenza degli strumenti (mancanza formazione/competenza pratica)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: VELOCIZZARE IL LAVORO CONTRO: DIVENTARNE DIPENDENTI, AFFIDARSI TROPPO AGLI STRUMENTI DELL'AI E  RIDURRE LA CAPACITA' DI APPRENDERE E FORMARE UN PENSIERO CRITICO; FATICARE A TROVARE GIUSTE SOLUZIONI A PROBLEMI ED ESSRE AUTONOMI. IL RISCHIO MOLTO ELEVATO  E' QUELLO DI NON DIVENTARE COMPETENTI.",
+      "codes": [
+        "S4",
+        "S1",
+        "X1"
+      ],
+      "reason": "Pro: velocizzazione (efficienza). Contro: dipendenza, riduzione pensiero critico, erosione pensiero critico."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "LA TOTALE SOSTITUZIONE DEL LAVORO  UMANO. IN OGNI ATIVITA' SONO NECESSARIE L'EMPATIA, LE EMOZIONI E IL RAPPORTO DIRETTO CON CIASCUN ALUNNO",
+      "codes": [
+        "S6",
+        "I4",
+        "S7"
+      ],
+      "reason": "Sostituzione del lavoro umano non raccomandata; necessità di empatia e relazione diretta (fiducia relazionale, ambiti off-limits)."
+    }
+  ]
+}

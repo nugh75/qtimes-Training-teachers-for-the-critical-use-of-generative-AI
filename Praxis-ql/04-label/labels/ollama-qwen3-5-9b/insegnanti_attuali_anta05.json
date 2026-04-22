@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_anta05.md",
+  "source_name": "insegnanti_attuali_anta05.md",
+  "title": "Risposta anta05",
+  "group": "Insegnanti in servizio",
+  "record_code": "anta05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:39:23.302974+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S2",
+    "S3",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante scettico che percepisce l'IA come strumento di scorciatoia o appiattimento, con risposte talvolta fuori tema o focalizzate su rischi etici.",
+  "code_counts": {
+    "N1b": 2,
+    "S2": 1,
+    "S3": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne sento la necessità",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ne sento la necessità, e allo stesso tempo non la trovo utile nella disciplina che insegno.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Il pro potrebbe essere utile per aumentare le angolazioni da cui guardare una data situazione, sostegno e supporto nell'analizzare una situazione. il contro appiattimento della fantasia e trovare facili scorciatoie",
+      "codes": [
+        "S3",
+        "X2"
+      ],
+      "reason": "Pro: aumento angolazioni (X2); Contro: appiattimento della fantasia (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Rimandare a qualcuno il proprio compito da svolgere.  Nell'insegnamento uno dei cardini principali secondo me non è tanto cosa si insegna (che si potrebbe imparare a qualsiasi età) ma il fatto di riuscire a svolgere il proprio compito, ricorrere all'AI potrebbe diventare la scorciatoia proprio allo svolgimento del compito dato.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Rimandare il compito (S2); Scorciatoia che erode lo svolgimento del compito/pensiero critico (S4)."
+    }
+  ]
+}

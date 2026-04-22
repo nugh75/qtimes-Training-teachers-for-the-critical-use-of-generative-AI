@@ -1,0 +1,150 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_liciaricci7@gmail.com.md",
+  "source_name": "insegnanti_attuali_liciaricci7@gmail.com.md",
+  "title": "Risposta liciaricci7@gmail.com",
+  "group": "Insegnanti in servizio",
+  "record_code": "liciaricci7@gmail.com",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:18.380800+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I4",
+    "N1b",
+    "P1",
+    "P2",
+    "P3",
+    "P6",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Insegnante che utilizza l'IA per la produzione di materiali e supporto didattico, ma ne limita l'uso diretto da parte degli studenti per mancanza di competenze critiche, evidenziando rischi di erosione del pensiero autonomo.",
+  "code_counts": {
+    "A3": 1,
+    "I4": 2,
+    "N1b": 3,
+    "P1": 1,
+    "P2": 2,
+    "P3": 1,
+    "P6": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "la uso io per preparare le lezioni ma non per farla usare agli alunni perché non hanno ancora le competenze per sviluppare un pensiero critico a riguardo",
+      "codes": [
+        "I4",
+        "S4"
+      ],
+      "reason": "Rifiuto dell'uso da parte degli alunni per mancanza di pensiero critico (I4) e rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gamma perché crea presentazioni e semplifica i testi",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "Menzione dello strumento 'Gamma' (P6) e della semplificazione dei testi (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creo semplificazioni di testi per alunni con bes",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "Creazione di semplificazioni per alunni BES (P3) e inclusione/accesso (X4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "utilizzo testi creati da me e utilizzo l'IA per semplificarli e adattarli ai vari stili d'apprendimento",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adattamento a stili di apprendimento (P2) e personalizzazione (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "miei scritti in pdf o word o link di siti web didattici",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: elenca file e link invece di fornire esempi di prompt."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "vedi sopra",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: rimanda a una risposta precedente senza fornire nuovi dati."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "vedi sopra",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: rimanda a una risposta precedente senza fornire nuovi dati."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Il fatto che la maggioranza dopo prove gratuite limitate diventano a pagamento e non si può utilizzare neanche la carta docente per acquistare le app",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Vincoli economici legati al passaggio a pagamento e limiti delle prove gratuite (A3)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "per il docente solo pro per realizzare materiali didattici individualizzati e personalizzati; per gli alunni c'è il rischio di addormentare le menti non avendo ancora sviluppato la competenza all'uso critico",
+      "codes": [
+        "P1",
+        "P2",
+        "X1",
+        "X3",
+        "S4"
+      ],
+      "reason": "Pro: produzione materiali (P1), individualizzazione (P2), risparmio tempo (X1), personalizzazione (X3). Contro: rischio addormentamento menti/erosione pensiero critico (S4)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "far utilizzare l'ai agli alunni perché non hanno ancora sviluppato la competenza all'uso critico",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Non raccomandato per alunni non pronti (S7 - ambiti off-limits/competenza) e mancanza di pensiero critico (I4)."
+    }
+  ]
+}

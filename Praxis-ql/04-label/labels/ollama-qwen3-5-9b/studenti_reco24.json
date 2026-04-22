@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_reco24.md",
+  "source_name": "studenti_reco24.md",
+  "title": "Risposta Reco24",
+  "group": "Studenti",
+  "record_code": "Reco24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:39.562424+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I2",
+    "P7",
+    "R1",
+    "S5",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per semplificazione (X2), ma manifesta sfiducia tecnica (I2) verso la generazione autonoma di contenuti, limitando l'uso a compiti di spiegazione o parafrasi.",
+  "code_counts": {
+    "A1": 1,
+    "I2": 3,
+    "P7": 1,
+    "R1": 1,
+    "S5": 1,
+    "S7": 1,
+    "X2": 5
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt è l’unico che riesco ad usare",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Menzione di un unico strumento (ChatGPT) e difficoltà a usarne altri, suggerendo una competenza limitata o mancanza di formazione su alternative."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per spiegare in maniera semplice concetti conplessi o per parafrasare testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per semplificare concetti complessi e parafrasare testi."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il seguente testo in maniera semplice ma dettagliata: segue testo da spiegare",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Presenza esplicita di un prompt nella risposta e funzione di semplificazione del testo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a comprendere concetti complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento attraverso la comprensione di concetti complessi."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a comprendere concetti che non riuscivo a capire",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Superamento di difficoltà di comprensione di concetti specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Se non fornisco io il testo ma faccio domande su un argomento, spesso fa confusione e non da informazioni attendibili",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Riferimento a errori dell'IA (confusione) e a informazioni non attendibili."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro aiuta a comprendere, contro alcune informazioni non attendibili",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: comprensione; Contro: informazioni non attendibili."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Fare domande su argomenti perché spesso le informazioni non sono attendibili",
+      "codes": [
+        "S7",
+        "I2"
+      ],
+      "reason": "Identificazione di una pratica (fare domande generiche) come non raccomandata a causa di affidabilità bassa."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_glia26.md",
+  "source_name": "studenti_glia26.md",
+  "title": "Risposta glia26",
+  "group": "Studenti",
+  "record_code": "glia26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:46:12.587769+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I4",
+    "N1a",
+    "S5",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per chiarimenti e velocità, con consapevolezza dei limiti legati all'accuratezza e all'empatia.",
+  "code_counts": {
+    "I2": 2,
+    "I4": 1,
+    "N1a": 2,
+    "S5": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 5,
+    "X3": 2,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "la utilizzo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica privamente di contenuto informativo per l'attribuzione di codici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt, è molto veloce e efficente disposto a correzioni",
+      "codes": [
+        "X1",
+        "X2",
+        "X3"
+      ],
+      "reason": "Vantaggi citati: velocità (X1), comprensione rapida (X2), disponibilità a correzioni/personalizzazione (X3)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Approfondisco argomenti poco chiari e chiedo spiegazioni passaggi e concetti che non ho capito",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per chiarire concetti (X2) e personalizzare lo studio approfondendo punti deboli (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat gpt",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta non informativa (solo nome strumento) senza esempi di prompt come richiesto."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi spiega meglio i concetti e dà più informazioni",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite spiegazioni chiare (X2) e supporto al percorso (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Chiedo di fare esempi per l’applicazione di criteri diagnostici ad un caso più generale",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite esempi applicativi che facilitano la comprensione (X2) e l'organizzazione dello studio (X5)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "delle volte le informazioni non sono totalmente corrette",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Difficoltà legate a informazioni non corrette: sfiducia tecnica (I2) e informazioni false/imprecisione (S5)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la specificità e la velocità del sistema, i contro è che avendo dati molto vasti spesso non rispondono precisamente a ciò che chiedo",
+      "codes": [
+        "X1",
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: velocità (X1), comprensione (X2). Contro: risposte imprecise dovute alla vastità dei dati (I2/S5)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Consigli dal punto di vista psicologico poiché non ha il lato empatico umano",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "Raccomandazione di evitare l'uso per aspetti psicologici/empatici: fiducia relazionale (I4) e ambiti off-limits (S7)."
+    }
+  ]
+}

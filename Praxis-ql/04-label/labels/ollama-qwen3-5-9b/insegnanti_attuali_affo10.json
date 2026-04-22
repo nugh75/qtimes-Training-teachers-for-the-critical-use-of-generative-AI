@@ -1,0 +1,49 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_affo10.md",
+  "source_name": "insegnanti_attuali_affo10.md",
+  "title": "Risposta affo10",
+  "group": "Insegnanti in servizio",
+  "record_code": "affo10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:38:53.217556+00:00",
+  "record_dimensions": [
+    "A",
+    "R"
+  ],
+  "record_subcodes": [
+    "A1",
+    "R1",
+    "R4"
+  ],
+  "record_note": "Il record evidenzia un blocco al non-uso dell'IA da parte di insegnanti in servizio, motivato prevalentemente da una percezione di inadeguatezza delle competenze tecniche e di prompting, suggerendo un gap formativo.",
+  "code_counts": {
+    "A1": 2,
+    "R1": 2,
+    "R4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho ancora competenze adeguate",
+      "codes": [
+        "R1",
+        "R4",
+        "A1"
+      ],
+      "reason": "Mancanza di competenze pratiche e di prompting (R1, R4) e assenza di formazione formale (A1) come causa del non-uso."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora competenze adeguate",
+      "codes": [
+        "R1",
+        "R4",
+        "A1"
+      ],
+      "reason": "Ripetizione della motivazione: non uso dovuto a carenza di competenze (R1, R4) e mancanza di formazione (A1)."
+    }
+  ]
+}

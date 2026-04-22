@@ -1,0 +1,127 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_egri25.md",
+  "source_name": "studenti_egri25.md",
+  "title": "Risposta egri25",
+  "group": "Studenti",
+  "record_code": "egri25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:45:14.911805+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P7",
+    "S2",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per efficienza (X1, X2) e personalizzazione (X3), con una consapevolezza critica sui rischi di plagio e perdita di autonomia (S2, S5).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P7": 1,
+    "S2": 1,
+    "S5": 1,
+    "X1": 5,
+    "X2": 5,
+    "X3": 2,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt riesce a capire in fretta cosa gli sto chiedendo e a darmi risposte facili riassunte e specifiche. cosa che con internet non accadeva sempre",
+      "codes": [
+        "X2",
+        "X1"
+      ],
+      "reason": "Risposta evidenzia risparmio di tempo (X1) e comprensione più rapida/focalizzazione (X2) grazie alla sintesi e specificità delle risposte."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Mi faccio aiutare facendo riassunti per poter risparmiare tempo, carico una foto delle pagine e mi genera un riassunto, mi faccio aiutare anche per generare scalette di power point più specifiche.",
+      "codes": [
+        "X1",
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso di riassunti per risparmiare tempo (X1, X2) e generazione di scalette specifiche (X3) per personalizzare lo studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Creami una scaletta per un power point su amore e psiche",
+      "codes": [
+        "P7",
+        "X2",
+        "X3"
+      ],
+      "reason": "Esempio di prompt visibile (P7) che mira a una personalizzazione (X3) e sintesi (X2) del contenuto."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi aiuta a risparmiare tempo e avere risposte sintetiche e specifiche",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Aiuto percepito nel risparmio di tempo (X1) e ottenimento di risposte sintetiche (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi aiuta a risparmiare tempo che poi spendo in altre attività e il mio apprendimento resta lo stesso",
+      "codes": [
+        "X1",
+        "X5"
+      ],
+      "reason": "Risparmio di tempo (X1) che permette di dedicarsi ad altre attività, migliorando l'organizzazione (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non ho incontrato difficoltà') per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i contro sono che viene usata male e in modo nocivo per la nostra intelligenza, i pro è uno strumento molto utile che fa risparmiare tempo e i miei risultati e l’apprendimento non cambiano",
+      "codes": [
+        "X1",
+        "X2",
+        "X7",
+        "I2"
+      ],
+      "reason": "Pro: risparmio tempo (X1), sintesi (X2). Contro: uso nocivo (I2), beneficio subordinato a controllo critico (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "crazione di temi, risolvere esercizi senza una spiegazione",
+      "codes": [
+        "S2",
+        "S5"
+      ],
+      "reason": "Pratiche non raccomandate: creazione di temi (S2 - ghostwriting) e risoluzione esercizi senza spiegazione (S5 - affidabilità debole/erosione pensiero)."
+    }
+  ]
+}

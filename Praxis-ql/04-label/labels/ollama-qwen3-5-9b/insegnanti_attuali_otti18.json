@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otti18.md",
+  "source_name": "insegnanti_attuali_otti18.md",
+  "title": "Risposta otti18",
+  "group": "Insegnanti in servizio",
+  "record_code": "otti18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:51:09.486249+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1b",
+    "R1",
+    "X6"
+  ],
+  "record_note": "Profilo di docente con bassa familiarità e competenza nell'uso dell'IA, che tende a rifiutare o non poter valutare l'uso dello strumento per mancanza di preparazione tecnica.",
+  "code_counts": {
+    "I1": 1,
+    "N1b": 3,
+    "R1": 3,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "per poca conoscenza",
+      "codes": [
+        "N1b",
+        "R1"
+      ],
+      "reason": "Risposta fuori tema (non spiega il 'perché' richiesto ma cita genericamente la conoscenza) e indica una mancanza di competenza pratica percepita."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono informata in materia",
+      "codes": [
+        "N1b",
+        "R1"
+      ],
+      "reason": "Risposta fuori tema rispetto alla richiesta di dettagli e indica una mancanza di competenza pratica percepita."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La lezione in classe, il confronto con gli alunni, conoscere le loro opinioni ritengo sia importante; l'intelligenza artificiale può essere di aiuto per ampliare le loro conoscenze.",
+      "codes": [
+        "X6",
+        "I1"
+      ],
+      "reason": "Riconosce il valore dell'interazione umana (coinvolgimento) e vede l'IA come ausilio da verificare (fiducia condizionata)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Data la mia poca conoscenza in materia, non posso esprimere un giudizio obbiettivo",
+      "codes": [
+        "N1b",
+        "R1"
+      ],
+      "reason": "Risposta fuori tema (non elenca pratiche ma giustifica l'incapacità di farlo) e indica una mancanza di competenza pratica percepita."
+    }
+  ]
+}

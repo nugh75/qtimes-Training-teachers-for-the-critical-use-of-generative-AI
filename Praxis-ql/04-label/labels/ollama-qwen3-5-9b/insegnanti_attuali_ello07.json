@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ello07.md",
+  "source_name": "insegnanti_attuali_ello07.md",
+  "title": "Risposta ello07",
+  "group": "Insegnanti in servizio",
+  "record_code": "ello07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:01.933113+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "N1b",
+    "S3",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di insegnante con forte resistenza all'uso dell'IA, motivata da valori pedagogici (relazione, empatia) e preoccupazione per l'erosione del pensiero critico.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "S3": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ne ho necessità",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè l'IA non può sostituire la figura dell'insegnante, la sua azione educativo-didattica, l'empatia e la sua interazione con gli allievi.",
+      "codes": [
+        "I4",
+        "S6"
+      ],
+      "reason": "Sottolinea l'insostituibilità della relazione educativa (I4) e rifiuta la sostituzione del docente (S6)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: gli insegnanti possono svolgere attività come valutazione di compiti e dedicare più tempo al supporto diretto agli studenti. Contro: minore apprendimento pratico e riduzione delle relazioni.",
+      "codes": [
+        "X1",
+        "X2",
+        "X5",
+        "S4",
+        "S3"
+      ],
+      "reason": "Pro: efficienza (X1), comprensione (X2), autonomia (X5). Contro: erosione pensiero critico (S4), appiattimento (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Simulazioni o altro",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: menziona generici 'simulazioni' senza specificare se siano pratiche non raccomandate o meno."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_pizz03.md",
+  "source_name": "insegnanti_attuali_pizz03.md",
+  "title": "Risposta Pizz03",
+  "group": "Insegnanti in servizio",
+  "record_code": "Pizz03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:51:49.905062+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Partecipante con bassa familiarità o competenza tecnica sull'IA, che risponde spesso con 'Non la conosco' o 'Non so', limitando l'attribuzione di codici relativi all'uso o alla percezione dell'IA.",
+  "code_counts": {
+    "N1b": 3,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la conosco",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la conosco",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla spiegazione dettagliata."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: lavoro più snello, preciso e veloce Contro: impigrire le menti e illusione di non dover studiare ed approfondire",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: efficienza (X1), comprensione rapida (X2); Contro: perdita di sforzo cognitivo (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non sa rispondere) rispetto alla domanda sulle pratiche non raccomandate."
+    }
+  ]
+}

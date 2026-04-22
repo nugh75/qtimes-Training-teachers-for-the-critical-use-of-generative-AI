@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_macc29.md",
+  "source_name": "insegnanti_attuali_macc29.md",
+  "title": "Risposta Macc29",
+  "group": "Insegnanti in servizio",
+  "record_code": "Macc29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:38.427858+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "record_note": "Profilo di sfiducia tecnica e pedagogica: l'insegnante percepisce l'IA come strumento che erode le competenze cognitive, l'affidabilità e la responsabilità educativa, rifiutando il suo uso didattico.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 2,
+    "S4": 2,
+    "S5": 1,
+    "S6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Sono contraria",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: esprime un'opinione personale ('Sono contraria') senza rispondere alla richiesta di spiegazione del 'perché'."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché l’uso può favorire perdita al livello cognitivo da parte del docente che non utilizza le sue competenze ma si affida all’AI. L’AI da spesso soluzioni errate, non è affidabile e non va usata dagli studenti per lo stesso motivo di cui sopra.",
+      "codes": [
+        "S4",
+        "S5",
+        "I2"
+      ],
+      "reason": "Sostituzione del pensiero critico (S4), affidabilità debole (S5) e sfiducia tecnica (I2) dovute a errori e non affidabilità dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ci sono Pro.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: afferma un'assenza di pro senza fornire dettagli o contestualizzazione richiesta."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nessuna pratica è raccomandata perché deresponsabilizza e dissecca le funzioni cognitive.",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Perdita di responsabilità (S4) e sostituzione delle funzioni cognitive/relazionali (S6) tramite l'uso dell'IA."
+    }
+  ]
+}

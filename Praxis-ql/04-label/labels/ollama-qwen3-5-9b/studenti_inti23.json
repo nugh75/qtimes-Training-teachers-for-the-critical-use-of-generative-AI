@@ -1,0 +1,105 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_inti23.md",
+  "source_name": "studenti_inti23.md",
+  "title": "Risposta inti23",
+  "group": "Studenti",
+  "record_code": "inti23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:45.965367+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Il record mostra una forte tendenza alla brevità delle risposte (N1a) e una percezione dell'IA prevalentemente come strumento di semplificazione e risparmio di tempo, con emergenti preoccupazioni sull'erosione dell'apprendimento autonomo.",
+  "code_counts": {
+    "N1a": 5,
+    "S4": 1,
+    "X1": 2,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché mi aiuta",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Risposta breve ma chiara: l'IA aiuta (risparmio tempo X1) e semplifica (X2)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "bho",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'bho' è troppo breve e non informativa per attribuzione codici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non lo so' è troppo breve e non informativa."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "semplifica",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Risposta 'semplifica' indica chiaramente il beneficio di comprensione rapida."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non ci sono",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non ci sono' è troppo breve e non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non lo so' è troppo breve e non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro semplifica tutto e risparmi tempo contro non apprendi",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: semplifica (X2) e risparmia tempo (X1). Contro: non apprendi (erosione pensiero critico S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non lo so' è troppo breve e non informativa."
+    }
+  ]
+}

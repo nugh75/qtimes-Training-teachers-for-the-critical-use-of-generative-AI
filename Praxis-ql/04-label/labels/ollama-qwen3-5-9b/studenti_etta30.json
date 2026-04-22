@@ -1,0 +1,139 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_etta30.md",
+  "source_name": "studenti_etta30.md",
+  "title": "Risposta etta30",
+  "group": "Studenti",
+  "record_code": "etta30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:45:49.495549+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P1",
+    "P4",
+    "P5",
+    "P7",
+    "R4",
+    "S1",
+    "S5",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per compiti di sintesi e supporto allo studio, con consapevolezza dei rischi di dipendenza e limiti nell'affidabilità per compiti logici complessi.",
+  "code_counts": {
+    "N1a": 1,
+    "P1": 1,
+    "P4": 1,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "S1": 1,
+    "S5": 1,
+    "S7": 1,
+    "X1": 4,
+    "X2": 5,
+    "X3": 2,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassumere, parafrasare, spiegazioni più approfondite, domande di autovalutazione per preparare esami",
+      "codes": [
+        "P1",
+        "P5",
+        "P4",
+        "X1",
+        "X2"
+      ],
+      "reason": "Elenco di attività di produzione (riassumere, parafrasare, spiegazioni) e supporto allo studio (autovalutazione) che riducono il carico di lavoro e semplificano la comprensione."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per riassumere concetti ripetitivi o schematizzare materie complesse",
+      "codes": [
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso di strumenti operativi (riassumere, schematizzare) per personalizzare lo studio e semplificare concetti complessi."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“parafrasa” “spiegami in maniera più approfondita” “riassumi”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempi espliciti di prompt (parafrasa, spiegami) che dimostrano competenza di prompting e pratica di prompting visibile."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi riduce il carico di lavoro",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Benefici percepiti: riduzione del carico di lavoro e semplificazione della comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi velocizza lo studio e mi aiuta a imparare nuove terminologie",
+      "codes": [
+        "X1",
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite velocizzazione dello studio, acquisizione di terminologie e supporto al percorso."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "per il momento nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('nessuno') che non fornisce informazioni sufficienti per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: tempo ridotto, schemi semplificati, riassunti dettagliati , comprensione di temi complessi contro: diventarne dipendenti e non essere in grado di svolgere normali attività senza l’uso di IA, soprattutto se in età troppo precoce",
+      "codes": [
+        "X1",
+        "X2",
+        "X3",
+        "S1",
+        "X7"
+      ],
+      "reason": "Pro: efficienza (tempo), semplificazione (schemi, comprensione). Contro: dipendenza (S1), beneficio subordinato a controllo/criticità (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "risolvere esercizi di logica perché non spiega bene tutti i procedimenti",
+      "codes": [
+        "S7",
+        "S5"
+      ],
+      "reason": "Identificazione di un ambito off-limits (esercizi di logica) e menzione di imprecisioni o limiti nell'affidabilità (non spiega bene)."
+    }
+  ]
+}

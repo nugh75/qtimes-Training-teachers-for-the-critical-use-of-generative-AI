@@ -1,0 +1,64 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_cchi25.md",
+  "source_name": "insegnanti_attuali_cchi25.md",
+  "title": "Risposta cchi25",
+  "group": "Insegnanti in servizio",
+  "record_code": "cchi25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:37.738450+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I1",
+    "R5",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Profilo di docente con resistenza all'adozione piena dovuta a gap formativo, ma con visione pragmatica e inclusiva dell'IA come strumento di supporto da gestire con consapevolezza.",
+  "code_counts": {
+    "A1": 1,
+    "I1": 1,
+    "R5": 1,
+    "X1": 1,
+    "X2": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non mi sono ancora formata a dovere circa l'IA nel mio campo d'insegnamento",
+      "codes": [
+        "A1",
+        "R5"
+      ],
+      "reason": "Mancanza di formazione specifica (A1) e non-uso motivato da insicurezza/inadeguatezza percepita (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro- snellisce il lavoro facilitandolo e accorciandone le tempistiche contro- deve essere usato con consapevolezza e da un pubblico più adulto (scuola secondaria di secondo grado)",
+      "codes": [
+        "X1",
+        "X2",
+        "X4",
+        "I1"
+      ],
+      "reason": "Pro: efficienza/tempo (X1), semplificazione (X2), inclusione BES/DSA (X4). Contro: fiducia condizionata/verifica (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Se in ausilio e a supporto dell'insegnante come anche facilitatori per studenti bes o dsa non penso ci debbano essere limitazioni. Tutto sta nell'aver in mente l'obiettivo d'uso e la relativa competenza in adeguamento al pubblico per cui viene utilizzata",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

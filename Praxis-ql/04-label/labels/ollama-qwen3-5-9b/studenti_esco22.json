@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_esco22.md",
+  "source_name": "studenti_esco22.md",
+  "title": "Risposta ESCO22",
+  "group": "Studenti",
+  "record_code": "ESCO22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:31.233810+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I2",
+    "N1b",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per semplificazione e sintesi, con consapevolezza dei limiti economici e di affidabilità.",
+  "code_counts": {
+    "A3": 1,
+    "I2": 2,
+    "N1b": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "X2": 4,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt . Perché è l’unico che conosco a titolo gratuito.",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e consapevolezza del vincolo di gratuità."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Principalmente per semplificare concetti, trovare sinonimi per parole, significati e definizioni di parole che non conosco e schematizzare in breve",
+      "codes": [
+        "X2",
+        "P5"
+      ],
+      "reason": "Uso dell'IA per semplificare concetti e schematizzare contenuti."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“ciao, puoi semplificare questa frase?”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formulare istruzioni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "velocizza i processi di studio e semplifica i concetti che non comprendo",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite velocizzazione dei processi e semplificazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "soprattutto chiedendo l’etimologia di una parola specifica e chiedendo di semplificare frasi complesse dei testi.",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Esempi specifici di semplificazione e ricerca di etimologie per facilitare la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "gli errori, e il pagamento del mezzo",
+      "codes": [
+        "I2",
+        "A3"
+      ],
+      "reason": "Citazione di errori (allucinazioni) e vincoli economici (pagamento)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro sono gli aiuti di sintesi. contro sono le informazioni non precise.",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro (sintesi) e contro (imprecisione delle informazioni)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non lo so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda (non si risponde alla richiesta di pratiche non raccomandate)."
+    }
+  ]
+}

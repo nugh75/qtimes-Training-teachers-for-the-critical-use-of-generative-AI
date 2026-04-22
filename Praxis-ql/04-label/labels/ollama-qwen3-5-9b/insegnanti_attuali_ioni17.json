@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ioni17.md",
+  "source_name": "insegnanti_attuali_ioni17.md",
+  "title": "Risposta ioni17",
+  "group": "Insegnanti in servizio",
+  "record_code": "ioni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:47:14.833414+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I3",
+    "I4",
+    "S4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "I docenti esprimono preoccupazioni etiche e pedagogiche legate alla sostituzione del docente, alla perdita di relazioni e all'erosione del pensiero critico, con particolare attenzione alla fascia d'età.",
+  "code_counts": {
+    "I2": 1,
+    "I3": 1,
+    "I4": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 2,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché gli alunni sono ancora troppo piccoli.",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Rifiuto basato sulla fragilità degli alunni (S7) e sulla necessità di relazioni umane/empatia (I4)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non favorisce il pensiero critico e creativo.",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Cita esplicitamente l'erosione del pensiero critico come svantaggio."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I vantaggi sono: risparmio di tempo, aumenta le nostre possibilità di conoscenza, personalizzazione. Gli svantaggi sono: riduzione delle relazioni sociali, dipendenza dalla tecnologia.",
+      "codes": [
+        "X1",
+        "X2",
+        "X3",
+        "I2",
+        "I3"
+      ],
+      "reason": "Elenca pro (risparmio tempo, conoscenza, personalizzazione) e contro (riduzione relazioni, dipendenza)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sostituzione completa nell'elaborazione di un compito.",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "Identifica la sostituzione completa del docente come pratica non raccomandata."
+    }
+  ]
+}

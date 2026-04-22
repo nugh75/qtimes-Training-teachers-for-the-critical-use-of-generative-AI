@@ -1,0 +1,76 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_drea25.md",
+  "source_name": "insegnanti_attuali_drea25.md",
+  "title": "Risposta Drea25",
+  "group": "Insegnanti in servizio",
+  "record_code": "Drea25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:11.200082+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "P3",
+    "S4",
+    "S5",
+    "X4"
+  ],
+  "record_note": "Profilo di docente critico verso l'uso dell'IA, che privilegia le dinamiche relazionali e il pensiero autonomo degli studenti, temendo effetti negativi come l'omologazione o la perdita di competenze cognitive.",
+  "code_counts": {
+    "I4": 2,
+    "N1b": 1,
+    "P3": 1,
+    "S4": 2,
+    "S5": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché temo che possa impigrire gli studenti rispetto al pensiero critico o alla capacità di produrre un discorso scritto o orale con consapevolezza",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Paura che l'IA eroda il pensiero critico (S4) e preferenza per la relazione educativa umana (I4)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché mi piace vederli ragionare in gruppo e confrontarsi",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Valore dato al ragionamento collettivo e confronto (I4) come alternativa all'uso dell'IA per evitare l'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro : possono essere di supporto per alcune disabilità  Contro :tolgono la necessità di cercare le fonti nel modo giusto",
+      "codes": [
+        "P3",
+        "X4",
+        "S5"
+      ],
+      "reason": "Riconoscimento del supporto per disabilità (P3, X4) e del rischio di perdita di capacità di ricerca fonti/S5."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: menziona solo il nome dello strumento senza spiegare le pratiche non raccomandate o il perché."
+    }
+  ]
+}

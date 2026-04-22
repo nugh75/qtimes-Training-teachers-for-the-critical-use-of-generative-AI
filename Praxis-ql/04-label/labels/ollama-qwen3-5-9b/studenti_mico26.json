@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_mico26.md",
+  "source_name": "studenti_mico26.md",
+  "title": "Risposta mico26",
+  "group": "Studenti",
+  "record_code": "mico26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:43.659186+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S1",
+    "S4",
+    "S5",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per velocizzare i compiti, con consapevolezza dei rischi di dipendenza cognitiva e perdita di competenze, ma con un uso ancora limitato e non sistematico.",
+  "code_counts": {
+    "N1b": 3,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S1": 1,
+    "S4": 1,
+    "S5": 1,
+    "S7": 1,
+    "X1": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGpt) e dichiarazione di competenza d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Non la uso per 'perzonalizzare' il mio studio",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Traduci il seguente testo in...",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) e descrizione di un'attività operativa di traduzione (P5)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Più che aiutarmi a migliorare il mio apprendimento, mi aiuta a svolgere dei compiti in modo più rapido",
+      "codes": [
+        "X1",
+        "S1"
+      ],
+      "reason": "Beneficio percepito nella velocità (X1) e rischio di delega cognitiva/esecuzione rapida (S1)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non lo ha migliorato",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta negativa generica che non fornisce esempi specifici richiesti."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Uno dei più grandi vantaggi è che è possibile velocizzare dei compiti che richiederebbero tanto tempo. Lo svantaggio è che l'uso della I. A. potrebbe portarci a non sviluppare determinate competenze di studio",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vantaggio nell'efficienza (X1) e svantaggio nell'erosione delle competenze di studio (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non bisognerebbe, per esempio, generare testi, riassumere e tradurre in modo indiscriminato",
+      "codes": [
+        "S7",
+        "S5"
+      ],
+      "reason": "Identificazione di ambiti off-limits (generazione testi indiscriminata) e rischio di imprecisione (S5)."
+    }
+  ]
+}

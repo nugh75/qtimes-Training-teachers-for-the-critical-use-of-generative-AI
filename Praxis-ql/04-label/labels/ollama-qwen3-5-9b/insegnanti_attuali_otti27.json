@@ -1,0 +1,58 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_otti27.md",
+  "source_name": "insegnanti_attuali_otti27.md",
+  "title": "Risposta Otti27",
+  "group": "Insegnanti in servizio",
+  "record_code": "Otti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:09.403181+00:00",
+  "record_dimensions": [
+    "A",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il record evidenzia resistenze legate all'impreparazione, benefici cognitivi percepiti ma con rischi di erosione del pensiero critico, e il rifiuto di pratiche di delega totale.",
+  "code_counts": {
+    "A1": 1,
+    "R5": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Devo imparare bene ad usarla",
+      "codes": [
+        "R5",
+        "A1"
+      ],
+      "reason": "Non uso motivato da insicurezza/impreparazione (R5) e mancanza di formazione/formale (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: rapidità nel trovare i concetti Contro: non si usa più il ragionamento rapido e la capacità di sintesi",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione e comprensione rapida (X2); Contro: erosione del pensiero critico e capacità di sintesi (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Testi già pronti",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

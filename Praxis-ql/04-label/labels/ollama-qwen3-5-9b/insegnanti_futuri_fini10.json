@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_fini10.md",
+  "source_name": "insegnanti_futuri_fini10.md",
+  "title": "Risposta Fini10",
+  "group": "Insegnanti pre-service",
+  "record_code": "Fini10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:15.005795+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "R1",
+    "S3",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti pre-service con bassa percezione di competenza tecnica (R1) e consapevolezza dei rischi cognitivi (S3, S4).",
+  "code_counts": {
+    "N1a": 2,
+    "R1": 2,
+    "S3": 2,
+    "S4": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Poca conoscenza",
+      "codes": [
+        "R1",
+        "N1a"
+      ],
+      "reason": "Risposta breve ('Poca conoscenza') che indica una mancanza di competenza percepita (R1) e non fornisce dettagli sufficienti per altri codici (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sufficiente conoscenza",
+      "codes": [
+        "R1",
+        "N1a"
+      ],
+      "reason": "Risposta breve ('Non sufficiente conoscenza') che indica una mancanza di competenza percepita (R1) e non fornisce dettagli sufficienti per altri codici (N1a)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Agevolare determinati processi i contro diminuire la produzione e creatività",
+      "codes": [
+        "X2",
+        "S3",
+        "S4"
+      ],
+      "reason": "Identifica pro (agevolare processi -> X2) e contro (diminuire produzione/creatività -> S3, erosione pensiero critico -> S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbero sostituire la creatività e l’inventiva perché è un’abilità importante",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Sottolinea il rischio di perdita di creatività/inventiva (S3) e l'importanza di non sostituire queste abilità (S4)."
+    }
+  ]
+}

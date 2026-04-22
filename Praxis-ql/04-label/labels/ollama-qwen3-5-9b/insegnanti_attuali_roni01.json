@@ -1,0 +1,64 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_roni01.md",
+  "source_name": "insegnanti_attuali_roni01.md",
+  "title": "Risposta roni01",
+  "group": "Insegnanti in servizio",
+  "record_code": "roni01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:50.725821+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S6",
+    "S7"
+  ],
+  "record_note": "Il partecipante mostra una resistenza all'uso dell'IA motivata dalla recente formazione e dalla percezione dei rischi legati alla sostituzione del docente.",
+  "code_counts": {
+    "N1b": 3,
+    "S6": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perchè ho iniziato da poco ad affrontare l'argomento e, al momento, non ne sento l'esigenza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: spiega la mancanza di esigenza legata alla recente formazione, non affrontando il 'perché' del rifiuto dell'uso didattico richiesto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè ho iniziato da poco la formazione",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: attribuisce la non utilizzazione alla durata della formazione, non fornendo motivazioni pedagogiche o etiche."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ho iniziato da poco lo studio della sua applicazione nella didattica",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: la risposta descrive lo stato di apprendimento (inizio studio) invece di elencare pro e contro dell'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Quando l'uso dell'Intelligenza artificiale si sostituisce completamente alle competenze del docente e/o nello studio dei ragazzi",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "Identifica come non raccomandato la sostituzione dell'insegnante (S6) e l'uso in ambiti off-limits come lo studio autonomo degli studenti (S7)."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rini08.md",
+  "source_name": "insegnanti_attuali_rini08.md",
+  "title": "Risposta Rini08",
+  "group": "Insegnanti in servizio",
+  "record_code": "Rini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:25.872359+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P2",
+    "S3",
+    "S4",
+    "S7",
+    "X1",
+    "X3"
+  ],
+  "record_note": "Profilo di docente che rifiuta l'IA per motivazioni pedagogiche legate alla tutela della creatività, della relazione educativa e dell'autonomia dello studente.",
+  "code_counts": {
+    "I4": 1,
+    "P2": 1,
+    "S3": 2,
+    "S4": 3,
+    "S7": 1,
+    "X1": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la utilizzo perché preferisco preparare le lezioni su misura adattate alle difficoltà della classe",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Preparazione di lezioni su misura (P2) e attenzione alle difficoltà della classe/personalizzazione (X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "L'IA penso che spegni la fantasia e la creatività e non tiene conto delle differenze degli alunni della classe, per me è importante valorizzare il talento che c'è in ogni bambino",
+      "codes": [
+        "S3",
+        "S4",
+        "I4"
+      ],
+      "reason": "Rischio di appiattimento creativo (S3), erosione del pensiero critico (S4) e valore insostituibile della relazione umana (I4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono nell' agevolazione di compiti che richiedono molto tempo, ma i contro è che diventiamo piatti nel pensiero.",
+      "codes": [
+        "X1",
+        "S3",
+        "S4"
+      ],
+      "reason": "Efficienza/tempo risparmiato (X1) contro appiattimento del pensiero (S3) e perdita di creatività (S3/S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi perché mancherebbe la curiosità, la ricerca,blo studio per ampliare anche solo il nostro vocabolario quotidiano.",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Perdita di curiosità e ricerca (S4) e rischio di sostituire il processo di studio autonomo (S7)."
+    }
+  ]
+}

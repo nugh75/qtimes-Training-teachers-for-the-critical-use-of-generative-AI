@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_irra61.md",
+  "source_name": "insegnanti_futuri_irra61.md",
+  "title": "Risposta irra61",
+  "group": "Insegnanti pre-service",
+  "record_code": "irra61",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:55.766156+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S6",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Il record mostra una netta polarizzazione: rifiuto totale per assenza di ruolo docente, riconoscimento dei benefici strumentali ma preoccupazione per la perdita della dimensione relazionale.",
+  "code_counts": {
+    "I4": 2,
+    "N1b": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'non insegno' è fuori tema rispetto alla domanda sulla didattica e non fornisce informazioni sull'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: supporto agli insegnanti, accesso a risorse didattiche avanzate CONTRO: mancanza di relazione umana e dipendenza dalla tecnologia",
+      "codes": [
+        "X1",
+        "X2",
+        "I4"
+      ],
+      "reason": "Pro: efficienza (X1), comprensione risorse (X2); Contro: mancanza relazione (I4)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "dipendenza dalla tecnologia, mancanza di empatia e relazione umana",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Mancanza empatia e relazione umana indica sostituzione del docente (S6) e insostituibilità della relazione (I4)."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nelli23.md",
+  "source_name": "studenti_nelli23.md",
+  "title": "Risposta Nelli23",
+  "group": "Studenti",
+  "record_code": "Nelli23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:10:38.644293+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R5",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di studente scettico verso l'IA, che privilegia metodi tradizionali e vede nell'IA un rischio per l'autonomia cognitiva e l'affidabilità.",
+  "code_counts": {
+    "I4": 1,
+    "R5": 3,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Credo ed ho fiducia solo nell’intelligenza umana perché è solo questa che potrà essere sostenuta e reale. È solo un mezzo d’aiuto, ma fondamentalmente non risolve un quesito qualsiasi preposto.",
+      "codes": [
+        "I4",
+        "R5"
+      ],
+      "reason": "Fiducia nella relazione umana (I4) e rifiuto consapevole basato sulla percezione di limiti dell'IA (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché i concetti dello studio li assorbo solo utilizzando fotocopie o libri cartacei.",
+      "codes": [
+        "R5",
+        "X3"
+      ],
+      "reason": "Non-uso motivato da scelta epistemica (R5) e preferenza per un approccio personalizzato (X3)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizza i processi di risposta; Contro: non aiuta a far lavorare la mente.",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: efficienza (X1), comprensione rapida (X2); Contro: erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Perché non sono concetti sempre esattamente giusti",
+      "codes": [
+        "S5",
+        "R5"
+      ],
+      "reason": "Sfiducia dovuta a imprecisioni (S5) che porta a un rifiuto dell'uso (R5)."
+    }
+  ]
+}

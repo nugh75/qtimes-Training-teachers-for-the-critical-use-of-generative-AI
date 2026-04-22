@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_arco24.md",
+  "source_name": "insegnanti_attuali_arco24.md",
+  "title": "Risposta arco24",
+  "group": "Insegnanti in servizio",
+  "record_code": "arco24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:39:35.619925+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "P5",
+    "S4",
+    "S5",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Insegnanti che valorizzano la relazione umana e la produzione manuale, con preoccupazioni legate all'affidabilità e alla perdita di autonomia cognitiva.",
+  "code_counts": {
+    "I4": 2,
+    "P5": 1,
+    "S4": 1,
+    "S5": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "perchè preferisco pensare io agli esercizi piuttosto che spiegare al programma cosa deve fare",
+      "codes": [
+        "P5",
+        "X3",
+        "I4"
+      ],
+      "reason": "Preferenza per la produzione manuale (P5), personalizzazione dell'esercizio al singolo (X3), e valore della relazione educativa umana (I4)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i contro si perde il contatto umano con la persona con cui devi interagire, tra i pro c'è la velocità",
+      "codes": [
+        "I4",
+        "X2"
+      ],
+      "reason": "Perdita del contatto umano (I4) e vantaggio della velocità (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "preparare test, fare riassunti, risolvere esercizi. potrebbero esserci errori che lo studente non riesce a riconoscere",
+      "codes": [
+        "S5",
+        "S4"
+      ],
+      "reason": "Rischio di errori non rilevati dallo studente (S5) e potenziale erosione del pensiero critico (S4)."
+    }
+  ]
+}

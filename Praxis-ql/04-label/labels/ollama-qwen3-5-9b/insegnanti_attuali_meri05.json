@@ -1,0 +1,72 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_meri05.md",
+  "source_name": "insegnanti_attuali_meri05.md",
+  "title": "Risposta meri05",
+  "group": "Insegnanti in servizio",
+  "record_code": "meri05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:51.864974+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "R2",
+    "S4",
+    "S7"
+  ],
+  "record_note": "Il record mostra un profilo di resistenza all'IA basato sulla mancanza di competenza tecnica (R2), preoccupazioni etiche e pedagogiche (S4, S7, I2), e assenza di esperienza diretta.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 3,
+    "R2": 1,
+    "S4": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché un pò mi spaventa",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (espressione di paura generica) che non permette di attribuire codici specifici del framework PRAXIS."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non ne ho una conoscenza approfondita, ma anche perchè temo molto l'uso che se ne possa fare: cyberbullismo, violazione della privacy, la dipendenza dalla tecnologia. Inoltre mi preoccupa  la mancanza di un pensiero creativo. La mancanza di una personalizzazione, il software sarà in grado di adattarsi alle esigenze specifiche di ogni studente?",
+      "codes": [
+        "R2",
+        "S4",
+        "S7",
+        "I2"
+      ],
+      "reason": "Mancanza di conoscenza approfondita (R2), preoccupazione per erosione pensiero critico (S4), ambiti off-limits come privacy e cyberbullismo (S7), e timore di errori/allucinazioni (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho alcuna esperienza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (affermazione di assenza di esperienza) che non permette di attribuire codici specifici del framework PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ne ho esperienza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (affermazione di assenza di esperienza) che non permette di attribuire codici specifici del framework PRAXIS."
+    }
+  ]
+}

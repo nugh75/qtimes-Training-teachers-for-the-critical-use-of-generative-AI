@@ -1,0 +1,57 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_fila18.md",
+  "source_name": "insegnanti_attuali_fila18.md",
+  "title": "Risposta fila18",
+  "group": "Insegnanti in servizio",
+  "record_code": "fila18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:40:31.287793+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "X4",
+    "X6"
+  ],
+  "record_note": "Insegnante con approccio critico e prudente: vede l'IA come strumento di supporto e innovazione, ma ne rifieta l'uso autonomo nelle fasi relazionali e di spiegazione diretta, temendo l'erosione della dimensione umana.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 1,
+    "X4": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Al momento non mi è servito ma non escludo che possa servirmi in futuro per formalure esercizi o schemi",
+      "codes": [
+        "N1a",
+        "X4"
+      ],
+      "reason": "Risposta breve che esclude l'uso attuale (N1a) ma cita il potenziale per l'inclusione/accesso tramite schemi (X4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che si può creare una forma di educazione più ampia, variegata e interattiva. I contro sicuramente riguarda l'aspetto più emotivo e psicologo di cosa significhi educare",
+      "codes": [
+        "X6",
+        "I4"
+      ],
+      "reason": "Pro: arricchimento e innovazione educativa (X6). Contro: valore insostituibile della relazione emotiva/psicologica (I4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non si deve utilizzare nel fare lezione ma può essere visto come un supporto.",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

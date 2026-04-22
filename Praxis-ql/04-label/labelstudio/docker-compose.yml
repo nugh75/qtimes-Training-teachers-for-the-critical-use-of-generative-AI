@@ -1,0 +1,15 @@
+services:
+  label-studio:
+    image: heartexlabs/label-studio:1.23.0
+    container_name: label-studio-ql
+    restart: unless-stopped
+    user: "1000:1000"
+    ports:
+      - "0.0.0.0:8082:8080"
+    volumes:
+      - /home/nugh75/.local/share/label-studio:/label-studio/data
+    environment:
+      LABEL_STUDIO_BASE_DATA_DIR: /label-studio/data
+      LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK: "true"
+      LABEL_STUDIO_HOST: "https://l-studio.ai4educ.org"
+      LABEL_STUDIO_CSRF_TRUSTED_ORIGINS: "https://l-studio.ai4educ.org"

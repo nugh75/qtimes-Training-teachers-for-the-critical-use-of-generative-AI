@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ella14.md",
+  "source_name": "studenti_ella14.md",
+  "title": "Risposta ella14",
+  "group": "Studenti",
+  "record_code": "ella14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:17.760990+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di studente che valorizza l'autonomia cognitiva e la relazione umana, con consapevolezza dei rischi di dipendenza dall'IA.",
+  "code_counts": {
+    "I4": 1,
+    "N1b": 1,
+    "S1": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "nello studio mi affido alle mie capacità e conoscenze per essere preparata maggiormente",
+      "codes": [
+        "X3",
+        "I4"
+      ],
+      "reason": "L'utente esprime fiducia nelle proprie capacità personali (X3) e preferisce l'approccio umano/autonomo rispetto all'IA, indicando una preferenza per la relazione o il giudizio umano (I4)."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che l’ai fornisce nozioni “universali”, ovvero ha una preparazione su tutte le materie e da risposte semplici da capire ma allo stesso tempo efficaci e corrette, un pro è che secondo me limita le capacità autonome degli alunni",
+      "codes": [
+        "X2",
+        "S1"
+      ],
+      "reason": "L'utente elenca pro (comprensione rapida, nozioni universali - X2) e contro (limitazione capacità autonome - S1)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non ho esperienza in questo campo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta dichiara di non avere esperienza nel campo, rendendo impossibile classificare l'item secondo i codici PRAXIS (fuori tema)."
+    }
+  ]
+}

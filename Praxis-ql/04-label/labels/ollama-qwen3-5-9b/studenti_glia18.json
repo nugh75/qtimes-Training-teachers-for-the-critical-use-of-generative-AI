@@ -1,0 +1,126 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_glia18.md",
+  "source_name": "studenti_glia18.md",
+  "title": "Risposta glia18",
+  "group": "Studenti",
+  "record_code": "glia18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:46:08.446380+00:00",
+  "record_dimensions": [
+    "A",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "R5",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Il record descrive un utente che utilizza l'IA principalmente per chiarimenti e riscritture (X2, P5), ne percepisce i benefici di efficienza e accessibilità, ma esprime forti preoccupazioni riguardo alla dipendenza cognitiva e all'erosione del pensiero critico.",
+  "code_counts": {
+    "A1": 1,
+    "P5": 3,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R5": 1,
+    "S4": 1,
+    "S5": 1,
+    "X1": 1,
+    "X2": 5,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatGPT quando ho qualche dubbio",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (chatGPT) e percezione di competenza nell'uso."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per capire con altre parole alcuni concetti",
+      "codes": [
+        "X2",
+        "P5"
+      ],
+      "reason": "Uso dell'IA per chiarire concetti (semplificazione) e riscrittura in altre parole."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"da cosa deriva il modello CHC\"",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt fornito (prompting visibile) e funzione di chiarificazione del concetto."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "chiarifica i contenuti",
+      "codes": [
+        "X2",
+        "P5"
+      ],
+      "reason": "Aiuto all'apprendimento tramite chiarificazione dei contenuti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "leggendo con altre parole delle teorie o dei concetti ho compreso meglio il loro significato",
+      "codes": [
+        "X2",
+        "P5"
+      ],
+      "reason": "Comprensione migliorata attraverso la riscrittura e spiegazione dei concetti."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "non sono abituata al loro utilizzo",
+      "codes": [
+        "A1",
+        "R5"
+      ],
+      "reason": "Mancanza di abitudine indica assenza di formazione o rifiuto per insicurezza."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi",
+      "codes": [
+        "X1",
+        "X2",
+        "X4",
+        "S4",
+        "S5"
+      ],
+      "reason": "Pro: fruibilità, facilità, supporto (efficienza, comprensione, inclusione). Contro: rischio di dipendenza che erode il pensiero critico e riduce le capacità individuali."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "l'eccessiva fiducia, far fare tutto il lavoro a questi strumenti",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

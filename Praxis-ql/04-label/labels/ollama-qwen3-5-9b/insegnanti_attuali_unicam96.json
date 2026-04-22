@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_unicam96.md",
+  "source_name": "insegnanti_attuali_unicam96.md",
+  "title": "Risposta Unicam96",
+  "group": "Insegnanti in servizio",
+  "record_code": "Unicam96",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:15.396167+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1a",
+    "S4",
+    "S6",
+    "X1"
+  ],
+  "record_note": "Profilo di insegnanti che vedono nell'IA uno strumento utile ma non sostitutivo della relazione umana, con preoccupazioni legate all'erosione del pensiero critico e alla perdita di autonomia cognitiva.",
+  "code_counts": {
+    "I4": 1,
+    "N1a": 1,
+    "S4": 2,
+    "S6": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' è troppo breve e non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "IA non potrà mai sostituire il sapere umano",
+      "codes": [
+        "I4"
+      ],
+      "reason": "L'IA non può sostituire il sapere umano e la relazione educativa."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: semplifica il lavoro da svolgere. Contro: riduce notevolmente la preparazione poichè semplifica lo studio da svolgere.",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Pro: semplifica il lavoro (X1); Contro: riduce la preparazione e l'elaborazione (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "limitazione delle proprie capacità di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto tra studente e insegnante",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Limitazione della capacità critica (S4) e riduzione del rapporto docente-studente (S6)."
+    }
+  ]
+}

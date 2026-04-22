@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T13:08:51.494826+00:00",
+    "generated_at": "2026-04-22T08:23:47.950348+00:00",
     "records_total": 731,
     "dimensions": {
       "A": "Adeguatezza del supporto",
@@ -461,7 +461,7 @@
           "dimension": "S",
           "label": "Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu' nulla da soli.",
           "count": 75,
-          "share": 1.28
+          "share": 1.29
         },
         {
           "id": "P3",
@@ -560,13 +560,6 @@
           "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
           "count": 4,
           "share": 0.07
-        },
-        {
-          "id": "N1",
-          "dimension": "N",
-          "label": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
-          "count": 1,
-          "share": 0.02
         }
       ],
       "top_subcodes": [
@@ -711,7 +704,7 @@
           "share": 1.32
         }
       ],
-      "total_subcode_mentions": 5837,
+      "total_subcode_mentions": 5836,
       "dimension_to_subcodes": {
         "A": [
           {
@@ -2283,11 +2276,6 @@
           "weight": 1
         },
         {
-          "source": "N1",
-          "target": "P7",
-          "weight": 1
-        },
-        {
           "source": "P1",
           "target": "R2",
           "weight": 1
@@ -2783,7 +2771,7 @@
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
           "count": 303,
-          "share": 10.33
+          "share": 10.34
         },
         {
           "id": "X3",
@@ -2797,7 +2785,7 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 252,
-          "share": 8.59
+          "share": 8.6
         },
         {
           "id": "P5",
@@ -2846,7 +2834,7 @@
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 113,
-          "share": 3.85
+          "share": 3.86
         },
         {
           "id": "X6",
@@ -2874,7 +2862,7 @@
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
           "count": 62,
-          "share": 2.11
+          "share": 2.12
         },
         {
           "id": "P3",
@@ -3022,13 +3010,6 @@
           "label": "Uso compensativo dell'IA: l'IA colma lacune del sistema formativo o didattico.",
           "count": 3,
           "share": 0.1
-        },
-        {
-          "id": "N1",
-          "dimension": "N",
-          "label": "Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.",
-          "count": 1,
-          "share": 0.03
         }
       ],
       "top_subcodes": [
@@ -3037,7 +3018,7 @@
           "dimension": "P",
           "label": "Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita' o percorsi al singolo studente o gruppo.",
           "count": 303,
-          "share": 10.33
+          "share": 10.34
         },
         {
           "id": "X3",
@@ -3051,7 +3032,7 @@
           "dimension": "S",
           "label": "Erosione del pensiero critico.",
           "count": 252,
-          "share": 8.59
+          "share": 8.6
         },
         {
           "id": "P5",
@@ -3100,7 +3081,7 @@
           "dimension": "P",
           "label": "Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione.",
           "count": 113,
-          "share": 3.85
+          "share": 3.86
         },
         {
           "id": "X6",
@@ -3128,7 +3109,7 @@
           "dimension": "A",
           "label": "Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare.",
           "count": 62,
-          "share": 2.11
+          "share": 2.12
         },
         {
           "id": "P3",
@@ -3173,7 +3154,7 @@
           "share": 1.84
         }
       ],
-      "total_subcode_mentions": 2932,
+      "total_subcode_mentions": 2931,
       "dimension_to_subcodes": {
         "A": [
           {
@@ -4537,11 +4518,6 @@
         {
           "source": "I5",
           "target": "X6",
-          "weight": 1
-        },
-        {
-          "source": "N1",
-          "target": "P7",
           "weight": 1
         },
         {

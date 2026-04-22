@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_iero07.md",
+  "source_name": "insegnanti_attuali_iero07.md",
+  "title": "Risposta Iero07",
+  "group": "Insegnanti in servizio",
+  "record_code": "Iero07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:10.507399+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1a",
+    "S7",
+    "X7"
+  ],
+  "record_note": "Il record mostra una posizione complessa: da un lato c'è una percezione di scarsa preparazione della pratica (N1a), dall'altro una forte attenzione all'etica dell'uso (X7, S7) e alla necessità di controllo umano (I1).",
+  "code_counts": {
+    "I1": 1,
+    "N1a": 2,
+    "S7": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Poco pratica",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta 'Poco pratica' è troppo breve per essere classificata con codici specifici del framework."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Poco pratica è ancora poco formata in merito.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è una ripetizione della precedente e rimane troppo breve per un'analisi qualitativa approfondita."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sono favorevole ma in modo controllato e con una preparazione adeguata.",
+      "codes": [
+        "X7",
+        "I1"
+      ],
+      "reason": "L'utente esprime favorevolezza condizionata ('in modo controllato') e necessità di preparazione, indicando un uso critico e non acritico (X7) e una fiducia tecnica condizionata (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per produrre testi e per fare i temi.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "L'utente identifica come non raccomandato l'uso dell'IA per la produzione di testi e temi, rientrando nell'ambito off-limits della scrittura soggettiva o valutazione (S7)."
+    }
+  ]
+}

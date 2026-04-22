@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_pina06.md",
+  "source_name": "insegnanti_futuri_pina06.md",
+  "title": "Risposta Pina06",
+  "group": "Insegnanti pre-service",
+  "record_code": "Pina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:55.357965+00:00",
+  "record_dimensions": [
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R2"
+  ],
+  "record_note": "Il partecipante Pina06, essendo in fase pre-service, manifesta una sfiducia tecnica (I2) o una percezione di inutilità (R2) dell'IA, rifiutandone l'uso didattico in modo assoluto e dichiarando di non conoscere le pratiche raccomandate.",
+  "code_counts": {
+    "N1b": 4,
+    "R2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non la ritengo necessaria",
+      "codes": [
+        "N1b",
+        "R2"
+      ],
+      "reason": "Risposta fuori tema (non spiega il 'perché' richiesto ma esprime un'opinione generale) e competenza teorica (giudizio sulla necessità)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno e non credo sia necessaria",
+      "codes": [
+        "N1b",
+        "R2"
+      ],
+      "reason": "Risposta fuori tema (non spiega il 'perché' specifico ma cita lo stato pre-service) e competenza teorica (giudizio sulla necessità)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "In base alla mia esperienza mi verrebbe da dire che ci sono solo contro ma forse scoprirò che ci sono anche dei pro",
+      "codes": [
+        "N1b",
+        "R2"
+      ],
+      "reason": "Risposta fuori tema (non elenca pro/contro specifici ma esprime un'ipotesi futura) e competenza teorica (percezione dei limiti)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per quanto riguarda l'uso della AI nell'insegnamento non conosco le pratiche raccomandate o che non dovrebbero essere utilizzate",
+      "codes": [
+        "N1b",
+        "R2"
+      ],
+      "reason": "Risposta fuori tema (ammissione di non conoscenza) e competenza teorica (mancanza di comprensione delle linee guida)."
+    }
+  ]
+}

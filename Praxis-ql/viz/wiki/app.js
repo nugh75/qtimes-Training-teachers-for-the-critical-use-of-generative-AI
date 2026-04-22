@@ -138,6 +138,24 @@
     const width = 1320;
     const height = 720;
 
+    const navLinks = h(
+      "p",
+      { className: "header-nav" },
+      h(
+        "a",
+        { href: "../../", className: "header-nav-link" },
+        "Home Quartz"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "../", className: "header-nav-link" },
+        "PRAXIS Graph"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h("span", { className: "header-nav-current" }, "Wiki Graph")
+    );
+
     useEffect(() => {
       fetch("./wiki-graph-data.json")
         .then((res) => {
@@ -234,10 +252,10 @@
     }
 
     if (error) {
-      return h("div", { className: "page" }, h("div", { className: "panel head" }, h("h1", null, "Wiki Graph"), h("p", null, error)));
+      return h("div", { className: "page" }, h("div", { className: "panel head" }, h("h1", null, "Wiki Graph"), h("p", null, error), navLinks));
     }
     if (!data) {
-      return h("div", { className: "page" }, h("div", { className: "panel head" }, h("h1", null, "Wiki Graph"), h("p", null, "Caricamento dati...")));
+      return h("div", { className: "page" }, h("div", { className: "panel head" }, h("h1", null, "Wiki Graph"), h("p", null, "Caricamento dati..."), navLinks));
     }
 
     return h(
@@ -250,13 +268,9 @@
         h(
           "p",
           null,
-          "Solo pagine in wiki/ e solo link markdown. Un nodo per pagina."
+          "Solo pagine in 01-wiki/ e solo link markdown. Un nodo per pagina."
         ),
-        h(
-          "p",
-          { style: { marginTop: 8 } },
-          h("a", { href: "../", style: { color: "#3d8bfd", textDecoration: "none", fontWeight: 600 } }, "← Praxis Graph")
-        )
+        navLinks
       ),
       h(
         "div",

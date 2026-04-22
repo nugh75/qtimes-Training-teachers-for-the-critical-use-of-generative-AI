@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_epre02.md",
+  "source_name": "insegnanti_attuali_epre02.md",
+  "title": "Risposta epre02",
+  "group": "Insegnanti in servizio",
+  "record_code": "epre02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:54.529194+00:00",
+  "record_dimensions": [
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "S3",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante critico verso l'IA, focalizzato sui rischi cognitivi e pedagogici (pensiero critico, creatività) e sulla specificità del contesto educativo.",
+  "code_counts": {
+    "S3": 1,
+    "S4": 3,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "blocca la creatività, e il fare",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "La risposta evidenzia rischi di omologazione (creatività bloccata) ed erosione del pensiero critico."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non adatta alla scuola dell infanzia",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il rifiuto è motivato dall'inadeguatezza dell'IA per il contesto specifico (scuola dell'infanzia)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "contro: limita le capacità  elaborazione e critica - pro  facilita l informazione",
+      "codes": [
+        "S4",
+        "X2"
+      ],
+      "reason": "Vengono elencati sia i contro (erosione pensiero critico) sia i pro (facilitazione informazione)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "riduce competenze il pensiero critico e la risoluzione dei problemi",
+      "codes": [
+        "S4"
+      ],
+      "reason": "La risposta identifica la riduzione delle competenze cognitive come pratica da evitare."
+    }
+  ]
+}

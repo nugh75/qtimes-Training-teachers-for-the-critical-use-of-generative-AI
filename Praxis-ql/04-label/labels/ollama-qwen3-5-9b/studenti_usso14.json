@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_usso14.md",
+  "source_name": "studenti_usso14.md",
+  "title": "Risposta usso14",
+  "group": "Studenti",
+  "record_code": "usso14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:15:07.418831+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R1",
+    "R5",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di studente consapevole dei rischi (allucinazioni, perdita di autonomia) e che limita l'uso dell'IA per mancanza di competenza tecnica o per preservare le capacità cognitive.",
+  "code_counts": {
+    "I2": 1,
+    "R1": 2,
+    "R5": 2,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono ancora abbastanza competente per utilizzarla al meglio",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Riconoscimento di limiti di competenza (R1) e scelta di non uso motivata da insicurezza (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Non uso l'IA perché non mi ritengo abbastanza competente ad utilizzarla",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Riconoscimento di limiti di competenza (R1) e scelta di non uso motivata da insicurezza (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: riassumere i punti essenziali e facilitarne l'apprendimento contro: i possibili errori di riassunto che possono accadere",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: semplificazione e comprensione (X2); Contro: errori di sintesi/allucinazioni (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Svolgimento di un esercizio perché così facendo lo studente non riesce a svolgerlo in maniera adeguata",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Evitare l'IA per non erodere il pensiero critico (S4) e per non delegare compiti che richiedono autonomia (S7)."
+    }
+  ]
+}

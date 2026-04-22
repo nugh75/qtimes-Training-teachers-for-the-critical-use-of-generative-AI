@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_naro28.md",
+  "source_name": "insegnanti_attuali_naro28.md",
+  "title": "Risposta naro28",
+  "group": "Insegnanti in servizio",
+  "record_code": "naro28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:49:09.323584+00:00",
+  "record_dimensions": [
+    "A",
+    "R"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A3",
+    "R1",
+    "R2"
+  ],
+  "record_note": "Profilo di docente in fase di formazione iniziale, con percezione di barriere infrastrutturali e lacune nella competenza tecnica/epistemologica sull'IA.",
+  "code_counts": {
+    "A1": 2,
+    "A3": 1,
+    "R1": 2,
+    "R2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ancora mi devo formare a riguardo.  Sono iscritta ad un corso  su piattaforma scuola  Futura",
+      "codes": [
+        "A1",
+        "R1"
+      ],
+      "reason": "Mancanza di formazione formale e percezione di non saper usare gli strumenti."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ancora mi devo formare; a scuola  ci sono poche strumentazioni a nostra disposizione.",
+      "codes": [
+        "A1",
+        "A3",
+        "R1"
+      ],
+      "reason": "Mancanza di formazione e vincoli infrastrutturali (poche strumentazioni)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non so valutare",
+      "codes": [
+        "R2"
+      ],
+      "reason": "Incapacità di valutare o comprendere i pro e i contro (gap epistemologico)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [
+        "R2"
+      ],
+      "reason": "Incapacità di identificare pratiche non raccomandate (mancanza di competenza teorica)."
+    }
+  ]
+}

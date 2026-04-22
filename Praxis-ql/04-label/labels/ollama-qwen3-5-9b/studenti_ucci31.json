@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ucci31.md",
+  "source_name": "studenti_ucci31.md",
+  "title": "Risposta ucci31",
+  "group": "Studenti",
+  "record_code": "ucci31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:41.353930+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P1",
+    "P6",
+    "P7",
+    "R4",
+    "S4",
+    "S7",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Studente che percepisce l'IA come strumento di semplificazione e innovazione, con consapevolezza dei rischi cognitivi e limiti disciplinari.",
+  "code_counts": {
+    "N1a": 1,
+    "P1": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 4,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGpt perché è semplice e innovativo",
+      "codes": [
+        "P6",
+        "X6"
+      ],
+      "reason": "Menzione di ChatGpt come strumento (P6) e apprezzamento per l'innovazione (X6)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Cercando di semplificare l'operato",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per semplificare l'operato e lo studio (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "ChatGpt, segui queste regole ecc Chatgpt, rielabora questo testo",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempi di prompt riportati (P7) e capacità di formulare istruzioni (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Va a semplificare i concetti chiave",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta semplificando i concetti chiave (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mappe concettuali precise",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Produzione di mappe concettuali (P1) e semplificazione dei concetti (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho trovato tante difficoltà",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che va a semplificare e ridurre il lavoro  I contro sono che si riduce il quoziente intellettivo dello studente",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione (X2); Contro: riduzione del quoziente intellettivo (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Matematica, materia dove bisogna sforzarsi maggiormente",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Indicazione di ambiti off-limits come la matematica (S7)."
+    }
+  ]
+}

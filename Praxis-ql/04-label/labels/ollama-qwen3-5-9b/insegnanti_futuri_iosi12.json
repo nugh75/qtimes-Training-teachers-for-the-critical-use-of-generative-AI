@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_iosi12.md",
+  "source_name": "insegnanti_futuri_iosi12.md",
+  "title": "Risposta iosi12",
+  "group": "Insegnanti pre-service",
+  "record_code": "iosi12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:54.016210+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1a",
+    "R2",
+    "R3"
+  ],
+  "record_note": "Profilo di partecipanti pre-service con lacune formative e assenza di esperienza pratica nell'uso dell'IA.",
+  "code_counts": {
+    "A1": 1,
+    "N1a": 4,
+    "R2": 2,
+    "R3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non mi sono formata in materia",
+      "codes": [
+        "N1a",
+        "A1"
+      ],
+      "reason": "Risposta breve che cita esplicitamente la mancanza di formazione (A1) come causa del non uso (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Attualmente non insegno",
+      "codes": [
+        "N1a",
+        "R3"
+      ],
+      "reason": "Risposta breve che evidenzia il gap tra uso personale (attualmente non insegno) e uso didattico (R3)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienza in materia",
+      "codes": [
+        "N1a",
+        "R2"
+      ],
+      "reason": "Risposta breve che ammette la mancanza di esperienza/comprensione teorica (R2) (N1a)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1a",
+        "R2"
+      ],
+      "reason": "Risposta breve che ammette l'incapacità di rispondere per mancanza di conoscenza (R2) (N1a)."
+    }
+  ]
+}

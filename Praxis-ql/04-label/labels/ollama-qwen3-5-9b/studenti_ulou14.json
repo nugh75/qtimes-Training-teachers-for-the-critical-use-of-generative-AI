@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ulou14.md",
+  "source_name": "studenti_ulou14.md",
+  "title": "Risposta ULOU14",
+  "group": "Studenti",
+  "record_code": "ULOU14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:49.727186+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso maturo dell'IA da parte degli studenti, con chiara distinzione tra compiti meccanici/riassuntivi (ben accolti) e compiti che richiedono elaborazione personale o creatività (evitati), evidenziando una consapevolezza dei rischi cognitivi.",
+  "code_counts": {
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 3,
+    "X2": 4,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT mi sembra quella sviluppata meglio, risponde più adeguatamente e posso mandare delle foto",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione esplicita di uno strumento (ChatGPT) e valutazione della sua qualità tecnica."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Rispondere a quiz, domande aperte non di riflessione, gli chiedo di riformulare in modo semplice frasi che non capisco.",
+      "codes": [
+        "P2",
+        "X2",
+        "X5"
+      ],
+      "reason": "Uso dell'IA per riformulare concetti (personalizzazione), semplificazione e risparmio di tempo."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "1) fai un riassunto dettagliato del purgatorio Canto VI ( vv . 1-57 ) la circolarità del canto, la pausa dottrinale, l 'incontro con Sordello  2) Mi spieghi con parole più facili questa frase? La parete dello stomaco è molto spessa e dotata di epiteli ghiandolari che secerne i succhi gastrici.",
+      "codes": [
+        "P7",
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempi espliciti di prompt (P7) che generano riassunti e spiegazioni semplici (P5, X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplifica frasi e svolge mansioni noiose facendomi risparmiare tempo",
+      "codes": [
+        "X2",
+        "X1"
+      ],
+      "reason": "Benefici citati: semplificazione, risparmio di tempo e svolgimento mansioni noiose."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Velocizza lo studio",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Risposta molto breve focalizzata esclusivamente sulla velocizzazione dello studio."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro - Velocizza, Semplifica, Chiarisce le idee, fa domande per verificare conoscenze Contro- può limitare la capacità di scrivere e abbassare la soglia della concentrazione",
+      "codes": [
+        "X1",
+        "X2",
+        "X6",
+        "S4"
+      ],
+      "reason": "Pro: velocità, semplificazione, coinvolgimento; Contro: rischio di abbassare la soglia di concentrazione (erosione pensiero critico)."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La scrittura di temi, risposta a domande che chiedono una rielaborazione personale, la risoluzione completa di esercizi di matematica/fisica",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Identificazione di ambiti off-limits (scrittura soggettiva, risoluzione completa esercizi) e rischio di erosione del pensiero critico."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otta04.md",
+  "source_name": "insegnanti_attuali_otta04.md",
+  "title": "Risposta otta04",
+  "group": "Insegnanti in servizio",
+  "record_code": "otta04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:50.842063+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4",
+    "X3"
+  ],
+  "record_note": "Il record mostra un insegnante che non utilizza l'IA per mancanza di formazione (tema ricorrente negli item 1 e 2) e offre una valutazione critica degli effetti cognitivi dell'IA.",
+  "code_counts": {
+    "N1b": 2,
+    "S4": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non formato all'utilizzo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente risponde alla domanda 'Se no, puoi spiegare perché...' affermando di non essere formato, ma non specifica se usa o meno l'IA, rendendo la classificazione ambigua."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non sono formato",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente conferma di non essere formato, ma non risponde alla domanda specifica sul 'perché' non utilizza l'IA nella didattica (es. mancanza di formazione)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: aiuto e personalizzazione dell'apprendimento Contro: mancanza di autonomia e di sviluppo cognitivo per il discente",
+      "codes": [
+        "X3",
+        "S4"
+      ],
+      "reason": "Pro: personalizzazione (X3); Contro: mancanza di autonomia e sviluppo cognitivo (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Da non utilizzare sistemi che non favoriscano l'apprendimento significativo e la crescita cognitiva del discente",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Pratiche non raccomandate: quelle che non favoriscono l'apprendimento significativo e la crescita cognitiva (S4)."
+    }
+  ]
+}

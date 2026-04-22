@@ -1,0 +1,119 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_ongo01.md",
+  "source_name": "insegnanti_attuali_ongo01.md",
+  "title": "Risposta ongo01",
+  "group": "Insegnanti in servizio",
+  "record_code": "ongo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:02.843947+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P6",
+    "R1",
+    "X2",
+    "X5",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record mostra un insegnante in fase di adozione iniziale (uso strumentale e cauto) che riconosce benefici nella ricerca e nell'arricchimento creativo, ma rifiuta esplicitamente l'uso dell'IA per l'individualizzazione, la personalizzazione profonda e la sostituzione del pensiero critico.",
+  "code_counts": {
+    "N1a": 4,
+    "P6": 1,
+    "R1": 1,
+    "X2": 2,
+    "X5": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Per ora mi sto concentrando il mio utilizzo verso chatgpt4o pervhè consigliato in un corso di formazione, ma non escludo l'utilizzo di altri sistemim",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di ChatGPT4o come strumento preferito (P6) e riferimento a un corso di formazione che ne ha consigliato l'uso, indicando una competenza percepita o acquisita (R1)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Ancora non mi sono servito di questo strumento nella didattica quotidiana per individualizzare l'insegnamento",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta negativa che nega l'uso dello strumento per lo scopo specifico, risultando non informativa per l'attribuzione di codici positivi."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la utilizzo per questo scopo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta negativa che nega l'uso dello strumento per la personalizzazione, risultando non informativa."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "no",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('no') che non fornisce informazioni utili per la codifica."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "no",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('no') che non fornisce informazioni utili per la codifica."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Nella ricerca e nella stratificazione dell'informazione",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA aiuta nella ricerca (X2: comprensione più rapida/focalizzazione) e nella gestione/organizzazione dell'informazione (X5: organizzazione e supporto al percorso)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "nessuna, ancora la adopero con cautela",
+      "codes": [
+        "X7"
+      ],
+      "reason": "L'uso avviene 'con cautela', indicando un beneficio subordinato al controllo umano e all'uso critico (X7)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Nello stimolare i miei studenti nella creazione di testi o prompt man mano sempre più accurati e precisi per trasformare le loro parole in immagini o libri allustrati",
+      "codes": [
+        "X6",
+        "X2"
+      ],
+      "reason": "Stimolare gli studenti nella creazione di testi e immagini favorisce il coinvolgimento e l'innovazione (X6) e la semplificazione/comprensione (X2)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nel sostituire le proprie capacità intellettive, di astrazione e ragionamento dalla impressionante velocità e immediatezza della macchina",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

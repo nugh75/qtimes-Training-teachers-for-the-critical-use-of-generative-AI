@@ -1,0 +1,132 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_urdi04.md",
+  "source_name": "studenti_urdi04.md",
+  "title": "Risposta URDI04",
+  "group": "Studenti",
+  "record_code": "URDI04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:15:01.252516+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "S5",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente consapevole dei limiti dell'IA, che ne usa gli aspetti operativi (sintesi, velocità) ma rifiuta la delega cognitiva e la produzione autonoma, evidenziando la necessità di formazione specifica.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S5": 1,
+    "S7": 1,
+    "X1": 3,
+    "X2": 5
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non sono abituata ad usarla in ambiti che non siano di studio o lavoro. Penso subito ad altre vie per risolvere un problema.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta riferita a contesti generici (studio/lavoro) non pertinente alla pratica didattica specifica richiesta dal framework."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Uso solo chat, perché è gratuito ed efficace",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione dello strumento (chat), del beneficio economico (gratuito) e dell'efficacia (comprensione)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo di riassumere in punti o produrre schemi per concettualizzare argomenti complessi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso di strategie operative (riassunti, schemi) per facilitare la comprensione di concetti complessi."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"Ciao, puoi sintetizzare questo testo....\"",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt fornito e menzione dell'obiettivo sintetico."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Grazie alla sintesi in punti chiave",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio legato alla sintesi e focalizzazione sui punti chiave."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Produrre report in poco tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Miglioramento dell'apprendimento attraverso il risparmio di tempo nella produzione di report."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Se non si specificano bene le richieste, tende a generalizzare le risposte, rendendole banali",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Descrizione di limiti tecnici (generalizzazione, risposte banali) che riducono l'affidabilità."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: tempi ridotti di studio o lavoro, facilitazione della comprensione di concetti. CONTRO: non c'é una formazione adeguata al corretto utilizzo dell'IA. Questo rischia di produrre menti poco critiche e superficiali.",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: efficienza e comprensione; Contro: rischio di superficialità e pensiero poco critico."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Produzione da zero di prodotti di studio o di lavoro.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione della produzione autonoma di contenuti come ambito off-limits."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_cchi04.md",
+  "source_name": "insegnanti_attuali_cchi04.md",
+  "title": "Risposta cchi04",
+  "group": "Insegnanti in servizio",
+  "record_code": "cchi04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:33.953206+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "R5",
+    "S4",
+    "S6"
+  ],
+  "record_note": "Il record evidenzia preoccupazioni legate alla formazione, alla relazione educativa e all'erosione delle competenze critiche.",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "R5": 1,
+    "S4": 1,
+    "S6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Dovrei svolgere dei corsi di formazione",
+      "codes": [
+        "A1",
+        "R5"
+      ],
+      "reason": "Mancanza di corsi di formazione (A1) e non-uso motivato da insicurezza o necessità di preparazione (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Limitazione delle proprie capacità di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto tra studente e insegnante",
+      "codes": [
+        "S4",
+        "I4",
+        "S6"
+      ],
+      "reason": "Erosione del pensiero critico (S4), perdita della relazione educativa (I4) e sostituzione del ruolo docente (S6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'uso di  ChatGPT",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_oni431055.md",
+  "source_name": "insegnanti_attuali_oni431055.md",
+  "title": "Risposta Oni431055",
+  "group": "Insegnanti in servizio",
+  "record_code": "Oni431055",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:15.386154+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1c",
+    "R5",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'adozione dell'IA (non-uso per scelta epistemica) e consapevolezza dei rischi cognitivi.",
+  "code_counts": {
+    "I1": 1,
+    "N1c": 1,
+    "R5": 2,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non è necessaria per quello che faccio",
+      "codes": [
+        "N1c",
+        "R5"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('non è necessaria') che giustifica il non-uso per scelta epistemica (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ancora non ho riscontrato particolari esigenze che mi hanno portato poi allmutilizzo di AI.",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non uso motivato da insicurezza o scelta epistemica: assenza di esigenze percepute."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro nella correzione e programmazione. Contro anestizqzione dle pensiero critico e dell'immaginazione",
+      "codes": [
+        "S4",
+        "X2"
+      ],
+      "reason": "Cita esplicitamente l'erosione del pensiero critico (S4) come contro, e la correzione/programmazione come pro (X2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Potrebbero essere usate ma sempre con la dovuta cautela",
+      "codes": [
+        "I1"
+      ],
+      "reason": "Uso condizionato alla cautela e al controllo umano (I1)."
+    }
+  ]
+}

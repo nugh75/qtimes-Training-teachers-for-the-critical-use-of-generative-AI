@@ -1,0 +1,64 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_lupi09.md",
+  "source_name": "insegnanti_futuri_lupi09.md",
+  "title": "Risposta Lupi09",
+  "group": "Insegnanti pre-service",
+  "record_code": "Lupi09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:09.357449+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Il record mostra una visione critica dell'IA: rifiuto totale per chi non insegna, apprezzamento dei benefici strumentali con riserva di controllo umano, e identificazione chiara dei limiti etici (sostituzione docente, valutazione).",
+  "code_counts": {
+    "N1b": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' non risponde alla domanda sulla didattica, ma descrive lo stato attuale del partecipante, rendendo la risposta fuori tema rispetto al contesto educativo richiesto."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilitano e velocizzano molti compiti e ricerche ma sarebbe opportuno saperli fare anche senza l'ia",
+      "codes": [
+        "X1",
+        "X2",
+        "X7"
+      ],
+      "reason": "La risposta cita benefici di efficienza e velocità (X1, X2) e conclude con la necessità di autonomia umana, indicando un beneficio subordinato al controllo critico (X7)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sostituzione del docente e automazione delle valutazioni",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "La risposta elenca esplicitamente la sostituzione del docente e l'automazione delle valutazioni come pratiche non raccomandate, mappando direttamente i codici S6 e S7."
+    }
+  ]
+}

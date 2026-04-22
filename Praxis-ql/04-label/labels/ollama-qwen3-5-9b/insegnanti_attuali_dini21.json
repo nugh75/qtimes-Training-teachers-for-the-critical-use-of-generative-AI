@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_dini21.md",
+  "source_name": "insegnanti_attuali_dini21.md",
+  "title": "Risposta dini21",
+  "group": "Insegnanti in servizio",
+  "record_code": "dini21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:01.083977+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S7"
+  ],
+  "record_note": "Profilo di docente con resistenza all'adozione dell'IA, motivata da sfiducia nelle applicazioni relazionali e mancanza di interesse percepito.",
+  "code_counts": {
+    "N1b": 3,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ancora non ho trovato interessante utilizzarla",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sull'uso dell'IA, non fornisce motivazioni didattiche o tecniche."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per ora non sono interessata",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda dettagliata, non elabora le ragioni pedagogiche o tecniche del rifiuto."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Non so') che non permette l'attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Tutte quello cha ha a che fare con la relazione umana",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identifica correttamente l'ambito off-limits relativo alle relazioni umane come pratica non raccomandata."
+    }
+  ]
+}

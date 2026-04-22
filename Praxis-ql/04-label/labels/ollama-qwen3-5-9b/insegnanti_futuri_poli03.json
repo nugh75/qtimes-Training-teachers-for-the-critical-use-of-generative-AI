@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_poli03.md",
+  "source_name": "insegnanti_futuri_poli03.md",
+  "title": "Risposta Poli03",
+  "group": "Insegnanti pre-service",
+  "record_code": "Poli03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:58.624216+00:00",
+  "record_dimensions": [
+    "A",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "R1",
+    "S2",
+    "S4",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Profilo di insegnanti pre-service con forte consapevolezza dei rischi cognitivi (erosione pensiero critico) e percezione di barriere all'uso autonomo.",
+  "code_counts": {
+    "A2": 1,
+    "R1": 1,
+    "S2": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Capacità di utilizzarla adeguatamente",
+      "codes": [
+        "R1",
+        "A2"
+      ],
+      "reason": "R1: percepita incapacità di usare lo strumento; A2: supporto insufficiente per l'implementazione."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: utilizzo improprio da parte degli studenti. Viene utilizzata per fare i compiti, verifiche ed  esami senza studiare e/o capire e/o ragionare.  Pro: velocizzare alcuni iter e focalizzarsi sull'obiettivo",
+      "codes": [
+        "S2",
+        "S4",
+        "X1"
+      ],
+      "reason": "S2: uso improprio per compiti (ghostwriting); S4: perdita di ragionamento; X1: velocizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Tutte quelle pratiche in cui l'IA inibisce il ragionamento dei ragazzi",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "S4: inibizione del ragionamento; S7: ambiti off-limits (ragionamento)."
+    }
+  ]
+}

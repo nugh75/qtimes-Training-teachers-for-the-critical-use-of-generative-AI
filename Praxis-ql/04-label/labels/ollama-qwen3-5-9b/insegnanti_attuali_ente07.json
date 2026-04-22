@@ -1,0 +1,76 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ente07.md",
+  "source_name": "insegnanti_attuali_ente07.md",
+  "title": "Risposta ente07",
+  "group": "Insegnanti in servizio",
+  "record_code": "ente07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:18.481712+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "N1b",
+    "R2",
+    "X2",
+    "X4",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti con approccio critico e cautelativo: rifiuto iniziale basato sulla mancanza di utilità percepita o sulla necessità di controllo umano, ma apertura a un uso guidato e consapevole.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "N1b": 1,
+    "R2": 1,
+    "X2": 1,
+    "X4": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non lo ritengo necessario al momento.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: il testo esprime una posizione generale ('non necessario') senza riferimenti specifici all'IA o alla didattica, rendendolo non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho ancora integrato l'IA nella mia didattica perché non ho visto, ad oggi, utilizzi utili alla mia disciplina.",
+      "codes": [
+        "R2",
+        "X4"
+      ],
+      "reason": "R2: Mancanza di percezione di utilità pratica (gap tra disponibilità e percezione di valore). X4: Rifiuto basato sulla mancanza di strumenti utili per l'inclusione o l'accesso specifico alla disciplina."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro:  - Facilita i processi di sintesi e di elaborazione di testi anche altamente specifici.  Contro:  - Sottende delle imprecisioni",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "X2: Pro citati come facilitazione di sintesi e comprensione. I2: Contro citato come presenza di imprecisioni (allucinazioni)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Se usata come supporto alla didattica e al coinvolgimento degli studenti, non vedo pratiche altamente sconsigliate, anzi credo che la Scuola sarà presto chiamata a guidare gli studenti nel conoscere questa nuova realtà, per aiutarli a farne un uso prudente e consapevole.",
+      "codes": [
+        "X7",
+        "I1"
+      ],
+      "reason": "X7: Beneficio subordinato a guida umana e uso prudente/consapevole. I1: Fiducia condizionata alla supervisione e al controllo umano."
+    }
+  ]
+}

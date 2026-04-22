@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ione04.md",
+  "source_name": "insegnanti_attuali_ione04.md",
+  "title": "Risposta ione04",
+  "group": "Insegnanti in servizio",
+  "record_code": "ione04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:47:03.477890+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S3",
+    "S4",
+    "S7",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Profilo di docente che applica un approccio critico e conservatore all'IA, limitandone l'uso a funzioni di supporto inclusivo e rifiutando la delega cognitiva in ambiti fondamentali o creativi.",
+  "code_counts": {
+    "N1b": 1,
+    "S3": 1,
+    "S4": 1,
+    "S7": 2,
+    "X3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "insegno in una classe prima della scuola primaria",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: indica il contesto lavorativo (classe prima) senza rispondere alla domanda sul perché non usa l'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non utilizzo ancora l'intelligenza a. nella didattica poiché insegnando in una classe prima della scuola primaria cerco di indirizzare la mia didattica all'apprendimento delle abilità strumentali di base. Mi avvalgo però di strumenti informatici software e piattaforme con esercizi guidati e training cognitivo per facilitare il processo di apprendimento soprattutto nel caso di alunni che mostrano difficoltà.",
+      "codes": [
+        "X3",
+        "X4",
+        "S7"
+      ],
+      "reason": "Uso dell'IA limitato per inclusione (X4) e personalizzazione (X3) in contrasto con ambiti off-limits come le abilità strumentali di base (S7)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "nel caso di studenti che abbiano superato l'età per poter avere accesso a tali strumenti un  \"totale\"  delegare alla IA  e di conseguenza un appiattimento del Problem- solving, del pensiero creativo etc.",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Rischio di appiattimento creativo (S3) ed erosione del pensiero critico (S4) tramite delega totale."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "creazione di testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Creazione di testi identificata come pratica off-limits."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ayed027.md",
+  "source_name": "studenti_ayed027.md",
+  "title": "Risposta Ayed027",
+  "group": "Studenti",
+  "record_code": "Ayed027",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:36.585305+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "S4",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per la schematizzazione (P5), con evidenti preoccupazioni riguardo alla perdita di autonomia (S4) e risposte spesso non specifiche (N1a).",
+  "code_counts": {
+    "N1a": 4,
+    "P5": 4,
+    "S4": 1,
+    "X2": 3,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Si",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per l'attribuzione di codici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Schematizzare per studiare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Schematizzare è una strategia operativa (P5) che favorisce la comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Schemi",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Uso di schemi come strategia operativa (P5) per personalizzare lo studio (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "No",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per l'attribuzione di codici."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Schematizzare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Schematizzare è una strategia operativa (P5) che favorisce la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Schematizzare",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Schematizzare è una strategia operativa (P5) che favorisce la comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per l'attribuzione di codici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro è l’indipendenza",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Perdita di indipendenza è indicativa di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Ci sono cose sottovalutate",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vaga e non informativa per l'attribuzione di codici."
+    }
+  ]
+}

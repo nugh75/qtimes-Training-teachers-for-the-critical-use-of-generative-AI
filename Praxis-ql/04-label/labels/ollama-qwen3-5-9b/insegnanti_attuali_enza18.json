@@ -1,0 +1,129 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_enza18.md",
+  "source_name": "insegnanti_attuali_enza18.md",
+  "title": "Risposta Enza18",
+  "group": "Insegnanti in servizio",
+  "record_code": "Enza18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:40:12.349679+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "S3",
+    "X2",
+    "X3",
+    "X4",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso pratico dell'IA focalizzato su strumenti gratuiti, personalizzazione dei percorsi e consapevolezza dei limiti etici (valutazione) e cognitivi (omologazione).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P2": 2,
+    "P6": 1,
+    "P7": 1,
+    "S3": 1,
+    "X2": 2,
+    "X3": 2,
+    "X4": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT, Gemini, Copilot, perché sono gratuiti e accessibili ovunque",
+      "codes": [
+        "P6",
+        "X4"
+      ],
+      "reason": "Menzione di strumenti specifici (ChatGPT, Gemini, Copilot) e motivazione basata sulla gratuità e accessibilità."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Inserendo le caratteristiche degli studenti della classe, chiedo dei percorsi diversificati",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Descrizione di strategie per creare percorsi diversificati in base alle caratteristiche degli studenti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Richiedo delle strategie didattiche diversificate, inserendo le diverse tipologie di studenti della classe",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Richiesta di strategie diversificate e inserimento delle tipologie di studenti per personalizzare l'insegnamento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Quale compito di realtà posso assegnare a degli studenti di seconda classe di istituto tecnico indirizzo economico,  nell'ambito dell'educazione civica, obiettivo 3 salute e benessere?",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt fornito e riferimento alla focalizzazione su obiettivi specifici (educazione civica)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ho ancora valutato questo aspetto",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non ho ancora valutato') che non permette di attribuire codici sostantivi."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Fornendomi un ventaglio di proposte diverse,  rispetto alla progettazione didattica,  assegnazione di compiti e tipologie di verifica",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "L'IA fornisce un ventaglio di proposte (semplificazione/arricchimento) per la progettazione e assegnazione compiti."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "In alcuni casi, la risposta non era applicabile alla classe specifica in cui insegno",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Difficoltà riscontrata legata a risposte non applicabili al contesto specifico (allucinazioni o limiti di contesto)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: avere accesso a un numero molto elevato di informazioni  Contro: rischio di omologazione nelle risposte",
+      "codes": [
+        "X4",
+        "S3"
+      ],
+      "reason": "Pro: accesso a molte informazioni (inclusione); Contro: rischio di omologazione nelle risposte."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere utilizzata nella valutazione,  in quanto vengono presi in considerazione le variabili inerenti al singolo ragazzo, che non possono essere considerate da una intelligenza artificiale",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

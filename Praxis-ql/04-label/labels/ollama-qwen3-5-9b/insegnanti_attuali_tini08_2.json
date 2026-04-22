@@ -1,0 +1,64 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tini08_2.md",
+  "source_name": "insegnanti_attuali_tini08_2.md",
+  "title": "Risposta Tini08",
+  "group": "Insegnanti in servizio",
+  "record_code": "Tini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:20.775882+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4",
+    "X6"
+  ],
+  "record_note": "Il record mostra una resistenza all'uso dell'IA basata sulla percezione di scarsa competenza tecnica (N1b) e una visione ambivalente che ne riconosce l'innovazione ma teme l'appiattimento cognitivo (S4).",
+  "code_counts": {
+    "N1b": 2,
+    "S4": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Poca conoscenza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta troppo generica e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Poca conoscenza in merito",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta ripetitiva e non informativa rispetto alla domanda dettagliata."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Una scienza innovativa utile per la metodologia d'insegnamento",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA è descritta come 'scienza innovativa utile', indicando un potenziale di arricchimento e innovazione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per avere vantaggi nell'eseguire soluzioni di problemi con poco approfondimento!!!",
+      "codes": [
+        "S4"
+      ],
+      "reason": "La pratica criticata è quella di ottenere soluzioni con 'poco approfondimento', indicando un rischio di erosione del pensiero critico."
+    }
+  ]
+}

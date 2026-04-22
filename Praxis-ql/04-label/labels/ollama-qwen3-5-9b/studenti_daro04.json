@@ -1,0 +1,126 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_daro04.md",
+  "source_name": "studenti_daro04.md",
+  "title": "Risposta Daro04",
+  "group": "Studenti",
+  "record_code": "Daro04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:45:05.568570+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1b",
+    "P5",
+    "S4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record mostra una forte variabilità nella capacità degli studenti di articolare risposte pertinenti, con frequenti risposte brevi, fuori tema o che negano l'utilità dell'IA, suggerendo possibili barriere comunicative o percezioni negative dell'IA.",
+  "code_counts": {
+    "N1a": 1,
+    "N1b": 5,
+    "P5": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Io la utilizzo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Io la utilizzo') senza fornire dettagli pertinenti per l'attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chiat got",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema ('Chiat got' sembra un errore di battitura o riferimento non pertinente) rispetto alla domanda sugli strumenti preferiti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per mappe",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Menzione esplicita della creazione di mappe (P5) e dell'uso dell'IA per personalizzare lo studio (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chat gpt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema ('Chat gpt') che non fornisce esempi di prompt come richiesto, ma solo il nome dello strumento."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "I testi",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema ('I testi') che non specifica il meccanismo di aiuto all'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non la migliorato",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema ('Non la migliorato') che nega il beneficio senza fornire una spiegazione contestuale."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema ('Non lo so') che non descrive le difficoltà incontrate."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro é che ti agevola i contro sono quelli che non usiamo più la testa per studiare",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Menzione dei pro (agevolazione/risparmio tempo X1, comprensione X2) e dei contro (erosione pensiero critico S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non deve essere usata perché sennò é tutto inutile che veniamo a scuola",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "Rifiuto dell'uso dell'IA per preservare la scuola e l'uso della testa, toccando temi di sostituzione del docente (S6) e ambiti off-limits come la valutazione o l'apprendimento critico (S7)."
+    }
+  ]
+}

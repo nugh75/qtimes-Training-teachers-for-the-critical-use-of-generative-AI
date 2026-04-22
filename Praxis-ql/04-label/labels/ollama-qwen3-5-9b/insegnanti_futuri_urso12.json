@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_urso12.md",
+  "source_name": "insegnanti_futuri_urso12.md",
+  "title": "Risposta Urso12",
+  "group": "Insegnanti pre-service",
+  "record_code": "Urso12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:00:41.974852+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "S4",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di docente pre-service con forte consapevolezza etica e pedagogica, che individua limiti funzionali e cognitivi dell'IA, mostrando una posizione critica ma non rifiutante in toto (tranne per aspetti relazionali).",
+  "code_counts": {
+    "N1a": 1,
+    "S4": 2,
+    "S7": 2,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco pensare",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta 'Preferisco pensare' è troppo breve e non informativa per attribuire codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non crea personificazione nei programmi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il rifiuto di creare personificazione indica un rispetto per i limiti etici e off-limits (relazioni umane, soggettività) dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilità il lavoro ma limita il pensiero razionale e creativo",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconoscimento dei pro (efficienza X1, comprensione X2) e dei contro (erosione del pensiero razionale/creativo S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per la produzione e comprensione di testi, e per il pensiero logico-razionale",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Identificazione di ambiti off-limits (produzione testi, pensiero logico) e rischio di erosione del pensiero critico."
+    }
+  ]
+}

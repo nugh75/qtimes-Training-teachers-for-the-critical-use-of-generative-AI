@@ -1,0 +1,108 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_2z1uz.md",
+  "source_name": "studenti_2z1uz.md",
+  "title": "Risposta 2Z1UZ",
+  "group": "Studenti",
+  "record_code": "2Z1UZ",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:00:50.296944+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I5",
+    "N1a",
+    "N1b",
+    "P4",
+    "P5",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Record eterogeneo: evidenzia l'uso strumentale dell'IA per compiti specifici (riassunti, sinonimi) e la consapevolezza dei limiti etici (dati, plagio), con una risposta fuori tema significativa.",
+  "code_counts": {
+    "I5": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "P4": 1,
+    "P5": 2,
+    "S7": 1,
+    "X1": 1,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "la generazione dei sinonimi e il supporto alalo studio perchè mi semplificano l'attività di studio o di scrittura",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Generazione sinonimi (P5) e semplificazione dell'attività di studio/scrittura (X2)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "al secondo anno di magistrale quanti cfu servono per passare?",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta è fuori tema rispetto alla domanda sui prompt."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facendo riassunti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Fare riassunti (P5) e comprensione più rapida/focalizzazione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "attraverso la ripetizione e correzione dei miei errori",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Ripetizione e correzione errori (P4 - autovalutazione/tutoraggio) e miglioramento apprendimento (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa (nessuna difficoltà specificata)."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono l'efficacia e la velocità di risposte, dati e miglioramenti rispetto a come espongo ceri concetti per esempio. i contro sono la poca conoscenza sull'utilizzo dei dati che fornisco, soprattutto quelli personali",
+      "codes": [
+        "X1",
+        "X2",
+        "I5"
+      ],
+      "reason": "Efficacia/velocità (X1), comprensione rapida (X2), preoccupazione per dati personali (I5)."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "sicuramente quelle della scrittura completa di un testo di tesi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Scrittura completa di tesi identificata come ambito off-limits (S7)."
+    }
+  ]
+}

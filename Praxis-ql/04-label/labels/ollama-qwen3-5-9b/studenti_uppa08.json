@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_uppa08.md",
+  "source_name": "studenti_uppa08.md",
+  "title": "Risposta Uppa08",
+  "group": "Studenti",
+  "record_code": "Uppa08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:57.534130+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S2",
+    "S4",
+    "S7",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'uso dell'IA (N1b) e una consapevolezza dei rischi etici e cognitivi (S2, S4, S7), pur riconoscendo l'efficienza (X2).",
+  "code_counts": {
+    "N1b": 2,
+    "S2": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per il momento cerco di farne a meno/ non mi è indispensabile",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulla non utilizzazione dell'IA, non fornisce motivazioni pedagogiche o tecniche."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Cerco di farne a meno, non mi è indispensabile dunque utilizzo altri strumenti per studiare",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulla non utilizzazione dell'IA, non fornisce motivazioni pedagogiche o tecniche."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: il risultato non è frutto del nostro cervello, non promuove l’intuizione Pro: aiuta ad avere i risultati nel minor tempo possibile e con meno sforzi",
+      "codes": [
+        "X2",
+        "X6",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione e risparmio di tempo (X2), innovazione (X6); Contro: erosione del pensiero critico (S4) e mancanza di intuizione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat GPT per scrivere le tesi perché dovrebbe essere un lavoro personale, molti articoli parlano del problema del plagio in particolare modo",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Identifica il ghostwriting/plagio (S2) e l'uso in ambiti off-limits come la scrittura di tesi personali (S7)."
+    }
+  ]
+}

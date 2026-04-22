@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_naro18.md",
+  "source_name": "studenti_naro18.md",
+  "title": "Risposta naro18",
+  "group": "Studenti",
+  "record_code": "naro18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:10:19.160894+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "R4",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso pragmatico dell'IA focalizzato sull'efficienza e la personalizzazione, bilanciato da una forte consapevolezza dei rischi cognitivi e della necessità di mantenere l'autonomia.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 1,
+    "R4": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT e Copilot perché semplificano le mie attività",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Semplificazione delle attività e ottimizzazione dei tempi."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Quando non capisco un concetto uso l'AI avere un punto di vista diverso",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'AI per ottenere punti di vista diversi e chiarire concetti."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Quali sono gli strumenti per risolvere le equazioni di secondo grado ?",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non risponde alla domanda sugli esempi di prompt ma pone una nuova domanda."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi fa ottimizzare i tempi e contestualmente mi permette di perdere concetti importanti",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Ottimizzazione dei tempi (X1) ma anche perdita di concetti importanti/I2."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Generazione schematica degli strumenti concettuali per risolvere uno specifico problema.",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Generazione di schemi concettuali per focalizzare la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Inizialmente era fare un prompt corretto considerando il contesto prima della domanda",
+      "codes": [
+        "R4"
+      ],
+      "reason": "Riflessione sulla necessità di formulare prompt corretti considerando il contesto."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Come tutte le  cose, se le usi per il tuo bene, hai solo benefici, altrimenti prendi in giro te stesso",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Benefici subordinati all'uso consapevole ('per il tuo bene') e controllo umano."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La risoluzione di esercizi o di problemi dovrebbe avvenire senza AI e soltanto dopo diverse prove senza via di uscita si chiede all'AI. E' la stessa storia di quando si giocava con giochi che invitavano al ragionamento ma non cera Youtube e si faticava a volte sospendendo il gioco per settimane, ora invece dopo un minuto di ragionamento ci si stanca e si va a vedere la soluzione, tanto qualcun altro l'ha già fatto.",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Rischio di erosione del pensiero critico (S4) e sostituzione del ragionamento autonomo (S7)."
+    }
+  ]
+}

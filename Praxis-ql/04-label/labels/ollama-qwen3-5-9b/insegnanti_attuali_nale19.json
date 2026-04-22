@@ -1,0 +1,114 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_nale19.md",
+  "source_name": "insegnanti_attuali_nale19.md",
+  "title": "Risposta nale19",
+  "group": "Insegnanti in servizio",
+  "record_code": "nale19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:41:36.481195+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "I3",
+    "N1a",
+    "P7",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di un docente in fase di esplorazione o con uso limitato dell'IA, focalizzato su aspetti etici e motivazionali, ma con difficoltà a integrare l'IA nella personalizzazione o produzione di materiali.",
+  "code_counts": {
+    "I3": 2,
+    "N1a": 4,
+    "P7": 1,
+    "X2": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non ho uno strumento preferito",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa (assenza di preferenze)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "ancora non utilizzo l'IA per questo scopo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa (non utilizzo)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "ancora non utilizzo l'IA per questo scopo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa (non utilizzo)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "cerca informazioni su .... (argomento ricercato)",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Prompting visibile (esempio fornito) e semplificazione/comprensione (ricerca informazioni)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "non ho ancora dati relativi a questo punto",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa (mancanza di dati)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "potenziandone la motivazione",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Coinvolgimento e arricchimento (miglioramento della motivazione)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "utilizzo non responsabile e critico degli studenti",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Fiducia/sfiducia negli utenti (uso non responsabile degli studenti)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO:l'uso dell'intelligenza artificiale può incentivare la motivazione allo studio ; CONTRO: l'uso non responsabile e critico",
+      "codes": [
+        "X6",
+        "I3"
+      ],
+      "reason": "Pro: coinvolgimento (motivazione); Contro: sfiducia negli utenti (uso non responsabile)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "produzione di testi perchè impoverisce la capacità creativa e di riflessione degli studenti",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

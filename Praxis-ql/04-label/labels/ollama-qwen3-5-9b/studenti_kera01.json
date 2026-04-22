@@ -1,0 +1,114 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_kera01.md",
+  "source_name": "studenti_kera01.md",
+  "title": "Risposta kera01",
+  "group": "Studenti",
+  "record_code": "kera01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:46:35.473485+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "N1a",
+    "P6",
+    "P7",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA focalizzato su efficienza, velocità e accesso a fonti multiple, con evidenti barriere economiche (paywall) e assenza di segnalazione di rischi etici o cognitivi.",
+  "code_counts": {
+    "A3": 1,
+    "N1a": 2,
+    "P6": 1,
+    "P7": 1,
+    "X1": 2,
+    "X2": 4,
+    "X4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, perché velocizzo di più lo studio",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di ChatGPT come strumento (P6) e citazione della velocità come beneficio principale (X1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per risolvere velocemente e confrontare con altre fonti",
+      "codes": [
+        "X2",
+        "X4"
+      ],
+      "reason": "Uso dell'IA per velocizzare e confrontare fonti (X2) e per personalizzare il confronto (X4)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "fare riassunti, spiega gli argomenti in modo semplice, approfondisci",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempi espliciti di prompt (P7) e funzione di semplificazione/spiegazione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perché mi fornisce più fonti per un argomento",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite l'accesso a più fonti (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi fornisce per rielaborare",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite la rielaborazione dei contenuti (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuna' è troppo breve per attribuire codici specifici di difficoltà o contesto (N1a)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro= velocità e chiarezza  contro= alcune funzioni sono a pagamento",
+      "codes": [
+        "X1",
+        "X4",
+        "A3"
+      ],
+      "reason": "Pro: velocità (X1); Contro: funzioni a pagamento (A3 - vincoli economici)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuna' è troppo breve per attribuire codici specifici di pratiche non raccomandate (N1a)."
+    }
+  ]
+}

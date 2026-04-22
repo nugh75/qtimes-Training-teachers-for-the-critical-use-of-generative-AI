@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_illi30.md",
+  "source_name": "studenti_illi30.md",
+  "title": "Risposta Illi30",
+  "group": "Studenti",
+  "record_code": "Illi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:35.301875+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S1",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di studenti che usano l'IA principalmente per supporto operativo (schemi, approfondimenti) e gestione del tempo, con consapevolezza dei rischi di dipendenza cognitiva.",
+  "code_counts": {
+    "N1a": 2,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S1": 1,
+    "X1": 1,
+    "X2": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per imparare I approfondire alcuni argomenti",
+      "codes": [
+        "X5"
+      ],
+      "reason": "L'uso dell'IA per approfondire argomenti supporta l'organizzazione e il supporto al percorso di studio."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini perché è gratis",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Citazione di uno strumento specifico (Gemini) e motivazione basata sulla gratuità (risparmio)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo domande",
+      "codes": [
+        "P5"
+      ],
+      "reason": "La pratica di 'fare domande' è descritta come strategia operativa per personalizzare lo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi spiegare…",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formulare input."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Facendo schemi",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Creazione di schemi è una strategia operativa di produzione e supporto allo studio."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Velocizzandomo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Velocizzare l'apprendimento corrisponde alla semplificazione e comprensione più rapida."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Nessuno') per attribuire codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che accorcia il Tempo ed è precisa i contro sono che potrebbe smettere di farti studiare autonomamente",
+      "codes": [
+        "X1",
+        "X2",
+        "S1"
+      ],
+      "reason": "Pro: efficienza (tempo), comprensione rapida; Contro: rischio di dipendenza (non studiare autonomamente)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non lo so') per attribuire codici specifici."
+    }
+  ]
+}

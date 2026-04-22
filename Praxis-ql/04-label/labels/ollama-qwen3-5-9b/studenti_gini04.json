@@ -1,0 +1,78 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_gini04.md",
+  "source_name": "studenti_gini04.md",
+  "title": "Risposta gini04",
+  "group": "Studenti",
+  "record_code": "gini04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:06:37.010360+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "S1",
+    "S4",
+    "S5",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di sfiducia epistemica e pedagogica verso l'IA, con forte enfasi sulla perdita di autonomia e competenze trasversali.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "S1": 1,
+    "S4": 3,
+    "S5": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che possa sbagliare in quanto sia una macchina e si noti la differenza magari di un testo scritto,traduzioni o altro. Alla fine poi non mi rimane nulla",
+      "codes": [
+        "I2",
+        "S4"
+      ],
+      "reason": "Sfiducia per la natura 'macchina' (I2) e rischio di erosione del pensiero critico/autonomia (S4)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Se utilizziamo una macchina che svolge gli esercizi o testi per conto nostro alla fine non rimane nulla e in futuro non sapremo essere capaci nel svolgerli indipendentemente.",
+      "codes": [
+        "S4",
+        "S1"
+      ],
+      "reason": "Delega cognitiva eccessiva (S1) e erosione del pensiero critico (S4) dovuta alla dipendenza dalla macchina."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: può essere magari utile quando sei in difficoltà o svolgere in meno tempo i compiti quando proprio non hai il tempo a disposizione. Contro: se lo usi regolarmente non ti sarà utile perché non avrai appreso nulla. Esempio: a casa puoi anche usarlo ma nelle verifiche no e quindi è a tuo svantaggio perché in classe avrai maggiore difficoltà non essendoci esercitata a sufficienza",
+      "codes": [
+        "X1",
+        "X2",
+        "S4",
+        "S5"
+      ],
+      "reason": "Pro: efficienza (X1), comprensione rapida (X2). Contro: erosione pensiero critico (S4), rischio informazioni false/imprecisione (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa (N1a)."
+    }
+  ]
+}

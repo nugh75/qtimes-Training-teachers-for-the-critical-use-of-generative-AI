@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_gemi14.md",
+  "source_name": "studenti_gemi14.md",
+  "title": "Risposta gemi14",
+  "group": "Studenti",
+  "record_code": "gemi14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:06:25.258969+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R5",
+    "S4",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Il record evidenzia una forte resistenza all'uso dell'IA per lo studio, motivata da una preferenza per l'autonomia cognitiva e la paura dell'erosione dello sforzo mentale.",
+  "code_counts": {
+    "N1b": 1,
+    "R5": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non mi è pratica",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'non mi è pratica' è fuori tema rispetto alla domanda sulla non utilizzazione dell'IA nello studio."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché preferisco studiare di testa mia",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Il non uso è motivato da una scelta epistemica (preferenza per lo studio autonomo)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "come pro sicuramente si risparmia del tempo, mentre come contro mi verrebbe da dire che non ci si impegna più come si sarebbe fatto senza",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Vengono citati il risparmio di tempo come pro e l'inerzia cognitiva/ridotto impegno come contro."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "personalmente non raccomanderei utilizzare come pratica di studio l'IE che risolva completamente un problema o un compito poiché impegna di meno la nostra mente facendoci sembrare perfetti in tutto",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Viene criticata la delega completa della risoluzione dei problemi, che porta a un uso eccessivo dell'IA."
+    }
+  ]
+}

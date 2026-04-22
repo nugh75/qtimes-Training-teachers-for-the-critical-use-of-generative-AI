@@ -1,0 +1,140 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_arli70.md",
+  "source_name": "studenti_arli70.md",
+  "title": "Risposta Arli70",
+  "group": "Studenti",
+  "record_code": "Arli70",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:10.203950+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "R4",
+    "R5",
+    "S1",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Il record mostra un profilo eterogeneo: da un lato studenti che usano l'IA come strumento di supporto e personalizzazione (P2, X3), dall'altro chi la rifiuta o la usa con forti riserve etiche e di controllo (R5, S7, I1).",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "N1a": 2,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "R5": 1,
+    "S1": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' senza contenuto informativo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Identificazione di uno strumento specifico (Chat gpt) utilizzato."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedo soluzioni",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Menzione di una strategia di personalizzazione ('Chiedo soluzioni')."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao potresti aiutarmi a……",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formularlo."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Nn mi aiuta infatti vorrei smettere di usarla",
+      "codes": [
+        "R5",
+        "S1"
+      ],
+      "reason": "Rifiuto consapevole dell'uso (S1) motivato dalla percezione di non aiuto (R5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Nn ha migliorato",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Percezione di inefficacia o mancanza di miglioramento da parte dell'IA."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuno' troppo breve per attribuire codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro e che ti aiuta contro e che nn dovrebbe",
+      "codes": [
+        "X1",
+        "X2",
+        "X7"
+      ],
+      "reason": "Identificazione di pro (aiuta/efficienza) e contro (deve essere controllato/cambiamento condizionato)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non dovrebbe farti tutti i compiti ma solo rispiegare concetti",
+      "codes": [
+        "S7",
+        "I1"
+      ],
+      "reason": "Definizione di ambiti off-limits (fatti i compiti) e approccio critico/condizionato all'uso."
+    }
+  ]
+}

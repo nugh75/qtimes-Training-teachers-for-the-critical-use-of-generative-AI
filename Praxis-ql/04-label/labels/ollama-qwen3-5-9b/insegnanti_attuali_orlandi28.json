@@ -1,0 +1,155 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_orlandi28.md",
+  "source_name": "insegnanti_attuali_orlandi28.md",
+  "title": "Risposta Orlandi28",
+  "group": "Insegnanti in servizio",
+  "record_code": "Orlandi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:07.510199+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "N1a",
+    "N1c",
+    "P5",
+    "P7",
+    "R1",
+    "R2",
+    "S4",
+    "X2",
+    "X4",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Profilo di docente in fase esplorativa con forte dipendenza da strumenti di traduzione, consapevolezza delle lacune formative e percezione dei rischi di erosione delle competenze tradizionali.",
+  "code_counts": {
+    "A1": 2,
+    "A2": 2,
+    "N1a": 2,
+    "N1c": 1,
+    "P5": 2,
+    "P7": 2,
+    "R1": 2,
+    "R2": 1,
+    "S4": 1,
+    "X2": 5,
+    "X4": 2,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica privamente di contenuto informativo per l'attribuzione di codici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non ne conosco molti. Uso principalmente Chat GPT e strumenti di traduzione",
+      "codes": [
+        "R1",
+        "A1",
+        "A2"
+      ],
+      "reason": "Riconoscimento di strumenti (R1), ma ammissione di scarsa conoscenza generale (A1) e uso limitato/insufficiente (A2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Sto sperimentando un modulo di riflessione sull'uso della traduzione automatica e quali competenze  di comprensione servono per gestire le traduzioni automatiche",
+      "codes": [
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "Uso di traduzione automatica come strategia operativa (P5) per facilitare la comprensione (X2) e l'accesso (X4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "come sopra",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica ('come sopra') che non aggiunge informazioni nuove rispetto all'item precedente."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Buongiorno, potresti tradurre il testo seguente dall'italiano al romeno  \"....\"",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) finalizzato alla semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Buongiorno potresti sintetizzare questo testo \"...\"",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt per sintesi (P7) che mira alla comprensione rapida (X2)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Sto iniziando un modulo sperimentale per riflettere insieme agli studenti su quali competenze di intercomprensione permettono di poter gestire la traduzione automatica in modo ottimale, anche per lingue poco o per nulla note. Ma sono all'inizio.",
+      "codes": [
+        "P5",
+        "X2",
+        "X4",
+        "X5"
+      ],
+      "reason": "Sperimentazione di attività di riflessione (P5) per sviluppare competenze di intercomprensione (X2), accesso a lingue rare (X4) e autonomia (X5)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "La conosco poco e soprattutto la uso da utente e non so che cosa c'è dietro.",
+      "codes": [
+        "R1",
+        "R2",
+        "A1",
+        "A2"
+      ],
+      "reason": "Percezione di competenza pratica limitata (R1), mancanza di comprensione del funzionamento (R2), assenza di formazione (A1) e supporto insufficiente (A2)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono molti, i contro sono che alcune competenze non servono più e vanno riadattate. Serviranno di più competenze trasversali per la gestione dei processi.",
+      "codes": [
+        "X2",
+        "X6",
+        "S4"
+      ],
+      "reason": "Pro: semplificazione (X2), innovazione (X6). Contro: erosione di competenze specifiche (S4) e necessità di riadattamento."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non lo so') per attribuzione di codici specifici."
+    }
+  ]
+}

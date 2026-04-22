@@ -1,0 +1,57 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_futuri_faro01.md",
+  "source_name": "insegnanti_futuri_faro01.md",
+  "title": "Risposta FARO01",
+  "group": "Insegnanti pre-service",
+  "record_code": "FARO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:08.080933+00:00",
+  "record_dimensions": [
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "S2",
+    "S7",
+    "X6"
+  ],
+  "record_note": "Il record mostra una posizione critica verso l'IA nell'insegnamento, focalizzata sulla perdita di autonomia, sui rischi di plagio e sulla necessità di mantenere il controllo umano su ambiti sensibili come la valutazione e la relazione.",
+  "code_counts": {
+    "I4": 1,
+    "S2": 1,
+    "S7": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "È un nuovo modo di pensare alla didattica, con annesse criticità, primo fra tutti la difficoltà di gestire e controllarne l'uso fatto dagli studenti.",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "L'utente cita la difficoltà di controllo e gestione dell'uso da parte degli studenti, evidenziando la necessità di una relazione educativa e pedagogica insostituibile (I4) e definendo ambiti off-limits come la gestione relazionale e valutativa (S7)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro si può pensare la scoperta e l'importanza che l'intelligenza artificiale riveste nella vista di ognuno di noi. Tra i contro l'uso improprio che ne potrebbe derivare.",
+      "codes": [
+        "X6",
+        "S2"
+      ],
+      "reason": "Vengono citati i pro legati all'innovazione e coinvolgimento (X6) e i contro legati all'uso improprio, che nel contesto educativo si riferisce al rischio di ghostwriting o plagio (S2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Fare ricerche per produrre testi o per la risoluzione di esercizi matatici.",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

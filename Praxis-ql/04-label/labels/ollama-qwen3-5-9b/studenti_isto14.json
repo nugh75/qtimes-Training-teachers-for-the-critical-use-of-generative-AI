@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_isto14.md",
+  "source_name": "studenti_isto14.md",
+  "title": "Risposta isto14",
+  "group": "Studenti",
+  "record_code": "isto14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:15.333130+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S1",
+    "S2",
+    "X1",
+    "X5"
+  ],
+  "record_note": "Profilo di studente con forte resistenza all'uso dell'IA per preservare l'autonomia cognitiva, che riconosce sia i benefici (efficienza) sia i rischi (pigrizia, plagio).",
+  "code_counts": {
+    "R5": 2,
+    "S1": 1,
+    "S2": 1,
+    "X1": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per mantenere la mia autonomia, dipendere il meno possibile dall'AI e dimostrare in primis a me stessa di poter svolgere la mia vita anche senza il supporto dell'AI",
+      "codes": [
+        "X5",
+        "R5"
+      ],
+      "reason": "Mantenimento dell'autonomia (X5) e rifiuto consapevole per non dipendere dall'AI (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché so di potercela fare bene anche senza: è grazie alla mia intelligenza se vado avanti nel mio percorso",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non uso motivato da sicurezza nelle proprie capacità e rifiuto epistemico (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "sicuramente può facilitare il processo di studio ma anche alimentare la pigrizia",
+      "codes": [
+        "X1",
+        "S1"
+      ],
+      "reason": "Riconoscimento del beneficio di facilitazione (X1) e del rischio di pigrizia/dipendenza (S1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Quando il lavoro dell'AI viene spacciato per quello di uno studente",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Identificazione della pratica non raccomandata come ghostwriting/plagio (S2)."
+    }
+  ]
+}

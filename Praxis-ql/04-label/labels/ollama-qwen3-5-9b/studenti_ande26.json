@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ande26.md",
+  "source_name": "studenti_ande26.md",
+  "title": "Risposta ande26",
+  "group": "Studenti",
+  "record_code": "ande26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:01:23.567504+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1c",
+    "P5",
+    "P6",
+    "S3",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di studente che percepisce l'IA come strumento di efficienza e semplificazione, con consapevolezza dei rischi di appiattimento, ma con risposte spesso lacunose o tautologiche.",
+  "code_counts": {
+    "N1a": 4,
+    "N1c": 1,
+    "P5": 1,
+    "P6": 1,
+    "S3": 1,
+    "X1": 3,
+    "X2": 3,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt, gemini Perché sono più efficienti dei sistemi di ricerca tradizionali nel caso per esempio cerco definizioni",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti specifici (ChatGpt, Gemini) e motivazione basata su efficienza e comprensione rapida."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per approfondire",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi spieghi cosa sono ….",
+      "codes": [
+        "N1a",
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Mi spieghi cosa sono') che non fornisce esempi concreti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Velocizza il mio studio",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione esplicita di velocizzazione dello studio e miglioramento dell'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Di solito schematizza gli argomenti con le parole chiave",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempio specifico di schematizzazione (riassunto) e focalizzazione sui concetti chiave."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Nessuna') per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che aiutano in molti modi, ma di contro vengono usati anche per le cose banali e potrebbe limitare lo sviluppo di alcune capacità",
+      "codes": [
+        "X1",
+        "X6",
+        "S3"
+      ],
+      "reason": "Pro (aiuti, efficienza), contro (uso banale, limitazione capacità) e rischio di appiattimento/omologazione."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non saprei",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Non saprei') per attribuzione di codici specifici."
+    }
+  ]
+}

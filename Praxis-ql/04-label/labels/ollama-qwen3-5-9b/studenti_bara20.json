@@ -1,0 +1,136 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_bara20.md",
+  "source_name": "studenti_bara20.md",
+  "title": "Risposta BARA20",
+  "group": "Studenti",
+  "record_code": "BARA20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:50.225837+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P5",
+    "P7",
+    "S1",
+    "S5",
+    "S7",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per la produzione di materiali di sintesi (riassunti) e semplificazione concettuale, con consapevolezza dei rischi di dipendenza cognitiva e definizione di limiti d'uso etico.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 4,
+    "P5": 5,
+    "P7": 1,
+    "S1": 1,
+    "S5": 1,
+    "S7": 1,
+    "X2": 6,
+    "X3": 3,
+    "X5": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché mi fornisce una guida per la stesura dei riassunti, evidenziando i concetti chiavi e rendendo più discorsivo il contenuto.",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "Menzione di strumenti (ChatGpt), produzione di riassunti e mappe concettuali (P1, P5), semplificazione e comprensione (X2), personalizzazione (X3)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Lo utilizzo principalmente come ausilio per la stesura dei riassunti o per chiarire concetti complessi",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso per stesura riassunti e chiarimento concetti (P1, P5), semplificazione (X2), personalizzazione (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Perfavore mi puoi riassumere questo paragrafo, rendendolo chiaro e discorsivo senza omettere concetti importanti",
+      "codes": [
+        "P5",
+        "X2",
+        "X3",
+        "P7"
+      ],
+      "reason": "Esempio di prompt per riassunto e chiarimento (P5, X2, X3), presenza del prompt visibile (P7)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "con l’ausilio dell’intelligenza artificiale riesco ad essere più veloce nella preparazione dei riassunti, fondamentali per me nello studio",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X5"
+      ],
+      "reason": "Produzione di riassunti (P1, P5), semplificazione (X2), autonomia/organizzazione (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato a creare dei riassunti concisi e ben fatti, facilitando il mio studio quotidiano e permettendomi di concentrarmi maggiormente sulla ripetizione",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X5"
+      ],
+      "reason": "Creazione di riassunti concisi (P1, P5), semplificazione (X2), supporto al percorso (X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non molte, a volte però non risponde pienamente alle mie domande o richieste",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Mancanza di risposta completa alle domande (I2), informazioni imprecise o incomplete (S5)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Sicuramente l’intelligenza artificiale ti permette di agevolare lo studio, aiutandoti nella preparazione dei materiali o come supporto per la ripetizione in vista dell’esame. Tuttavia, un contro da tenere in considerazione è quello di diventare “dipendenti” da questi ausili, non riuscendo a studiare senza l’intelligenza artificiale.",
+      "codes": [
+        "X2",
+        "X5",
+        "S1"
+      ],
+      "reason": "Agevolazione studio e supporto ripetizione (X2, X5), rischio di dipendenza (S1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "l’intelligenza artificiale non dovrebbe essere utilizzata per svolgere temi o tesine, deve essere un semplice ausilio per agevolare lo studio",
+      "codes": [
+        "S7",
+        "X7"
+      ],
+      "reason": "Definizione di ambiti off-limits (temi/tesine) (S7), beneficio subordinato a controllo umano (X7)."
+    }
+  ]
+}

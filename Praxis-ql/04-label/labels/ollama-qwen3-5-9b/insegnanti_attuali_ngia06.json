@@ -1,0 +1,131 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_ngia06.md",
+  "source_name": "insegnanti_attuali_ngia06.md",
+  "title": "Risposta ngia06",
+  "group": "Insegnanti in servizio",
+  "record_code": "ngia06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:41:46.274695+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "I2",
+    "P2",
+    "P5",
+    "P7",
+    "S1",
+    "S3",
+    "S4",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Record di insegnanti in servizio che evidenzia un forte focus sulla personalizzazione (P2, X3) e sulla gestione dei rischi cognitivi (S1-S4), con evidenti vincoli infrastrutturali (A3).",
+  "code_counts": {
+    "A3": 1,
+    "I2": 1,
+    "P2": 1,
+    "P5": 1,
+    "P7": 1,
+    "S1": 1,
+    "S3": 2,
+    "S4": 1,
+    "X2": 2,
+    "X3": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "esercizi. gamefication. per stimolare l'interesse",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Menzione di esercizi (P5) e gameficazione per stimolare interesse/comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creo esercizi ad hoc per i miei studenti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creazione di esercizi ad hoc per studenti specifici (P2, X3)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "li spingo a usarla con intelliggenza",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Spingere gli studenti a usare l'IA per coltivare le proprie potenzialità (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "crea una poesia in cui sono inseriti questi termini e queste figure retoriche",
+      "codes": [
+        "P7"
+      ],
+      "reason": "Esempio esplicito di prompt fornito (P7)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "si divertono e apprendono e resta loro impresso ciò che fanno",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Divertimento, apprendimento e memorizzazione come arricchimento (X6)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "io ero restia ad usarla, ho paura che li impigrisca e impoverisca il loro linguaggio e li spinga a non essere creativi a non usare la fantasia. cerco di utilizzarla al contrario, come uno stimolo a fare meglio",
+      "codes": [
+        "S1",
+        "S3",
+        "S4",
+        "I2"
+      ],
+      "reason": "Paura di impigrimento (S1), appiattimento creativo (S3), erosione pensiero critico (S4), sfiducia su allucinazioni/impoverimento (I2). Nota: codice I7 non esiste nel codebook fornito, sostituito con I4 o I2. Correzione: uso I4 per la relazione pedagogica come alternativa o I2 per la sfiducia tecnica. Rileggendo il codebook, I7 non c'è. Uso I2 (sfiducia tecnica/impoverimento) e I4 (relazione pedagogica)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "non tutte le scuole hanno dispositivi adeguati",
+      "codes": [
+        "A3"
+      ],
+      "reason": "Mancanza di dispositivi adeguati nelle scuole (A3)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "aiuta nel reperire informazioni, contro appiattisce le menti",
+      "codes": [
+        "X2",
+        "S3"
+      ],
+      "reason": "Aiuto nel reperire informazioni (X2) vs appiattimento delle menti (S3)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non saprei, non sono cosi esperta",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

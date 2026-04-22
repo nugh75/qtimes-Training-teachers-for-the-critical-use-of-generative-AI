@@ -1,0 +1,47 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_futuri_etti10.md",
+  "source_name": "insegnanti_futuri_etti10.md",
+  "title": "Risposta Etti10",
+  "group": "Insegnanti pre-service",
+  "record_code": "Etti10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:05.757245+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1b"
+  ],
+  "record_note": "Il record mostra un profilo di non-uso o di mancata esperienza con l'IA da parte degli insegnanti pre-service, portando a risposte che non permettono l'etichettatura dei codici di uso o percezione.",
+  "code_counts": {
+    "N1b": 2
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' è fuori tema rispetto alla domanda sulla didattica e non fornisce informazioni sull'uso dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non l ho usata",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non l ho usata' è fuori tema rispetto alla richiesta di pro e contro, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ancora non lo so",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_omeo18.md",
+  "source_name": "studenti_omeo18.md",
+  "title": "Risposta Omeo18",
+  "group": "Studenti",
+  "record_code": "Omeo18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:14.164762+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S7",
+    "X2",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso maturo dell'IA focalizzato su supporto allo studio, personalizzazione e consapevolezza dei limiti etici.",
+  "code_counts": {
+    "I1": 1,
+    "N1a": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S7": 1,
+    "X2": 4,
+    "X5": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (ChatGpt) e competenza percepita nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Integro concetti complessi in discorsi più semplici e per articolare meglio il discorso e genero domande per valutare la mia conoscenza",
+      "codes": [
+        "P2",
+        "X2",
+        "X5"
+      ],
+      "reason": "Personalizzazione dello studio, semplificazione concettuale e supporto all'organizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami il significato di …,  oppure riassumi questo paragrafo",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempi espliciti di prompt e dimostrazione di competenza nel formulare istruzioni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Semplifica concetti difficili per renderli più comprensibili e  memorizzarli",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificazione di concetti difficili per migliorare la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ho approfondito la differenza tra alcune patologie per la materia di psicopatologia",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite approfondimento e arricchimento della conoscenza."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Si possono generare domande per valutare le conoscenze",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Generazione di domande per valutare le conoscenze (semplificazione/comprensione)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non è indicato usare l’IA per svolgere tesi, temi o qualsiasi esercizio in cui bisogna applicare le proprie conoscenze",
+      "codes": [
+        "S7",
+        "I1"
+      ],
+      "reason": "Identificazione di ambiti off-limits (tesi, temi) e fiducia condizionata (uso critico)."
+    }
+  ]
+}

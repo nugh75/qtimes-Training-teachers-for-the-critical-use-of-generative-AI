@@ -1,0 +1,126 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_orgi03.md",
+  "source_name": "studenti_orgi03.md",
+  "title": "Risposta Orgi03",
+  "group": "Studenti",
+  "record_code": "Orgi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:34.034725+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S1",
+    "S7",
+    "X1",
+    "X2",
+    "X5",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per supporto operativo (riassunti, brainstorming) ma manifesta consapevolezza dei limiti (focus, complessità) e rifiuto di usi che comprometterebbero l'autonomia cognitiva o l'etica accademica.",
+  "code_counts": {
+    "I2": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S1": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 2,
+    "X5": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Claude. Riassume molto bene i testi",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento specifico (Claude) e competenza percepita nel riassumere."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Riassumere testi di approfondimento.",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso del riassunto come strategia operativa per semplificare e focalizzare l'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo di questo articolo senza essere sintetico. Spiega tutti i passaggi in maniera discorsiva",
+      "codes": [
+        "P7",
+        "P5",
+        "X2"
+      ],
+      "reason": "Prompting visibile (esempio concreto), strategia operativa (riassunto/spiegazione) e semplificazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Riesco ad organizzare diverse idee durante il brainstorming",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Organizzazione delle idee durante il brainstorming come supporto al percorso di studio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Di solito da solo non faccio brainstorming",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Delega cognitiva: l'IA sostituisce l'attività di brainstorming che altrimenti non farebbe da solo."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Quando si lavora con argomenti complessi potrebbe faticare a centrare il focus del discorso",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Sfiducia tecnica dovuta a limiti dell'IA nel mantenere il focus su argomenti complessi."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: permette di diversificare la routine Contro: a volte il processo è un po' dispersivo",
+      "codes": [
+        "X1",
+        "X6",
+        "X7"
+      ],
+      "reason": "Pro: diversificazione (innovazione), risparmio di tempo/efficienza; Contro: dispersione (condizionato a controllo)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere testi complessi al posto nostro",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Ambito off-limits: scrivere testi complessi al posto dello studente è considerato non raccomandato."
+    }
+  ]
+}

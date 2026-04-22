@@ -1,0 +1,125 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_ardi09.md",
+  "source_name": "studenti_ardi09.md",
+  "title": "Risposta ARDI09",
+  "group": "Studenti",
+  "record_code": "ARDI09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:51.980903+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "R1",
+    "R4",
+    "S4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Il record ARDI09 mostra un uso maturo dell'IA focalizzato sulla produzione di materiali (mappe, schemi) e sulla concettualizzazione, con una consapevolezza critica riguardo ai rischi di apprendimento superficiale e alla necessità di non sostituire le fonti primarie.",
+  "code_counts": {
+    "N1a": 1,
+    "P5": 3,
+    "P6": 1,
+    "R1": 1,
+    "R4": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Li uso entrambi, gemini è più facilmente accessibile, chatgpt è più preciso",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione esplicita di strumenti specifici (Gemini, ChatGPT) e valutazione comparativa della loro accessibilità e precisione."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Risponde a domande su alcuni dubbi o mi aiuta a creare delle immagini con schemi e mappe",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di mappe e schemi (produzione di materiali) e aiuto per chiarire dubbi (semplificazione e comprensione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi crearmi uno schema che rappresenti le cortecce somatosensitive",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Richiesta e produzione di uno schema (mappa) come output dell'IA, dimostrando capacità di formulare prompt specifici."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Concettualizza argomenti chiave",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Aiuto a concettualizzare argomenti chiave, portando a una migliore comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Attraverso la creazione di mappe e soprattutto grazie alla creazione di domande utili su un dato argomento",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di mappe e domande utili per l'apprendimento, facilitando la comprensione."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Alcuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('Alcuna') insufficiente per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro in quanto facilita il mio lavoro, contro in quanto credo che facendo le mappe al mio posto imparo meno approfonditamente",
+      "codes": [
+        "X1",
+        "X7",
+        "S4"
+      ],
+      "reason": "Pro: facilitazione del lavoro (efficienza); Contro: apprendimento superficiale se l'IA fa le mappe (erosione pensiero critico)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Il fatto che sostituisca del tutto l’integrazione di manuali è sbagliato",
+      "codes": [
+        "S6",
+        "S7"
+      ],
+      "reason": "Critica alla sostituzione dell'integrazione di manuali, toccando il tema della sostituzione del docente o della relazione educativa e ambiti off-limits."
+    }
+  ]
+}

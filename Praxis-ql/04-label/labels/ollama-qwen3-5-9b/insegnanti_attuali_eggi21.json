@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_eggi21.md",
+  "source_name": "insegnanti_attuali_eggi21.md",
+  "title": "Risposta eggi21",
+  "group": "Insegnanti in servizio",
+  "record_code": "eggi21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:17.173905+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R1",
+    "R5",
+    "S1",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di docente con forte insicurezza tecnica (R1/R5) che percepisce rischi cognitivi (S4/S1) e vede l'IA come strumento di efficienza (X1) ma non ancora integrato pedagogicamente.",
+  "code_counts": {
+    "R1": 2,
+    "R5": 2,
+    "S1": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non la padroneggio abbastanza",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Mancanza di padronanza percepita (R1) che porta al non-uso motivato da insicurezza (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la padroneggia a pieno e non saprei come usarla.",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Incertezza e incapacità percepita (R1) come causa del rifiuto d'uso (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: ottimizzazione dei tempi e velocità di esecuzione di procedure standard. Contro: perdita di capacità di elaborazione mentale.",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Vantaggi di efficienza (X1) e comprensione (X2) contrapposti al rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Risoluzione di problemi e elaborazione di testi. Rendono pigro il pensiero umano.",
+      "codes": [
+        "S4",
+        "S1"
+      ],
+      "reason": "Perdita di capacità di elaborazione (S4) e rischio di pigrizia cognitiva (S1)."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_orco13.md",
+  "source_name": "insegnanti_attuali_orco13.md",
+  "title": "Risposta Orco13",
+  "group": "Insegnanti in servizio",
+  "record_code": "Orco13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:32.847446+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A4",
+    "N1b",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante con approccio critico e prudente: rifiuto dell'uso in contesti non previsti, identificazione di rischi cognitivi (pensiero logico) e definizione di confini etici (studio di memoria).",
+  "code_counts": {
+    "A4": 1,
+    "N1b": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "No",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta monosillabica che non fornisce informazioni sul contenuto richiesto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non è prevista nella didattica laboratoriale.",
+      "codes": [
+        "A4"
+      ],
+      "reason": "L'insegnante non usa l'IA perché non prevista nel contesto laboratoriale, indicando un uso compensativo o una mancanza di integrazione strutturale."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilita la didattica  contro non viene stimolato il pensiero logico",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "Riconoscimento dei pro (facilitazione/comprensione) e dei contro (erosione pensiero logico/critico)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Lo studio di memoria",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione dello studio di memoria come ambito off-limits per l'uso dell'IA."
+    }
+  ]
+}

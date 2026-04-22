@@ -1,0 +1,129 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_ardi29.md",
+  "source_name": "insegnanti_attuali_ardi29.md",
+  "title": "Risposta ARDI29",
+  "group": "Insegnanti in servizio",
+  "record_code": "ARDI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:00.617689+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "X2",
+    "X3",
+    "X4",
+    "X6"
+  ],
+  "record_note": "Il record descrive un uso dell'IA focalizzato sulla personalizzazione, inclusione e supporto allo studio, con una chiara consapevolezza dei limiti etici e relazionali.",
+  "code_counts": {
+    "N1a": 1,
+    "P2": 2,
+    "P3": 1,
+    "P4": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "X2": 1,
+    "X3": 2,
+    "X4": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "OPENAI GPT",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Identificazione dello strumento specifico (OpenAI GPT) utilizzato."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La utilizzo per analizzare il rendimento degli studenti identificando i punti di forza e i punti di debolezza, personalizzare il materiale didattico e strategie di insegnamento.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Descrizione di strategie per analizzare il rendimento e personalizzare materiali e strategie per singoli studenti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Adatto il materiale e le attività in base al livello di competenza e al progresso degli studenti.",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Adattamento di materiali e attività in base al livello e al progresso di ogni singolo studente."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi il testo in poche righe usando esempi semplici e chiari.",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) che descrive un'operazione di sintesi e semplificazione (P5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Un'allieva che faticava con la matematica ha potuto accedere a esercizi aggiuntivi mirati, migliorando significativamente le sue prestazioni.",
+      "codes": [
+        "X4",
+        "P4"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite esercizi mirati per uno studente in difficoltà (inclusione/accesso e supporto)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso tecnologie come la sintesi vocale e le traduzioni automatiche, l'IA può rendere l'apprendimento più accessibile a studenti con diverse abilità linguistiche o esigenze speciali.",
+      "codes": [
+        "X4",
+        "P3"
+      ],
+      "reason": "Uso di sintesi vocale e traduzioni per rendere l'apprendimento accessibile a studenti con diverse abilità (inclusione e accessibilità)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuna' è troppo breve per attribuire codici specifici su difficoltà o vincoli."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti possono accedere a una vasta gamma di risorse e materiali didattici, migliorando le opportunità di apprendimento.",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Accesso a risorse e materiali didattici amplia le opportunità di apprendimento (semplificazione/arricchimento)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'IA non può sostituire completamente l'interazione umana, fondamentale per lo sviluppo socio-emotivo e per la motivazione degli studenti. La presenza di un insegnante umano è essenziale.",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

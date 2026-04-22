@@ -1,0 +1,86 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tano19.md",
+  "source_name": "insegnanti_attuali_tano19.md",
+  "title": "Risposta tano19",
+  "group": "Insegnanti in servizio",
+  "record_code": "tano19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:01.609097+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "I1",
+    "N1a",
+    "N1b",
+    "S1",
+    "S4",
+    "S7",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record evidenzia una resistenza all'adozione dell'IA dovuta a carenze formative e infrastrutturali, unita a una visione critica focalizzata sulla necessità di mantenere il controllo pedagogico e la relazione educativa.",
+  "code_counts": {
+    "A1": 1,
+    "A2": 1,
+    "I1": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "S1": 1,
+    "S4": 1,
+    "S7": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non mi sembra utile per ora",
+      "codes": [
+        "N1a",
+        "N1b"
+      ],
+      "reason": "Risposta troppo breve (N1a) e non informativa rispetto alla richiesta di spiegazione (N1b)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ho ancora sperimentato e non ho formazione adeguata",
+      "codes": [
+        "A1",
+        "A2"
+      ],
+      "reason": "Mancanza di formazione formale (A1) e supporto insufficiente/inadeguato (A2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "può offrire nuove modalità d'insegnamento supportando nuove modalita' d'apprendimento ma i limiti di un corretto utilizzo sono tutti da definire e interiorizzare",
+      "codes": [
+        "X6",
+        "X7",
+        "I1"
+      ],
+      "reason": "Vantaggi legati all'innovazione e nuove modalità (X6), beneficio subordinato a controllo/criticità (X7), fiducia condizionata (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non dovrebbe facilitare attività in maniera passiva altrimenti viene utilizzata come mero strumento per non attivare anzi bypassare fasi del processo di apprendimento",
+      "codes": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "reason": "Rischio di delega cognitiva/passività (S1), erosione pensiero critico (S4), ambiti off-limits (S7)."
+    }
+  ]
+}

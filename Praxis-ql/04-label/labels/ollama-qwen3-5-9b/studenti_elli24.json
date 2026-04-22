@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli24.md",
+  "source_name": "studenti_elli24.md",
+  "title": "Risposta ELLI24",
+  "group": "Studenti",
+  "record_code": "ELLI24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:38.561697+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1b",
+    "P4",
+    "P7",
+    "R4",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per chiarimenti e risposte rapide, con consapevolezza dei limiti (off-limits) e della necessità di controllo umano.",
+  "code_counts": {
+    "I1": 1,
+    "N1b": 2,
+    "P4": 1,
+    "P7": 1,
+    "R4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 4,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Nessuno lo utilizzo poco",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (negazione dell'uso) rispetto alla domanda sugli strumenti preferiti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Quando non trovo risposte a problemi e quesiti uso chatgpt",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Uso dell'IA per chiarimenti su problemi (P4) e semplificazione della comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Inserisco il concetto di cui voglio ottenere l'informazione o inserisco direttamente la domanda a cui voglio ottenere la risposta",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Descrizione esplicita di una strategia di prompting (P7) e dimostrazione di competenza nel formulare input (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi da sicurezza e chiarimenti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA fornisce sicurezza e chiarimenti, facilitando la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a rispondere a quesiti di fisiologia",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a rispondere a quesiti specifici, migliorando la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (assenza di difficoltà) rispetto alla domanda sulle difficoltà incontrate."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che fornisce velocemente la risposta di cui ho bisogno. I contro è che per ottenere informazioni più specifiche devo riformulare in modo diverso la domanda",
+      "codes": [
+        "X1",
+        "X2",
+        "X7"
+      ],
+      "reason": "Pro: velocità (X1), comprensione rapida (X2). Contro: necessità di riformulazione/critica (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nel riassumere e scrivere testi perche non possono essere personalizzate",
+      "codes": [
+        "S7",
+        "I1"
+      ],
+      "reason": "Identificazione di ambiti off-limits (riassumere/scrivere testi) e fiducia condizionata (I1)."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_vito21.md",
+  "source_name": "studenti_vito21.md",
+  "title": "Risposta Vito21",
+  "group": "Studenti",
+  "record_code": "Vito21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:15:30.872843+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1b",
+    "N1c",
+    "P6",
+    "R1",
+    "S3",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che usa l'IA in modo pragmatico ma con percezioni miste: vede benefici nella comprensione e rischi nell'erosione della fantasia, evitando l'uso per compiti risolutivi.",
+  "code_counts": {
+    "N1a": 2,
+    "N1b": 1,
+    "N1c": 1,
+    "P6": 1,
+    "R1": 1,
+    "S3": 1,
+    "S7": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (ChatGpt) e percezione di competenza nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Studio da sola",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla personalizzazione tramite IA."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Gli faccio domanda diretta",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione (spiegare come si usa l'IA definendo l'IA)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Si scoprono cose nuove",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio percepito legato alla scoperta di nuove cose (comprensione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non mi viene in mente",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve/non informativa."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro si apprende contro fa diminuire la fantasia",
+      "codes": [
+        "X2",
+        "S3"
+      ],
+      "reason": "Pro: comprensione (X2); Contro: diminuzione della fantasia (S3)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Chat nn dovrebbe essere usato per risolvere gli esercizi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di un ambito off-limits (risolvere esercizi)."
+    }
+  ]
+}

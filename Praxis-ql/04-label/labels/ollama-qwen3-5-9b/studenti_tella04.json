@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tella04.md",
+  "source_name": "studenti_tella04.md",
+  "title": "Risposta tella04",
+  "group": "Studenti",
+  "record_code": "tella04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:13:42.392998+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "P6",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per le ricerche, con percezioni miste su affidabilità (errori) e limiti etici (relazioni umane).",
+  "code_counts": {
+    "I2": 2,
+    "N1b": 3,
+    "P6": 1,
+    "S7": 1,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "per le ricerche",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (cita 'ricerche' senza spiegare il 'perché' del non uso richiesto dalla domanda)."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "copilot, perché fa bene le ricerche",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "Menzione di uno strumento specifico (Copilot) e indicazione di un beneficio (ricerche migliori)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "non personalizzare il mio studio",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta tautologica/meta-definizione che nega la premessa della domanda senza elaborazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedo ricerche",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta troppo breve e non informativa rispetto alla richiesta di esempi di prompt."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "migliora la mia conoscenza",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Indicazione generica di un beneficio legato alla conoscenza."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "nella ricerche da più informazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Esempio specifico di miglioramento legato all'acquisizione di informazioni."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "alcuni errori negli esercizi",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Citazione di errori come difficoltà incontrata nell'uso dello strumento."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro che mi aiuta cin i compiti contro che alcuni li fa male",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Menzione di pro (aiuto) e contro (errori) nell'uso dell'IA."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per le relazioni umane",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione delle relazioni umane come ambito off-limits per l'uso dell'IA."
+    }
+  ]
+}

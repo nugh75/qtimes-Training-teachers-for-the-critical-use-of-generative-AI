@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ele07.md",
+  "source_name": "studenti_ele07.md",
+  "title": "Risposta ele07",
+  "group": "Studenti",
+  "record_code": "ele07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:12.580494+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S2",
+    "S6",
+    "X1",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso pragmatico dell'IA focalizzato su efficienza e supporto allo studio, con una chiara distinzione tra usi accettabili (spiegazioni, schemi) e usi non raccomandati (sostituzione del compito, plagio).",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S2": 1,
+    "S6": 1,
+    "X1": 2,
+    "X2": 2,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "gemini",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento specifico (Gemini) e dichiarazione di preferenza/uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi aiuta nell apprendimento o schematizzazione",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per schematizzazione (produzione materiale) e personalizzazione dell'apprendimento."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "puoi spiegarmi questo argomento e farmi degli esempi",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Prompt esplicitamente riportato e contenuto descrittivo della funzione (spiegazione ed esempi)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi riduce il tempo di ricerca",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Benefici percepiti: riduzione del tempo di ricerca e semplificazione della comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "se non capisco determinati argomenti l IA riesce a darmi delle info più dirette",
+      "codes": [
+        "X2",
+        "I1"
+      ],
+      "reason": "Miglioramento della comprensione (X2) e fiducia condizionata nell'IA per chiarire argomenti difficili (I1)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte le risposte non soddisfano le mie richieste",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Menzione di risposte che non soddisfano le richieste, indicando errori o limiti (sfiducia tecnica)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono ad esempio il risparmio di tempo utilizzato nella ricerca i contro fanno riferimento a un uso maladattivo",
+      "codes": [
+        "X1",
+        "X7"
+      ],
+      "reason": "Pro: risparmio di tempo (X1). Contro: uso maladattivo, implicando la necessità di controllo umano (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "non dovrebbe essere usata l 'ia per scrivere tesine o durante dei test perchè invece di essere un aiuto, va a sostituire il tuo lavoro",
+      "codes": [
+        "S2",
+        "S6"
+      ],
+      "reason": "Sostituzione del lavoro dello studente (tesine/test) e rischio di ghostwriting/plagio."
+    }
+  ]
+}

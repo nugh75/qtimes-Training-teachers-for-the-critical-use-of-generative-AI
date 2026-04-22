@@ -1,0 +1,87 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_etti08.md",
+  "source_name": "studenti_etti08.md",
+  "title": "Risposta etti08",
+  "group": "Studenti",
+  "record_code": "etti08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:51.892266+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P7",
+    "X1",
+    "X3"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale e compensativo dell'IA (risparmio tempo, quiz), con esempi di prompt semplici e assenza di riferimenti a formazione o rischi etici.",
+  "code_counts": {
+    "N1a": 1,
+    "P5": 2,
+    "P7": 1,
+    "X1": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "tendo a prendere solo spunto dai prodotti dell’intelligenza artificiale",
+      "codes": [
+        "X3"
+      ],
+      "reason": "La risposta descrive l'uso dell'IA per personalizzare lo studio (X3), pur essendo breve."
+    },
+    {
+      "index": 2,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“ciao, puoi riassumere il file che allego?”",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Il prompt è esplicitamente riportato (P7) e l'azione richiesta è un riassunto (P5)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi fa risparmiare tempo e mettermi in pratica",
+      "codes": [
+        "X1"
+      ],
+      "reason": "L'utente cita esplicitamente il risparmio di tempo come beneficio (X1)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "a volte chiedo di creare dei quota su alcuni argomenti studiati",
+      "codes": [
+        "P5"
+      ],
+      "reason": "L'utente chiede alla IA di creare quiz (P5)."
+    },
+    {
+      "index": 5,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta 'nessuno' è troppo breve per permettere l'attribuzione di codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "minimo sforzo massima resa",
+      "codes": [
+        "X1"
+      ],
+      "reason": "La frase 'minimo sforzo massima resa' equivale a efficienza e risparmio di tempo (X1)."
+    }
+  ]
+}

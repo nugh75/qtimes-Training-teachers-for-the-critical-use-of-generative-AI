@@ -1,0 +1,124 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ardo30.md",
+  "source_name": "studenti_ardo30.md",
+  "title": "Risposta ARDO30",
+  "group": "Studenti",
+  "record_code": "ARDO30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:06.522155+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S2",
+    "S4",
+    "S6",
+    "S7",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente con buona competenza tecnica (uso di prompt), che percepisce benefici nell'organizzazione e personalizzazione, ma mostra consapevolezza dei rischi etici e cognitivi (sostituzione docente, plagio, dipendenza).",
+  "code_counts": {
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "CHAT GPT",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (Chat GPT) e competenza percepita nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Attraverso l’organizzazione dello studio e approfondimenti di tematiche",
+      "codes": [
+        "X3",
+        "X5"
+      ],
+      "reason": "Organizzazione dello studio e approfondimento indicano autonomia e personalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi fornirmi dei sinonimi riguardo questa parola",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formularlo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Aiuta ad approfondire degli argomenti e spiegare quelli che non comprendo",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite approfondimento e chiarimento concettuale."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutata nel chiarire degli argomenti che non erano chiari e visualizzare meglio i concetti",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Chiarimento argomenti e visualizzazione concetti come benefici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Assenza di difficoltà indica un uso fluido che supporta il percorso."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Quando non è più un sostegno allo studio ma diventa l’unica fonte",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Rischio di sostituzione del docente e erosione del pensiero critico quando l'IA è unica fonte."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La stesura di interi testi",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "La stesura di interi testi è indicata come pratica non raccomandata (ghostwriting/off-limits)."
+    }
+  ]
+}

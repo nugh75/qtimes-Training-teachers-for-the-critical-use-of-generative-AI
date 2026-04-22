@@ -1,0 +1,106 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_erta03.md",
+  "source_name": "studenti_erta03.md",
+  "title": "Risposta erta03",
+  "group": "Studenti",
+  "record_code": "erta03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:21.157652+00:00",
+  "record_dimensions": [
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "X2"
+  ],
+  "record_note": "Il record mostra un pattern di risposte estremamente brevi, spesso non informative o fuori tema (N1b), suggerendo una difficoltà del partecipante a elaborare o comunicare dettagli specifici sull'uso dell'IA.",
+  "code_counts": {
+    "N1b": 8,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Utilizzo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Utilizzo' non fornisce informazioni sul perché o come, risultando fuori tema rispetto alla richiesta di spiegazione o dettaglio."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt è utile",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'utente identifica ChatGpt come utile, indicando un beneficio di comprensione o semplificazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "In nessun modo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'In nessun modo' non fornisce dettagli sul perché, risultando fuori tema rispetto alla richiesta di spiegazione."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Non so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Non so' non fornisce esempi o informazioni, risultando non informativa."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Nessun modo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Nessun modo' non fornisce dettagli sul perché, risultando fuori tema rispetto alla richiesta di spiegazione."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "In nessun modo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'In nessun modo' non fornisce dettagli sul perché, risultando fuori tema rispetto alla richiesta di spiegazione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "0",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta '0' non fornisce informazioni sulle difficoltà, risultando non informativa."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Nessuno' non fornisce dettagli sui pro e contro, risultando non informativa."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Boo",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Boo' è fuori tema e non informativa rispetto alla domanda."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_illi3.md",
+  "source_name": "insegnanti_attuali_illi3.md",
+  "title": "Risposta illi3",
+  "group": "Insegnanti in servizio",
+  "record_code": "illi3",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:39.024588+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S4",
+    "S6",
+    "X4"
+  ],
+  "record_note": "Profilo di insegnante con forte resistenza all'uso dell'IA motivata dalla priorità data alla relazione educativa e alla tutela dell'autonomia cognitiva dello studente.",
+  "code_counts": {
+    "I4": 3,
+    "N1b": 1,
+    "S4": 1,
+    "S6": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "L'USO DELL'INTELLIGENZA ARIFICIALE  LIMITA LE PROPRIE CAPACITA' E RIDUCE DRASTICAMENTE I RAPPORTI  UMANI",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Rifiuto dell'uso dell'IA basato sulla protezione dei rapporti umani e relazionali (S6, I4)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "PERCHE' RIDUCE LO SVILUPPO DI ELABORAZIONE DEI CONTENUTI E RIDUCE IL RAPPORTO TRA PARI E TRA STUDENTE E INSEGNANTE",
+      "codes": [
+        "S4",
+        "I4"
+      ],
+      "reason": "Critica allo sviluppo dell'autonomia cognitiva e alla riduzione del rapporto umano (S4, I4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'INTELLIGENZA ARIFICIALE CONSENTE UN PROCESSO DI APPRENDIMENTO PIU' DINAMICO E PER CERTI ASPETTI PIU' INCLUSIVO, MA LIMITA I RAPPORTI UMANI TRA PARI E TRA DOCENTE E STUDENTE",
+      "codes": [
+        "X4",
+        "I4",
+        "S6"
+      ],
+      "reason": "Riconoscimento di potenziali benefici inclusivi (X4) ma prevalenza della critica sui rapporti umani e sulla sostituzione della relazione (I4, S6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "NON HO MAI USATO L'INTELLIGENZA ARTIFICIALE",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulle pratiche non raccomandate, poiché l'utente dichiara di non aver mai usato l'IA."
+    }
+  ]
+}

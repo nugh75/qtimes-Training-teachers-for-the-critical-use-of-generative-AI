@@ -1,0 +1,118 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli28.md",
+  "source_name": "studenti_elli28.md",
+  "title": "Risposta Elli28",
+  "group": "Studenti",
+  "record_code": "Elli28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:47.191085+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "N1a",
+    "P2",
+    "P6",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA per semplificazione e organizzazione, ma manifesta forti preoccupazioni riguardo alla perdita di elaborazione cognitiva e alla necessità di rielaborazione personale.",
+  "code_counts": {
+    "A2": 1,
+    "N1a": 1,
+    "P2": 1,
+    "P6": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Notebooklm perché mi aiuta a unire più documenti e trovare i punti più importanti",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Menzione dello strumento Notebooklm (P6) e utilità per organizzare documenti e punti chiave (X5)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La utilizzo per ricevere spiegazioni più semplici di argomenti per me complessi",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Adattamento di spiegazioni a complessità personale (P2) e semplificazione/concetti chiari (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "PERFAVORE potresti dirmi",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi semplifica concetti che per me sono complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificazione di concetti complessi (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi fa comprendere argomenti difficili",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Comprensione di argomenti difficili tramite semplificazione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "L’essere troppo generico o poco dettagliato",
+      "codes": [
+        "A2"
+      ],
+      "reason": "Difficoltà legata alla genericità del supporto o dell'output (A2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Vi è meno elaborazione mentale (contro), velocizza e diminuisce la mole di studio (pro)",
+      "codes": [
+        "S4",
+        "X1"
+      ],
+      "reason": "Perdita di elaborazione mentale (S4) e risparmio di tempo/mole di studio (X1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Il farsi fare riassunti da chatgpt perché non vi è la rielaborazione del documento e non è detto che le informazioni da lui tolte non siano rilevanti",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Rifiuto di riassunti automatici per erosione del pensiero critico (S4) e ambito off-limits della rielaborazione (S7)."
+    }
+  ]
+}

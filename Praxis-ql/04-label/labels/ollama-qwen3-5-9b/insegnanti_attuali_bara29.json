@@ -1,0 +1,76 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_bara29.md",
+  "source_name": "insegnanti_attuali_bara29.md",
+  "title": "Risposta bara29",
+  "group": "Insegnanti in servizio",
+  "record_code": "bara29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:40:43.936513+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R1",
+    "S2",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "record_note": "Profilo di insegnante con forte resistenza epistemica e etica all'uso dell'IA, focalizzato sulla tutela del pensiero critico e della relazione umana.",
+  "code_counts": {
+    "I2": 1,
+    "R1": 1,
+    "S2": 1,
+    "S4": 2,
+    "S5": 1,
+    "S6": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "sono molto diffidente",
+      "codes": [
+        "I2",
+        "R1"
+      ],
+      "reason": "Diffidenza verso l'IA (I2) e percezione di non competenza o sfiducia tecnica (R1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "non ritengo giusto sostituire l'attivita' mentale degli alunni con l'AI",
+      "codes": [
+        "S4",
+        "S6"
+      ],
+      "reason": "Rifiuto di sostituire l'attività mentale degli alunni (S4) e della relazione educativa (S6)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SOLO CONTRO",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Percezione di solo danno (S4) e rischio di informazioni false/imprecisione (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "PRODURRE TESTI",
+      "codes": [
+        "S7",
+        "S2"
+      ],
+      "reason": "Produzione di testi considerata off-limits (S7) e rischio di ghostwriting/plagio (S2)."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ndri11.md",
+  "source_name": "studenti_ndri11.md",
+  "title": "Risposta ndri11",
+  "group": "Studenti",
+  "record_code": "ndri11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:10:36.418922+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S2",
+    "S7",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per la semplificazione e la personalizzazione, con una chiara consapevolezza dei limiti etici e delle pratiche da evitare.",
+  "code_counts": {
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 2,
+    "S2": 1,
+    "S7": 1,
+    "X2": 5,
+    "X3": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt perchè ti consente di avere molte informazioni, precise, specifiche su ogni argomento di studio e, se si hanno ancora dei dubbi su quanto viene riferito si puó chiedere di fare esempi o comunque di trovare una spiegazione più semplice.",
+      "codes": [
+        "P6",
+        "X2",
+        "X3"
+      ],
+      "reason": "Menzione di ChatGpt (P6), capacità di semplificare concetti (X2) e fornire spiegazioni personalizzate (X3)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per farmi spiegare argomenti complessi che magari non riesco a capire dal libro di testo o per avere degli ulteriori esempi.",
+      "codes": [
+        "P2",
+        "X2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per spiegare argomenti complessi (P2) e semplificare la comprensione (X2) con esempi mirati (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami la teoria dell’attaccamento secondo Bowlby e in che modo l’attaccamento sicuro si differenzia a quello disorganizzato",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito (P7) che dimostra la capacità di formulare richieste specifiche (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Ti fa comprendere in modo piu semplice anche concetti piu complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere concetti complessi in modo più semplice (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato nel trovare definzioni di concetti complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA è usata per trovare definizioni di concetti complessi, facilitando la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Capire l’impostazione iniziale di come porre le giuste domande",
+      "codes": [
+        "R1",
+        "R4"
+      ],
+      "reason": "Difficoltà percepita nell'impostazione iniziale (R1) legata alla formulazione delle domande (R4)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: capire concetti complessi, non dover consiltare molto materiale dispersivo Contro: usarla in maniera impropria, quando non si dovrebbe",
+      "codes": [
+        "X2",
+        "X7"
+      ],
+      "reason": "Pro: semplificazione (X2); Contro: uso improprio da evitare, indicando un beneficio subordinato al controllo (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere interamente tesine, temi",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Pratiche non raccomandate includono la scrittura di tesine (S2) e temi (S7), ambiti off-limits."
+    }
+  ]
+}

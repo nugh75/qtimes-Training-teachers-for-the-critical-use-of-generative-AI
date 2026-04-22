@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ibus23.md",
+  "source_name": "studenti_ibus23.md",
+  "title": "Risposta ibus23",
+  "group": "Studenti",
+  "record_code": "ibus23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:19.088478+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P5",
+    "P6",
+    "R1",
+    "S1",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che vede l'IA principalmente come strumento di efficienza e semplificazione (X1, X2), con consapevolezza dei rischi di dipendenza cognitiva (S1).",
+  "code_counts": {
+    "P5": 1,
+    "P6": 1,
+    "R1": 1,
+    "S1": 1,
+    "X1": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "solitamente uso la chat per porre domande",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dell'uso della chat come strumento preferito e consapevolezza del suo utilizzo."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "aiutandomi con riassunti o la traduzione di testi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso di riassunti e traduzioni per semplificare e comprendere meglio i testi."
+    },
+    {
+      "index": 3,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta nel velocizzare vari compiti",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "L'IA serve a velocizzare i compiti, migliorando l'efficienza e la comprensione."
+    },
+    {
+      "index": 4,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Forse rende le persone più pigre nello svolgere certi compiti",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Percezione che l'IA induca pigrizia nello svolgimento dei compiti."
+    }
+  ]
+}

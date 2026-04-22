@@ -1,0 +1,131 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_bano37.md",
+  "source_name": "insegnanti_attuali_bano37.md",
+  "title": "Risposta bano37",
+  "group": "Insegnanti in servizio",
+  "record_code": "bano37",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:28.330282+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I4",
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "X2",
+    "X3",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record mostra un insegnante che integra strumenti digitali e IA con una forte enfasi sulla relazione educativa, sulla supervisione adulta e sulla personalizzazione dei percorsi, pur manifestando una certa cautela verso l'autonomia totale degli studenti nell'uso dell'IA.",
+  "code_counts": {
+    "A1": 1,
+    "I4": 1,
+    "P2": 2,
+    "P6": 2,
+    "P7": 1,
+    "R1": 2,
+    "X2": 1,
+    "X3": 2,
+    "X6": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Giochi didattici interattivi perché consentono di consolidare conoscenze divertendosi.",
+      "codes": [
+        "P6",
+        "X6"
+      ],
+      "reason": "Menzione di strumenti specifici (giochi interattivi) e loro impatto positivo sull'arricchimento e coinvolgimento."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per individualizzare l'insegnamento? (Nota: l'individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando un percorso ad hoc",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Creazione di un percorso 'ad hoc' risponde alla richiesta di individualizzazione e personalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare l'insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Proponendo vari step su vari livelli",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Proposta di step su vari livelli mira a garantire eccellenza e potenzialità a ogni studente (personalizzazione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Uso ciò che su Internet trovo predisposto in base agli argomenti",
+      "codes": [
+        "P7",
+        "R1"
+      ],
+      "reason": "Descrizione di una pratica di prompting (uso di prompt predefiniti trovati online) e competenza percepita nell'uso."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "La didattica giornaliera sollecita la loro curiosità basandosi su attività interattivi, forse non proprio legate all'intelligenza artificiale ma legate alla tecnologia attraverso l'uso di molti software didattici.",
+      "codes": [
+        "P6",
+        "X6"
+      ],
+      "reason": "Menzione di software didattici come ecosistema di strumenti e loro ruolo nel sollecitare curiosità (coinvolgimento)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Rendendo più interessanti gli argomenti o le attività proposte",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite rendere gli argomenti più interessanti (comprensione/coinvolgimento)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Mi piacerebbe conoscere meglio questi strumenti",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Desiderio di conoscere meglio gli strumenti indica una mancanza di familiarità o formazione specifica (impreparazione)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'educatore deve sempre mettere la riflessione, la sensibilità e l'empatia nel suo lavoro. L'intelligenza artificiale lo aiuta nelle tematiche ma la personalità e il trasporto dell'educatore verso gli alunni costituiscono una buona base da cui partire.",
+      "codes": [
+        "I4",
+        "X7"
+      ],
+      "reason": "Enfasi su empatia e sensibilità dell'educatore come insostituibile (fiducia relazionale) e necessità di controllo umano (cambiamento condizionato)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Penso che gli studenti non debbano essere lasciati soli davanti a pratiche che utilizzano l'intelligenza artificiale, se alunni di scuola primaria. L'adulto è necessario per affiancare il bambino, ascoltarlo, farlo parlare e riflettere anche, e soprattutto, davanti a tali pratiche,",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

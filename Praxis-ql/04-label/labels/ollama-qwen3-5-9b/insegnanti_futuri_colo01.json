@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_colo01.md",
+  "source_name": "insegnanti_futuri_colo01.md",
+  "title": "Risposta colo01",
+  "group": "Insegnanti pre-service",
+  "record_code": "colo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:28.008612+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Profilo di un docente pre-service che rifiuta l'uso dell'IA per mancanza di percezione di necessità o per timore di compromettere l'apprendimento autonomo.",
+  "code_counts": {
+    "N1b": 2,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché non c'è bisogno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: non spiega il 'perché' del non uso ma afferma genericamente l'assenza di bisogno."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non viene coinvolta",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: 'Non viene coinvolta' non risponde alla domanda sul perché non si usa l'IA nella didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro velocità di apprendimento. Contro poca volontà di apprendimento",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Pro: velocità (X1); Contro: 'poca volontà di apprendimento' indica erosione dell'autonomia/autodisciplina (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sviluppo di testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identifica lo sviluppo di testi come pratica off-limits (plagio/ghostwriting)."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_mili08.md",
+  "source_name": "studenti_mili08.md",
+  "title": "Risposta Mili08",
+  "group": "Studenti",
+  "record_code": "Mili08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:46.985765+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "N1b",
+    "N1c",
+    "P6",
+    "R1",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X7"
+  ],
+  "record_note": "Profilo di studente pragmatico che valuta l'IA in termini di efficienza e velocità, ma mantiene una forte preferenza per i supporti tradizionali (libri) e mostra consapevolezza dei limiti (impegno).",
+  "code_counts": {
+    "A3": 1,
+    "N1b": 1,
+    "N1c": 1,
+    "P6": 1,
+    "R1": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X4": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Telefono per la velocità",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (Telefono) e percezione della sua utilità (velocità)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Per cercare informazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per cercare informazioni, finalizzato alla comprensione e focalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chatgbt",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: il nome dello strumento non risponde alla richiesta di esempi di prompt."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi da spunti differenti per sentire varie voci",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "L'IA offre spunti diversi (comprensione) e permette di sentire varie voci (personalizzazione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Informazioni piu approfondite",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite informazioni più approfondite (comprensione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Visivamente è piu comodo il libro",
+      "codes": [
+        "A3",
+        "X4"
+      ],
+      "reason": "Difficoltà legata alla preferenza per il libro (vincolo infrastrutturale/abitudine) e accesso a contenuti visivi."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro velocita  Contro impegno",
+      "codes": [
+        "X1",
+        "X7"
+      ],
+      "reason": "Pro: velocità (efficienza); Contro: impegno (beneficio subordinato a controllo umano/criticità)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nessun contro",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione: affermare che non ci sono contro non fornisce informazioni specifiche."
+    }
+  ]
+}

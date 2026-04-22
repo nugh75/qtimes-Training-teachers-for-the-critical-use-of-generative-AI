@@ -1,0 +1,43 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ento19.md",
+  "source_name": "insegnanti_futuri_ento19.md",
+  "title": "Risposta Ento19",
+  "group": "Insegnanti pre-service",
+  "record_code": "Ento19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:53.357301+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4"
+  ],
+  "record_note": "Il record mostra un partecipante che non sta attualmente insegnando e che percepisce l'IA come un fattore di rischio per il pensiero critico degli studenti.",
+  "code_counts": {
+    "N1b": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' non risponde alla domanda sulla didattica, ma descrive lo stato attuale del partecipante, rendendo la risposta fuori tema rispetto al contesto educativo richiesto."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ridurre la capacità di pensiero degli alunni",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Il partecipante identifica come contro principale la riduzione della capacità di pensiero degli alunni, mappando direttamente il concetto di erosione del pensiero critico."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_lini16.md",
+  "source_name": "studenti_lini16.md",
+  "title": "Risposta Lini16",
+  "group": "Studenti",
+  "record_code": "Lini16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:50.296266+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S1",
+    "S2",
+    "S4"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'uso dell'IA per lo studio, motivata dalla paura di perdere l'autonomia cognitiva, la capacità di rielaborazione e il rischio di plagio.",
+  "code_counts": {
+    "N1b": 1,
+    "S1": 2,
+    "S2": 1,
+    "S4": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "ritengo che possa influenzarmi e sostituire la rielaborazione dei concetti del mio cervello",
+      "codes": [
+        "S4",
+        "S1"
+      ],
+      "reason": "La risposta indica che l'uso dell'IA porta a una sostituzione della rielaborazione personale (erosione pensiero critico) e influisce negativamente sulla capacità di elaborare concetti autonomamente (delega cognitiva)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "perché avrebbe un impatto negativo sul mio andamento",
+      "codes": [
+        "S4",
+        "S1"
+      ],
+      "reason": "L'utente esplicita un impatto negativo sull'andamento dello studio, attribuendolo alla dipendenza o alla delega eccessiva dell'elaborazione cognitiva all'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro: solo utilizzo dell’intelligenza artificiale per svolgere il 100% dei xompiti",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Il codice S2 (Ghostwriting) è applicato perché l'utente cita l'utilizzo dell'IA per svolgere il 100% dei compiti, implicando una delega totale che sfuma nel plagio o ghostwriting."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "ah boh",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'ah boh' è fuori tema rispetto alla richiesta di spiegare pratiche non raccomandate e non fornisce informazioni classificate nel framework."
+    }
+  ]
+}

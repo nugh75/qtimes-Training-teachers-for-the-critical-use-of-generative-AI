@@ -1,0 +1,154 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_capu15.md",
+  "source_name": "insegnanti_attuali_capu15.md",
+  "title": "Risposta capu15",
+  "group": "Insegnanti in servizio",
+  "record_code": "capu15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:41:03.270288+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P7",
+    "R4",
+    "S2",
+    "S4",
+    "S6",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "record_note": "Insegnante con approccio critico, uso dell'IA per supporto tecnico e inclusione, ma forte preoccupazione per la dipendenza, la copia e la perdita di umanità.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "I3": 1,
+    "I4": 2,
+    "P1": 1,
+    "P2": 1,
+    "P3": 1,
+    "P4": 2,
+    "P5": 1,
+    "P7": 1,
+    "R4": 1,
+    "S2": 2,
+    "S4": 2,
+    "S6": 1,
+    "X2": 1,
+    "X3": 1,
+    "X4": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "creare verifiche diverse sulla base di una assegnata come esempio",
+      "codes": [
+        "P1",
+        "P5"
+      ],
+      "reason": "Creazione di verifiche (P1) e adattamento di attività basate su un esempio (P5)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Gli alunni durante la lezione laboratoriale posso chiedere all'IA chiarimenti o esempi di codice dia algoritmi complessi che  poi devono comprendere per integrarli nelle attività proposte.",
+      "codes": [
+        "P2",
+        "P4",
+        "X5"
+      ],
+      "reason": "Chiarimenti e esempi per integrare attività (P4), supporto a singoli alunni (P2) e supporto al percorso (X5)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "creazione di rubriche di valutazione per DSA",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "Creazione di rubriche per DSA (P3) e garanzia di accesso/eccellenza (X4)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Buongiorno, sono un insegnate di informatica. Sto facendo un progetto java con swing e devo visualizzare delle immagine su un Jframe. Dove devo inserire i file .png nel progetto?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Prompt visibile (P7) e dimostrazione di competenza nel formulare prompt specifici (R4)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ricerca di esempi sulla lettura e scrittura di file con Java",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Ricerca di esempi per chiarire concetti (P4) e semplificazione/apprendimento (X2)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "è un insegnate a cui fare domande senza paura di essere giudicato per il livello delle domande poste",
+      "codes": [
+        "I4",
+        "X3"
+      ],
+      "reason": "Supporto emotivo/sicurezza nel chiedere (I4) e attenzione al singolo studente (X3)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "i ragazzi a volte copiano le risposte senza darne una valutazione basata su quanto già appreso.",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Rischio di copia (S2) e erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Insegnante che risponde sempre e subito. Molti la prendono come un ausilio per copiare e non per capire meglio.",
+      "codes": [
+        "S2",
+        "S4",
+        "I2"
+      ],
+      "reason": "Uso per copiare (S2), pensiero critico eroso (S4) e percezione di errore/falsa sicurezza (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "IA ha un grande potenziale per supportare e arricchire l'insegnamento, ma è cruciale adottare un approccio critico e consapevole. Le pratiche che rischiano di deumanizzare l'apprendimento, compromettere l'equità, violare la privacy o sostituire integralmente il ruolo cruciale dell'insegnante dovrebbero essere evitate. L'IA dovrebbe essere vista come uno strumento al servizio dell'educazione umana, potenziando le capacità degli insegnanti e supportando lo sviluppo degli studenti.",
+      "codes": [
+        "I1",
+        "I3",
+        "I4",
+        "S6"
+      ],
+      "reason": "Necessità di controllo umano (I1), approccio etico (I3), insostituibilità della relazione (I4) e rifiuto della sostituzione del docente (S6)."
+    }
+  ]
+}

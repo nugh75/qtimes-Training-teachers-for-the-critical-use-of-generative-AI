@@ -1,0 +1,49 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_dosa17.md",
+  "source_name": "insegnanti_futuri_dosa17.md",
+  "title": "Risposta Dosa17",
+  "group": "Insegnanti pre-service",
+  "record_code": "Dosa17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:37.874397+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1b"
+  ],
+  "record_note": "Il record è composto interamente da risposte non informative dovute all'assenza di esperienza didattica del partecipante (Insegnanti pre-service).",
+  "code_counts": {
+    "N1b": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: il partecipante dichiara di non insegnare, rendendo impossibile rispondere alla domanda sulla didattica."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non lo so perché non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: il partecipante cita l'assenza di esperienza didattica come motivo per non poter rispondere."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: il partecipante dichiara di non sapere rispondere, rendendo impossibile l'attribuzione di codici PRAXIS."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iani17.md",
+  "source_name": "studenti_iani17.md",
+  "title": "Risposta iani17",
+  "group": "Studenti",
+  "record_code": "iani17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:07:06.383225+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P7",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record mostra un uso dell'IA prevalentemente strumentale per il risparmio di tempo e la comprensione, con una forte consapevolezza dei limiti (affidabilità) e dei rischi etici (sostituzione cognitiva, plagio).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P5": 1,
+    "P7": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché mi fa capire le cose più velocemente e mi facilita lo studio",
+      "codes": [
+        "X2",
+        "X1"
+      ],
+      "reason": "La risposta cita la velocità di comprensione (X2) e il facilitare lo studio/ottimizzare il tempo (X1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedere informazione e sistemare appunti",
+      "codes": [
+        "X3"
+      ],
+      "reason": "L'azione di chiedere informazioni e sistemare appunti risponde alla domanda sulla personalizzazione dello studio (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassumi",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Il prompt 'Riassumi' è un esempio di strategia operativa di produzione (P5) e il prompt è esplicitamente riportato (P7)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi fa capire meglio i concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La risposta indica un miglioramento nella comprensione dei concetti (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non ci sono",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta 'Non ci sono' è troppo breve e non informativa per attribuire codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Bisogna stare attenti perché non é sempre corretto ciò che dice",
+      "codes": [
+        "I2"
+      ],
+      "reason": "La risposta evidenzia l'insicurezza tecnica dovuta alla possibile incorrettezza delle informazioni fornite dall'IA (I2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro = sostituisce il cervello umano  Pro=ottimizza il tempo",
+      "codes": [
+        "S6",
+        "X1"
+      ],
+      "reason": "Il 'contro' cita la sostituzione del cervello umano (S6), mentre il 'pro' cita l'ottimizzazione del tempo (X1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Per produrre i testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "La risposta identifica la produzione di testi come pratica non raccomandata, rientrando negli ambiti off-limits (S7)."
+    }
+  ]
+}

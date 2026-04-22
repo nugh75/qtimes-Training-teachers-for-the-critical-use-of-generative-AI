@@ -1,0 +1,150 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_raia30.md",
+  "source_name": "insegnanti_attuali_raia30.md",
+  "title": "Risposta raia30",
+  "group": "Insegnanti in servizio",
+  "record_code": "raia30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:05.956972+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "I1",
+    "N1a",
+    "P2",
+    "P3",
+    "P7",
+    "R1",
+    "R4",
+    "S7",
+    "X3",
+    "X4",
+    "X7"
+  ],
+  "record_note": "Profilo di docente in fase di transizione: uso emergente dell'IA con forte enfasi sull'apprendimento, sulla cautela etica e sull'inclusione, ma con ancora limitata integrazione strutturale nella didattica.",
+  "code_counts": {
+    "A1": 1,
+    "A2": 1,
+    "I1": 2,
+    "N1a": 1,
+    "P2": 1,
+    "P3": 1,
+    "P7": 1,
+    "R1": 4,
+    "R4": 2,
+    "S7": 1,
+    "X3": 1,
+    "X4": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' senza contenuto informativo."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGpt semplicemente perché è il primo a cui mi sto approcciando e quello che sto cercando di imparare ad utilizzare, ma per molti aspetti non mi piace",
+      "codes": [
+        "R1",
+        "R4"
+      ],
+      "reason": "Menzione di ChatGpt come primo strumento (R1) e consapevolezza di dover imparare a usarlo (R4)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per creare video, fumetti o podcast e cercare di coinvolgere studenti ADHD o con problemi cognitivi o legati alla vista o all’udito, ma ho iniziato da poco ad utilizzarle",
+      "codes": [
+        "P3",
+        "X4"
+      ],
+      "reason": "Uso di IA per creare supporti per studenti con disabilità (P3) e per garantire l'accesso/inclusione (X4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Dando la possibilità agli studenti di utilizzarle per la creazione di prodotti quali presentazioni, ma mi sono resa conto che vanno guidati nell’utilizzo quindi mi sono prefissata di inserirlo come obiettivo per il prossimo anno",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Strategia di personalizzazione tramite prodotti creativi (P2) e attenzione alle potenzialità individuali (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi crearmi dei collegamenti con Scienze naturali per una classe  quinta di scienze umane riguardo il seguente tema “….”  Puoi generarmi una vignetta con questi personaggi (descrizione) in questo ambiente (descrizione) che hanno questi dialoghi (descrizione)",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Presenza esplicita di prompt (P7) e dimostrazione di capacità di formulare istruzioni (R4)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ancora non la uso molto, sto imparando e ho fatto solo un paio di cose che ho presentato agli studenti gli ultimi giorni di scuola",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Uso limitato e in fase di apprendimento (R1) e mancanza di un uso strutturato/formale (A1)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Ancora non ho avuto riscontro in tal senso",
+      "codes": [
+        "R1"
+      ],
+      "reason": "Mancanza di riscontro positivo, indicazione di una fase di apprendimento iniziale (R1)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Per ora sto imparando ad utilizzarli",
+      "codes": [
+        "R1",
+        "A2"
+      ],
+      "reason": "Difficoltà legate alla fase di apprendimento e supporto insufficiente per un uso avanzato (R1, A2)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Se sai utilizzarla bene può essere una grande risorsa, di contro se non si sa usare può essere dannosa",
+      "codes": [
+        "X7",
+        "I1"
+      ],
+      "reason": "Beneficio subordinato alla competenza d'uso (X7) e fiducia condizionata (I1)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Forse la valutazione di una domanda aperta perché richiede considerazioni anche sulla persona che le ha scritte oltre che alla forma",
+      "codes": [
+        "S7",
+        "I1"
+      ],
+      "reason": "Identificazione di ambiti off-limits come la valutazione soggettiva (S7) e cautela nell'uso (I1)."
+    }
+  ]
+}

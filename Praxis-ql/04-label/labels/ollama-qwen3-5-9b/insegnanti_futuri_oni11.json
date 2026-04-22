@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_oni11.md",
+  "source_name": "insegnanti_futuri_oni11.md",
+  "title": "Risposta Oni11",
+  "group": "Insegnanti pre-service",
+  "record_code": "Oni11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:30.731001+00:00",
+  "record_dimensions": [
+    "R"
+  ],
+  "record_subcodes": [
+    "R1",
+    "R5"
+  ],
+  "record_note": "Profilo di pre-service con forte enfasi sulla mancanza di esperienza pratica come barriera all'uso e alla riflessione sull'IA.",
+  "code_counts": {
+    "R1": 1,
+    "R5": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non avendo molta competenza non la uso",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Mancanza di competenza percepita (R1) che porta al non-uso motivato (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegnando ancora non ho avuto possibilità",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non-uso dovuto a mancanza di esperienza pratica (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non so rispondere perché ancora non insegno",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non-uso motivato dall'assenza di esperienza didattica (R5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Purtroppo ancora non ho esperienza nell'insegnamento",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non-uso o incapacità di rispondere dovuta alla mancanza di esperienza (R5)."
+    }
+  ]
+}

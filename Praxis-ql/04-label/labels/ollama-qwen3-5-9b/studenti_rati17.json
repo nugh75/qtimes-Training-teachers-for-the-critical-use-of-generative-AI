@@ -1,0 +1,117 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rati17.md",
+  "source_name": "studenti_rati17.md",
+  "title": "Risposta RATI17",
+  "group": "Studenti",
+  "record_code": "RATI17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:28.669996+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P5",
+    "R4",
+    "S1",
+    "S4",
+    "S7",
+    "X1",
+    "X3"
+  ],
+  "record_note": "Il record mostra un uso dell'IA focalizzato su efficienza (risparmio tempo) e personalizzazione, con una consapevolezza dei rischi di pigrizia cognitiva e di sostituzione di processi di pensiero critico.",
+  "code_counts": {
+    "N1b": 2,
+    "P5": 2,
+    "R4": 1,
+    "S1": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 3,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Nessuno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Nessuno' non informativa e non pertinente alla domanda sugli strumenti preferiti."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Trasformare pacchetti di slide in testo, chiedere informazioni riguardo manuali diagnostici di psicologia e psichiatria",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Trasformazione slide in testo e consultazione manuali rappresentano strategie operative di produzione e personalizzazione dello studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Quali sono i criteri diagnostici del disturbo schizoaffettivo? Come si diagnostica un episodio depressivo maggiore?",
+      "codes": [
+        "P5",
+        "R4"
+      ],
+      "reason": "Gli esempi forniti sono prompt specifici per ottenere informazioni diagnostiche, dimostrando competenza di prompting e strategie operative."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Risparmia tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Il beneficio percepito è esplicitamente il risparmio di tempo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Risparmiato tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Risposta ridondante che conferma il risparmio di tempo come miglioramento dell'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'Nessuna' non informativa e non permette di attribuire codici specifici sulle difficoltà."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: personalizzazione dello studio e risparmio di tempo. Contro: aumento della prigrizia concreta ed intellettuale.",
+      "codes": [
+        "X3",
+        "X1",
+        "S1"
+      ],
+      "reason": "Pro: personalizzazione (X3) e risparmio tempo (X1); Contro: aumento della pigrizia (S1)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Estrapolazione di significati profondi e concettuali di un testo. Riassunto (va esaminato bene il lavoro eseguito dallo strumento)",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Estrapolazione di significati profondi e concettuali è indicata come pratica off-limits (S7) e rischio per il pensiero critico (S4)."
+    }
+  ]
+}

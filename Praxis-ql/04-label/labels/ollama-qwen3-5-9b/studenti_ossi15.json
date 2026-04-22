@@ -1,0 +1,122 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_ossi15.md",
+  "source_name": "studenti_ossi15.md",
+  "title": "Risposta ossi15",
+  "group": "Studenti",
+  "record_code": "ossi15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:47:12.268659+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I2",
+    "N1a",
+    "P7",
+    "R1",
+    "S2",
+    "S6",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente con uso strumentale basilare, limitata competenza di prompting, percezione dei rischi di sostituzione cognitiva e affidamento critico alla correttezza dei dati.",
+  "code_counts": {
+    "A1": 1,
+    "I2": 1,
+    "N1a": 1,
+    "P7": 1,
+    "R1": 1,
+    "S2": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat Gpt , perché conosco solo quello",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Conoscenza limitata a un solo strumento (R1) e mancanza di formazione/esplorazione di altri (A1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi facilita nel sistemare appunti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA facilita l'organizzazione degli appunti, semplificando il processo di studio (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "svolgimi un testo",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Prompting visibile e descritto (P7); semplificazione del testo tramite l'istruzione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi semplifica i testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA semplifica i testi, migliorando la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non ci sono",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta negativa ('non ci sono') che non fornisce esempi specifici, risultando non informativa (N1a)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che non è del tutto corretto quello che dice",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Difficoltà legata all'accuratezza delle informazioni fornite dall'IA (allucinazioni/imprecisioni) (I2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "il contro -> che può sostituire  il cervello umano  pro -> ottimizza il tempo",
+      "codes": [
+        "X1",
+        "S6"
+      ],
+      "reason": "Pro: ottimizzazione del tempo (X1); Contro: rischio di sostituzione del pensiero umano (S6)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per produrre testi e appunti",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Pratica non raccomandata per la produzione di testi e appunti, toccando temi di ghostwriting/plagio (S2) e ambiti off-limits (S7)."
+    }
+  ]
+}

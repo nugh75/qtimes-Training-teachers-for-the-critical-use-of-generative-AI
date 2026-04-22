@@ -1,0 +1,128 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_tesi11.md",
+  "source_name": "studenti_tesi11.md",
+  "title": "Risposta tesi11",
+  "group": "Studenti",
+  "record_code": "tesi11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:13:48.783542+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S1",
+    "S2",
+    "S4",
+    "S7",
+    "X2",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per ottimizzazione temporale e semplificazione, con consapevolezza dei rischi di dipendenza cognitiva e sostituzione del pensiero critico.",
+  "code_counts": {
+    "N1a": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S1": 1,
+    "S2": 1,
+    "S4": 1,
+    "S7": 1,
+    "X2": 3,
+    "X5": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt perché mi trovo bene e non ne conosco altri",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e dichiarazione di comfort nell'uso (competenza percepita)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi faccio aiutare in compiti che se dovessi fare da sola ci metterei troppo tempo",
+      "codes": [
+        "X5",
+        "X2"
+      ],
+      "reason": "Uso dell'IA per ottimizzare il tempo (X5) e superare difficoltà di elaborazione autonoma (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "mi potresti correggere grammaticalmente questi appunti presi a lezione e rielaborare il testo con un linguaggio più fluente ?",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) relativo a correzione e rielaborazione di testi (P5)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi ottimizza il tempo e a volte mi spiega concetti con parole più semplici",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite semplificazione concettuale (X2) e ottimizzazione temporale (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi aiuta a essere più veloce",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento focalizzato sulla velocità di elaborazione (X2, X5)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('nessuna') insufficiente per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "può essere di grande aiuto ma si rischia di sostituire completamente il lavoro/studio della mente umana o si può diventare pigri",
+      "codes": [
+        "X7",
+        "S1",
+        "S4"
+      ],
+      "reason": "Pro (aiuto) subordinato al controllo umano (X7); contro (pigrizia, sostituzione del lavoro mentale) indicano delega eccessiva (S1) ed erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "creare tesine e tesi solo grazie all’intelligenza artificiale",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Identificazione della creazione di tesine/tesi tramite IA come pratica non raccomandata (S2) e ambito off-limits (S7)."
+    }
+  ]
+}

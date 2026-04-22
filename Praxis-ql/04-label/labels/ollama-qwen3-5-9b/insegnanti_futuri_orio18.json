@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_orio18.md",
+  "source_name": "insegnanti_futuri_orio18.md",
+  "title": "Risposta Orio18",
+  "group": "Insegnanti pre-service",
+  "record_code": "Orio18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:40.901732+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S7"
+  ],
+  "record_note": "Profilo di un insegnante pre-service che non ha esperienza diretta con l'IA, basando le sue valutazioni su principi pedagogici tradizionali (empatia, valutazione umana) e su vincoli temporali.",
+  "code_counts": {
+    "I4": 1,
+    "N1b": 2,
+    "S7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho mai avuto necessità di utilizzarla",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente nega l'uso dell'IA basandosi su un'assenza di necessità, non fornendo motivazioni relative al framework PRAXIS."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Quando ho insegnato, non era ancora utilizzata",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente attribuisce la non-utilizzo a un fattore storico (tempo), non a una competenza, percezione o strategia didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Suppongo, non avendola utilizzata, che sia uno strumento molto valido per creare contenuti interattivi e coinvolgenti ma da non considerare nella valutazione degli studenti, poiché manca del tutto la componente fondamentale dell'empatia e della conoscenza dell'alunno sul piano personale",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "L'utente evidenzia l'insostituibilità dell'empatia e della conoscenza personale (I4) e definisce la valutazione come ambito off-limits (S7)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La valutazione dello studente",
+      "codes": [
+        "S7"
+      ],
+      "reason": "L'utente identifica esplicitamente la valutazione dello studente come pratica non raccomandata (ambito off-limits)."
+    }
+  ]
+}

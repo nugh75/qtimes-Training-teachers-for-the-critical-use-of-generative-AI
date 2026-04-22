@@ -1,0 +1,83 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ifra19.md",
+  "source_name": "insegnanti_futuri_ifra19.md",
+  "title": "Risposta ifra19",
+  "group": "Insegnanti pre-service",
+  "record_code": "ifra19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:32.652393+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R1",
+    "R5",
+    "S2",
+    "S4",
+    "S6",
+    "S7",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Profilo di insegnanti pre-service con forte orientamento alla relazione umana, scetticismo verso la delega cognitiva e percezione di limiti etici e di competenza tecnica.",
+  "code_counts": {
+    "I4": 1,
+    "R1": 1,
+    "R5": 1,
+    "S2": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X3": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco fidarmi del mio giudizio ed eventualmente avere un feedback umano",
+      "codes": [
+        "I4",
+        "X3"
+      ],
+      "reason": "Preferenza per il giudizio umano e la relazione diretta (I4, X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la so usare, non conoscono applicazioni e strumenti e preferisco interfacciarmi con il prossimo",
+      "codes": [
+        "R1",
+        "R5",
+        "S6",
+        "X3"
+      ],
+      "reason": "Mancanza di competenze tecniche (R1, R5) e rifiuto per la preferenza alla relazione umana (S6, X3)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro che potrebbe aiutare chi ha svantaggio socio culturale Contro il troppo uso potrebbe creare dipendenza dall'IA",
+      "codes": [
+        "X4",
+        "S4"
+      ],
+      "reason": "Pro: inclusione per svantaggi (X4); Contro: rischio dipendenza (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per le operazioni matematiche, riassumere un testo o fare i compiti agli alunni",
+      "codes": [
+        "S7",
+        "S2"
+      ],
+      "reason": "Ambiti off-limits come matematica e compiti (S7) e ghostwriting (S2)."
+    }
+  ]
+}

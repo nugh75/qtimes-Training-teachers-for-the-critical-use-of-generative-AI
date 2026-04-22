@@ -1,0 +1,58 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_buri03.md",
+  "source_name": "insegnanti_futuri_buri03.md",
+  "title": "Risposta Buri03",
+  "group": "Insegnanti pre-service",
+  "record_code": "Buri03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:18.194678+00:00",
+  "record_dimensions": [
+    "N"
+  ],
+  "record_subcodes": [
+    "N1b"
+  ],
+  "record_note": "Il partecipante Buri03 non insegna attualmente, rendendo tutte le risposte relative all'uso didattico o all'esperienza in quel contesto non applicabili (fuori tema).",
+  "code_counts": {
+    "N1b": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Al momento non insegno e non sento il bisogno di utilizzarla nel mio quotidiano",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non insegno) rispetto alla domanda sulla motivazione del non uso nella didattica."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non insegno) rispetto alla domanda sulla spiegazione del non uso nella didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienza in merito",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non ho esperienza) rispetto alla domanda sui pro e contro."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienza in merito",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non ho esperienza) rispetto alla domanda sulle pratiche non raccomandate."
+    }
+  ]
+}

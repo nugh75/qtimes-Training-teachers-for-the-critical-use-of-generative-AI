@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_nidi24.md",
+  "source_name": "insegnanti_attuali_nidi24.md",
+  "title": "Risposta nidi24",
+  "group": "Insegnanti in servizio",
+  "record_code": "nidi24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:49:26.394992+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R3",
+    "S4",
+    "S6",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di insegnanti che mostrano una forte resistenza all'adozione dell'IA, motivata da preferenze per metodi tradizionali, preoccupazione per la perdita di autonomia cognitiva e pensiero critico, e percezione dell'IA come strumento di delega inappropriata.",
+  "code_counts": {
+    "N1b": 1,
+    "R3": 1,
+    "S4": 2,
+    "S6": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "perchè ancora non ne ho avuto necessità",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente risponde genericamente ('non ne ho avuto necessità') senza collegarsi al contesto specifico dell'uso dell'IA nella didattica richiesto dalla domanda."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "preferisco dei video o testi",
+      "codes": [
+        "R3",
+        "X3"
+      ],
+      "reason": "Rifiuto dell'IA a favore di metodi tradizionali (video/testi) per una preferenza pedagogica verso la personalizzazione e l'attenzione al singolo."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "abusare dell'intelligenza artificiale per arrivare in modo troppo semplificativo a delle risposte, meglio ragionare da se.",
+      "codes": [
+        "S4",
+        "X2"
+      ],
+      "reason": "Percezione del rischio di erosione del pensiero critico e semplificazione eccessiva, contrapposta al valore del ragionamento autonomo."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "l'affidarsi a qualcuno che pensi al posto tuo",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Identificazione della pratica non raccomandata come delega cognitiva eccessiva (affidarsi a chi pensa al posto tuo) che porta all'erosione del pensiero critico."
+    }
+  ]
+}

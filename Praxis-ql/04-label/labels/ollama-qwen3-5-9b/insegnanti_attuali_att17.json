@@ -1,0 +1,63 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_att17.md",
+  "source_name": "insegnanti_attuali_att17.md",
+  "title": "Risposta att17",
+  "group": "Insegnanti in servizio",
+  "record_code": "att17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:40:18.213737+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "S5",
+    "S7"
+  ],
+  "record_note": "Record caratterizzato da scarse risposte informative (N1a) e da identificazione di rischi specifici (S5, S7).",
+  "code_counts": {
+    "N1a": 2,
+    "S5": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per motivi di tempo che è sempre poco.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per motivi di tempo che è sempre poco.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta identica alla precedente, troppo breve e non informativa."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Potrebbe creare false realtà.",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Menzione esplicita di un rischio (false realtà/allucinazioni) associato all'IA."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Creare un testo, riassumere testo, valutare un alunno, perchè non consideral'aspetto emozonale.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (valutazione alunno) e motivazione legata all'aspetto emozionale."
+    }
+  ]
+}

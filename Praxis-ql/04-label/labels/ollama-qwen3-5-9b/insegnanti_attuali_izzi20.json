@@ -1,0 +1,77 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_izzi20.md",
+  "source_name": "insegnanti_attuali_izzi20.md",
+  "title": "Risposta IZZI20",
+  "group": "Insegnanti in servizio",
+  "record_code": "IZZI20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:47:55.520014+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I2",
+    "N1b",
+    "S5",
+    "S7",
+    "X4"
+  ],
+  "record_note": "Insegnante con forte scetticismo verso l'IA, percepita come strumento ingannevole e inadatta a compiti soggettivi o complessi, legata alla mancanza di formazione specifica.",
+  "code_counts": {
+    "A1": 1,
+    "I2": 3,
+    "N1b": 1,
+    "S5": 1,
+    "S7": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Quelle poche volte che ho usato l'AI nell'ambito educativo, mi è parso solamente un browser potenziato che a volte commette errori pretendendo di essere Dio e come tale viene considerato da molti, specie dagli adolescenti.",
+      "codes": [
+        "I2",
+        "S7"
+      ],
+      "reason": "L'utente descrive l'IA come un browser che commette errori (I2) e cita l'uso da parte degli studenti per domande personali/soggettive (S7)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non l'ho ancora utilizzato perché devo ancora essere formato sull'utilizzo dell'IA nella didattica. Quelle poche volte che l'ho utilizzato mi pareva solamente un altro nuovo browser, solo più potente, in grado di dare risposte più puntuali e dettagliate, oppure in grado di fornire slide di power-point molto più accattivanti, oppure di creare grafici molto più \"coloriti\". I miei studenti credono che l'AI sia Dio e lo trattano come tale, spesso chiedendo all'AI domande di carattere personale anche domande circa il senso delle cose che fanno: tutto ciò aumenta la solitudine, l'incomunicabilità tra pari e tra figli e genitori e tra alunni e docenti, dando l'illusione di risposte facili anche a questioni complesse, risposte che a volte non sono corrette. Ho fatto svolgere delle ricerche di Storia permettendo agli studenti di usare l'AI purché venisse chiesto anche dove traesse le fonti storiche che dichiarare certe informazioni. Il risultato? Alcune ricerche risultavano sbagliate, l'esposizione di argomenti che non rientravano nel contesto storico o nel periodo storico entro cui le ricerche andavano focalizzate... alcune fonti dichiarate dall'AI erano \"strane\" e cmq mai sentite e difficilmente rintracciabili in altre modalità... Credo sia necessario educare gli studenti del 2025 ad un uso responsabile e maturo dell'AI? E questo deve partire dalla corretta formulazione della domanda che si pone all'AI e dalla verifica consapevole della conseguente risposta fornita.",
+      "codes": [
+        "A1",
+        "I2",
+        "S7",
+        "X4"
+      ],
+      "reason": "Mancanza di formazione (A1), percezione di errori/allucinazioni (I2), uso per domande personali (S7) e rischio di esclusione/incomunicabilità (X4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ho già risposto prima ad una simile domanda. Se proprio devo aggiungere qualcosa, l'AI non è ancora pronta per rispondere a domande formulate in modo troppo complesso, o a domande formulate in negativo, con proposizioni \"arzigogolate\". Le risposte che saltano fuori sono esileranti.",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Limiti tecnici dell'IA in compiti complessi (I2) e risposte esili/errate (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Ho già risposto prima ad una simile domanda. Se state utilizzando l'AI per controllare le mie risposte al vostro questionario, forse questo tipo di risposta verrà scartata e mi si costringerà a rifare il questionario.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta è fuori tema rispetto alla domanda, riferendosi al questionario invece che alle pratiche didattiche."
+    }
+  ]
+}

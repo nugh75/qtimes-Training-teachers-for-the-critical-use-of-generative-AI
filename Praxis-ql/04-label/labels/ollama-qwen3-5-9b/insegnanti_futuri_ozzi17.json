@@ -1,0 +1,78 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ozzi17.md",
+  "source_name": "insegnanti_futuri_ozzi17.md",
+  "title": "Risposta ozzi17",
+  "group": "Insegnanti pre-service",
+  "record_code": "ozzi17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:49.289847+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1a",
+    "R5",
+    "S5",
+    "X2",
+    "X4",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti pre-service con atteggiamento critico verso l'IA: da un lato ne riconoscono il potenziale inclusivo e produttivo, dall'altro esprimono scetticismo legato alla mancanza di familiarità e alla necessità di verifica umana.",
+  "code_counts": {
+    "A1": 1,
+    "N1a": 1,
+    "R5": 2,
+    "S5": 1,
+    "X2": 1,
+    "X4": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Credo di non averne la necessità",
+      "codes": [
+        "N1a",
+        "R5"
+      ],
+      "reason": "Risposta breve (N1a) che esprime una scelta epistemica di non uso dovuta a percezione di non necessità (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ancora non insegno, ma comunque non immagino una didattica con l’IA perché non la conosco",
+      "codes": [
+        "R5",
+        "A1"
+      ],
+      "reason": "Non uso motivato da insicurezza/ignoranza (R5) legato all'assenza di esperienza formativa/insegnamento (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sono utili per produrre materiali e per l’inclusione delle persone con disabilità",
+      "codes": [
+        "X2",
+        "X4"
+      ],
+      "reason": "Percezione dei benefici dell'IA nella semplificazione/produzione (X2) e nell'inclusione (X4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La ricerca delle informazioni perché non si può avere certezza della loro attendibilità",
+      "codes": [
+        "S5",
+        "X7"
+      ],
+      "reason": "Identificazione del rischio di informazioni false (S5) come limite che richiede controllo umano (X7)."
+    }
+  ]
+}

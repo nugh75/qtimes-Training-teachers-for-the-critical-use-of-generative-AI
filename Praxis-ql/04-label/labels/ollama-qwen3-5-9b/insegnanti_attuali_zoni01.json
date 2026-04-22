@@ -1,0 +1,81 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_zoni01.md",
+  "source_name": "insegnanti_attuali_zoni01.md",
+  "title": "Risposta zoni01",
+  "group": "Insegnanti in servizio",
+  "record_code": "zoni01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:56:26.284401+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1a",
+    "R1",
+    "S3",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti con bassa familiarità tecnologica (R1, A1) che percepiscono rischi di dipendenza e omologazione (S3, S4) ma non hanno esperienza diretta di uso.",
+  "code_counts": {
+    "A1": 2,
+    "N1a": 2,
+    "R1": 3,
+    "S3": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché al momento non ne ho mai avuto necessità e non ho una conoscenza approfondita",
+      "codes": [
+        "N1a",
+        "R1",
+        "A1"
+      ],
+      "reason": "Risposta breve che indica mancanza di conoscenza (R1) e assenza di formazione/uso (A1), rendendo l'etichettatura parziale (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Probabilmente perché non ne ho una conoscenza approfondita",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Mancanza di conoscenza approfondita dell'IA (R1) e conseguente non uso (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro potrebbero riguardare la velocità di esecuzione di un lavoro , contro il fatto che si faccia solo riferimento all IA senza utilizzare altri canali",
+      "codes": [
+        "X1",
+        "X2",
+        "S4",
+        "S3"
+      ],
+      "reason": "Pro: velocità (X1), comprensione rapida (X2). Contro: dipendenza dall'IA (S4), uso esclusivo senza altri canali (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1a",
+        "R1"
+      ],
+      "reason": "Risposta non informativa ('Non lo so') che indica incertezza (R1)."
+    }
+  ]
+}

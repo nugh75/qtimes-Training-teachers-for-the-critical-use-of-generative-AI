@@ -1,0 +1,31 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tese18.md",
+  "source_name": "insegnanti_attuali_tese18.md",
+  "title": "Risposta tese18",
+  "group": "Insegnanti in servizio",
+  "record_code": "tese18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:12.788839+00:00",
+  "record_dimensions": [
+    "S"
+  ],
+  "record_subcodes": [
+    "S1"
+  ],
+  "record_note": "Risposta focalizzata esclusivamente sui contro dell'uso dell'IA, specificamente sul rischio di dipendenza cognitiva.",
+  "code_counts": {
+    "S1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: essere dipendenti dall’AI anche nella quotidianità",
+      "codes": [
+        "S1"
+      ],
+      "reason": "La risposta cita esplicitamente il rischio di 'dipendenza' dall'AI, mappando il codice S1 (Delega cognitiva eccessiva: dipendenza, non fare più nulla da soli)."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_hini07.md",
+  "source_name": "insegnanti_futuri_hini07.md",
+  "title": "Risposta Hini07",
+  "group": "Insegnanti pre-service",
+  "record_code": "Hini07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:58:24.266220+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S1",
+    "S3",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Record eterogeneo: il primo item è fuori tema (N1b), il secondo elenca pro e contro (X3, X4, S3, S1), il terzo è una risposta monosillabica su un rischio specifico (S3).",
+  "code_counts": {
+    "N1b": 1,
+    "S1": 1,
+    "S3": 2,
+    "X3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non insegno, sto seguendo un percorso di tirocinio e sto provando a fare la programmazione didattica confrontandomi con la professoressa tutor e basandomi sui volumi che mi ha messo a disposizione",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta descrive il contesto lavorativo (tirocinio) e non affronta il tema specifico della non-adozione dell'IA nella didattica."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Apprendimento personalizzato e un concreto aiuto per studenti con difficoltà  Rischio di una ridotta motivazione, perdita di creatività e dipendenza tecnologica",
+      "codes": [
+        "X3",
+        "X4",
+        "S3",
+        "S1"
+      ],
+      "reason": "Elenca benefici (personalizzazione, inclusione) e rischi (ridotta motivazione, perdita di creatività, dipendenza)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Omologazione",
+      "codes": [
+        "S3"
+      ],
+      "reason": "La risposta cita esplicitamente 'Omologazione', che corrisponde al codice S3 (Appiattimento, omologazione, perdita di creatività)."
+    }
+  ]
+}

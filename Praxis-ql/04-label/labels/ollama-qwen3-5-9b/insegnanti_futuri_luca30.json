@@ -1,0 +1,30 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_futuri_luca30.md",
+  "source_name": "insegnanti_futuri_luca30.md",
+  "title": "Risposta Luca30",
+  "group": "Insegnanti pre-service",
+  "record_code": "Luca30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:13.223731+00:00",
+  "record_dimensions": [],
+  "record_subcodes": [],
+  "record_note": "Record caratterizzato da risposte non informative o fuori tema (N1a, N1b) che impediscono l'etichettatura con codici sostantivi.",
+  "code_counts": {},
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro",
+      "codes": [],
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienze di insegnamento",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

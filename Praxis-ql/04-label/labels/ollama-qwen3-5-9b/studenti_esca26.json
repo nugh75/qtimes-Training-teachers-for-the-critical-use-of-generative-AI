@@ -1,0 +1,135 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_esca26.md",
+  "source_name": "studenti_esca26.md",
+  "title": "Risposta esca26",
+  "group": "Studenti",
+  "record_code": "esca26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:45:41.902128+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P4",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S2",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale e compensativo dell'IA per lo studio (riassunti, chiarimenti), con una consapevolezza dei rischi legati alla sostituzione del pensiero critico e alla produzione di testi originali.",
+  "code_counts": {
+    "N1a": 2,
+    "P4": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S2": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo il simbolo '-' non fornisce informazioni classificate."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché è anche l’unica che conosco",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e dichiarazione di conoscenza limitata (competenza percepita)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "A volte gli chiedo riassunti per degli argomenti o per capire delle cose per degli esami",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Uso dell'IA per riassunti e chiarimenti (supporto studio, semplificazione)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Dimmi che figura retorica c’è nella pubblicità “altissima,purissima,levissima”",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio esplicito di prompt fornito e dimostrazione di capacità di formulazione."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi dice delle cose che magari non riuscivo a trovare da nessuna parte",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA fornisce informazioni non reperibili altrove (semplificazione e comprensione)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato per esempio con l’esonero di ieri",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Aiuto concreto in un compito specifico (esonero) che facilita l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('Nessuna') insufficiente per attribuzione di codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che può davvero essere molto d’aiuto e risparmiare tempo, i contro però è il rischio che le persone non la usino come un aiuto bensì come un sostituto",
+      "codes": [
+        "X1",
+        "X7",
+        "S6"
+      ],
+      "reason": "Pro: risparmio tempo (X1); Contro: rischio di sostituzione dell'aiuto con il sostituto (S6) e uso non critico (X7)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Elaborare interamente testi o tesine",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Pratica non raccomandata: elaborazione di testi/tesine (ghostwriting/plagio e ambiti off-limits)."
+    }
+  ]
+}

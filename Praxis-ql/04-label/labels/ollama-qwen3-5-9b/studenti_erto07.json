@@ -1,0 +1,126 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_erto07.md",
+  "source_name": "studenti_erto07.md",
+  "title": "Risposta erto07",
+  "group": "Studenti",
+  "record_code": "erto07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:24.548459+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "P1",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S1",
+    "S2",
+    "S5",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Il record mostra un uso pragmatico dell'IA focalizzato su efficienza e supporto allo studio, con consapevolezza dei rischi legati all'affidabilità delle fonti e alla dipendenza cognitiva.",
+  "code_counts": {
+    "I2": 1,
+    "P1": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S1": 1,
+    "S2": 1,
+    "S5": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt, perché è lo strumento piu usato",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento preferito (ChatGPT) e percezione della sua utilità/uso comune."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "principalmente per avere informazioni immediate su tematiche complesse",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per ottenere informazioni rapide su temi complessi (semplificazione e comprensione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "svolgi questi esercizi di latino",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt ('svolgi questi esercizi di latino') e strategia operativa di produzione (esercizi)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "rende più veloce lo studio",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Miglioramento dell'apprendimento attraverso la velocità di studio."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "ho fatto creare all’IA delle flashcards che mi hanno aiutato molto nello studio",
+      "codes": [
+        "P1",
+        "X2"
+      ],
+      "reason": "Creazione di flashcards (materiaiale didattico) e aiuto nello studio (comprensione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "spesso alcune informazioni non sono corrette",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Difficoltà legate a informazioni non corrette (allucinazioni/affidabilità debole)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro veloce e facilitatorio, contro ti impigrisce",
+      "codes": [
+        "X1",
+        "S1"
+      ],
+      "reason": "Pro: velocità; Contro: rischio di pigrizia o dipendenza (impigrisce)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "copiare i compiti, perché non impari nulla",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Pratica non raccomandata: copiare i compiti (ghostwriting/plagio e ambito off-limits)."
+    }
+  ]
+}

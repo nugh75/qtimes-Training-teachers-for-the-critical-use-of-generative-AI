@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_vani22.md",
+  "source_name": "insegnanti_attuali_vani22.md",
+  "title": "Risposta vani22",
+  "group": "Insegnanti in servizio",
+  "record_code": "vani22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:44.961962+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "R3",
+    "S4",
+    "S7",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di docente scettico che percepisce l'IA come strumento inadatto al contesto scolastico formale, privilegiando la relazione umana e la profondità del pensiero critico.",
+  "code_counts": {
+    "N1a": 1,
+    "R3": 2,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Al momento non lo ritengo utile",
+      "codes": [
+        "N1a",
+        "R3"
+      ],
+      "reason": "Risposta breve (N1a) che evidenzia il gap tra uso personale e didattico (R3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non è un dispositivo che si utilizza a scuola",
+      "codes": [
+        "R3",
+        "S7"
+      ],
+      "reason": "Motivazione basata sul gap uso personale/didattico (R3) e sull'ambito off-limits della scuola (S7)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Garantisce servizi rapidi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Cita il beneficio di rapidità e semplificazione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Le risposte così immediate non consentono approfondimenti e giudizio critico",
+      "codes": [
+        "S4",
+        "X7"
+      ],
+      "reason": "Evidenzia l'erosione del pensiero critico (S4) e la necessità di controllo umano (X7)."
+    }
+  ]
+}

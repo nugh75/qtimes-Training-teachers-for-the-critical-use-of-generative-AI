@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ello04.md",
+  "source_name": "insegnanti_attuali_ello04.md",
+  "title": "Risposta Ello04",
+  "group": "Insegnanti in servizio",
+  "record_code": "Ello04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:57.944970+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Insegnante con bassa familiarità tecnica (N1a) che percepisce rischi di sicurezza e etici (I2, S4, S7).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 2,
+    "S4": 1,
+    "S7": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non lo conosco abbastanza bene",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non la conosco abbastanza bene",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "È sicuramente un mezzo di ricerca più veloce, ma forse non è sempre sicura.",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: velocizzazione della ricerca (X2); Contro: insicurezza/sicurezza (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "I ragazzi lo usano per non studiare o per copiare.",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Uso per copiare (erosione pensiero critico S4) e uso in ambiti off-limits come valutazione/copia S7."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tano30.md",
+  "source_name": "insegnanti_attuali_tano30.md",
+  "title": "Risposta tano30",
+  "group": "Insegnanti in servizio",
+  "record_code": "tano30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:07.923764+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A3",
+    "N1a",
+    "S3",
+    "S7",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Profilo di docente con vincoli infrastrutturali (mancanza di mezzi) e consapevolezza dei limiti etici dell'IA.",
+  "code_counts": {
+    "A3": 2,
+    "N1a": 2,
+    "S3": 1,
+    "S7": 1,
+    "X3": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho i mezzi",
+      "codes": [
+        "A3",
+        "N1a"
+      ],
+      "reason": "Mancanza di dispositivi/connessione (A3) e risposta troppo breve (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè non ho i mezzi per utilizzarla",
+      "codes": [
+        "A3",
+        "N1a"
+      ],
+      "reason": "Mancanza di risorse tecnologiche (A3) e risposta breve (N1a)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un vantaggio è che consentirebbe di creare percorsi di apprendimento ad hoc, mentre uno svantaggio è che  inciderebbe negativamente sulla creatività",
+      "codes": [
+        "X3",
+        "S3"
+      ],
+      "reason": "Vantaggio personalizzazione (X3) e svantaggio perdita di creatività (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non dovrebbe essere mai utilizzata per tutte le attività che richiedono ragionamento, senso critico e creatività",
+      "codes": [
+        "S7",
+        "X7"
+      ],
+      "reason": "Ambiti off-limits come ragionamento e creatività (S7) e beneficio subordinato al controllo umano (X7)."
+    }
+  ]
+}

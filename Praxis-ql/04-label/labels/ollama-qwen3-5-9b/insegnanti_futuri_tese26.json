@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_tese26.md",
+  "source_name": "insegnanti_futuri_tese26.md",
+  "title": "Risposta Tese26",
+  "group": "Insegnanti pre-service",
+  "record_code": "Tese26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:00:29.657437+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R2",
+    "R5",
+    "S3",
+    "S7",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Insegnanti pre-service con forte resistenza all'IA, motivata da priorità alla personalizzazione, autonomia e preoccupazione per l'omologazione e la qualità pedagogica.",
+  "code_counts": {
+    "R2": 2,
+    "R5": 1,
+    "S3": 2,
+    "S7": 1,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non lo ritengo di aiuto alle mie competenze e conoscenze. Preferisco elaborare personalmente le mie attività ed il mio lavoro",
+      "codes": [
+        "R2",
+        "X3"
+      ],
+      "reason": "Rifiuto basato sulla percezione che l'IA non aiuti le competenze (R2) e preferenza per l'elaborazione personale che garantisce personalizzazione (X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non lo utilizzo perché non ritengo che possa essermi di aiuto oppure non lo utilizzo perché non conoscendo affatto questo mezzo non ne conosco le eventuali utilità e funzionalità.",
+      "codes": [
+        "R2",
+        "R5"
+      ],
+      "reason": "Non uso motivato dalla percezione di inutilità (R2) e da mancanza di conoscenza delle funzionalità (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocità; contro: omologazione",
+      "codes": [
+        "X6",
+        "S3"
+      ],
+      "reason": "Pro: velocità (X6); Contro: omologazione (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Utilizzare l’AI per creare compiti, esercizi o attività da fornire ai ragazzi perché non sarebbero personalizzati per il singolo o per il gruppo classe e perché secondo me si fornirebbe un pessimo esempio.",
+      "codes": [
+        "S3",
+        "S7"
+      ],
+      "reason": "Pratica non raccomandata: creazione di compiti non personalizzati (S3) e fornitura di un pessimo esempio educativo (S7)."
+    }
+  ]
+}

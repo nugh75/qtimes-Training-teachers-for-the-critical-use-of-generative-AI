@@ -1,0 +1,78 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_anco24.md",
+  "source_name": "insegnanti_attuali_anco24.md",
+  "title": "Risposta anco24",
+  "group": "Insegnanti in servizio",
+  "record_code": "anco24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:39:05.007986+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R1",
+    "R2",
+    "S1",
+    "S2",
+    "S4",
+    "S6"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'IA basata su timori di sostituzione, erosione delle competenze cognitive e sfiducia nella capacità dell'IA di supportare l'apprendimento autonomo.",
+  "code_counts": {
+    "N1b": 1,
+    "R1": 2,
+    "R2": 1,
+    "S1": 1,
+    "S2": 1,
+    "S4": 3,
+    "S6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ne ho ancora timore",
+      "codes": [
+        "N1b",
+        "R1"
+      ],
+      "reason": "Risposta fuori tema (non spiega il 'perché' richiesto) e indica una percezione di insicurezza/competenza limitata."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Forse non la conosco abbastanza, ne ho ancora timore. Timore che possa non essere utilizzata in modo evolutivo e che possa essere vista come lo strumento che risolve i problemi al posto nostro, rischiando di far utilizzare meno la testa a tutti, educatori e studenti. So che può esserci d'aiuto ma non mi sento a mio agio nell'aiutare l'AI nello sviluppo e nella diffusione, anche per timore che possa sostituirci e non solo aiutarci.",
+      "codes": [
+        "R1",
+        "R2",
+        "S4",
+        "S6"
+      ],
+      "reason": "Timore di sostituzione (S6), erosione pensiero critico (S4), sfiducia tecnica/epistemica (R2) e percezione di non competenza (R1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti lascerebbero fare all'AI, perdendo la già poca motivazione",
+      "codes": [
+        "S4",
+        "S1"
+      ],
+      "reason": "Perdita di capacità di ragionare (S4) e delega cognitiva eccessiva (S1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produrre testi al posto degli studenti potrebbe diminuire la loro già scarsa capacità di inventare, creare, ragionare, riflettere. Lo stesso vale per la traduzione.",
+      "codes": [
+        "S4",
+        "S2"
+      ],
+      "reason": "Rischio di plagio/ghostwriting (S2) e erosione del pensiero critico (S4)."
+    }
+  ]
+}

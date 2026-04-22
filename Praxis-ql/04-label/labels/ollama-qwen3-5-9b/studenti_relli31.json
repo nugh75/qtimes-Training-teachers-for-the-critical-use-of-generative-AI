@@ -1,0 +1,101 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_relli31.md",
+  "source_name": "studenti_relli31.md",
+  "title": "Risposta Relli31",
+  "group": "Studenti",
+  "record_code": "Relli31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:42.722109+00:00",
+  "record_dimensions": [
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "S5",
+    "X1"
+  ],
+  "record_note": "Profilo di studente che percepisce l'IA come strumento di efficienza temporale ma ne contesta l'efficacia cognitiva profonda, temendo l'erosione del pensiero critico e l'atrofia delle capacità di apprendimento autonomo.",
+  "code_counts": {
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "S4": 3,
+    "S5": 2,
+    "X1": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché è più approfondito",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGpt) e indicazione del beneficio di risparmio tempo."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "I riassunti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Citazione esplicita di 'riassunti' come metodo di utilizzo."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Riassunto o richiesta",
+      "codes": [
+        "P5",
+        "P7"
+      ],
+      "reason": "Esempi di output ('Riassunto') e descrizione di un input generico ('richiesta') come prompt."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Non mi aiuta perché rimango ignorante",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Affermazione di mancata utilità legata all'ignoranza (erosione pensiero critico) e all'incapacità di apprendere (imprecisione)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Non l'ha miglioratl",
+      "codes": [
+        "S5"
+      ],
+      "reason": "Risposta negativa sull'efficacia dell'IA nel migliorare l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Riduce i tempi, non impari",
+      "codes": [
+        "X1",
+        "S4"
+      ],
+      "reason": "Pro: riduzione tempi; Contro: non impari (erosione pensiero critico)."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Nessuna perché atrofizzano il cervello umano",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Rifiuto dell'uso dell'IA motivato dalla paura dell'atrofia cognitiva."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_eres08.md",
+  "source_name": "insegnanti_futuri_eres08.md",
+  "title": "Risposta eres08",
+  "group": "Insegnanti pre-service",
+  "record_code": "eres08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:59.540698+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R5",
+    "S5",
+    "S7",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo misto: resistenza ideologica alla tecnologia da parte di alcuni docenti pre-service, contrapposta a una visione pragmatica dei benefici dell'IA.",
+  "code_counts": {
+    "I2": 2,
+    "R5": 2,
+    "S5": 1,
+    "S7": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non amo la tecnologia, ancien régime",
+      "codes": [
+        "R5",
+        "I2"
+      ],
+      "reason": "Rifiuto consapevole (R5) basato su sfiducia/avversione alla tecnologia (I2)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "La tecnologia dovrebbe velocizzare e aiutare, ma spesso è aggiunta di cavilli e lungaggini e perdita di indipendenza",
+      "codes": [
+        "R5",
+        "I2"
+      ],
+      "reason": "Non-uso motivato da percezione di perdita di indipendenza e criticità degli strumenti (R5, I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Progettazione più rapida e interdisciplinare",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Benefici percepiti: velocizzazione e interdisciplinarità (X2) e arricchimento (X6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella ricerca di fonti affidabili e ufficiali. E nella produzione artistica... l'AI pesca senza rispettare i lavori altrui (permessi, copyright...)",
+      "codes": [
+        "S5",
+        "S7"
+      ],
+      "reason": "Rischio di informazioni false/plagio (S5) e ambiti off-limits come produzione artistica (S7)."
+    }
+  ]
+}

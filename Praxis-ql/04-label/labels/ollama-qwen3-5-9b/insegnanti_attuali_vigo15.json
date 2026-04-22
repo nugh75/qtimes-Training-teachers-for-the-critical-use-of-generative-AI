@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_vigo15.md",
+  "source_name": "insegnanti_attuali_vigo15.md",
+  "title": "Risposta vigo15",
+  "group": "Insegnanti in servizio",
+  "record_code": "vigo15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:54.826263+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R1",
+    "S1",
+    "X3"
+  ],
+  "record_note": "Il record mostra un profilo di resistenza all'IA basato sulla percezione di rischi per l'autonomia dello studente (S1) e sulla mancanza di familiarità con lo strumento (R1).",
+  "code_counts": {
+    "R1": 2,
+    "S1": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "sfida a fare le cose da sola",
+      "codes": [
+        "S1"
+      ],
+      "reason": "La risposta 'sfida a fare le cose da sola' indica una preoccupazione per la delega cognitiva eccessiva o la perdita di autonomia."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "La conosco troppo poco",
+      "codes": [
+        "R1"
+      ],
+      "reason": "La risposta 'La conosco troppo poco' evidenzia una percezione di mancanza di competenza pratica o teorica nell'uso dello strumento."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: curiosità di vedere all'opera sistemi artificiali Contro: possibilità di disabitudine degli studenti al lavoro autonomo, senza AI",
+      "codes": [
+        "X3",
+        "S1"
+      ],
+      "reason": "I pro menzionano la curiosità (X6), ma i contro si concentrano sulla 'disabitudine al lavoro autonomo', che corrisponde alla delega cognitiva eccessiva (S1) e alla personalizzazione dell'attenzione (X3) come valore da preservare."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non le conosco abbastanza",
+      "codes": [
+        "R1"
+      ],
+      "reason": "La risposta 'Non le conosco abbastanza' riflette una mancanza di competenza pratica o teorica riguardo alle pratiche di IA."
+    }
+  ]
+}

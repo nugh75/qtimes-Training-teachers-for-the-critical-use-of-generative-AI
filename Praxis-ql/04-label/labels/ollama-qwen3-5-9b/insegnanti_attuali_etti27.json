@@ -1,0 +1,122 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_etti27.md",
+  "source_name": "insegnanti_attuali_etti27.md",
+  "title": "Risposta etti27",
+  "group": "Insegnanti in servizio",
+  "record_code": "etti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:44:48.347418+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I3",
+    "N1c",
+    "P2",
+    "P6",
+    "P7",
+    "R4",
+    "S1",
+    "S2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Insegnante con uso strumentale dell'IA (DeepL), consapevole delle tecniche di prompting, ma che percepisce rischi di dipendenza cognitiva e resistenza degli studenti.",
+  "code_counts": {
+    "I2": 1,
+    "I3": 1,
+    "N1c": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S1": 1,
+    "S2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "DeepL",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menzione esplicita di uno strumento specifico (DeepL)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo di modificare es. x per gruppo y",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Descrizione di un'azione di adattamento del contenuto per un gruppo specifico di studenti."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "idem",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica ('idem') che non fornisce informazioni aggiuntive."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "one shot prompt",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Menzione di una tecnica di prompting specifica ('one shot prompt') e dimostrazione di competenza."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "non ha migliorato, ma ha migliorato la loro capacitÀ di usare LLM",
+      "codes": [
+        "X5",
+        "I2"
+      ],
+      "reason": "Miglioramento dell'autonomia/uso (X5) ma con esito negativo sulla comprensione del contenuto (I2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "qualche studente ha paura di usare GPT",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Percezione di resistenza o sfiducia da parte degli studenti verso lo strumento."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "diventiamo pigri",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Percezione di pigrizia o delega cognitiva eccessiva come effetto dell'uso dell'IA."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "copiaincollare",
+      "codes": [
+        "S2"
+      ],
+      "reason": "Menzione di una pratica (copiaincollare) associata al plagio o ghostwriting."
+    }
+  ]
+}

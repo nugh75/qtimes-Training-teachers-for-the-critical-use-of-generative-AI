@@ -1,0 +1,53 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_tini08.md",
+  "source_name": "insegnanti_attuali_tini08.md",
+  "title": "Risposta tini08",
+  "group": "Insegnanti in servizio",
+  "record_code": "tini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:43:10.515027+00:00",
+  "record_dimensions": [
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S3",
+    "S4"
+  ],
+  "record_note": "Profilo di insegnante scettico o in fase di adattamento, che percepisce l'IA come strumento che riduce la personalizzazione e la relazione umana, con difficoltà nel riconoscere benefici o limiti specifici oltre alla mancanza di esperienza diretta.",
+  "code_counts": {
+    "N1b": 1,
+    "S3": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Finora non l'ho mai fatto, avendo le prime classi di scuola primaria non l'ho ritenuta necessaria",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'insegnante cita un contesto specifico (prime classi scuola primaria) non pertinente alla domanda generale sull'uso dell'IA nella didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Che si rischia di essere poco personale e molto artefatta",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "L'insegnante evidenzia rischi di omologazione (poco personale, artefatto) e perdita di autenticità relazionale."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non saprei",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

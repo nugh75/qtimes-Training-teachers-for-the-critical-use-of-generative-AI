@@ -1,0 +1,76 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rara56.md",
+  "source_name": "insegnanti_attuali_rara56.md",
+  "title": "Risposta Rara56",
+  "group": "Insegnanti in servizio",
+  "record_code": "Rara56",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:08.379377+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "R2",
+    "S3",
+    "S4",
+    "S7",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante scettico verso l'uso dell'IA in ambito didattico, focalizzato sulla tutela delle abilità cognitive, della creatività e della dimensione affettiva degli studenti.",
+  "code_counts": {
+    "N1a": 1,
+    "R2": 1,
+    "S3": 1,
+    "S4": 3,
+    "S7": 2,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Fino ad ora non ne ho avuto la necessità",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Fino ad ora non ne ho avuto la necessità sia nella vita quotidiana sia come insegnante. Sicuramente credo sia valida se saputa utilizzare in modo adeguato. In campo didattico resto ancora un po' scettica perché gli studenti tendono ad utilizzare l'IA per  svolgere compiti ed esercizi e questo non li aiuta a sviluppare le loro abilità cognitive e di apprendimento.",
+      "codes": [
+        "R2",
+        "S4",
+        "S7"
+      ],
+      "reason": "Scetticismo sul funzionamento dell'IA (R2), preoccupazione per l'erosione delle abilità cognitive (S4) e rifiuto di ambiti off-limits come lo sviluppo di abilità (S7)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: valido supporto alla ricerca e all' indagine e ottima se utilizzata come sostegno alla realizzazione di strumenti didattici.  CONTRO:se utilizzata in modo improprio si corre il  rischio di una limitazione delle abilità attentive, motivazionali  e di apprendimento. Inoltre l' applicazione dell' IA nella produzione di testi priva il soggetto della possibilità di esprimere sé stesso e la propria dimensione affettiva che è del tutto personale e frutto del vissuto di ognuno di noi e che deve emergere nelle produzioni di ognuno.",
+      "codes": [
+        "X2",
+        "S3",
+        "S4"
+      ],
+      "reason": "Riconoscimento dei benefici di comprensione (X2), ma preoccupazione per l'appiattimento della dimensione affettiva (S3) e l'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produzione di testi Svolgimento di esercizi in matematica ad esempio  Traduzioni  Ma anche nello svolgimento di un compito in cui si richiede creatività pensiamo alle opere artistiche o ai lavori di gruppo progetti vari in cui i ragazzi si impegnano nel tentare di tirare fuori le loro personali idee e questo stimola creatività.",
+      "codes": [
+        "S7",
+        "S4"
+      ],
+      "reason": "Identificazione di ambiti off-limits come creatività e pensiero critico (S7) e rischio di erosione del pensiero critico (S4)."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_cato28.md",
+  "source_name": "insegnanti_attuali_cato28.md",
+  "title": "Risposta cato28",
+  "group": "Insegnanti in servizio",
+  "record_code": "cato28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:41:15.744937+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "S3",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente compensativo e semplificato dell'IA, con evidenti difficoltà di risposta (molti item vuoti) e una percezione mista di benefici (efficienza) e rischi (creatività).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 5,
+    "S3": 1,
+    "X1": 1,
+    "X2": 2,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per semplificare alcune operazioni o per divertimento",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La risposta cita esplicitamente 'semplificare alcune operazioni', allineandosi al codice X2 (Semplificazione e comprensione)."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Le tecologie digitali in generale, perché permettono molte applicazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La risposta menziona che gli strumenti 'permettono molte applicazioni', indicando un beneficio di semplificazione e versatilità (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Favorendo prodotti accessibili a tutti",
+      "codes": [
+        "X4"
+      ],
+      "reason": "La risposta 'Favorendo prodotti accessibili a tutti' si riferisce direttamente all'inclusione e all'accesso (X4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è un punto, indicando che è troppo breve o non informativa (N1a)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Genera",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta 'Genera' è troppo breve per essere classificata (N1a)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è un punto, indicando che è troppo breve o non informativa (N1a)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è un punto, indicando che è troppo breve o non informativa (N1a)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è un punto, indicando che è troppo breve o non informativa (N1a)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "È uno strumento di grande supporto, ma a volte si abusa di esso.",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "La risposta menziona 'grande supporto' (X1 - Efficienza) e 'si abusa di esso' (I2 - Sfiducia tecnica/limiti)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Produrre idee, perché si rischierebbe di impigrire la creatività umana.",
+      "codes": [
+        "S3"
+      ],
+      "reason": "La risposta cita il rischio di 'impigrire la creatività umana', che corrisponde all'appiattimento e perdita di creatività (S3)."
+    }
+  ]
+}

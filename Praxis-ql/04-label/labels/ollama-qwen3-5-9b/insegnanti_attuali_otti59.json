@@ -1,0 +1,54 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_otti59.md",
+  "source_name": "insegnanti_attuali_otti59.md",
+  "title": "Risposta Otti59",
+  "group": "Insegnanti in servizio",
+  "record_code": "Otti59",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:11.111890+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1c",
+    "R5"
+  ],
+  "record_note": "Il record mostra risposte frammentate: una motivazione emotiva (paura), una risposta non informativa e una fuori tema.",
+  "code_counts": {
+    "I2": 1,
+    "N1c": 1,
+    "R5": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Timore",
+      "codes": [
+        "R5",
+        "I2"
+      ],
+      "reason": "Il 'Timore' indica una resistenza consapevole (R5) e una sfiducia tecnica/percepita (I2) verso l'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Molto aggiornata",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "La risposta 'Molto aggiornata' è una tautologia/meta-definizione che non fornisce contenuti specifici per il framework."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Attività ludiche",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

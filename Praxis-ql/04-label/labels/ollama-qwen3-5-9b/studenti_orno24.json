@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_orno24.md",
+  "source_name": "studenti_orno24.md",
+  "title": "Risposta orno24",
+  "group": "Studenti",
+  "record_code": "orno24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:37.499191+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente come supporto per la comprensione e il risparmio di tempo, con una consapevolezza dei rischi legati alla dipendenza cognitiva e alla sostituzione del problem solving autonomo.",
+  "code_counts": {
+    "N1a": 2,
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatGpt perchè non ne conosco altri",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (chatGpt) e dichiarazione di non conoscenza di altri (competenza percepita limitata)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "lo uso per capire meglio concetti complessi oppure per riassumere concetti troppo prolissi",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Uso dell'IA per personalizzare la comprensione (X2) e per riassumere testi (P2/P5)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"traduci in inglese/italiano\", \"riassumi il seguente testo\", \"spiegami in parole semplici il seguente testo\"",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempi espliciti di prompt (P7) e funzioni descritte come riassumere o tradurre (P5)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "facilita il mio studio risparmiando tempo",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Beneficio esplicito legato al risparmio di tempo."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "non ricordo un esempio specifico",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta non informativa che non permette di attribuire codici specifici."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('nessuna') che non supporta l'attribuzione di codici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "permette di far fronte a difficoltà in maniera più semplice e facile ma a volte questa facilità potrebbe inibire la capacità di problem solving",
+      "codes": [
+        "X1",
+        "X7",
+        "S4"
+      ],
+      "reason": "Pro (X1: facilità), Contro (X7: beneficio subordinato a controllo/problem solving, S4: rischio erosione pensiero critico)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "svolgere completamente alcuni compiti  perchè dovrebbe essere uno strumento di supporto secondo me",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Definizione di un ambito off-limits (svolgimento completo dei compiti) basato su un principio pedagogico."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_assa25.md",
+  "source_name": "studenti_assa25.md",
+  "title": "Risposta assa25",
+  "group": "Studenti",
+  "record_code": "assa25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:19.282666+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P5",
+    "P6",
+    "R1",
+    "S1",
+    "S2",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Il record mostra un uso strumentale dell'IA focalizzato su efficienza e produzione di contenuti (riassunti), con evidenti preoccupazioni riguardo alla dipendenza dagli schermi, al plagio e alla perdita di autonomia cognitiva.",
+  "code_counts": {
+    "P5": 1,
+    "P6": 2,
+    "R1": 1,
+    "S1": 1,
+    "S2": 2,
+    "S7": 1,
+    "X1": 2,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "computer",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Risposta identifica 'computer' come strumento utilizzato."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "riassumere",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "L'azione 'riassumere' è una strategia operativa di produzione (P5) che porta a semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chatgpt",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di 'chatgpt' come strumento (P6) e indicazione di competenza nell'uso (R1)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "è il metodo più veloce ed efficiente",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "L'IA è descritta come 'veloce ed efficiente' (X1) e metodo per migliorare l'apprendimento (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi permette di avere moltissime informazioni",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA permette di accedere a 'moltissime informazioni', facilitando la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "troppe ore davanti gli schermi",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Il rischio di 'troppe ore davanti agli schermi' indica una delega cognitiva eccessiva o dipendenza (S1)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: efficienza  contro: è facile copiare",
+      "codes": [
+        "X1",
+        "S2"
+      ],
+      "reason": "Pro: efficienza (X1); Contro: facilità a copiare (S2)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "scrivere intere tesine o temi",
+      "codes": [
+        "S2",
+        "S7"
+      ],
+      "reason": "Scrivere intere tesine è un esempio di ghostwriting (S2) e rientra negli ambiti off-limits (S7)."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_mata06.md",
+  "source_name": "studenti_mata06.md",
+  "title": "Risposta mata06",
+  "group": "Studenti",
+  "record_code": "mata06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:29.172007+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "I2",
+    "N1c",
+    "P2",
+    "P6",
+    "R1",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente consapevole dei rischi (passività, inaccuratezza) che usa l'IA per sintesi e velocità, ma con difficoltà di ricerca mirata.",
+  "code_counts": {
+    "A2": 1,
+    "I2": 2,
+    "N1c": 1,
+    "P2": 1,
+    "P6": 1,
+    "R1": 1,
+    "S4": 2,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché è la mia esaustiva",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Identifica ChatGPT come strumento (P6) e ne esprime la preferenza/competenza d'uso (R1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Richiedo cose ben precise",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Descrive la richiesta di precisione per adattare lo studio (P2) e l'attenzione al singolo (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sapresti spiegarmi questo concetto",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "La risposta è una meta-definizione (chiedere una spiegazione del concetto stesso) e non fornisce dati sul prompting."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Condensa in modo preciso informazioni certificate e a me utili",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA condensa informazioni (X2) e supporta l'organizzazione/apprendimento (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha aiutato a essere più chiara nelle spiegazioni dei concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite chiarificazione e comprensione rapida (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte non trovavo subito l’argomento che mi interessava",
+      "codes": [
+        "A2"
+      ],
+      "reason": "Difficoltà nel trovare argomenti specifici indica supporto insufficiente o inadeguato (A2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la velocità con cui l’AI ti fa ricapitare le informazioni che ti servono mentre i contro sono la passività e poca accuratezza a volte che i testi presentano.",
+      "codes": [
+        "X1",
+        "X2",
+        "I2",
+        "S4"
+      ],
+      "reason": "Pro: velocità (X1), comprensione (X2). Contro: passività (S4), inaccuratezza (I2/S5)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La presa di informazioni troppo generale",
+      "codes": [
+        "S4",
+        "I2"
+      ],
+      "reason": "Informazioni troppo generali portano a erosione del pensiero critico (S4) e sfiducia per imprecisione (I2)."
+    }
+  ]
+}

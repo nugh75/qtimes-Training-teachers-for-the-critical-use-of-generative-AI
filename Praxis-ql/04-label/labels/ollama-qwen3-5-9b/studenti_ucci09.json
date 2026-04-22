@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ucci09.md",
+  "source_name": "studenti_ucci09.md",
+  "title": "Risposta Ucci09",
+  "group": "Studenti",
+  "record_code": "Ucci09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:14:32.024096+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "X1",
+    "X3"
+  ],
+  "record_note": "Profilo di studente che preferisce l'autonomia nello studio, percepisce limiti tecnici dell'IA e non ha esperienza diretta di pratiche negative oltre agli errori generici.",
+  "code_counts": {
+    "I2": 2,
+    "N1a": 2,
+    "X1": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perché per ora non ne ho bisogno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "Perché preferisco crearmi da sola i miei riassunti o altro, molte volte l’intelligenza artificiale sbaglia",
+      "codes": [
+        "X3",
+        "I2"
+      ],
+      "reason": "Preferenza per l'autoproduzione (X3) e citazione di errori dell'IA (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il pro é che ti permette di risparmiare molto tempo perché ci pensa lei al posto tuo, la maggior parte del tempo; il contro è che purtroppo molte volte sbaglia e quindi ti ritrovi a dover sistemare una parte se non tutto",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Risparmio di tempo come pro (X1) e sbaglie dell'IA come contro (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so sinceramente",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta non informativa che non permette di assegnare codici pertinenti."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rone11.md",
+  "source_name": "studenti_rone11.md",
+  "title": "Risposta rone11",
+  "group": "Studenti",
+  "record_code": "rone11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:13:00.373667+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R1",
+    "R5",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente con forte resistenza all'uso dell'IA basato su insicurezza tecnica e pedagogica, percependo rischi di perdita di autonomia e affidabilità.",
+  "code_counts": {
+    "I2": 2,
+    "R1": 2,
+    "R5": 2,
+    "S4": 1,
+    "S5": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ho le competenze, paura ci sfugga di mano, “scavalchi” le possibilità umane e le risorse preziose che abbiamo",
+      "codes": [
+        "R1",
+        "R5",
+        "I2"
+      ],
+      "reason": "Mancanza di competenze (R1), rifiuto per paura di perdere controllo (R5), percezione di errori/allucinazioni (I2)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "non ho le capacità per potermi affidare e gesitrla",
+      "codes": [
+        "R1",
+        "R5",
+        "I2"
+      ],
+      "reason": "Mancanza di capacità (R1), rifiuto motivato da insicurezza (R5), paura di affidarsi (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "velocità ma sovraccarico informativo",
+      "codes": [
+        "X1",
+        "X2",
+        "S5"
+      ],
+      "reason": "Vantaggio velocità (X1), comprensione rapida (X2), rischio sovraccarico/informazioni false (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fidarsi ciecamente, delegare tutto il lavoro",
+      "codes": [
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "reason": "Rischio erosione pensiero critico (S4), delega eccessiva (S6), ambiti off-limits delega totale (S7)."
+    }
+  ]
+}

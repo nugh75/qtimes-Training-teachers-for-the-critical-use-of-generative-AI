@@ -1,0 +1,125 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_more08.md",
+  "source_name": "studenti_more08.md",
+  "title": "Risposta more08",
+  "group": "Studenti",
+  "record_code": "more08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:58.869191+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "P4",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S2",
+    "S3",
+    "X1",
+    "X2",
+    "X5"
+  ],
+  "record_note": "Profilo di studente consapevole che usa l'IA per simulazioni e verifica, ma ne rifiuta l'uso per compiti creativi o valutativi, segnalando anche limiti tecnici e necessità di controllo critico.",
+  "code_counts": {
+    "I1": 1,
+    "I2": 1,
+    "P4": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S2": 1,
+    "S3": 1,
+    "X1": 1,
+    "X2": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento (ChatGPT) e percezione della competenza d'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "chiedo sempre di pormi domande riguardo all'argomento di studio per simulare un esame",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Uso di simulazione d'esame per personalizzare lo studio e semplificare la verifica."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chiedimi i criteri del DSM-5  per diagnosticare il binge eating disorder",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formularlo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "semplicizza argomenti complessi e così aiuta a memorizzarli meglio",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Semplificazione di argomenti complessi per migliorare la memorizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Certe volte presa dall'ansia temo di invertire determinati concetti, con l'ai verifico se sono nel torto o se veramente ricordo i vari concetti.",
+      "codes": [
+        "X5",
+        "I1"
+      ],
+      "reason": "Uso dell'IA per verificare concetti (autonomia/supporto) con approccio critico e controllo umano."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "certe volte si contraddice o rimane troppo sul generale",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Menzione di errori dell'IA (contraddizioni, generalizzazioni eccessive)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "si ottengono subito le informazioni che si chiedono senza \"perdere tempo\" nel cercare nei vari articoli",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Efficienza e risparmio di tempo nell'ottenere informazioni immediate."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "creare riassunti o chiedere di scrivere tesi o tesine. Questo perché ritengo in primis che debbano essere frutto dello studente in questione, in secondo luogo perché è più probabile cadere nel plagio",
+      "codes": [
+        "S2",
+        "S3"
+      ],
+      "reason": "Rifiuto di deleghe (riassunti, tesi) per evitare plagio e perdita di creatività."
+    }
+  ]
+}

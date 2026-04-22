@@ -1,0 +1,114 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_chio05.md",
+  "source_name": "studenti_chio05.md",
+  "title": "Risposta Chio05",
+  "group": "Studenti",
+  "record_code": "Chio05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:03:18.787199+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "S3",
+    "S7",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di studente che valorizza l'efficienza e la generazione di idee, ma manifesta preoccupazioni per l'affidabilità in ambiti specifici (matematica) e per la perdita di creatività.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 2,
+    "S3": 1,
+    "S7": 1,
+    "X1": 4,
+    "X2": 3,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgbt perché è molto veloce e mi dà idee e scrive cose interessanti",
+      "codes": [
+        "X1",
+        "X2",
+        "X6"
+      ],
+      "reason": "Veloce (X1), dà idee (X2), scrive cose interessanti (X6)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Prendo spunto per testi",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Chatgbt",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve (solo nome strumento) senza dettagli pertinenti."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Mi aiuta a fare le cose in modo più veloce",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Aiuta a fare le cose più veloce (X1)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi fa risparmiare tempo e mi dà molte idee",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Risparmia tempo (X1), dà molte idee (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Alcune volte dà cose sbagliate o non capisce bene",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Dà cose sbagliate o non capisce bene (I2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro ti aiuta a fare veloce e ti dà idee , contro non ti fa sviluppare bene l'immagine",
+      "codes": [
+        "X1",
+        "X2",
+        "S3"
+      ],
+      "reason": "Aiuta a fare veloce (X1), dà idee (X2), non sviluppa bene l'immagine (S3)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Fare cose matematiche perché non le fa bene",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Non fare cose matematiche perché non le fa bene (S7)."
+    }
+  ]
+}

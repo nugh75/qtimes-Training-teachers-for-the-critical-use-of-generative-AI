@@ -1,0 +1,58 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_bone16.md",
+  "source_name": "insegnanti_futuri_bone16.md",
+  "title": "Risposta Bone16",
+  "group": "Insegnanti pre-service",
+  "record_code": "Bone16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:16.258577+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S5",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Il record mostra un docente pre-service che distingue tra uso personale e didattico, evidenziando barriere legate alla motivazione e alla natura della pratica (ricerca compilativa).",
+  "code_counts": {
+    "N1b": 1,
+    "S5": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Perché ancora non insegno' non risponde alla domanda sull'uso dell'IA nella didattica, ma si riferisce allo stato professionale del docente (pre-service), rendendo il contenuto fuori tema rispetto al framework PRAXIS."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utilizzo superficiale da parte dei ragazzi e mancanza di motivazione e stimoli degli insegnanti nella preparazione delle lezioni",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "La risposta cita la mancanza di motivazione e stimoli come ostacolo (X2: semplificazione/comprendere meglio il contesto) e l'uso superficiale come pratica attuale, toccando il tema dell'innovazione e dell'arricchimento (X6) o della mancanza di esso."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Fare ricerche compilative",
+      "codes": [
+        "S5"
+      ],
+      "reason": "La pratica 'Fare ricerche compilative' è identificata come non raccomandata a causa del rischio di imprecisione o affidabilità debole (S5) derivante dall'uso meccanico dell'IA per sintetizzare informazioni senza verifica critica."
+    }
+  ]
+}

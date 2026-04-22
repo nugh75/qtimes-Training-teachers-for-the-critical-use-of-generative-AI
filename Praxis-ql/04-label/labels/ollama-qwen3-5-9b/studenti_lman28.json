@@ -1,0 +1,124 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_lman28.md",
+  "source_name": "studenti_lman28.md",
+  "title": "Risposta Lman28",
+  "group": "Studenti",
+  "record_code": "Lman28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:46:42.293462+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P6",
+    "P7",
+    "R4",
+    "S3",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA come supporto efficiente ma consapevole dei rischi di semplificazione e della necessità di mantenere l'autorialità negli elaborati finali.",
+  "code_counts": {
+    "N1a": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S3": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 2,
+    "X3": 1,
+    "X5": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT, è un aiuto e un sostegno solido.",
+      "codes": [
+        "P6",
+        "X5"
+      ],
+      "reason": "Identificazione dello strumento (ChatGPT) e percezione di supporto solido/autonomia."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Lo potrei identificare come un “miglioratore” delle mie performance.",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Percezione dell'IA come strumento di miglioramento delle performance individuali."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“ Puoi spiegarmi cosa intende dire con questa frase?” “Rielabora in modo semplice questo concetto” “aiutami a capire di cosa si tratta” .",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Elencazione esplicita di prompt specifici e dimostrazione di competenza nel formularli."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "È un supporto davvero efficiente e dettagliato.",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Descrizione dell'IA come supporto efficiente e dettagliato per l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Riesco a produrre testi in modo più specifico e con termini diversi dai soliti che conosciamo. Riesco anche ad avere una struttura di testo migliore per eventuali compiti assegnati.",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento della specificità dei testi e della struttura (comprensione/organizzazione)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('Nessuna') insufficiente per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: aiuto sostanziale  contro: forse c’è una semplificazione del lavoro, l’impegno è fortemente ridotto.",
+      "codes": [
+        "X1",
+        "X7",
+        "S3"
+      ],
+      "reason": "Pro (efficienza), contro (semplificazione del lavoro/riduzione impegno)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Scrivere tesi, creare da 0 elaborati da consegnare.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (scrittura di tesi/elaborati originali)."
+    }
+  ]
+}

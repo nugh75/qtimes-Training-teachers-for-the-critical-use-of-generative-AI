@@ -1,0 +1,137 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_sani19.md",
+  "source_name": "insegnanti_attuali_sani19.md",
+  "title": "Risposta Sani19",
+  "group": "Insegnanti in servizio",
+  "record_code": "Sani19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:52.216011+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "I2",
+    "N1a",
+    "P5",
+    "P7",
+    "R4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X6"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per la produzione di materiali visivi (disegni) e una percezione mista tra benefici di efficienza e rischi di sostituzione o imprecisioni fattuali.",
+  "code_counts": {
+    "A2": 1,
+    "I2": 1,
+    "N1a": 1,
+    "P5": 2,
+    "P7": 1,
+    "R4": 1,
+    "S6": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non ho preferenze",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Non ho preferenze' è troppo breve per attribuire codici specifici."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Giochi didattici locandine disegni estrapolazione di immagini sui testi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Descrizione di attività di produzione (disegni, estrapolazione) e semplificazione della comprensione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Disegni tratti da testi filastrocche e altro",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Produzione di materiali (disegni) e riferimento a potenzialità individuali."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Fammi un disegno semplice in bianco e nero di un riccio in letargo",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Prompt visibile e dimostrazione di competenza nel formulare istruzioni."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Con disegni più esplicativi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite chiarezza esplicativa."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Nell immediatezza",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento immediato della comprensione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Domande molto semplici difficoltà nelle date",
+      "codes": [
+        "I2",
+        "A2"
+      ],
+      "reason": "Difficoltà con date (allucinazioni/precisione) e supporto insufficiente nella gestione."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro migliora la didattica  Contro se utilizzata dagli studenti come sostituto",
+      "codes": [
+        "X1",
+        "X6",
+        "S6"
+      ],
+      "reason": "Pro: efficienza e innovazione; Contro: rischio di sostituzione del ruolo docente."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nei testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Riferimento a ambiti off-limits (testi) dove l'uso non è raccomandato."
+    }
+  ]
+}

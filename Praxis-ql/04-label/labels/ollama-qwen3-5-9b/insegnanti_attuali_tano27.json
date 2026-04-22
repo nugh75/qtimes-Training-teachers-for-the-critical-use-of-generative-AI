@@ -1,0 +1,89 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tano27.md",
+  "source_name": "insegnanti_attuali_tano27.md",
+  "title": "Risposta tano27",
+  "group": "Insegnanti in servizio",
+  "record_code": "tano27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:05.931198+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "R4",
+    "R5",
+    "S1",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'adozione dell'IA, motivata da preoccupazioni epistemologiche, perdita di autonomia e percezione di inadeguatezza tecnica.",
+  "code_counts": {
+    "I1": 1,
+    "R4": 2,
+    "R5": 1,
+    "S1": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 3,
+    "X7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco costruire le mie lezioni secondo le mie modalità e capacità",
+      "codes": [
+        "R4",
+        "S1",
+        "X3"
+      ],
+      "reason": "Rifiuto basato sulla percezione di non avere le competenze (R4), delega negativa del lavoro creativo (S1) e preferenza per la personalizzazione (X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ne ho ancora una conoscenza approfondita, forse in futuro la userò di più, ma sempre in modo molto personale.",
+      "codes": [
+        "R4",
+        "R5",
+        "X3"
+      ],
+      "reason": "Mancanza di competenza tecnica (R4), non uso motivato da insicurezza/attesa (R5) e approccio personalizzato (X3)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere molto utile per alcuni aspetti, soprattutto di praticità e risparmio di tempo, ma si perde l' approfondimento personale che ritengo indispensabile per la costruzione del nostro sapere e della nostra personalità.",
+      "codes": [
+        "X1",
+        "X2",
+        "X3",
+        "X7",
+        "I1"
+      ],
+      "reason": "Riconoscimento di efficienza (X1), semplificazione (X2), personalizzazione (X3), beneficio subordinato al controllo umano (X7) e fiducia condizionata (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'intelligenza artificiale può essere utile ma non si deve sostituire completamente né al lavoro docente né a quello dello studente. Il pericolo è che soprattutto gli studenti trovino in questo strumento una facile scorciatoia che impedisce l'approfondimento personale e una conoscenza adeguata della realtà.",
+      "codes": [
+        "S4",
+        "S7",
+        "X7"
+      ],
+      "reason": "Rischio di erosione del pensiero critico (S4), uso off-limits (sostituzione docente/studente) (S7) e beneficio subordinato al controllo (X7)."
+    }
+  ]
+}

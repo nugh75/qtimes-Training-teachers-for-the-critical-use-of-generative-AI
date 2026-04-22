@@ -1,0 +1,72 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_uono16.md",
+  "source_name": "insegnanti_attuali_uono16.md",
+  "title": "Risposta UONO16",
+  "group": "Insegnanti in servizio",
+  "record_code": "UONO16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:22.308925+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I1",
+    "N1b",
+    "R2",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti con approccio cauto e in fase di apprendimento, che percepiscono l'IA come strumento da governare e non come sostituto immediato.",
+  "code_counts": {
+    "A1": 1,
+    "I1": 1,
+    "N1b": 1,
+    "R2": 1,
+    "X7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Mi sto per informando da poco sull'argomento che intendo comunque approfondire molto di più perchè è in atto una rivoluzione.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non affronta il tema specifico dell'uso dell'IA nella didattica, ma parla genericamente di 'rivoluzione' senza collegarsi al contesto richiesto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Insegno da poco la disciplina, dopo tanti anni sul sostegno. Ho dato la priorità allo studio approfondito dei contenuti fondanti della disciplina. Presto mi occuperò anche di capire di più circa I.A.",
+      "codes": [
+        "R2",
+        "A1"
+      ],
+      "reason": "L'insegnante esprime una competenza teorica limitata (priorità allo studio dei contenuti prima dell'IA) e un'assenza di formazione formale specifica sull'argomento."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro tanti. Contro tanti ma come tutte le tecnologie. Vanno gestite con consapevolezze e razionalità per essere comunque sempre noi ad indirizzarle.",
+      "codes": [
+        "X7",
+        "I1"
+      ],
+      "reason": "Sottolinea che l'IA va gestita con consapevolezza e razionalità (cambiamento condizionato) e che l'umano deve indirizzarla (fiducia tecnica condizionata)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Penso che non esistano divieti a priori.",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Afferma che non esistono divieti a priori, implicando che l'uso sia lecito solo se gestito correttamente (cambiamento condizionato)."
+    }
+  ]
+}

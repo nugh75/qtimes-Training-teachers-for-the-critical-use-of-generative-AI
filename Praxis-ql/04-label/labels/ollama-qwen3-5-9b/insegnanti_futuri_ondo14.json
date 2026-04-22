@@ -1,0 +1,56 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_ondo14.md",
+  "source_name": "insegnanti_futuri_ondo14.md",
+  "title": "Risposta ondo14",
+  "group": "Insegnanti pre-service",
+  "record_code": "ondo14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:28.922301+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S5",
+    "X2"
+  ],
+  "record_note": "Il record mostra una discrepanza tra il target 'Insegnanti pre-service' e la realtà dei partecipanti (alcuni non insegnano ancora), portando a risposte fuori tema o basate sulla mancanza di esperienza diretta.",
+  "code_counts": {
+    "N1b": 2,
+    "S5": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sto insegnando",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non sto insegnando' non risponde alla domanda sulla didattica, ma descrive lo stato attuale del partecipante, rendendo la risposta fuori tema rispetto al contesto educativo richiesto."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: può facilitare l’apprendimento in alcuni contesti; contro: si cade spesso in usi sbagliati (gli studenti possono chiedere di risolvere esercizi per casa e copiare i procedimenti )",
+      "codes": [
+        "X2",
+        "S5"
+      ],
+      "reason": "Il pro riguarda la facilitazione dell'apprendimento (X2), mentre il contro cita il rischio di copiatura e usi sbagliati, toccando l'affidabilità e l'imprecisione (S5)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non avendo molta esperienza nell’insegnamento non ho avuto modo di usarlo in classe",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta spiega la mancanza di esperienza pratica invece di elencare pratiche non raccomandate, risultando fuori tema rispetto alla domanda specifica."
+    }
+  ]
+}

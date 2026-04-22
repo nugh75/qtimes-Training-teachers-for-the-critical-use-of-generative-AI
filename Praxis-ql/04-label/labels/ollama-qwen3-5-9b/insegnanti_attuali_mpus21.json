@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_mpus21.md",
+  "source_name": "insegnanti_attuali_mpus21.md",
+  "title": "Risposta MPUS21",
+  "group": "Insegnanti in servizio",
+  "record_code": "MPUS21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:57.997691+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S2",
+    "S3",
+    "S4",
+    "S7",
+    "X1"
+  ],
+  "record_note": "Profilo di insegnanti che evidenziano limiti pedagogici dell'IA nella scuola dell'infanzia e rischi di delega cognitiva.",
+  "code_counts": {
+    "N1b": 2,
+    "S2": 1,
+    "S3": 1,
+    "S4": 2,
+    "S7": 1,
+    "X1": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Nella scuola dell'infanzia non è assolutamente indispensabile l'uso dell'intelligenza artificiale nelle attività quotidiane.",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: nega l'indispensabilità dell'IA in generale senza riferirsi all'uso didattico specifico richiesto dal contesto."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "L'applicazione dell'IA nella scuola dell'infanzia non è indispensabile né utile per le attività didattiche",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: conferma l'irrilevanza dell'IA per la scuola dell'infanzia senza elaborare le ragioni pedagogiche o didattiche."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'uso dell'A.I. può velocizzare alcune parti del lavoro, ma porta ad un minore allenamento della mente e riduce l'originalità dei metodi ed approcci didattici",
+      "codes": [
+        "X1",
+        "S3",
+        "S4"
+      ],
+      "reason": "Riconoscimento dei pro (velocità/X1) e dei contro (riduzione dell'allenamento mentale/S4, perdita di originalità/S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Delegare all'A.I. la realizzazione di elaborati ( Ad es. Testi o disegni ) che lo studente dovrebbe realizzare da sé, altrimenti l'apprendimento e l'acquisizione di determinate capacità e competenze verrebbero seriamente compromessi.",
+      "codes": [
+        "S2",
+        "S4",
+        "S7"
+      ],
+      "reason": "Identificazione del ghostwriting (S2), erosione del pensiero critico (S4) e ambito off-limits della produzione autonoma dello studente (S7)."
+    }
+  ]
+}

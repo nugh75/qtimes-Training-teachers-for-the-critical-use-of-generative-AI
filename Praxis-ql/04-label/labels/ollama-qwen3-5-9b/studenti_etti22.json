@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_etti22.md",
+  "source_name": "studenti_etti22.md",
+  "title": "Risposta etti22",
+  "group": "Studenti",
+  "record_code": "etti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:58.473421+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "R4",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per supporto alla comprensione e riscrittura, con consapevolezza dei limiti di affidabilità e rifiuto della delega completa nella risoluzione degli esercizi.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "X1": 1,
+    "X2": 4,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt perché molto utile",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di ChatGpt come strumento preferito (P6) e valutazione di utilità generale (X1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Cercando informazioni, sinonimi, parafrasi, spiegazioni ecc",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempi di attività di riscrittura e parafrasi (P5) che facilitano la comprensione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi dare una spiegazione chiara ed efficiente di questo argomento?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "La risposta riporta esplicitamente un prompt di esempio (P7) dimostrando competenza nel formulare richieste (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Usando un linguaggio più comprensibile rispetto al linguaggio del libro alcune volte",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta semplificando il linguaggio per una migliore comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Per spiegazioni",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Le spiegazioni fornite dall'IA sono un esempio di supporto allo studio (P5) e chiarificazione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Non ho incontrato difficoltà",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "La risposta è troppo breve e non informativa per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Spiegazioni chiare, aiuta a risolvere dubbi ma non tutto cioè che riporta é sempre corretto",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Riconoscimento dei benefici di chiarezza (X2) e dei limiti legati all'affidabilità delle risposte (I2)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Per risolvere esercizi, é utile dare la spiegazione o punti da seguire ma non risolvere completamente l’esercizio",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Definizione di un uso condizionato: l'IA aiuta ma non deve sostituire la risoluzione completa (controllo umano)."
+    }
+  ]
+}

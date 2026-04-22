@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_deni17.md",
+  "source_name": "insegnanti_futuri_deni17.md",
+  "title": "Risposta Deni17",
+  "group": "Insegnanti pre-service",
+  "record_code": "Deni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:34.091162+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S7",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Il record mostra una distinzione netta tra uso privato (non coperto) e uso didattico, con forte enfasi sui limiti etici e sulla mediazione docente.",
+  "code_counts": {
+    "I4": 1,
+    "N1b": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno. Utilizzo questo strumento spesso per integrare, approfondire lo studio individuale",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non affronta il tema della didattica ma si riferisce a un contesto non specificato (probabilmente privato), rendendola fuori tema rispetto alla domanda."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro perché aiuta moltissimo, ma è fondamentale la verifica delle info e la mediazione dei docenti",
+      "codes": [
+        "X1",
+        "X2",
+        "X6"
+      ],
+      "reason": "Il testo elenca benefici come l'aiuto ('pro'), la verifica delle info (X2) e l'innovazione/coinvolgimento (X6)."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella valutazione la trovo deviante e non dovrebbe mai essere usata senza interpretazione o mediazione, verifica",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Identifica la valutazione come ambito off-limits (S7) e sottolinea la necessità di mediazione umana/interpretazione (I4)."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_aciu28.md",
+  "source_name": "studenti_aciu28.md",
+  "title": "Risposta ACIU28",
+  "group": "Studenti",
+  "record_code": "ACIU28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:00:58.531549+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S1",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per efficienza e supporto alla ricerca, con consapevolezza dei limiti etici ma con una certa dipendenza dagli strumenti per l'autonomia.",
+  "code_counts": {
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S1": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat Gpt, semplice da utilizzare, intuitivo",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (Chat Gpt) e percezione di competenza nell'uso (semplice, intuitivo)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Sinonimi, trovare spunti e idee da portare avanti",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per trovare spunti e idee personalizza il percorso di studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "quali teorie parlano di questo argomento. trova idee da sviluppare. come potrei continuare. traduci questo testo. trova sinonimi. riformula.",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Elenco esplicito di prompt usati, dimostrando competenza nella formulazione di istruzioni."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi permette di trovare testi che non avrei trovato autonomamente o con maggiore velocità. mi permette di confrontare simultaneamente diverse teorie e approcci.",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite accesso a fonti non trovate autonomamente (X2) e confronto simultaneo di teorie (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "più veloce",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Miglioramento dell'apprendimento specificamente legato alla velocità."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "lavorare autonomamente senza ricorrere a questi strumenti una volta che si è iniziati ad utilizzare",
+      "codes": [
+        "S1"
+      ],
+      "reason": "Difficoltà nel non usare gli strumenti (lavorare autonomamente), indicativa di dipendenza o delega cognitiva."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "studio più veloce",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Vantaggio principale identificato è la velocità di studio."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "completare i compiti. dovrebbero solo fornire aiuti",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di un ambito off-limits (completare i compiti) e definizione di un limite etico (solo fornire aiuti)."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_eone18.md",
+  "source_name": "insegnanti_futuri_eone18.md",
+  "title": "Risposta eone18",
+  "group": "Insegnanti pre-service",
+  "record_code": "eone18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:57.464401+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "N1c",
+    "P6",
+    "P7",
+    "R4",
+    "X2"
+  ],
+  "record_note": "Il record mostra un partecipante pre-service che non ha ancora esperienza di insegnamento, portando a risposte fuori tema (N1b) o non informative (N1c) per le domande specifiche sulla pratica didattica, mentre per le domande generali fornisce brevi risposte o elenca strumenti.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 5,
+    "N1c": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Per facilitare la didattica",
+      "codes": [
+        "X2"
+      ],
+      "reason": "La risposta 'Per facilitare la didattica' indica un beneficio legato alla semplificazione e comprensione (X2)."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt",
+      "codes": [
+        "P6"
+      ],
+      "reason": "La risposta 'Chatgpt' identifica uno strumento specifico dell'ecosistema (P6)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non ancora insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non ancora insegno' è fuori tema rispetto alla domanda su strategie di individualizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non ancora insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non ancora insegno' è fuori tema rispetto alla domanda su strategie di personalizzazione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti aiutarmi a risolvere questo problema?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "La risposta riporta un esempio di prompt (P7) e dimostra una capacità di formulazione (R4)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' è fuori tema rispetto alla domanda su miglioramenti specifici."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' è fuori tema rispetto alla domanda su come l'IA aiuta."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Non insegno' è fuori tema rispetto alla domanda sulle difficoltà incontrate."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità e l'errore",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "La velocità è un beneficio (X2), mentre l'errore indica una sfiducia tecnica o un limite (I2)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "La risposta 'Non saprei' è una meta-definizione o tautologia che non fornisce informazioni classificate."
+    }
+  ]
+}

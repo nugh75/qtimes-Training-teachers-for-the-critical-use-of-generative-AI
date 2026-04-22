@@ -1,0 +1,117 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_anio03.md",
+  "source_name": "studenti_anio03.md",
+  "title": "Risposta anio03",
+  "group": "Studenti",
+  "record_code": "anio03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:38.235796+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P5",
+    "P6",
+    "R5",
+    "S7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per efficienza e semplificazione (riassunti), con una netta distinzione tra ambiti accettabili e off-limits (matematica), e rifiuto dell'uso di prompt specifici.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P5": 1,
+    "P6": 1,
+    "R5": 1,
+    "S7": 1,
+    "X1": 3,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt poiché risponde a tutte le mie richieste",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di uno strumento (ChatGPT) e beneficio di risparmio tempo/efficienza."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per fare riassunti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso di riassunti per semplificare e focalizzare i concetti."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non ne utilizzo",
+      "codes": [
+        "R5"
+      ],
+      "reason": "Non uso motivato da scelta epistemica o resistenza (rifiuto consapevole di usare prompt)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "usa termini meno complessi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per chiarificazione e comprensione tramite termini semplici."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "ha diminuito i tempi di studio",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Beneficio specifico: diminuzione dei tempi di studio."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('nessuna') per attribuzione di codici PRAXIS."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: aiutano nello studio contro: sosti sono troppo l uomo",
+      "codes": [
+        "X1",
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro (aiuto studio/efficienza), Contro (sostituzione uomo), e sfiducia tecnica (sostituzione)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "le espressioni di matematica",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (matematica) per l'uso dell'IA."
+    }
+  ]
+}

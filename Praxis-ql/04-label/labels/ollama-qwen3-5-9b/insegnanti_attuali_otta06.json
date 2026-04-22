@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_otta06.md",
+  "source_name": "insegnanti_attuali_otta06.md",
+  "title": "Risposta otta06",
+  "group": "Insegnanti in servizio",
+  "record_code": "otta06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:56.808908+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I3",
+    "P7",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Insegnante che utilizza l'IA per ottimizzare il carico burocratico e innovare le attività, ma manifesta preoccupazione per la fiducia acritica degli studenti e l'erosione del pensiero autonomo.",
+  "code_counts": {
+    "I2": 1,
+    "I3": 1,
+    "P7": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1,
+    "X6": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Non ho uno strumento preferito ma li utilizzo per sfoltire il lavoro burocratico e per individuare i compiti copiati o fatti con Intelligenza Artificiale.",
+      "codes": [
+        "X1",
+        "X5"
+      ],
+      "reason": "Uso dell'IA per 'sfoltire il lavoro burocratico' (risparmio tempo X1) e per individuare compiti copiati (supporto al percorso/valutazione X5)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Mi aiuta a trovare nuove attività originali da proporre in classe per la valutazione formativa o anche per la pianificazione della lezione.",
+      "codes": [
+        "X6",
+        "X2"
+      ],
+      "reason": "Creazione di 'nuove attività originali' (innovazione X6) e aiuto nella 'pianificazione della lezione' per la valutazione (comprensione X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Adatto le risposte alle esigenze specifiche degli alunni.",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Adattamento delle risposte alle 'esigenze specifiche degli alunni' (personalizzazione X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"Sono una docente di francese di una classe di 28 studenti di 14 anni, primo anno, con livello medio-basso, ho bisogno di un'attività di didattica ludica per introdurre i pronomi possessivi; l'attività deve essere svolta in gruppo\"",
+      "codes": [
+        "P7",
+        "X6"
+      ],
+      "reason": "Presenza di un prompt esplicito descritto (P7) e proposta di un'attività ludica per introdurre concetti (coinvolgimento/innovazione X6)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Ha consentito a me di fornire attività sempre nuove.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Fornitura di 'attività sempre nuove' per gli studenti (coinvolgimento e innovazione X6)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Li coinvolge maggiormente.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "L'IA serve a 'coinvolgere maggiormente' gli studenti (coinvolgimento X6)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Non sempre gli alunni sono pronti ad utilizzarla in modo corretto o funzionale.",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Difficoltà legate alla mancata prontezza degli alunni nell'uso corretto (uso etico/responsabile da parte degli utenti I3)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "CONTRO: I ragazzi tendono a fidarsi di tutto quello che leggono; PRO: mi velocizza e aiuta nei momenti di stanchezza.",
+      "codes": [
+        "I2",
+        "X1"
+      ],
+      "reason": "Contro: ragazzi che 'fidano di tutto' (sfiducia tecnica/I2); Pro: 'mi velocizza' (efficienza X1)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Riassumere testi al posto degli studenti.",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Riassumere testi al posto degli studenti comporta 'erosione del pensiero critico' (S4) e tocca ambiti off-limits come la valutazione (S7)."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_edko12.md",
+  "source_name": "studenti_edko12.md",
+  "title": "Risposta edko12",
+  "group": "Studenti",
+  "record_code": "edko12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:03.475401+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1c",
+    "S4",
+    "S5",
+    "X5"
+  ],
+  "record_note": "Il record evidenzia prevalentemente le criticità legate all'uso dell'IA (erosione pensiero critico, superficialità) e le strategie compensative degli studenti.",
+  "code_counts": {
+    "N1c": 1,
+    "S4": 2,
+    "S5": 2,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non necessaria",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "La risposta 'non necessaria' è una tautologia/meta-definizione che non fornisce informazioni classificate."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "uso altri canali di ricerca, o libri",
+      "codes": [
+        "X5"
+      ],
+      "reason": "L'uso di altri canali (libri, ricerca) indica un approccio compensativo che favorisce l'autonomia e l'organizzazione del percorso."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "non c'è sforzo, non c'è ricerca, non c'è \"perdita di tempo\" e di conseguenza non c'è memorizzazione",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "La mancanza di sforzo e ricerca porta all'erosione del pensiero critico (S4) e all'affidabilità debole dovuta alla mancanza di memorizzazione (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "ricerche poco approfondite, superficialità",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Le pratiche di superficialità e ricerche poco approfondite sono associate all'erosione del pensiero critico e all'affidabilità debole."
+    }
+  ]
+}

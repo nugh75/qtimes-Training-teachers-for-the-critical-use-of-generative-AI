@@ -1,0 +1,77 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_onti31.md",
+  "source_name": "insegnanti_attuali_onti31.md",
+  "title": "Risposta ONTI31",
+  "group": "Insegnanti in servizio",
+  "record_code": "ONTI31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:23.774606+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "A2",
+    "I3",
+    "I4",
+    "S6",
+    "X4"
+  ],
+  "record_note": "Profilo di insegnanti con barriere strutturali (mancanza di formazione e risorse) e forte enfasi sulla relazione umana come valore irrinunciabile.",
+  "code_counts": {
+    "A1": 2,
+    "A2": 2,
+    "I3": 1,
+    "I4": 1,
+    "S6": 1,
+    "X4": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Ancora non ci sono i mezzi necessari e la formazione adeguata",
+      "codes": [
+        "A1",
+        "A2",
+        "X4"
+      ],
+      "reason": "Mancanza di mezzi e formazione (A1, A2) che impediscono l'uso inclusivo (X4)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non ho mezzi e formazione adeguata",
+      "codes": [
+        "A1",
+        "A2",
+        "X4"
+      ],
+      "reason": "Ripetizione della motivazione: assenza di risorse e formazione (A1, A2) come barriera all'accesso (X4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO:facilitatori per alunni con difficoltà CONTRO: utilizzo inappropriato da parte di studenti e docenti",
+      "codes": [
+        "X4",
+        "I3"
+      ],
+      "reason": "L'IA come facilitatore per alunni con difficoltà (X4) e rischio di uso inappropriato da parte degli utenti (I3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nel tutoraggio: per me è fondamenta il rapporto umano ed esclusivamente quello",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Rifiuto dell'IA nel tutoraggio per preservare la relazione umana e il rapporto educativo (S6, I4)."
+    }
+  ]
+}

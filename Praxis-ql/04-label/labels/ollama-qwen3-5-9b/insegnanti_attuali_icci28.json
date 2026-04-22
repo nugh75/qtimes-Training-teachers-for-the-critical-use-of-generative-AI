@@ -1,0 +1,68 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_icci28.md",
+  "source_name": "insegnanti_attuali_icci28.md",
+  "title": "Risposta Icci28",
+  "group": "Insegnanti in servizio",
+  "record_code": "Icci28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:45:57.713525+00:00",
+  "record_dimensions": [
+    "A",
+    "S"
+  ],
+  "record_subcodes": [
+    "A3",
+    "S4",
+    "S5",
+    "S7"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'uso dell'IA, motivata da preoccupazioni etiche, pedagogiche e vincoli tecnici.",
+  "code_counts": {
+    "A3": 1,
+    "S4": 2,
+    "S5": 1,
+    "S7": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Il mio lavoro richiede creatività e contestualizzazione",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "La risposta evidenzia il rischio di erosione del pensiero critico (S4) e l'ambito off-limits della creatività soggettiva e contestualizzazione (S7)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Strumenti e fascia di età inadeguati",
+      "codes": [
+        "A3",
+        "S7"
+      ],
+      "reason": "Cita vincoli infrastrutturali/tecnologici (A3) e definisce la preparazione di testi come ambito off-limits (S7)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Mi sembra che venga utilizzata ancora come scorciatoia.",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Descrive l'uso come 'scorciatoia' (S4) e implica l'uso di strumenti non affidabili o superficiali (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Preparazione dei testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identifica la preparazione dei testi come pratica non raccomandata, rientrando nell'ambito off-limits (S7)."
+    }
+  ]
+}

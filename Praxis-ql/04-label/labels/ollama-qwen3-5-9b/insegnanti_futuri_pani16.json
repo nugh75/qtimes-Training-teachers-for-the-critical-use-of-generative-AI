@@ -1,0 +1,54 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_futuri_pani16.md",
+  "source_name": "insegnanti_futuri_pani16.md",
+  "title": "Risposta Pani16",
+  "group": "Insegnanti pre-service",
+  "record_code": "Pani16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:44:18.912114+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'adozione dell'IA da parte di insegnanti pre-service, con risposte che indicano incertezza, rifiuto o percezione di rischi cognitivi.",
+  "code_counts": {
+    "N1b": 1,
+    "S4": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non insegno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta 'Perché non insegno' è fuori tema rispetto alla domanda sull'uso dell'IA nella didattica, indicando un rifiuto o un contesto lavorativo che non rientra nel framework."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilità le attività ma non si sviluppano a pieno le capacità",
+      "codes": [
+        "X2",
+        "S4"
+      ],
+      "reason": "La risposta evidenzia la semplificazione delle attività (X2) ma anche la preoccupazione per la mancata piena sviluppo delle capacità, collegandosi all'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non lo so",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

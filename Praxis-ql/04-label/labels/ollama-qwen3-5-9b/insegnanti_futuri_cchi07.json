@@ -1,0 +1,71 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_cchi07.md",
+  "source_name": "insegnanti_futuri_cchi07.md",
+  "title": "Risposta cchi07",
+  "group": "Insegnanti pre-service",
+  "record_code": "cchi07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:24.284979+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1b",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Insegnante pre-service che esprime una posizione ambivalente: vede l'IA come utile per il lavoro ma rifiuta l'uso continuo, mostrando incertezza sulle pratiche specifiche.",
+  "code_counts": {
+    "I1": 1,
+    "N1b": 3,
+    "X1": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Mai avuto necessità",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sull'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Mai avuto necessità",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda specifica sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale sarà sempre più presente sia nella didattica scolastica sia nella vita quotidiana. Sono contro all'utilizzo continuo e sono favorevole perché agevola molto il lavoro e lo studio.",
+      "codes": [
+        "X1",
+        "X2",
+        "X6",
+        "I1"
+      ],
+      "reason": "Riconoscimento di pro (risparmio tempo, comprensione, innovazione) e contro (uso continuo), con fiducia condizionata."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non sa rispondere) rispetto alla domanda sulle pratiche non raccomandate."
+    }
+  ]
+}

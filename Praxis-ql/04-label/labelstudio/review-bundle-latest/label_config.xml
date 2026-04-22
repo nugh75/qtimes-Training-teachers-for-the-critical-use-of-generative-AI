@@ -1,0 +1,119 @@
+<View>
+  <Header value="PRAXIS double-coding human review" />
+  <Text name="context" value="$context" />
+
+  <Header value="Model outputs" />
+  <View style="display:flex; gap:12px; margin-bottom:10px">
+    <View style="flex:1; background:#fef6e4; padding:8px; border-radius:6px">
+      <Header value="gemma4:e4b" />
+      <Text name="m_a" value="$model_a_codes" />
+    </View>
+    <View style="flex:1; background:#e8f0fe; padding:8px; border-radius:6px">
+      <Header value="qwen3.5:9b" />
+      <Text name="m_b" value="$model_b_codes" />
+    </View>
+  </View>
+
+  <Header value="Diff" />
+  <View style="display:flex; gap:12px; margin-bottom:10px">
+    <View style="flex:1; background:#eef7ee; padding:8px; border-radius:6px">
+      <Header value="In comune" />
+      <Text name="d_common" value="$codes_common" />
+    </View>
+    <View style="flex:1; background:#fef6e4; padding:8px; border-radius:6px">
+      <Header value="Solo gemma4:e4b" />
+      <Text name="d_only_a" value="$codes_only_a" />
+    </View>
+    <View style="flex:1; background:#e8f0fe; padding:8px; border-radius:6px">
+      <Header value="Solo qwen3.5:9b" />
+      <Text name="d_only_b" value="$codes_only_b" />
+    </View>
+  </View>
+  <Text name="metrics" value="Exact match: $exact_match | Jaccard: $jaccard" />
+
+  <Header value="Human final coding (richiesto)" />
+  <Collapse>
+    <Panel value="P — Practice">
+      <Choices name="codes_P" toName="context" choice="multiple" showInLine="false">
+        <Choice value="P1" html="P1 — Produzione di materiali didattici o di studio" hint="Produzione di materiali didattici o di studio: verifiche, quiz, riassunti, mappe, esercizi, spiegazioni, materiali di supporto." />
+        <Choice value="P2" html="P2 — Individualizzazione e personalizzazione" hint="Individualizzazione e personalizzazione: adattamento di spiegazioni, testi, attivita&#x27; o percorsi al singolo studente o gruppo." />
+        <Choice value="P3" html="P3 — Inclusione e accessibilita&#x27;" hint="Inclusione e accessibilita&#x27;: CAA, supporti multimodali, traduzioni per NAI, accesso a contenuti per studenti fragili." />
+        <Choice value="P4" html="P4 — Supporto allo studio, simulazione, tutoraggio" hint="Supporto allo studio, simulazione, tutoraggio: autovalutazione, interrogazioni simulate, chiarimenti, allenamento." />
+        <Choice value="P5" html="P5 — Strategie operative di produzione" hint="Strategie operative di produzione: riassunti, schemi, mappe, spiegazioni, traduzioni, riscritture, esempi, visualizzazioni." />
+        <Choice value="P6" html="P6 — Ecosistema di strumenti" hint="Ecosistema di strumenti: strumenti e piattaforme usati, singoli o in combinazione." />
+        <Choice value="P7" html="P7 — Prompting visibile" hint="Prompting visibile: presenza di prompt riportati o descritti come pratica concreta." />
+      </Choices>
+    </Panel>
+    <Panel value="R — Readiness">
+      <Choices name="codes_R" toName="context" choice="multiple" showInLine="false">
+        <Choice value="R1" html="R1 — Competenza pratica percepita" hint="Competenza pratica percepita: saper usare o non saper usare strumenti e prompt." />
+        <Choice value="R2" html="R2 — Competenza teorica o epistemologica" hint="Competenza teorica o epistemologica: comprensione o non comprensione di limiti, funzionamento e verifica dell&#x27;IA." />
+        <Choice value="R3" html="R3 — Gap tra uso personale e uso didattico" hint="Gap tra uso personale e uso didattico: uso privato piu&#x27; sicuro dell&#x27;uso pedagogico." />
+        <Choice value="R4" html="R4 — Competenza di prompting" hint="Competenza di prompting: capacita&#x27; di formulare prompt efficaci." />
+        <Choice value="R5" html="R5 — Non-uso per impreparazione o rifiuto competente" hint="Non-uso per impreparazione o rifiuto competente: non uso motivato da insicurezza, scelta epistemica o resistenza consapevole." />
+      </Choices>
+    </Panel>
+    <Panel value="A — Adequacy">
+      <Choices name="codes_A" toName="context" choice="multiple" showInLine="false">
+        <Choice value="A1" html="A1 — Assenza di formazione formale" hint="Assenza di formazione formale: mancano corsi, accompagnamento o inserimento curricolare." />
+        <Choice value="A2" html="A2 — Supporto insufficiente o diseguale" hint="Supporto insufficiente o diseguale: supporto sporadico, tardivo o inadeguato." />
+        <Choice value="A3" html="A3 — Vincoli infrastrutturali ed economici" hint="Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale." />
+        <Choice value="A4" html="A4 — Uso compensativo dell&#x27;IA" hint="Uso compensativo dell&#x27;IA: l&#x27;IA colma lacune del sistema formativo o didattico." />
+      </Choices>
+    </Panel>
+    <Panel value="X — eXpectations">
+      <Choices name="codes_X" toName="context" choice="multiple" showInLine="false">
+        <Choice value="X1" html="X1 — Efficienza e risparmio di tempo." hint="Efficienza e risparmio di tempo." />
+        <Choice value="X2" html="X2 — Semplificazione e comprensione" hint="Semplificazione e comprensione: chiarificazione, comprensione piu&#x27; rapida, focalizzazione dei concetti." />
+        <Choice value="X3" html="X3 — Personalizzazione e attenzione al singolo." hint="Personalizzazione e attenzione al singolo." />
+        <Choice value="X4" html="X4 — Inclusione e accesso." hint="Inclusione e accesso." />
+        <Choice value="X5" html="X5 — Autonomia, organizzazione e supporto al percorso." hint="Autonomia, organizzazione e supporto al percorso." />
+        <Choice value="X6" html="X6 — Coinvolgimento, arricchimento e innovazione." hint="Coinvolgimento, arricchimento e innovazione." />
+        <Choice value="X7" html="X7 — Cambiamento condizionato" hint="Cambiamento condizionato: beneficio subordinato a controllo umano e uso critico." />
+      </Choices>
+    </Panel>
+    <Panel value="I — Interpersonal/Institutional">
+      <Choices name="codes_I" toName="context" choice="multiple" showInLine="false">
+        <Choice value="I1" html="I1 — Fiducia tecnica condizionata" hint="Fiducia tecnica condizionata: utile ma da verificare e controllare." />
+        <Choice value="I2" html="I2 — Sfiducia tecnica" hint="Sfiducia tecnica: errori, allucinazioni, traduzioni scorrette, versioni sbagliate." />
+        <Choice value="I3" html="I3 — Fiducia o sfiducia negli utenti" hint="Fiducia o sfiducia negli utenti: uso etico e responsabile da parte di studenti o docenti." />
+        <Choice value="I4" html="I4 — Fiducia relazionale e pedagogica" hint="Fiducia relazionale e pedagogica: insostituibilita&#x27; di relazione, empatia, giudizio umano." />
+        <Choice value="I5" html="I5 — Privacy e affidamento dei dati." hint="Privacy e affidamento dei dati." />
+      </Choices>
+    </Panel>
+    <Panel value="S — Skepticisms">
+      <Choices name="codes_S" toName="context" choice="multiple" showInLine="false">
+        <Choice value="S1" html="S1 — Delega cognitiva eccessiva" hint="Delega cognitiva eccessiva: pigrizia, dipendenza, non fare piu&#x27; nulla da soli." />
+        <Choice value="S2" html="S2 — Ghostwriting e plagio" hint="Ghostwriting e plagio: testi, temi, tesi, elaborati o compiti spacciati come propri." />
+        <Choice value="S3" html="S3 — Appiattimento, omologazione, perdita di creativita&#x27;." hint="Appiattimento, omologazione, perdita di creativita&#x27;." />
+        <Choice value="S4" html="S4 — Erosione del pensiero critico." hint="Erosione del pensiero critico." />
+        <Choice value="S5" html="S5 — Informazioni false, imprecisione, affidabilita&#x27; debole." hint="Informazioni false, imprecisione, affidabilita&#x27; debole." />
+        <Choice value="S6" html="S6 — Sostituzione del docente o della relazione educativa." hint="Sostituzione del docente o della relazione educativa." />
+        <Choice value="S7" html="S7 — Ambiti off-limits" hint="Ambiti off-limits: relazioni umane, scrittura soggettiva, valutazione, lingue classiche, matematica, medicina, diagnosi, counseling." />
+      </Choices>
+    </Panel>
+    <Panel value="N — Not codable">
+      <Choices name="codes_N" toName="context" choice="multiple" showInLine="false">
+        <Choice value="N1a" html="N1a — Risposta troppo breve o non informativa per attribuzione di codici PRAXIS." hint="Risposta troppo breve o non informativa per attribuzione di codici PRAXIS." />
+        <Choice value="N1b" html="N1b — Risposta fuori tema rispetto alla domanda, non classificabile nel framework PRAXIS." hint="Risposta fuori tema rispetto alla domanda, non classificabile nel framework PRAXIS." />
+        <Choice value="N1c" html="N1c — Risposta tautologica/meta-definizione, non classificabile nel framework PRAXIS." hint="Risposta tautologica/meta-definizione, non classificabile nel framework PRAXIS." />
+      </Choices>
+    </Panel>
+  </Collapse>
+
+  <View style="background:#f5f7fa; padding:10px; border-radius:6px; margin-top:10px">
+    <Header value="Flag annotazione (richiesto)" />
+    <Choices name="flag" toName="context" choice="single" showInLine="true" required="true">
+      <Choice value="ok" html="OK" hotkey="1" />
+      <Choice value="ambiguous" html="Ambiguo" hotkey="2" />
+      <Choice value="borderline_N1" html="Borderline N1" hotkey="3" />
+      <Choice value="model_error" html="Errore modelli" hotkey="4" />
+      <Choice value="needs_second_reviewer" html="Secondo revisore" hotkey="5" />
+    </Choices>
+    <Header value="Confidence (1-5)" />
+    <Rating name="confidence" toName="context" maxRating="5" icon="star" size="medium" required="true" />
+    <Header value="Nota" />
+    <TextArea name="note" toName="context" rows="3" maxSubmissions="1" editable="true"
+              placeholder="Es: risposta indica non-uso con delega; primario R5, secondario R1." />
+  </View>
+</View>

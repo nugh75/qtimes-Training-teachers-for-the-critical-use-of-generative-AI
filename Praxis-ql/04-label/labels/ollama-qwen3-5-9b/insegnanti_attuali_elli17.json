@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_elli17.md",
+  "source_name": "insegnanti_attuali_elli17.md",
+  "title": "Risposta Elli17",
+  "group": "Insegnanti in servizio",
+  "record_code": "Elli17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:51.906725+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "R3",
+    "S3",
+    "S4",
+    "S5",
+    "S7",
+    "X6"
+  ],
+  "record_note": "Profilo di insegnante scettico verso l'IA, focalizzato sulla tutela della relazione educativa, del pensiero critico e della creatività umana.",
+  "code_counts": {
+    "I2": 2,
+    "R3": 1,
+    "S3": 1,
+    "S4": 2,
+    "S5": 1,
+    "S7": 2,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco utilizzare l'intelligenza naturale",
+      "codes": [
+        "R3",
+        "S7"
+      ],
+      "reason": "Rifiuto basato sulla preferenza per l'interazione umana (S7) e distinzione tra uso personale e didattico (R3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché l'IA riduce la capacità degli studenti di sviluppare competenze come il pensiero critico e la risoluzione dei problemi; inoltre l’uso pervasivo della tecnologia può avere effetti psicologici sui giovani, influenzando la loro capacità di concentrazione e la loro salute mentale.",
+      "codes": [
+        "S4",
+        "I2"
+      ],
+      "reason": "Menzione esplicita dell'erosione del pensiero critico (S4) e preoccupazione per effetti negativi/affidabilità (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO -L’integrazione dell’IA nella didattica può preparare meglio le nuove generazioni per il mercato del lavoro del futuro, dove saranno sempre più richieste le competenze digitali. CONTRO -Dipendenza dalla tecnologia: l'eccessiva dipendenza sull’IA potrebbe portare alla sostituzione di interazioni umane, riducendo l’importanza della relazione insegnante-studente. -Impatto psicologico e sociale. -I contenuti e le risposte forniti dall’AI non sempre sono di qualità o affidabili, proprio perché manca un aspetto umano che le verifichi.",
+      "codes": [
+        "X6",
+        "S4",
+        "S5",
+        "I2"
+      ],
+      "reason": "Pro: arricchimento/innovazione (X6). Contro: erosione pensiero critico (S4), affidabilità debole (S5), allucinazioni (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "L'IA NON dovrebbe essere utilizzata per generare testi, musica e opere artistiche, onde evitare di soffocare la creatività umana.",
+      "codes": [
+        "S7",
+        "S3"
+      ],
+      "reason": "Ambito off-limits creatività/arte (S7) e rischio di appiattimento/omologazione (S3)."
+    }
+  ]
+}

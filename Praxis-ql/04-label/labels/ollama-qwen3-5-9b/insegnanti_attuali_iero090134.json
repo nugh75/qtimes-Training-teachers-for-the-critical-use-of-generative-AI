@@ -1,0 +1,61 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_iero090134.md",
+  "source_name": "insegnanti_attuali_iero090134.md",
+  "title": "Risposta iero090134",
+  "group": "Insegnanti in servizio",
+  "record_code": "iero090134",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:12.315267+00:00",
+  "record_dimensions": [
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1c",
+    "X7"
+  ],
+  "record_note": "Profilo di docente con resistenza all'uso dell'IA, motivata da percezione di inadeguatezza tecnologica e preferenza per l'autonomia cognitiva.",
+  "code_counts": {
+    "N1c": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la ritengo necessaria",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione che non fornisce motivazione."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non sono molto tecnologica",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione che non fornisce motivazione."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può aitare",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta troppo breve e non informativa."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Si deve utilizzare il.propro cervello",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Sottolinea la necessità del controllo umano e del pensiero proprio come condizione per l'uso."
+    }
+  ]
+}

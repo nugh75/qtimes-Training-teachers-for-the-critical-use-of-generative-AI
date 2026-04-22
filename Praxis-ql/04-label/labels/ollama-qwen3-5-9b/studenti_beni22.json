@@ -1,0 +1,129 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_beni22.md",
+  "source_name": "studenti_beni22.md",
+  "title": "Risposta beni22",
+  "group": "Studenti",
+  "record_code": "beni22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:55.755535+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1b",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "X2",
+    "X3",
+    "X5",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per supporto cognitivo (mappe, chiarimenti) e semplificazione, con consapevolezza dei rischi legati a un uso scorretto.",
+  "code_counts": {
+    "N1a": 2,
+    "N1b": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "X2": 2,
+    "X3": 1,
+    "X5": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“-“",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta contenente solo un trattino, non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "computer",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Menzione di uno strumento (computer) utilizzato per lo studio."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi aiuta se per caso mentre studio non capisco una definizione",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per chiarire definizioni e personalizzare il supporto allo studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "boh",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'boh' non pertinente alla richiesta di esempi di prompt."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "con mappe concettuali",
+      "codes": [
+        "P1",
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di mappe concettuali per semplificare e migliorare l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "riesco a ricordare le cose in modo più semplice",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite semplificazione della memorizzazione."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Assenza di difficoltà indica un buon livello di autonomia e supporto al percorso."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "secondo me i pro: ti aiuta nello studio se utilizzata in modo adeguato e in maniera intelligente e i contro e i contro è il fatto che alcune persone utilizzato AI non in modo corretto",
+      "codes": [
+        "X6",
+        "X7"
+      ],
+      "reason": "Pro: arricchimento (coinvolgimento); Contro: necessità di uso intelligente e controllo (cambiamento condizionato)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": ".",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota (punto), non informativa."
+    }
+  ]
+}

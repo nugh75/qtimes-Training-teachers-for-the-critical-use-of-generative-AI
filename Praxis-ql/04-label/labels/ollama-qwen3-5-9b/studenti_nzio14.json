@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nzio14.md",
+  "source_name": "studenti_nzio14.md",
+  "title": "Risposta nzio14",
+  "group": "Studenti",
+  "record_code": "nzio14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:11:04.686197+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "R1",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di studenti che percepiscono l'IA come spreco di tempo o poco utile, con evidenti barriere di competenza pratica e fiducia tecnica.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "R1": 3,
+    "X1": 4,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "per me é uno spreco di tempo, non la uso mai",
+      "codes": [
+        "N1a",
+        "R1",
+        "X1"
+      ],
+      "reason": "Risposta breve (N1a) che esprime sfiducia tecnica/valutazione negativa (R1) e percezione di spreco di tempo (X1)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "non la uso perché non sono molto pratica, mi sembra uno spreco di tempo, non mi piace",
+      "codes": [
+        "R1",
+        "X1"
+      ],
+      "reason": "Mancanza di competenza pratica percepita (R1) e percezione di spreco di tempo (X1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "non la uso ma sono pro perché a volte può essere utile",
+      "codes": [
+        "R1",
+        "X1"
+      ],
+      "reason": "Non uso dell'IA (R1) motivato dalla percezione di utilità limitata (X1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "per  esempio chat gpt, é molto utile per ricerche, a volte é utilizzato in modo sbagliato",
+      "codes": [
+        "X1",
+        "X2",
+        "I2"
+      ],
+      "reason": "Percezione di utilità (X1), semplificazione (X2) e menzione di errori/allucinazioni (I2)."
+    }
+  ]
+}

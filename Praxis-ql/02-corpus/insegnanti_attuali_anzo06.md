@@ -1,0 +1,70 @@
+---
+record_code: "ANZO06"
+group: Insegnanti in servizio
+dimensions: [A, I, N, S, X]
+subcodes: [A3, I4, N1, S3, X3]
+model: gemma4:e4b
+generated_at: "2026-04-19T20:45:25.843676+00:00"
+label_source: 04-label/labels/ollama-gemma4/insegnanti_attuali_anzo06.json
+note: "L'insegnante mostra una forte resistenza all'IA, basata sulla valorizzazione di risorse materiali preesistenti e sull'importanza del giudizio umano e della creatività."
+---
+
+# Risposta ANZO06
+
+## Legenda codici del record
+
+- **A3**: Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.
+- **I4**: Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+- **N1**: Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+- **S3**: Appiattimento, omologazione, perdita di creativita'.
+- **X3**: Personalizzazione e attenzione al singolo.
+
+## Item 1 {#item-1}
+
+**Q**: Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci "-".)
+
+**A**: Cerco di ridurre l'esposizione agli schermi (soprattutto smartphone) il più possibile nella mia quotidianità.
+
+**Codes**: N1 — Risposta non classificabile: troppo breve, generica, vuota, tautologica o fuori tema per attribuzione di codici PRAXIS.
+
+**Reason**: La risposta riguarda la gestione dello schermo e non l'uso o il rifiuto dell'IA in didattica.
+
+**Cited in:**
+- [01-wiki/insegnanti-attuali/adequacy-of-support/logistica-e-dispositivi.md](../01-wiki/insegnanti-attuali/03-adequacy-of-support/logistica-e-dispositivi.md)
+
+## Item 2 {#item-2}
+
+**Q**: Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?
+
+**A**: Resto ancorata ai numerosi libri di testo, sia moderni che non, che ho reperito negli anni per lavorare al meglio. Ne ricavo tante informazione con alta qualità che, ad ora, non trovo sia online che nei nuovi testi didattici. Disegni, testi narrativi, immagini evocative che catturano la fantasia dei bambini scritti in un lessico ricco che ora, purtroppo, si è andato a ridurre fin troppo anche nei libri di testo ufficiali.
+
+**Codes**: A3 — Vincoli infrastrutturali ed economici: dispositivi, connessione, licenze, paywall, accesso diseguale.; I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
+**Reason**: L'insegnante si affida ai libri di testo cartacei (A3 - vincoli materiali) e valorizza l'esperienza e la ricchezza lessicale che ritiene insostituibili (I4 - relazione pedagogica).
+
+**Cited in:** —
+
+## Item 3 {#item-3}
+
+**Q**: In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?
+
+**A**: La velocità nell'esecuzione, dal mio punto di vista, è un pro e un contro. Si possono realizzare attività strutturate in pochissimo tempo dando solo un piccolo input di partenza. D'altro canto ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante.
+
+**Codes**: X3 — Personalizzazione e attenzione al singolo.; S3 — Appiattimento, omologazione, perdita di creativita'.
+
+**Reason**: Riconosce la velocità (pro) ma teme che l'IA limiti lo sforzo creativo e porti all'omologazione dei lavori (S3).
+
+**Cited in:**
+- [01-wiki/insegnanti-attuali/interpersonal-trust/filosofia-della-fatica.md](../01-wiki/insegnanti-attuali/05-interpersonal-trust/filosofia-della-fatica.md)
+
+## Item 4 {#item-4}
+
+**Q**: Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?
+
+**A**: Non possiedo la giusta conoscenza per rispondere a questa domanda. Ma, nel dubbio, preferire vedere utilizzata l'IA per salvare delle vite e lasciar perdere tutto il resto che può camminare benissimo anche senza.
+
+**Codes**: I4 — Fiducia relazionale e pedagogica: insostituibilita' di relazione, empatia, giudizio umano.
+
+**Reason**: La risposta è vaga e si concentra sul salvare vite, indicando un valore umano e relazionale superiore all'uso dell'IA.
+
+**Cited in:** —

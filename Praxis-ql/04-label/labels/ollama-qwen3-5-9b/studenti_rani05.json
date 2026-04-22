@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rani05.md",
+  "source_name": "studenti_rani05.md",
+  "title": "Risposta rani05",
+  "group": "Studenti",
+  "record_code": "rani05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:14.656361+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Profilo di studente che rifiuta l'uso dell'IA per studio basandosi su principi di autonomia, controllo umano e affidabilità epistemica.",
+  "code_counts": {
+    "I2": 3,
+    "N1a": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ne vedo il bisogno",
+      "codes": [
+        "N1a",
+        "X3"
+      ],
+      "reason": "Risposta molto breve (N1a) che esprime una preferenza per l'autonomia personale (X3)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nello studio?",
+      "answer": "preferisco contare sulle mie sole capacità. le macchine sono comunque programmate dagli esseri umani, e possono comunque commettere errori, ma un errore commesso da una macchina è più difficile da individuare rispetto a quello di una persona, inoltre, trovo che l'utilizzo dell'IA nello studio sia un'agevolazione solo momentanea, che comporterà la mancanza dell'argomento per cui è stato usato nella mente della persona nel momento del bisogno",
+      "codes": [
+        "X3",
+        "I2",
+        "S4"
+      ],
+      "reason": "Preferenza per l'autonomia (X3), sfiducia tecnica dovuta a limiti umani e difficoltà di controllo degli errori (I2), e preoccupazione per l'erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: meno tempo impiegato in appunti e schemi; contro: le macchine non sono perfette ma le si danno per tali, quindi in caso di errori spesso non ci si fa caso finchè non è troppo tardi.",
+      "codes": [
+        "X1",
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: risparmio di tempo (X1) e comprensione più rapida (X2); Contro: rischio di errori non rilevati (I2)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fare ricerche al posto dello studente per la scuola, per esempio, perchè non sempre le informazioni sono corretti.",
+      "codes": [
+        "S7",
+        "I2"
+      ],
+      "reason": "Identificazione della ricerca come pratica off-limits (S7) a causa dell'affidabilità incerta delle informazioni (I2)."
+    }
+  ]
+}

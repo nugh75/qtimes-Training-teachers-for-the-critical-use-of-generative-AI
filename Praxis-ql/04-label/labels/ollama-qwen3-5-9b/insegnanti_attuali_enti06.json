@@ -1,0 +1,111 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_enti06.md",
+  "source_name": "insegnanti_attuali_enti06.md",
+  "title": "Risposta Enti06",
+  "group": "Insegnanti in servizio",
+  "record_code": "Enti06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:21.631295+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "S3",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Insegnante che utilizza l'IA principalmente per la produzione di materiali (quiz, verifiche) e per velocizzare la burocrazia, con consapevolezza dei rischi di appiattimento e limitazioni legate alla propria competenza tecnica.",
+  "code_counts": {
+    "N1b": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "S3": 1,
+    "X1": 1,
+    "X2": 2,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chatgpt per la velocizzazione di questioni legate alla burocrazia",
+      "codes": [
+        "P6",
+        "X1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGpt) e motivazione legata al risparmio di tempo/velocizzazione."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per la creazione di quiz e verifiche scritte, integrandolo con domande prodotte da me",
+      "codes": [
+        "P1",
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di quiz e verifiche (P1, P5) con integrazione umana per migliorare la comprensione/focalizzazione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Integrando mie idee a ciò che produce chatgpt",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Integrazione di idee proprie per personalizzare il percorso (P2, X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Crea una verifica scritta composta da domanda aperte e a crocette per una classe II di un'istituto professionale enogastronomico",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) che genera una verifica (P5)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Avvicinandomi al loro metodo di apprendimento",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Adattamento dell'IA al metodo di apprendimento dello studente per facilitare la comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Potrebbe portare ad un \"appiattimento\" della messa in gioco del ragazzo",
+      "codes": [
+        "S3"
+      ],
+      "reason": "Rischio di appiattimento dell'esperienza educativa (S3)."
+    },
+    {
+      "index": 7,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non conosco a sufficienza la materia per rispondere a questa domanda",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda (non si riferisce a pratiche specifiche ma all'insufficienza di conoscenza)."
+    }
+  ]
+}

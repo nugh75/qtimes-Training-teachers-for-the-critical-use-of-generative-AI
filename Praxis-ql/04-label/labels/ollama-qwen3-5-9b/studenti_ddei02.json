@@ -1,0 +1,115 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_ddei02.md",
+  "source_name": "studenti_ddei02.md",
+  "title": "Risposta Ddei02",
+  "group": "Studenti",
+  "record_code": "Ddei02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:03:44.179657+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale e compensativo dell'IA (velocità, struttura), con una chiara consapevolezza dei limiti etici (scrittura autonoma) e delle debolezze tecniche (vincoli).",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 4,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Utilizzo chatgpt perché lo reputo facile da utilizzare e molto rapido nel fornire risposte",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione esplicita di rapidità (X1) e facilità d'uso che porta a risposte veloci (X2)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Facendo domande riguardanti dubbi sorti durante lo studio o curiosità personali",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Uso dell'IA per chiarire dubbi e curiosità personali, adattando il supporto al singolo percorso di studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Puoi spiegarmi cos’è un digital twin?",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta fornisce un esempio di prompt ma non descrive l'uso o il contesto, risultando fuori tema rispetto alla richiesta di esempi di utilizzo."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Riassume varie informazioni che ricaverei utilizzando differenti siti molto più velocemente",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "L'IA accelera il recupero informazioni (X2) e aiuta nell'organizzazione del lavoro tramite riassunti (X5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Ad esempio, Mi ha aiutato a formulare la struttura di un paper",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a formulare la struttura di un paper, semplificando il processo di scrittura e comprensione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Può a volte non rispettare la lunghezza di testa che viene richiesta",
+      "codes": [
+        "I2"
+      ],
+      "reason": "L'IA non rispetta i vincoli di lunghezza richiesti, indicando un errore tecnico o allucinazione (I2)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro riguardano la velocità e la completezza nel reperire informazioni ed il contro potrebbe essere diminuire lo sforzo cognitivo fatto dagli studenti",
+      "codes": [
+        "X1",
+        "X2",
+        "S4"
+      ],
+      "reason": "Pro: velocità e completezza (X1, X2). Contro: diminuzione dello sforzo cognitivo, che implica un rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non si dovrebbe utilizzare per fare dei testi ma solamente per aiutare a strutturarlo o a trovare informazioni",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Definizione di ambiti off-limits: non usare l'IA per scrivere testi completi (scrittura soggettiva/delega), ma solo per supporto strutturale."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_zano05.md",
+  "source_name": "insegnanti_attuali_zano05.md",
+  "title": "Risposta zano05",
+  "group": "Insegnanti in servizio",
+  "record_code": "zano05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:43:44.591915+00:00",
+  "record_dimensions": [
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "P1",
+    "P6",
+    "P7",
+    "R1",
+    "R5",
+    "S5",
+    "X2",
+    "X3",
+    "X4",
+    "X6"
+  ],
+  "record_note": "Insegnante con approccio pragmatico all'IA, focalizzato su strumenti pratici e inclusione, ma con consapevolezza dei limiti (errori) e necessità di formazione.",
+  "code_counts": {
+    "P1": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 2,
+    "R5": 1,
+    "S5": 1,
+    "X2": 3,
+    "X3": 1,
+    "X4": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "wordwall come feedback ; Chatgpt 4o",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione esplicita di strumenti specifici (Wordwall, ChatGPT) e competenza percepita nell'uso."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "per l'apprendimento e la verifica",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per l'apprendimento e verifica, indicando semplificazione e focalizzazione."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "per fornire materiali didattici personalizzati",
+      "codes": [
+        "P1",
+        "X3"
+      ],
+      "reason": "Produzione di materiali personalizzati per singoli studenti (eccellenza cognitiva)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "fammi una ricerca si Pirandello per BES",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt visibile ('fami una ricerca...') e semplificazione della ricerca per BES."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "aumentando l'interesse degli studenti",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite aumento dell'interesse (coinvolgimento)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "creare un clima inclusivo e divertente per l'apprendimento",
+      "codes": [
+        "X4",
+        "X6"
+      ],
+      "reason": "Creazione di un clima inclusivo e divertente (inclusione e coinvolgimento)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "imparare ad usale IA nel modo corretto",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Difficoltà legata all'impreparazione iniziale (imparare ad usare) e resistenza consapevole all'uso scorretto."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro.IA aiuta a costruire prodotti utili per gli studenti. Contro: l'uso eccessivo e la correttezza non verificata può portare ad errori nell'apprendimento.",
+      "codes": [
+        "X2",
+        "S5"
+      ],
+      "reason": "Pro: prodotti utili (semplificazione); Contro: errori non verificati (affidabilità debole)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "nessuna",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_19albe.md",
+  "source_name": "insegnanti_attuali_19albe.md",
+  "title": "Risposta 19albe",
+  "group": "Insegnanti in servizio",
+  "record_code": "19albe",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:38:47.476277+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "I2",
+    "N1b",
+    "N1c",
+    "P2",
+    "P5",
+    "P6",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X6"
+  ],
+  "record_note": "Profilo di docente con esperienza mista: riconosce benefici operativi (efficienza, creatività) ma evidenzia criticità legate alla formazione, alla gestione dei dati e al rischio di automatismi che ostacolano il pensiero critico.",
+  "code_counts": {
+    "A2": 1,
+    "I2": 1,
+    "N1b": 1,
+    "N1c": 1,
+    "P2": 1,
+    "P5": 1,
+    "P6": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 1,
+    "X3": 1,
+    "X5": 1,
+    "X6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "mi faccio aiutare dagli studenti",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente riferisce di farsi aiutare dagli studenti, non fornendo una motivazione legata all'uso o non-uso dell'IA richiesta dalla domanda."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "programmi di presentazione didattica o di verifiche scritte",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenco generico di strumenti (presentazioni, verifiche) senza specificare l'uso dell'IA o la personalizzazione."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "preparo attività specifiche",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Preparazione di attività specifiche indica adattamento del percorso (P2) e attenzione al singolo (X3)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "nelle presentazioni di argomenti",
+      "codes": [
+        "P5"
+      ],
+      "reason": "Uso dell'IA per creare presentazioni rientra nelle strategie operative di produzione (P5)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "il prompt è un input per iniziare",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione che ripete la definizione di prompt data nella domanda senza fornire esempi."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "nell'attività di ricerca e presentazione degli argomenti",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite ricerca e presentazione indica comprensione più rapida/focalizzazione (X2) e coinvolgimento/arricchimento (X6)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "nel tirare fuori la loro creatività nella rielaborazione di contenuti o presentazioni",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Aiuto a migliorare l'apprendimento stimolando la creatività indica coinvolgimento e arricchimento (X6)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "imparare ad utilizzare i programmi",
+      "codes": [
+        "A2"
+      ],
+      "reason": "Difficoltà nell'implementazione dovuta alla necessità di imparare ad usare i programmi indica supporto insufficiente o inadeguato (A2)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "vantaggi: aumento dell'efficienza e della produttività; migliore processo decisionale; creazione di nuovi posti di lavoro. svantaggi: dipendenza dall'AI; Divario delle competenze digitali; il rischio di raccolta e utilizzo improprio dei dati e penalizzazione del ruolo del docente nel processo di valutazione scolastico.",
+      "codes": [
+        "X1",
+        "X5",
+        "I2"
+      ],
+      "reason": "Vantaggi: efficienza (X1), organizzazione (X5). Svantaggi: dipendenza (S1), divario competenze (A3), privacy (I5). Il codice I2 (sfiducia) è applicabile per il rischio di dati errati/impropri citato."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "quelle che rispondono ad automatismi che non facilitano il ragionamento (brain storming)",
+      "codes": [
+        "S4"
+      ],
+      "reason": "Pratiche che rispondono ad automatismi senza facilitare il ragionamento indicano erosione del pensiero critico (S4)."
+    }
+  ]
+}

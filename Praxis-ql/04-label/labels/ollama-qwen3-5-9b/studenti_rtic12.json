@@ -1,0 +1,119 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rtic12.md",
+  "source_name": "studenti_rtic12.md",
+  "title": "Risposta rtic12",
+  "group": "Studenti",
+  "record_code": "rtic12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:13:15.943070+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "N1b",
+    "P5",
+    "P6",
+    "R1",
+    "R4",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "I partecipanti mostrano un uso prevalentemente strumentale dell'IA per semplificazione e sintesi, con una consapevolezza variabile dei rischi di dipendenza.",
+  "code_counts": {
+    "N1a": 1,
+    "N1b": 1,
+    "P5": 1,
+    "P6": 1,
+    "R1": 1,
+    "R4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perché mi ci trovo bene",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e affermazione di comfort nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per farmi spiegare delle cose in maniera più semplice, riassunti, schemi ecc",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Elenca attività di sintesi e schematizzazione (riassunti, schemi) e finalità di semplificazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "trovami un sinonimo di esattamente",
+      "codes": [
+        "N1a",
+        "R4"
+      ],
+      "reason": "Risposta estremamente breve (un solo prompt) che non permette di valutare la competenza complessiva (N1a), ma dimostra capacità di formulare prompt (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "spiegandomi le cose",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA è usata per ottenere spiegazioni che facilitano la comprensione."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato ad alzare i voti a scuola",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Il miglioramento dei voti è interpretato come un beneficio in termini di efficienza o risultato accademico."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "che magari senza poi ti trovi male",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta è frammentata e non chiara, non fornendo informazioni utili sulla difficoltà incontrata."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro è che ti aiuta il contro è che poi magari senza non riesci a fare determinate cose",
+      "codes": [
+        "X7"
+      ],
+      "reason": "Il beneficio (aiuto) è contrapposto al rischio di dipendenza (senza non riesci), indicando un uso condizionato."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "magari non dovrebbero essere usate in maniera morbosa",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Il limite indicato è l'uso 'morboso', che implica un abuso o un uso non etico/sostenibile."
+    }
+  ]
+}

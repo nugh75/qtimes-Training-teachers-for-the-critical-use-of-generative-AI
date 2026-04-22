@@ -1,0 +1,110 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_nari23.md",
+  "source_name": "studenti_nari23.md",
+  "title": "Risposta nari23",
+  "group": "Studenti",
+  "record_code": "nari23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:10:15.955864+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P5",
+    "S2",
+    "S4",
+    "X2"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente compensativo e di supporto allo studio (X2, P5), con una chiara distinzione tra uso accettabile (spiegazioni) e uso non accettabile (ghostwriting/compiti), evidenziando preoccupazioni etiche (S2, S4).",
+  "code_counts": {
+    "N1b": 2,
+    "P5": 2,
+    "S2": 2,
+    "S4": 2,
+    "X2": 5
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "non li ho",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente nega l'uso di strumenti, rendendo impossibile l'attribuzione di codici relativi all'uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "gli allego dei file e gli faccio riscrivere meglio i miei appunti se sono stati presi in maniera poco precisa",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Uso di riscritture (P5) per migliorare la comprensione e la precisione degli appunti (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "chat, rendi i miei appunti più semplici e discorsivi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Esempio di prompt per semplificazione e riscrittura discorsiva (P5, X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "perchè mi aiuta a capire le cose che non capisco",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a comprendere concetti difficili, migliorando la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi spiega le cose che non capisco in maniera più semplice finchè non capisco",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Spiegazione semplificata fino alla comprensione completa (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: assenza di difficoltà non fornisce dati classificabili nel framework."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro dell'intelligenza artificiale sono che ti aiuta a capire ciò che non hai capito in maniera più semplice, i contro è l'utilizzo dell'intelligenza artificiale in ambito scolastico, mandandole foto di compiti a cui deve rispondere, far rispondere a chat gpt al posto nostro",
+      "codes": [
+        "X2",
+        "S2",
+        "S4"
+      ],
+      "reason": "Pro: comprensione semplificata (X2). Contro: uso per compiti (S2), perdita di pensiero critico (S4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "fornire i risultati dei compiti al posto degli studenti",
+      "codes": [
+        "S2",
+        "S4"
+      ],
+      "reason": "Pratica non raccomandata: fornire risultati al posto dello studente (S2) e erosione del pensiero critico (S4)."
+    }
+  ]
+}

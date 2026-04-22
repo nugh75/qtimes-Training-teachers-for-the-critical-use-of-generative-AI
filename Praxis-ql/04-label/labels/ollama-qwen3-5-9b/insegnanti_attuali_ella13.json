@@ -1,0 +1,73 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ella13.md",
+  "source_name": "insegnanti_attuali_ella13.md",
+  "title": "Risposta ella13",
+  "group": "Insegnanti in servizio",
+  "record_code": "ella13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:37.634153+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R1",
+    "R5",
+    "X1",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Profilo di docente con resistenza all'adozione dell'IA dovuta a percezione di inadeguatezza tecnica e mancanza di formazione.",
+  "code_counts": {
+    "N1b": 1,
+    "R1": 1,
+    "R5": 2,
+    "X1": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Sono impreparato all'utilizzo, ma dovrei farlo",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "R1: percepisce incapacità tecnica ('impreparato'); R5: non uso motivato da insicurezza/impreparazione."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Mancanza di impegno nel conoscerla meglio",
+      "codes": [
+        "R5"
+      ],
+      "reason": "R5: non uso motivato da insicurezza o mancanza di impegno (rifiuto competente/insicurezza)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO Maggiori risorse e tecnologie. CONTRO Utilizzarla come velocizzatore di risultati",
+      "codes": [
+        "X1",
+        "X2",
+        "X6"
+      ],
+      "reason": "X1: pro (risorse/tecnologie); X2: pro (velocizzazione); X6: pro (innovazione)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "non saprei",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "N1b: risposta fuori tema/non informativa ('non saprei') rispetto alla richiesta di pratiche non raccomandate."
+    }
+  ]
+}

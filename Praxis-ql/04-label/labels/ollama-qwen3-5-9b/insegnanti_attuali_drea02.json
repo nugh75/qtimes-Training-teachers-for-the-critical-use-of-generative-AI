@@ -1,0 +1,70 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_drea02.md",
+  "source_name": "insegnanti_attuali_drea02.md",
+  "title": "Risposta Drea02",
+  "group": "Insegnanti in servizio",
+  "record_code": "Drea02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:42:08.848334+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S"
+  ],
+  "record_subcodes": [
+    "A1",
+    "N1a",
+    "N1b",
+    "R5",
+    "S7"
+  ],
+  "record_note": "Profilo di insegnanti con barriere all'adozione legate alla mancanza di formazione e alla percezione di rischi specifici (valutazione).",
+  "code_counts": {
+    "A1": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "R5": 1,
+    "S7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Essendo nell' infanzia",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (cita il contesto lavorativo 'infanzia' senza rispondere alla domanda sull'uso dell'IA)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non ho una formazione in ciò",
+      "codes": [
+        "A1",
+        "R5"
+      ],
+      "reason": "Mancanza di formazione formale (A1) che porta a un non-uso motivato da insicurezza o scelta epistemica (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non saprei",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Valutazione, riassunti testi",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identificazione di ambiti off-limits (valutazione, riassunti) come pratiche non raccomandate."
+    }
+  ]
+}

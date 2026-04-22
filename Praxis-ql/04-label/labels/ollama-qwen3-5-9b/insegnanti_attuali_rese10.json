@@ -1,0 +1,81 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_rese10.md",
+  "source_name": "insegnanti_attuali_rese10.md",
+  "title": "Risposta rese10",
+  "group": "Insegnanti in servizio",
+  "record_code": "rese10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:52:21.292961+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I1",
+    "R2",
+    "S3",
+    "S4",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnanti con forte curiosità ma percezione di gap teorico/formativo, che vedono l'IA come strumento da integrare con cautela e controllo umano.",
+  "code_counts": {
+    "A1": 2,
+    "I1": 1,
+    "R2": 2,
+    "S3": 1,
+    "S4": 1,
+    "X2": 1,
+    "X7": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho sentito ancora la necessità di introdurre l'AI nel mio lavoro. Ritengo che la mia conoscenza teorica a riguardo non sia sufficiente per poterla applicare nella pratica. Ciononostante, sono molto curioso relativamente alle sue applicazioni nella didattica e ho intenzioni di provarci quanto prima.",
+      "codes": [
+        "R2",
+        "A1",
+        "X7"
+      ],
+      "reason": "R2: carente conoscenza teorica; A1: assenza di formazione/formale; X7: beneficio subordinato a controllo umano (attesa di preparazione)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Ritengo che la mia conoscenza teorica sull'AI sia carente per poterla applicare nella pratica. Ciononostante, sono molto curioso relativamente alle sue applicazioni nella didattica e ho intenzioni di provarci quanto prima.",
+      "codes": [
+        "R2",
+        "A1",
+        "X7"
+      ],
+      "reason": "R2: carente conoscenza teorica; A1: assenza di formazione/formale; X7: beneficio subordinato a controllo umano (attesa di preparazione)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienze che mi permettano di definire pro e contro nell'utilizzo dell'AI. Credo, però, che essa possa facilitare molto la didattica dal punto di vista della preparazione di lezioni, materiale didattico e prove di verifica (test, quiz, ecc) per la valutazione della preparazione degli studenti. Per contro, penso che essa possa essere utilizzata dagli studenti in modo irresponsabile per semplificare il proprio lavoro e, anche se involontariamente, sostituirsi alle attività intellettuali come la lettura, la ricerca di informazioni, la comprensione di testi, la produzione scritta ed orale, e altro.",
+      "codes": [
+        "X2",
+        "S4",
+        "S3"
+      ],
+      "reason": "X2: facilitazione preparazione materiali; S4: rischio sostituzione attività intellettuali (erosione pensiero critico); S3: rischio omologazione/semplificazione."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho gli elementi per poter definire quali pratiche che utilizzano l'AI NON dovrebbero essere impiegate nell'insegnamento; secondo me ogni strumento dovrebbe essere impiegato, anche se innovativo e non conosciuto fino in fondo, al fine di favorire il percorso di apprendimento degli studenti. Chiaramente il successo, o l'insuccesso, di una nuova pratica va stabilito solo dopo un suo utilizzo pratico.",
+      "codes": [
+        "X7",
+        "I1"
+      ],
+      "reason": "X7: uso di strumenti innovativi ma da verificare (fiducia condizionata); I1: fiducia tecnica condizionata (necessità di stabilire successo dopo uso pratico)."
+    }
+  ]
+}

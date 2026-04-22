@@ -1,0 +1,58 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_arta20.md",
+  "source_name": "insegnanti_futuri_arta20.md",
+  "title": "Risposta arta20",
+  "group": "Insegnanti pre-service",
+  "record_code": "arta20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:06.140046+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "I3",
+    "N1b",
+    "S3",
+    "S4"
+  ],
+  "record_note": "Il record mostra una percezione mista: da un lato la mancanza di esperienza pratica diretta (item 1), dall'altro una forte consapevolezza dei rischi etici e cognitivi (item 2 e 3).",
+  "code_counts": {
+    "I3": 1,
+    "N1b": 1,
+    "S3": 1,
+    "S4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ancora non ho avuto modo di fare didattica a scuola",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "La risposta non affronta il tema dell'uso dell'IA nella didattica ma cita un contesto lavorativo non ancora attivato, risultando fuori tema rispetto alla domanda."
+    },
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utilizzo inappropriato da parte degli studenti",
+      "codes": [
+        "I3"
+      ],
+      "reason": "Il partecipante cita un rischio etico (uso inappropriato da parte degli studenti) come contro, toccando il tema della fiducia/responsabilità degli utenti."
+    },
+    {
+      "index": 3,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Per la produzione di testi, in quanto si potrebbe minare alla fantasia degli studenti",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "La risposta evidenzia il rischio di perdita di fantasia (S3) e di erosione del pensiero critico (S4) nella produzione di testi tramite IA."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_lisi03.md",
+  "source_name": "insegnanti_attuali_lisi03.md",
+  "title": "Risposta lisi03",
+  "group": "Insegnanti in servizio",
+  "record_code": "lisi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:48:20.395674+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "N1a",
+    "N1b",
+    "R5",
+    "S3",
+    "S4",
+    "X1",
+    "X6"
+  ],
+  "record_note": "Profilo di docente con forte resistenza all'uso dell'IA dovuta a percezione di carenza di competenze e formazione, con consapevolezza dei rischi cognitivi e pedagogici.",
+  "code_counts": {
+    "A2": 1,
+    "N1a": 1,
+    "N1b": 1,
+    "R5": 1,
+    "S3": 1,
+    "S4": 1,
+    "X1": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota/non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché ritengo siano necessarie maggiori competenze",
+      "codes": [
+        "R5",
+        "A2"
+      ],
+      "reason": "Non uso motivato da insicurezza/competenza (R5) e supporto formativo insufficiente (A2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizzare alcune procedure, coinvolgimento maggiore degli studenti  Contro: non consente l’elaborazione personale degli studenti",
+      "codes": [
+        "X1",
+        "X6",
+        "S3",
+        "S4"
+      ],
+      "reason": "Pro: efficienza (X1), coinvolgimento (X6). Contro: perdita di elaborazione personale (S3), erosione pensiero critico (S4)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non ho esperienza",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema (non risponde alla domanda sulle pratiche sconsigliate)."
+    }
+  ]
+}

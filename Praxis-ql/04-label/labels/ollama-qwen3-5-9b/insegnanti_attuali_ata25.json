@@ -1,0 +1,132 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_ata25.md",
+  "source_name": "insegnanti_attuali_ata25.md",
+  "title": "Risposta ata25",
+  "group": "Insegnanti in servizio",
+  "record_code": "ata25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:39:14.768379+00:00",
+  "record_dimensions": [
+    "A",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "A3",
+    "N1c",
+    "P2",
+    "P6",
+    "R1",
+    "R4",
+    "X2",
+    "X3",
+    "X4",
+    "X6"
+  ],
+  "record_note": "Record eterogeneo: gli insegnanti mostrano familiarità con strumenti digitali e concetti pedagogici (UDL), ma evidenziano lacune nella competenza tecnica specifica (prompting) e resistenze legate a vincoli infrastrutturali e culturali.",
+  "code_counts": {
+    "A2": 1,
+    "A3": 1,
+    "N1c": 1,
+    "P2": 2,
+    "P6": 1,
+    "R1": 1,
+    "R4": 1,
+    "X2": 1,
+    "X3": 2,
+    "X4": 1,
+    "X6": 3
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Canva, Kahoot, PanQuiz, Padlet",
+      "codes": [
+        "P6"
+      ],
+      "reason": "Elenca strumenti digitali specifici (Canva, Kahoot, ecc.)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "attraverso una didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "codes": [
+        "P2",
+        "X3",
+        "X4"
+      ],
+      "reason": "Menzione esplicita di strategie per l'individualizzazione e inclusione (UDL)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "attraverso un metodo induttivo e una didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Menzione di strategie per la personalizzazione e eccellenza individuale."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Utilizzo principalmente l'AI integrata a tool digitali",
+      "codes": [
+        "R1",
+        "R4",
+        "N1c"
+      ],
+      "reason": "Risposta generica sulla competenza d'uso e mancanza di esempi concreti di prompt (tautologica)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "AI integrata al game based learning",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Menzione di un approccio innovativo (game based learning) per migliorare l'apprendimento."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Attraverso il gioco e le domande stimolo",
+      "codes": [
+        "X2",
+        "X6"
+      ],
+      "reason": "Uso del gioco e domande stimolo per facilitare la comprensione e coinvolgere."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Difficoltà di connettività, ampliamento dell'offerta formativa per i docenti e un disinteresse generale dei colleghi",
+      "codes": [
+        "A3",
+        "A2"
+      ],
+      "reason": "Cita vincoli infrastrutturali (connettività) e supporto diseguale (disinteresse colleghi)."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Supporto creativo",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Menzione del supporto creativo come beneficio principale."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "il plagio",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

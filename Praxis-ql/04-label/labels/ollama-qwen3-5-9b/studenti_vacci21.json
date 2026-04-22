@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_vacci21.md",
+  "source_name": "studenti_vacci21.md",
+  "title": "Risposta vacci21",
+  "group": "Studenti",
+  "record_code": "vacci21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:15:22.737039+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "P5",
+    "S2",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Record prevalentemente composto da risposte mancanti (N1b) con un'unica eccezione significativa (item 3) e un'analisi pro/contro (item 8).",
+  "code_counts": {
+    "N1b": 7,
+    "P5": 1,
+    "S2": 1,
+    "X2": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per schemi",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per creare schemi (P5) finalizzato alla personalizzazione dello studio (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro ti aiuta e specifica lo studio, contro ci sono persone che se ne approfittano",
+      "codes": [
+        "X2",
+        "S2"
+      ],
+      "reason": "Pro: aiuto nello studio e specificazione (X2); Contro: sfruttamento per compiti altrui (S2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": ".",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta vuota, non classificabile nel framework PRAXIS."
+    }
+  ]
+}

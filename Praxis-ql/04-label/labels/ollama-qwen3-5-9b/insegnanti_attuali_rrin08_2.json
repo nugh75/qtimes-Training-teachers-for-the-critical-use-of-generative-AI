@@ -1,0 +1,67 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_rrin08_2.md",
+  "source_name": "insegnanti_attuali_rrin08_2.md",
+  "title": "Risposta Rrin08",
+  "group": "Insegnanti in servizio",
+  "record_code": "Rrin08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:42:39.135722+00:00",
+  "record_dimensions": [
+    "A",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "R5",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Il record evidenzia il divario tra percezione di competenza (mancanza di formazione) e consapevolezza dei rischi etici e pedagogici dell'IA.",
+  "code_counts": {
+    "A1": 1,
+    "R5": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 1,
+    "X2": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non sento di essere adeguatamente formata.",
+      "codes": [
+        "A1",
+        "R5"
+      ],
+      "reason": "Mancanza di formazione formale (A1) e non-uso motivato da insicurezza/competenza percepita (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono risparmio di tempo, facilitazione di accesso alle informazioni, riduzione degli errori umani in determinate attività, facilitazione nell'analisi dei dati.... Contro: uso improprio, riduzione delle interazioni sociali dirette, dipendenza, limitazione del pensiero critico",
+      "codes": [
+        "X1",
+        "X2",
+        "X4",
+        "S4",
+        "S6"
+      ],
+      "reason": "Pro: risparmio tempo (X1), accesso info (X2), inclusione (X4). Contro: dipendenza (S4), riduzione interazioni (S6)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nella creazione di contenuti che non siano controllati e nell'automatizzazione della valutazione  che, se affidata completamente all'intelligenza artificiale, potrebbe portare a valuzioni  ingiuste in quanto non prende in considerazione l'empatia e di alcune sfumature del lavoro degli studenti.",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

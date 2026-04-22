@@ -1,0 +1,116 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_enna19.md",
+  "source_name": "studenti_enna19.md",
+  "title": "Risposta enna19",
+  "group": "Studenti",
+  "record_code": "enna19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:05:06.340865+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1b",
+    "P1",
+    "P2",
+    "P5",
+    "P7",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Studenti che usano l'IA principalmente per efficienza e supporto allo studio (riassunti, esercizi), con percezione mista su limiti (sintesi) e assenza di criticità etiche o pedagogiche evidenti.",
+  "code_counts": {
+    "I2": 1,
+    "N1b": 1,
+    "P1": 1,
+    "P2": 1,
+    "P5": 2,
+    "P7": 1,
+    "X1": 3,
+    "X2": 3
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "riassunti traduzioni e risoluzione esercizi",
+      "codes": [
+        "P1",
+        "P5",
+        "X1"
+      ],
+      "reason": "Elenco strumenti (riassunti, traduzioni, esercizi) e motivazione efficienza (faccio prima)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "mi risolve quello che non so fare e mi riassume testi troppo lunghi",
+      "codes": [
+        "P2",
+        "X2"
+      ],
+      "reason": "Uso per personalizzare studio (riassumere testi lunghi, colmare lacune) e semplificazione."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "traduci letteralemente questo testo oppure riassumi queste pagine o risolvi questo esercizio",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Prompting visibile (esempi di prompt) e strategie operative (traduzioni, riassunti, esercizi)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "faccio prima e studio solo quello che è importante",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Aiuto all'apprendimento tramite velocità (faccio prima) e focalizzazione sui concetti importanti."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato con un esposizione piu centrata sui concetti chiave",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite esposizione centrata sui concetti chiave."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "a volte è troppo sintetico",
+      "codes": [
+        "I2"
+      ],
+      "reason": "Difficoltà incontrata: sintesi eccessiva (errore/limitazione percepita)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro:faccio prima",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Pro principale identificato: velocità (faccio prima)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "secondo me devono essere usate tutte",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: afferma che tutti gli strumenti vanno usati senza specificare quali pratiche evitare."
+    }
+  ]
+}

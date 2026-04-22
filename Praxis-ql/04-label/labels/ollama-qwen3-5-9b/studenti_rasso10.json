@@ -1,0 +1,134 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rasso10.md",
+  "source_name": "studenti_rasso10.md",
+  "title": "Risposta rasso10",
+  "group": "Studenti",
+  "record_code": "rasso10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:21.695240+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S2",
+    "S4",
+    "S7",
+    "X1",
+    "X2",
+    "X4",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Studente con buona consapevolezza dei limiti etici e pedagogici dell'IA, che la usa principalmente per simulazioni e supporto, rifiutando l'uso per la produzione di elaborati originali.",
+  "code_counts": {
+    "N1a": 1,
+    "P4": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S2": 1,
+    "S4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X4": 1,
+    "X5": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini, credo sia più efficace rispetto a chat",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento Gemini e valutazione della sua efficacia."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per fare generare domande di autovalutazione",
+      "codes": [
+        "P4",
+        "X5"
+      ],
+      "reason": "Generazione di domande per autovalutazione e supporto al percorso di studio."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "sulla base del testo che ho inserito, estrai delle domande come se fosse un esame",
+      "codes": [
+        "P7",
+        "P5"
+      ],
+      "reason": "Esempio esplicito di prompt e descrizione dell'output (estrazione domande)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi permette di simulare l’esame",
+      "codes": [
+        "P4",
+        "X2"
+      ],
+      "reason": "Simulazione d'esame come metodo per migliorare l'apprendimento."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "sono più veloce nella fase di ripetizione",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Miglioramento della velocità nella ripetizione (comprensione/efficienza)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuno",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('nessuno') insufficiente per attribuire codici specifici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "PRO: Ti permette di migliorare la qualità dello studio, di implementare informazioni, di fare ricerche velocemente. CONTRO: utilizzarlo come UNICO metodo di studio e non come integrazione o fare risolvere all’AI propri compiti o consegne.",
+      "codes": [
+        "X1",
+        "X2",
+        "X4",
+        "X7"
+      ],
+      "reason": "Pro: efficienza, ricerca veloce, comprensione; Contro: uso unico (X7), plagio/risoluzione compiti (X4)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "scrivere tesi, tesine, compiti e temi. Riducono le proprie capacità.",
+      "codes": [
+        "S2",
+        "S7",
+        "S4"
+      ],
+      "reason": "Scrittura di tesi/compiti (S2), ambiti off-limits (S7), riduzione capacità (S4)."
+    }
+  ]
+}

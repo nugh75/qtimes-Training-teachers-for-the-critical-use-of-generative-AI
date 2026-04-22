@@ -1,0 +1,123 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_agie16.md",
+  "source_name": "studenti_agie16.md",
+  "title": "Risposta Agie16",
+  "group": "Studenti",
+  "record_code": "Agie16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:01:09.069228+00:00",
+  "record_dimensions": [
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "I5",
+    "P6",
+    "P7",
+    "R1",
+    "R2",
+    "R4",
+    "S7",
+    "X1",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Studente che utilizza l'IA per migliorare testi e vocabolario, con attenzione alla privacy e consapevolezza dei limiti (veridicità) e rischi di apprendimento superficiale.",
+  "code_counts": {
+    "I2": 1,
+    "I5": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R2": 1,
+    "R4": 1,
+    "S7": 1,
+    "X1": 1,
+    "X2": 3,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Copilot perché mi trovo bene con i testi",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento preferito (Copilot) e dichiarazione di comfort nell'uso."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La utilizzo per fare temi migliori",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per migliorare la qualità dei temi (semplificazione/comprensione)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi fare un tema (esempio) sull’ intelligenza artificiale?",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito in risposta alla richiesta di esempi."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Ad approfondire il mio vocabolario",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite approfondimento del vocabolario."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha migliorata ad approfondire i testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite approfondimento dei testi."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Forse nell’ essere sicura se mi diceva le cose giuste",
+      "codes": [
+        "I2",
+        "R2"
+      ],
+      "reason": "Incertezza sulla veridicità delle risposte (allucinazioni/errori) e comprensione dei limiti."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che ti possono facilitare nel tempo dello studio, il contro è che questa facilitazione può portare ad un apprendimento minore",
+      "codes": [
+        "X1",
+        "X7"
+      ],
+      "reason": "Pro: risparmio di tempo; Contro: beneficio subordinato a un apprendimento minore (controllo critico)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Forse la fotocamera ( anche se è utile ) per avere la privacy",
+      "codes": [
+        "I5",
+        "S7"
+      ],
+      "reason": "Rifiuto dell'uso della fotocamera per motivi di privacy e rispetto di ambiti off-limits."
+    }
+  ]
+}

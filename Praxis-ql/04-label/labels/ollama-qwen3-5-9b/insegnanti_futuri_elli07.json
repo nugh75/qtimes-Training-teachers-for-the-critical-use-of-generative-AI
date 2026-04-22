@@ -1,0 +1,75 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_elli07.md",
+  "source_name": "insegnanti_futuri_elli07.md",
+  "title": "Risposta elli07",
+  "group": "Insegnanti pre-service",
+  "record_code": "elli07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:44.467826+00:00",
+  "record_dimensions": [
+    "I",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I4",
+    "R1",
+    "R5",
+    "S7",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Profilo di docente pre-service con forte resistenza all'uso dell'IA, motivata da insicurezza tecnica e priorità alla relazione umana.",
+  "code_counts": {
+    "I4": 1,
+    "R1": 2,
+    "R5": 2,
+    "S7": 1,
+    "X2": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non ho le competenze adeguate",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Mancanza di competenze (R1) porta al non-uso motivato da insicurezza (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non sono fiduciosa nell’utilizzo dell’IA nella didattica",
+      "codes": [
+        "R1",
+        "R5"
+      ],
+      "reason": "Sfiducia tecnica (R1) come motivazione per il rifiuto consapevole dell'uso (R5)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Credo che l’IA sia molto utile nella progettazione didattica e molto meno nella valutazione",
+      "codes": [
+        "X2",
+        "X7"
+      ],
+      "reason": "Percezione di utilità nella progettazione (X2) ma beneficio subordinato al controllo umano nella valutazione (X7)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "La produzione di testi e la valutazione. È fondamentale in entrambi l’elemento umano.",
+      "codes": [
+        "S7",
+        "I4"
+      ],
+      "reason": "Identificazione di ambiti off-limits come valutazione e testi (S7) per preservare la relazione educativa (I4)."
+    }
+  ]
+}

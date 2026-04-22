@@ -1,0 +1,66 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_dini06.md",
+  "source_name": "insegnanti_futuri_dini06.md",
+  "title": "Risposta dini06",
+  "group": "Insegnanti pre-service",
+  "record_code": "dini06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:57:36.226364+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S7"
+  ],
+  "record_note": "Profilo di docente pre-service con forte resistenza all'uso dell'IA in ambito didattico, motivata da una visione pedagogica centrata sulla relazione umana e sulla natura emotiva dell'insegnamento.",
+  "code_counts": {
+    "I4": 2,
+    "N1b": 2,
+    "S7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Preferisco il contatto umano, in quanto non ha solo conoscenze ma anche credenze ed emozioni",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "Preferenza per la relazione umana (empatia, emozioni) e rifiuto dell'IA in ambiti off-limits come la relazione educativa."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per lo stesso motivo descritto nella domanda precedente",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta tautologica che rimanda alla domanda precedente senza fornire nuovo contenuto."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ho poca esperienza in merito. Il mio pensiero è che un rapporto educativo si basi sulla relazione, di conseguenza l'IA può/deve essere solo uno strumento e non un motus oprendi",
+      "codes": [
+        "I4",
+        "S7"
+      ],
+      "reason": "Sottolinea l'insostituibilità della relazione educativa e definisce l'IA come strumento non adatto al rapporto umano."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Non saprei",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Non saprei') che non permette l'attribuzione di codici specifici."
+    }
+  ]
+}

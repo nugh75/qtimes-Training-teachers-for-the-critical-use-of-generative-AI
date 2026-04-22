@@ -1,0 +1,74 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_nale22.md",
+  "source_name": "insegnanti_attuali_nale22.md",
+  "title": "Risposta NALE22",
+  "group": "Insegnanti in servizio",
+  "record_code": "NALE22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:49:03.631386+00:00",
+  "record_dimensions": [
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "R5",
+    "S1",
+    "S3",
+    "S4",
+    "S7",
+    "X3"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'uso dell'IA, motivata dalla tutela dello sviluppo cognitivo autonomo degli studenti e dalla prevenzione della delega cognitiva.",
+  "code_counts": {
+    "R5": 1,
+    "S1": 2,
+    "S3": 2,
+    "S4": 1,
+    "S7": 1,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Perchè temo possa impigrirci",
+      "codes": [
+        "S1",
+        "R5"
+      ],
+      "reason": "Rifiuto motivato dalla paura di indurre pigrizia (delega cognitiva eccessiva) e insicurezza sull'uso."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perchè insegnando alla scuola primaria i bambini devono ancora sviluppare delle abilità che consenta loro in futuro di gestire l'uso dell'I.A.",
+      "codes": [
+        "S1",
+        "X3"
+      ],
+      "reason": "Non uso per proteggere lo sviluppo di abilità autonome (competenza pratica futura) e personalizzazione del percorso."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Lo scarso impegno, scarsa capacità di analisi e senso critico",
+      "codes": [
+        "S4",
+        "S3"
+      ],
+      "reason": "Identificazione dei contro come erosione del pensiero critico e scarsa capacità di analisi (perdita di creatività)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Nell'ambito della creatività",
+      "codes": [
+        "S3",
+        "S7"
+      ],
+      "reason": "Identificazione dell'ambito della creatività come off-limits per evitare appiattimento e perdita di soggettività."
+    }
+  ]
+}

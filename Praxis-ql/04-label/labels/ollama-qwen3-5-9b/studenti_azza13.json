@@ -1,0 +1,101 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_azza13.md",
+  "source_name": "studenti_azza13.md",
+  "title": "Risposta azza13",
+  "group": "Studenti",
+  "record_code": "azza13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:02:41.425499+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P7",
+    "X2"
+  ],
+  "record_note": "Profilo caratterizzato prevalentemente da risposte brevissime (N1a) o da esempi di uso strumentale base (traduzione).",
+  "code_counts": {
+    "N1a": 6,
+    "P7": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "telefono",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "ok",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "traduci questo testo",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Prompt esplicitamente riportato (P7) e funzione di chiarificazione/traduzione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "molto facile",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "nel tradurre testi",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Esempio specifico di chiarificazione tramite traduzione (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "tutti pro",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica non informativa per attribuzione codici."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/insegnanti_attuali_handa11.md",
+  "source_name": "insegnanti_attuali_handa11.md",
+  "title": "Risposta Handa11",
+  "group": "Insegnanti in servizio",
+  "record_code": "Handa11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:40:40.773370+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "P",
+    "R",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "I2",
+    "N1b",
+    "P1",
+    "P5",
+    "P6",
+    "R1",
+    "R2",
+    "X2"
+  ],
+  "record_note": "Profilo di docente con uso strumentale dell'IA per ricerca, ma con scetticismo verso l'uso pedagogico diretto e consapevolezza dei rischi etici.",
+  "code_counts": {
+    "A2": 1,
+    "I2": 1,
+    "N1b": 4,
+    "P1": 1,
+    "P5": 1,
+    "P6": 1,
+    "R1": 1,
+    "R2": 1,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Gemini advanced. Perché mi sembra abbastanza affidabile e intuitivo",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento specifico (Gemini) e valutazione della sua affidabilità e intuitività."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Non la uso",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta negativa ('Non la uso') che non fornisce dati classificabili nel framework PRAXIS."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Non la uso ancora",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta negativa ('Non la uso ancora') che non fornisce dati classificabili nel framework PRAXIS."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Si",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta monosillabica ('Si') insufficiente per attribuzione di codici."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Non ne ho sentore",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta negativa ('Non ne ho sentore') che non fornisce dati classificabili nel framework PRAXIS."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Ricerche bibliografiche",
+      "codes": [
+        "P1",
+        "P5",
+        "X2"
+      ],
+      "reason": "L'IA viene usata per ricerche bibliografiche (produzione materiali, semplificazione)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Comprensione reale delle potenzialità e dei rischi",
+      "codes": [
+        "R2",
+        "A2"
+      ],
+      "reason": "Difficoltà legate alla comprensione delle potenzialità e rischi (competenza teorica) e supporto inadeguato."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro:Facilitazione ricerche; contro: manipolazione psichica",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: facilitazione (semplificazione); Contro: manipolazione psichica (sfiducia/rischio)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Processo di ragionamento per implementare il libero pensiero (pensiero critico)",
+      "codes": [],
+      "reason": ""
+    }
+  ]
+}

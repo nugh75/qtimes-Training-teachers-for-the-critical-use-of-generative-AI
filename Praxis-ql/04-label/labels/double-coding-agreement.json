@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "models": [
+      "gemma4:31b",
+      "qwen3:32b"
+    ],
+    "records_compared": 0,
+    "records_missing_gemma4:31b": 0,
+    "records_missing_qwen3:32b": 2,
+    "items_compared": 0,
+    "item_exact_set_agreement": 0.0,
+    "item_exact_dimension_agreement": 0.0,
+    "item_mean_jaccard": 0.0,
+    "n1_assignments_gemma4:31b": 0,
+    "n1_assignments_qwen3:32b": 0,
+    "disagreements_captured": 0
+  },
+  "missing_records": {
+    "gemma4:31b": [],
+    "qwen3:32b": [
+      "insegnanti_attuali_19albe",
+      "studenti_azzo23"
+    ]
+  },
+  "disagreements": [],
+  "run_reports": [
+    {
+      "model": "gemma4:31b",
+      "output_dir": "/home/nugh75/-qtimes/Praxis-ql/04-label/labels/ollama-gemma4-31b",
+      "processed": 2,
+      "failures": [],
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "model": "qwen3:32b",
+      "output_dir": "/home/nugh75/-qtimes/Praxis-ql/04-label/labels/ollama-qwen3-32b",
+      "processed": 0,
+      "failures": [
+        {
+          "path": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_19albe.md",
+          "error": "timed out"
+        },
+        {
+          "path": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_azzo23.md",
+          "error": "timed out"
+        }
+      ],
+      "statuses": {}
+    }
+  ],
+  "input": {
+    "files_selected": 2,
+    "glob": "*.md",
+    "input_dir": "/home/nugh75/-qtimes/Praxis-ql/raw",
+    "stems_file": "/tmp/double_test_stems.txt",
+    "detailed_log": "04-label/labels/double-coding-detailed.log"
+  }
+}

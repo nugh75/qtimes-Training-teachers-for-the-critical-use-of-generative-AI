@@ -1,0 +1,52 @@
+<View>
+  <Header value="PRAXIS double-coding human review" />
+  <Text name="context" value="$context" />
+
+  <Header value="Model outputs" />
+  <Text name="m1" value="gemma4:e4b: $model_a_codes" />
+  <Text name="m2" value="qwen3.5:9b: $model_b_codes" />
+  <Text name="metrics" value="Exact match: $exact_match | Jaccard: $jaccard" />
+
+  <Header value="Human final coding" />
+  <Choices name="human_codes" toName="context" choice="multiple" showInLine="true">
+      <Choice value="A1" />
+      <Choice value="A2" />
+      <Choice value="A3" />
+      <Choice value="A4" />
+      <Choice value="I1" />
+      <Choice value="I2" />
+      <Choice value="I3" />
+      <Choice value="I4" />
+      <Choice value="I5" />
+      <Choice value="N1" />
+      <Choice value="N1a" />
+      <Choice value="N1b" />
+      <Choice value="N1c" />
+      <Choice value="P1" />
+      <Choice value="P2" />
+      <Choice value="P3" />
+      <Choice value="P4" />
+      <Choice value="P5" />
+      <Choice value="P6" />
+      <Choice value="P7" />
+      <Choice value="R1" />
+      <Choice value="R2" />
+      <Choice value="R3" />
+      <Choice value="R4" />
+      <Choice value="R5" />
+      <Choice value="S1" />
+      <Choice value="S2" />
+      <Choice value="S3" />
+      <Choice value="S4" />
+      <Choice value="S5" />
+      <Choice value="S6" />
+      <Choice value="S7" />
+      <Choice value="X1" />
+      <Choice value="X2" />
+      <Choice value="X3" />
+      <Choice value="X4" />
+      <Choice value="X5" />
+      <Choice value="X6" />
+      <Choice value="X7" />
+  </Choices>
+</View>

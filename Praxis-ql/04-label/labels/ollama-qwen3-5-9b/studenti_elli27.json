@@ -1,0 +1,126 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_elli27.md",
+  "source_name": "studenti_elli27.md",
+  "title": "Risposta elli27",
+  "group": "Studenti",
+  "record_code": "elli27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:04:43.775629+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "R1",
+    "R4",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "record_note": "Profilo di studente che utilizza attivamente l'IA per velocizzare e personalizzare lo studio, ma ne percepisce i limiti (sintesi eccessiva) e definisce chiaramente i confini etici (non usare per compiti).",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "R4": 1,
+    "S7": 1,
+    "X1": 2,
+    "X2": 1,
+    "X3": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "copilot",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione dello strumento 'copilot' (P6) e dichiarazione di preferenza/uso (R1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "per aggiungere info particolari",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA per aggiungere info particolari a scopo di personalizzazione (P2, X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "\"riporta/elencami ..\" + \"prendi il tuo tempo\" + \"riporta riferimenti e fonti\"",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Elenca prompt specifici usati (P7) dimostrando competenza di prompting (R4)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "velocizza il processo di apprendimento",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "L'IA velocizza il processo (X1) e facilita la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "come riportato precedentemente in tabella",
+      "codes": [
+        "X4"
+      ],
+      "reason": "Riferimento a benefici già elencati, interpretati come miglioramento dell'accesso/apprendimento (X4)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "troppo sintetico",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'troppo sintetico' è troppo breve e non informativa per codificare il contenuto."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro - risparmio tempo; contro - troppo sintetico",
+      "codes": [
+        "X1",
+        "I2"
+      ],
+      "reason": "Pro: risparmio tempo (X1); Contro: troppo sintetico (I2 - errore/limitazione percepita)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "produzione testi, svolgimento esercizi ecc.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identifica ambiti off-limits come produzione testi ed esercizi (S7)."
+    }
+  ]
+}

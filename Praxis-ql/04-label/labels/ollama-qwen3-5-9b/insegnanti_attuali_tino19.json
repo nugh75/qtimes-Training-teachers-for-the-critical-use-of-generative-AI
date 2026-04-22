@@ -1,0 +1,79 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_tino19.md",
+  "source_name": "insegnanti_attuali_tino19.md",
+  "title": "Risposta Tino19",
+  "group": "Insegnanti in servizio",
+  "record_code": "Tino19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:54:34.219917+00:00",
+  "record_dimensions": [
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "R2",
+    "S1",
+    "S3",
+    "S4",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnante scettico verso l'IA, che percepisce rischi cognitivi e di perdita di umanità, rifiutando l'uso per mancanza di personalizzazione percepita.",
+  "code_counts": {
+    "N1b": 1,
+    "R2": 1,
+    "S1": 1,
+    "S3": 2,
+    "S4": 1,
+    "X1": 2,
+    "X2": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la considero mai tra le opzioni per un compito",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente nega l'uso dell'IA ma non fornisce una motivazione esplicativa richiesta dalla domanda."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Per qualsiasi informazione vado sempre su internet ma non utilizzo i software di AI perché sono meno personalizzabili anche se più veloci",
+      "codes": [
+        "R2",
+        "X1",
+        "X2"
+      ],
+      "reason": "Rifiuto basato sulla percezione di limiti (R2), con citazione esplicita di velocità (X1) e personalizzazione (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un pro è sicuramente la velocità di creare riassunti, immagini, risposte e informarsi. Un contro è che il cervello si impigrisce come quando usiamo la calcolatrice per le operazioni più elementari. Un altro è la poca \"umanità\" dei risultati e dei compiti svolti.",
+      "codes": [
+        "X1",
+        "X2",
+        "S1",
+        "S3"
+      ],
+      "reason": "Pro: velocità (X1), comprensione (X2). Contro: pigrizia cognitiva (S1), perdita di creatività (S3)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Sicuramente le pratiche che richiedono creatività",
+      "codes": [
+        "S3",
+        "S4"
+      ],
+      "reason": "Identificazione della creatività come ambito off-limits, collegato a rischi di appiattimento (S3) e erosione del pensiero critico (S4)."
+    }
+  ]
+}

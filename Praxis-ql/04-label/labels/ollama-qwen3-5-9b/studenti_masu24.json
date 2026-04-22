@@ -1,0 +1,112 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_masu24.md",
+  "source_name": "studenti_masu24.md",
+  "title": "Risposta masu24",
+  "group": "Studenti",
+  "record_code": "masu24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:09:22.321097+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "N1b",
+    "X2"
+  ],
+  "record_note": "Il record mostra una forte tendenza a risposte brevi o non informative (N1a) e a una percezione dell'IA focalizzata sulla semplificazione immediata (X2) e sulla paura di errori (I2), con assenza di riferimenti a competenze di prompting o strategie didattiche avanzate.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 3,
+    "N1b": 2,
+    "X2": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "si",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'si' non risponde alla domanda 'Se no...'; la risposta è fuori tema rispetto al presupposto della domanda."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "telefono perché è utile",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'utente cita il telefono come strumento preferito per la sua utilità, indicando una semplificazione e comprensione rapida."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non lo so' troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "non lo so",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'non lo so' troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "a capire meglio il testo",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA aiuta a 'capire meglio il testo', indicando una semplificazione e comprensione più rapida."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi fa entrare le cose in testa",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA fa 'entrare le cose in testa', indicando una semplificazione e comprensione più rapida."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'nessuna' troppo breve e non informativa per attribuzione di codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro aiuta ad avere un modo di parlare più sicuro contro può farti sbagliare",
+      "codes": [
+        "X2",
+        "I2"
+      ],
+      "reason": "Pro: semplificazione/comprensione (X2). Contro: 'può farti sbagliare' indica sfiducia tecnica o errori (I2)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "genie",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'genie' è fuori tema rispetto alla domanda sulle pratiche non raccomandate."
+    }
+  ]
+}

@@ -3,25 +3,73 @@
   const { useEffect, useMemo, useState } = React;
 
   const DIMENSION_COLORS = {
-    A: "#e76f51",
-    I: "#6c5ce7",
-    P: "#2a9d8f",
-    R: "#f4a261",
-    S: "#577590",
-    X: "#43aa8b",
+    A: "#D55E00",
+    I: "#0072B2",
+    P: "#009E73",
+    R: "#E69F00",
+    S: "#CC79A7",
+    X: "#56B4E9",
   };
+
+  const SCOPE_COLORS = {
+    ALL: "#334155",
+    Studenti: "#2563EB",
+    "Insegnanti in servizio": "#0F766E",
+    "Insegnanti pre-service": "#B45309",
+    Sconosciuto: "#6B7280",
+  };
+
+  const FALLBACK_COLOR = "#60748a";
+  const CROSS_EDGE_COLOR = "#9ab0c8";
 
   function fmtPct(value) {
     return `${value.toFixed(1)}%`;
   }
 
+  function clamp01(value) {
+    return Math.max(0, Math.min(1, value));
+  }
+
+  function hexToRgb(hex) {
+    if (!hex || typeof hex !== "string") return null;
+    const clean = hex.trim().replace("#", "");
+    if (clean.length !== 6 || /[^0-9a-f]/i.test(clean)) return null;
+    return {
+      r: parseInt(clean.slice(0, 2), 16),
+      g: parseInt(clean.slice(2, 4), 16),
+      b: parseInt(clean.slice(4, 6), 16),
+    };
+  }
+
+  function blendHex(baseHex, mixHex, ratio) {
+    const base = hexToRgb(baseHex);
+    const mix = hexToRgb(mixHex);
+    if (!base || !mix) return baseHex || mixHex || FALLBACK_COLOR;
+    const t = clamp01(ratio);
+    const r = Math.round(base.r + (mix.r - base.r) * t);
+    const g = Math.round(base.g + (mix.g - base.g) * t);
+    const b = Math.round(base.b + (mix.b - base.b) * t);
+    return `#${[r, g, b]
+      .map((n) => n.toString(16).padStart(2, "0"))
+      .join("")}`;
+  }
+
+  function lightenColor(hex, amount) {
+    return blendHex(hex, "#ffffff", amount);
+  }
+
   function colorForCode(code) {
-    if (!code || typeof code !== "string") return "#60748a";
-    return DIMENSION_COLORS[code[0]] || "#60748a";
+    if (!code || typeof code !== "string") return FALLBACK_COLOR;
+    return DIMENSION_COLORS[code[0]] || FALLBACK_COLOR;
+  }
+
+  function colorForScope(scope) {
+    if (!scope || typeof scope !== "string") return SCOPE_COLORS.ALL;
+    return SCOPE_COLORS[scope] || SCOPE_COLORS.Sconosciuto;
   }
 
   function GraphView(props) {
-    const { nodes, edges, minEdgeWeight, selectedNode, onSelectNode } = props;
+    const { nodes, edges, minEdgeWeight, selectedNode, onSelectNode, scopeColor } = props;
     const width = 860;
     const height = 560;
     const cx = width / 2;
@@ -76,6 +124,7 @@
         }),
         laidOut.map((node) => {
           const active = !selectedNode || selectedNode === node.id;
+          const dimensionColor = DIMENSION_COLORS[node.id] || FALLBACK_COLOR;
           return h(
             "g",
             {
@@ -86,20 +135,21 @@
             h("circle", {
               cx: node.x,
               cy: node.y,
-              r: node.r + 2,
-              fill: "#ffffff",
-              fillOpacity: 0.96,
-              stroke: "rgba(25, 38, 56, 0.16)",
-              strokeWidth: 1.2,
+              r: node.r + 3.2,
+              fill: lightenColor(scopeColor, 0.9),
+              fillOpacity: active ? 0.98 : 0.5,
+              stroke: scopeColor,
+              strokeOpacity: active ? 0.9 : 0.45,
+              strokeWidth: active ? 2.4 : 1.6,
             }),
             h("circle", {
               cx: node.x,
               cy: node.y,
               r: node.r,
-              fill: DIMENSION_COLORS[node.id] || "#5d7288",
-              fillOpacity: active ? 0.92 : 0.26,
-              stroke: "#0f1f30",
-              strokeOpacity: 0.2,
+              fill: dimensionColor,
+              fillOpacity: active ? 0.94 : 0.3,
+              stroke: blendHex(dimensionColor, "#0f1f30", 0.25),
+              strokeOpacity: 0.42,
               strokeWidth: 1.5,
             }),
             h("text", {
@@ -127,7 +177,7 @@
   }
 
   function SubcodeGraphView(props) {
-    const { subcodes, relations, selectedSubcode, onSelectSubcode } = props;
+    const { subcodes, relations, selectedSubcode, onSelectSubcode, scopeColor } = props;
     const width = 860;
     const height = 520;
     const cx = width / 2;
@@ -200,7 +250,7 @@
             y1: left.y,
             x2: right.x,
             y2: right.y,
-            stroke: sameDimension ? colorForCode(edge.source) : "#9ab0c8",
+            stroke: sameDimension ? colorForCode(edge.source) : CROSS_EDGE_COLOR,
             strokeWidth: 1 + (edge.weight / maxEdge) * 7,
             strokeOpacity: active ? 0.68 : 0.08,
             strokeLinecap: "round",
@@ -208,6 +258,8 @@
         }),
         nodes.map((node) => {
           const active = !selectedSubcode || selectedSubcode === node.id;
+          const baseColor = colorForCode(node.id);
+          const subnodeColor = lightenColor(baseColor, 0.2);
           return (
           h(
             "g",
@@ -221,16 +273,21 @@
               cx: node.x,
               cy: node.y,
               r: node.r + 2,
-              fill: "#ffffff",
-              stroke: "rgba(15, 31, 48, 0.15)",
-              strokeWidth: 1,
+              fill: lightenColor(scopeColor, 0.9),
+              fillOpacity: active ? 0.96 : 0.52,
+              stroke: scopeColor,
+              strokeOpacity: active ? 0.88 : 0.46,
+              strokeWidth: active ? 1.8 : 1.2,
             }),
             h("circle", {
               cx: node.x,
               cy: node.y,
               r: node.r,
-              fill: colorForCode(node.id),
-              fillOpacity: active ? 0.92 : 0.28,
+              fill: subnodeColor,
+              fillOpacity: active ? 0.95 : 0.34,
+              stroke: baseColor,
+              strokeOpacity: 0.72,
+              strokeWidth: 1.1,
             }),
             h(
               "text",
@@ -239,6 +296,7 @@
                 y: node.y + 4,
                 className: "sub-node-code",
                 textAnchor: "middle",
+                style: { fill: "#0f1f30" },
               },
               node.id
             ),
@@ -315,6 +373,7 @@
       dimension_to_subcodes: {},
       subcode_relations: [],
     };
+    const scopeColor = colorForScope(scope);
 
     const maxEdgeWeight = Math.max(...graph.edges.map((e) => e.weight), 1);
     const edgesSorted = [...graph.edges].sort((a, b) => b.weight - a.weight).slice(0, 8);
@@ -354,13 +413,32 @@
       });
     const shownSubRelations = filteredSubRelations.slice(0, 20);
 
+    const navLinks = h(
+      "p",
+      { className: "header-nav" },
+      h(
+        "a",
+        { href: "../", className: "header-nav-link" },
+        "Home Quartz"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h("span", { className: "header-nav-current" }, "PRAXIS Graph"),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "./wiki/", className: "header-nav-link" },
+        "Wiki Graph"
+      )
+    );
+
     if (error) {
       return h(
         "div",
         { className: "page" },
         h("div", { className: "panel header" },
           h("h1", null, "PRAXIS Graph"),
-          h("p", null, error)
+          h("p", null, error),
+          navLinks
         )
       );
     }
@@ -371,7 +449,8 @@
         { className: "page" },
         h("div", { className: "panel header" },
           h("h1", null, "PRAXIS Graph"),
-          h("p", null, "Caricamento in corso...")
+          h("p", null, "Caricamento in corso..."),
+          navLinks
         )
       );
     }
@@ -387,7 +466,8 @@
           "p",
           null,
           "Vista React affiancata a Quartz. Nodi = dimensioni, spessore archi = co-occorrenza nello stesso item."
-        )
+        ),
+        navLinks
       ),
       h(
         "div",
@@ -439,7 +519,18 @@
                     onChange: (evt) => setMinEdgeWeight(Number(evt.target.value)),
                   })
                 ),
-                h("div", { className: "chip" }, `Generato: ${new Date(payload.meta.generated_at).toLocaleString("it-IT")}`)
+                h(
+                  "div",
+                  {
+                    className: "chip",
+                    style: {
+                      borderColor: scopeColor,
+                      background: lightenColor(scopeColor, 0.9),
+                      color: "#1f3347",
+                    },
+                  },
+                  `${scope === "ALL" ? "Tutti i gruppi" : scope} · ${new Date(payload.meta.generated_at).toLocaleString("it-IT")}`
+                )
               ),
               h(
                 "div",
@@ -449,16 +540,50 @@
                 h("div", { className: "kpi" }, h("div", { className: "n" }, graph.total_dimension_mentions), h("div", { className: "l" }, "Menzioni dimensioni")),
                 h("div", { className: "kpi" }, h("div", { className: "n" }, graph.edges.length), h("div", { className: "l" }, "Relazioni"))
               ),
-              h("div", { className: "legend inline" },
-                graph.nodes.map((node) =>
-                  h(
-                    "div",
-                    { className: "legend-item", key: `top-legend-${node.id}` },
-                    h("span", {
-                      className: "swatch",
-                      style: { background: DIMENSION_COLORS[node.id] || "#60748a" },
-                    }),
-                    h("span", null, `${node.id} · ${node.label}`)
+              h(
+                "div",
+                { className: "legend", style: { gap: "6px" } },
+                h(
+                  "div",
+                  { className: "legend-item", style: { fontWeight: 700, color: "#2b3b4c" } },
+                  "Dimensioni PRAXIS"
+                ),
+                h("div", { className: "legend inline" },
+                  graph.nodes.map((node) =>
+                    h(
+                      "div",
+                      { className: "legend-item", key: `top-legend-${node.id}` },
+                      h("span", {
+                        className: "swatch",
+                        style: { background: DIMENSION_COLORS[node.id] || FALLBACK_COLOR },
+                      }),
+                      h("span", null, `${node.id} · ${node.label}`)
+                    )
+                  )
+                ),
+                h(
+                  "div",
+                  { className: "legend-item", style: { fontWeight: 700, color: "#2b3b4c" } },
+                  "Tipi soggetto"
+                ),
+                h("div", { className: "legend inline" },
+                  Object.entries(SCOPE_COLORS).map(([name, color]) =>
+                    h(
+                      "div",
+                      {
+                        className: "legend-item",
+                        key: `scope-legend-${name}`,
+                        style: {
+                          background: scope === name ? lightenColor(color, 0.86) : "#fff",
+                          borderColor: scope === name ? color : "var(--border)",
+                        },
+                      },
+                      h("span", {
+                        className: "swatch",
+                        style: { background: color },
+                      }),
+                      h("span", null, name === "ALL" ? "Tutti i gruppi" : name)
+                    )
                   )
                 )
               )
@@ -472,6 +597,7 @@
                 minEdgeWeight,
                 selectedNode,
                 onSelectNode: setSelectedNode,
+                scopeColor,
               })
             )
           ),
@@ -590,6 +716,7 @@
                     relations: filteredSubRelations,
                     selectedSubcode,
                     onSelectSubcode: setSelectedSubcode,
+                    scopeColor,
                   })
             )
           ),
@@ -628,7 +755,7 @@
                       h("span", {
                         style: {
                           width: `${row.share}%`,
-                          background: DIMENSION_COLORS[row.id] || "#60748a",
+                          background: DIMENSION_COLORS[row.id] || FALLBACK_COLOR,
                         },
                       })
                     )

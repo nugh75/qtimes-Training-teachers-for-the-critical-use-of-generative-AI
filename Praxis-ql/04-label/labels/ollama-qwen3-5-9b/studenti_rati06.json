@@ -1,0 +1,121 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_rati06.md",
+  "source_name": "studenti_rati06.md",
+  "title": "Risposta RATI06",
+  "group": "Studenti",
+  "record_code": "RATI06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:47:19.387086+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1a",
+    "P6",
+    "P7",
+    "S4",
+    "S6",
+    "X1",
+    "X2",
+    "X3"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale e compensativo dell'IA (velocità, chiarimenti) con una consapevolezza dei rischi legati alla sostituzione delle capacità cognitive.",
+  "code_counts": {
+    "I1": 1,
+    "N1a": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S6": 1,
+    "X1": 3,
+    "X2": 5,
+    "X3": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "ChatGPT perché riesco a trovare facilmente risposte a dubbi che mi vengono in mente mentre studio",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione di ChatGPT (P6), utilità per trovare risposte a dubbi (X2) e velocità (X1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "cerco cose su cui ho dubbi",
+      "codes": [
+        "X3"
+      ],
+      "reason": "Uso dell'IA per cercare cose su cui si hanno dubbi, indicando un adattamento al bisogno specifico (X3)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "“Cos’è …?” Quindi cerco definizioni",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) e ricerca di definizioni per chiarire concetti (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "È rapida e efficace",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Descrizione dell'IA come rapida (X1) e efficace per la comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "cerco velocemente definizioni e informazioni poco chiare",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite ricerca veloce di definizioni e chiarimenti (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta 'Nessuna' è troppo breve per attribuire codici specifici di esperienza o difficoltà."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "il pro è che è molto veloce ed efficace; il contro è che potrebbe essere abusata da molti",
+      "codes": [
+        "X1",
+        "X2",
+        "I1"
+      ],
+      "reason": "Pro: velocità (X1), comprensione (X2); Contro: rischio di abuso (I1 - fiducia condizionata)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "AI che sostituiscano le capacità che lo studente dovrebbe imparare",
+      "codes": [
+        "S6",
+        "S4"
+      ],
+      "reason": "Pratica non raccomandata: sostituzione delle capacità dello studente (S6) e erosione del pensiero critico (S4)."
+    }
+  ]
+}

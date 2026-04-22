@@ -1,0 +1,125 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_tili10.md",
+  "source_name": "studenti_tili10.md",
+  "title": "Risposta tili10",
+  "group": "Studenti",
+  "record_code": "tili10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:47:46.966997+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "N1a",
+    "P5",
+    "P7",
+    "X1",
+    "X2",
+    "X5",
+    "X6",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale e pragmatico dell'IA (velocità, chiarimenti, organizzazione), con una forte consapevolezza dei limiti (necessità di verifica) e assenza di difficoltà tecniche o etiche percepite.",
+  "code_counts": {
+    "I1": 1,
+    "N1a": 1,
+    "P5": 1,
+    "P7": 1,
+    "X1": 1,
+    "X2": 4,
+    "X5": 1,
+    "X6": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La utilizzo",
+      "codes": [
+        "X5"
+      ],
+      "reason": "Risposta affermativa all'uso dell'IA per il supporto al percorso di studio."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Perché spesso mi rendono più veloce il lavoro",
+      "codes": [
+        "X1"
+      ],
+      "reason": "Motivazione esplicita legata alla velocizzazione del lavoro."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Chiedendo parole che non capisco e concetti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Uso dell'IA per chiarire parole e concetti non compresi (semplificazione)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Genera una caption per Instagram che…",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio concreto di prompt (P7) e finalità di focalizzazione del compito (X2)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "A più che altro mi dà degli input da cui partire",
+      "codes": [
+        "X2"
+      ],
+      "reason": "L'IA fornisce input di partenza per facilitare l'apprendimento."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Spesso mi sistema i concetti in tabelle.",
+      "codes": [
+        "X2",
+        "P5"
+      ],
+      "reason": "Organizzazione dei concetti in tabelle per migliorare la comprensione (X2) e produzione di schemi (P5)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica ('Nessuna') insufficiente per attribuire codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Le risposte sono da prendere con le molle. Bisogna sempre verificare. Anche nella versione a pagamento",
+      "codes": [
+        "I1",
+        "X7"
+      ],
+      "reason": "Necessità di verifica critica (I1) e beneficio subordinato al controllo umano (X7)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non saprei. Tutte potrebbero beneficiarne.",
+      "codes": [
+        "X6"
+      ],
+      "reason": "Percezione che tutte le pratiche possano beneficiare dell'IA (coinvolgimento/innovazione)."
+    }
+  ]
+}

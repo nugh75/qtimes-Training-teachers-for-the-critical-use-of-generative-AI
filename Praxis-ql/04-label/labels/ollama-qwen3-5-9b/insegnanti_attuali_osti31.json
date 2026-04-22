@@ -1,0 +1,150 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_osti31.md",
+  "source_name": "insegnanti_attuali_osti31.md",
+  "title": "Risposta osti31",
+  "group": "Insegnanti in servizio",
+  "record_code": "osti31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:50:48.519626+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A2",
+    "I2",
+    "P1",
+    "P2",
+    "P5",
+    "P6",
+    "R4",
+    "S4",
+    "S5",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X7"
+  ],
+  "record_note": "Insegnante che utilizza l'IA principalmente per la produzione di materiali didattici (mappe, riassunti) e per personalizzare i percorsi, ma che mantiene una forte attenzione al ruolo critico dello studente e ai limiti dell'IA, evitando la delega cognitiva totale.",
+  "code_counts": {
+    "A2": 1,
+    "I2": 1,
+    "P1": 3,
+    "P2": 2,
+    "P5": 4,
+    "P6": 1,
+    "R4": 1,
+    "S4": 2,
+    "S5": 1,
+    "X1": 1,
+    "X2": 3,
+    "X3": 2,
+    "X4": 2,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chatgpt perchè riesce a rispondere a qualsiasi richiesta sia essa scritta che immagine",
+      "codes": [
+        "P1",
+        "P6",
+        "X1"
+      ],
+      "reason": "Identificazione di ChatGPT come strumento (P6), produzione di risposte a richieste varie (P1), e vantaggio di efficienza/versatilità (X1)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "tramite creazione di mappe o riassunti personalizzati in base allo stile di apprendimento",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di mappe/riassunti (P5), adattamento allo stile di apprendimento (P2), e personalizzazione del percorso (X3)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "tramite creazione di mappe o riassunti personalizzati in base allo stile di apprendimento e per realizzare verifiche idonee",
+      "codes": [
+        "P2",
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di mappe/riassunti (P5), adattamento allo stile di apprendimento (P2), e personalizzazione del percorso (X3)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "scrivo la richiesta necessaria in maniera più dettagliata possibile in base alle mie necessità",
+      "codes": [
+        "R4",
+        "X2"
+      ],
+      "reason": "Descrizione della capacità di formulare prompt dettagliati (R4) e di ottenere chiarificazione/focalizzazione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "creazione di mappe personalizzate, riassunti, traduzione testi, risposte a curiosità e domande poste",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "Produzione di materiali come mappe e traduzioni (P1/P5), miglioramento della comprensione (X2) e accesso a contenuti (X4)."
+    },
+    {
+      "index": 6,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "creazione di mappe personalizzate, riassunti, traduzione testi, risposte a curiosità e domande poste",
+      "codes": [
+        "P1",
+        "P5",
+        "X2",
+        "X4"
+      ],
+      "reason": "Produzione di materiali come mappe e traduzioni (P1/P5), miglioramento della comprensione (X2) e accesso a contenuti (X4)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "non sempre sono di facile attuazione o sono precisi e dettagliati nelle richieste",
+      "codes": [
+        "A2",
+        "I2"
+      ],
+      "reason": "Difficoltà di attuazione indica supporto insufficiente (A2) e imprecisione/limiti dello strumento (I2)."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono molti, ma bisogna far capire agli studenti che l'intelligenza artificiale non deve sostituirsi alla loro intuizione, logica e capacità di ragionamento.",
+      "codes": [
+        "X7",
+        "S4"
+      ],
+      "reason": "Necessità di controllo umano per non sostituire l'intuizione (X7) e rischio di erosione del pensiero critico (S4)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "risoluzione di problemi ed esercizi senza una spiegazione adeguata del processo",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Risoluzione di esercizi senza spiegazione porta all'erosione del pensiero critico (S4) e a imprecisioni/apprendimento errato (S5)."
+    }
+  ]
+}

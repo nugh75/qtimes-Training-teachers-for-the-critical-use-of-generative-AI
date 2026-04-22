@@ -1,0 +1,141 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_futuri_nati19.md",
+  "source_name": "insegnanti_futuri_nati19.md",
+  "title": "Risposta nati19",
+  "group": "Insegnanti pre-service",
+  "record_code": "nati19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:59:22.998511+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P7",
+    "S2",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Profilo di insegnante pre-service che percepisce l'IA come strumento di supporto (riassunti, mappe) ma manifesta forti preoccupazioni etiche e pedagogiche (plagio, dipendenza cognitiva, necessità di controllo umano).",
+  "code_counts": {
+    "N1a": 2,
+    "P5": 3,
+    "P7": 1,
+    "S2": 1,
+    "S4": 1,
+    "X1": 1,
+    "X2": 5,
+    "X3": 1,
+    "X5": 1,
+    "X7": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "La uso in modo gratuito",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa per attribuzione codici."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Mi piacerebbe utilizzare Algor education che crea riassunti e mappe dalle foto",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti per creare riassunti e mappe (P5) e beneficio di comprensione rapida (X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando riassunti di alcuni argomenti ed esercitazioni",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di riassunti ed esercitazioni (P5) per velocizzare l'accesso ai contenuti (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creando riassunti di alcuni argomenti ed esercitazioni personalizzate",
+      "codes": [
+        "P5",
+        "X3"
+      ],
+      "reason": "Creazione di esercitazioni personalizzate (P5) per adattare il percorso (X3)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Creami un riassunto sulla civiltà greca",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio di prompt esplicito (P7) e accesso rapido alle informazioni (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato l'apprendimento dei tuoi studenti?",
+      "answer": "Velocizza il mio lavoro di tutor",
+      "codes": [
+        "X1",
+        "X5"
+      ],
+      "reason": "Miglioramento dell'apprendimento tramite velocizzazione del lavoro tutoriale (X1, X5)."
+    },
+    {
+      "index": 7,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare l'apprendimento dei tuoi studenti?",
+      "answer": "Fornisce le informazioni più importanti",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Fornitura delle informazioni più importanti per focalizzazione (X2)."
+    },
+    {
+      "index": 8,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua didattica?",
+      "answer": "Inserimento input",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve e non informativa."
+    },
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: ci dà la possibilità di accedere molto velocemente alle informazioni  Contro: porterà il nostro cervello a lavorare di meno soprattutto per gli studenti che non lo utilizzano rispettando i limiti",
+      "codes": [
+        "X2",
+        "X7"
+      ],
+      "reason": "Accesso veloce alle informazioni (X2) e beneficio subordinato a limiti/uso critico (X7)."
+    },
+    {
+      "index": 10,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Svolgere i compiti assegnati attraverso l'intelligenza artificiale, sicuramente è una risorsa utile ma va utilizzata con precauzione.",
+      "codes": [
+        "S2",
+        "S4",
+        "X7"
+      ],
+      "reason": "Svolgimento compiti (S2), rischio erosione pensiero critico (S4), uso con precauzione (X7)."
+    }
+  ]
+}

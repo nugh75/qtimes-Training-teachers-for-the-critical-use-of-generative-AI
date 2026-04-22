@@ -1,0 +1,89 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_uoli09.md",
+  "source_name": "insegnanti_attuali_uoli09.md",
+  "title": "Risposta uoli09",
+  "group": "Insegnanti in servizio",
+  "record_code": "uoli09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:55:19.978947+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I1",
+    "I2",
+    "I4",
+    "N1a",
+    "R2",
+    "S4",
+    "S5",
+    "S6",
+    "X2",
+    "X6"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'IA basata sulla sfiducia tecnica e sulla percezione di rischi pedagogici (erosione critica, perdita di soggettività docente).",
+  "code_counts": {
+    "I1": 1,
+    "I2": 2,
+    "I4": 1,
+    "N1a": 2,
+    "R2": 2,
+    "S4": 1,
+    "S5": 1,
+    "S6": 1,
+    "X2": 1,
+    "X6": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la conosco abbastanza, ne temo l’inattendibilità.",
+      "codes": [
+        "N1a",
+        "R2",
+        "I2"
+      ],
+      "reason": "Risposta breve (N1a) che esprime sfiducia tecnica (I2) e mancanza di conoscenza/competenza teorica (R2)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Perché non la conosco abbastanza.",
+      "codes": [
+        "N1a",
+        "R2",
+        "I2"
+      ],
+      "reason": "Risposta estremamente breve (N1a) che conferma la sfiducia tecnica (I2) e la mancanza di competenza (R2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può collaborare a creare contenuti sui quali poi si possa lavorare, immagini, reperire informazioni per iniziare una ricerca o uno studio.  Penso che però vada sempre supportata da studio e verifica delle informazioni. Temo si rischi di cadere nella passività e nella superficialità se non usata bene. Può creare contenuti superficiali e a basso livello alimentando pigrizia e ignoranza.",
+      "codes": [
+        "X2",
+        "X6",
+        "S4",
+        "S5",
+        "I1"
+      ],
+      "reason": "Pro: semplificazione (X2), coinvolgimento (X6). Contro: erosione pensiero critico (S4), superficialità (S5), fiducia condizionata (I1)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Utilizzare esclusivamente questa. Perché La soggettività del docente e della sua conoscenza della classe si potrebbero perdere.",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Rischio di sostituzione del docente (S6) e perdita della relazione educativa (I4)."
+    }
+  ]
+}

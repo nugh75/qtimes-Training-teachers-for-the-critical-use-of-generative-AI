@@ -1,0 +1,65 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_ileo20.md",
+  "source_name": "insegnanti_attuali_ileo20.md",
+  "title": "Risposta ILEO20",
+  "group": "Insegnanti in servizio",
+  "record_code": "ILEO20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:46:18.578948+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "S"
+  ],
+  "record_subcodes": [
+    "I4",
+    "N1b",
+    "S6"
+  ],
+  "record_note": "Il record mostra una forte resistenza all'adozione dell'IA da parte degli insegnanti, motivata da mancanza di competenze (N1b) e da convinzioni pedagogiche sulla centralità della relazione umana (S6, I4).",
+  "code_counts": {
+    "I4": 1,
+    "N1b": 2,
+    "S6": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non conosco la materia",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente cita la propria materia di insegnamento, non l'uso o il non uso dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "perchè non conosco l'utilizzo dell'intelligenza artificiale",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: l'utente ammette di non conoscere l'uso dell'IA, ma non fornisce motivazioni pedagogiche o tecniche relative all'adozione didattica."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Spesso l'utilizzo viene utilizzato in maniera sostitutiva dell'alunno",
+      "codes": [
+        "S6"
+      ],
+      "reason": "Codice S6 applicato: la risposta identifica esplicitamente la sostituzione dell'alunno come pratica negativa."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "l'utilizzo di questa innovazione è utilissima ma certamente nella scuola non può sostituire il docente e la possibilità di interagire con gli alunni",
+      "codes": [
+        "S6",
+        "I4"
+      ],
+      "reason": "Codice S6 per la non-sostituzione del docente e I4 per l'insostituibilità della relazione educativa."
+    }
+  ]
+}

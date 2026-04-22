@@ -1,0 +1,82 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_enzi22.md",
+  "source_name": "insegnanti_attuali_enzi22.md",
+  "title": "Risposta enzi22",
+  "group": "Insegnanti in servizio",
+  "record_code": "enzi22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:43:46.339184+00:00",
+  "record_dimensions": [
+    "A",
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "A1",
+    "I1",
+    "N1a",
+    "R1",
+    "S5",
+    "S7",
+    "X2",
+    "X4"
+  ],
+  "record_note": "Profilo di insegnanti con bassa familiarità tecnica (R1) e percezione dei rischi legati alla generazione di contenuti (S7, S5).",
+  "code_counts": {
+    "A1": 1,
+    "I1": 1,
+    "N1a": 1,
+    "R1": 2,
+    "S5": 1,
+    "S7": 1,
+    "X2": 1,
+    "X4": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "Non la conosco adeguatamente",
+      "codes": [
+        "R1",
+        "N1a"
+      ],
+      "reason": "Risposta breve che indica mancanza di competenza tecnica (R1) e non permette di applicare altri codici (N1a)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "Non conosco sufficientemente gli strumenti",
+      "codes": [
+        "R1",
+        "A1"
+      ],
+      "reason": "Mancanza di conoscenza degli strumenti (R1) e assenza di formazione formale (A1)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro forse per semplificazione BES - Contro scarsa applicazione",
+      "codes": [
+        "X2",
+        "X4",
+        "S5"
+      ],
+      "reason": "Pro: semplificazione (X2) e inclusione BES (X4); Contro: scarsa applicazione/affidabilità (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "Stesura testi e ricerche",
+      "codes": [
+        "S7",
+        "I1"
+      ],
+      "reason": "Identificazione di ambiti off-limits come la stesura di testi (S7) e fiducia condizionata (I1)."
+    }
+  ]
+}

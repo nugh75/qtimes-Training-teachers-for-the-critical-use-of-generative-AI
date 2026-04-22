@@ -1,0 +1,134 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_uzza29.md",
+  "source_name": "studenti_uzza29.md",
+  "title": "Risposta uzza29",
+  "group": "Studenti",
+  "record_code": "uzza29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:15:15.877822+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P2",
+    "P6",
+    "P7",
+    "R4",
+    "S1",
+    "S4",
+    "X1",
+    "X2",
+    "X3",
+    "X5"
+  ],
+  "record_note": "Profilo di studente che utilizza l'IA principalmente per ricerca e supporto iniziale, consapevole dei rischi di delega eccessiva, senza riportare difficoltà tecniche o mancanza di formazione.",
+  "code_counts": {
+    "N1a": 2,
+    "P2": 1,
+    "P6": 1,
+    "P7": 1,
+    "R4": 1,
+    "S1": 2,
+    "S4": 1,
+    "X1": 1,
+    "X2": 4,
+    "X3": 1,
+    "X5": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "'-''.",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta ridotta a un simbolo che non fornisce informazioni."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Conensus mi permette di cercare e consultare fonti affidabili, reperendole facilmente",
+      "codes": [
+        "P6",
+        "X2"
+      ],
+      "reason": "Menzione di uno strumento specifico (Conensus) e beneficio di comprensione/reperibilità."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "La uso come spunto iniziale per creare qualcosa",
+      "codes": [
+        "P2",
+        "X3"
+      ],
+      "reason": "Uso dell'IA come spunto iniziale per adattare il materiale allo studente."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Spiegami la storia relativa allo scandalo di Edward Snowden e dove posso reperire materiale per approfondire il tema",
+      "codes": [
+        "P7",
+        "R4"
+      ],
+      "reason": "Esempio concreto di prompt fornito e dimostrazione di competenza nel formularlo."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "è uno strumento veloce che permette di organizzare e concettualizzare in modo facile gli argomenti",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Benefici di velocità, organizzazione e concettualizzazione degli argomenti."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mi ha permesso di migliorare la mia capacità di fare ricerca",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Miglioramento specifico della capacità di ricerca."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Nessuna",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta monosillabica che non permette di attribuire codici di difficoltà o contesto."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono la facilità con cui poter reperire le informazioni, il contro può essere un'eccessiva delega di compiti a strumenti di intelligenza artificiale che impoverirebbero le nostre capacità",
+      "codes": [
+        "X1",
+        "X2",
+        "S1"
+      ],
+      "reason": "Pro: facilità (X1/X2); Contro: rischio di delega eccessiva (S1)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non si dovrebbe delegare alle IA lo svolgimento diretto di compiti, poiché NON favorirebbe un apprendimento funzionale. Andrebbe utilizzata, piuttosto, come strumento di supporto",
+      "codes": [
+        "S1",
+        "S4"
+      ],
+      "reason": "Raccomandazione contro la delega diretta per favorire l'apprendimento funzionale (evitare erosione pensiero critico)."
+    }
+  ]
+}

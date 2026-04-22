@@ -1,0 +1,84 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/insegnanti_attuali_occo16.md",
+  "source_name": "insegnanti_attuali_occo16.md",
+  "title": "Risposta occo16",
+  "group": "Insegnanti in servizio",
+  "record_code": "occo16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T18:49:56.137576+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1a",
+    "R1",
+    "R5",
+    "S4",
+    "S5",
+    "X1",
+    "X2"
+  ],
+  "record_note": "Profilo di insegnanti con forte resistenza all'adozione dell'IA dovuta a insicurezza tecnica e percezione dei rischi cognitivi/epistemici.",
+  "code_counts": {
+    "I2": 1,
+    "N1a": 1,
+    "R1": 2,
+    "R5": 2,
+    "S4": 2,
+    "S5": 2,
+    "X1": 1,
+    "X2": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "probabilmente poca dimestichezza; non ne sento il bisogno",
+      "codes": [
+        "N1a",
+        "R1",
+        "R5"
+      ],
+      "reason": "Risposta breve (N1a) che indica insicurezza tecnica (R1) e rifiuto/non-uso motivato da questa (R5)."
+    },
+    {
+      "index": 2,
+      "question": "Puoi spiegare in maniera più dettagliata perché non utilizzi l'IA nella didattica?",
+      "answer": "strumento potentissimo e quindi potenzialmente \"pericoloso\"; non ne sono abbastanza padrone",
+      "codes": [
+        "R1",
+        "R5",
+        "I2"
+      ],
+      "reason": "Mancanza di padronanza (R1) porta al non-uso (R5); percezione di pericolosità legata a limiti/rischi (I2)."
+    },
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: velocità di ricerca/risposta, CONTRO: eliminazione di difficoltà della ricerca e di elaborazione di percorsi di ricerca efficaci",
+      "codes": [
+        "X1",
+        "X2",
+        "S4",
+        "S5"
+      ],
+      "reason": "Pro: velocità (X1), comprensione rapida (X2). Contro: eliminazione sforzo cognitivo (S4), affidabilità debole (S5)."
+    },
+    {
+      "index": 4,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate nell'insegnamento? E perché?",
+      "answer": "tutte quelle che evitano ricerca attiva e (ri)elaborazione, perchè non le stimolano",
+      "codes": [
+        "S4",
+        "S5"
+      ],
+      "reason": "Critica all'uso che evita ricerca attiva (erosione pensiero critico S4) e implica affidabilità debole (S5)."
+    }
+  ]
+}

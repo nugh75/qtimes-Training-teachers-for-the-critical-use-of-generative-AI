@@ -1,0 +1,124 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_iosi26.md",
+  "source_name": "studenti_iosi26.md",
+  "title": "Risposta iosi26",
+  "group": "Studenti",
+  "record_code": "iosi26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:08:04.175354+00:00",
+  "record_dimensions": [
+    "N",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1b",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per semplificazione e simulazione, con una forte attenzione ai limiti etici (off-limits) e alla sostituzione dell'impegno umano.",
+  "code_counts": {
+    "N1b": 3,
+    "S7": 1,
+    "X1": 3,
+    "X2": 3,
+    "X3": 1,
+    "X4": 1,
+    "X5": 1,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "non ne ho mai sentito il bisogno",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema rispetto alla domanda sulla non utilizzazione dell'IA."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "chat gpt, è immediato e molto utile",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione di immediatezza (risparmio tempo) e utilità (semplificazione)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Mi faccio spiegare concetti che non ho capito, in maniera più semplice; oppure facendogli generare degli esempi.",
+      "codes": [
+        "X2",
+        "X3"
+      ],
+      "reason": "Spiegazione concetti in modo semplice (comprensione) e personalizzazione dello studio."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Mi puoi fare un esempio di sovrascopo anti comunicativo? Grazie",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta fuori tema: chiede un esempio di 'sovrascopo anti comunicativo' invece di fornire prompt di studio."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "mi risponde con prontezza a qualsiasi domanda e mi aiuta a semplificare concetti",
+      "codes": [
+        "X1",
+        "X2"
+      ],
+      "reason": "Aiuto a semplificare concetti e prontezza delle risposte."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "mi ha aiutato a studiare per un esame universitario facendomi svolgere delle simulazioni per  essere pronta.",
+      "codes": [
+        "X4",
+        "X5"
+      ],
+      "reason": "Simulazioni per esami (allenamento) e supporto al percorso di studio."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "nessuna",
+      "codes": [
+        "N1b"
+      ],
+      "reason": "Risposta 'nessuna' non fornisce informazioni classificate nel framework PRAXIS."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Agevola la mole di studio se usata correttamente, d'altra parte puo' sostituire l'impegno, caratteristica dell'essere umano",
+      "codes": [
+        "X1",
+        "X7"
+      ],
+      "reason": "Agevolazione dello studio (pro) e rischio di sostituzione dell'impegno umano (contro/condizionamento)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Svolgere esercizi mirati teoricamente all'apprendimento del soggetto.",
+      "codes": [
+        "S7"
+      ],
+      "reason": "Identifica come off-limits lo svolgimento di esercizi mirati all'apprendimento del soggetto."
+    }
+  ]
+}

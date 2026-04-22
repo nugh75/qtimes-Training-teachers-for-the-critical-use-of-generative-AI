@@ -1,0 +1,121 @@
+{
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/raw/studenti_rone05.md",
+  "source_name": "studenti_rone05.md",
+  "title": "Risposta rone05",
+  "group": "Studenti",
+  "record_code": "rone05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:12:58.057372+00:00",
+  "record_dimensions": [
+    "I",
+    "N",
+    "P",
+    "R",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "I2",
+    "N1c",
+    "P5",
+    "P6",
+    "P7",
+    "R1",
+    "S5",
+    "X2",
+    "X7"
+  ],
+  "record_note": "Il record mostra un uso strumentale dell'IA focalizzato su semplificazione e produzione di materiali, con evidenti preoccupazioni riguardo all'affidabilità delle risposte e alla perdita di autonomia cognitiva.",
+  "code_counts": {
+    "I2": 1,
+    "N1c": 1,
+    "P5": 2,
+    "P6": 1,
+    "P7": 1,
+    "R1": 1,
+    "S5": 1,
+    "X2": 5,
+    "X7": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Chat gpt fornisce risposte esaustive",
+      "codes": [
+        "P6",
+        "R1"
+      ],
+      "reason": "Menzione di uno strumento specifico (ChatGPT) e percezione della sua utilità (risposte esaustive)."
+    },
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Fare riassunti",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Azione di fare riassunti (P5) finalizzata a semplificare e comprendere meglio (X2)."
+    },
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Potresti fornirmi un riassunto dettagliato di questo articolo",
+      "codes": [
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempio esplicito di prompt (P7) che mira a semplificare la comprensione (X2)."
+    },
+    {
+      "index": 4,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Farmi capire concetti più complessi semplificandoli",
+      "codes": [
+        "X2"
+      ],
+      "reason": "Beneficio descritto è la semplificazione di concetti complessi per una migliore comprensione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Mappe concettuali e schemi",
+      "codes": [
+        "P5",
+        "X2"
+      ],
+      "reason": "Creazione di mappe e schemi (P5) come strategia per focalizzare i concetti (X2)."
+    },
+    {
+      "index": 6,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "A volte fornisce risposte confuse",
+      "codes": [
+        "I2",
+        "S5"
+      ],
+      "reason": "Difficoltà riscontrata nelle risposte confuse dell'IA, indicando errori/allucinazioni (I2) e scarsa affidabilità (S5)."
+    },
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Riesce a semplificare alcuni concetti, i contro che fornisce troppe risposte creando o confusione o portando a dare meno valore a libri",
+      "codes": [
+        "X2",
+        "X7"
+      ],
+      "reason": "Pro: semplificazione (X2). Contro: confusione e perdita di valore dei libri, suggerendo un beneficio subordinato al controllo critico (X7)."
+    },
+    {
+      "index": 8,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "Non lo so",
+      "codes": [
+        "N1c"
+      ],
+      "reason": "Risposta tautologica/meta-definizione ('Non lo so') che non fornisce informazioni classificabili."
+    }
+  ]
+}

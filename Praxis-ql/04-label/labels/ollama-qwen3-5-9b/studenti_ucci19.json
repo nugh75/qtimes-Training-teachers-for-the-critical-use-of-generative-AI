@@ -1,0 +1,138 @@
+{
+  "source_file": "/tmp/tmp.vxfGo9aHnn/studenti_ucci19.md",
+  "source_name": "studenti_ucci19.md",
+  "title": "Risposta ucci19",
+  "group": "Studenti",
+  "record_code": "ucci19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-21T19:48:03.155233+00:00",
+  "record_dimensions": [
+    "N",
+    "P",
+    "S",
+    "X"
+  ],
+  "record_subcodes": [
+    "N1a",
+    "P5",
+    "P6",
+    "P7",
+    "S4",
+    "S6",
+    "S7",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "record_note": "Il record mostra un uso prevalentemente strumentale dell'IA per efficienza e organizzazione, con una crescente consapevolezza dei rischi di sostituzione cognitiva e perdita di autonomia.",
+  "code_counts": {
+    "N1a": 2,
+    "P5": 1,
+    "P6": 1,
+    "P7": 1,
+    "S4": 1,
+    "S6": 1,
+    "S7": 2,
+    "X1": 2,
+    "X2": 4,
+    "X3": 1,
+    "X4": 1,
+    "X5": 2
+  },
+  "items": [
+    {
+      "index": 1,
+      "question": "Se no, puoi spiegare perché non la utilizzi? (Se la utilizzi, inserisci \"-\".)",
+      "answer": "“_”",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta vuota, non informativa."
+    },
+    {
+      "index": 2,
+      "question": "Quali sono i tuoi strumenti preferiti e perché?",
+      "answer": "Assistenti vocali e chatgpt (comodità e velocità)",
+      "codes": [
+        "P6",
+        "X1",
+        "X2"
+      ],
+      "reason": "Menzione di strumenti specifici (P6), citazione di comodità e velocità (X1, X2)."
+    },
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l'intelligenza artificiale per personalizzare il tuo studio?",
+      "answer": "Approfondimenti e organizzazione",
+      "codes": [
+        "X3",
+        "X5"
+      ],
+      "reason": "Riferimento a personalizzazione dello studio (X3) e organizzazione (X5)."
+    },
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Protresti aiutarmi a schematizzare un determinato argomento ? Mi aiuteresti a trovare la correlazione tra … e …",
+      "codes": [
+        "P5",
+        "P7",
+        "X2"
+      ],
+      "reason": "Esempi di prompt per schematizzazione (P5, P7) e focalizzazione (X2)."
+    },
+    {
+      "index": 5,
+      "question": "In che modo l'intelligenza artificiale ti aiuta a migliorare ad apprendere?",
+      "answer": "Attraverso ad esempio schematizzazione o approfondimento di argomenti",
+      "codes": [
+        "X2",
+        "X5"
+      ],
+      "reason": "Schematizzazione e approfondimento come miglioramento dell'apprendimento (X2, X5)."
+    },
+    {
+      "index": 6,
+      "question": "Puoi fornire esempi specifici di come l'IA ha migliorato il tuo apprendimento?",
+      "answer": "Magari trovando informazioni, non facilmente reperibili altrove",
+      "codes": [
+        "X2",
+        "X4"
+      ],
+      "reason": "Accesso a informazioni non reperibili altrove (X4) e comprensione (X2)."
+    },
+    {
+      "index": 7,
+      "question": "Quali difficoltà hai incontrato nell'implementazione di strumenti di IA nella tua pratica di studio?",
+      "answer": "Poco",
+      "codes": [
+        "N1a"
+      ],
+      "reason": "Risposta troppo breve ('Poco') per attribuzione di codici specifici."
+    },
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il rischio principale per me è l’abuso, rischiando di sostituire ciò che potrebbe essere svolto da noi ma per comodità farlo svolgere dall’AI",
+      "codes": [
+        "S6",
+        "S7",
+        "X1"
+      ],
+      "reason": "Rischio di sostituzione del lavoro umano (S6), abuso per comodità (X1)."
+    },
+    {
+      "index": 9,
+      "question": "Secondo la tua esperienza, quali pratiche che utilizzano l'intelligenza artificiale NON sono raccomandate o NON dovrebbero essere usate per lo studio?E perché?",
+      "answer": "La sostituzione di ragionamento",
+      "codes": [
+        "S4",
+        "S7"
+      ],
+      "reason": "Sostituzione del ragionamento (S4) e ambito off-limits del pensiero critico (S7)."
+    }
+  ]
+}

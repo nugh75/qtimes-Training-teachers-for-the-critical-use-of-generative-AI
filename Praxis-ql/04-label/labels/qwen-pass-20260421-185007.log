@@ -1,0 +1,26 @@
+18:50:08 INFO Avvio labeling: files=731 model=qwen3.5:9b host=http://192.168.129.14:11434 workers=1 dry_run=False output_dir=/home/nugh75/-qtimes/Praxis-ql/labels/ollama-qwen3-5-9b
+18:50:08 INFO [1/731] start insegnanti_attuali_060580.md
+18:50:52 INFO [1/731] ok insegnanti_attuali_060580.md subcodes=4
+18:50:52 INFO [2/731] start insegnanti_attuali_19albe.md
+19:06:38 ERROR [2/731] failed insegnanti_attuali_19albe.md: timed out
+19:06:38 INFO [3/731] start insegnanti_attuali_21giugno2025.md
+19:06:38 INFO [3/731] skipped insegnanti_attuali_21giugno2025.md subcodes=9
+19:06:38 INFO [4/731] start insegnanti_attuali_acci11.md
+19:06:38 INFO [4/731] skipped insegnanti_attuali_acci11.md subcodes=6
+19:06:38 INFO [5/731] start insegnanti_attuali_acci15.md
+19:07:22 INFO [5/731] ok insegnanti_attuali_acci15.md subcodes=9
+19:07:22 INFO [6/731] start insegnanti_attuali_adei10.md
+19:23:09 ERROR [6/731] failed insegnanti_attuali_adei10.md: timed out
+19:23:09 INFO [7/731] start insegnanti_attuali_affo10.md
+19:38:57 ERROR [7/731] failed insegnanti_attuali_affo10.md: timed out
+19:38:57 INFO [8/731] start insegnanti_attuali_agna09.md
+19:39:45 INFO [8/731] ok insegnanti_attuali_agna09.md subcodes=15
+19:39:45 INFO [9/731] start insegnanti_attuali_aisto30.md
+19:55:33 ERROR [9/731] failed insegnanti_attuali_aisto30.md: timed out
+19:55:33 INFO [10/731] start insegnanti_attuali_aleo23.md
+20:11:23 ERROR [10/731] failed insegnanti_attuali_aleo23.md: timed out
+20:11:23 INFO [11/731] start insegnanti_attuali_alli07.md
+20:12:03 INFO [11/731] ok insegnanti_attuali_alli07.md subcodes=12
+20:12:03 INFO [12/731] start insegnanti_attuali_amor11.md
+20:27:54 ERROR [12/731] failed insegnanti_attuali_amor11.md: timed out
+20:27:54 INFO [13/731] start insegnanti_attuali_anco24.md
