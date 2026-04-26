@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_chio05.md",
+  "source_name": "studenti_chio05.md",
+  "title": "Risposta Chio05",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Chio05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:18.725690+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro ti aiuta a fare veloce e ti dà idee , contro non ti fa sviluppare bene l'immagine",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "ti aiuta a fare veloce",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "ti dà idee",
+          "reason": "Il partecipante cita la generazione di idee come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "non ti fa sviluppare bene l'immagine",
+          "reason": "Il partecipante segnala un limite nello sviluppo creativo o visivo."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

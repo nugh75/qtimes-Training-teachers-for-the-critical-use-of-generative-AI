@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_orio4.md",
+    "error": "Extra data: line 19 column 3 (char 446)"
+  },
+  {
+    "path": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_00004m.md",
+    "error": "Extra data: line 19 column 3 (char 1188)"
+  },
+  {
+    "path": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ozzi13.md",
+    "error": "Expecting ',' delimiter: line 18 column 10 (char 550)"
+  }
+]

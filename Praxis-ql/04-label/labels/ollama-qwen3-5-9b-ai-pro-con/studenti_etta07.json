@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etta07.md",
+  "source_name": "studenti_etta07.md",
+  "title": "Risposta etta07",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etta07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:23.540980+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: velocizzano il lavoro  contro: facciamo lavorare meno il nostro cervello",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzano il lavoro",
+          "reason": "Il partecipante indica che l'IA accelera i processi di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "facciamo lavorare meno il nostro cervello",
+          "reason": "Il partecipante segnala il rischio di un uso eccessivo che riduce l'attività mentale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e uno svantaggio (riduzione sforzo cognitivo)."
+    }
+  ]
+}

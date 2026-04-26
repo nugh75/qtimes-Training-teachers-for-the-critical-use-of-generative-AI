@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_faro16.md",
+  "source_name": "insegnanti_attuali_faro16.md",
+  "title": "Risposta Faro16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Faro16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:23.173518+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Cerco di creare esercizi diversificati in base alle esigenze degli alunni, inventare giochi",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati",
+        "livelli_difficolta"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Cerco di creare esercizi diversificati",
+      "confidence": 0.85,
+      "reason": "L'insegnante dichiara di utilizzare l'IA per creare esercizi diversificati in base alle esigenze degli alunni, indicando una strategia di differenziazione dei percorsi."
+    }
+  ]
+}

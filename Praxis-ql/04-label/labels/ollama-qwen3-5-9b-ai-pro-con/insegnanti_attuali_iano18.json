@@ -1,0 +1,79 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iano18.md",
+  "source_name": "insegnanti_attuali_iano18.md",
+  "title": "Risposta iano18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iano18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:16.124246+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: l’IA permette di personalizzare l’apprendimento, offre feedback immediato, supporta l’inclusione, semplifica la valutazione e aumenta la motivazione.  Contro: comporta rischi per la privacy, può accentuare le disuguaglianze digitali, richiede formazione specifica, non sostituisce la relazione educativa e può fornire contenuti non sempre affidabili.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "l'IA permette di personalizzare l'apprendimento",
+          "reason": "Il partecipante cita la capacità di adattare il percorso di studio."
+        },
+        {
+          "category": "feedback_valutazione",
+          "evidence": "offre feedback immediato",
+          "reason": "Il partecipante evidenzia la rapidità delle risposte di valutazione."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "supporta l'inclusione",
+          "reason": "Il partecipante menziona il supporto per studenti con bisogni speciali."
+        },
+        {
+          "category": "feedback_valutazione",
+          "evidence": "semplifica la valutazione",
+          "reason": "Il partecipante indica una riduzione del carico di lavoro valutativo."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "aumenta la motivazione",
+          "reason": "Il partecipante collega l'uso dell'IA a un aumento dell'interesse degli studenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "privacy_etica",
+          "evidence": "comporta rischi per la privacy",
+          "reason": "Il partecipante segnala preoccupazioni riguardo alla protezione dei dati."
+        },
+        {
+          "category": "disuguaglianze",
+          "evidence": "può accentuare le disuguaglianze digitali",
+          "reason": "Il partecipante evidenzia il rischio di ampliamento del divario digitale."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "richiede formazione specifica",
+          "reason": "Il partecipante indica la necessità di aggiornamento professionale come ostacolo."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "non sostituisce la relazione educativa",
+          "reason": "Il partecipante sottolinea il rischio di perdere l'aspetto umano dell'insegnamento."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "può fornire contenuti non sempre affidabili",
+          "reason": "Il partecipante mette in dubbio l'accuratezza delle informazioni generate dall'IA."
+        }
+      ],
+      "pro_count": 5,
+      "con_count": 5,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente sia una serie di vantaggi che una serie di svantaggi."
+    }
+  ]
+}

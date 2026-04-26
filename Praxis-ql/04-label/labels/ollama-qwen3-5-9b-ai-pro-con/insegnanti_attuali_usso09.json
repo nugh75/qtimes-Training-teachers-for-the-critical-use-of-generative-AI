@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_usso09.md",
+  "source_name": "insegnanti_attuali_usso09.md",
+  "title": "Risposta usso09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "usso09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:21.669551+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "A livello si strumento didattico non vedo contro. Non ho ancora esperienza a livello degli alievi.",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "non vedo contro",
+          "reason": "Il partecipante esprime assenza di criticità, implicando un giudizio positivo o neutro sulla sicurezza dello strumento."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita l'assenza di contro, indicando una percezione prevalentemente positiva o neutra."
+    }
+  ]
+}

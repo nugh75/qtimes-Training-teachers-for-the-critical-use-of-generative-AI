@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orgi03.md",
+  "source_name": "studenti_orgi03.md",
+  "title": "Risposta Orgi03",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Orgi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:24.101495+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: permette di diversificare la routine Contro: a volte il processo è un po' dispersivo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "permette di diversificare la routine",
+          "reason": "Il partecipante indica che l'IA aiuta a variare le attività di studio, rendendole meno monotone."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "a volte il processo è un po' dispersivo",
+          "reason": "Il partecipante segnala che l'uso dell'IA può portare a una dispersione dell'attenzione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gemi14.md",
+  "source_name": "studenti_gemi14.md",
+  "title": "Risposta gemi14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gemi14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:47.843030+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "come pro sicuramente si risparmia del tempo, mentre come contro mi verrebbe da dire che non ci si impegna più come si sarebbe fatto senza",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "si risparmia del tempo",
+          "reason": "Il partecipante indica che l'uso dell'IA permette di risparmiare tempo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non ci si impegna più come si sarebbe fatto senza",
+          "reason": "Il partecipante segnala una riduzione dell'impegno e dell'effort cognitivo rispetto allo studio tradizionale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (risparmio tempo) e uno svantaggio (mancanza di impegno)."
+    }
+  ]
+}

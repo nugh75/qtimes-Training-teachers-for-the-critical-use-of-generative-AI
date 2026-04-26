@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_fico70.md",
+  "source_name": "insegnanti_attuali_fico70.md",
+  "title": "Risposta fico70",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "fico70",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:52.134384+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità dell'esecuzione pro che permette di focalizzarti su ciò che desideri maggiormente... il contro è che molti potrebbero ignorare alcune questioni ed evitare totalmente di migliorarle come la capacità di sintesi e di problem solving.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità dell'esecuzione",
+          "reason": "Il partecipante evidenzia la rapidità come vantaggio che permette di focalizzarsi su ciò che si desidera."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "evitare totalmente di migliorarle come la capacità di sintesi e di problem solving",
+          "reason": "Il partecipante segnala il rischio che l'IA porti a ignorare o non migliorare competenze cognitive fondamentali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e un contro (mancanza di miglioramento delle capacità cognitive)."
+    }
+  ]
+}

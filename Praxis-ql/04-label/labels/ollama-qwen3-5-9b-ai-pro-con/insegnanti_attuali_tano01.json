@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tano01.md",
+  "source_name": "insegnanti_attuali_tano01.md",
+  "title": "Risposta tano01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tano01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:29.495416+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "come tutte le novità bisogna avere un approccio cauto, ma soprattutto saperla usare in modo adeguato, non deve sostituire il docente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "saperla usare in modo adeguato",
+          "reason": "Il partecipante suggerisce che l'uso appropriato dell'IA è un vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "non deve sostituire il docente",
+          "reason": "Il partecipante evidenzia il rischio di sostituire la figura del docente."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta contiene sia un beneficio (uso adeguato) sia un rischio (non sostituire il docente)."
+    }
+  ]
+}

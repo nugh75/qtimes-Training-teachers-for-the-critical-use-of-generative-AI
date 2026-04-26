@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tini20.md",
+  "source_name": "insegnanti_attuali_tini20.md",
+  "title": "Risposta Tini20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Tini20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:44.535337+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I contro possono essere l’ abuso che ne fanno i ragazzi, come all’’ uso di AI per creare temi si italiano o relazioni, bloccando il processo creativo e sostituendo l’ elaborazione delle informazioni apprese",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "creando temi si italiano o relazioni, bloccando il processo creativo",
+          "reason": "Il partecipante evidenzia il blocco del processo creativo e la sostituzione dell'elaborazione delle informazioni."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituendo l’ elaborazione delle informazioni apprese",
+          "reason": "Il partecipante segnala la sostituzione dell'elaborazione cognitiva da parte dell'utente."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente i contro dell'uso dell'IA, citando l'abuso e la delega cognitiva."
+    }
+  ]
+}

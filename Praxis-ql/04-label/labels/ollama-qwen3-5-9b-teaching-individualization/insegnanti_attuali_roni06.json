@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_roni06.md",
+  "source_name": "insegnanti_attuali_roni06.md",
+  "title": "Risposta roni06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "roni06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:29.707741+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Soprattutto per supporti compensative per DSA",
+      "practice_present": true,
+      "strategies": [
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "supporti compensative per DSA",
+      "confidence": 0.95,
+      "reason": "La risposta cita esplicitamente l'uso dell'IA per creare supporti compensativi specifici per gli studenti con DSA."
+    }
+  ]
+}

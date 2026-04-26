@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_udio01.md",
+  "source_name": "insegnanti_attuali_udio01.md",
+  "title": "Risposta UDIO01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "UDIO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:08.306620+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Potrebbe aiutare nella strutturazione di una lezione ma allo stesso tempo potrebbe essere utilizzato in modo errato.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "aiutare nella strutturazione di una lezione",
+          "reason": "Il partecipante indica che l'IA può facilitare la creazione o organizzazione dei contenuti didattici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "potrebbe essere utilizzato in modo errato",
+          "reason": "Il partecipante evidenzia il rischio di un utilizzo improprio che potrebbe portare a errori o a una gestione scorretta dello strumento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta elenca un potenziale beneficio operativo e un rischio legato all'uso scorretto."
+    }
+  ]
+}

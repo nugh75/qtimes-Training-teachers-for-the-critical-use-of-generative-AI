@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cchi23.md",
+  "source_name": "insegnanti_attuali_cchi23.md",
+  "title": "Risposta cchi23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cchi23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:55.975121+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: può aiutare il docente a fornire materiali personalizzati e migliori rispetto al libro di testo. - CONTRO: non sempre risultano corretti i risultati, necessita sempre di un controllo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "aiutare il docente a fornire materiali personalizzati",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di generare risorse didattiche su misura."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "non sempre risultano corretti i risultati",
+          "reason": "Il partecipante segnala l'insufficienza di accuratezza intrinseca dell'IA."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "necessita sempre di un controllo",
+          "reason": "Il partecipante sottolinea la necessità di un intervento umano di verifica, implicando un rischio di delega o di non autonomia."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (materiali migliori) e due svantaggi (errori e necessità di controllo)."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anco27.md",
+  "source_name": "insegnanti_attuali_anco27.md",
+  "title": "Risposta anco27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anco27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:10:28.140199+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "altro": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 27.0,
+  "avg_confidence": 0.0,
+  "items": [
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sei un insegnante di italiano e devi creare cinque esercizi di difficoltà progressiva per la classe 3A sull'analisi del periodo, con focus specifico sul grado delle subordinate.",
+      "metrics": {
+        "char_count": 177,
+        "word_count": 27,
+        "sentence_count": 1,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "altro",
+      "strategies": [],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

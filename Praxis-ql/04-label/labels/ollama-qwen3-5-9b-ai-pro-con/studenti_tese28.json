@@ -1,0 +1,48 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tese28.md",
+  "source_name": "studenti_tese28.md",
+  "title": "Risposta Tese28",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Tese28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:31.822803+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Personalmente credo ci siano solo contro e nessun pro. Il contro più grande è che da delle risposte identiche per tutti (e che molti usano per copiare), di conseguenza lo studio e l'elaborazione non è più personale e diventa di massa. Questa cosa mi spaventa molto. Credo che il contatto umano sia molto importante nell'apprendimento",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "da delle risposte identiche per tutti",
+          "reason": "Il partecipante evidenzia il rischio di risposte generiche e non personalizzate."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "che molti usano per copiare",
+          "reason": "Il partecipante cita l'uso dell'IA per copiare come un grave contro."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "lo studio e l'elaborazione non è più personale",
+          "reason": "Il partecipante lamenta la perdita di personalizzazione nello studio."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "diventa di massa",
+          "reason": "Il partecipante teme che l'approccio diventi impersonale e di massa."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 4,
+      "confidence": 0.95,
+      "reason": "Il partecipante dichiara esplicitamente che ci sono solo contro e nessun pro."
+    }
+  ]
+}

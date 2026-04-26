@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_mico26.md",
+  "source_name": "insegnanti_attuali_mico26.md",
+  "title": "Risposta Mico26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Mico26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:48.448230+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'IA può aiutare a velocizzare alcuni passaggi nella creazione di lezioni o test, ma nello studio può portare lo studente a non sviluppare molte abilità",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocizzare alcuni passaggi nella creazione di lezioni o test",
+          "reason": "Il partecipante evidenzia il vantaggio di accelerare la creazione di materiali didattici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "nello studio può portare lo studente a non sviluppare molte abilità",
+          "reason": "Il partecipante segnala il rischio che l'uso dell'IA ostacoli lo sviluppo di abilità cognitive durante lo studio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio operativo e un rischio educativo."
+    }
+  ]
+}

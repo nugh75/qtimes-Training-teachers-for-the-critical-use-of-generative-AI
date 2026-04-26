@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lano03.md",
+  "source_name": "insegnanti_attuali_lano03.md",
+  "title": "Risposta lano03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "lano03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:49.169838+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Ricerco diversi lati di un argomento per poter creare la versione più adatta per il mio metodo di insegnamento",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "",
+      "confidence": 0.0,
+      "reason": "La risposta descrive una ricerca di informazioni per adattare il metodo, ma non menziona strategie specifiche di individualizzazione (come diversificazione di percorsi, scaffolding, feedback mirato) per il raggiungimento di competenze co..."
+    }
+  ]
+}

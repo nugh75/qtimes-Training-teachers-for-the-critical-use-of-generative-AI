@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_drea25.md",
+  "source_name": "insegnanti_attuali_drea25.md",
+  "title": "Risposta Drea25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Drea25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:22.004598+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro : possono essere di supporto per alcune disabilità  Contro :tolgono la necessità di cercare le fonti nel modo giusto",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "possono essere di supporto per alcune disabilità",
+          "reason": "Il partecipante indica che l'IA offre supporto per le disabilità."
+        }
+      ],
+      "cons": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "tolgono la necessità di cercare le fonti nel modo giusto",
+          "reason": "Il partecipante segnala che l'IA riduce la necessità di cercare attivamente le fonti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (supporto disabilità) sia un rischio (riduzione ricerca fonti)."
+    }
+  ]
+}

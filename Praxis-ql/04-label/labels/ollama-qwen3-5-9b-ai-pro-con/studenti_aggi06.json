@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aggi06.md",
+  "source_name": "studenti_aggi06.md",
+  "title": "Risposta AGGI06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "AGGI06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:14.400524+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "ottimizza i tempi ma se utilizzate troppo potrebbero limitare l’apprendimento",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "ottimizza i tempi",
+          "reason": "Il partecipante indica che l'IA permette di risparmiare tempo nello studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "se utilizzate troppo",
+          "reason": "Il partecipante avverte il rischio di un uso eccessivo che porta a limitare l'apprendimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (ottimizzazione tempi) e un rischio (uso eccessivo che limita l'apprendimento)."
+    }
+  ]
+}

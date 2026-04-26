@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_sepe29.md",
+  "source_name": "insegnanti_attuali_sepe29.md",
+  "title": "Risposta sepe29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "sepe29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:38.416450+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creare sintesi dei concetti fondamentali",
+      "practice_present": true,
+      "strategies": [
+        "semplificazione",
+        "scaffolding_guidato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creare sintesi dei concetti fondamentali",
+      "confidence": 0.95,
+      "reason": "La sintesi dei concetti fondamentali è una strategia di semplificazione e scaffolding per facilitare l'accesso ai contenuti."
+    }
+  ]
+}

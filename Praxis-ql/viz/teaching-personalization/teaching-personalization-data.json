@@ -1,0 +1,231 @@
+{
+  "generated_from": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-teaching-personalization/all_personalization.csv",
+  "generated_at": "2026-04-25T07:50:01.880796+00:00",
+  "mode": "personalization",
+  "totals": {
+    "items_total": 183,
+    "cohort_count": 2,
+    "practice_present": 70,
+    "practice_absent": 113,
+    "practice_share": 38.25,
+    "avg_confidence": 0.729,
+    "strategies": {
+      "materiali_differenziati": 58,
+      "potenzialita_talenti": 16,
+      "interessi_studenti": 11,
+      "supporti_bes_dsa": 6,
+      "modalita_espressive": 5,
+      "scelte_percorsi": 3,
+      "altro": 2,
+      "obiettivi_personali": 2
+    },
+    "targets": {
+      "non_specificato": 113,
+      "singolo_studente": 69,
+      "sottogruppo": 1
+    },
+    "ai_roles": {
+      "non_specificato": 112,
+      "generazione_materiali": 37,
+      "adattamento_contenuti": 24,
+      "suggerimento_strategie": 10
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "insegnanti_in_servizio",
+      "label": "Insegnanti in servizio",
+      "items_total": 158,
+      "practice_present": 67,
+      "practice_absent": 91,
+      "practice_share": 42.41,
+      "avg_confidence": 0.72,
+      "strategies": {
+        "materiali_differenziati": 56,
+        "potenzialita_talenti": 15,
+        "interessi_studenti": 10,
+        "supporti_bes_dsa": 6,
+        "modalita_espressive": 5,
+        "scelte_percorsi": 3,
+        "altro": 2,
+        "obiettivi_personali": 2
+      },
+      "targets": {
+        "non_specificato": 91,
+        "singolo_studente": 66,
+        "sottogruppo": 1
+      },
+      "ai_roles": {
+        "non_specificato": 90,
+        "generazione_materiali": 36,
+        "adattamento_contenuti": 22,
+        "suggerimento_strategie": 10
+      }
+    },
+    {
+      "cohort": "insegnanti_pre_service",
+      "label": "Insegnanti pre-service",
+      "items_total": 25,
+      "practice_present": 3,
+      "practice_absent": 22,
+      "practice_share": 12.0,
+      "avg_confidence": 0.784,
+      "strategies": {
+        "materiali_differenziati": 2,
+        "interessi_studenti": 1,
+        "potenzialita_talenti": 1
+      },
+      "targets": {
+        "non_specificato": 22,
+        "singolo_studente": 3
+      },
+      "ai_roles": {
+        "non_specificato": 22,
+        "adattamento_contenuti": 2,
+        "generazione_materiali": 1
+      }
+    }
+  ],
+  "examples": [
+    {
+      "source_name": "insegnanti_attuali_iano18.md",
+      "record_code": "iano18",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Utilizzo l’intelligenza artificiale per personalizzare l’insegnamento offrendo agli studenti percorsi formativi flessibili, in grado di valorizzare le loro inclinazioni, interessi e stili cognitivi. Le piattaforme basate su IA permettono di proporre attività differenziate, suggerire approfondimenti mirati e stimolare lo sviluppo del pensiero critico e creativo. In questo modo, ogni studente può coltivare le proprie potenzialità, esplorare ambiti di eccellenza personale e raggiungere obiettivi formativi più alti, secondo le proprie capacità e aspirazioni.",
+      "practice_present": "True",
+      "strategies": "interessi_studenti|potenzialita_talenti|materiali_differenziati|obiettivi_personali",
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "offrendo agli studenti percorsi formativi flessibili, in grado di valorizzare le loro inclinazioni, interessi e stili cognitivi",
+      "confidence": "0.95",
+      "reason": "La risposta descrive l'uso dell'IA per creare percorsi flessibili che valorizzano interessi, stili cognitivi e potenzialità individuali.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_agna09.md",
+      "record_code": "agna09",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Utilizzo l' intelligenza artificiale per offrire percorsi di approfondimento per incuriosire agli alunni, per proporre sfide cognitive graduate e incoraggiare ciascuno a esprimere una propria eccellenza, sia essa logico-matematica, linguistica o creativa.",
+      "practice_present": "True",
+      "strategies": "potenzialita_talenti|interessi_studenti|scelte_percorsi",
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "offrire percorsi di approfondimento",
+      "confidence": "0.95",
+      "reason": "L'insegnante utilizza l'IA per creare sfide graduate e percorsi di approfondimento basati sulle potenzialità e interessi specifici degli alunni.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_etti10.md",
+      "record_code": "etti10",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "l'IA può agire come uno strumento per riconoscere e valorizzare l'unicità del  profilo cognitivo dell'alunno, offrendogli opportunità di apprendimento che gli permettano di esprimere al meglio il suo potenziale e di raggiungere la sua personale forma di eccellenza.  Nello specifico: Identificazione dei talenti e delle predisposizioni individuali; offerta di Incoraggiamento alla scelta e all'autonomia percorsi di apprendimento differenziati; supporto all'esplorazione di interessi specifici...",
+      "practice_present": "True",
+      "strategies": "potenzialita_talenti|scelte_percorsi|interessi_studenti",
+      "target": "singolo_studente",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "Identificazione dei talenti e delle predisposizioni individuali; offerta di Incoraggiamento alla scelta e all'autonomia percorsi di apprendimento differenziati; supporto all'esplorazione di interessi specifici",
+      "confidence": "0.95",
+      "reason": "La risposta descrive esplicitamente l'uso dell'IA per identificare talenti, offrire scelte di percorsi e supportare interessi specifici, allineandosi alla definizione di personalizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_onzi03.md",
+      "record_code": "onzi03",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "ho elaborato attività laboratoriali sugli stessi argomenti ma atte a sviluppare competenze ed interessi differenziati tra gli alunni (disegno, scrittura, recitazione, logica)",
+      "practice_present": "True",
+      "strategies": "materiali_differenziati|modalita_espressive|interessi_studenti",
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "ho elaborato attività laboratoriali sugli stessi argomenti ma atte a sviluppare competenze ed interessi differenziati tra gli alunni",
+      "confidence": "0.95",
+      "reason": "L'insegnante descrive l'uso dell'IA per creare attività differenziate per interessi e modalità espressive (disegno, scrittura, ecc.).",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_adei10.md",
+      "record_code": "adei10",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Nel mio caso ,sono gli alunni ad utilizzare l'intelligenza artificiale per personalizzare  i loro lavori di grafica",
+      "practice_present": "True",
+      "strategies": "modalita_espressive|interessi_studenti",
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "alunni ad utilizzare l'intelligenza artificiale per personalizzare i loro lavori di grafica",
+      "confidence": "0.95",
+      "reason": "L'insegnante descrive una pratica in cui gli studenti usano l'IA per personalizzare i propri lavori di grafica, sfruttando le loro potenzialità espressive e interessi specifici.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_ando20.md",
+      "record_code": "ando20",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "nessuno",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "nessuno",
+      "confidence": "1.0",
+      "reason": "La risposta 'nessuno' indica assenza di utilizzo dell'IA per la personalizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_anti03.md",
+      "record_code": "anti03",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Non l'ho mai utilizzata in questo senso",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Non l'ho mai utilizzata in questo senso",
+      "confidence": "1.0",
+      "reason": "Il partecipante dichiara esplicitamente di non aver mai utilizzato l'IA per personalizzare l'insegnamento.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_asio15.md",
+      "record_code": "Asio15",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Non la utilizzo",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Non la utilizzo",
+      "confidence": "1.0",
+      "reason": "Il partecipante dichiara esplicitamente di non utilizzare l'IA per la personalizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_assi.md",
+      "record_code": "Assi",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Non la utilizzo per personalizzare",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Non la utilizzo per personalizzare",
+      "confidence": "1.0",
+      "reason": "Il partecipante dichiara esplicitamente di non utilizzare l'IA per personalizzare l'insegnamento.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_damo20.md",
+      "record_code": "damo20",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "solo per la creazione di quiz",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "solo per la creazione di quiz",
+      "confidence": "1.0",
+      "reason": "La risposta descrive un uso strumentale (creazione quiz) non riconducibile alla personalizzazione per eccellenza cognitiva o percorsi personali come definito.",
+      "cohort_label": "Insegnanti in servizio"
+    }
+  ]
+}

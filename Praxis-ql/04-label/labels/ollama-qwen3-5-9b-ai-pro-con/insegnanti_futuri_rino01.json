@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_rino01.md",
+  "source_name": "insegnanti_futuri_rino01.md",
+  "title": "Risposta Rino01",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Rino01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:49.879155+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro:potrebbero essere un valido supporto. Contro: gli alunni potrebbero non usarla in modo corretto",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "potrebbero essere un valido supporto",
+          "reason": "Il partecipante indica che l'IA può fungere da aiuto utile."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "gli alunni potrebbero non usarla in modo corretto",
+          "reason": "Il partecipante evidenzia il rischio di un utilizzo improprio che potrebbe implicare una cattiva gestione o dipendenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('valido supporto') e uno svantaggio ('non usarla in modo corretto')."
+    }
+  ]
+}

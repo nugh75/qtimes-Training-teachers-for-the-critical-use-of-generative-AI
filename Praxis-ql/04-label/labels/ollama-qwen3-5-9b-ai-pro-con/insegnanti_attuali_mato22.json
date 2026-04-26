@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_mato22.md",
+  "source_name": "insegnanti_attuali_mato22.md",
+  "title": "Risposta Mato22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Mato22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:44.091553+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Bisogna usala solo a una determinata età",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "Bisogna usala solo a una determinata età",
+          "reason": "Il partecipante indica che l'uso dell'IA è limitato a specifiche fasce d'età, suggerendo un rischio di inappropriato utilizzo o dipendenza se non gestito correttamente."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esprime un limite all'uso dell'IA, classificandola come un rischio o una condizione negativa."
+    }
+  ]
+}

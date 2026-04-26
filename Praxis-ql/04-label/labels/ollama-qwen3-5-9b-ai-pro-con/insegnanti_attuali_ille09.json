@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ille09.md",
+  "source_name": "insegnanti_attuali_ille09.md",
+  "title": "Risposta ille09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ille09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:33.317672+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: l'IA Potrebbe proporre una didattica più inclusiva. contro:  in alcuni casi potrebbe limitare il lavoro degli studenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "l'IA Potrebbe proporre una didattica più inclusiva",
+          "reason": "Il partecipante cita esplicitamente la possibilità di rendere la didattica più inclusiva."
+        }
+      ],
+      "cons": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "in alcuni casi potrebbe limitare il lavoro degli studenti",
+          "reason": "Il partecipante segnala che l'uso dell'IA potrebbe ridurre l'autonomia lavorativa degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente un pro e un contro."
+    }
+  ]
+}

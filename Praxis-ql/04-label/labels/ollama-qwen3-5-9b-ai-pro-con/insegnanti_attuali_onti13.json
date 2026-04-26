@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_onti13.md",
+  "source_name": "insegnanti_attuali_onti13.md",
+  "title": "Risposta Onti13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Onti13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:31.593394+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro : facilitatore e accessibilità alle informazioni Contro: si rischia di perdere la capacità di ricerca",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "facilitatore e accessibilità alle informazioni",
+          "reason": "Il partecipante evidenzia il ruolo di facilitatore e l'accessibilità come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "si rischia di perdere la capacità di ricerca",
+          "reason": "Il partecipante segnala il rischio di perdita delle capacità di ricerca autonoma."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

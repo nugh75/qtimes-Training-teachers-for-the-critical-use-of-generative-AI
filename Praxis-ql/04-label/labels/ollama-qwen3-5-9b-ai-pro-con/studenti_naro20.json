@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_naro20.md",
+  "source_name": "studenti_naro20.md",
+  "title": "Risposta naro20",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "naro20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:49.646756+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono per rendere lo svolgimento dei compiti meno noioso e più veloce, dando anche buoni spunti per testi. I contro potrebbero rendere le capacità di studio obsoleta.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "rendere lo svolgimento dei compiti meno noioso e più veloce",
+          "reason": "Il partecipante cita la velocità e la riduzione della noia come vantaggi."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "dando anche buoni spunti per testi",
+          "reason": "Il partecipante indica l'IA come fonte di ispirazione per la stesura di testi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "potrebbero rendere le capacità di studio obsoleta",
+          "reason": "Il partecipante teme che l'uso dell'IA possa portare all'atrofizzazione delle capacità di studio."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia dei pro che dei contro."
+    }
+  ]
+}

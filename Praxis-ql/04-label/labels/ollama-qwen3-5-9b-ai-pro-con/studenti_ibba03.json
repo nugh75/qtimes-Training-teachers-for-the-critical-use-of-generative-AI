@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ibba03.md",
+  "source_name": "studenti_ibba03.md",
+  "title": "Risposta Ibba03",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Ibba03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:14.506939+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro principale è la riduzione del carico di lavoro e quindi un’ottimizzazione dei tempi, non trovo contro al momento",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "riduzione del carico di lavoro e quindi un'ottimizzazione dei tempi",
+          "reason": "Il partecipante cita esplicitamente il risparmio di tempo e l'ottimizzazione come vantaggio principale."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta elenca un unico pro e nega la presenza di contro."
+    }
+  ]
+}

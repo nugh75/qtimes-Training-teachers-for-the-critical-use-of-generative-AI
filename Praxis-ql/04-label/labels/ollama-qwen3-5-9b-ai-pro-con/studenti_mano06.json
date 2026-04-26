@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_mano06.md",
+  "source_name": "studenti_mano06.md",
+  "title": "Risposta mano06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "mano06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:17.250184+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Non vi sono pro",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "altro",
+          "evidence": "Non vi sono pro",
+          "reason": "Il partecipante nega l'esistenza di qualsiasi vantaggio, implicando un giudizio negativo o neutro assoluto sull'uso dell'IA."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta afferma esplicitamente l'assenza di pro, indicando una posizione prevalentemente negativa o neutra."
+    }
+  ]
+}

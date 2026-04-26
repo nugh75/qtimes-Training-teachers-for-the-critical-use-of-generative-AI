@@ -1,0 +1,43 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_engo17.md",
+  "source_name": "insegnanti_attuali_engo17.md",
+  "title": "Risposta Engo17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Engo17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:55.645775+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Rischio di eccessiva semplificazione,  ripetizione e impossibilità di verificare esattamente la fonte",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "Rischio di eccessiva semplificazione",
+          "reason": "Il partecipante evidenzia il rischio che l'IA produca contenuti troppo semplificati."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ripetizione",
+          "reason": "Il partecipante cita la ripetitività come un aspetto negativo dell'uso dell'IA."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "impossibilità di verificare esattamente la fonte",
+          "reason": "Il partecipante segnala l'impossibilità di verificare le fonti dei contenuti generati."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente rischi e svantaggi dell'uso dell'IA."
+    }
+  ]
+}

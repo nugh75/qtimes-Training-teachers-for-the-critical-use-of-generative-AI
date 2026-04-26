@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_bara20.md",
+  "source_name": "studenti_bara20.md",
+  "title": "Risposta BARA20",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "BARA20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:06.110143+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Sicuramente l’intelligenza artificiale ti permette di agevolare lo studio, aiutandoti nella preparazione dei materiali o come supporto per la ripetizione in vista dell’esame. Tuttavia, un contro da tenere in considerazione è quello di diventare “dipendenti” da questi ausili, non riuscendo a studiare senza l’intelligenza artificiale.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "agevolare lo studio, aiutandoti nella preparazione dei materiali",
+          "reason": "Il partecipante cita l'aiuto nella preparazione dei materiali come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "supporto per la ripetizione in vista dell'esame",
+          "reason": "Il partecipante indica il supporto per la ripetizione come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "diventare 'dipendenti' da questi ausili",
+          "reason": "Il partecipante segnala il rischio di dipendenza dagli strumenti."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non riuscendo a studiare senza l'intelligenza artificiale",
+          "reason": "Il partecipante evidenzia la perdita di autonomia nello studio."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia i pro che i contro dell'uso dell'IA."
+    }
+  ]
+}

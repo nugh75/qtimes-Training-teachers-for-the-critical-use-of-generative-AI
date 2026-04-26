@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_urdi30.md",
+  "source_name": "insegnanti_futuri_urdi30.md",
+  "title": "Risposta urdi30",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "urdi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:03.834751+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Velocizzare il lavoro, Carenza di stimolo nella propria formazione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Velocizzare il lavoro",
+          "reason": "Il partecipante indica che l'IA accelera l'esecuzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Carenza di stimolo nella propria formazione",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce la stimolazione formativa e il pensiero autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e uno svantaggio (mancanza di stimolo)."
+    }
+  ]
+}

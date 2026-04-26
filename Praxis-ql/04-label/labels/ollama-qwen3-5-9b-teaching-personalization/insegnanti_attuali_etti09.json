@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti09.md",
+  "source_name": "insegnanti_attuali_etti09.md",
+  "title": "Risposta etti09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "etti09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:16.568030+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Facendo, ad esempio, analizzare le potenzialità dell'IA seguita da una riflessione critica sul suo utilizzo.",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "analizzare le potenzialità dell'IA seguita da una riflessione critica",
+      "confidence": 0.95,
+      "reason": "La risposta descrive un uso dell'IA per la riflessione critica e l'analisi delle sue potenzialità, ma non menziona strategie didattiche specifiche per la personalizzazione (es. percorsi, interessi, eccellenza) dello studente."
+    }
+  ]
+}

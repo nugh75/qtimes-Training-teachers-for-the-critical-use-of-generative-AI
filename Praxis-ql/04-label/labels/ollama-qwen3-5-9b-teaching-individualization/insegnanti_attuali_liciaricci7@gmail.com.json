@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_liciaricci7@gmail.com.md",
+  "source_name": "insegnanti_attuali_liciaricci7@gmail.com.md",
+  "title": "Risposta liciaricci7@gmail.com",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "liciaricci7@gmail.com",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:50.254527+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creo semplificazioni di testi per alunni con bes",
+      "practice_present": true,
+      "strategies": [
+        "semplificazione"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creo semplificazioni di testi",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per semplificare i testi, strategia specifica per l'individualizzazione verso il raggiungimento delle competenze."
+    }
+  ]
+}

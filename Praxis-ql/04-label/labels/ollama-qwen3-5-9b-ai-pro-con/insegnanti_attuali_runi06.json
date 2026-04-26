@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_runi06.md",
+  "source_name": "insegnanti_attuali_runi06.md",
+  "title": "Risposta runi06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "runi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:07.182804+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "uno dei pro è sicuramente la velocità e la varietà (mediatica) nell'elaborazione di contenuti uno dei contro è la realizzazione di strumenti impersonali e troppo generali",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "varietà (mediatica) nell'elaborazione di contenuti",
+          "reason": "Il partecipante evidenzia la capacità di produrre una varietà di contenuti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "strumenti impersonali e troppo generali",
+          "reason": "Il partecipante segnala che gli strumenti risultano impersonali e generici."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocità, varietà) e un contro (impersonalità, generalità)."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_pani16.md",
+  "source_name": "insegnanti_futuri_pani16.md",
+  "title": "Risposta Pani16",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Pani16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:39.927158+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilità le attività ma non si sviluppano a pieno le capacità",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Facilità le attività",
+          "reason": "Il partecipante evidenzia che l'IA rende più agevole l'esecuzione delle attività."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non si sviluppano a pieno le capacità",
+          "reason": "Il partecipante segnala che l'uso dell'IA impedisce lo sviluppo completo delle capacità cognitive."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (facilità) e uno svantaggio (mancanza di sviluppo capacità)."
+    }
+  ]
+}

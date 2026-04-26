@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elia14.md",
+  "source_name": "insegnanti_attuali_elia14.md",
+  "title": "Risposta elia14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "elia14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:27.528078+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I \"Pro\" dell'uso dell'IA nell'educazione consistono in un risparmio di tempo nell'organizzazione e nella scrittura di documenti che poi potrebbero comunque essere modificati a seconda delle proprie esigenze. Di \"Contro\" ci si potrebbe affidare troppo o completamente all'IA senza lasciare spazio all'elaborazione delle proprie idee e alla costruzione del proprio pensiero critico.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante evidenzia il vantaggio del risparmio di tempo nell'organizzazione e nella scrittura."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "affidare troppo o completamente all'IA senza lasciare spazio all'elaborazione delle proprie idee",
+          "reason": "Il partecipante segnala il rischio di delegare completamente il pensiero all'IA, limitando l'elaborazione autonoma."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (risparmio di tempo) e un contro (perdita di pensiero critico)."
+    }
+  ]
+}

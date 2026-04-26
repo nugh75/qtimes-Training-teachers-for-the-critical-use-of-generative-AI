@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ione_2.md",
+  "source_name": "insegnanti_attuali_ione_2.md",
+  "title": "Risposta Ione",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Ione",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:56.534022+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: tempi ridotti nella preparazione della didattica e della programmazione didattica.  CONTRO: se non viene utilizzata consapevolmente potrebbe abbassare il livello di attenzione e apprendimento sia per quanto riguarda i ragazzi che gli adulti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "tempi ridotti nella preparazione della didattica e della programmazione didattica",
+          "reason": "Il partecipante evidenzia il vantaggio della riduzione dei tempi di preparazione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "potrebbe abbassare il livello di attenzione e apprendimento",
+          "reason": "Il partecipante segnala il rischio di un calo dell'attenzione e dell'apprendimento se l'uso non è consapevole."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ata25.md",
+  "source_name": "insegnanti_attuali_ata25.md",
+  "title": "Risposta ata25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ata25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:26.126552+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Supporto creativo",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "Supporto creativo",
+          "reason": "Il partecipante cita esplicitamente il supporto creativo come vantaggio."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta menziona solo un beneficio senza citare rischi."
+    }
+  ]
+}

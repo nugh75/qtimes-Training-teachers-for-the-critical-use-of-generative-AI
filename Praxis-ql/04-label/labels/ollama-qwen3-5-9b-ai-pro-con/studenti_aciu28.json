@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aciu28.md",
+  "source_name": "studenti_aciu28.md",
+  "title": "Risposta ACIU28",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ACIU28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:12.886163+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "studio più veloce",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "studio più veloce",
+          "reason": "Il partecipante indica che l'IA accelera il processo di studio."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un beneficio (velocità)."
+    }
+  ]
+}

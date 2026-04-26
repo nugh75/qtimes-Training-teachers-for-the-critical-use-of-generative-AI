@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rosi06.md",
+  "source_name": "studenti_rosi06.md",
+  "title": "Risposta Rosi06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Rosi06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:14.551038+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzare il processo di apprendimento , Contro: affidarsi troppo all’AI",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare il processo di apprendimento",
+          "reason": "Il partecipante cita l'accelerazione del processo di apprendimento come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "affidarsi troppo all'AI",
+          "reason": "Il partecipante evidenzia il rischio di un eccessivo affidamento all'intelligenza artificiale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

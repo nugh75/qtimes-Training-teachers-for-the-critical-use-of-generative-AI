@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_occo16.md",
+  "source_name": "insegnanti_attuali_occo16.md",
+  "title": "Risposta occo16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "occo16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:19.940931+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: velocità di ricerca/risposta, CONTRO: eliminazione di difficoltà della ricerca e di elaborazione di percorsi di ricerca efficaci",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità di ricerca/risposta",
+          "reason": "Il partecipante evidenzia il vantaggio della rapidità nell'ottenere informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "eliminazione di difficoltà della ricerca e di elaborazione di percorsi di ricerca efficaci",
+          "reason": "Il partecipante segnala il rischio di bypassare lo sforzo cognitivo necessario per la ricerca e l'elaborazione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e un contro (eliminazione difficoltà)."
+    }
+  ]
+}

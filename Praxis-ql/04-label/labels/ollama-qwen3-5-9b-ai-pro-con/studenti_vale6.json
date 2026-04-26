@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_vale6.md",
+  "source_name": "studenti_vale6.md",
+  "title": "Risposta vale6",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "vale6",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:20.487037+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che ti salva per quando non riesci a fare un compito i contro che non ragioni più con la tua testa",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "ti salva per quando non riesci a fare un compito",
+          "reason": "Il partecipante indica che l'IA aiuta a superare difficoltà nello svolgimento dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non ragioni più con la tua testa",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una riduzione del ragionamento autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (aiuto nei compiti) e uno svantaggio (mancanza di ragionamento)."
+    }
+  ]
+}

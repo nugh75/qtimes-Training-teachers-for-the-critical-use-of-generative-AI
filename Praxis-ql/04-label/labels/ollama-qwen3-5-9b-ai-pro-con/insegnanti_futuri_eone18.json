@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_eone18.md",
+  "source_name": "insegnanti_futuri_eone18.md",
+  "title": "Risposta eone18",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "eone18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:38.131168+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità e l'errore",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "errore",
+          "reason": "Il partecipante cita l'errore come svantaggio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e un contro (errore)."
+    }
+  ]
+}

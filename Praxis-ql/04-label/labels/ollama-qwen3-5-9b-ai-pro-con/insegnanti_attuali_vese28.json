@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_vese28.md",
+  "source_name": "insegnanti_attuali_vese28.md",
+  "title": "Risposta vese28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "vese28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:29.253175+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'AI può essere un validissimo strumento che supporta la didattica se usato con criterio e con consapevolezza e sempre in modo critico. Il rischio è che si utilizzi per qualsiasi cosa cercando di vederla come un sostituto dello studio e della produzione personale.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "validissimo strumento che supporta la didattica",
+          "reason": "Il partecipante definisce l'IA come uno strumento di supporto alla didattica."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "cercando di vederla come un sostituto dello studio e della produzione personale",
+          "reason": "Il partecipante evidenzia il rischio di sostituire lo studio e la produzione personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (supporto) e un rischio (sostituzione)."
+    }
+  ]
+}

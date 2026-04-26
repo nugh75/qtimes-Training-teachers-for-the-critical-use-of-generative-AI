@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_lani31.md",
+  "source_name": "studenti_lani31.md",
+  "title": "Risposta lani31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "lani31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:59.014499+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I contro consistono in un impoverimento complessivo delle capacità cognitive umane",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "impoverimento complessivo delle capacità cognitive umane",
+          "reason": "Il partecipante evidenzia un rischio legato alla perdita di capacità cognitive."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta menziona esclusivamente un contro."
+    }
+  ]
+}

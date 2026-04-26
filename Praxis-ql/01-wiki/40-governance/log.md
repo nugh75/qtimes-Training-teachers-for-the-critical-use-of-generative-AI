@@ -213,3 +213,8 @@ Per tutte le dimensioni: eliminate sezioni meccaniche "Ulteriori evidenze dalle 
 - Eseguito run `sentiment_emotions_qwen_by_cohort.py` sul corpus operativo con output in `04-label/labels/ollama-qwen3-5-9b-sentiment-emotions/`.
 - Aggiornata dashboard `viz/sentiment` con KPI sentiment+emozioni e grafici su frequenza emozioni e top emozioni per coorte.
 - Aggiornate pagine wiki correlate in `01-wiki/20-labels/` e `01-wiki/30-visualizzazioni/` con nuovi riferimenti dati.
+
+## [2026-04-25] ingest | insegnanti-attuali practice-patterns tutoraggio-simulazione
+
+- Incrementata `01-wiki/insegnanti-attuali/01-practice-patterns/tutoraggio-simulazione.md` con evidenze item-level su feedback immediato, tutor virtuale, correzione automatica, simulazioni disciplinari e difficoltà graduate.
+- Aggiunti riferimenti corpus da `agna09`, `LLO12`, `tito07`, `usso09`, `sepe29` e `vese28`; aggiornati `Sources` e `Last updated`.

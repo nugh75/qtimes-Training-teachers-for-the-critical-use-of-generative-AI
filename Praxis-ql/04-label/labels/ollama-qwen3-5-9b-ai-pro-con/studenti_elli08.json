@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_elli08.md",
+  "source_name": "studenti_elli08.md",
+  "title": "Risposta Elli08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Elli08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:53.622393+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: velocizzare alcuni processi che ricorrerebbero Maggio tempo Contro: l'uso spropositato puó portare ad esserne dipendenti e a perdere alcune capacità di ragionamento, affidandosi totalmente all'IA",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare alcuni processi",
+          "reason": "Il partecipante evidenzia il vantaggio di accelerare le attività."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "puó portare ad esserne dipendenti",
+          "reason": "Il partecipante segnala il rischio di creare una dipendenza dall'IA."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "perdere alcune capacità di ragionamento, affidandosi totalmente all'IA",
+          "reason": "Il partecipante indica il rischio di atrofizzare le capacità di pensiero autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocizzazione) e due contro (dipendenza e perdita di capacità di ragionamento)."
+    }
+  ]
+}

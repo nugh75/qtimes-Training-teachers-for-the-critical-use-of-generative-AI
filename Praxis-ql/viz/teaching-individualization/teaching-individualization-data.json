@@ -1,0 +1,238 @@
+{
+  "generated_from": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-teaching-individualization/all_individualization.csv",
+  "generated_at": "2026-04-25T07:50:01.883276+00:00",
+  "mode": "individualization",
+  "totals": {
+    "items_total": 184,
+    "cohort_count": 2,
+    "practice_present": 88,
+    "practice_absent": 96,
+    "practice_share": 47.83,
+    "avg_confidence": 0.654,
+    "strategies": {
+      "livelli_difficolta": 63,
+      "semplificazione": 28,
+      "supporti_bes_dsa": 24,
+      "scaffolding_guidato": 24,
+      "esercizi_differenziati": 23,
+      "feedback_mirato": 10,
+      "valutazione_formativa": 9,
+      "recupero_prerequisiti": 1
+    },
+    "targets": {
+      "non_specificato": 96,
+      "sottogruppo": 74,
+      "singolo_studente": 10,
+      "gruppo_classe": 4
+    },
+    "ai_roles": {
+      "non_specificato": 94,
+      "generazione_materiali": 61,
+      "adattamento_contenuti": 14,
+      "suggerimento_strategie": 14,
+      "feedback": 1
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "insegnanti_in_servizio",
+      "label": "Insegnanti in servizio",
+      "items_total": 157,
+      "practice_present": 84,
+      "practice_absent": 73,
+      "practice_share": 53.5,
+      "avg_confidence": 0.667,
+      "strategies": {
+        "livelli_difficolta": 62,
+        "semplificazione": 27,
+        "supporti_bes_dsa": 24,
+        "esercizi_differenziati": 22,
+        "scaffolding_guidato": 22,
+        "valutazione_formativa": 9,
+        "feedback_mirato": 9,
+        "recupero_prerequisiti": 1
+      },
+      "targets": {
+        "non_specificato": 73,
+        "sottogruppo": 72,
+        "singolo_studente": 8,
+        "gruppo_classe": 4
+      },
+      "ai_roles": {
+        "non_specificato": 71,
+        "generazione_materiali": 59,
+        "adattamento_contenuti": 14,
+        "suggerimento_strategie": 13
+      }
+    },
+    {
+      "cohort": "insegnanti_pre_service",
+      "label": "Insegnanti pre-service",
+      "items_total": 27,
+      "practice_present": 4,
+      "practice_absent": 23,
+      "practice_share": 14.81,
+      "avg_confidence": 0.581,
+      "strategies": {
+        "scaffolding_guidato": 2,
+        "livelli_difficolta": 1,
+        "semplificazione": 1,
+        "esercizi_differenziati": 1,
+        "feedback_mirato": 1
+      },
+      "targets": {
+        "non_specificato": 23,
+        "singolo_studente": 2,
+        "sottogruppo": 2
+      },
+      "ai_roles": {
+        "non_specificato": 23,
+        "generazione_materiali": 2,
+        "feedback": 1,
+        "suggerimento_strategie": 1
+      }
+    }
+  ],
+  "examples": [
+    {
+      "source_name": "insegnanti_attuali_ella06.md",
+      "record_code": "ELLA06",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "CREARE VERIFICHE PARALLELE CHE COMPRENDANO LE STESSE COMPETENZE . PERCORSI FACILITATI PER BES. PROGETTARE UDA.",
+      "practice_present": "True",
+      "strategies": "livelli_difficolta|semplificazione|supporti_bes_dsa|valutazione_formativa",
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "CREARE VERIFICHE PARALLELE CHE COMPRENDANO LE STESSE COMPETENZE. PERCORSI FACILITATI PER BES.",
+      "confidence": "0.95",
+      "reason": "La risposta descrive esplicitamente la creazione di verifiche parallele (livelli di difficoltà diversi) e percorsi facilitati per BES, mirando al raggiungimento delle stesse competenze.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_etti10.md",
+      "record_code": "etti10",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "l'intelligenza artificiale mi permette di creare un'esperienza di apprendimento più personalizzata, efficiente ed efficace, mettendo lo studente al centro del processo educativo. Invece di un approccio \"taglia unica\", posso adattarlo alle sue specifiche necessità e aiutarlo a raggiungere gli obiettivi di apprendimento nel modo migliore per lui.  Quindi nello specifico: contenuti su misura; ritmo di apprendimento adattabile; valutazione individualizzata...",
+      "practice_present": "True",
+      "strategies": "livelli_difficolta|valutazione_formativa|feedback_mirato|scaffolding_guidato",
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "contenuti su misura; ritmo di apprendimento adattabile; valutazione individualizzata",
+      "confidence": "0.95",
+      "reason": "La risposta descrive l'adattamento dei contenuti e del ritmo di apprendimento alle specifiche necessità dello studente per raggiungere gli obiettivi.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_iano18.md",
+      "record_code": "iano18",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Utilizzo l’intelligenza artificiale per individualizzare l’insegnamento adattando contenuti e attività in base ai bisogni specifici di ciascun alunno. Attraverso piattaforme educative intelligenti, monitoro i progressi degli studenti, rilevo eventuali difficoltà e propongo esercizi personalizzati con livelli di difficoltà adeguati. In questo modo, ogni studente può seguire un percorso diversificato, mirato al raggiungimento delle competenze fondamentali del curricolo. L’IA mi supporta anche nella pianificazione, suggerendo strategie didattiche efficaci e aiutandomi a gestire la classe in modo più inclusivo.",
+      "practice_present": "True",
+      "strategies": "livelli_difficolta|esercizi_differenziati|valutazione_formativa|feedback_mirato",
+      "target": "sottogruppo",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "adattando contenuti e attività in base ai bisogni specifici di ciascun alunno",
+      "confidence": "0.95",
+      "reason": "La risposta descrive l'adattamento di contenuti e attività basato sui bisogni specifici per garantire il raggiungimento delle competenze fondamentali.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_rini29.md",
+      "record_code": "RINI29",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E  AI BISOGNI DI CIASCUN ALUNNO.",
+      "practice_present": "True",
+      "strategies": "livelli_difficolta|scaffolding_guidato|esercizi_differenziati|feedback_mirato",
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E AI BISOGNI DI CIASCUN ALUNNO",
+      "confidence": "0.95",
+      "reason": "La risposta descrive esplicitamente l'adattamento dei percorsi alle caratteristiche individuali, implicando differenziazione di livelli e supporto mirato.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_agna09.md",
+      "record_code": "agna09",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Utilizzo l' intelligenza artificiale per creare testi semplificati o tradotti, schede didattiche differenziate, mappe concettuali e test a risposta multipla con supporti visivi.",
+      "practice_present": "True",
+      "strategies": "semplificazione|esercizi_differenziati|supporti_bes_dsa",
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creare testi semplificati o tradotti, schede didattiche differenziate",
+      "confidence": "0.95",
+      "reason": "L'uso di testi semplificati e schede differenziate mira a garantire il raggiungimento delle competenze fondamentali attraverso la diversificazione dei materiali.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_assi.md",
+      "record_code": "Assi",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Non la utilizzo per individualizzare",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Non la utilizzo per individualizzare",
+      "confidence": "1.0",
+      "reason": "L'insegnante dichiara esplicitamente di non utilizzare l'IA per l'individualizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_damo20.md",
+      "record_code": "damo20",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "non lo faccio",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "non lo faccio",
+      "confidence": "1.0",
+      "reason": "Il partecipante dichiara esplicitamente di non utilizzare l'IA per individualizzare l'insegnamento.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_dori06.md",
+      "record_code": "dori06",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "non la utilizzo",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "non la utilizzo",
+      "confidence": "1.0",
+      "reason": "L'insegnante dichiara esplicitamente di non utilizzare l'IA per l'individualizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_erio24.md",
+      "record_code": "erio24",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Per ora non la utilizzo per questo scopo",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Per ora non la utilizzo per questo scopo",
+      "confidence": "1.0",
+      "reason": "L'insegnante dichiara esplicitamente di non utilizzare l'IA per l'individualizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "source_name": "insegnanti_attuali_handa11.md",
+      "record_code": "Handa11",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Non la uso",
+      "practice_present": "False",
+      "strategies": "",
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Non la uso",
+      "confidence": "1.0",
+      "reason": "L'insegnante dichiara esplicitamente di non utilizzare l'IA per l'individualizzazione.",
+      "cohort_label": "Insegnanti in servizio"
+    }
+  ]
+}

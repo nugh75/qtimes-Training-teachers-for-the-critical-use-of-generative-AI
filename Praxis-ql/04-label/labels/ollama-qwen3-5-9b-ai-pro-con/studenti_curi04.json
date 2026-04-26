@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_curi04.md",
+  "source_name": "studenti_curi04.md",
+  "title": "Risposta curi04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "curi04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:27.631116+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono la rapidità dell’apprendimento e la precisione dell’apprendimento, i contro sono che a volte sembra che sostituiscano i processi individuali di metabolizzazione ed elaborazione dei contenuti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "rapidità dell'apprendimento",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "precisione dell'apprendimento",
+          "reason": "Il partecipante cita la precisione come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituiscano i processi individuali di metabolizzazione ed elaborazione dei contenuti",
+          "reason": "Il partecipante teme che l'IA prenda il posto del pensiero individuale."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

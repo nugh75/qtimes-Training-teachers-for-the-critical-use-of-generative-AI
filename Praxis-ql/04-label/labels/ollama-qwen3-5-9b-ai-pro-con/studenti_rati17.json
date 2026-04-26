@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rati17.md",
+  "source_name": "studenti_rati17.md",
+  "title": "Risposta RATI17",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "RATI17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:52.521067+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: personalizzazione dello studio e risparmio di tempo. Contro: aumento della prigrizia concreta ed intellettuale.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita esplicitamente il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "personalizzazione dello studio",
+          "reason": "Il partecipante indica la personalizzazione come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "aumento della prigrizia concreta ed intellettuale",
+          "reason": "Il partecipante segnala un aumento della 'prigrizia' (probabilmente intesa come pre-giudizio o pre-conoscenza) che implica una riduzione dell'elaborazione autonoma."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia un pro che un contro."
+    }
+  ]
+}

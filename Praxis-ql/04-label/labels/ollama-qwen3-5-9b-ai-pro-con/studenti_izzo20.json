@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_izzo20.md",
+  "source_name": "studenti_izzo20.md",
+  "title": "Risposta izzo20",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "izzo20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:51.762555+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro l’aiuto nello spiegare argomenti non chiari, i contro l’utilizzo eccessivo per produrre anche testi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuto nello spiegare argomenti non chiari",
+          "reason": "Il partecipante indica che l'IA aiuta a chiarire concetti difficili."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "utilizzo eccessivo per produrre anche testi",
+          "reason": "Il partecipante segnala il rischio di un uso eccessivo dell'IA per la produzione di testi, implicando una delega del compito cognitivo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (spiegazione argomenti) e un contro (uso eccessivo produzione testi)."
+    }
+  ]
+}

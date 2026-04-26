@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_iano11.md",
+  "source_name": "insegnanti_futuri_iano11.md",
+  "title": "Risposta iano11",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "iano11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:56.376738+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sicuramente riduce i tempi per portare a termine un lavoro, ma purtroppo il suo utilizzo disabitua i ragazzi ad impegnarsi e ad utilizzare alcune capacità cognizione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "riduce i tempi per portare a termine un lavoro",
+          "reason": "Il partecipante evidenzia la riduzione dei tempi di esecuzione come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "disabitua i ragazzi ad impegnarsi e ad utilizzare alcune capacità cognizione",
+          "reason": "Il partecipante segnala il rischio di perdita di impegno e capacità cognitive autonome."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un beneficio (tempo) e un rischio (capacità cognitive)."
+    }
+  ]
+}

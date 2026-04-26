@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_coli13.md",
+  "source_name": "insegnanti_attuali_coli13.md",
+  "title": "Risposta Coli13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Coli13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:49.099732+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l’intelligenza artificiale per creare e fornire agli alunni contenuti personalizzati per favorire il conseguimento degli obiettIvi.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato",
+        "feedback_mirato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creare e fornire agli alunni contenuti personalizzati",
+      "confidence": 0.92,
+      "reason": "La creazione di contenuti personalizzati per favorire obiettivi implica l'adattamento dei livelli di difficoltà e il supporto mirato al raggiungimento delle competenze."
+    }
+  ]
+}

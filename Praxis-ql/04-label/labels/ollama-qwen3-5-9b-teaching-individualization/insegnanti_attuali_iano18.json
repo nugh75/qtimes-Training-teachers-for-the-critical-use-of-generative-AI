@@ -1,0 +1,32 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iano18.md",
+  "source_name": "insegnanti_attuali_iano18.md",
+  "title": "Risposta iano18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iano18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:28.059014+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l’intelligenza artificiale per individualizzare l’insegnamento adattando contenuti e attività in base ai bisogni specifici di ciascun alunno. Attraverso piattaforme educative intelligenti, monitoro i progressi degli studenti, rilevo eventuali difficoltà e propongo esercizi personalizzati con livelli di difficoltà adeguati. In questo modo, ogni studente può seguire un percorso diversificato, mirato al raggiungimento delle competenze fondamentali del curricolo. L’IA mi supporta anche nella pianificazione, suggerendo strategie didattiche efficaci e aiutandomi a gestire la classe in modo più inclusivo.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "esercizi_differenziati",
+        "valutazione_formativa",
+        "feedback_mirato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "adattando contenuti e attività in base ai bisogni specifici di ciascun alunno",
+      "confidence": 0.95,
+      "reason": "La risposta descrive l'adattamento di contenuti e attività basato sui bisogni specifici per garantire il raggiungimento delle competenze fondamentali."
+    }
+  ]
+}

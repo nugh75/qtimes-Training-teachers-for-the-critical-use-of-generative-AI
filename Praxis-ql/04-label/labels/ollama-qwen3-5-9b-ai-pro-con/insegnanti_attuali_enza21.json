@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enza21.md",
+  "source_name": "insegnanti_attuali_enza21.md",
+  "title": "Risposta Enza21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Enza21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:07.336544+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro-semplifica lavoro  Contro -",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Pro-semplifica lavoro",
+          "reason": "Il partecipante indica che l'IA semplifica il lavoro, riducendo i tempi o gli sforzi richiesti."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro ('semplifica lavoro') e un contro vuoto ('Contro -'), indicando una posizione mista con evidenza parziale."
+    }
+  ]
+}

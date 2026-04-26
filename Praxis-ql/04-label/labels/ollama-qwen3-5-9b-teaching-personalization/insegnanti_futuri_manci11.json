@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_manci11.md",
+  "source_name": "insegnanti_futuri_manci11.md",
+  "title": "Risposta Manci11",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Manci11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:44:13.918774+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Mettendo parole chiave che riguardano interessi degli studenti",
+      "practice_present": true,
+      "strategies": [
+        "interessi_studenti"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "Mettendo parole chiave che riguardano interessi degli studenti",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per adattare i contenuti basandosi sugli interessi specifici degli studenti."
+    }
+  ]
+}

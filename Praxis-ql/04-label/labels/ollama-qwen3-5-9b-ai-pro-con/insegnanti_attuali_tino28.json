@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tino28.md",
+  "source_name": "insegnanti_attuali_tino28.md",
+  "title": "Risposta tino28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tino28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:51.716400+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I vantaggi vanno alla razionalizzazione, al risparmio di tempo , gli svantaggi possono essere la perdita dei posti di lavoro umani",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "razionalizzazione",
+          "reason": "Il partecipante cita la razionalizzazione come vantaggio."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "perdita dei posti di lavoro umani",
+          "reason": "Il partecipante indica la perdita di posti di lavoro come svantaggio."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia pro che contro specifici."
+    }
+  ]
+}

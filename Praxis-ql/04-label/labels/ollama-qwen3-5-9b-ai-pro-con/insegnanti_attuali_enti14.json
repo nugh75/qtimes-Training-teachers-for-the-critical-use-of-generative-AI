@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enti14.md",
+  "source_name": "insegnanti_attuali_enti14.md",
+  "title": "Risposta enti14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enti14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:00.012075+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: facilità e velocità di creazione. Contro: i numeri non sono corretti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilità e velocità di creazione",
+          "reason": "Il partecipante evidenzia la rapidità e la facilità operativa nell'utilizzo dell'IA."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "i numeri non sono corretti",
+          "reason": "Il partecipante segnala l'insorgenza di errori fattuali o di calcolo generati dall'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e uno svantaggio (errori)."
+    }
+  ]
+}

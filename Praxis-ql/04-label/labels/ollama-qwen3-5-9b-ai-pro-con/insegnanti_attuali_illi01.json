@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi01.md",
+  "source_name": "insegnanti_attuali_illi01.md",
+  "title": "Risposta ILLI01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ILLI01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:35.739508+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: la rapidità e la flessibiltà con cui si preparano materiali di diverso tipo per diverse esigenze educative; avere rapidamente proposte alternative rispetto a una richiesta. CONTRO: lasciare che IA pensi al nostro posto, indebolimento  del pensiero creativo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "rapidità e la flessibiltà con cui si preparano materiali di diverso tipo",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di generare rapidamente risorse educative diversificate."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "avere rapidamente proposte alternative rispetto a una richiesta",
+          "reason": "Il partecipante nota la flessibilità nell'ottenere alternative rapide per le esigenze educative."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "lasciare che IA pensi al nostro posto",
+          "reason": "Il partecipante teme che l'IA possa sostituire il processo di pensiero dell'insegnante."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "indebolimento del pensiero creativo",
+          "reason": "Il partecipante segnala un rischio specifico per la capacità creativa."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi (velocità, flessibilità) sia rischi cognitivi (delega, creatività)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_uzzi27.md",
+  "source_name": "studenti_uzzi27.md",
+  "title": "Risposta uzzi27",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "uzzi27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:17.391935+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro solo il risparmio del tempo, la praticità e la concretezza, i contro sono la difficoltà a tornare a metodi più dispendiosi, non solo economicamente ma anche su piano temporale",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio del tempo",
+          "reason": "Il partecipante cita il risparmio del tempo come vantaggio principale."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "la praticità",
+          "reason": "La praticità è indicata come un beneficio operativo."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "la concretezza",
+          "reason": "La concretezza è menzionata come un aspetto positivo dell'uso dell'IA."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "difficoltà a tornare a metodi più dispendiosi",
+          "reason": "Il partecipante evidenzia la difficoltà di abbandonare l'uso dell'IA, indicando una dipendenza."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia pro che contro dell'uso dell'IA."
+    }
+  ]
+}

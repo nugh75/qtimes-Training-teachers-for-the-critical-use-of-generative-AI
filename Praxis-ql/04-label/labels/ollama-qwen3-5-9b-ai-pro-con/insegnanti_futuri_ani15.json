@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ani15.md",
+  "source_name": "insegnanti_futuri_ani15.md",
+  "title": "Risposta ANI15",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ANI15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:02.360141+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sono favorevole per ampliare concetti già sviluppati. Non ha controindicazioni.",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "ampliare concetti già sviluppati",
+          "reason": "Il partecipante indica che l'IA permette di espandere e approfondire i concetti esistenti."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta esprime esplicitamente un favorevole e nega l'esistenza di controindicazioni."
+    }
+  ]
+}

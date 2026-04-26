@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cchi23.md",
+  "source_name": "insegnanti_attuali_cchi23.md",
+  "title": "Risposta cchi23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cchi23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:46.634021+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Modificando le verifiche scritte in base alle esigenze (BES - DSA - DVA - etc.).",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "Modificando le verifiche scritte in base alle esigenze (BES - DSA - DVA - etc.)",
+      "confidence": 0.95,
+      "reason": "La risposta descrive l'adattamento delle verifiche per studenti con bisogni specifici (BES, DSA, DVA), indicando una strategia di individualizzazione per sottogruppi."
+    }
+  ]
+}

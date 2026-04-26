@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_bello20.md",
+  "source_name": "insegnanti_futuri_bello20.md",
+  "title": "Risposta Bello20",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Bello20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:08.983779+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono trovare informazioni in tempi brevi, i contro che può non esserci una rielaborazione dei dati e quindi una non acquisizione.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "trovare informazioni in tempi brevi",
+          "reason": "Il partecipante evidenzia la rapidità nell'accesso alle informazioni come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non esserci una rielaborazione dei dati e quindi una non acquisizione",
+          "reason": "Il partecipante segnala il rischio di non elaborare i contenuti, impedendo l'apprendimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

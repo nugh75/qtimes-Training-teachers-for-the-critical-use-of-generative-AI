@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_orgi03.md",
+  "source_name": "insegnanti_futuri_orgi03.md",
+  "title": "Risposta Orgi03",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Orgi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:22.458096+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Feedback",
+      "practice_present": true,
+      "strategies": [
+        "feedback_mirato"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "feedback",
+      "evidence": "Feedback",
+      "confidence": 0.95,
+      "reason": "La risposta esplicita l'uso dell'IA per fornire feedback."
+    }
+  ]
+}

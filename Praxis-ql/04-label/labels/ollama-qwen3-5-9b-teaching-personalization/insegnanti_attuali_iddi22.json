@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iddi22.md",
+  "source_name": "insegnanti_attuali_iddi22.md",
+  "title": "Risposta IDDI22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "IDDI22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:30.026039+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Creazione di griglie riassuntive utili per l’esecuzione di una esperienza laboratori alle.",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Creazione di griglie riassuntive utili per l'esecuzione di una esperienza laboratori alle.",
+      "confidence": 1.0,
+      "reason": "La risposta descrive una funzione strumentale (creazione di griglie) per un'attività specifica, non una strategia di personalizzazione legata a potenzialità, talenti o percorsi elettivi dello studente."
+    }
+  ]
+}

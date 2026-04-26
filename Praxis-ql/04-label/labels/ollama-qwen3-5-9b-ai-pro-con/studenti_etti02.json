@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etti02.md",
+  "source_name": "studenti_etti02.md",
+  "title": "Risposta Etti02",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Etti02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:27.408202+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: anche quando non sa le risposte, le dà sbagliate",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "anche quando non sa le risposte, le dà sbagliate",
+          "reason": "Il partecipante evidenzia il rischio di ricevere informazioni errate anche in assenza di conoscenza."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta contiene esclusivamente un contro."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_endo15.md",
+  "source_name": "insegnanti_attuali_endo15.md",
+  "title": "Risposta endo15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "endo15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:53.741965+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: creare materiale  - Contro: poco creativa",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "creare materiale",
+          "reason": "Il partecipante indica la capacità di generare risorse didattiche come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "poco creativa",
+          "reason": "Il partecipante segnala una limitazione nella capacità di stimolare la creatività."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elli17.md",
+  "source_name": "insegnanti_attuali_elli17.md",
+  "title": "Risposta Elli17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Elli17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:43.686001+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO -L’integrazione dell’IA nella didattica può preparare meglio le nuove generazioni per il mercato del lavoro del futuro, dove saranno sempre più richieste le competenze digitali. CONTRO -Dipendenza dalla tecnologia: l'eccessiva dipendenza sull’IA potrebbe portare alla sostituzione di interazioni umane, riducendo l’importanza della relazione insegnante-studente. -Impatto psicologico e sociale. -I contenuti e le risposte forniti dall’AI non sempre sono di qualità o affidabili, proprio perché manca un aspetto umano che le verifichi.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "preparare meglio le nuove generazioni per il mercato del lavoro del futuro",
+          "reason": "Il partecipante cita la preparazione al futuro mercato del lavoro come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "sostituzione di interazioni umane, riducendo l'importanza della relazione insegnante-studente",
+          "reason": "Il partecipante evidenzia il rischio di perdita della relazione umana."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "eccessiva dipendenza sull'IA",
+          "reason": "Il partecipante segnala il rischio di dipendenza tecnologica."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "contenuti e risposte forniti dall'AI non sempre sono di qualità o affidabili",
+          "reason": "Il partecipante indica la mancanza di affidabilità e qualità dei contenuti generati."
+        },
+        {
+          "category": "privacy_etica",
+          "evidence": "manca un aspetto umano che le verifichi",
+          "reason": "Il partecipante sottolinea l'assenza di verifica umana come problema etico/qualitativo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 4,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e diversi contro specifici."
+    }
+  ]
+}

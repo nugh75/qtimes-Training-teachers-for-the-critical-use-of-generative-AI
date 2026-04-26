@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci06.md",
+  "source_name": "insegnanti_attuali_ucci06.md",
+  "title": "Risposta ucci06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:51.146964+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di slide e verifiche",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Creazione di slide e verifiche",
+      "confidence": 0.0,
+      "reason": "La risposta menziona solo la creazione di materiali generici (slide e verifiche) senza descrivere strategie di individualizzazione mirate al raggiungimento delle competenze fondamentali per tutti gli studenti."
+    }
+  ]
+}

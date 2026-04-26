@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ioni17.md",
+  "source_name": "insegnanti_attuali_ioni17.md",
+  "title": "Risposta ioni17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ioni17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:58.836958+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I vantaggi sono: risparmio di tempo, aumenta le nostre possibilità di conoscenza, personalizzazione. Gli svantaggi sono: riduzione delle relazioni sociali, dipendenza dalla tecnologia.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "personalizzazione",
+          "reason": "Il partecipante cita la personalizzazione come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aumenta le nostre possibilità di conoscenza",
+          "reason": "Il partecipante indica un aumento delle possibilità di conoscenza come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione delle relazioni sociali",
+          "reason": "Il partecipante segnala una diminuzione delle relazioni sociali come svantaggio."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza dalla tecnologia",
+          "reason": "Il partecipante indica la dipendenza dalla tecnologia come svantaggio."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente sia vantaggi che svantaggi dell'uso dell'IA."
+    }
+  ]
+}

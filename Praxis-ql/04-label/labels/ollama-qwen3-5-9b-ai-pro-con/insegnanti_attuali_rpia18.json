@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rpia18.md",
+  "source_name": "insegnanti_attuali_rpia18.md",
+  "title": "Risposta rpia18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rpia18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:58.490846+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: può aiutare a creare esperienze di apprendimento personalizzato per gli studenti in base alle proprie abilità, obiettivi, progressi ecc ; contribuisce a rendere l'istruzione più accessibile e inclusiva per gli studenti. contro: limitazione delle capacità dello studente di critica, sintesi ed elaborazione dei contenuti e la riduzione del rapporto studente insegnante.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "può aiutare a creare esperienze di apprendimento personalizzato per gli studenti in base alle proprie abilità, obiettivi, progressi ecc",
+          "reason": "Il partecipante cita la capacità di adattare l'apprendimento alle specifiche esigenze dello studente."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "contribuisce a rendere l'istruzione più accessibile e inclusiva per gli studenti",
+          "reason": "Il partecipante evidenzia il ruolo dell'IA nel migliorare l'accessibilità e l'inclusività educativa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "limitazione delle capacità dello studente di critica, sintesi ed elaborazione dei contenuti",
+          "reason": "Il partecipante segnala il rischio di indebolimento delle capacità cognitive critiche dello studente."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione del rapporto studente insegnante",
+          "reason": "Il partecipante indica il pericolo di un indebolimento del legame umano tra docente e discente."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia benefici specifici (personalizzazione, inclusione) sia rischi specifici (delega cognitiva, riduzione relazionale)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_orio18.md",
+  "source_name": "insegnanti_futuri_orio18.md",
+  "title": "Risposta Orio18",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Orio18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:33.627915+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Suppongo, non avendola utilizzata, che sia uno strumento molto valido per creare contenuti interattivi e coinvolgenti ma da non considerare nella valutazione degli studenti, poiché manca del tutto la componente fondamentale dell'empatia e della conoscenza dell'alunno sul piano personale",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "creare contenuti interattivi e coinvolgenti",
+          "reason": "Il partecipante ipotizza che l'IA sia valida per generare materiali interattivi e coinvolgenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "manca del tutto la componente fondamentale dell'empatia",
+          "reason": "Il partecipante evidenzia la mancanza di empatia come limite principale."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "conoscenza dell'alunno sul piano personale",
+          "reason": "Il partecipante segnala l'incapacità dell'IA di conoscere lo studente a livello personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un potenziale beneficio (creatività) e due rischi relazionali (mancanza di empatia e conoscenza personale)."
+    }
+  ]
+}

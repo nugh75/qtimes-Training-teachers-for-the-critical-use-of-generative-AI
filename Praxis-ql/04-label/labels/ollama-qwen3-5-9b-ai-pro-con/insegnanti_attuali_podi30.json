@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_podi30.md",
+  "source_name": "insegnanti_attuali_podi30.md",
+  "title": "Risposta podi30",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "podi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:21.748041+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i Pro sono : l'informazione dettagliata e formativa dello studente ; i contro : l'utilizzo inappropriato e controproducente per la didattica e la perdita della manualita' nella scrittura",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "informazione dettagliata e formativa dello studente",
+          "reason": "Il partecipante evidenzia il valore formativo e informativo dell'IA per lo studente."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "utilizzo inappropriato e controproducente per la didattica",
+          "reason": "Il partecipante segnala che l'uso scorretto dell'IA danneggia il processo didattico."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "perdita della manualita' nella scrittura",
+          "reason": "Il partecipante indica la perdita delle competenze manuali e cognitive legate alla scrittura."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che due contro specifici."
+    }
+  ]
+}

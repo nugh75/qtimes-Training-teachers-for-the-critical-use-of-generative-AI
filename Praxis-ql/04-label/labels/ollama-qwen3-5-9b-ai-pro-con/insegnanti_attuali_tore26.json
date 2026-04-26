@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tore26.md",
+  "source_name": "insegnanti_attuali_tore26.md",
+  "title": "Risposta tore26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tore26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:54.993213+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: molte fonti disponibili - Contro: valutare attendibilità delle fonti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "molte fonti disponibili",
+          "reason": "Il partecipante evidenzia la disponibilità di un'ampia quantità di informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "valutare attendibilità delle fonti",
+          "reason": "Il partecipante segnala la necessità di verificare l'affidabilità delle informazioni fornite."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (abbondanza di fonti) e uno svantaggio (necessità di verifica)."
+    }
+  ]
+}

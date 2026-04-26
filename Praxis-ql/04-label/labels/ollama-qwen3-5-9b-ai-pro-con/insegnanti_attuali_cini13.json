@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cini13.md",
+  "source_name": "insegnanti_attuali_cini13.md",
+  "title": "Risposta cini13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cini13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:03.916595+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere utile per produrre esercitazioni pratiche strutturate, velocizzando le tempistiche, ma non favorisce il pensiero autonomo e il processo razionale e mortifica la creatività e l'immaginazione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "utile per produrre esercitazioni pratiche strutturate",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di generare materiali didattici organizzati."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzando le tempistiche",
+          "reason": "Il partecipante indica un vantaggio legato alla rapidità di esecuzione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non favorisce il pensiero autonomo",
+          "reason": "Il partecipante segnala che l'uso dell'IA ostacola l'autonomia mentale."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "mortifica la creatività e l'immaginazione",
+          "reason": "Il partecipante indica un impatto negativo sulla capacità creativa e immaginativa."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi che svantaggi cognitivi e creativi."
+    }
+  ]
+}

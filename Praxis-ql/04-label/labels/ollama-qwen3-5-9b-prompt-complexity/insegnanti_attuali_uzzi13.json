@@ -1,0 +1,58 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uzzi13.md",
+  "source_name": "insegnanti_attuali_uzzi13.md",
+  "title": "Risposta uzzi13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "uzzi13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:13:24.899496+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_operativa": 1
+  },
+  "strategy_counts": {
+    "ricerca": 1
+  },
+  "avg_word_count": 15.0,
+  "avg_confidence": 0.5,
+  "items": [
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ricerca informazioni sugli stambecchi italiani, tenendo presente che devono emozionare bambini di seconda primaria. Grazie",
+      "metrics": {
+        "char_count": 122,
+        "word_count": 15,
+        "sentence_count": 2,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [
+        "ricerca"
+      ],
+      "has_role": false,
+      "has_context": true,
+      "has_constraints": true,
+      "has_output_format": false,
+      "has_audience": true,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.5,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

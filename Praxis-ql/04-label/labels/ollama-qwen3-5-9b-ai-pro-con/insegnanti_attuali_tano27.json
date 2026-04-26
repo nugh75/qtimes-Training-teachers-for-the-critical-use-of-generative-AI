@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tano27.md",
+  "source_name": "insegnanti_attuali_tano27.md",
+  "title": "Risposta tano27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tano27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:33.526623+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può essere molto utile per alcuni aspetti, soprattutto di praticità e risparmio di tempo, ma si perde l' approfondimento personale che ritengo indispensabile per la costruzione del nostro sapere e della nostra personalità.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "praticità e risparmio di tempo",
+          "reason": "Il partecipante evidenzia il vantaggio operativo legato al risparmio di tempo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "si perde l' approfondimento personale",
+          "reason": "Il partecipante segnala il rischio di perdita dell'approfondimento personale e della costruzione del sapere."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (praticità/tempo) e un contro (perdita di approfondimento)."
+    }
+  ]
+}

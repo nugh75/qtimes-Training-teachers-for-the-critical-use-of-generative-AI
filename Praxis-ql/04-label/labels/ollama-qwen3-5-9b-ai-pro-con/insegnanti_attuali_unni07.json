@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_unni07.md",
+  "source_name": "insegnanti_attuali_unni07.md",
+  "title": "Risposta unni07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "unni07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:12.232871+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono la velocità di ricerca e risposta immediata ad un quesito o domanda, i contro forse avere troppe risposte su tutto ed evitare il ragionamento personale per arrivare ad una risposta.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "velocità di ricerca",
+          "reason": "Il partecipante evidenzia la rapidità nell'ottenere informazioni."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risposta immediata",
+          "reason": "Il partecipante indica la celerità nella risposta a domande."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "evitare il ragionamento personale",
+          "reason": "Il partecipante segnala il rischio di non sviluppare il pensiero critico autonomo."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "troppe risposte su tutto",
+          "reason": "Il partecipante suggerisce che l'eccesso di risposte disponibili possa scoraggiare l'elaborazione personale."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia vantaggi operativi (velocità) sia svantaggi cognitivi (mancanza di ragionamento personale)."
+    }
+  ]
+}

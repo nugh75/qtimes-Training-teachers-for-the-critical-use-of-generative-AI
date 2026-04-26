@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rasso10.md",
+  "source_name": "studenti_rasso10.md",
+  "title": "Risposta rasso10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "rasso10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:49.161588+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "PRO: Ti permette di migliorare la qualità dello studio, di implementare informazioni, di fare ricerche velocemente. CONTRO: utilizzarlo come UNICO metodo di studio e non come integrazione o fare risolvere all’AI propri compiti o consegne.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "fare ricerche velocemente",
+          "reason": "Il partecipante cita la velocità nell'effettuare ricerche come vantaggio."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "migliorare la qualità dello studio",
+          "reason": "L'uso dell'IA è visto come strumento per migliorare la qualità del materiale di studio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "implementare informazioni",
+          "reason": "La capacità di integrare nuove informazioni è considerata un beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "fare risolvere all'AI propri compiti o consegne",
+          "reason": "Il partecipante evidenzia il rischio di delegare completamente i compiti all'IA."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "utilizzarlo come UNICO metodo di studio",
+          "reason": "L'uso esclusivo dell'IA è criticato come rischio di dipendenza o mancanza di integrazione."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi operativi che rischi legati all'uso esclusivo e alla delega."
+    }
+  ]
+}

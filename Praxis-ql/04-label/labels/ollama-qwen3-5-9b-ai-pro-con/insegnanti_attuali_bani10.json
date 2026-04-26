@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_bani10.md",
+  "source_name": "insegnanti_attuali_bani10.md",
+  "title": "Risposta bani10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "bani10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:37.719168+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro efficienza nel produrre esercizi, Contro la ridondanza di alcuni modelli usati dall' AI",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "efficienza nel produrre esercizi",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di velocizzare la creazione di materiali didattici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "ridondanza di alcuni modelli usati dall' AI",
+          "reason": "Il partecipante segnala il rischio di contenuti ripetitivi o poco originali generati dai modelli."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (efficienza) e uno svantaggio (ridondanza)."
+    }
+  ]
+}

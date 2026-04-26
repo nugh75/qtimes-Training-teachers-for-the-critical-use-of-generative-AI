@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rzio16.md",
+  "source_name": "insegnanti_attuali_rzio16.md",
+  "title": "Risposta RZIO16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "RZIO16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:09.769192+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: arricchimento contro: usarla per effettuare compiti senza ragionare",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "arricchimento",
+          "reason": "Il partecipante indica che l'uso dell'IA porta a un arricchimento del contesto educativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "usarla per effettuare compiti senza ragionare",
+          "reason": "Il partecipante evidenzia il rischio di delegare l'esecuzione dei compiti all'IA, evitando il processo di ragionamento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta esplicita chiaramente un pro ('arricchimento') e un contro ('usarla per effettuare compiti senza ragionare')."
+    }
+  ]
+}

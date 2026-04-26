@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tino19.md",
+  "source_name": "insegnanti_attuali_tino19.md",
+  "title": "Risposta Tino19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Tino19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:49.330220+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un pro è sicuramente la velocità di creare riassunti, immagini, risposte e informarsi. Un contro è che il cervello si impigrisce come quando usiamo la calcolatrice per le operazioni più elementari. Un altro è la poca \"umanità\" dei risultati e dei compiti svolti.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocità di creare riassunti, immagini, risposte",
+          "reason": "Il partecipante evidenzia la rapidità nella generazione di contenuti e informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "il cervello si impigrisce come quando usiamo la calcolatrice",
+          "reason": "Il partecipante segnala il rischio di atrofizzazione delle capacità cognitive autonome."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "poca 'umanità' dei risultati e dei compiti svolti",
+          "reason": "Il partecipante lamenta la mancanza di calore umano e autenticità nei prodotti generati."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio operativo e due svantaggi legati alle capacità cognitive e relazionali."
+    }
+  ]
+}

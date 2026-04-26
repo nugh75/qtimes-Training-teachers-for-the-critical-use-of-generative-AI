@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ucci19.md",
+  "source_name": "studenti_ucci19.md",
+  "title": "Risposta ucci19",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ucci19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:56.117032+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il rischio principale per me è l’abuso, rischiando di sostituire ciò che potrebbe essere svolto da noi ma per comodità farlo svolgere dall’AI",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischiando di sostituire ciò che potrebbe essere svolto da noi",
+          "reason": "Il partecipante evidenzia il rischio di sostituzione delle attività umane da parte dell'IA."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "per comodità farlo svolgere dall’AI",
+          "reason": "Il partecipante indica come motivazione principale la comodità, suggerendo una dipendenza dall'IA."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente rischi (abuso, sostituzione, comodità) senza menzionare benefici."
+    }
+  ]
+}

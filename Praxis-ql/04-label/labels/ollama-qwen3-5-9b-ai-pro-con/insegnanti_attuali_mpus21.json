@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_mpus21.md",
+  "source_name": "insegnanti_attuali_mpus21.md",
+  "title": "Risposta MPUS21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "MPUS21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:50.449045+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'uso dell'A.I. può velocizzare alcune parti del lavoro, ma porta ad un minore allenamento della mente e riduce l'originalità dei metodi ed approcci didattici",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare alcune parti del lavoro",
+          "reason": "Il partecipante evidenzia il vantaggio di accelerare le attività lavorative."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "riduce l'originalità dei metodi ed approcci didattici",
+          "reason": "Il partecipante segnala un impatto negativo sulla creatività e sull'originalità didattica."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "minore allenamento della mente",
+          "reason": "Il partecipante indica un rischio di riduzione dell'esercizio mentale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un beneficio (velocizzazione) e due rischi (riduzione originalità, minore allenamento mentale)."
+    }
+  ]
+}

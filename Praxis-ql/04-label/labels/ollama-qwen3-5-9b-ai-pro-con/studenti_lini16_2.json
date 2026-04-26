@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_lini16_2.md",
+  "source_name": "studenti_lini16_2.md",
+  "title": "Risposta Lini16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Lini16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:05.993652+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "contro: solo utilizzo dell’intelligenza artificiale per svolgere il 100% dei xompiti",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "solo utilizzo dell’intelligenza artificiale per svolgere il 100% dei xompiti",
+          "reason": "Il partecipante evidenzia il rischio di un uso esclusivo dell'IA per tutti i compiti, implicando una totale delega."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente un contro (uso al 100% dei compiti)."
+    }
+  ]
+}

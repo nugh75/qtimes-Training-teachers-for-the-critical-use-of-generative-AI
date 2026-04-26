@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_agna09.md",
+  "source_name": "insegnanti_attuali_agna09.md",
+  "title": "Risposta agna09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "agna09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:41:22.388859+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Utilizzo l' intelligenza artificiale per offrire percorsi di approfondimento per incuriosire agli alunni, per proporre sfide cognitive graduate e incoraggiare ciascuno a esprimere una propria eccellenza, sia essa logico-matematica, linguistica o creativa.",
+      "practice_present": true,
+      "strategies": [
+        "potenzialita_talenti",
+        "interessi_studenti",
+        "scelte_percorsi"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "offrire percorsi di approfondimento",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per creare sfide graduate e percorsi di approfondimento basati sulle potenzialità e interessi specifici degli alunni."
+    }
+  ]
+}

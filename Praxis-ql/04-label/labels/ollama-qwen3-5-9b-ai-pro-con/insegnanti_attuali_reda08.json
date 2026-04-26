@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_reda08.md",
+  "source_name": "insegnanti_attuali_reda08.md",
+  "title": "Risposta REDA08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "REDA08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:35.847744+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "non permette agli studenti di lavorare stimolando le proprie capacità ma potrebbe esser utile per stimolare la fantasia",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "potrebbe esser utile per stimolare la fantasia",
+          "reason": "Il partecipante indica che l'IA può stimolare la fantasia."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non permette agli studenti di lavorare stimolando le proprie capacità",
+          "reason": "Il partecipante segnala che l'IA impedisce agli studenti di esercitare le proprie capacità."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (stimolare la fantasia) sia un rischio (non stimolare le capacità proprie)."
+    }
+  ]
+}

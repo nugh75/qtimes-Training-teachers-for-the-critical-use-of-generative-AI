@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_osti31.md",
+  "source_name": "insegnanti_attuali_osti31.md",
+  "title": "Risposta osti31",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "osti31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:44.109420+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono molti, ma bisogna far capire agli studenti che l'intelligenza artificiale non deve sostituirsi alla loro intuizione, logica e capacità di ragionamento.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "i pro sono molti",
+          "reason": "Il partecipante afferma genericamente che i vantaggi sono numerosi, senza specificarne uno in particolare."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "l'intelligenza artificiale non deve sostituirsi alla loro intuizione, logica e capacità di ragionamento",
+          "reason": "Il partecipante evidenzia il rischio che l'IA sostituisca le capacità cognitive fondamentali come intuizione e logica."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita sia la presenza di vantaggi generici che un rischio specifico legato alla sostituzione delle capacità cognitive."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_pina54.md",
+  "source_name": "insegnanti_futuri_pina54.md",
+  "title": "Risposta pina54",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "pina54",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:42.098785+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Velocità come pro,",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Velocità",
+          "reason": "Il partecipante cita esplicitamente la velocità come vantaggio."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta menziona solo un beneficio (velocità) senza citare contro."
+    }
+  ]
+}

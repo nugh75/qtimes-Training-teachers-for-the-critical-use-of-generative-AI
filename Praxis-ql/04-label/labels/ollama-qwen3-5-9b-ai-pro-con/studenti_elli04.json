@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_elli04.md",
+  "source_name": "studenti_elli04.md",
+  "title": "Risposta Elli04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Elli04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:51.693892+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Velocizza il processo ma rischia di far impigrire la mente se usata indiscriminatamente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Velocizza il processo",
+          "reason": "Il partecipante evidenzia l'accelerazione del processo di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischia di far impigrire la mente",
+          "reason": "Il partecipante segnala il rischio di atrofizzazione delle capacità cognitive."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocizzazione) e uno svantaggio (impigrimento della mente)."
+    }
+  ]
+}

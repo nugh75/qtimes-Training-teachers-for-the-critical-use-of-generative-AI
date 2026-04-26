@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ioli21.md",
+  "source_name": "insegnanti_futuri_ioli21.md",
+  "title": "Risposta ioli21",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ioli21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:01.754394+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho un'esperienza. Tra i pro si potrebbe considerare la possibilità di avere spunti di idee; tra i contro il rischio di un utilizzo inappropriato che azzera la possibilità di sviluppo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "possibilità di avere spunti di idee",
+          "reason": "Il partecipante cita la generazione di nuove idee come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "azzera la possibilità di sviluppo",
+          "reason": "Il partecipante indica che l'uso inappropriato blocca lo sviluppo personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

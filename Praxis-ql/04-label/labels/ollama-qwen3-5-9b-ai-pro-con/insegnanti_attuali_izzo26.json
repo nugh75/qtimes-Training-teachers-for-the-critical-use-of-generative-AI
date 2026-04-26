@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_izzo26.md",
+  "source_name": "insegnanti_attuali_izzo26.md",
+  "title": "Risposta izzo26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "izzo26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:20.084739+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Usare IA è troppo semplice, secondo me non sviluppala capacità dell'alunno nella ricerca e curiosità. Riconoscimento facciale è un fattore positivo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "Riconoscimento facciale è un fattore positivo",
+          "reason": "Il partecipante cita il riconoscimento facciale come un aspetto positivo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "non sviluppala capacità dell'alunno nella ricerca",
+          "reason": "Il partecipante afferma che l'uso dell'IA non sviluppa la capacità di ricerca."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "non sviluppala capacità dell'alunno nella ricerca e curiosità",
+          "reason": "Il partecipante segnala un impatto negativo sulla curiosità dell'alunno."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (riconoscimento facciale) sia dei rischi (mancanza di sviluppo di ricerca e curiosità)."
+    }
+  ]
+}

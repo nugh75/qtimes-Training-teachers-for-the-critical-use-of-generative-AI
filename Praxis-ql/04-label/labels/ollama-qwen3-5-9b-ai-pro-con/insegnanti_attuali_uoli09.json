@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uoli09.md",
+  "source_name": "insegnanti_attuali_uoli09.md",
+  "title": "Risposta uoli09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "uoli09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:14.464743+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può collaborare a creare contenuti sui quali poi si possa lavorare, immagini, reperire informazioni per iniziare una ricerca o uno studio.  Penso che però vada sempre supportata da studio e verifica delle informazioni. Temo si rischi di cadere nella passività e nella superficialità se non usata bene. Può creare contenuti superficiali e a basso livello alimentando pigrizia e ignoranza.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "Può collaborare a creare contenuti sui quali poi si possa lavorare, immagini, reperire informazioni per iniziare una ricerca o uno studio",
+          "reason": "Il partecipante elenca la capacità dell'IA di generare contenuti, immagini e informazioni utili per avviare ricerche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Temo si rischi di cadere nella passività e nella superficialità se non usata bene",
+          "reason": "Il partecipante teme che l'uso non corretto porti a una passività e superficialità."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "Può creare contenuti superficiali e a basso livello alimentando pigrizia e ignoranza",
+          "reason": "Il partecipante segnala il rischio di pigrizia e ignoranza derivanti da contenuti di basso livello."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita sia vantaggi operativi (creazione contenuti) che rischi significativi (pigrizia, superficialità)."
+    }
+  ]
+}

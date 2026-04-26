@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enti38.md",
+  "source_name": "insegnanti_attuali_enti38.md",
+  "title": "Risposta enti38",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enti38",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:02.685976+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro, sono legati al risparmio di tempo, prodotti e servizi su misura; i contro sono perdita di posti di lavoro, utilizzo improprio, riduzione rapporto docente-alunno",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "prodotti e servizi su misura",
+          "reason": "Il partecipante menziona la capacità di creare prodotti e servizi personalizzati."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione rapporto docente-alunno",
+          "reason": "Il partecipante segnala il peggioramento del rapporto tra docente e alunno."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "utilizzo improprio",
+          "reason": "Il partecipante evidenzia il rischio di un utilizzo scorretto dell'IA."
+        },
+        {
+          "category": "altro",
+          "evidence": "perdita di posti di lavoro",
+          "reason": "Il partecipante indica il rischio di perdita di occupazione."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi (risparmio tempo, su misura) sia svantaggi (perdita posti, uso improprio, riduzione rapporto)."
+    }
+  ]
+}

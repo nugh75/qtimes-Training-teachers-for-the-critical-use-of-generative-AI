@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_onte26.md",
+  "source_name": "studenti_onte26.md",
+  "title": "Risposta onte26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "onte26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:20.960893+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro - velocizzare schematizzazione di concetti sempllici, forniire riferimenti,  traduzioni, parafrasi, adattamento della sintassi a determinati bisogni. compilare bibliografia. Contro: aiuto limitato nella stesura di testi specifici",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocizzare schematizzazione di concetti semplici",
+          "reason": "L'IA accelera la creazione di schemi e materiali didattici."
+        },
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "fornire riferimenti",
+          "reason": "L'IA aiuta a reperire fonti e riferimenti bibliografici."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "traduzioni, parafrasi, adattamento della sintassi a determinati bisogni",
+          "reason": "L'IA permette di adattare il linguaggio e il contenuto a esigenze specifiche."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "compilare bibliografia",
+          "reason": "L'IA facilita la stesura e l'organizzazione delle fonti bibliografiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "aiuto limitato nella stesura di testi specifici",
+          "reason": "L'IA sostituisce parzialmente l'utente nella produzione di testi complessi, limitando l'impegno attivo."
+        }
+      ],
+      "pro_count": 4,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi (pro) sia un limite nella produzione autonoma (contro)."
+    }
+  ]
+}

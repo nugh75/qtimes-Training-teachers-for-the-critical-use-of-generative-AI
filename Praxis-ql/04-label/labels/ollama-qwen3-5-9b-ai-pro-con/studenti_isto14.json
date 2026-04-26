@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_isto14.md",
+  "source_name": "studenti_isto14.md",
+  "title": "Risposta isto14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "isto14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:45.301750+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "sicuramente può facilitare il processo di studio ma anche alimentare la pigrizia",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitare il processo di studio",
+          "reason": "Il partecipante indica che l'IA rende più agevole lo studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "alimentare la pigrizia",
+          "reason": "Il partecipante segnala che l'IA può portare a una minore applicazione mentale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('facilitare') e uno svantaggio ('pigrizia')."
+    }
+  ]
+}

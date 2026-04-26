@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_elli26.md",
+  "source_name": "insegnanti_futuri_elli26.md",
+  "title": "Risposta ELLI26",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ELLI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:33.877119+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono: risparmio di tempo, facilitare l’accesso alle informazioni  può rendere meglio accessibile l’istruzione degli studenti disabili  I contro sono: Affidarsi eccessivamente all’intelligenza artificiale nel campo della formazione potrebbe portare a una riduzione delle interazioni tra studenti e insegnanti e a una minore opportunità di apprendimento pratico;",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "facilitare l'accesso alle informazioni",
+          "reason": "Il partecipante indica che l'IA facilita l'accesso alle informazioni."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "può rendere meglio accessibile l'istruzione degli studenti disabili",
+          "reason": "Il partecipante evidenzia il beneficio per l'inclusione degli studenti disabili."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione delle interazioni tra studenti e insegnanti",
+          "reason": "Il partecipante segnala che l'eccessivo affidamento riduce le interazioni umane."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "minore opportunità di apprendimento pratico",
+          "reason": "Il partecipante collega la riduzione delle interazioni a una minore opportunità di apprendimento pratico."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente tre benefici e due rischi specifici."
+    }
+  ]
+}

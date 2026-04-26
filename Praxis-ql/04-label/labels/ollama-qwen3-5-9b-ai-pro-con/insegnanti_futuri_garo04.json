@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_garo04.md",
+  "source_name": "insegnanti_futuri_garo04.md",
+  "title": "Risposta Garo04",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Garo04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:47.740134+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti copiano",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "plagio_autorialita",
+          "evidence": "Gli studenti copiano",
+          "reason": "Il partecipante evidenzia il rischio di plagio e mancanza di originalità."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta menziona esclusivamente un aspetto negativo (copiare)."
+    }
+  ]
+}

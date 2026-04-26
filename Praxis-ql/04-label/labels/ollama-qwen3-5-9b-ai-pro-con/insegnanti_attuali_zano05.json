@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zano05.md",
+  "source_name": "insegnanti_attuali_zano05.md",
+  "title": "Risposta zano05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zano05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:39.605486+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro.IA aiuta a costruire prodotti utili per gli studenti. Contro: l'uso eccessivo e la correttezza non verificata può portare ad errori nell'apprendimento.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "aiuta a costruire prodotti utili per gli studenti",
+          "reason": "Il partecipante evidenzia il vantaggio nella creazione di risorse didattiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "l'uso eccessivo e la correttezza non verificata può portare ad errori nell'apprendimento",
+          "reason": "Il partecipante segnala il rischio di diffusione di informazioni errate se non verificate."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un beneficio e un rischio specifico."
+    }
+  ]
+}

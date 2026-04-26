@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_erio29.md",
+  "source_name": "insegnanti_attuali_erio29.md",
+  "title": "Risposta erio29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "erio29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:21.320723+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: se ne viene fatto un uso intelligente; contro: ricorrere continuamente all'AI non permette al pensiero umano di ragionare",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "se ne viene fatto un uso intelligente",
+          "reason": "Il partecipante indica che l'uso dell'IA è vantaggioso quando gestito con intelligenza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ricorrere continuamente all'AI non permette al pensiero umano di ragionare",
+          "reason": "Il partecipante segnala che l'uso continuo dell'IA ostacola il ragionamento umano."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

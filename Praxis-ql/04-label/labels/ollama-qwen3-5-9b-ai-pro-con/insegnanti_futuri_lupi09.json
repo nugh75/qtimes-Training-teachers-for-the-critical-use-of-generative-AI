@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_lupi09.md",
+  "source_name": "insegnanti_futuri_lupi09.md",
+  "title": "Risposta Lupi09",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Lupi09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:18.131487+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilitano e velocizzano molti compiti e ricerche ma sarebbe opportuno saperli fare anche senza l'ia",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Facilitano e velocizzano molti compiti e ricerche",
+          "reason": "Il partecipante evidenzia il vantaggio di velocizzare i processi operativi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "sarebbe opportuno saperli fare anche senza l'ia",
+          "reason": "Il partecipante esprime il rischio di non poter operare autonomamente senza l'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (velocizzazione) e un rischio (necessità di saper fare senza)."
+    }
+  ]
+}

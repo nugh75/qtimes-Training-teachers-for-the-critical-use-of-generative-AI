@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRAXIS Bibliography Citations"
+  short_description: "Verify BibTeX, OpenAlex, and Zotero"
+  default_prompt: "Use $praxis-bibliography-citations to verify article citations against the PRAXIS BibTeX file, OpenAlex, and Zotero."
+
+policy:
+  allow_implicit_invocation: true

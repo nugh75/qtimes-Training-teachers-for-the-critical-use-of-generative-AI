@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iddi22.md",
+  "source_name": "insegnanti_attuali_iddi22.md",
+  "title": "Risposta IDDI22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "IDDI22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:30.450520+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Caricando le preparati e di laboratorio e chiedendo di modificarlo in parte, senza variazione dei contenuti, ma variandone le caratteristiche in funzione del BES dello studente.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "Caricando le preparati e di laboratorio e chiedendo di modificarlo in parte, senza variazione dei contenuti, ma variandone le caratteristiche in funzione del BES dello studente.",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per adattare le caratteristiche delle attività (livello di difficoltà, semplificazione) specificamente per studenti con BES, garantendo il raggiungimento delle competenze comuni."
+    }
+  ]
+}

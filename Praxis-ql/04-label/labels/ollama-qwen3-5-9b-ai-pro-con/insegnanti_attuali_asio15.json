@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_asio15.md",
+  "source_name": "insegnanti_attuali_asio15.md",
+  "title": "Risposta Asio15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Asio15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:16.356745+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Eccesso sull utilizzo, riduzione del pensiero critico",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "Eccesso sull utilizzo",
+          "reason": "L'eccesso di utilizzo implica un sovraccarico o un uso improprio che può ledere la qualità dell'interazione educativa."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "riduzione del pensiero critico",
+          "reason": "Il partecipante segnala esplicitamente che l'uso dell'IA porta a una diminuzione della capacità di pensiero critico."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente due aspetti negativi (eccesso di utilizzo e riduzione del pensiero critico) senza menzionare alcun beneficio."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anco27.md",
+  "source_name": "insegnanti_attuali_anco27.md",
+  "title": "Risposta anco27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anco27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:22.788967+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Moltiplicazione del materiale. Creazione di esercizi diversificati in base a molteplici variabili",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati",
+        "livelli_difficolta"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creazione di esercizi diversificati",
+      "confidence": 0.95,
+      "reason": "La risposta descrive la creazione di esercizi diversificati basati su variabili multiple, indicando una strategia di differenziazione dei percorsi."
+    }
+  ]
+}

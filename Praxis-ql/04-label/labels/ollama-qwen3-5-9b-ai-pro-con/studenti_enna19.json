@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_enna19.md",
+  "source_name": "studenti_enna19.md",
+  "title": "Risposta enna19",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "enna19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:09.633790+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro:faccio prima",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "faccio prima",
+          "reason": "Il partecipante afferma esplicitamente che l'uso dell'IA permette di completare i compiti in meno tempo."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta menziona esclusivamente un vantaggio (velocità) senza citare alcun svantaggio."
+    }
+  ]
+}

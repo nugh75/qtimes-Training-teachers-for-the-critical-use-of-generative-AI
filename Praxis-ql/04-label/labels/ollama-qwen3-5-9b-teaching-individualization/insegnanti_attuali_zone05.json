@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zone05.md",
+  "source_name": "insegnanti_attuali_zone05.md",
+  "title": "Risposta Zone05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Zone05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:02.260395+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di verifiche personalizzate e materiale didattico",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "valutazione_formativa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creazione di verifiche personalizzate e materiale didattico",
+      "confidence": 0.95,
+      "reason": "La risposta descrive la creazione di verifiche e materiali specifici, indicando una differenziazione dei percorsi (livelli) e una valutazione mirata."
+    }
+  ]
+}

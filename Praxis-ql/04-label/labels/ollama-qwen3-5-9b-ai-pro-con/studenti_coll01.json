@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_coll01.md",
+  "source_name": "studenti_coll01.md",
+  "title": "Risposta coll01",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "coll01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:24.548833+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro velocizza i tempi e contro potrebbe sottrarre buona parte delle capacità critiche",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizza i tempi",
+          "reason": "Il partecipante evidenzia il vantaggio della rapidità nell'esecuzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "potrebbe sottrarre buona parte delle capacità critiche",
+          "reason": "Il partecipante segnala il rischio di erosione delle capacità di pensiero autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta esplicita chiaramente un beneficio (velocità) e un rischio (perdita di capacità critiche)."
+    }
+  ]
+}

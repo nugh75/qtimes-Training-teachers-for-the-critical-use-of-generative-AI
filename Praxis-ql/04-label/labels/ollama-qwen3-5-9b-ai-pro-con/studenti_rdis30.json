@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rdis30.md",
+  "source_name": "studenti_rdis30.md",
+  "title": "Risposta Rdis30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Rdis30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:54.203472+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo, i contro è che molte volte l’intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "aiuta e facilita il lavoro di molti studenti permettendo di risparmiare molto tempo",
+          "reason": "Il partecipante evidenzia il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "l'intelligenza artificiale viene utilizzata per svolgere totalmente compiti in maniera istantanea senza che il soggetto si impegni nel provare a risolverlo da solo",
+          "reason": "Il partecipante segnala il rischio di non impegnarsi nella risoluzione autonoma dei compiti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

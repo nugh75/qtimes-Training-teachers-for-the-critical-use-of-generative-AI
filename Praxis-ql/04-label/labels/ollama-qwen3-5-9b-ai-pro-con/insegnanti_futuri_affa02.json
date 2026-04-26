@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_affa02.md",
+  "source_name": "insegnanti_futuri_affa02.md",
+  "title": "Risposta affa02",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "affa02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:55.423707+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non sviluppa il pensiero critico, non acquisisci determinate capacità.  Pro: può essere utile per velocizzare i tempi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare i tempi",
+          "reason": "Il partecipante indica che l'IA può essere utile per velocizzare i tempi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Non sviluppa il pensiero critico, non acquisisci determinate capacità",
+          "reason": "Il partecipante segnala che l'uso dell'IA impedisce lo sviluppo del pensiero critico e l'acquisizione di capacità."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e uno svantaggio (mancanza di pensiero critico)."
+    }
+  ]
+}

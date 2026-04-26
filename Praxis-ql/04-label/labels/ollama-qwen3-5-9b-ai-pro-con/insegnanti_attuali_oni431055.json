@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_oni431055.md",
+  "source_name": "insegnanti_attuali_oni431055.md",
+  "title": "Risposta Oni431055",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Oni431055",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:27.832009+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro nella correzione e programmazione. Contro anestizqzione dle pensiero critico e dell'immaginazione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "correzione",
+          "reason": "Il partecipante cita la correzione come vantaggio."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "programmazione",
+          "reason": "Il partecipante cita la programmazione come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "anestizqzione dle pensiero critico e dell'immaginazione",
+          "reason": "Il partecipante segnala un rischio per il pensiero critico e l'immaginazione."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

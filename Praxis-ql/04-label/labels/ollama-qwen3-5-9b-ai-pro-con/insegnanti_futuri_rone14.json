@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_rone14.md",
+  "source_name": "insegnanti_futuri_rone14.md",
+  "title": "Risposta rone14",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "rone14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:50.598806+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho ancora fatto esperienza su questo",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "Il partecipante dichiara di non avere ancora esperienza sull'argomento, quindi non esprime né pro né contro."
+    }
+  ]
+}

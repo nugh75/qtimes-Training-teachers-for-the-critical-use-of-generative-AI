@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_imone29.md",
+  "source_name": "insegnanti_attuali_imone29.md",
+  "title": "Risposta imone29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "imone29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:47.720579+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Essere attendibile",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "Essere attendibile",
+          "reason": "Il partecipante cita esplicitamente l'attendibilità come caratteristica positiva."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta menziona un unico beneficio (attendibilità) senza citare rischi."
+    }
+  ]
+}

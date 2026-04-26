@@ -1,6 +1,6 @@
 (function () {
   const h = React.createElement;
-  const { useEffect, useMemo, useState } = React;
+  const { useEffect, useMemo, useRef, useState } = React;
 
   const DIMENSION_COLORS = {
     A: "#D55E00",
@@ -68,8 +68,60 @@
     return SCOPE_COLORS[scope] || SCOPE_COLORS.Sconosciuto;
   }
 
+  function trimmedEdge(a, b, extraStart, extraEnd) {
+    const dx = b.x - a.x;
+    const dy = b.y - a.y;
+    const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+    const ux = dx / dist;
+    const uy = dy / dist;
+    const start = (a.r || 0) + extraStart;
+    const end = (b.r || 0) + extraEnd;
+    return {
+      x1: a.x + ux * start,
+      y1: a.y + uy * start,
+      x2: b.x - ux * end,
+      y2: b.y - uy * end,
+    };
+  }
+
+  function usePanZoom() {
+    const [zoom, setZoom] = useState(1);
+    const [pan, setPan] = useState({ x: 0, y: 0 });
+    const [dragging, setDragging] = useState(false);
+    const dragRef = useRef(null);
+
+    function zoomStep(delta) {
+      setZoom((z) => Math.max(0.45, Math.min(3.5, z + delta)));
+    }
+    function resetView() {
+      setZoom(1);
+      setPan({ x: 0, y: 0 });
+    }
+    function onWheel(evt) {
+      evt.preventDefault();
+      zoomStep(evt.deltaY < 0 ? 0.14 : -0.14);
+    }
+    function onPointerDown(evt) {
+      dragRef.current = { x: evt.clientX, y: evt.clientY, panX: pan.x, panY: pan.y };
+      setDragging(true);
+    }
+    function onPointerMove(evt) {
+      if (!dragRef.current) return;
+      setPan({
+        x: dragRef.current.panX + evt.clientX - dragRef.current.x,
+        y: dragRef.current.panY + evt.clientY - dragRef.current.y,
+      });
+    }
+    function onPointerUp() {
+      dragRef.current = null;
+      setDragging(false);
+    }
+    return { zoom, pan, dragging, zoomStep, resetView, onWheel, onPointerDown, onPointerMove, onPointerUp };
+  }
+
   function GraphView(props) {
     const { nodes, edges, minEdgeWeight, selectedNode, onSelectNode, scopeColor } = props;
+    const controls = usePanZoom();
     const width = 860;
     const height = 560;
     const cx = width / 2;
@@ -96,33 +148,61 @@
       "div",
       { className: "graph-shell" },
       h(
+        "div",
+        { className: "graph-toolbar" },
+        h("span", null, `Zoom ${Math.round(controls.zoom * 100)}%`),
+        h("button", { type: "button", onClick: () => controls.zoomStep(-0.16), title: "Zoom out" }, "−"),
+        h("button", { type: "button", onClick: () => controls.zoomStep(0.16), title: "Zoom in" }, "+"),
+        h("button", { type: "button", onClick: controls.resetView, title: "Reset vista" }, "Reset")
+      ),
+      h(
         "svg",
-        { width, height, viewBox: `0 0 ${width} ${height}`, role: "img" },
+        {
+          className: controls.dragging ? "dragging" : "",
+          width: "100%",
+          height,
+          viewBox: `0 0 ${width} ${height}`,
+          preserveAspectRatio: "xMidYMid meet",
+          role: "img",
+          onWheel: controls.onWheel,
+          onPointerDown: controls.onPointerDown,
+          onPointerMove: controls.onPointerMove,
+          onPointerUp: controls.onPointerUp,
+          onPointerLeave: controls.onPointerUp,
+        },
         h("defs", null,
           h("linearGradient", { id: "bgLine", x1: "0%", y1: "0%", x2: "100%", y2: "100%" },
             h("stop", { offset: "0%", stopColor: "#d6e4f5" }),
             h("stop", { offset: "100%", stopColor: "#bdd9cf" })
           )
         ),
-        visibleEdges.map((edge) => {
-          const left = byId[edge.source];
-          const right = byId[edge.target];
-          if (!left || !right) return null;
-          const active =
-            !selectedNode || selectedNode === edge.source || selectedNode === edge.target;
-          return h("line", {
-            key: `${edge.source}-${edge.target}`,
-            x1: left.x,
-            y1: left.y,
-            x2: right.x,
-            y2: right.y,
-            stroke: "url(#bgLine)",
-            strokeWidth: 1.4 + (edge.weight / maxEdge) * 9,
-            strokeOpacity: active ? 0.85 : 0.18,
-            strokeLinecap: "round",
-          });
-        }),
-        laidOut.map((node) => {
+        h(
+          "g",
+          { transform: `translate(${controls.pan.x},${controls.pan.y}) scale(${controls.zoom})` },
+          visibleEdges.map((edge) => {
+            const left = byId[edge.source];
+            const right = byId[edge.target];
+            if (!left || !right) return null;
+            const active =
+              !selectedNode || selectedNode === edge.source || selectedNode === edge.target;
+            const line = trimmedEdge(left, right, 6, 6);
+            const opacity = active ? 0.85 : 0.18;
+            const strokeWidth = 1.4 + (edge.weight / maxEdge) * 9;
+            return h(
+              "g",
+              { key: `${edge.source}-${edge.target}`, className: "edge-group" },
+              h("line", {
+                ...line,
+                stroke: "url(#bgLine)",
+                strokeWidth,
+                strokeOpacity: opacity,
+                strokeLinecap: "round",
+              }),
+              h("circle", { cx: line.x1, cy: line.y1, r: 3.2, fill: "#7a93b2", fillOpacity: opacity }),
+              h("circle", { cx: line.x2, cy: line.y2, r: 3.2, fill: "#7a93b2", fillOpacity: opacity })
+            );
+          }),
+          laidOut.map((node) => {
           const active = !selectedNode || selectedNode === node.id;
           const dimensionColor = DIMENSION_COLORS[node.id] || FALLBACK_COLOR;
           return h(
@@ -130,6 +210,7 @@
             {
               key: node.id,
               onClick: () => onSelectNode(selectedNode === node.id ? null : node.id),
+              onPointerDown: (evt) => evt.stopPropagation(),
               style: { cursor: "pointer" },
             },
             h("circle", {
@@ -171,13 +252,15 @@
               textAnchor: node.x > cx ? "start" : "end",
             }, `${node.count} occorrenze`)
           );
-        })
+          })
+        )
       )
     );
   }
 
   function SubcodeGraphView(props) {
     const { subcodes, relations, selectedSubcode, onSelectSubcode, scopeColor } = props;
+    const controls = usePanZoom();
     const width = 860;
     const height = 520;
     const cx = width / 2;
@@ -214,9 +297,32 @@
       "div",
       { className: "subgraph-shell" },
       h(
+        "div",
+        { className: "graph-toolbar" },
+        h("span", null, `Zoom ${Math.round(controls.zoom * 100)}%`),
+        h("button", { type: "button", onClick: () => controls.zoomStep(-0.16), title: "Zoom out" }, "−"),
+        h("button", { type: "button", onClick: () => controls.zoomStep(0.16), title: "Zoom in" }, "+"),
+        h("button", { type: "button", onClick: controls.resetView, title: "Reset vista" }, "Reset")
+      ),
+      h(
         "svg",
-        { width, height, viewBox: `0 0 ${width} ${height}`, role: "img" },
-        dimensions.map((dim, dimIndex) => {
+        {
+          className: controls.dragging ? "dragging" : "",
+          width: "100%",
+          height,
+          viewBox: `0 0 ${width} ${height}`,
+          preserveAspectRatio: "xMidYMid meet",
+          role: "img",
+          onWheel: controls.onWheel,
+          onPointerDown: controls.onPointerDown,
+          onPointerMove: controls.onPointerMove,
+          onPointerUp: controls.onPointerUp,
+          onPointerLeave: controls.onPointerUp,
+        },
+        h(
+          "g",
+          { transform: `translate(${controls.pan.x},${controls.pan.y}) scale(${controls.zoom})` },
+          dimensions.map((dim, dimIndex) => {
           const group = grouped[dim] || [];
           if (!group.length) return null;
           const angle =
@@ -234,8 +340,8 @@
             },
             dim
           );
-        }),
-        relations.map((edge) => {
+          }),
+          relations.map((edge) => {
           const left = byId[edge.source];
           const right = byId[edge.target];
           if (!left || !right) return null;
@@ -244,19 +350,24 @@
             selectedSubcode === edge.source ||
             selectedSubcode === edge.target;
           const sameDimension = edge.source[0] === edge.target[0];
-          return h("line", {
-            key: `${edge.source}-${edge.target}`,
-            x1: left.x,
-            y1: left.y,
-            x2: right.x,
-            y2: right.y,
-            stroke: sameDimension ? colorForCode(edge.source) : CROSS_EDGE_COLOR,
-            strokeWidth: 1 + (edge.weight / maxEdge) * 7,
-            strokeOpacity: active ? 0.68 : 0.08,
-            strokeLinecap: "round",
-          });
-        }),
-        nodes.map((node) => {
+          const line = trimmedEdge(left, right, 5, 5);
+          const color = sameDimension ? colorForCode(edge.source) : CROSS_EDGE_COLOR;
+          const opacity = active ? 0.68 : 0.08;
+          return h(
+            "g",
+            { key: `${edge.source}-${edge.target}`, className: "edge-group" },
+            h("line", {
+              ...line,
+              stroke: color,
+              strokeWidth: 1 + (edge.weight / maxEdge) * 7,
+              strokeOpacity: opacity,
+              strokeLinecap: "round",
+            }),
+            h("circle", { cx: line.x1, cy: line.y1, r: 2.4, fill: color, fillOpacity: opacity }),
+            h("circle", { cx: line.x2, cy: line.y2, r: 2.4, fill: color, fillOpacity: opacity })
+          );
+          }),
+          nodes.map((node) => {
           const active = !selectedSubcode || selectedSubcode === node.id;
           const baseColor = colorForCode(node.id);
           const subnodeColor = lightenColor(baseColor, 0.2);
@@ -266,6 +377,7 @@
             {
               key: node.id,
               style: { cursor: "pointer" },
+              onPointerDown: (evt) => evt.stopPropagation(),
               onClick: () =>
                 onSelectSubcode(selectedSubcode === node.id ? null : node.id),
             },
@@ -313,7 +425,8 @@
             h("title", null, `${node.id}: ${node.label}`)
           )
         );
-      })
+          })
+        )
       )
     );
   }
@@ -428,6 +541,30 @@
         "a",
         { href: "./wiki/", className: "header-nav-link" },
         "Wiki Graph"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "./prompt-complexity/", className: "header-nav-link" },
+        "Prompt Complexity"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "./ai-pro-con/", className: "header-nav-link" },
+        "Pro/Contro IA"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "./teaching-personalization/", className: "header-nav-link" },
+        "Personalizzazione"
+      ),
+      h("span", { className: "header-nav-sep" }, "|"),
+      h(
+        "a",
+        { href: "./teaching-individualization/", className: "header-nav-link" },
+        "Individualizzazione"
       )
     );
 

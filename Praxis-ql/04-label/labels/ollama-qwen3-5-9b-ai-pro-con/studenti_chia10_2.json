@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_chia10_2.md",
+  "source_name": "studenti_chia10_2.md",
+  "title": "Risposta chia10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "chia10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:16.994226+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro sicuramente l’allegare file o foto contro per ora nessuno",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "allegare file o foto",
+          "reason": "Il partecipante cita la possibilità di allegare file o foto come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "altro",
+          "evidence": "per ora nessuno",
+          "reason": "Il partecipante dichiara l'assenza attuale di contro."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta elenca un pro specifico e nega la presenza di contro."
+    }
+  ]
+}

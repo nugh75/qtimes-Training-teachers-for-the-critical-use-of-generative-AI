@@ -1,0 +1,69 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rrin08_2.md",
+  "source_name": "insegnanti_attuali_rrin08_2.md",
+  "title": "Risposta Rrin08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Rrin08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:05.297302+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono risparmio di tempo, facilitazione di accesso alle informazioni, riduzione degli errori umani in determinate attività, facilitazione nell'analisi dei dati.... Contro: uso improprio, riduzione delle interazioni sociali dirette, dipendenza, limitazione del pensiero critico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "facilitazione di accesso alle informazioni",
+          "reason": "Il partecipante indica che l'IA facilita l'accesso alle informazioni."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "riduzione degli errori umani in determinate attività",
+          "reason": "Il partecipante segnala una diminuzione degli errori umani."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "facilitazione nell'analisi dei dati",
+          "reason": "Il partecipante evidenzia un supporto nell'analisi dei dati."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione delle interazioni sociali dirette",
+          "reason": "Il partecipante nota una diminuzione delle interazioni sociali."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza",
+          "reason": "Il partecipante cita esplicitamente il rischio di dipendenza."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "limitazione del pensiero critico",
+          "reason": "Il partecipante segnala una limitazione del pensiero critico."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "uso improprio",
+          "reason": "Il partecipante menziona l'uso improprio come rischio."
+        }
+      ],
+      "pro_count": 4,
+      "con_count": 4,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia benefici operativi e cognitivi che rischi relazionali e di autonomia."
+    }
+  ]
+}

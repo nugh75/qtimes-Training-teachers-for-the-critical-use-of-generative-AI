@@ -1,0 +1,64 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_19albe.md",
+  "source_name": "insegnanti_attuali_19albe.md",
+  "title": "Risposta 19albe",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "19albe",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:32.473262+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "vantaggi: aumento dell'efficienza e della produttività; migliore processo decisionale; creazione di nuovi posti di lavoro. svantaggi: dipendenza dall'AI; Divario delle competenze digitali; il rischio di raccolta e utilizzo improprio dei dati e penalizzazione del ruolo del docente nel processo di valutazione scolastico.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "aumento dell'efficienza e della produttività",
+          "reason": "Il partecipante cita esplicitamente l'aumento di efficienza e produttività come vantaggio."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "migliore processo decisionale",
+          "reason": "Il partecipante indica che l'IA supporta un processo decisionale migliore."
+        },
+        {
+          "category": "altro",
+          "evidence": "creazione di nuovi posti di lavoro",
+          "reason": "Il partecipante menziona la creazione di nuovi posti di lavoro come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza dall'AI",
+          "reason": "Il partecipante segnala esplicitamente il rischio di dipendenza dall'intelligenza artificiale."
+        },
+        {
+          "category": "disuguaglianze",
+          "evidence": "Divario delle competenze digitali",
+          "reason": "Il partecipante evidenzia il divario digitale come uno svantaggio."
+        },
+        {
+          "category": "privacy_etica",
+          "evidence": "rischio di raccolta e utilizzo improprio dei dati",
+          "reason": "Il partecipante cita il rischio legato alla raccolta e all'uso improprio dei dati."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "penalizzazione del ruolo del docente nel processo di valutazione scolastico",
+          "reason": "Il partecipante indica che l'IA penalizza il ruolo del docente nella valutazione, riducendo il suo impatto."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 4,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi (efficienza, decisione, lavoro) sia svantaggi (dipendenza, divario, privacy, ruolo docente)."
+    }
+  ]
+}

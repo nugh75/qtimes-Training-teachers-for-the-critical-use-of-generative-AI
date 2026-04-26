@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_adei10.md",
+  "source_name": "insegnanti_attuali_adei10.md",
+  "title": "Risposta adei10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "adei10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:38.549457+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende dalle materie che si insegnano, essendo una docente di grafica per me è inevitabile l'utilizzo nei laboratori, diverso e per le materie umanistiche e scientifiche, l'utilizzo ci deve essere ma non abusarne, perchè il problema e che gli alunni a lungo andare non avranno la capacità di apprendere, ragionare, risolvere problemi e prendere decisioni autonome.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "per me è inevitabile l'utilizzo nei laboratori",
+          "reason": "Il partecipante indica che per la materia di grafica l'uso dell'IA è necessario e inevitabile."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "gli alunni a lungo andare non avranno la capacità di apprendere, ragionare, risolvere problemi e prendere decisioni autonome",
+          "reason": "Il partecipante teme che l'uso eccessivo dell'IA porti alla perdita delle capacità cognitive autonome degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un vantaggio specifico per una materia (grafica) e un rischio specifico per le capacità cognitive generali."
+    }
+  ]
+}

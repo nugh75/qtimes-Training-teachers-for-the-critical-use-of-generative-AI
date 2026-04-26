@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_atti22.md",
+  "source_name": "insegnanti_attuali_atti22.md",
+  "title": "Risposta atti22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "atti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:34.991745+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La utilizzo per creare contenuti personalizzati che rispondano ai bisogni di apprendimento degli alunni.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato",
+        "feedback_mirato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creare contenuti personalizzati che rispondano ai bisogni di apprendimento",
+      "confidence": 0.95,
+      "reason": "La creazione di contenuti personalizzati per rispondere ai bisogni specifici implica la differenziazione dei livelli e il supporto mirato."
+    }
+  ]
+}

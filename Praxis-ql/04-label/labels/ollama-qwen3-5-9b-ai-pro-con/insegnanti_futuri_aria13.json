@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_aria13.md",
+  "source_name": "insegnanti_futuri_aria13.md",
+  "title": "Risposta Aria13",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Aria13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:06.252999+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende se sei tu a trascinare l'IA oppure il contrario",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.0,
+      "reason": "La risposta è una frase generica che non elenca né pro né contro specifici."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etta24.md",
+  "source_name": "insegnanti_attuali_etta24.md",
+  "title": "Risposta etta24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "etta24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:28.218215+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: la ricezione delle informazioni e risoluzione di problemi  Contro: la standardizzazione delle risposte",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "ricezione delle informazioni",
+          "reason": "Il partecipante cita la facilità nell'ottenere informazioni come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "risoluzione di problemi",
+          "reason": "Il partecipante indica la capacità di risolvere problemi come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "standardizzazione delle risposte",
+          "reason": "Il partecipante segnala come svantaggio la tendenza a risposte uniformi."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

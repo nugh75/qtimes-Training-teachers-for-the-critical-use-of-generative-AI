@@ -1,0 +1,319 @@
+{
+  "generated_from": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-ai-pro-con/all_pro_con.csv",
+  "generated_at": "2026-04-25T07:50:01.878147+00:00",
+  "failures": 3,
+  "totals": {
+    "items_total": 720,
+    "cohort_count": 3,
+    "stance": {
+      "nessuno": 216,
+      "misto": 425,
+      "solo_pro": 33,
+      "solo_contro": 46
+    },
+    "pros_total": 599,
+    "cons_total": 621,
+    "avg_confidence": 0.681,
+    "pro_categories": {
+      "efficienza_tempo": 217,
+      "supporto_comprensione": 123,
+      "produzione_materiali": 69,
+      "ricerca_informazioni": 54,
+      "creativita_coinvolgimento": 44,
+      "autonomia_organizzazione": 33,
+      "personalizzazione": 21,
+      "accessibilita_inclusione": 19,
+      "altro": 9,
+      "feedback_valutazione": 7,
+      "affidabilita_errori": 3
+    },
+    "con_categories": {
+      "delega_cognitiva": 276,
+      "dipendenza": 91,
+      "affidabilita_errori": 71,
+      "riduzione_relazione": 51,
+      "creativita_coinvolgimento": 35,
+      "standardizzazione": 21,
+      "plagio_autorialita": 17,
+      "disuguaglianze": 13,
+      "privacy_etica": 13,
+      "altro": 12,
+      "autonomia_organizzazione": 9,
+      "ricerca_informazioni": 4,
+      "supporto_comprensione": 3,
+      "personalizzazione": 2,
+      "produzione_materiali": 1,
+      "efficienza_tempo": 1,
+      "individualizzazione": 1
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "insegnanti_in_servizio",
+      "label": "Insegnanti in servizio",
+      "items_total": 354,
+      "stance": {
+        "nessuno": 133,
+        "misto": 180,
+        "solo_pro": 14,
+        "solo_contro": 27
+      },
+      "pros_total": 269,
+      "cons_total": 297,
+      "avg_confidence": 0.601,
+      "pro_categories": {
+        "efficienza_tempo": 76,
+        "produzione_materiali": 42,
+        "creativita_coinvolgimento": 31,
+        "supporto_comprensione": 28,
+        "ricerca_informazioni": 24,
+        "autonomia_organizzazione": 19,
+        "personalizzazione": 17,
+        "accessibilita_inclusione": 16,
+        "altro": 7,
+        "feedback_valutazione": 6,
+        "affidabilita_errori": 3
+      },
+      "con_categories": {
+        "delega_cognitiva": 117,
+        "riduzione_relazione": 38,
+        "dipendenza": 37,
+        "affidabilita_errori": 26,
+        "creativita_coinvolgimento": 23,
+        "standardizzazione": 15,
+        "disuguaglianze": 9,
+        "plagio_autorialita": 8,
+        "privacy_etica": 7,
+        "altro": 6,
+        "autonomia_organizzazione": 4,
+        "ricerca_informazioni": 3,
+        "supporto_comprensione": 2,
+        "produzione_materiali": 1,
+        "personalizzazione": 1
+      }
+    },
+    {
+      "cohort": "insegnanti_pre_service",
+      "label": "Insegnanti pre-service",
+      "items_total": 98,
+      "stance": {
+        "misto": 47,
+        "solo_pro": 6,
+        "nessuno": 39,
+        "solo_contro": 6
+      },
+      "pros_total": 60,
+      "cons_total": 62,
+      "avg_confidence": 0.68,
+      "pro_categories": {
+        "efficienza_tempo": 22,
+        "creativita_coinvolgimento": 10,
+        "ricerca_informazioni": 10,
+        "supporto_comprensione": 8,
+        "produzione_materiali": 4,
+        "accessibilita_inclusione": 3,
+        "autonomia_organizzazione": 2,
+        "feedback_valutazione": 1
+      },
+      "con_categories": {
+        "delega_cognitiva": 32,
+        "dipendenza": 7,
+        "riduzione_relazione": 6,
+        "affidabilita_errori": 4,
+        "creativita_coinvolgimento": 3,
+        "privacy_etica": 3,
+        "standardizzazione": 2,
+        "plagio_autorialita": 2,
+        "autonomia_organizzazione": 1,
+        "efficienza_tempo": 1,
+        "ricerca_informazioni": 1
+      }
+    },
+    {
+      "cohort": "studenti",
+      "label": "Studenti",
+      "items_total": 268,
+      "stance": {
+        "misto": 198,
+        "solo_pro": 13,
+        "nessuno": 44,
+        "solo_contro": 13
+      },
+      "pros_total": 270,
+      "cons_total": 262,
+      "avg_confidence": 0.788,
+      "pro_categories": {
+        "efficienza_tempo": 119,
+        "supporto_comprensione": 87,
+        "produzione_materiali": 23,
+        "ricerca_informazioni": 20,
+        "autonomia_organizzazione": 12,
+        "personalizzazione": 4,
+        "creativita_coinvolgimento": 3,
+        "altro": 2
+      },
+      "con_categories": {
+        "delega_cognitiva": 127,
+        "dipendenza": 47,
+        "affidabilita_errori": 41,
+        "creativita_coinvolgimento": 9,
+        "plagio_autorialita": 7,
+        "riduzione_relazione": 7,
+        "altro": 6,
+        "autonomia_organizzazione": 4,
+        "standardizzazione": 4,
+        "disuguaglianze": 4,
+        "privacy_etica": 3,
+        "supporto_comprensione": 1,
+        "personalizzazione": 1,
+        "individualizzazione": 1
+      }
+    }
+  ],
+  "examples": [
+    {
+      "stance": "misto",
+      "source_name": "insegnanti_attuali_iano18.md",
+      "record_code": "iano18",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Pro: l’IA permette di personalizzare l’apprendimento, offre feedback immediato, supporta l’inclusione, semplifica la valutazione e aumenta la motivazione.  Contro: comporta rischi per la privacy, può accentuare le disuguaglianze digitali, richiede formazione specifica, non sostituisce la relazione educativa e può fornire contenuti non sempre affidabili.",
+      "pro_categories": "personalizzazione|feedback_valutazione|accessibilita_inclusione|feedback_valutazione|creativita_coinvolgimento",
+      "con_categories": "privacy_etica|disuguaglianze|autonomia_organizzazione|riduzione_relazione|affidabilita_errori",
+      "confidence": "1.0",
+      "reason": "La risposta elenca esplicitamente sia una serie di vantaggi che una serie di svantaggi.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "misto",
+      "source_name": "insegnanti_attuali_como14.md",
+      "record_code": "como14",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "I pro sono: apprendimento personalizzato, feedback immediato, accessibilità e gamification. I contro sono: dipendenza dalla tecnologia, privacy e sicurezza dati, disuguaglianza digitale, mancanza di empatia e bias algoritmico.",
+      "pro_categories": "personalizzazione|feedback_valutazione|accessibilita_inclusione|creativita_coinvolgimento",
+      "con_categories": "dipendenza|privacy_etica|disuguaglianze|riduzione_relazione|affidabilita_errori",
+      "confidence": "1.0",
+      "reason": "La risposta elenca esplicitamente sia una serie di vantaggi che una serie di svantaggi specifici.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "misto",
+      "source_name": "insegnanti_attuali_erio24.md",
+      "record_code": "erio24",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Pro: personalizzazione dell’apprendimento, inclusione, apprendimento continuo. Contro: disumanizzazione dell’insegnamento, dipendenza dalla tecnologia, disuguaglianze digitali.",
+      "pro_categories": "personalizzazione|accessibilita_inclusione|autonomia_organizzazione",
+      "con_categories": "riduzione_relazione|dipendenza|disuguaglianze",
+      "confidence": "1.0",
+      "reason": "La risposta elenca esplicitamente tre benefici e tre rischi specifici.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "solo_pro",
+      "source_name": "insegnanti_attuali_anco27.md",
+      "record_code": "anco27",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "PRO: Un enorme risparmio di tempo ed energie, spendibili per altri strumenti didattici. Creazione di schemi e lavori di supporto per ogni aspetto della vita scolastica, prima difficili da implementare per mancanza di tempo. Facilitazione nell'affrontare la burocrazia.",
+      "pro_categories": "efficienza_tempo|produzione_materiali|autonomia_organizzazione",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "La risposta elenca esclusivamente benefici operativi e organizzativi.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "solo_pro",
+      "source_name": "insegnanti_attuali_illo01.md",
+      "record_code": "Illo01",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "L’IA può adattare i contenuti al livello, ai tempi e agli stili di apprendimento degli studenti. Questo è particolarmente utile per studenti con bisogni educativi speciali o con ritmi di apprendimento differenti.",
+      "pro_categories": "personalizzazione|accessibilita_inclusione",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "La risposta elenca esclusivamente benefici dell'IA senza menzionare rischi o contro.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "solo_pro",
+      "source_name": "studenti_etti07.md",
+      "record_code": "etti07",
+      "cohort": "studenti",
+      "answer": "pro velocità e spiegazioni chiari contro nessuno",
+      "pro_categories": "efficienza_tempo|supporto_comprensione",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "La risposta elenca solo pro (velocità, spiegazioni chiari) e nega esplicitamente l'esistenza di contro (nessuno).",
+      "cohort_label": "Studenti"
+    },
+    {
+      "stance": "solo_contro",
+      "source_name": "insegnanti_attuali_capomolla30.md",
+      "record_code": "Capomolla30",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Delle volte sbaglia",
+      "pro_categories": "",
+      "con_categories": "affidabilita_errori",
+      "confidence": "1.0",
+      "reason": "La risposta menziona esclusivamente un errore dell'IA.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "solo_contro",
+      "source_name": "insegnanti_attuali_eddu02.md",
+      "record_code": "eddu02",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Farne un uso non appropriato ed eccessivo",
+      "pro_categories": "",
+      "con_categories": "altro",
+      "confidence": "1.0",
+      "reason": "La risposta menziona esclusivamente un aspetto negativo (uso non appropriato ed eccessivo).",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "solo_contro",
+      "source_name": "insegnanti_attuali_etti27.md",
+      "record_code": "etti27",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "diventiamo pigri",
+      "pro_categories": "",
+      "con_categories": "delega_cognitiva",
+      "confidence": "1.0",
+      "reason": "La risposta contiene esclusivamente un rischio percepito.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "nessuno",
+      "source_name": "insegnanti_attuali_ando20.md",
+      "record_code": "ando20",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "credo di non avere ancora abbastanza esperienza con l'uso di AI nella didattica per poter rispondere",
+      "pro_categories": "",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "Il partecipante dichiara di non avere esperienza sufficiente per rispondere, quindi non elenca né pro né contro.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "nessuno",
+      "source_name": "insegnanti_attuali_anna19.md",
+      "record_code": "anna19",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "si",
+      "pro_categories": "",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "La risposta 'si' è troppo generica per identificare specifici pro o contro.",
+      "cohort_label": "Insegnanti in servizio"
+    },
+    {
+      "stance": "nessuno",
+      "source_name": "insegnanti_attuali_cari17.md",
+      "record_code": "cari17",
+      "cohort": "insegnanti_in_servizio",
+      "answer": "Soluzione immediata ai quesiti posti,",
+      "pro_categories": "",
+      "con_categories": "",
+      "confidence": "1.0",
+      "reason": "La risposta è troppo generica per identificare specifici pro o contro.",
+      "cohort_label": "Insegnanti in servizio"
+    }
+  ]
+}

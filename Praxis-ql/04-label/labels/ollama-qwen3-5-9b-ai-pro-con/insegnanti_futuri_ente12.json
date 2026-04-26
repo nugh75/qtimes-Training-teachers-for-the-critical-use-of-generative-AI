@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ente12.md",
+  "source_name": "insegnanti_futuri_ente12.md",
+  "title": "Risposta Ente12",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ente12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:35.582433+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilità il lavoro contro facilita gli studenti con effetti negativi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Pro facilità il lavoro",
+          "reason": "Il partecipante indica che l'IA facilita il lavoro, suggerendo un vantaggio in termini di efficienza o semplificazione operativa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "contro facilita gli studenti con effetti negativi",
+          "reason": "Il partecipante segnala che l'IA facilita gli studenti ma con 'effetti negativi', interpretati come un rischio di delega cognitiva o dipendenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro ('facilità il lavoro') e un contro ('effetti negativi')."
+    }
+  ]
+}

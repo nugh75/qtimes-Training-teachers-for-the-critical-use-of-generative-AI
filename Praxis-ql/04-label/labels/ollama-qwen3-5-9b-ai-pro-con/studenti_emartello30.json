@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_emartello30.md",
+  "source_name": "studenti_emartello30.md",
+  "title": "Risposta emartello30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "emartello30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:08.426254+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Avvolte fa cose giuste altre no",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_urso12.md",
+  "source_name": "insegnanti_futuri_urso12.md",
+  "title": "Risposta Urso12",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Urso12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:05.520170+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilità il lavoro ma limita il pensiero razionale e creativo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Facilità il lavoro",
+          "reason": "Il partecipante evidenzia che l'IA rende più agevole l'esecuzione del lavoro."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "limita il pensiero razionale e creativo",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce le capacità di pensiero creativo e razionale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('Facilità il lavoro') e uno svantaggio ('limita il pensiero razionale e creativo')."
+    }
+  ]
+}

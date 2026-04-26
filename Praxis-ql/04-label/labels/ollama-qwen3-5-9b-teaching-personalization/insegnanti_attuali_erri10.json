@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_erri10.md",
+  "source_name": "insegnanti_attuali_erri10.md",
+  "title": "Risposta Erri10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Erri10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:13.533630+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Video e schemi appropriati alle varie esigenze",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "Video e schemi appropriati alle varie esigenze",
+      "confidence": 0.9,
+      "reason": "La risposta descrive la creazione di materiali (video e schemi) specifici per soddisfare esigenze diverse, indicando una personalizzazione dei contenuti."
+    }
+  ]
+}

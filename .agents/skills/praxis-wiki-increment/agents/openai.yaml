@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRAXIS Wiki Increment"
+  short_description: "Propose corpus-backed PRAXIS wiki additions"
+  default_prompt: "Use $praxis-wiki-increment to propose evidence-backed additions to a PRAXIS wiki thread from the corpus."
+
+policy:
+  allow_implicit_invocation: true

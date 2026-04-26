@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gelo05.md",
+  "source_name": "studenti_gelo05.md",
+  "title": "Risposta Gelo05",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Gelo05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:42.573167+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro concetti più facilmente reperibili Contro si perde l’autonomia della ricerca",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "Pro concetti più facilmente reperibili",
+          "reason": "Il partecipante indica che l'IA facilita la reperibilità dei concetti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "Contro si perde l'autonomia della ricerca",
+          "reason": "Il partecipante segnala la perdita dell'autonomia nel processo di ricerca."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

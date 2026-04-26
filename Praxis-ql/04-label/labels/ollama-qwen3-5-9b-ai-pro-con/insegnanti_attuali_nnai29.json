@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nnai29.md",
+  "source_name": "insegnanti_attuali_nnai29.md",
+  "title": "Risposta NNAI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "NNAI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:06.394393+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: infiniti! Permette di creare ciò che si può immaginare, arrivare con contenuti visivi e non anche a chi ha poca immaginazione.  Contro: è un’arma a doppio taglio. Penso che sia necessario che chi la usa la sappia usare in modo coscienzioso e con cognizione, che sappia discernere le informazioni e selezionare i contenuti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "Permette di creare ciò che si può immaginare",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di generare contenuti creativi e visivi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "è un’arma a doppio taglio. Penso che sia necessario che chi la usa la sappia usare in modo coscienzioso e con cognizione, che sappia discernere le informazioni e selezionare i contenuti",
+          "reason": "Il partecipante sottolinea la necessità di discernimento e selezione critica delle informazioni, indicando il rischio di un uso passivo o non consapevole."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (creatività) e un rischio (necessità di discernimento)."
+    }
+  ]
+}

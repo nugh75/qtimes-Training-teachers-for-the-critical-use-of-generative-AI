@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_more08.md",
+  "source_name": "studenti_more08.md",
+  "title": "Risposta more08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "more08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:37.976804+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "si ottengono subito le informazioni che si chiedono senza \"perdere tempo\" nel cercare nei vari articoli",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "si ottengono subito le informazioni che si chiedono senza \"perdere tempo\"",
+          "reason": "Il partecipante evidenzia il risparmio di tempo nella ricerca delle informazioni."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un vantaggio operativo."
+    }
+  ]
+}

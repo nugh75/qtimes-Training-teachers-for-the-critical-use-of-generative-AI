@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_itta09.md",
+  "source_name": "insegnanti_attuali_itta09.md",
+  "title": "Risposta ITTA09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ITTA09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:13.344196+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: facilita il lavoro degli insegnanti, specialmente per le questioni burocratiche. Contro: gli studenti non esercitano tutte le loro facoltà e non si impegnano per raggiungere i loro obiettivi e conoscenze",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "facilita il lavoro degli insegnanti",
+          "reason": "Il partecipante evidenzia il vantaggio di semplificare le attività lavorative."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "gli studenti non esercitano tutte le loro facoltà",
+          "reason": "Il partecipante segnala il rischio di non utilizzo delle capacità cognitive degli studenti."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non si impegnano per raggiungere i loro obiettivi e conoscenze",
+          "reason": "Il partecipante indica una mancanza di impegno e sforzo da parte degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e due contro distinti."
+    }
+  ]
+}

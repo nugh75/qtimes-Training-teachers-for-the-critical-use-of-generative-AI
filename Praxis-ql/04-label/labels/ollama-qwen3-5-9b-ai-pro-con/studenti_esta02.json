@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_esta02.md",
+  "source_name": "studenti_esta02.md",
+  "title": "Risposta ESTA02",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ESTA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:22.014018+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Chiedergli di ragionare al mio posto non mi aiuta nel ragionamento",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Chiedergli di ragionare al mio posto non mi aiuta nel ragionamento",
+          "reason": "Il partecipante evidenzia che l'IA sostituisce il proprio processo di pensiero, impedendo lo sviluppo del ragionamento autonomo."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta esprime esclusivamente un rischio legato alla perdita di autonomia cognitiva."
+    }
+  ]
+}

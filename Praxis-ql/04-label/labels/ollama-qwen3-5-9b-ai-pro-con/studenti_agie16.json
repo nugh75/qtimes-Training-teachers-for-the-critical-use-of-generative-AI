@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_agie16.md",
+  "source_name": "studenti_agie16.md",
+  "title": "Risposta Agie16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Agie16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:17.927641+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che ti possono facilitare nel tempo dello studio, il contro è che questa facilitazione può portare ad un apprendimento minore",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitare nel tempo dello studio",
+          "reason": "Il partecipante indica che l'IA facilita lo studio nel tempo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "portare ad un apprendimento minore",
+          "reason": "Il partecipante segnala che la facilitazione dell'IA può ridurre l'apprendimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (facilitazione temporale) e uno svantaggio (riduzione dell'apprendimento)."
+    }
+  ]
+}

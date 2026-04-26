@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_chio08.md",
+  "source_name": "insegnanti_attuali_chio08.md",
+  "title": "Risposta chio08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "chio08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:01.628730+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Credo sia un ottimo strumento soprattutto dal punto di vista burocratico, per esempio all'interno degli organi collegiali. Permette di velocizzare molte fasi del lavoro. Penso anche che sia necessaria una formazione per gli studenti, per consentire loro di adoperarla in modo consapevole.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Permette di velocizzare molte fasi del lavoro",
+          "reason": "Il partecipante evidenzia il vantaggio della velocizzazione delle attività burocratiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Penso anche che sia necessaria una formazione per gli studenti, per consentire loro di adoperarla in modo consapevole",
+          "reason": "La necessità di una formazione specifica implica un rischio di uso non consapevole o di delega se non gestita correttamente."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.7,
+      "reason": "La risposta elenca un chiaro beneficio operativo e un potenziale rischio legato alla consapevolezza d'uso."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ione04.md",
+  "source_name": "insegnanti_attuali_ione04.md",
+  "title": "Risposta ione04",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ione04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:54.267259+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "nel caso di studenti che abbiano superato l'età per poter avere accesso a tali strumenti un  \"totale\"  delegare alla IA  e di conseguenza un appiattimento del Problem- solving, del pensiero creativo etc.",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "un 'totale' delegare alla IA",
+          "reason": "Il partecipante evidenzia il rischio di un eccessivo affidamento agli strumenti."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "appiattimento del Problem-solving, del pensiero creativo",
+          "reason": "Il partecipante segnala la perdita di capacità di problem solving e creatività."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esclusivamente svantaggi legati alla delega e alla riduzione delle capacità cognitive."
+    }
+  ]
+}

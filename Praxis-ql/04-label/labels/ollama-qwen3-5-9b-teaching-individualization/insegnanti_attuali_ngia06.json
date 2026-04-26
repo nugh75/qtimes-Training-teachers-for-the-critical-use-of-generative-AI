@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ngia06.md",
+  "source_name": "insegnanti_attuali_ngia06.md",
+  "title": "Risposta ngia06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ngia06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:59.292355+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "creo esercizi ad hoc per i miei studenti",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati",
+        "livelli_difficolta"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creo esercizi ad hoc",
+      "confidence": 0.95,
+      "reason": "La creazione di esercizi 'ad hoc' implica la differenziazione dei percorsi e dei livelli di difficoltà per rispondere alle esigenze specifiche dei studenti."
+    }
+  ]
+}

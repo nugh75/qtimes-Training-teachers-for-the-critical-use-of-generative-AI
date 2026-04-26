@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_eini23.md",
+  "source_name": "insegnanti_attuali_eini23.md",
+  "title": "Risposta EINI23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "EINI23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:41:56.440158+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Attraverso strategie didattiche consone alla personalità degli alunni",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati",
+        "modalita_espressive"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "consone alla personalità degli alunni",
+      "confidence": 0.85,
+      "reason": "La risposta descrive l'adattamento delle strategie didattiche in base alla personalità individuale degli studenti."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_erto07.md",
+  "source_name": "studenti_erto07.md",
+  "title": "Risposta erto07",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "erto07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:17.808693+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro veloce e facilitatorio, contro ti impigrisce",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "pro veloce",
+          "reason": "Il partecipante descrive l'IA come uno strumento rapido."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "facilitatorio",
+          "reason": "Il partecipante indica che l'IA facilita il processo di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "ti impigrisce",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una mancanza di impegno o pigrizia."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('veloce', 'facilitatorio') e uno svantaggio ('impigrisce')."
+    }
+  ]
+}

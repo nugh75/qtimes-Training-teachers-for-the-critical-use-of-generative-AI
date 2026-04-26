@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ussa14.md",
+  "source_name": "insegnanti_attuali_ussa14.md",
+  "title": "Risposta ussa14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ussa14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:20.507904+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro:  l'apprendimento personalizzato e coinvolgimento degli studenti; Contro: riduzione dell'interazione sia tra studenti che tra insegnanti e studenti; riduzione del pensiero creativo e del problem solving",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "apprendimento personalizzato e coinvolgimento degli studenti",
+          "reason": "Il partecipante cita l'apprendimento personalizzato e il coinvolgimento come benefici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione dell'interazione sia tra studenti che tra insegnanti e studenti",
+          "reason": "Il partecipante segnala una diminuzione dell'interazione umana."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "riduzione del pensiero creativo e del problem solving",
+          "reason": "Il partecipante indica un impatto negativo sulla creatività e sulla capacità di risolvere problemi."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro che contro dell'uso dell'IA."
+    }
+  ]
+}

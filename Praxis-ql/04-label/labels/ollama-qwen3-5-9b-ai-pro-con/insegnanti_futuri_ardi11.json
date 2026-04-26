@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ardi11.md",
+  "source_name": "insegnanti_futuri_ardi11.md",
+  "title": "Risposta ardi11",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ardi11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:05.520331+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro: facilitare la produzione di ricerche, di studio. Contro: eliminare alcune funzioni della mente umana come il ragionamento",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "facilitare la produzione di ricerche, di studio",
+          "reason": "Il partecipante cita la facilitazione nella creazione di materiale didattico e di ricerca come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "eliminare alcune funzioni della mente umana come il ragionamento",
+          "reason": "Il partecipante evidenzia il rischio di perdita delle capacità cognitive autonome."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

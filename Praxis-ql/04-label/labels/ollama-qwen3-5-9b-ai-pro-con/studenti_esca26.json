@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_esca26.md",
+  "source_name": "studenti_esca26.md",
+  "title": "Risposta esca26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "esca26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:19.310158+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che può davvero essere molto d’aiuto e risparmiare tempo, i contro però è il rischio che le persone non la usino come un aiuto bensì come un sostituto",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmiare tempo",
+          "reason": "Il partecipante evidenzia il vantaggio del risparmio temporale."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischio che le persone non la usino come un aiuto bensì come un sostituto",
+          "reason": "Il partecipante segnala il rischio di sostituzione dell'attività cognitiva umana."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

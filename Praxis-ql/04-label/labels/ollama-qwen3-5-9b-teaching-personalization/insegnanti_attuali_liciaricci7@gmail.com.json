@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_liciaricci7@gmail.com.md",
+  "source_name": "insegnanti_attuali_liciaricci7@gmail.com.md",
+  "title": "Risposta liciaricci7@gmail.com",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "liciaricci7@gmail.com",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:49.056805+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "utilizzo testi creati da me e utilizzo l'IA per semplificarli e adattarli ai vari stili d'apprendimento",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati",
+        "modalita_espressive"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "adattarli ai vari stili d'apprendimento",
+      "confidence": 0.9,
+      "reason": "L'insegnante utilizza l'IA per adattare i testi creati ai diversi stili di apprendimento, garantendo modalità espressive personalizzate."
+    }
+  ]
+}

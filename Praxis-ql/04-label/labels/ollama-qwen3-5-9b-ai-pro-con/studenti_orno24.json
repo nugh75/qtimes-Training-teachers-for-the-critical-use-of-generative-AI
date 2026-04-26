@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orno24.md",
+  "source_name": "studenti_orno24.md",
+  "title": "Risposta orno24",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "orno24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:25.683165+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "permette di far fronte a difficoltà in maniera più semplice e facile ma a volte questa facilità potrebbe inibire la capacità di problem solving",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "permette di far fronte a difficoltà",
+          "reason": "L'IA aiuta a superare ostacoli nello studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "a volte questa facilità potrebbe inibire la capacità di problem solving",
+          "reason": "L'eccessiva facilità riduce l'abilità di risolvere problemi autonomamente."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un vantaggio (gestione delle difficoltà) sia uno svantaggio (inibizione del problem solving)."
+    }
+  ]
+}

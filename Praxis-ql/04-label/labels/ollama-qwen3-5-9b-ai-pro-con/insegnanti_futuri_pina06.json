@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_pina06.md",
+  "source_name": "insegnanti_futuri_pina06.md",
+  "title": "Risposta Pina06",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Pina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:41.054559+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "In base alla mia esperienza mi verrebbe da dire che ci sono solo contro ma forse scoprirò che ci sono anche dei pro",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ci sono solo contro",
+          "reason": "Il partecipante esprime un'opinione negativa generale sull'uso dell'IA."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta indica esplicitamente la presenza di solo contro."
+    }
+  ]
+}

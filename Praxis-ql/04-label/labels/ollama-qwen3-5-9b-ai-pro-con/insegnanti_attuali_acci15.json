@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_acci15.md",
+  "source_name": "insegnanti_attuali_acci15.md",
+  "title": "Risposta acci15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "acci15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:36.805423+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'AI rappresenta un aiuto in quanto consente di reperire informazioni velocemente, ma può portare a una limitazione del pensiero critico.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "consente di reperire informazioni velocemente",
+          "reason": "Il partecipante evidenzia la rapidità nell'accesso alle informazioni come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può portare a una limitazione del pensiero critico",
+          "reason": "Il partecipante segnala il rischio di un indebolimento delle capacità di pensiero autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (velocità) e un rischio (limitazione pensiero critico)."
+    }
+  ]
+}

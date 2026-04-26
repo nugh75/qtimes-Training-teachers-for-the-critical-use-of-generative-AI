@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_urro18.md",
+  "source_name": "insegnanti_attuali_urro18.md",
+  "title": "Risposta Urro18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Urro18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:53.152568+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando del materiale utilizzabile da tutti gli studenti",
+      "practice_present": true,
+      "strategies": [
+        "semplificazione"
+      ],
+      "target": "gruppo_classe",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creando del materiale utilizzabile da tutti gli studenti",
+      "confidence": 0.95,
+      "reason": "La risposta indica la creazione di materiale per tutti gli studenti, implicando una semplificazione o adattamento dei contenuti per garantire l'accesso a tutti."
+    }
+  ]
+}

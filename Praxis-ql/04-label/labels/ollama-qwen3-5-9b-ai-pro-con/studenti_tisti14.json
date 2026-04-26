@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tisti14.md",
+  "source_name": "studenti_tisti14.md",
+  "title": "Risposta tisti14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tisti14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:43.509366+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I contro sono che limitano molto la creatività e l'individualità e i pro sono che hanno le risposte a tutto e gli si può chiedere qualsiasi cosa",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "hanno le risposte a tutto",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di fornire risposte immediate e complete su qualsiasi argomento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "limitano molto la creatività",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce la capacità creativa."
+        },
+        {
+          "category": "individualizzazione",
+          "evidence": "limitano molto la creatività e l'individualità",
+          "reason": "Il partecipante indica che l'IA minaccia l'espressione dell'individualità dello studente."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un vantaggio (risposte a tutto) sia due svantaggi (limitazione creatività e individualità)."
+    }
+  ]
+}

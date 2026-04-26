@@ -1,0 +1,59 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ella26.md",
+  "source_name": "insegnanti_attuali_ella26.md",
+  "title": "Risposta ella26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ella26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:37.616263+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'AI agisce sui dati della sua \"esperienza\", impara da noi, è al nostro servizio e non al posto nostro. Noi possiamo creare in poco tempo con l'IA, potrà essere utilizzata a integrazione degli approcci tradizionali, per sviluppare competenze critiche di uso della tecnologia in relazione alla lingua e alla letteratura (correzione degli errori, analisi, creazione di contenuti..)mettendo lo studente nella condizione di sfruttare le possibilità offerte dall'IA in modo ancillare rispetto all'azione umana(e non in sostituzione di essa). Sarà utile, per esempio,  guidare gli studenti nella lettura e quindi nella riscrittura di testi prodotti dall'IA; riconoscere i pregi e i difetti, saperli rielaborare, cogliere la loro mancanza di originalità, imparare a integrarli con spunti personali. Con l'IA si possono creare giochi didattici, mappe, scritture creative, inserire video, foto, progetti, storie, verifiche, editor di foto, utilizzare excel, tabelle, grafici, fare determinate funzioni, formule magiche,  con canva fogli e con elementi d posso elaborare le informazioni.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "creare in poco tempo con l'IA",
+          "reason": "Il partecipante evidenzia la capacità di produrre materiali rapidamente."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "creare giochi didattici, mappe, scritture creative, inserire video, foto, progetti, storie, verifiche",
+          "reason": "L'IA viene utilizzata per generare una vasta gamma di risorse didattiche."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "guidare gli studenti nella lettura e quindi nella riscrittura di testi",
+          "reason": "L'IA funge da supporto per migliorare le capacità di lettura e scrittura."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "sviluppare competenze critiche di uso della tecnologia",
+          "reason": "L'uso dell'IA stimola lo sviluppo di competenze tecnologiche e creative."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "cogliere la loro mancanza di originalità",
+          "reason": "Il partecipante nota il rischio di perdita di originalità nei testi prodotti."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "riconoscere i pregi e i difetti, saperli rielaborare",
+          "reason": "È necessario insegnare a distinguere e rielaborare i contenuti per evitare il plagio o la mancanza di autorialità."
+        }
+      ],
+      "pro_count": 4,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente vantaggi operativi e didattici (pro) e rischi legati all'originalità e all'autorialità (contro)."
+    }
+  ]
+}

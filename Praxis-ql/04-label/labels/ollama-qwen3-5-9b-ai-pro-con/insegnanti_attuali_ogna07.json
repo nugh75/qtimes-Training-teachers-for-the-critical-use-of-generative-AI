@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ogna07.md",
+  "source_name": "insegnanti_attuali_ogna07.md",
+  "title": "Risposta ogna07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ogna07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:21.371526+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: implementazione nella didattica. Contro: uso non consono da parte degli studenti della IA (es. scorciatoie per compiti a cas o in classe...).",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "implementazione nella didattica",
+          "reason": "Il partecipante cita l'implementazione nella didattica come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "plagio_autorialita",
+          "evidence": "scorciatoie per compiti",
+          "reason": "Il partecipante evidenzia il rischio di utilizzo dell'IA per ottenere scorciatoie nei compiti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

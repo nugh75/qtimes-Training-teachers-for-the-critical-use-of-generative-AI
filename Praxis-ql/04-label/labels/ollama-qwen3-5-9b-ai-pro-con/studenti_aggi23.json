@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aggi23.md",
+  "source_name": "studenti_aggi23.md",
+  "title": "Risposta aggi23",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "aggi23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:16.375450+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "secondo il mio punto di vista l’intelligenza artificiale utilizzata in un modo corretto può solo che aiutare noi ragazzi ,per esempio, nello studio.ma non condivido se viene utilizzata in una maniera scorretta ma anche poco utile per noi stessi come per copiare durante le verifiche o per riassumere intere pagine e quindi andando a sostituirci e a lavorare al nostro posto.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "può solo che aiutare noi ragazzi",
+          "reason": "Il partecipante indica che l'IA può aiutare nello studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "plagio_autorialita",
+          "evidence": "copiare durante le verifiche",
+          "reason": "Il partecipante evidenzia il rischio di plagio e sostituzione del lavoro dello studente."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "riassumere intere pagine e quindi andando a sostituirci e a lavorare al nostro posto",
+          "reason": "Il partecipante segnala il rischio di delegare completamente il lavoro di sintesi e studio all'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (aiuto nello studio) e due rischi (copiare e sostituire il lavoro dello studente)."
+    }
+  ]
+}

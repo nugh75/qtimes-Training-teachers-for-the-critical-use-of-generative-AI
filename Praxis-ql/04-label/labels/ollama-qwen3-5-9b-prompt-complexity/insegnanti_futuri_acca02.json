@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_acca02.md",
+  "source_name": "insegnanti_futuri_acca02.md",
+  "title": "Risposta ACCA02",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ACCA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:13:37.702800+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_operativa": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 69.0,
+  "avg_confidence": 0.95,
+  "items": [
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "se avessi una classe a cui dovrò sottoporre una verifica chiedere: Devo elaborare una verifica per la mia classe di seconda superiore con tema ciclo dell'acqua, sono riuscita a trattare l'argomento e ti sottopongo il programma che ho seguito, elabora un test dove ci sono 4 domande a risposta multipla e 6 a risposta aperta. cerca di essere chiaro nella domande aperte e dammi una possibile griglia di valutazione.",
+      "metrics": {
+        "char_count": 414,
+        "word_count": 69,
+        "sentence_count": 2,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "has_role": false,
+      "has_context": true,
+      "has_constraints": true,
+      "has_output_format": true,
+      "has_audience": true,
+      "has_evaluation_criteria": true,
+      "has_iterative_instruction": false,
+      "confidence": 0.95,
+      "reason": "Richiesta articolata con contesto, destinatario, vincoli, formato e criteri di valutazione."
+    }
+  ]
+}

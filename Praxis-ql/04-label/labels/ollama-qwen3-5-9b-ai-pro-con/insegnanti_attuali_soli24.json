@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_soli24.md",
+  "source_name": "insegnanti_attuali_soli24.md",
+  "title": "Risposta soli24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "soli24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:23.394835+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "possono velocizzare lo studio ma togliere creatività e capacità logico cognitive",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare lo studio",
+          "reason": "Il partecipante indica che l'IA può accelerare il processo di apprendimento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "togliere creatività",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce la creatività."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "togliere ... capacità logico cognitive",
+          "reason": "Il partecipante evidenzia il rischio di perdita delle capacità logico-cognitive."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e due svantaggi (perdita di creatività e capacità cognitive)."
+    }
+  ]
+}

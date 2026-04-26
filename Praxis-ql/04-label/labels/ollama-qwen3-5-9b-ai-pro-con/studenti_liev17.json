@@ -1,0 +1,43 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_liev17.md",
+  "source_name": "studenti_liev17.md",
+  "title": "Risposta liev17",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "liev17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:03.336600+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "secondo me che non siamo più autonomi e ci focalizziamo troppo sull’intelligenza artificiale che non abbiamo un nostro modo di pensare",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "non siamo più autonomi",
+          "reason": "Il partecipante afferma che l'uso dell'IA riduce l'autonomia degli studenti."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ci focalizziamo troppo sull'intelligenza artificiale",
+          "reason": "Il partecipante segnala un'eccessiva focalizzazione sull'IA a discapito del pensiero proprio."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non abbiamo un nostro modo di pensare",
+          "reason": "Il partecipante indica la perdita della capacità di pensiero autonomo."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente svantaggi legati alla perdita di autonomia e pensiero critico."
+    }
+  ]
+}

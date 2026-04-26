@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ardo03.md",
+  "source_name": "insegnanti_attuali_ardo03.md",
+  "title": "Risposta ARDO03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ARDO03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:09.677273+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro molti: fonte di spunti e sistemata che velocizza ogni passaggio . Contro : potrebbe limitare la fantasia e la creatività se non è ben utilizzata",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizza ogni passaggio",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di accelerare i processi operativi."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "fonte di spunti",
+          "reason": "L'IA viene descritta come una risorsa per generare idee e contenuti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "potrebbe limitare la fantasia e la creatività",
+          "reason": "Il partecipante teme che l'uso dell'IA possa ridurre la capacità creativa se non gestita con attenzione."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia vantaggi (pro) che svantaggi (contro)."
+    }
+  ]
+}

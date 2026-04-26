@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ioli28.md",
+  "source_name": "insegnanti_futuri_ioli28.md",
+  "title": "Risposta Ioli28",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ioli28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:18.438198+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creare spiegazioni personalizzate",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creare spiegazioni personalizzate",
+      "confidence": 0.95,
+      "reason": "La creazione di spiegazioni personalizzate implica l'adattamento dei contenuti e dei livelli di difficoltà in base alle esigenze individuali dello studente."
+    }
+  ]
+}

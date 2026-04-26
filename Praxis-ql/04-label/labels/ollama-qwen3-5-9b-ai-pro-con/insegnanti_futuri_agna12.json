@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_agna12.md",
+  "source_name": "insegnanti_futuri_agna12.md",
+  "title": "Risposta AGNA12",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "AGNA12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:57.690851+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: Facilità di accesso e aiuto in alcuni campi. Contro: Facilità di accesso e utilizzo eccessivo che sostituisce il mettersi in gioco.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "Facilità di accesso",
+          "reason": "Il partecipante evidenzia la facilità con cui l'IA è raggiungibile."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuto in alcuni campi",
+          "reason": "Il partecipante cita l'assistenza fornita dall'IA in specifiche aree."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "utilizzo eccessivo",
+          "reason": "Il partecipante segnala il rischio di un uso sproporzionato dello strumento."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "sostituisce il mettersi in gioco",
+          "reason": "Il partecipante indica che l'uso dell'IA può sostituire l'impegno personale e l'interazione."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un vantaggio (facilità di accesso e aiuto) sia uno svantaggio (uso eccessivo e sostituzione dell'impegno)."
+    }
+  ]
+}

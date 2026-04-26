@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_laia07.md",
+  "source_name": "studenti_laia07.md",
+  "title": "Risposta laia07",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "laia07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:57.896470+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: facilità le ricerche  Contro: si rischia di delegare troppo all' IA",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "facilità le ricerche",
+          "reason": "Il partecipante indica che l'IA facilita il processo di ricerca."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "si rischia di delegare troppo all' IA",
+          "reason": "Il partecipante segnala il rischio di eccessiva dipendenza dall'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

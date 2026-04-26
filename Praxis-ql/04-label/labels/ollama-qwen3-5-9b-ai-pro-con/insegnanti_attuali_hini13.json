@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_hini13.md",
+  "source_name": "insegnanti_attuali_hini13.md",
+  "title": "Risposta HINI13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "HINI13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:05.276105+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro è la velocità con cui si accede a qualsiasi informazione e contenuto. Il contro è l'estrema facilità con cui si hanno risposte di qualsiasi genere, senza dover cercare, approfondire, metabolizzare. Il rischio per i giovani è che sia tutto troppo estremamente facile.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "velocità con cui si accede a qualsiasi informazione e contenuto",
+          "reason": "Il partecipante evidenzia la rapidità di accesso alle informazioni come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "estrema facilità con cui si hanno risposte di qualsiasi genere, senza dover cercare, approfondire, metabolizzare",
+          "reason": "Il partecipante segnala il rischio di non dover più cercare o elaborare le informazioni."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "Il rischio per i giovani è che sia tutto troppo estremamente facile",
+          "reason": "Il partecipante esprime il timore che l'eccessiva facilità porti a una dipendenza o a una mancanza di sforzo intellettuale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e due contro (mancanza di approfondimento e facilità eccessiva)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lani13.md",
+  "source_name": "insegnanti_attuali_lani13.md",
+  "title": "Risposta LANI13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "LANI13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:24.317122+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: informazioni che si possono trovare subito,  CONTRO: vengono meno i rapporti fra le persone e l'utilizzo di mezzi di ricerca come libri",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "informazioni che si possono trovare subito",
+          "reason": "Il partecipante evidenzia la rapidità di accesso alle informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "vengono meno i rapporti fra le persone",
+          "reason": "Il partecipante segnala il deterioramento delle relazioni interpersonali."
+        },
+        {
+          "category": "altro",
+          "evidence": "utilizzo di mezzi di ricerca come libri",
+          "reason": "Il partecipante lamenta la perdita dell'uso di fonti tradizionali come i libri."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio e due svantaggi."
+    }
+  ]
+}

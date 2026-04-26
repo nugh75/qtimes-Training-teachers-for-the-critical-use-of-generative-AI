@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illo01.md",
+  "source_name": "insegnanti_attuali_illo01.md",
+  "title": "Risposta Illo01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Illo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:45.320541+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L’IA può adattare i contenuti al livello, ai tempi e agli stili di apprendimento degli studenti. Questo è particolarmente utile per studenti con bisogni educativi speciali o con ritmi di apprendimento differenti.",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "adattare i contenuti al livello, ai tempi e agli stili di apprendimento degli studenti",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di adattare i contenuti alle caratteristiche individuali."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "particolarmente utile per studenti con bisogni educativi speciali o con ritmi di apprendimento differenti",
+          "reason": "Il partecipante cita l'utilità specifica per studenti con BES o ritmi diversi."
+        }
+      ],
+      "cons": [],
+      "pro_count": 2,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esclusivamente benefici dell'IA senza menzionare rischi o contro."
+    }
+  ]
+}

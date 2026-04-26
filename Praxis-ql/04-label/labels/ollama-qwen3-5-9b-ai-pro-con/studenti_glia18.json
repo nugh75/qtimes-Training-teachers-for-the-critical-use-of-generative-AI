@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_glia18.md",
+  "source_name": "studenti_glia18.md",
+  "title": "Risposta glia18",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "glia18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:58.062771+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro dell'uso dell'intelligenza artificiale nello studio sono la fruibilità, la facilità e sono un importante supporto allo  studio. i contro sono sicuramente il rischio che questa progressivamente possa essere usata eccessivamente e ridurre le capacità di ragionamento e attentive individuali rischiando di affidarsi totalmente su questi sistemi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "importante supporto allo studio",
+          "reason": "Il partecipante evidenzia il ruolo di supporto dell'IA per lo studio."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "fruibilità, la facilità",
+          "reason": "Il partecipante cita la facilità d'uso e la fruibilità come vantaggi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ridurre le capacità di ragionamento",
+          "reason": "Il partecipante teme che l'uso eccessivo riduca le capacità di ragionamento."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "affidarsi totalmente su questi sistemi",
+          "reason": "Il partecipante segnala il rischio di affidamento totale ai sistemi."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro (fruibilità, facilità, supporto) sia contro (riduzione capacità, affidamento totale)."
+    }
+  ]
+}

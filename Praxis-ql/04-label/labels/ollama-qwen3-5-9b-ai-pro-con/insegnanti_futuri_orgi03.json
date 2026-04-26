@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_orgi03.md",
+  "source_name": "insegnanti_futuri_orgi03.md",
+  "title": "Risposta Orgi03",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Orgi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:30.353819+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: facilita la creazione di contenuti  Contro: quando non riesce a comprendere il contenuto di un documento si perde tanto tempo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "facilita la creazione di contenuti",
+          "reason": "Il partecipante evidenzia la facilitazione nella creazione di materiali didattici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "quando non riesce a comprendere il contenuto di un documento",
+          "reason": "Il partecipante segnala il rischio di errore o incapacità dell'IA nel comprendere i testi."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "si perde tanto tempo",
+          "reason": "Il partecipante indica una perdita di tempo dovuta ai limiti dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio e due svantaggi specifici."
+    }
+  ]
+}

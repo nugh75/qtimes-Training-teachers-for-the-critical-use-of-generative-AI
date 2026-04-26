@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_onzi03.md",
+  "source_name": "insegnanti_attuali_onzi03.md",
+  "title": "Risposta onzi03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "onzi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:09.211032+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "faccio elaborare esercizi su medesimi contenuti ma differenziati per fasce di livello",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "esercizi_differenziati"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "faccio elaborare esercizi su medesimi contenuti ma differenziati per fasce di livello",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per creare esercizi con la stessa base concettuale ma con difficoltà differenziate per fasce di livello."
+    }
+  ]
+}

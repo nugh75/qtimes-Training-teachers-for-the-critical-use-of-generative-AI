@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nali26.md",
+  "source_name": "insegnanti_attuali_nali26.md",
+  "title": "Risposta NALI26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "NALI26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:55.352590+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Chiedo spunti indicando la situazione specifica del singolo ragazzo",
+      "practice_present": true,
+      "strategies": [
+        "interessi_studenti",
+        "potenzialita_talenti"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "Chiedo spunti indicando la situazione specifica del singolo ragazzo",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per ottenere spunti basati sulla situazione specifica di ogni singolo studente, adattando l'insegnamento alle sue potenzialità e interessi."
+    }
+  ]
+}

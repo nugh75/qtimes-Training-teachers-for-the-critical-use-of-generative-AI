@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_osti16.md",
+  "source_name": "insegnanti_attuali_osti16.md",
+  "title": "Risposta osti16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "osti16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:42.445306+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono il fascino e l'attrazione che hanno oggi nei confronti dei ragazzi quindi aiuta ad attrarre la loro attenzione i contro hanno la stessa motivazione dei pro e a mio parere serve consolidare e favoreggiare il rapporto interpersonale nell'educazione e nella didattica",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "fascino e l'attrazione che hanno oggi nei confronti dei ragazzi",
+          "reason": "Il partecipante indica che l'IA attira l'attenzione degli studenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "serve consolidare e favoreggiare il rapporto interpersonale",
+          "reason": "Il partecipante suggerisce che l'IA potrebbe minacciare il rapporto interpersonale se non gestita correttamente."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (coinvolgimento) e un contro (necessità di rafforzare la relazione)."
+    }
+  ]
+}

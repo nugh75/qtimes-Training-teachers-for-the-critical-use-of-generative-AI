@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cato28.md",
+  "source_name": "insegnanti_attuali_cato28.md",
+  "title": "Risposta cato28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cato28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:52.500300+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "È uno strumento di grande supporto, ma a volte si abusa di esso.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "È uno strumento di grande supporto",
+          "reason": "Il partecipante definisce l'IA come un valido aiuto."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "a volte si abusa di esso",
+          "reason": "Il partecipante evidenzia il rischio di un uso eccessivo o improprio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('supporto') e uno svantaggio ('abuso')."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_isti12.md",
+  "source_name": "insegnanti_attuali_isti12.md",
+  "title": "Risposta isti12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "isti12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:08.848443+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro la possibilità di implementare la didattica con spunti innovativi e la velocità nell'ideazione, tra i contro il rischio di sovraccarico di stimoli",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "possibilità di implementare la didattica con spunti innovativi",
+          "reason": "Il partecipante cita l'innovazione didattica come vantaggio."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità nell'ideazione",
+          "reason": "Il partecipante evidenzia la rapidità nel processo creativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "rischio di sovraccarico di stimoli",
+          "reason": "Il partecipante segnala il rischio di eccessiva stimolazione come svantaggio."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_fini10.md",
+  "source_name": "insegnanti_futuri_fini10.md",
+  "title": "Risposta Fini10",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Fini10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:46.637690+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Agevolare determinati processi i contro diminuire la produzione e creatività",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Agevolare determinati processi",
+          "reason": "Il partecipante indica che l'IA facilita o velocizza specifici processi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "diminuire la produzione e creatività",
+          "reason": "Il partecipante segnala un rischio di riduzione della creatività e della produzione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('Agevolare') e uno svantaggio ('diminuire')."
+    }
+  ]
+}

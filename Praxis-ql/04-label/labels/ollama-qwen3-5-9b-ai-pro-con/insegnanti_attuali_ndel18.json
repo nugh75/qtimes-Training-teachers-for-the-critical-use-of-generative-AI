@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ndel18.md",
+  "source_name": "insegnanti_attuali_ndel18.md",
+  "title": "Risposta ndel18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ndel18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:00.895735+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro rapidità dell'output, contro tante informazioni che difficilmente vengono mantenute in memoria dai discenti e/o capite.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "rapidità dell'output",
+          "reason": "Il partecipante evidenzia la velocità di produzione come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "tante informazioni che difficilmente vengono mantenute in memoria dai discenti e/o capite",
+          "reason": "Il partecipante segnala il rischio di sovraccarico informativo e difficoltà di comprensione/rimanenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e un contro (difficoltà di memorizzazione/comprensione)."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_aldi03.md",
+  "source_name": "studenti_aldi03.md",
+  "title": "Risposta aldi03",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "aldi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:19.170039+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro:è più facile studiare contro:non ci sono",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "è più facile studiare",
+          "reason": "Il partecipante indica che l'IA rende lo studio più facile, implicando un vantaggio di facilità o efficienza."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro ('è più facile studiare') e nega la presenza di contro ('non ci sono')."
+    }
+  ]
+}

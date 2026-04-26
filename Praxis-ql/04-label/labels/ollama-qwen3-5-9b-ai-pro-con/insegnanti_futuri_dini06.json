@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_dini06.md",
+  "source_name": "insegnanti_futuri_dini06.md",
+  "title": "Risposta dini06",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "dini06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:25.448656+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Ho poca esperienza in merito. Il mio pensiero è che un rapporto educativo si basi sulla relazione, di conseguenza l'IA può/deve essere solo uno strumento e non un motus oprendi",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "un rapporto educativo si basi sulla relazione",
+          "reason": "Il partecipante sottolinea che l'IA non può sostituire la relazione umana fondamentale nell'educazione."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esprime un limite principale (la relazione) e definisce l'IA come strumento subordinato, senza citare benefici."
+    }
+  ]
+}

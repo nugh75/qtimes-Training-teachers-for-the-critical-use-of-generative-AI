@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_elli24.md",
+  "source_name": "studenti_elli24.md",
+  "title": "Risposta ELLI24",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ELLI24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:56.745287+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che fornisce velocemente la risposta di cui ho bisogno. I contro è che per ottenere informazioni più specifiche devo riformulare in modo diverso la domanda",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "fornisce velocemente la risposta di cui ho bisogno",
+          "reason": "Il partecipante evidenzia la rapidità di risposta come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "per ottenere informazioni più specifiche devo riformulare in modo diverso la domanda",
+          "reason": "Il partecipante indica la necessità di riformulare le domande come svantaggio, suggerendo una limitazione nell'interazione diretta o nella precisione immediata."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

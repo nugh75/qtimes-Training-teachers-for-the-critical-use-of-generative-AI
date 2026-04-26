@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cchi25.md",
+  "source_name": "insegnanti_attuali_cchi25.md",
+  "title": "Risposta cchi25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cchi25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:57.711511+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro- snellisce il lavoro facilitandolo e accorciandone le tempistiche contro- deve essere usato con consapevolezza e da un pubblico più adulto (scuola secondaria di secondo grado)",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "snellisce il lavoro facilitandolo e accorciandone le tempistiche",
+          "reason": "Il partecipante evidenzia il vantaggio di ridurre i tempi di lavoro e facilitare i processi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "deve essere usato con consapevolezza e da un pubblico più adulto",
+          "reason": "Il partecipante suggerisce che l'uso richiede consapevolezza e maturità, implicando un rischio di uso improprio o dipendenza da strumenti non ancora pronti per i più giovani."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (snellimento) e un contro (necessità di consapevolezza e pubblico adulto)."
+    }
+  ]
+}

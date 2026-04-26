@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ardi01.md",
+  "source_name": "studenti_ardi01.md",
+  "title": "Risposta ARDI01",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ARDI01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:38.467915+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: se usato in modo corretto può aiutare a comprendere meglio o a imparare nuove cose. Contro: un abuso può limitare le proprie conoscenze e competenze, affidandosi troppo ai sistemi di ia.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiutare a comprendere meglio",
+          "reason": "Il partecipante indica che l'IA facilita la comprensione di concetti."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "a imparare nuove cose",
+          "reason": "Il partecipante evidenzia il supporto nell'apprendimento di nuovi contenuti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "affidandosi troppo ai sistemi di ia",
+          "reason": "Il partecipante segnala il rischio di dipendenza eccessiva dall'IA."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "limitare le proprie conoscenze e competenze",
+          "reason": "Il partecipante indica che l'abuso dell'IA porta a una riduzione delle competenze personali."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un beneficio legato alla comprensione e un rischio legato alla delega cognitiva."
+    }
+  ]
+}

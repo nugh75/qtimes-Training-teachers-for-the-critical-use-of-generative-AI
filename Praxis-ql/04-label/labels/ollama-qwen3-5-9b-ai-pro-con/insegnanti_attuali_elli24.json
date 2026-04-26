@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elli24.md",
+  "source_name": "insegnanti_attuali_elli24.md",
+  "title": "Risposta Elli24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Elli24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:45.219072+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sicuramente la rapidità e la semplicità nel reperire le informazioni, i contro che se utilizzata in maniera eccessiva disabitua i ragazzi ad esprimersi e ad impegnarsi in un compito",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "rapidità e la semplicità nel reperire le informazioni",
+          "reason": "Il partecipante evidenzia la velocità e facilità di accesso ai dati come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "se utilizzata in maniera eccessiva disabitua i ragazzi",
+          "reason": "Il partecipante segnala il rischio di creare abitudini negative e ridotta autonomia."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

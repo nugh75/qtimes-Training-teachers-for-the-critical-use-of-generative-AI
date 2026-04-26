@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_noli14.md",
+  "source_name": "studenti_noli14.md",
+  "title": "Risposta noli14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "noli14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:07.267260+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che ti può letteralmente aiutare in tutto, i contro sono che non ti fa sviluppare il senso di opinion critica e che è troppo forte la tentazione di voler produrre attraverso di essi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "ti può letteralmente aiutare in tutto",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di fornire assistenza completa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non ti fa sviluppare il senso di opinion critica",
+          "reason": "Il partecipante segnala il rischio di non sviluppare capacità critiche."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "è troppo forte la tentazione di voler produrre attraverso di essi",
+          "reason": "Il partecipante indica un rischio di eccessiva dipendenza dallo strumento per la produzione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un vantaggio ('aiutare in tutto') sia due svantaggi ('non sviluppare senso critico', 'tentazione di produrre attraverso di essi')."
+    }
+  ]
+}

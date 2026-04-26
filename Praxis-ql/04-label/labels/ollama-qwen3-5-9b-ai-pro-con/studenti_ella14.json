@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ella14.md",
+  "source_name": "studenti_ella14.md",
+  "title": "Risposta ella14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ella14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:46.831427+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono che l’ai fornisce nozioni “universali”, ovvero ha una preparazione su tutte le materie e da risposte semplici da capire ma allo stesso tempo efficaci e corrette, un pro è che secondo me limita le capacità autonome degli alunni",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "da risposte semplici da capire ma allo stesso tempo efficaci e corrette",
+          "reason": "Il partecipante evidenzia la chiarezza e l'efficacia delle risposte fornite dall'IA."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "limita le capacità autonome degli alunni",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce l'autonomia e le capacità di ragionamento indipendente degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (risposte chiare ed efficaci) e uno svantaggio (limitazione dell'autonomia)."
+    }
+  ]
+}

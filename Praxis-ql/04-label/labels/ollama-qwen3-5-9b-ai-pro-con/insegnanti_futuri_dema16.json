@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_dema16.md",
+  "source_name": "insegnanti_futuri_dema16.md",
+  "title": "Risposta dema16",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "dema16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:22.795977+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sicuramente L'IA darebbe accesso ad una mole di informazioni e di applicazione e comunicazione di esse notevolmente più ampie. Semplificherebbe il lavoro di ricerca, lasciando più tempo alla messa in pratica della messa in pratica dell'attività educativa. Di contro , credo possa livellare troppo il processo educativo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "accesso ad una mole di informazioni e di applicazione e comunicazione di esse notevolmente più ampie",
+          "reason": "Il partecipante evidenzia l'espansione delle risorse informative disponibili."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Semplificherebbe il lavoro di ricerca, lasciando più tempo alla messa in pratica dell'attività educativa",
+          "reason": "Il partecipante indica che l'IA riduce il tempo dedicato alla ricerca, liberando tempo per la pratica educativa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "livellare troppo il processo educativo",
+          "reason": "Il partecipante teme che l'IA omogeneizzi eccessivamente il percorso educativo, riducendo la diversità."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia vantaggi (accesso informazioni, risparmio tempo) sia svantaggi (livellamento processo)."
+    }
+  ]
+}

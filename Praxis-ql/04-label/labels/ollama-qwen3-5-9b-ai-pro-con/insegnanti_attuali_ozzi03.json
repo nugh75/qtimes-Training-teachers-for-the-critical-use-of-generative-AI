@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ozzi03.md",
+  "source_name": "insegnanti_attuali_ozzi03.md",
+  "title": "Risposta ozzi03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ozzi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:04.693521+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro, posso far vedere agli alunni come si crea una fake news. i Contro non ci deve essere abuso, i ragazzi devono imparare senza ausili. utilizzarla va bene, ma non oltrappassare i limiti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "posso far vedere agli alunni come si crea una fake news",
+          "reason": "L'uso dell'IA è proposto come strumento didattico per illustrare concetti critici come le fake news."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "i ragazzi devono imparare senza ausili",
+          "reason": "Viene segnalato il rischio che l'ausilio dell'IA impedisca l'apprendimento autonomo."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "non ci deve essere abuso",
+          "reason": "Viene evidenziato il pericolo di un uso eccessivo o non controllato dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio educativo e due rischi legati all'uso dell'IA."
+    }
+  ]
+}

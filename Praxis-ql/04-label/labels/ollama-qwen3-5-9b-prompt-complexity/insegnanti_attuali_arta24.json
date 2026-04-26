@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_arta24.md",
+  "source_name": "insegnanti_attuali_arta24.md",
+  "title": "Risposta arta24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "arta24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:10:34.738733+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_didattica": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 29.0,
+  "avg_confidence": 0.95,
+  "items": [
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao, mi potresti aiutare a realizzare una verifica di storia dell'arte medievale (approfondendo Giotto) a risposte multiple per un ragazzo dsa di una classe seconda di un liceo scientifico?",
+      "metrics": {
+        "char_count": 190,
+        "word_count": 29,
+        "sentence_count": 1,
+        "question_mark_count": 1,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "richiesta_didattica",
+      "strategies": [],
+      "has_role": false,
+      "has_context": true,
+      "has_constraints": true,
+      "has_output_format": true,
+      "has_audience": true,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.95,
+      "reason": "Richiesta con contesto, destinatario, vincoli e formato espliciti."
+    }
+  ]
+}

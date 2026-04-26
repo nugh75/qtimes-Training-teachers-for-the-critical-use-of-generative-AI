@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_otta04.md",
+  "source_name": "insegnanti_attuali_otta04.md",
+  "title": "Risposta otta04",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "otta04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:45.631774+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: aiuto e personalizzazione dell'apprendimento Contro: mancanza di autonomia e di sviluppo cognitivo per il discente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "aiuto e personalizzazione dell'apprendimento",
+          "reason": "Il partecipante cita esplicitamente la capacità di personalizzare l'apprendimento come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "mancanza di autonomia e di sviluppo cognitivo per il discente",
+          "reason": "Il partecipante evidenzia il rischio di perdita di autonomia e di sviluppo delle capacità cognitive."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta elenca chiaramente un pro e un contro specifici."
+    }
+  ]
+}

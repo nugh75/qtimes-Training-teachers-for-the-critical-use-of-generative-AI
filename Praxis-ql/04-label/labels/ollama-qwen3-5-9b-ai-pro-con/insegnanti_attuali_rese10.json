@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rese10.md",
+  "source_name": "insegnanti_attuali_rese10.md",
+  "title": "Risposta rese10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rese10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:38.268502+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non ho esperienze che mi permettano di definire pro e contro nell'utilizzo dell'AI. Credo, però, che essa possa facilitare molto la didattica dal punto di vista della preparazione di lezioni, materiale didattico e prove di verifica (test, quiz, ecc) per la valutazione della preparazione degli studenti. Per contro, penso che essa possa essere utilizzata dagli studenti in modo irresponsabile per semplificare il proprio lavoro e, anche se involontariamente, sostituirsi alle attività intellettuali come la lettura, la ricerca di informazioni, la comprensione di testi, la produzione scritta ed orale, e altro.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "facilitare molto la didattica dal punto di vista della preparazione di lezioni, materiale didattico e prove di verifica",
+          "reason": "Il partecipante cita la facilitazione nella creazione di lezioni e materiali didattici come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituirsi alle attività intellettuali come la lettura, la ricerca di informazioni, la comprensione di testi, la produzione scritta ed orale",
+          "reason": "Il partecipante evidenzia il rischio di sostituzione delle attività intellettuali fondamentali."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "utilizzata dagli studenti in modo irresponsabile per semplificare il proprio lavoro",
+          "reason": "Il partecipante segnala l'uso irresponsabile per semplificare il lavoro, implicando una perdita di autorialità."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (preparazione materiali) e due rischi (delega cognitiva e uso irresponsabile)."
+    }
+  ]
+}

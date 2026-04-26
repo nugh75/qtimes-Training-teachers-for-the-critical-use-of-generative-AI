@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_arco11.md",
+  "source_name": "insegnanti_attuali_arco11.md",
+  "title": "Risposta Arco11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Arco11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:05.039634+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: perdita del pensiero critico e plagio di testi.pro,: aiuta chi èIn difficoltà, può correggere esercizi, generare o suggerire attività facilitando il lavoro dell’insegnante.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta chi èIn difficoltà",
+          "reason": "L'IA viene citata come strumento di supporto per gli studenti che incontrano ostacoli nell'apprendimento."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "generare o suggerire attività",
+          "reason": "L'IA è utilizzata per creare o proporre attività didattiche, facilitando il lavoro dell'insegnante."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitando il lavoro dell'insegnante",
+          "reason": "Il supporto fornito dall'IA permette di ottimizzare il tempo e lo sforzo dell'insegnante."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "perdita del pensiero critico",
+          "reason": "L'uso dell'IA rischia di erodere la capacità degli studenti di elaborare autonomamente le informazioni."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "plagio di testi",
+          "reason": "Viene segnalato il rischio che gli studenti utilizzino l'IA per copiare testi senza attribuzione."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi operativi e di supporto sia rischi legati alla cognizione e all'originalità."
+    }
+  ]
+}

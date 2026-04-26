@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zoni01.md",
+  "source_name": "insegnanti_attuali_zoni01.md",
+  "title": "Risposta zoni01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zoni01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:45.783217+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro potrebbero riguardare la velocità di esecuzione di un lavoro , contro il fatto che si faccia solo riferimento all IA senza utilizzare altri canali",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità di esecuzione di un lavoro",
+          "reason": "Il partecipante cita la rapidità come vantaggio operativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "si faccia solo riferimento all IA senza utilizzare altri canali",
+          "reason": "Il partecipante evidenzia il rischio di un uso esclusivo dell'IA a discapito di altri strumenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (velocità) e un contro (uso esclusivo)."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rini13.md",
+  "source_name": "insegnanti_attuali_rini13.md",
+  "title": "Risposta rini13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rini13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:43.488854+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Vedo i contro legami all'esaurimento delle funzioni cognitive associative.",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "esaurimento delle funzioni cognitive associative",
+          "reason": "Il partecipante indica che l'uso dell'IA porta all'esaurimento delle capacità cognitive associative."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esclusivamente un rischio cognitivo."
+    }
+  ]
+}

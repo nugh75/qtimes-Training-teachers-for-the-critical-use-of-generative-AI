@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ucci31.md",
+  "source_name": "studenti_ucci31.md",
+  "title": "Risposta ucci31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ucci31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:57.796386+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che va a semplificare e ridurre il lavoro  I contro sono che si riduce il quoziente intellettivo dello studente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "va a semplificare e ridurre il lavoro",
+          "reason": "Il partecipante indica che l'IA semplifica e riduce il carico di lavoro."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "si riduce il quoziente intellettivo dello studente",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una riduzione delle capacità intellettive."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (semplificazione) e uno svantaggio (riduzione quoziente intellettivo)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti19.md",
+  "source_name": "insegnanti_attuali_etti19.md",
+  "title": "Risposta ETTI19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ETTI19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:40.442586+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: permette di avere tanti contenuti utili alla didattica, sviluppa la creatività. Contro: rischio di pigrizia, rischio di non controllare il risultato di un compito sviluppato da IA",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "permette di avere tanti contenuti utili alla didattica",
+          "reason": "L'IA è vista come fonte di abbondanza di risorse didattiche."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "sviluppa la creatività",
+          "reason": "L'uso dell'IA stimola lo sviluppo della creatività."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischio di pigrizia",
+          "reason": "Viene segnalato il rischio che l'IA induca a comportamenti pigri."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "rischio di non controllare il risultato di un compito sviluppato da IA",
+          "reason": "C'è il rischio di accettare risultati non verificati dall'utente."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente due benefici e due rischi specifici."
+    }
+  ]
+}

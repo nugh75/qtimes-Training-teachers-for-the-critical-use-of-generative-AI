@@ -1,0 +1,60 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tesi11.md",
+  "source_name": "studenti_tesi11.md",
+  "title": "Risposta tesi11",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tesi11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:17:55.366398+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "base": 1
+  },
+  "specificity_counts": {
+    "bassa": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_operativa": 1
+  },
+  "strategy_counts": {
+    "correzione": 1,
+    "scrittura": 1
+  },
+  "avg_word_count": 18.0,
+  "avg_confidence": 0.95,
+  "items": [
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "mi potresti correggere grammaticalmente questi appunti presi a lezione e rielaborare il testo con un linguaggio più fluente ?",
+      "metrics": {
+        "char_count": 125,
+        "word_count": 18,
+        "sentence_count": 1,
+        "question_mark_count": 1,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "base",
+      "specificity_level": "bassa",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [
+        "correzione",
+        "scrittura"
+      ],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.95,
+      "reason": "Richiesta breve con obiettivo di correzione e rielaborazione, senza contesto o vincoli."
+    }
+  ]
+}

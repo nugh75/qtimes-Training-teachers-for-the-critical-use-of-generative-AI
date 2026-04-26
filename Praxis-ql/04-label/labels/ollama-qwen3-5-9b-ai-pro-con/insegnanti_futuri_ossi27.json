@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ossi27.md",
+  "source_name": "insegnanti_futuri_ossi27.md",
+  "title": "Risposta Ossi27",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ossi27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:36.887058+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Non si può sviluppare pensiero critico con AI, ma si semplifica il lavoro",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "si semplifica il lavoro",
+          "reason": "Il partecipante indica che l'IA semplifica il lavoro, riducendo il carico operativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Non si può sviluppare pensiero critico con AI",
+          "reason": "Il partecipante afferma che l'uso dell'IA impedisce lo sviluppo del pensiero critico."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (semplificazione) e uno svantaggio (mancanza di pensiero critico)."
+    }
+  ]
+}

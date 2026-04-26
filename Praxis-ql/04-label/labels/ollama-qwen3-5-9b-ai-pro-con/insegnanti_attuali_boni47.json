@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_boni47.md",
+  "source_name": "insegnanti_attuali_boni47.md",
+  "title": "Risposta Boni47",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Boni47",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:45.919363+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro - L'inutilizzo dell'intelligenza umana a favore di quella digitale e l'eventuale inesattezza dei feedback. Pro - supporto e ottimizzazione dei tempi nel lavoro",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "supporto e ottimizzazione dei tempi nel lavoro",
+          "reason": "Il partecipante cita l'ottimizzazione dei tempi come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "eventuale inesattezza dei feedback",
+          "reason": "Il partecipante evidenzia il rischio di errori o imprecisione nei feedback."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "L'inutilizzo dell'intelligenza umana a favore di quella digitale",
+          "reason": "Il partecipante lamenta la sostituzione dell'interazione umana con quella digitale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e due contro specifici."
+    }
+  ]
+}

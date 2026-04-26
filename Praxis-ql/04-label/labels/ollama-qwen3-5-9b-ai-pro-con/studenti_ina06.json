@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ina06.md",
+  "source_name": "studenti_ina06.md",
+  "title": "Risposta Ina06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Ina06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:25.650577+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro: semplifica di molto il livello di approfondimento, appiattisce l’indagine critica e gli studenti tendono ad affidarsi troppo all’IA Pro: può essere utile per integrare delle informazioni ed elaborare in modo più esaustivo dei contenuti carenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "può essere utile per integrare delle informazioni ed elaborare in modo più esaustivo dei contenuti carenti",
+          "reason": "L'IA aiuta a colmare lacune conoscitive e a sviluppare contenuti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "semplifica di molto il livello di approfondimento, appiattisce l’indagine critica e gli studenti tendono ad affidarsi troppo all’IA",
+          "reason": "L'uso dell'IA riduce la profondità dell'analisi e favorisce una dipendenza eccessiva."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia un vantaggio (integrazione informazioni) sia uno svantaggio (appiattimento critica)."
+    }
+  ]
+}

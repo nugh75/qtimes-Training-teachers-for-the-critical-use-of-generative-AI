@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_boli14.md",
+  "source_name": "insegnanti_futuri_boli14.md",
+  "title": "Risposta BOLI14",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "BOLI14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:10.642028+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: Rischio di non utilizzare l’impegno nello  studio-  Pro: stimolare uso di nuovi strumenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "stimolare uso di nuovi strumenti",
+          "reason": "Il partecipante indica che l'IA favorisce l'adozione di nuovi strumenti, implicando un potenziale aumento della creatività e dell'engagement."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "Rischio di non utilizzare l’impegno nello studio",
+          "reason": "Il partecipante evidenzia il rischio che l'uso dell'IA porti a una riduzione dell'impegno personale nello studio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

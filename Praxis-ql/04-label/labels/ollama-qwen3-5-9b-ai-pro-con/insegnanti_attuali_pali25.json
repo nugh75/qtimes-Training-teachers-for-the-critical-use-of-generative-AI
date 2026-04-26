@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_pali25.md",
+  "source_name": "insegnanti_attuali_pali25.md",
+  "title": "Risposta pali25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "pali25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:09.234324+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Solo contro: gli studenti si affidano totalmente all’intelligenza artificiale e non usano il proprio cervello. Per loro è solo la via più rapida per svolgere i compiti.",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "gli studenti si affidano totalmente all'intelligenza artificiale e non usano il proprio cervello",
+          "reason": "Il partecipante evidenzia la perdita dell'uso del pensiero autonomo."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esclusivamente un rischio senza menzionare benefici."
+    }
+  ]
+}

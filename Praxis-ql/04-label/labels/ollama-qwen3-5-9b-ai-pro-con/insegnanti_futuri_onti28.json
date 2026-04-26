@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_onti28.md",
+  "source_name": "insegnanti_futuri_onti28.md",
+  "title": "Risposta Onti28",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Onti28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:28.527998+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: aiuta a comprendere e spiegare argomenti complessi, può fornire spunti su cui riflettere Contro: un uso non consapevole potrebbe portare ad un “copia e incolla” di contenuti, non supportato da una riflessione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta a comprendere e spiegare argomenti complessi",
+          "reason": "Il partecipante evidenzia il vantaggio di facilitare la comprensione di concetti difficili."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "può fornire spunti su cui riflettere",
+          "reason": "Il partecipante indica il beneficio di generare idee e stimolare la riflessione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "un uso non consapevole potrebbe portare ad un 'copia e incolla' di contenuti, non supportato da una riflessione",
+          "reason": "Il partecipante segnala il rischio di un utilizzo passivo che bypassa il pensiero critico."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia benefici che rischi specifici dell'uso dell'IA."
+    }
+  ]
+}

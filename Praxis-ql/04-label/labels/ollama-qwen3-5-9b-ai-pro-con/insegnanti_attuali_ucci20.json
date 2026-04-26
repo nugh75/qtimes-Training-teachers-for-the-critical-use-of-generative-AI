@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci20.md",
+  "source_name": "insegnanti_attuali_ucci20.md",
+  "title": "Risposta ucci20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:06.679756+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La delega, l'accesso ad informazioni immediate che non favoriscono il processo deduttivo che è alla base dell'apprendimento per tentativi ed errori.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "altro",
+          "evidence": "accesso ad informazioni immediate",
+          "reason": "Il partecipante cita la rapidità di accesso alle informazioni come aspetto positivo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "La delega, l'accesso ad informazioni immediate che non favoriscono il processo deduttivo",
+          "reason": "Il partecipante evidenzia come l'uso dell'IA favorisca la delega e ostacoli il processo deduttivo e l'apprendimento per tentativi ed errori."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un vantaggio (accesso immediato) sia uno svantaggio (delega e blocco del processo deduttivo)."
+    }
+  ]
+}

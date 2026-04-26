@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iola29.md",
+  "source_name": "insegnanti_attuali_iola29.md",
+  "title": "Risposta iola29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iola29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:51.193230+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: può facilitare con il carico burocratico di un insegnate Contro: appiattire la didattica",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitare con il carico burocratico",
+          "reason": "Il partecipante indica che l'IA aiuta a gestire il carico burocratico, migliorando l'efficienza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "appiattire la didattica",
+          "reason": "Il partecipante segnala il rischio di omogeneizzazione e perdita di diversità nella didattica."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (burocrazia) e uno svantaggio (appiattimento)."
+    }
+  ]
+}

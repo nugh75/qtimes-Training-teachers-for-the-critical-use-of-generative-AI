@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_illi30.md",
+  "source_name": "studenti_illi30.md",
+  "title": "Risposta Illi30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Illi30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:22.273052+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che accorcia il Tempo ed è precisa i contro sono che potrebbe smettere di farti studiare autonomamente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "accorcia il Tempo",
+          "reason": "Il partecipante indica che l'IA riduce la durata delle attività di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "potrebbe smettere di farti studiare autonomamente",
+          "reason": "Il partecipante segnala il rischio di perdita di autonomia nello studio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (tempo) e uno svantaggio (autonomia)."
+    }
+  ]
+}

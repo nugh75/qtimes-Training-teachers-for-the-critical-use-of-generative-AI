@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rmas16.md",
+  "source_name": "studenti_rmas16.md",
+  "title": "Risposta RMAS16",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "RMAS16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:04.410299+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro riguardano l’ottimizzazione dei tempi, mentre i contro riguardano l’abuso dell’intelligenza artificiale, che può arrivare eventualmente a sostituire in maniera integrale (quando possibile) il soggetto nell’esecuzione di un compito, non permettendo alla persona di apprendere adeguatamente.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "ottimizzazione dei tempi",
+          "reason": "Il partecipante cita l'ottimizzazione dei tempi come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituire in maniera integrale il soggetto nell'esecuzione di un compito",
+          "reason": "Il partecipante evidenzia il rischio che l'IA sostituisca l'utente, impedendo l'apprendimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (ottimizzazione) e un contro (sostituzione integrale)."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anna19.md",
+  "source_name": "insegnanti_attuali_anna19.md",
+  "title": "Risposta anna19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anna19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:41:28.518458+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "creando schemi e sintetizzando contenuti complessi",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "creando schemi e sintetizzando contenuti complessi",
+      "confidence": 0.9,
+      "reason": "La risposta descrive l'uso dell'IA per adattare e semplificare i contenuti (schemi, sintesi), una forma di personalizzazione tramite materiali differenziati."
+    }
+  ]
+}

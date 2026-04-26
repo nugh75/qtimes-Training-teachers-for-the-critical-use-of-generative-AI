@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zzei19.md",
+  "source_name": "insegnanti_attuali_zzei19.md",
+  "title": "Risposta zzei19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zzei19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:03.563909+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Con l'aiuto di immagini suoni e colori che dimostrano ai bambini il lavoro da svolgere o realizzare.",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato",
+        "supporti_bes_dsa"
+      ],
+      "target": "gruppo_classe",
+      "ai_role": "generazione_materiali",
+      "evidence": "Con l'aiuto di immagini suoni e colori che dimostrano ai bambini il lavoro da svolgere o realizzare",
+      "confidence": 0.95,
+      "reason": "L'uso di immagini, suoni e colori per 'dimostrare' il lavoro corrisponde a un supporto visivo e uditivo (scaffolding) per facilitare l'apprendimento, tipico di strategie di individualizzazione tramite materiali differenziati."
+    }
+  ]
+}

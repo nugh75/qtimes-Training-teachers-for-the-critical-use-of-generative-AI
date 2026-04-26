@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_uzza29.md",
+  "source_name": "studenti_uzza29.md",
+  "title": "Risposta uzza29",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "uzza29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:15.243447+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono la facilità con cui poter reperire le informazioni, il contro può essere un'eccessiva delega di compiti a strumenti di intelligenza artificiale che impoverirebbero le nostre capacità",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "facilità con cui poter reperire le informazioni",
+          "reason": "Il partecipante evidenzia la facilità di accesso ai dati come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "eccessiva delega di compiti a strumenti di intelligenza artificiale",
+          "reason": "Il partecipante segnala il rischio di un'eccessiva dipendenza dagli strumenti che impoverisce le capacità personali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

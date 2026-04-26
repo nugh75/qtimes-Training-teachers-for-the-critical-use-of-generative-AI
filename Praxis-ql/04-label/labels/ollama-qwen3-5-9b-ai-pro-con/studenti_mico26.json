@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_mico26.md",
+  "source_name": "studenti_mico26.md",
+  "title": "Risposta mico26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "mico26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:31.402100+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Uno dei più grandi vantaggi è che è possibile velocizzare dei compiti che richiederebbero tanto tempo. Lo svantaggio è che l'uso della I. A. potrebbe portarci a non sviluppare determinate competenze di studio",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare dei compiti",
+          "reason": "Il partecipante evidenzia la capacità di accelerare l'esecuzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non sviluppare determinate competenze di studio",
+          "reason": "Il partecipante segnala il rischio di non acquisire competenze fondamentali a causa dell'uso dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e uno svantaggio (mancanza di sviluppo competenze)."
+    }
+  ]
+}

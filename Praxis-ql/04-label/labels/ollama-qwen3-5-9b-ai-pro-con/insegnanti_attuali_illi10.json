@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi10.md",
+  "source_name": "insegnanti_attuali_illi10.md",
+  "title": "Risposta illi10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "illi10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:38.348577+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizzazione nell'acquisizione delle informazioni, nel reperimento dati Contro: riduzione del ricorso alle proprie risorse personali, rinuncia all'approfondimento individuale, passa il messaggio del tutto e subito, della liceità a surrogare il proprio operato. Rischio dell'omogeneita' generalizzata e della similarità forzata per docenti e discenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzazione nell'acquisizione delle informazioni, nel reperimento dati",
+          "reason": "Il partecipante evidenzia il vantaggio della rapidità nel trovare e apprendere informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "riduzione del ricorso alle proprie risorse personali, rinuncia all'approfondimento individuale",
+          "reason": "Il partecipante segnala il rischio di non utilizzare più le proprie capacità cognitive e di non approfondire."
+        },
+        {
+          "category": "standardizzazione",
+          "evidence": "passa il messaggio del tutto e subito, della liceità a surrogare il proprio operato",
+          "reason": "Il partecipante critica la tendenza a fornire risposte immediate senza elaborazione e la sostituzione del lavoro umano."
+        },
+        {
+          "category": "standardizzazione",
+          "evidence": "Rischio dell'omogeneita' generalizzata e della similarità forzata per docenti e discenti",
+          "reason": "Il partecipante indica il pericolo di uniformità e mancanza di diversità tra studenti e insegnanti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio principale e tre rischi distinti."
+    }
+  ]
+}

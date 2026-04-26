@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_amor11.md",
+  "source_name": "insegnanti_attuali_amor11.md",
+  "title": "Risposta Amor11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Amor11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:41:25.456747+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Mappe concettuali",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "",
+      "confidence": 0.0,
+      "reason": "La risposta 'Mappe concettuali' non descrive una pratica di utilizzo dell'IA per la personalizzazione, ma solo un prodotto didattico generico."
+    }
+  ]
+}

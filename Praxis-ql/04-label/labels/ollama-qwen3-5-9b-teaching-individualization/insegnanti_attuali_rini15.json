@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rini15.md",
+  "source_name": "insegnanti_attuali_rini15.md",
+  "title": "Risposta rini15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rini15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:26.039253+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo di proporre qualche esercizio specifico utilizzando delle direttive che do io",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "chiedo di proporre qualche esercizio specifico",
+      "confidence": 0.95,
+      "reason": "L'uso di direttive per generare esercizi specifici indica una strategia di differenziazione dei percorsi di apprendimento."
+    }
+  ]
+}

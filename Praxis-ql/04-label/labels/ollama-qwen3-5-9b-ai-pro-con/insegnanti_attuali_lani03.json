@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lani03.md",
+  "source_name": "insegnanti_attuali_lani03.md",
+  "title": "Risposta lani03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "lani03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:22.555294+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Stando in classe, ho notato che spesso gli studenti hanno trovato nell'IA non tanto un \"supporto per\" quanto un modo per sottrarsi da alcune attività (ricerche online, sintesi di testi, produzione di testi ecc.). Tra i possibili contro che vedo c'è la mancanza di motivazione. Tra i pro: la possibilità di usare l'AI, in una fase posteriore, per dare una forma a un testo prodotto in precedenza. Infine credo possa essere utile per l'insegnante in fase di valutazione.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "dare una forma a un testo prodotto in precedenza",
+          "reason": "L'IA viene utilizzata per migliorare o strutturare testi già prodotti."
+        },
+        {
+          "category": "feedback_valutazione",
+          "evidence": "utile per l'insegnante in fase di valutazione",
+          "reason": "L'IA è considerata uno strumento di supporto per le attività di valutazione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "modo per sottrarsi da alcune attività (ricerche online, sintesi di testi, produzione di testi ecc.)",
+          "reason": "Gli studenti usano l'IA per evitare di svolgere compiti cognitivi come la ricerca o la sintesi."
+        },
+        {
+          "category": "altro",
+          "evidence": "Tra i possibili contro che vedo c'è la mancanza di motivazione",
+          "reason": "L'uso dell'IA è associato a una diminuzione della motivazione degli studenti."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia vantaggi operativi (valutazione, revisione testi) sia svantaggi comportamentali (sottrazione da attività, mancanza di motivazione)."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ossi15.md",
+  "source_name": "studenti_ossi15.md",
+  "title": "Risposta ossi15",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ossi15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:33.904197+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "il contro -> che può sostituire  il cervello umano  pro -> ottimizza il tempo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "ottimizza il tempo",
+          "reason": "Il partecipante indica che l'IA ottimizza il tempo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "che può sostituire il cervello umano",
+          "reason": "Il partecipante esprime il rischio che l'IA sostituisca le funzioni cognitive umane."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_00004m.md",
+  "source_name": "insegnanti_futuri_00004m.md",
+  "title": "Risposta 00004M",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "00004M",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:44:00.614630+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Attraverso le mappe concettuali",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Attraverso le mappe concettuali",
+      "confidence": 0.0,
+      "reason": "La risposta non descrive una pratica di personalizzazione ma solo uno strumento generico (mappe concettuali) senza specificare come vengano adattati contenuti, percorsi o interessi per eccellenza cognitiva."
+    }
+  ]
+}

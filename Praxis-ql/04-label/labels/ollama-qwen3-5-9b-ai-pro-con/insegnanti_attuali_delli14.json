@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_delli14.md",
+  "source_name": "insegnanti_attuali_delli14.md",
+  "title": "Risposta Delli14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Delli14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:16.582965+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro; veloce, idee nuove  Contro: gli studenti ci si affidano troppo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "idee nuove",
+          "reason": "Il partecipante cita l'apporto di nuove idee come vantaggio."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "veloce",
+          "reason": "Il partecipante indica la rapidità come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "gli studenti ci si affidano troppo",
+          "reason": "Il partecipante segnala un eccessivo affidamento degli studenti all'IA."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

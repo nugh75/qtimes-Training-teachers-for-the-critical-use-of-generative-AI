@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anta05.md",
+  "source_name": "insegnanti_attuali_anta05.md",
+  "title": "Risposta anta05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anta05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:56.031539+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Il pro potrebbe essere utile per aumentare le angolazioni da cui guardare una data situazione, sostegno e supporto nell'analizzare una situazione. il contro appiattimento della fantasia e trovare facili scorciatoie",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "utile per aumentare le angolazioni da cui guardare una data situazione",
+          "reason": "Il partecipante indica che l'IA offre prospettive multiple per analizzare una situazione."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "sostegno e supporto nell'analizzare una situazione",
+          "reason": "Il partecipante evidenzia il ruolo di supporto dell'IA nell'analisi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "appiattimento della fantasia",
+          "reason": "Il partecipante segnala che l'IA riduce la fantasia."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "trovare facili scorciatoie",
+          "reason": "Il partecipante indica che l'IA porta a cercare scorciatoie invece di impegnarsi."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (supporto/angolazioni) e un contro (appiattimento/facili scorciatoie)."
+    }
+  ]
+}

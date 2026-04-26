@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_edko12.md",
+  "source_name": "studenti_edko12.md",
+  "title": "Risposta edko12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "edko12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:40.472762+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "non c'è sforzo, non c'è ricerca, non c'è \"perdita di tempo\" e di conseguenza non c'è memorizzazione",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non c'è sforzo, non c'è ricerca, non c'è 'perdita di tempo' e di conseguenza non c'è memorizzazione",
+          "reason": "Il partecipante evidenzia l'assenza di sforzo e ricerca, portando a una mancanza di memorizzazione."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esclusivamente aspetti negativi legati all'assenza di sforzo cognitivo e di memorizzazione."
+    }
+  ]
+}

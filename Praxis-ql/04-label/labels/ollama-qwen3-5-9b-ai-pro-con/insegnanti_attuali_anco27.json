@@ -1,0 +1,43 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anco27.md",
+  "source_name": "insegnanti_attuali_anco27.md",
+  "title": "Risposta anco27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "anco27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:50.808660+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: Un enorme risparmio di tempo ed energie, spendibili per altri strumenti didattici. Creazione di schemi e lavori di supporto per ogni aspetto della vita scolastica, prima difficili da implementare per mancanza di tempo. Facilitazione nell'affrontare la burocrazia.",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Un enorme risparmio di tempo ed energie",
+          "reason": "Il partecipante evidenzia il vantaggio del risparmio temporale."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "Creazione di schemi e lavori di supporto",
+          "reason": "Il partecipante cita la facilitazione nella creazione di materiali didattici."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "Facilitazione nell'affrontare la burocrazia",
+          "reason": "Il partecipante indica un vantaggio nella gestione amministrativa."
+        }
+      ],
+      "cons": [],
+      "pro_count": 3,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esclusivamente benefici operativi e organizzativi."
+    }
+  ]
+}

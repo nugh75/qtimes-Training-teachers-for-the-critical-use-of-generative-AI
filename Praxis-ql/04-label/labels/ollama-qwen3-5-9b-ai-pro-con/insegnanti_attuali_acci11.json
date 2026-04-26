@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_acci11.md",
+  "source_name": "insegnanti_attuali_acci11.md",
+  "title": "Risposta acci11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "acci11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:35.200397+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "rende più attuale la lezione",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "rende più attuale la lezione",
+          "reason": "Il partecipante indica che l'IA rende il contenuto didattico più attuale, migliorando l'interesse."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un beneficio percepito."
+    }
+  ]
+}

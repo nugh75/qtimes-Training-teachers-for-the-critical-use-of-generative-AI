@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_orlandi28.md",
+  "source_name": "insegnanti_attuali_orlandi28.md",
+  "title": "Risposta Orlandi28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Orlandi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:40.733923+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono molti, i contro sono che alcune competenze non servono più e vanno riadattate. Serviranno di più competenze trasversali per la gestione dei processi.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "I pro sono molti",
+          "reason": "Il partecipante elenca genericamente i vantaggi senza specificarne uno in particolare, ma ne conferma l'esistenza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "alcune competenze non servono più e vanno riadattate",
+          "reason": "Il partecipante indica che l'IA riduce la necessità di competenze tradizionali, implicando una diminuzione di aspetti relazionali o cognitivi specifici."
+        },
+        {
+          "category": "standardizzazione",
+          "evidence": "alcune competenze non servono più",
+          "reason": "La scomparsa di competenze specifiche suggerisce un approccio standardizzato o automatizzato che omogeneizza le abilità richieste."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.6,
+      "reason": "La risposta menziona genericamente i pro e identifica un rischio specifico legato all'obsolescenza di competenze."
+    }
+  ]
+}

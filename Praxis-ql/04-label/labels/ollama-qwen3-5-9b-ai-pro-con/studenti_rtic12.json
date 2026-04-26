@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_rtic12.md",
+  "source_name": "studenti_rtic12.md",
+  "title": "Risposta rtic12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "rtic12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:16.135459+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro è che ti aiuta il contro è che poi magari senza non riesci a fare determinate cose",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "ti aiuta",
+          "reason": "Il partecipante indica che l'IA fornisce assistenza nello studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "senza non riesci a fare determinate cose",
+          "reason": "Il partecipante segnala che l'uso dell'IA crea una dipendenza tale da impedire l'esecuzione di compiti senza di essa."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('ti aiuta') e uno svantaggio ('senza non riesci a fare determinate cose')."
+    }
+  ]
+}

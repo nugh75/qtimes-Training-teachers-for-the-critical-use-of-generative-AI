@@ -1,0 +1,59 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_etta30.md",
+  "source_name": "studenti_etta30.md",
+  "title": "Risposta etta30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "etta30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:26.326415+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: tempo ridotto, schemi semplificati, riassunti dettagliati , comprensione di temi complessi contro: diventarne dipendenti e non essere in grado di svolgere normali attività senza l’uso di IA, soprattutto se in età troppo precoce",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "tempo ridotto",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "schemi semplificati",
+          "reason": "L'IA facilita la creazione di schemi di studio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "riassunti dettagliati",
+          "reason": "L'IA aiuta a fornire riassunti che migliorano la comprensione."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "comprensione di temi complessi",
+          "reason": "L'IA supporta la comprensione di argomenti difficili."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "diventarne dipendenti",
+          "reason": "Il partecipante evidenzia il rischio di dipendenza dall'IA."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non essere in grado di svolgere normali attività senza l'uso di IA",
+          "reason": "L'uso eccessivo porta all'incapacità di svolgere attività cognitive autonome."
+        }
+      ],
+      "pro_count": 4,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia i benefici operativi e cognitivi sia i rischi legati alla dipendenza e alla perdita di autonomia."
+    }
+  ]
+}

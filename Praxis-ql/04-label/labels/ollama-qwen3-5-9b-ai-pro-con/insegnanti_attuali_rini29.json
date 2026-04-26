@@ -1,0 +1,59 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rini29.md",
+  "source_name": "insegnanti_attuali_rini29.md",
+  "title": "Risposta RINI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "RINI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:48.320597+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: VELOCIZZARE IL LAVORO CONTRO: DIVENTARNE DIPENDENTI, AFFIDARSI TROPPO AGLI STRUMENTI DELL'AI E  RIDURRE LA CAPACITA' DI APPRENDERE E FORMARE UN PENSIERO CRITICO; FATICARE A TROVARE GIUSTE SOLUZIONI A PROBLEMI ED ESSRE AUTONOMI. IL RISCHIO MOLTO ELEVATO  E' QUELLO DI NON DIVENTARE COMPETENTI.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "VELOCIZZARE IL LAVORO",
+          "reason": "Il partecipante cita la velocizzazione del lavoro come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "DIVENTARNE DIPENDENTI",
+          "reason": "Il partecipante evidenzia il rischio di dipendenza dagli strumenti."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "AFFIDARSI TROPPO AGLI STRUMENTI DELL'AI",
+          "reason": "L'eccessivo affidamento agli strumenti riduce l'interazione umana."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "RIDURRE LA CAPACITA' DI APPRENDERE E FORMARE UN PENSIERO CRITICO",
+          "reason": "Si segnala la perdita della capacità di pensiero critico e di apprendimento."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "FATICARE A TROVARE GIUSTE SOLUZIONI A PROBLEMI ED ESSRE AUTONOMI",
+          "reason": "Viene indicata la difficoltà a trovare soluzioni autonome."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "NON DIVENTARE COMPETENTI",
+          "reason": "Il rischio elevato è quello di non sviluppare competenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 5,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (velocizzazione) e diversi contro (dipendenza, riduzione pensiero critico, perdita di autonomia)."
+    }
+  ]
+}

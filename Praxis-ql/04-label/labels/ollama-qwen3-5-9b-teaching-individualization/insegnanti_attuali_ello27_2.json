@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ello27_2.md",
+  "source_name": "insegnanti_attuali_ello27_2.md",
+  "title": "Risposta ello27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ello27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:00.923012+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creazione di mappe concettuali",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Creazione di mappe concettuali",
+      "confidence": 0.0,
+      "reason": "La risposta descrive un prodotto (mappe concettuali) ma non esplicita una strategia didattica di individualizzazione (es. differenziazione di livelli, scaffolding, recupero) né il target specifico, rendendo impossibile inferire l'uso del..."
+    }
+  ]
+}

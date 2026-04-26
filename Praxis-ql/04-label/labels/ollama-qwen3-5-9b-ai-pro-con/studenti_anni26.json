@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_anni26.md",
+  "source_name": "studenti_anni26.md",
+  "title": "Risposta Anni26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Anni26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:29.155870+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che mi aiuta nei compiti e i contro che non mi applico come dovrei",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "mi aiuta nei compiti",
+          "reason": "Il partecipante indica che l'IA assiste nella risoluzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non mi applico come dovrei",
+          "reason": "Il partecipante segnala una riduzione dell'impegno personale dovuta all'uso dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('aiuta nei compiti') e uno svantaggio ('non mi applico come dovrei')."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rrin08.md",
+  "source_name": "insegnanti_attuali_rrin08.md",
+  "title": "Risposta rrin08",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rrin08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:30.846225+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Produco contenuti individualizzati sulla base delle delle preferenze di apprendimento",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Produco contenuti individualizzati sulla base delle delle preferenze di apprendimento",
+      "confidence": 0.85,
+      "reason": "La risposta descrive la creazione di materiali differenziati in base alle preferenze, indicando una strategia di individualizzazione per raggiungere competenze comuni."
+    }
+  ]
+}

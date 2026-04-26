@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_otti12.md",
+  "source_name": "studenti_otti12.md",
+  "title": "Risposta otti12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "otti12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:38.747944+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro: disponibilità continua, i contro:mancanza di competenze",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "disponibilità continua",
+          "reason": "Il partecipante cita la disponibilità costante come vantaggio per l'organizzazione dello studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "mancanza di competenze",
+          "reason": "Il partecipante segnala la carenza di competenze come svantaggio dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uono16.md",
+  "source_name": "insegnanti_attuali_uono16.md",
+  "title": "Risposta UONO16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "UONO16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:15.817980+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro tanti. Contro tanti ma come tutte le tecnologie. Vanno gestite con consapevolezze e razionalità per essere comunque sempre noi ad indirizzarle.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "altro",
+          "evidence": "Pro tanti",
+          "reason": "Il partecipante afferma genericamente che ci sono molti vantaggi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "altro",
+          "evidence": "Contro tanti",
+          "reason": "Il partecipante afferma genericamente che ci sono molti svantaggi."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta elenca genericamente pro e contro senza specificare dettagli, ma ne conferma l'esistenza."
+    }
+  ]
+}

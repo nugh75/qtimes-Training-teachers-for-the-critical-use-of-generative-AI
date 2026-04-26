@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ucci14.md",
+  "source_name": "studenti_ucci14.md",
+  "title": "Risposta UCCI14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "UCCI14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:54.548376+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Mi pongo la questione se possa alterare la qualità personale dello studio, che possa facilitarne troppo la realizzazione di elaborati e tesi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "facilitarne troppo la realizzazione di elaborati e tesi",
+          "reason": "Il partecipante indica che l'IA facilita la realizzazione di lavori accademici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "alterare la qualità personale dello studio",
+          "reason": "Il partecipante teme che l'IA possa compromettere la qualità del processo di studio personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita un vantaggio nella facilitazione della produzione e un rischio nella qualità dello studio."
+    }
+  ]
+}

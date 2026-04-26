@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_agna09.md",
+  "source_name": "insegnanti_attuali_agna09.md",
+  "title": "Risposta agna09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "agna09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:18.589301+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Utilizzo l' intelligenza artificiale per creare testi semplificati o tradotti, schede didattiche differenziate, mappe concettuali e test a risposta multipla con supporti visivi.",
+      "practice_present": true,
+      "strategies": [
+        "semplificazione",
+        "esercizi_differenziati",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creare testi semplificati o tradotti, schede didattiche differenziate",
+      "confidence": 0.95,
+      "reason": "L'uso di testi semplificati e schede differenziate mira a garantire il raggiungimento delle competenze fondamentali attraverso la diversificazione dei materiali."
+    }
+  ]
+}

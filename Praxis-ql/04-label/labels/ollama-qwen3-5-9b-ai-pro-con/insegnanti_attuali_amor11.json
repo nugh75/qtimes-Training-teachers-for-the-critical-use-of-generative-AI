@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_amor11.md",
+  "source_name": "insegnanti_attuali_amor11.md",
+  "title": "Risposta Amor11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Amor11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:47.522014+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Personalizzazione dell’apprendimento come pro, mentre contro passività nello studio, gli studenti tendono a copiare senza capire",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "Personalizzazione dell'apprendimento",
+          "reason": "Il partecipante cita la capacità di adattare l'insegnamento alle esigenze individuali come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "passività nello studio",
+          "reason": "Il partecipante evidenzia come l'IA possa indurre gli studenti a non impegnarsi attivamente."
+        },
+        {
+          "category": "plagio_autorialita",
+          "evidence": "gli studenti tendono a copiare senza capire",
+          "reason": "Il partecipante segnala il rischio di plagio e mancanza di comprensione profonda."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e due contro specifici."
+    }
+  ]
+}

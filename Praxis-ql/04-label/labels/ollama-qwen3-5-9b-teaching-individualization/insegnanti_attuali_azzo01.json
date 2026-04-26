@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_azzo01.md",
+  "source_name": "insegnanti_attuali_azzo01.md",
+  "title": "Risposta AZZO01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "AZZO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:36.211702+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER LA CREAZIONE DI MAPPE CON CONCETTI-CHIAV E IMMAGINI A SUPPORTO",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "PER LA CREAZIONE DI MAPPE CON CONCETTI-CHIAV E IMMAGINI A SUPPORTO",
+      "confidence": 0.85,
+      "reason": "La creazione di mappe con concetti-chiave e immagini a supporto è una strategia di scaffolding e semplificazione per facilitare l'accesso ai contenuti."
+    }
+  ]
+}

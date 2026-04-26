@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_also16.md",
+  "source_name": "insegnanti_futuri_also16.md",
+  "title": "Risposta ALso16",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ALso16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:01.212681+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Io credo che l'intelligenza artificiale sia utile per invogliare i ragazzi a studiare e a seguire la lezione,un contro è che possano utilizzarla troppo e quindi non fare più nulla da soli",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "utile per invogliare i ragazzi a studiare e a seguire la lezione",
+          "reason": "Il partecipante cita l'IA come strumento per aumentare la motivazione e l'attenzione degli studenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "possano utilizzarla troppo e quindi non fare più nulla da soli",
+          "reason": "Il partecipante evidenzia il rischio di un uso eccessivo che porta all'abbandono dell'autonomia."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta esplicita chiaramente un beneficio (coinvolgimento) e un rischio (dipendenza)."
+    }
+  ]
+}

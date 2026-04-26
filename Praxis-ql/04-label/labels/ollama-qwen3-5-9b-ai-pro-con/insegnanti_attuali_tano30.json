@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tano30.md",
+  "source_name": "insegnanti_attuali_tano30.md",
+  "title": "Risposta tano30",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tano30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:34.994668+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un vantaggio è che consentirebbe di creare percorsi di apprendimento ad hoc, mentre uno svantaggio è che  inciderebbe negativamente sulla creatività",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "creare percorsi di apprendimento ad hoc",
+          "reason": "Il partecipante cita la capacità di adattare i percorsi di apprendimento alle esigenze specifiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "inciderebbe negativamente sulla creatività",
+          "reason": "Il partecipante segnala un impatto negativo sulla creatività."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente un vantaggio e uno svantaggio."
+    }
+  ]
+}

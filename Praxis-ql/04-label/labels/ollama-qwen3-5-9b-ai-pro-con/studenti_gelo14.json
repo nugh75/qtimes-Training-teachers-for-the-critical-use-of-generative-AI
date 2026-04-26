@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_gelo14.md",
+  "source_name": "studenti_gelo14.md",
+  "title": "Risposta gelo14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "gelo14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:44.902259+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono il tempo che si risparmia e la semplificazione, i contro una riduzione di attenzione , di impegno ed una minor voglia di fare e imparare in quanto c'è qualcuno che lo fa al posto tuo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "tempo che si risparmia",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "semplificazione",
+          "reason": "Il partecipante indica la semplificazione come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "c'è qualcuno che lo fa al posto tuo",
+          "reason": "Il partecipante evidenzia la tendenza a delegare il lavoro ad altri."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "riduzione di attenzione",
+          "reason": "Il partecipante segnala una diminuzione dell'attenzione."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "minor voglia di fare e imparare",
+          "reason": "Il partecipante nota una diminuzione della motivazione a impegnarsi."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

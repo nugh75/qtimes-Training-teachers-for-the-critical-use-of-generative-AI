@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_otta06.md",
+  "source_name": "insegnanti_attuali_otta06.md",
+  "title": "Risposta otta06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "otta06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:47.483944+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "CONTRO: I ragazzi tendono a fidarsi di tutto quello che leggono; PRO: mi velocizza e aiuta nei momenti di stanchezza.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "mi velocizza",
+          "reason": "Il partecipante indica che l'IA accelera il lavoro."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta nei momenti di stanchezza",
+          "reason": "L'IA viene vista come un supporto utile quando si è stanchi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "I ragazzi tendono a fidarsi di tutto quello che leggono",
+          "reason": "Esiste il rischio che gli studenti accettino informazioni errate senza verificarle."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio operativo e un rischio legato alla fiducia acritica."
+    }
+  ]
+}

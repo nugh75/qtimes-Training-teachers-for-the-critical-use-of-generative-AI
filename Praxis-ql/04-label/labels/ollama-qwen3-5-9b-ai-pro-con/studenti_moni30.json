@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_moni30.md",
+  "source_name": "studenti_moni30.md",
+  "title": "Risposta Moni30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Moni30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:36.872721+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Contro facilità pro aiuti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuti",
+          "reason": "Il partecipante cita l'aspetto di aiuto come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "facilità",
+          "reason": "Il partecipante suggerisce che la facilità d'uso possa portare a una eccessiva dipendenza o delega."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta è molto sintetica ma contiene sia un termine positivo ('aiuti') sia uno negativo ('facilità') che implica un rischio."
+    }
+  ]
+}

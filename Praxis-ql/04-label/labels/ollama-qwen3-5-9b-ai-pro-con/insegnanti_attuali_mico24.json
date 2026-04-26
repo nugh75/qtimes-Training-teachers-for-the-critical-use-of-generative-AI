@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_mico24.md",
+  "source_name": "insegnanti_attuali_mico24.md",
+  "title": "Risposta MICO24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "MICO24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:46.842174+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I \"pro\" potrebbero essere che si potrebbero avere più informazioni e che si potrebbero ripetere più volte anche nello stesso modo. I \"contro\" che verrebbe meno il rapporto umano tra docente e alunno.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "si potrebbero avere più informazioni",
+          "reason": "Il partecipante indica che l'IA permette di accedere a una maggiore quantità di informazioni."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "si potrebbero ripetere più volte anche nello stesso modo",
+          "reason": "Il partecipante suggerisce la possibilità di generare o ripetere contenuti in modo efficiente."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "verrebbe meno il rapporto umano tra docente e alunno",
+          "reason": "Il partecipante segnala il rischio di perdita del contatto umano fondamentale nell'insegnamento."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia dei vantaggi (pro) sia dei svantaggi (contro)."
+    }
+  ]
+}

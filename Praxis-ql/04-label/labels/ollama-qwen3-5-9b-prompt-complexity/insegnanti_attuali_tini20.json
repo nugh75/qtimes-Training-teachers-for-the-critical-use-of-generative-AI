@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tini20.md",
+  "source_name": "insegnanti_attuali_tini20.md",
+  "title": "Risposta Tini20",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Tini20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:13:12.737250+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "alta": 1
+  },
+  "specificity_counts": {
+    "alta": 1
+  },
+  "prompt_type_counts": {
+    "altro": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 47.0,
+  "avg_confidence": 0.0,
+  "items": [
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ciao chat devo creare 3 file di compiti per la mia classe. Ho creato già 20 domande (e le inserisco) puoi suggerirmi alternative sempre sullo stesso argomento con lo stesso livello di difficoltà? (E inserisco anche il testo pdf) alla fine verifico/modifico e integro le domande",
+      "metrics": {
+        "char_count": 277,
+        "word_count": 47,
+        "sentence_count": 3,
+        "question_mark_count": 1,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "alta",
+      "specificity_level": "alta",
+      "prompt_type": "altro",
+      "strategies": [],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

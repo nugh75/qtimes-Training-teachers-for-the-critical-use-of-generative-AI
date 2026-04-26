@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PRAXIS Individualizzazione IA</title>
+  <style>
+    :root { --bg:#f6f8fb; --panel:#fff; --ink:#172033; --muted:#5b6678; --border:#dce3ee; --yes:#0f766e; --no:#64748b; --accent:#0f766e; --shadow:0 12px 28px rgba(23,32,51,.08); }
+    *{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Tahoma,Verdana,sans-serif;color:var(--ink);background:linear-gradient(180deg,#fbfdff 0%,var(--bg) 100%)}
+    .page{max-width:1280px;margin:0 auto;padding:20px;display:grid;gap:14px}.panel{background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);padding:14px}
+    h1{margin:0 0 6px;font-size:1.55rem} h2{margin:0 0 10px;font-size:1.05rem} p{margin:6px 0;color:var(--muted);line-height:1.45}.nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}.nav a{color:#1d70d6;text-decoration:none;font-weight:650}
+    .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.kpi{border:1px solid var(--border);border-radius:10px;padding:10px;background:#fbfdff}.kpi .n{font-size:1.3rem;font-weight:750}.kpi .l{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-top:4px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}.table-wrap{overflow-x:auto}.table{width:100%;border-collapse:collapse;font-size:.9rem}.table th,.table td{border-bottom:1px solid #e5ebf3;padding:8px 6px;text-align:left;vertical-align:top}.table th{color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.3px}
+    .examples{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}.example{border:1px solid var(--border);border-radius:10px;background:#fbfdff;padding:10px;display:grid;gap:6px}.badge{display:inline-flex;width:fit-content;padding:3px 7px;border-radius:999px;font-size:.76rem;font-weight:700;background:#dff8ef;color:#115e50}.answer{font-size:.92rem;line-height:1.35}.meta{color:var(--muted);font-size:.82rem}
+    @media(max-width:980px){.row{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

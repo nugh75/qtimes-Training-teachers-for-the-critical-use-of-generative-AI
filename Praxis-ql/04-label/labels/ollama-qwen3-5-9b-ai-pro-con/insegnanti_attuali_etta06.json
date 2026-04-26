@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etta06.md",
+  "source_name": "insegnanti_attuali_etta06.md",
+  "title": "Risposta Etta06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Etta06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:26.521510+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: accesso a un notevole bacino di informazioni. Contro: output spesso errati",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "accesso a un notevole bacino di informazioni",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di fornire un vasto accesso alle informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "output spesso errati",
+          "reason": "Il partecipante segnala la frequente presenza di errori negli output generati dall'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

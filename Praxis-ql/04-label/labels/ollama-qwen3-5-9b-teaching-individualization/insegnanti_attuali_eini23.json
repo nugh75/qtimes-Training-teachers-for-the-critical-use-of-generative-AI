@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_eini23.md",
+  "source_name": "insegnanti_attuali_eini23.md",
+  "title": "Risposta EINI23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "EINI23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:54.997655+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando esercizi che vadano incontro alle peculiarità individuali",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati",
+        "livelli_difficolta"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creando esercizi che vadano incontro alle peculiarità individuali",
+      "confidence": 0.95,
+      "reason": "La risposta descrive la creazione di esercizi specifici per le peculiarità individuali, indicando una differenziazione dei percorsi."
+    }
+  ]
+}

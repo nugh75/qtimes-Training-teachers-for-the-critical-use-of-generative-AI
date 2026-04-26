@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_vini18.md",
+  "source_name": "insegnanti_attuali_vini18.md",
+  "title": "Risposta vini18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "vini18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:34.105045+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 6,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Negli esercizi più complessi mi capita sempre di dover correggere l’applicazione di alcune formule (es: calcolo sul diametro e sul quantitativo di tubi da utilizzare in una distillazione con raffreddamento in controcorrente)",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "mi capita sempre di dover correggere l'applicazione di alcune formule",
+          "reason": "Il partecipante evidenzia la necessità di correggere errori nelle formule generate dall'IA."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta cita esclusivamente un rischio legato all'affidabilità e alla necessità di correzione."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_alli07.md",
+  "source_name": "insegnanti_attuali_alli07.md",
+  "title": "Risposta Alli07",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Alli07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:20.680018+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Mi faccio consigliare nuove attività che modifico e personalizzo a mia volta",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "Mi faccio consigliare nuove attività",
+      "confidence": 0.85,
+      "reason": "L'insegnante utilizza l'IA per ricevere suggerimenti su attività da modificare e personalizzare, indicando una strategia di differenziazione dei percorsi."
+    }
+  ]
+}

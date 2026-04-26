@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_iano06.md",
+  "source_name": "insegnanti_futuri_iano06.md",
+  "title": "Risposta iano06",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "iano06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:54.809757+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: penso sia utile per dare dei suggerimenti, per espandere la propria rete di conoscenza riguardo un argomento Contro: diminuzione dell'originalità e del lavoro di ricerca personale dello studente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "utile per dare dei suggerimenti, per espandere la propria rete di conoscenza riguardo un argomento",
+          "reason": "Il partecipante evidenzia l'utilità dell'IA nell'espandere la conoscenza e fornire suggerimenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "diminuzione dell'originalità",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce l'originalità."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "diminuzione del lavoro di ricerca personale dello studente",
+          "reason": "Il partecipante indica una riduzione del lavoro di ricerca personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (espansione conoscenza) e due contro (riduzione originalità e ricerca personale)."
+    }
+  ]
+}

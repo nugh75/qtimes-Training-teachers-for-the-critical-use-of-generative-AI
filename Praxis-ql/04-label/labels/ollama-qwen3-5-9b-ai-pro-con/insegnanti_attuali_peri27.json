@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_peri27.md",
+  "source_name": "insegnanti_attuali_peri27.md",
+  "title": "Risposta peri27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "peri27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:18.044508+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro aiuterebbe a creare nuove strategie nella didattica per l'infanzia, i contro fare attenzione ad non abusare",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "aiuterebbe a creare nuove strategie nella didattica",
+          "reason": "Il partecipante indica che l'IA favorisce l'innovazione nelle strategie didattiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "fare attenzione ad non abusare",
+          "reason": "Il partecipante avvisa del rischio di un uso eccessivo o abusivo dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (nuove strategie) e un rischio (abuso)."
+    }
+  ]
+}

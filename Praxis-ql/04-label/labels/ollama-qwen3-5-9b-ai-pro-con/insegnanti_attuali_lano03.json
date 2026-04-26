@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lano03.md",
+  "source_name": "insegnanti_attuali_lano03.md",
+  "title": "Risposta lano03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "lano03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:26.399818+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro è che potrebbe davvero ampliare e arricchire l'educazione, i contro è che i ragazzi potrebbero davvero perdere la capacità di pensare e di usare il loro modo di esprimersi",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "potrebbe davvero ampliare e arricchire l'educazione",
+          "reason": "Il partecipante evidenzia il potenziale di espansione e arricchimento dell'esperienza educativa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "i ragazzi potrebbero davvero perdere la capacità di pensare",
+          "reason": "Il partecipante segnala il rischio di perdita delle capacità cognitive autonome."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "e di usare il loro modo di esprimersi",
+          "reason": "Il partecipante indica il rischio di perdita della capacità espressiva personale."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un beneficio ('ampliare e arricchire') e due rischi distinti ('perdere la capacità di pensare' e 'usare il loro modo di esprimersi')."
+    }
+  ]
+}

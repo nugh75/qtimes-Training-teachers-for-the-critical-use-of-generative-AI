@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_capu15.md",
+  "source_name": "insegnanti_attuali_capu15.md",
+  "title": "Risposta capu15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "capu15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:41.672728+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Gli alunni durante la lezione laboratoriale posso chiedere all'IA chiarimenti o esempi di codice dia algoritmi complessi che  poi devono comprendere per integrarli nelle attività proposte.",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato",
+        "feedback_mirato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "chiarimenti o esempi di codice",
+      "confidence": 0.85,
+      "reason": "L'uso dell'IA per fornire chiarimenti ed esempi su algoritmi complessi funge da supporto (scaffolding) per aiutare gli studenti a comprendere contenuti difficili, individualizzando il supporto in base alle difficoltà specifiche."
+    }
+  ]
+}

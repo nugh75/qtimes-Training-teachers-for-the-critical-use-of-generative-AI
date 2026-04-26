@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_glio26.md",
+  "source_name": "studenti_glio26.md",
+  "title": "Risposta Glio26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Glio26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:03.292992+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Ritengo che sia utile affidarsi all’intelligenza artificiale sé questa viene adottata con criterio a fini informativi, come se fosse una grande enciclopedia. L’aspetto negativo risiede nell’uso eccessivo che di essa si può fare, quando ad esempio si delega all’IA il proprio lavoro, escludendo a priori un esercizio e abilità personali.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "utile affidarsi all'intelligenza artificiale ... a fini informativi, come se fosse una grande enciclopedia",
+          "reason": "Il partecipante definisce l'IA come uno strumento utile per l'informazione, paragonandola a un'enciclopedia."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "uso eccessivo che di essa si può fare, quando ad esempio si delega all'IA il proprio lavoro",
+          "reason": "Il partecipante evidenzia il rischio di delegare completamente il lavoro all'IA, escludendo l'esercizio delle abilità personali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (uso informativo) e uno svantaggio (delega del lavoro)."
+    }
+  ]
+}

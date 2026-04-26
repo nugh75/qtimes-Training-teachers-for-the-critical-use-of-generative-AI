@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enza16.md",
+  "source_name": "insegnanti_attuali_enza16.md",
+  "title": "Risposta enza16",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enza16",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:04.514614+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilitazione di alcuni iter che vanno poi interpretati e anche la possibilità di avere un punto di vista diverso  Contro diminuzione del ragionamento e della creatività",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "facilitazione di alcuni iter",
+          "reason": "Il partecipante indica che l'IA facilita alcuni processi operativi."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "possibilità di avere un punto di vista diverso",
+          "reason": "Il partecipante evidenzia il vantaggio di acquisire prospettive alternative."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "diminuzione del ragionamento e della creatività",
+          "reason": "Il partecipante segnala un rischio per la creatività e il pensiero critico."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

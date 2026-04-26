@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_auro08.md",
+  "source_name": "studenti_auro08.md",
+  "title": "Risposta Auro08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Auro08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:56.351231+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: migliore apprendimento e risposte più rapide ai problemi  Contro: affidarsi troppo e non riuscire a sviluppare pensiero critico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risposte più rapide",
+          "reason": "Il partecipante cita la rapidità delle risposte come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "migliore apprendimento",
+          "reason": "Il partecipante indica un miglioramento dell'apprendimento come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "affidarsi troppo e non riuscire a sviluppare pensiero critico",
+          "reason": "Il partecipante evidenzia il rischio di dipendenza e perdita di capacità critica."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

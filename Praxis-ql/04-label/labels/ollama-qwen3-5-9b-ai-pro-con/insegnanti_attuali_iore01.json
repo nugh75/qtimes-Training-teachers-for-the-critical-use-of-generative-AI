@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iore01.md",
+  "source_name": "insegnanti_attuali_iore01.md",
+  "title": "Risposta iore01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iore01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:01.654544+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Un lato positivo può essere il minor tempo impiegato nella risoluzione di problemi/creazione di materiali. Un lato negativo è sicuramente il fatto di delegare all'IA il pensare, produrre, creare.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "minor tempo impiegato nella risoluzione di problemi/creazione di materiali",
+          "reason": "Il partecipante evidenzia il risparmio di tempo nella creazione di risorse didattiche."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "delegare all'IA il pensare, produrre, creare",
+          "reason": "Il partecipante segnala il rischio di affidare all'IA i processi di pensiero e creazione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (risparmio tempo/creazione) e uno svantaggio (delega del pensiero)."
+    }
+  ]
+}

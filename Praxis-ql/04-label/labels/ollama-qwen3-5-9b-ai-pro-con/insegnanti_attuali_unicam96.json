@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_unicam96.md",
+  "source_name": "insegnanti_attuali_unicam96.md",
+  "title": "Risposta Unicam96",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Unicam96",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:09.989344+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: semplifica il lavoro da svolgere. Contro: riduce notevolmente la preparazione poichè semplifica lo studio da svolgere.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "semplifica il lavoro da svolgere",
+          "reason": "Il partecipante indica che l'IA facilita e velocizza l'esecuzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "riduce notevolmente la preparazione poichè semplifica lo studio da svolgere",
+          "reason": "Il partecipante evidenzia il rischio di una diminuzione dell'impegno nello studio e della preparazione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('semplifica il lavoro') e uno svantaggio ('riduce notevolmente la preparazione')."
+    }
+  ]
+}

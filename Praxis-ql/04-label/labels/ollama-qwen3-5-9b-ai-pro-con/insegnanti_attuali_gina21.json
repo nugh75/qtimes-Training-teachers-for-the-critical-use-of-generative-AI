@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_gina21.md",
+  "source_name": "insegnanti_attuali_gina21.md",
+  "title": "Risposta Gina21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Gina21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:56.129490+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro sui contenuti didattici",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "Pro sui contenuti didattici",
+          "reason": "Il partecipante cita esplicitamente un vantaggio relativo ai contenuti."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona solo un aspetto positivo ('Pro sui contenuti didattici') senza citare contro."
+    }
+  ]
+}

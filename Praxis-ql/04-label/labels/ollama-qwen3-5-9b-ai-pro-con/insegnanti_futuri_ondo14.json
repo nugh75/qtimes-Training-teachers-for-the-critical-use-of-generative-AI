@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ondo14.md",
+  "source_name": "insegnanti_futuri_ondo14.md",
+  "title": "Risposta ondo14",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ondo14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:25.722965+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: può facilitare l’apprendimento in alcuni contesti; contro: si cade spesso in usi sbagliati (gli studenti possono chiedere di risolvere esercizi per casa e copiare i procedimenti )",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "può facilitare l'apprendimento",
+          "reason": "Il partecipante indica che l'IA può agevolare il processo di apprendimento in determinati contesti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "plagio_autorialita",
+          "evidence": "copiare i procedimenti",
+          "reason": "Il partecipante evidenzia il rischio che gli studenti utilizzino l'IA per copiare le soluzioni degli esercizi."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "chiedere di risolvere esercizi per casa",
+          "reason": "Il partecipante segnala il rischio di delegare il compito di risoluzione degli esercizi all'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio ('facilitare l'apprendimento') e due rischi distinti ('usi sbagliati', 'copiare', 'risolvere esercizi')."
+    }
+  ]
+}

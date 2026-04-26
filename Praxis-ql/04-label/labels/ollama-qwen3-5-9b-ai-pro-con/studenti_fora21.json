@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_fora21.md",
+  "source_name": "studenti_fora21.md",
+  "title": "Risposta Fora21",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Fora21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:33:39.379062+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Aiuta a fare domande",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "Aiuta a fare domande",
+          "reason": "Il partecipante indica che l'IA facilita la formulazione di domande, supportando la comprensione."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un beneficio dell'uso dell'IA."
+    }
+  ]
+}

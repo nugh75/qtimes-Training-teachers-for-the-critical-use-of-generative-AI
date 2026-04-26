@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_uovo24.md",
+  "source_name": "studenti_uovo24.md",
+  "title": "Risposta uovo24",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "uovo24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:05.566115+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: capacità di sintesi e spiegazione alternative di teorie e concetti - contro:sostituisce lo studio dai manuali",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "capacità di sintesi e spiegazione alternative di teorie e concetti",
+          "reason": "Il partecipante evidenzia il vantaggio di ricevere spiegazioni alternative e sintesi per comprendere meglio i concetti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituisce lo studio dai manuali",
+          "reason": "Il partecipante segnala il rischio che l'IA sostituisca l'attività di studio autonoma sui materiali di riferimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_itta09.md",
+  "source_name": "insegnanti_attuali_itta09.md",
+  "title": "Risposta ITTA09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ITTA09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:44.669615+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando contenuti adatti agli alunni",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "Creando contenuti adatti agli alunni",
+      "confidence": 0.95,
+      "reason": "La creazione di contenuti 'adatti' implica la diversificazione dei materiali in base alle esigenze degli studenti per raggiungere le competenze."
+    }
+  ]
+}

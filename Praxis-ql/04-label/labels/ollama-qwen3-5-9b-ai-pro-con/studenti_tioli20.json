@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tioli20.md",
+  "source_name": "studenti_tioli20.md",
+  "title": "Risposta tioli20",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tioli20",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:41.551045+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: velocizzare lo studio  contro: distrazione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare lo studio",
+          "reason": "Il partecipante indica che l'IA permette di accelerare il processo di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "altro",
+          "evidence": "distrazione",
+          "reason": "Il partecipante segnala che l'uso dell'IA può portare a distrazioni durante lo studio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (velocizzazione) e un contro (distrazione)."
+    }
+  ]
+}

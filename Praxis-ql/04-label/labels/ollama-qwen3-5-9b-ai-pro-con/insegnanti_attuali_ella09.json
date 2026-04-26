@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ella09.md",
+  "source_name": "insegnanti_attuali_ella09.md",
+  "title": "Risposta ELLA09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ELLA09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:32.790212+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono legati alla velocità nella elaborazione di materiali didattici utili e rispondenti alle singole necessità di docenti e studenti (test, letture, quiz, articoli...), i contro sono legati alla dipendenza generabile da certi strumenti che possono inibire la creatività e l'individuazione di soluzioni a cui si può arrivare senza l'uso di particolari strumenti digitali, ma che necessitano solo di un pò di buona volontà e un pò di tempo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocità nella elaborazione di materiali didattici utili",
+          "reason": "Il partecipante evidenzia la rapidità di creazione di risorse come test e letture."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza generabile da certi strumenti",
+          "reason": "Il partecipante segnala il rischio di dipendenza dagli strumenti digitali."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "possono inibire la creatività",
+          "reason": "Il partecipante afferma che l'uso degli strumenti può limitare la creatività."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi legati alla velocità che svantaggi legati alla dipendenza e alla creatività."
+    }
+  ]
+}

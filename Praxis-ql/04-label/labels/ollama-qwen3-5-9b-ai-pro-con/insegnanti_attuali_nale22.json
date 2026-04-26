@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nale22.md",
+  "source_name": "insegnanti_attuali_nale22.md",
+  "title": "Risposta NALE22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "NALE22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:53.491931+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Lo scarso impegno, scarsa capacità di analisi e senso critico",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "scarsa capacità di analisi e senso critico",
+          "reason": "Il partecipante evidenzia la perdita di capacità analitiche e critiche come svantaggio."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "scarso impegno",
+          "reason": "Il partecipante segnala una diminuzione dell'impegno come conseguenza negativa."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esclusivamente aspetti negativi (scarso impegno, scarsa capacità di analisi)."
+    }
+  ]
+}

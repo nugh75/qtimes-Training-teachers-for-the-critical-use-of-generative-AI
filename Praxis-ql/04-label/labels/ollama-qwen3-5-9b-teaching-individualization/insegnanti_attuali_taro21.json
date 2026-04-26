@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_taro21.md",
+  "source_name": "insegnanti_attuali_taro21.md",
+  "title": "Risposta Taro21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Taro21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:43.777231+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Chiedo test adattati",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "valutazione_formativa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Chiedo test adattati",
+      "confidence": 0.95,
+      "reason": "L'uso di 'test adattati' implica la creazione di strumenti di valutazione o esercizio con difficoltà differenziate per rispondere ai livelli degli studenti."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_azzo01.md",
+  "source_name": "insegnanti_attuali_azzo01.md",
+  "title": "Risposta AZZO01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "AZZO01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:34.723825+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "SUPPORTO NELLA PREDISPOSIZIONE E ORGANIZZAZIONE DELLE ATTIVITA',  DIPENDENZA",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "SUPPORTO NELLA PREDISPOSIZIONE E ORGANIZZAZIONE DELLE ATTIVITA'",
+          "reason": "Il partecipante evidenzia il supporto nell'organizzazione come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "DIPENDENZA",
+          "reason": "Il partecipante segnala esplicitamente il rischio di dipendenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un pro (supporto) sia un contro (dipendenza)."
+    }
+  ]
+}

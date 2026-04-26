@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_anzo06.md",
+  "source_name": "insegnanti_attuali_anzo06.md",
+  "title": "Risposta ANZO06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ANZO06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:59.554555+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La velocità nell'esecuzione, dal mio punto di vista, è un pro e un contro. Si possono realizzare attività strutturate in pochissimo tempo dando solo un piccolo input di partenza. D'altro canto ci limita nello sforzo di andare a produrre, e inventare, i lavori da affrontare in aula. Con la conseguenza di lavorare tutti nello stesso modo e annullare la produttività geniale di ogni insegnante.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità nell'esecuzione",
+          "reason": "Il partecipante evidenzia la rapidità nel realizzare attività strutturate."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "lavorare tutti nello stesso modo",
+          "reason": "L'uso dell'IA porta a un approccio uniforme che omogeneizza i lavori in aula."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "ci limita nello sforzo di andare a produrre, e inventare",
+          "reason": "La tecnologia riduce lo sforzo creativo e l'invenzione di nuovi lavori da parte dell'insegnante."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "annullare la produttività geniale di ogni insegnante",
+          "reason": "L'IA rischia di eliminare la capacità individuale di ogni docente di innovare."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 3,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e tre svantaggi (standardizzazione, perdita di creatività, annullamento della produttività individuale)."
+    }
+  ]
+}

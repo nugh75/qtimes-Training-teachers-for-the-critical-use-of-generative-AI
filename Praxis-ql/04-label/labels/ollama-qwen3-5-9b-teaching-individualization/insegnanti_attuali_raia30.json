@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_raia30.md",
+  "source_name": "insegnanti_attuali_raia30.md",
+  "title": "Risposta raia30",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "raia30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:20.857165+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per creare video, fumetti o podcast e cercare di coinvolgere studenti ADHD o con problemi cognitivi o legati alla vista o all’udito, ma ho iniziato da poco ad utilizzarle",
+      "practice_present": true,
+      "strategies": [
+        "supporti_bes_dsa",
+        "semplificazione",
+        "livelli_difficolta"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Per creare video, fumetti o podcast e cercare di coinvolgere studenti ADHD o con problemi cognitivi o legati alla vista o all'udito",
+      "confidence": 0.95,
+      "reason": "L'uso di formati alternativi (video, fumetti, podcast) per studenti con BES/DSA rappresenta una strategia di semplificazione e adattamento dei materiali per garantire l'accesso alle competenze."
+    }
+  ]
+}

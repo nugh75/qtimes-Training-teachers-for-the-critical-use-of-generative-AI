@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_manci11.md",
+  "source_name": "insegnanti_futuri_manci11.md",
+  "title": "Risposta Manci11",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Manci11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:19.354385+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Può sostituire il lavoro cognitivo che veniva fatto prima senza intelligenza artificiale",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Può sostituire il lavoro cognitivo che veniva fatto prima senza intelligenza artificiale",
+          "reason": "Il partecipante evidenzia il rischio di sostituzione del pensiero autonomo."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un aspetto negativo (sostituzione del lavoro cognitivo)."
+    }
+  ]
+}

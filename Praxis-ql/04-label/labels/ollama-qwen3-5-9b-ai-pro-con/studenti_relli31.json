@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_relli31.md",
+  "source_name": "studenti_relli31.md",
+  "title": "Risposta Relli31",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Relli31",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:58.664752+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Riduce i tempi, non impari",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Riduce i tempi",
+          "reason": "Il partecipante indica che l'IA accelera il processo di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non impari",
+          "reason": "Il partecipante segnala che l'uso dell'IA impedisce l'apprendimento."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (riduzione tempi) e uno svantaggio (mancanza di apprendimento)."
+    }
+  ]
+}

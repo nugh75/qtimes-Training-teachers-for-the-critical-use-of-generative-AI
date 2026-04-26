@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ifra19.md",
+  "source_name": "insegnanti_futuri_ifra19.md",
+  "title": "Risposta ifra19",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ifra19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:57.913875+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro che potrebbe aiutare chi ha svantaggio socio culturale Contro il troppo uso potrebbe creare dipendenza dall'IA",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "aiutare chi ha svantaggio socio culturale",
+          "reason": "Il partecipante indica che l'IA può supportare studenti con svantaggi socio-culturali."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "troppo uso potrebbe creare dipendenza dall'IA",
+          "reason": "Il partecipante segnala il rischio di dipendenza derivante da un uso eccessivo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (inclusione) e un rischio (dipendenza)."
+    }
+  ]
+}

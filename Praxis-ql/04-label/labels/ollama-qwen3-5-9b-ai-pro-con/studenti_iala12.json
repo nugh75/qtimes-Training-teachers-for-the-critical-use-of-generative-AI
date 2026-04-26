@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_iala12.md",
+  "source_name": "studenti_iala12.md",
+  "title": "Risposta iala12",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "iala12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:08.385168+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro consente di alleggerire il carico ed organizzare meglio il materiale; Contro può essere utilizzato come sostituito ad altri tipi di risorse",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "alleggerire il carico ed organizzare meglio il materiale",
+          "reason": "Il partecipante cita la capacità di gestire meglio il carico di lavoro e l'organizzazione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può essere utilizzato come sostituito ad altri tipi di risorse",
+          "reason": "Il partecipante evidenzia il rischio di sostituire l'uso di altre risorse con l'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

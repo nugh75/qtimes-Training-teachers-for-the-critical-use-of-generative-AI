@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_pola10.md",
+  "source_name": "insegnanti_attuali_pola10.md",
+  "title": "Risposta pola10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "pola10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:24.251596+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Grandissime potenzialità per l'azione didattica ma anche grandi rischi per gli studenti, che saranno portati sempre più a sfruttare le scorciatoie offerte dall'IA mancando possibilità di crescita culturale e potenziamento cognitivo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "Grandissime potenzialità per l'azione didattica",
+          "reason": "Il partecipante evidenzia le grandi potenzialità offerte dall'IA per l'insegnamento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "portati sempre più a sfruttare le scorciatoie offerte dall'IA",
+          "reason": "Il partecipante segnala il rischio di affidarsi a scorciatoie invece di impegnarsi cognitivamente."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "mancando possibilità di crescita culturale",
+          "reason": "L'uso eccessivo dell'IA porta a una mancanza di crescita culturale e di sviluppo umano."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "mancando possibilità di crescita culturale e potenziamento cognitivo",
+          "reason": "Il partecipante indica che l'IA impedisce il potenziamento cognitivo degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 3,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia i grandi vantaggi ('potenzialità') sia i grandi rischi ('scorciatoie', 'mancanza di crescita')."
+    }
+  ]
+}

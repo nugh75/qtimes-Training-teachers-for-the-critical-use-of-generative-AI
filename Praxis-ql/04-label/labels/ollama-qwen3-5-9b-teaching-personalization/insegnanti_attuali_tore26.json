@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tore26.md",
+  "source_name": "insegnanti_attuali_tore26.md",
+  "title": "Risposta tore26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tore26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:43:46.852473+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "chiedo suggerimenti su come personalizzare i percorsi didattici",
+      "practice_present": true,
+      "strategies": [
+        "scelte_percorsi",
+        "potenzialita_talenti"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "chiedo suggerimenti su come personalizzare i percorsi didattici",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per ottenere suggerimenti specifici sulla personalizzazione dei percorsi, indicando un ruolo di supporto strategico per adattare l'insegnamento alle potenzialità e interessi degli studenti."
+    }
+  ]
+}

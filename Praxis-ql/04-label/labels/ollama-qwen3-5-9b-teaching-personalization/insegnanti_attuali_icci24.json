@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_icci24.md",
+  "source_name": "insegnanti_attuali_icci24.md",
+  "title": "Risposta icci24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "icci24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:42:28.854515+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Ogni situazione è diversa. Ad esempio in casi di DSA l'accostamento del testo alle immagini può semplificare il lavoro, quindi creare immagini o ricercare immagini che affianchino il testo da studiare potrebbe rivelarsi ottimale ai fini dell'appartamento.",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati",
+        "supporti_bes_dsa"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "generazione_materiali",
+      "evidence": "creare immagini o ricercare immagini che affianchino il testo da studiare",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per generare immagini che affiancano il testo, semplificando l'apprendimento per studenti con DSA."
+    }
+  ]
+}

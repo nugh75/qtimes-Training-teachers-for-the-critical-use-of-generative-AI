@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_illi23.md",
+  "source_name": "insegnanti_attuali_illi23.md",
+  "title": "Risposta illi23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "illi23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:41.607264+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "pro: accessibilità e facilità di utilizzo contro: l'utilizzo insensato da parte di studenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "accessibilità",
+          "reason": "Il partecipante cita l'accessibilità come vantaggio."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "facilità di utilizzo",
+          "reason": "Il partecipante indica la facilità d'uso come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "utilizzo insensato",
+          "reason": "Il partecipante evidenzia il rischio di un uso improprio che porta a una delega non critica."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_soli13.md",
+  "source_name": "studenti_soli13.md",
+  "title": "Risposta soli13",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "soli13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:26.279724+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: semplificano alcune procedure, fanno risparmiare tempo e lo si può dedicare ad altro, possono essere utili nell’organizzazione  contro: ci si impegna di meno, meno interazioni nei lavori di gruppo, superficialità nello studio",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "semplificano alcune procedure, fanno risparmiare tempo e lo si può dedicare ad altro, possono essere utili nell'organizzazione",
+          "reason": "Il partecipante evidenzia il risparmio di tempo e l'utilità nell'organizzazione come benefici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "ci si impegna di meno",
+          "reason": "Il partecipante segnala una riduzione dell'impegno personale."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "meno interazioni nei lavori di gruppo",
+          "reason": "Il partecipante indica una diminuzione delle interazioni sociali."
+        },
+        {
+          "category": "standardizzazione",
+          "evidence": "superficialità nello studio",
+          "reason": "Il partecipante evidenzia un approccio superficiale allo studio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi che svantaggi relazionali e cognitivi."
+    }
+  ]
+}

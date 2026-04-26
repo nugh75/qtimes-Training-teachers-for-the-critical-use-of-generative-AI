@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_nese01.md",
+  "source_name": "studenti_nese01.md",
+  "title": "Risposta nese01",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "nese01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:59.224702+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "impieghi meno tempo é un pro mentre un contro sarebbe che la utilizzo ciò non mi applico da solo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "impieghi meno tempo",
+          "reason": "Il partecipante indica che l'uso dell'IA riduce il tempo necessario per lo studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "la utilizzo ciò non mi applico da solo",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una minore applicazione autonoma e allo smettere di ragionare da soli."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (risparmio di tempo) e uno svantaggio (riduzione dell'autonomia cognitiva)."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_stini27.md",
+  "source_name": "insegnanti_attuali_stini27.md",
+  "title": "Risposta Stini27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Stini27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:27.968865+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "PRO: Personalizzazione dell’apprendimento, Feedback immediato. L’IA può creare, semplificare o tradurre contenuti, rendendoli più accessibili a tutti. Aiuta a supportare studenti con difficoltà di apprendimento o bisogni educativi speciali. Riduce il carico di lavoro per gli insegnanti. Automatizza attività ripetitive (es. correzioni di quiz), libera tempo per la didattica creativa. Promuove nuove metodologie didattiche più dinamiche, interattive e tecnologiche. CONTRO: Rischio di dipendenza dalla tecnologia. Non tutti hanno le stesse possibilità di utilizzare strumenti digitali avanzati. L’IA non può sostituire il rapporto educativo, l’empatia e la guida emotiva degli insegnanti.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "Personalizzazione dell'apprendimento",
+          "reason": "L'IA permette di adattare i contenuti alle esigenze individuali."
+        },
+        {
+          "category": "feedback_valutazione",
+          "evidence": "Feedback immediato",
+          "reason": "L'IA fornisce risposte rapide agli studenti."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "creare, semplificare o tradurre contenuti",
+          "reason": "L'IA facilita la creazione e l'adattamento di risorse didattiche."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "Aiuta a supportare studenti con difficoltà di apprendimento o bisogni educativi speciali",
+          "reason": "L'IA offre supporto specifico per studenti con BES o difficoltà."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Riduce il carico di lavoro per gli insegnanti. Automatizza attività ripetitive",
+          "reason": "L'automazione delle attività ripetitive libera tempo per l'insegnante."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "Promuove nuove metodologie didattiche più dinamiche, interattive e tecnologiche",
+          "reason": "L'IA favorisce l'adozione di metodologie più coinvolgenti."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "rendendoli più accessibili a tutti",
+          "reason": "I contenuti generati dall'IA migliorano l'accessibilità generale."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "Rischio di dipendenza dalla tecnologia",
+          "reason": "Esiste il pericolo che gli utenti si affidino eccessivamente alla tecnologia."
+        },
+        {
+          "category": "disuguaglianze",
+          "evidence": "Non tutti hanno le stesse possibilità di utilizzare strumenti digitali avanzati",
+          "reason": "Il divario digitale crea disuguaglianze nell'accesso agli strumenti."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "L'IA non può sostituire il rapporto educativo, l'empatia e la guida emotiva degli insegnanti",
+          "reason": "L'IA non è in grado di replicare la relazione umana e l'empatia."
+        }
+      ],
+      "pro_count": 7,
+      "con_count": 3,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi e pedagogici sia rischi legati all'equità e alla relazione umana."
+    }
+  ]
+}

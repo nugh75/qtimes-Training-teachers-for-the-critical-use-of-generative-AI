@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti27.md",
+  "source_name": "insegnanti_attuali_etti27.md",
+  "title": "Risposta etti27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "etti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:22.002832+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo di modificare es. x per gruppo y",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "esercizi_differenziati"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "chiedo di modificare es. x per gruppo y",
+      "confidence": 0.95,
+      "reason": "La risposta descrive l'uso dell'IA per adattare esercizi specifici a diversi gruppi di studenti."
+    }
+  ]
+}

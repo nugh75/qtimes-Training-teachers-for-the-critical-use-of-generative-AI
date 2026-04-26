@@ -1,0 +1,32 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rini29.md",
+  "source_name": "insegnanti_attuali_rini29.md",
+  "title": "Risposta RINI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "RINI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:27.431239+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E  AI BISOGNI DI CIASCUN ALUNNO.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato",
+        "esercizi_differenziati",
+        "feedback_mirato"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "PER ADATTARE I PERCORSI EDUCATIVI ALLE CARATTERISTICHE E AI BISOGNI DI CIASCUN ALUNNO",
+      "confidence": 0.95,
+      "reason": "La risposta descrive esplicitamente l'adattamento dei percorsi alle caratteristiche individuali, implicando differenziazione di livelli e supporto mirato."
+    }
+  ]
+}

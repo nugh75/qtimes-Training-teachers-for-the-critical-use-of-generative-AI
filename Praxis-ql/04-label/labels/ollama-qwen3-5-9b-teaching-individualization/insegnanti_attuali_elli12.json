@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elli12.md",
+  "source_name": "insegnanti_attuali_elli12.md",
+  "title": "Risposta elli12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "elli12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:59.751633+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per creare esercizi accessibili agli studenti BES, in particolare DSA.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Per creare esercizi accessibili agli studenti BES, in particolare DSA.",
+      "confidence": 0.95,
+      "reason": "La risposta descrive la creazione di esercizi specifici per studenti con BES/DSA, indicando una strategia di semplificazione e adattamento del livello di difficoltà."
+    }
+  ]
+}

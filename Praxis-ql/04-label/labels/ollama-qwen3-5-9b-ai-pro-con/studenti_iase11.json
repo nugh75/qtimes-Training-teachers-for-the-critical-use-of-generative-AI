@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_iase11.md",
+  "source_name": "studenti_iase11.md",
+  "title": "Risposta iase11",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "iase11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:13.332970+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono sicuramente la velocità e le varie attività a disposizione che aiutano lo studio. L'unico contro che posso riscontrare è proprio la facilità di ricerca e aiuto, che possono sfociare in un abuso dell'IA con diminuzione di autonomia e iniziativa nello studio.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "varie attività a disposizione che aiutano lo studio",
+          "reason": "Il partecipante menziona attività che facilitano lo studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "facilità di ricerca e aiuto, che possono sfociare in un abuso dell'IA con diminuzione di autonomia e iniziativa",
+          "reason": "Il partecipante evidenzia il rischio di abuso e perdita di autonomia."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

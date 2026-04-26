@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_como14.md",
+  "source_name": "insegnanti_attuali_como14.md",
+  "title": "Risposta como14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "como14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:10:58.520414+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "assente": 1
+  },
+  "specificity_counts": {
+    "assente": 1
+  },
+  "prompt_type_counts": {
+    "non_prompt": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 1.0,
+  "avg_confidence": 1.0,
+  "items": [
+    {
+      "index": 5,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "n",
+      "metrics": {
+        "char_count": 1,
+        "word_count": 1,
+        "sentence_count": 1,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "assente",
+      "specificity_level": "assente",
+      "prompt_type": "non_prompt",
+      "strategies": [],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 1.0,
+      "reason": "Risposta 'n' indica assenza di esempio di prompt."
+    }
+  ]
+}

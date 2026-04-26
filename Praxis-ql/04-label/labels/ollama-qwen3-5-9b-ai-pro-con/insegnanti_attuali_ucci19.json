@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci19.md",
+  "source_name": "insegnanti_attuali_ucci19.md",
+  "title": "Risposta ucci19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:04.931742+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'I.A. può facilitare nello svolgimento di alcune attività, ma bisogna utilizzarla con parsimonia, in quanto non deve sostituire il cervello umano, il quale deve comunque tenersi in allenamento.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitare nello svolgimento di alcune attività",
+          "reason": "Il partecipante indica che l'IA facilita lo svolgimento di attività."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non deve sostituire il cervello umano",
+          "reason": "Il partecipante avverte il rischio di sostituire il pensiero umano."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "il quale deve comunque tenersi in allenamento",
+          "reason": "Il partecipante sottolinea la necessità di mantenere attivo il cervello umano."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un beneficio operativo e due rischi legati alla sostituzione del pensiero umano e alla necessità di allenamento."
+    }
+  ]
+}

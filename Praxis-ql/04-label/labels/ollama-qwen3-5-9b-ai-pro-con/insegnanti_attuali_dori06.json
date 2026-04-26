@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_dori06.md",
+  "source_name": "insegnanti_attuali_dori06.md",
+  "title": "Risposta dori06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "dori06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:19.741398+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "aiuta nella risoluzione di alcuni problemi ma diminuisce la prorpia capacità di problem solving",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta nella risoluzione di alcuni problemi",
+          "reason": "Il partecipante indica che l'IA è utile per risolvere problemi specifici."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "diminuisce la prorpia capacità di problem solving",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce la capacità autonoma di risolvere problemi."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (risoluzione problemi) sia un rischio (diminuzione capacità problem solving)."
+    }
+  ]
+}

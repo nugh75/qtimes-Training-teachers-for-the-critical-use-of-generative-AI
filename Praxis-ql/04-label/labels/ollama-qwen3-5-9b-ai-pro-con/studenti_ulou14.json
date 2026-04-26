@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ulou14.md",
+  "source_name": "studenti_ulou14.md",
+  "title": "Risposta ULOU14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ULOU14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:02.112993+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 6,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro - Velocizza, Semplifica, Chiarisce le idee, fa domande per verificare conoscenze Contro- può limitare la capacità di scrivere e abbassare la soglia della concentrazione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Velocizza",
+          "reason": "Il partecipante indica che l'IA accelera i processi di studio."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "Semplifica, Chiarisce le idee",
+          "reason": "Il partecipante evidenzia come l'IA aiuti a semplificare e chiarire i concetti."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "fa domande per verificare conoscenze",
+          "reason": "Il partecipante nota che l'IA supporta la verifica delle conoscenze tramite domande."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può limitare la capacità di scrivere",
+          "reason": "Il partecipante segnala il rischio di una riduzione delle capacità di scrittura autonoma."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "abbassare la soglia della concentrazione",
+          "reason": "Il partecipante indica che l'uso dell'IA può portare a una diminuzione della capacità di concentrazione."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi operativi e cognitivi sia svantaggi legati alle capacità individuali."
+    }
+  ]
+}

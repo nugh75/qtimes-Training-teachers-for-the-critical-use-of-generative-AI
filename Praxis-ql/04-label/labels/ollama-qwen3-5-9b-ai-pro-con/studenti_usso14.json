@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_usso14.md",
+  "source_name": "studenti_usso14.md",
+  "title": "Risposta usso14",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "usso14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:12.590882+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: riassumere i punti essenziali e facilitarne l'apprendimento contro: i possibili errori di riassunto che possono accadere",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "riassumere i punti essenziali",
+          "reason": "Il partecipante cita la capacità di sintetizzare come vantaggio per l'apprendimento."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "facilitarne l'apprendimento",
+          "reason": "Il partecipante indica esplicitamente il miglioramento dell'apprendimento come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "i possibili errori di riassunto che possono accadere",
+          "reason": "Il partecipante segnala il rischio di inesattezze nella sintesi generata dall'IA."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente un pro e un contro specifici."
+    }
+  ]
+}

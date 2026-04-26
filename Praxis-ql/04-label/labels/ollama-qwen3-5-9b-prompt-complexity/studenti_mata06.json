@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_mata06.md",
+  "source_name": "studenti_mata06.md",
+  "title": "Risposta mata06",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "mata06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:16:30.768050+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "base": 1
+  },
+  "specificity_counts": {
+    "bassa": 1
+  },
+  "prompt_type_counts": {
+    "domanda_generica": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 4.0,
+  "avg_confidence": 0.95,
+  "items": [
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Sapresti spiegarmi questo concetto",
+      "metrics": {
+        "char_count": 34,
+        "word_count": 4,
+        "sentence_count": 1,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "base",
+      "specificity_level": "bassa",
+      "prompt_type": "domanda_generica",
+      "strategies": [],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.95,
+      "reason": "Richiesta breve senza contesto, vincoli o destinatario espliciti."
+    }
+  ]
+}

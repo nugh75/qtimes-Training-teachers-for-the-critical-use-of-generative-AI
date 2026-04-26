@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ilio18.md",
+  "source_name": "insegnanti_futuri_ilio18.md",
+  "title": "Risposta Ilio18",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ilio18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:58.896255+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "È piu facile fare ricerche",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "È piu facile fare ricerche",
+          "reason": "Il partecipante indica che l'IA facilita il processo di ricerca."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un vantaggio operativo."
+    }
+  ]
+}

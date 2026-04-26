@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iduca18.md",
+  "source_name": "insegnanti_attuali_iduca18.md",
+  "title": "Risposta iduca18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iduca18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:25.319714+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'uso incondizionato e acritico può portare a un appiattimento del senso di realtà, il pensiero critico può guidare ed essere strumento utile come strategia di lavoro anche a scuola.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "pensiero critico può guidare ed essere strumento utile",
+          "reason": "Il partecipante indica che l'IA può essere uno strumento utile se guidata dal pensiero critico."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "appiattimento del senso di realtà",
+          "reason": "L'uso incondizionato e acritico dell'IA porta a un appiattimento del senso di realtà."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un rischio (appiattimento della realtà) e un potenziale beneficio (strumento utile) a condizione di pensiero critico."
+    }
+  ]
+}

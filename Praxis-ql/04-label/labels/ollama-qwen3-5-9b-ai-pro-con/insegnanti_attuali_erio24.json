@@ -1,0 +1,59 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_erio24.md",
+  "source_name": "insegnanti_attuali_erio24.md",
+  "title": "Risposta erio24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "erio24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:19.698683+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: personalizzazione dell’apprendimento, inclusione, apprendimento continuo. Contro: disumanizzazione dell’insegnamento, dipendenza dalla tecnologia, disuguaglianze digitali.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "personalizzazione dell'apprendimento",
+          "reason": "Il partecipante cita la capacità di adattare l'insegnamento alle esigenze individuali."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "inclusione",
+          "reason": "Il partecipante indica l'IA come strumento per favorire l'inclusione."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "apprendimento continuo",
+          "reason": "Il partecipante evidenzia il vantaggio di un aggiornamento costante delle competenze."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "disumanizzazione dell'insegnamento",
+          "reason": "Il partecipante segnala il rischio di perdere l'aspetto umano e relazionale."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza dalla tecnologia",
+          "reason": "Il partecipante evidenzia il rischio di un eccessivo affidamento agli strumenti tecnologici."
+        },
+        {
+          "category": "disuguaglianze",
+          "evidence": "disuguaglianze digitali",
+          "reason": "Il partecipante cita il divario digitale come potenziale conseguenza negativa."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 3,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente tre benefici e tre rischi specifici."
+    }
+  ]
+}

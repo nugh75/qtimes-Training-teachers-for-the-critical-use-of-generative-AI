@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ello27_2.md",
+  "source_name": "insegnanti_attuali_ello27_2.md",
+  "title": "Risposta ello27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ello27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:52.331344+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocità  Contro: risposte non sempre corrette",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "risposte non sempre corrette",
+          "reason": "Il partecipante segnala l'insufficienza di accuratezza delle risposte."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_assi12.md",
+  "source_name": "insegnanti_attuali_assi12.md",
+  "title": "Risposta assi12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "assi12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:18.932713+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "ottimo supporto in varie attività didattiche ,",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "ottimo supporto in varie attività didattiche",
+          "reason": "Il partecipante definisce l'IA come un supporto valido per le attività didattiche."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un beneficio senza citare rischi."
+    }
+  ]
+}

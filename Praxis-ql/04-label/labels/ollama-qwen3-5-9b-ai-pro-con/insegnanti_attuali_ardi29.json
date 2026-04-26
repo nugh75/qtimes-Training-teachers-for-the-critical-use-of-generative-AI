@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ardi29.md",
+  "source_name": "insegnanti_attuali_ardi29.md",
+  "title": "Risposta ARDI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ARDI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:07.773494+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Gli studenti possono accedere a una vasta gamma di risorse e materiali didattici, migliorando le opportunità di apprendimento.",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "Gli studenti possono accedere a una vasta gamma di risorse e materiali didattici",
+          "reason": "L'accesso a risorse e materiali didattici è citato come un vantaggio per l'apprendimento."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esclusivamente un beneficio (accesso a risorse) senza menzionare rischi o svantaggi."
+    }
+  ]
+}

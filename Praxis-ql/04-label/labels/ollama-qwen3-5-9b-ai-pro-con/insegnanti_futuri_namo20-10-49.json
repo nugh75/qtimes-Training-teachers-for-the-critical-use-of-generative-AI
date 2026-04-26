@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_namo20-10-49.md",
+  "source_name": "insegnanti_futuri_namo20-10-49.md",
+  "title": "Risposta Namo20/10/49",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Namo20/10/49",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:20.873708+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utile per le correzioni ma poco utile come strumento autonomo didattico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "feedback_valutazione",
+          "evidence": "utile per le correzioni",
+          "reason": "Il partecipante indica che l'IA è utile per le attività di correzione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "poco utile come strumento autonomo didattico",
+          "reason": "Il partecipante evidenzia la limitazione dell'IA come strumento di insegnamento autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un vantaggio specifico (correzioni) e un limite specifico (non autonomia didattica)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_onti02.md",
+  "source_name": "insegnanti_attuali_onti02.md",
+  "title": "Risposta onti02",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "onti02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:30.092063+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "vantaggi: maggiore coinvolgimento degli studenti anche a fini inclusivi; svantaggi: divario digitale tra gli studenti, diminuzione dell'interazione docente-discente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "maggiore coinvolgimento degli studenti",
+          "reason": "Il partecipante cita un aumento del coinvolgimento degli studenti come vantaggio."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "anche a fini inclusivi",
+          "reason": "Il partecipante menziona l'uso dell'IA per fini inclusivi come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "disuguaglianze",
+          "evidence": "divario digitale tra gli studenti",
+          "reason": "Il partecipante segnala il divario digitale come svantaggio."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "diminuzione dell'interazione docente-discente",
+          "reason": "Il partecipante indica una riduzione dell'interazione tra docente e discente come contro."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente sia vantaggi che svantaggi dell'uso dell'IA."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iuso21.md",
+  "source_name": "insegnanti_attuali_iuso21.md",
+  "title": "Risposta iuso21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iuso21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:45.919584+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Con la creazione di percorsi didattici \"su misura\" che includano misure compensative e dispensative.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "creazione di percorsi didattici su misura",
+      "confidence": 0.95,
+      "reason": "La risposta descrive la creazione di percorsi differenziati ('su misura') che includono misure compensative e dispensative, indicando l'uso dell'IA per adattare i contenuti e i livelli di difficoltà."
+    }
+  ]
+}

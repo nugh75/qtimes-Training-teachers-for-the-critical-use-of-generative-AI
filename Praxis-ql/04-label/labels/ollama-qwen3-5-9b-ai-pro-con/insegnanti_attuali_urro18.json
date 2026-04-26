@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_urro18.md",
+  "source_name": "insegnanti_attuali_urro18.md",
+  "title": "Risposta Urro18",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Urro18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:16.936606+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Bisogna fare attenzione all’utilizzo e alla spiegazione di tali strumenti non sostituendo altre attività e competenze che vanno sviluppate",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non sostituendo altre attività e competenze",
+          "reason": "Il partecipante avverte il rischio di sostituire attività e competenze fondamentali con l'uso degli strumenti."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta evidenzia esclusivamente un avvertimento sui rischi di sostituzione delle competenze."
+    }
+  ]
+}

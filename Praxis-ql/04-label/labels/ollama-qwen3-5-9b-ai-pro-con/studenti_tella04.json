@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tella04.md",
+  "source_name": "studenti_tella04.md",
+  "title": "Risposta tella04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tella04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:29.635111+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro che mi aiuta cin i compiti contro che alcuni li fa male",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "mi aiuta cin i compiti",
+          "reason": "Il partecipante indica che l'IA assiste nella risoluzione dei compiti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "alcuni li fa male",
+          "reason": "Il partecipante segnala che l'uso dell'IA può portare a un uso scorretto o a una cattiva esecuzione dei compiti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta elenca sia un vantaggio ('aiuta') sia un rischio ('fa male'). La formulazione è molto generica."
+    }
+  ]
+}

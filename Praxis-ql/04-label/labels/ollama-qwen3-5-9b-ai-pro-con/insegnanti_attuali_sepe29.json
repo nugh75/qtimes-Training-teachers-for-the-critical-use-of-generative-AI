@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_sepe29.md",
+  "source_name": "insegnanti_attuali_sepe29.md",
+  "title": "Risposta sepe29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "sepe29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:20.446324+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: gli studenti la usano male senza essere critici e sperando di risolvere in poco tempo e con meno fatica.  Pro: è una grande opportunità ma bisogna imparare come funziona e ad usarla nel modo migliore.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "è una grande opportunità",
+          "reason": "Il partecipante definisce l'IA come un'opportunità, implicando un potenziale positivo per l'organizzazione o l'uso delle risorse."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "gli studenti la usano male senza essere critici e sperando di risolvere in poco tempo e con meno fatica",
+          "reason": "Il partecipante evidenzia il rischio di un uso superficiale e della ricerca di soluzioni facili, indicando una perdita di sforzo critico."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita sia un vantaggio ('grande opportunità') sia un rischio specifico ('usano male', 'meno fatica')."
+    }
+  ]
+}

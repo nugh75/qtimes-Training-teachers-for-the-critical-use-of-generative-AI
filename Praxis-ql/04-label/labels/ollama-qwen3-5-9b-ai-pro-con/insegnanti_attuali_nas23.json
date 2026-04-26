@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nas23.md",
+  "source_name": "insegnanti_attuali_nas23.md",
+  "title": "Risposta nas23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "nas23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:57.805890+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: poter predisporre di informazioni aggiuntive su tutto in tempi brevi e un meccanismo semplice; Contro: crea dei percorsi facilitati che non stimolano le capacità personali.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "poter predisporre di informazioni aggiuntive su tutto in tempi brevi",
+          "reason": "Il partecipante evidenzia la rapidità di produzione e l'efficienza temporale."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "un meccanismo semplice",
+          "reason": "Il partecipante cita la semplicità d'uso come vantaggio organizzativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "crea dei percorsi facilitati",
+          "reason": "Il partecipante teme che l'IA generi percorsi troppo standardizzati."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "che non stimolano le capacità personali",
+          "reason": "Il partecipante segnala il rischio di non sviluppare le capacità personali."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

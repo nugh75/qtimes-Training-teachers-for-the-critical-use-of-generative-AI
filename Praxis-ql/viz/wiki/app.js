@@ -32,6 +32,22 @@
     return FALLBACK_PALETTE[Math.abs(hash) % FALLBACK_PALETTE.length];
   }
 
+  function trimmedEdge(a, b, extraStart, extraEnd) {
+    const dx = b.x - a.x;
+    const dy = b.y - a.y;
+    const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+    const ux = dx / dist;
+    const uy = dy / dist;
+    const start = (a.r || 0) + extraStart;
+    const end = (b.r || 0) + extraEnd;
+    return {
+      x1: a.x + ux * start,
+      y1: a.y + uy * start,
+      x2: b.x - ux * end,
+      y2: b.y - uy * end,
+    };
+  }
+
   function buildLayout(nodes, edges, width, height) {
     const byId = Object.fromEntries(nodes.map((n) => [n.id, n]));
     const degree = {};
@@ -357,6 +373,23 @@
               onPointerLeave: onPointerUp,
             },
             h(
+              "defs",
+              null,
+              h(
+                "marker",
+                {
+                  id: "edge-arrow",
+                  viewBox: "0 0 10 10",
+                  refX: 9,
+                  refY: 5,
+                  markerWidth: 7,
+                  markerHeight: 7,
+                  orient: "auto-start-reverse",
+                },
+                h("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: "#7389a3", fillOpacity: 0.72 })
+              )
+            ),
+            h(
               "g",
               {
                 transform: `translate(${pan.x},${pan.y}) scale(${zoom})`,
@@ -369,15 +402,14 @@
                   !selectedNode ||
                   edge.source === selectedNode ||
                   edge.target === selectedNode;
+                const line = trimmedEdge(a, b, 4, 8);
                 return h("line", {
                   key: `${edge.source}-${edge.target}`,
                   className: "edge",
-                  x1: a.x,
-                  y1: a.y,
-                  x2: b.x,
-                  y2: b.y,
+                  ...line,
                   strokeWidth: 0.9 + (edge.weight / edgeMax) * 3.5,
                   strokeOpacity: active ? 0.42 : 0.07,
+                  markerEnd: active ? "url(#edge-arrow)" : undefined,
                 });
               }),
               laidOut.map((node) => {

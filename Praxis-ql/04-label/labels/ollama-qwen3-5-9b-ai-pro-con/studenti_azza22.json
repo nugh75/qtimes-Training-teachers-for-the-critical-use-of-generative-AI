@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_azza22.md",
+  "source_name": "studenti_azza22.md",
+  "title": "Risposta AZZA22",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "AZZA22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:01.953538+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro credo siano la possibilità di farsi interrogare come fossimo effettivamente a un vero esame. Come contro mi sembra di notare in alcuni colleghi la completa incapacità di formulare un pensiero senza ausilio di Chat GPT ad esempio. In generale non vedo dei contro se non un utilizzo smodato.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "possibilità di farsi interrogare come fossimo effettivamente a un vero esame",
+          "reason": "L'uso dell'IA è visto come uno strumento per simulare e migliorare la preparazione agli esami."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "completa incapacità di formulare un pensiero senza ausilio di Chat GPT",
+          "reason": "Si osserva una perdita di autonomia nel pensiero e nella capacità di esprimersi senza l'aiuto dell'IA."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "utilizzo smodato",
+          "reason": "Viene segnalato il rischio di un uso eccessivo e non controllato della tecnologia."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (simulazione esame) e due svantaggi (incapacità di pensare autonomamente e uso smodato)."
+    }
+  ]
+}

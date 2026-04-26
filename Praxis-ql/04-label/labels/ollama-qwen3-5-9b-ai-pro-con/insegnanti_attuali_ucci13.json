@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ucci13.md",
+  "source_name": "insegnanti_attuali_ucci13.md",
+  "title": "Risposta ucci13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ucci13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:03.103801+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I Pro sono il risparmio di tempo, la razionalizzazione, la progettazione di piani di lezione personalizzati che si adattano al ritmo e allo stile di apprendimento di ogni studente. I Contro sono la limitazione delle proprie capacità di sintesi ed elaborazione dei contenuti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "progettazione di piani di lezione personalizzati che si adattano al ritmo e allo stile di apprendimento di ogni studente",
+          "reason": "Il partecipante evidenzia la capacità di adattare i piani di lezione allo studente."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "limitazione delle proprie capacità di sintesi ed elaborazione dei contenuti",
+          "reason": "Il partecipante segnala che l'uso dell'IA limita la capacità di sintesi e elaborazione personale."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia pro che contro specifici."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_isti28.md",
+  "source_name": "insegnanti_attuali_isti28.md",
+  "title": "Risposta Isti28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Isti28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:11.488931+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro perché ci saranno perdite di posti di lavoro umano. I pro sono il risparmio del tempo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio del tempo",
+          "reason": "Il partecipante indica il risparmio del tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "perdite di posti di lavoro umano",
+          "reason": "Il partecipante teme la sostituzione del lavoro umano, riducendo il ruolo dell'insegnante."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro (risparmio tempo) e un contro (perdita posti di lavoro)."
+    }
+  ]
+}

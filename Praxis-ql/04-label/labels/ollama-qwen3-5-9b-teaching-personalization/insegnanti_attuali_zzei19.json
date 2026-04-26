@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zzei19.md",
+  "source_name": "insegnanti_attuali_zzei19.md",
+  "title": "Risposta zzei19",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "zzei19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:43:59.536924+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Nella scuola dell'infanzia  tale   utilizzo permette una inclusione maggiore anche ai bambini con difficoltà comportamentali intellettive o per riconoscere le loro potenzialità",
+      "practice_present": true,
+      "strategies": [
+        "potenzialita_talenti",
+        "supporti_bes_dsa"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "riconoscere le loro potenzialità",
+      "confidence": 0.85,
+      "reason": "La risposta cita esplicitamente il riconoscimento delle potenzialità e l'inclusione di bambini con difficoltà, indicando una strategia di personalizzazione."
+    }
+  ]
+}

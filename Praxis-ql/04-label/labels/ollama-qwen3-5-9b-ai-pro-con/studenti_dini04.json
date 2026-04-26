@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_dini04.md",
+  "source_name": "studenti_dini04.md",
+  "title": "Risposta Dini04",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Dini04",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:35.864323+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro che ti aiutano a svolgere i compiti il contro e che si possono usare in modo un po’ sbagliato",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "aiutano a svolgere i compiti",
+          "reason": "Il partecipante indica che l'IA facilita lo svolgimento dei compiti, implicando un vantaggio di efficienza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "si possono usare in modo un po’ sbagliato",
+          "reason": "Il partecipante evidenzia il rischio di un utilizzo improprio che può portare a errori o cattiva applicazione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.6,
+      "reason": "La risposta elenca esplicitamente un pro (aiuto ai compiti) e un contro (uso sbagliato)."
+    }
+  ]
+}

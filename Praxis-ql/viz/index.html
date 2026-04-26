@@ -150,11 +150,51 @@
       justify-self: end;
     }
     .graph-shell {
-      overflow: auto;
+      overflow: hidden;
       border: 1px solid var(--border);
       border-radius: 14px;
       background: linear-gradient(180deg, #fcfdff 0%, #f4f9ff 100%);
       min-height: 560px;
+    }
+    .graph-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(251, 253, 255, 0.96);
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 650;
+    }
+    .graph-toolbar button {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--ink);
+      padding: 5px 8px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .graph-toolbar button:hover {
+      background: #eef5ff;
+    }
+    .graph-shell svg,
+    .subgraph-shell svg {
+      display: block;
+      user-select: none;
+      touch-action: none;
+      cursor: grab;
+    }
+    .graph-shell svg.dragging,
+    .subgraph-shell svg.dragging {
+      cursor: grabbing;
+    }
+    .edge-group {
+      pointer-events: none;
     }
     .side h2 {
       margin: 0;
@@ -379,7 +419,7 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       background: linear-gradient(180deg, #fcfeff 0%, #f3f8ff 100%);
-      overflow: auto;
+      overflow: hidden;
     }
     .sub-node-code {
       font-size: 10px;

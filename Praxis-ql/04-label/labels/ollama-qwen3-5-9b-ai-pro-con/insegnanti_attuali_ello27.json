@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ello27.md",
+  "source_name": "insegnanti_attuali_ello27.md",
+  "title": "Risposta Ello27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Ello27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:50.966312+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro perché può trovare informazioni in vari siti in contemporanea contro uso sproposito e inadeguato da parte degli alunni che non sono più in grado di riassumere niente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "può trovare informazioni in vari siti in contemporanea",
+          "reason": "Il partecipante evidenzia la capacità di aggregare informazioni da diverse fonti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "uso sproposito e inadeguato da parte degli alunni che non sono più in grado di riassumere niente",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una perdita di capacità di sintesi e ragionamento autonomo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio operativo e un rischio educativo."
+    }
+  ]
+}

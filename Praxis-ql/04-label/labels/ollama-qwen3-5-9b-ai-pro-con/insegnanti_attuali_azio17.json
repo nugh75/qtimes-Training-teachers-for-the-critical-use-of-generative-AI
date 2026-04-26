@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_azio17.md",
+  "source_name": "insegnanti_attuali_azio17.md",
+  "title": "Risposta Azio17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Azio17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:33.222331+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Apertura maggiore verso la conoscenza ma un impoverimento nella produzione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "Apertura maggiore verso la conoscenza",
+          "reason": "Il partecipante indica che l'IA favorisce un accesso più ampio alla conoscenza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "impoverimento nella produzione",
+          "reason": "Il partecipante segnala che l'uso dell'IA porta a una diminuzione della capacità o qualità nella produzione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('Apertura maggiore') e uno svantaggio ('impoverimento')."
+    }
+  ]
+}

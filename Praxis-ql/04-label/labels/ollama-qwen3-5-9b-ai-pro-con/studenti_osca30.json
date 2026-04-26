@@ -1,0 +1,38 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_osca30.md",
+  "source_name": "studenti_osca30.md",
+  "title": "Risposta osca30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "osca30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:32.448818+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "pro: minor tempo e maggior efficienza",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "minor tempo",
+          "reason": "Il partecipante cita esplicitamente il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "maggior efficienza",
+          "reason": "Il partecipante cita esplicitamente l'aumento dell'efficienza come vantaggio."
+        }
+      ],
+      "cons": [],
+      "pro_count": 2,
+      "con_count": 0,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esclusivamente benefici operativi senza menzionare rischi o svantaggi."
+    }
+  ]
+}

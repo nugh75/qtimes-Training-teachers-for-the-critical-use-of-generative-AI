@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_orco13.md",
+  "source_name": "insegnanti_attuali_orco13.md",
+  "title": "Risposta Orco13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Orco13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:37.573780+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro facilita la didattica  contro non viene stimolato il pensiero logico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "facilita la didattica",
+          "reason": "Il partecipante indica che l'IA rende più agevole o agevola l'attività didattica."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non viene stimolato il pensiero logico",
+          "reason": "Il partecipante segnala che l'uso dell'IA impedisce lo sviluppo del pensiero logico."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('facilita la didattica') e uno svantaggio ('non viene stimolato il pensiero logico')."
+    }
+  ]
+}

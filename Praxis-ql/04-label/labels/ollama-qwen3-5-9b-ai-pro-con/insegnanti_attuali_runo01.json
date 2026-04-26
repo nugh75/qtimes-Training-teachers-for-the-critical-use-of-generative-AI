@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_runo01.md",
+  "source_name": "insegnanti_attuali_runo01.md",
+  "title": "Risposta runo01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "runo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:27:08.055546+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "la sua gestione",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.0,
+      "reason": "La risposta 'la sua gestione' è frammentaria e non contiene alcuna informazione utile per identificare pro o contro dell'IA."
+    }
+  ]
+}

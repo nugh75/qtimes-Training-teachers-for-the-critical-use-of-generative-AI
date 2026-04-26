@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_iuso21.md",
+  "source_name": "insegnanti_attuali_iuso21.md",
+  "title": "Risposta iuso21",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "iuso21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:15.008511+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I Pro: avere un valido aiuto; i Contro: far capire agli alunni che questo \"strumento\"  non serve ad evitare di eseguire un compito, ma a dare una base su cui poi andare a \"costruire\"...",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

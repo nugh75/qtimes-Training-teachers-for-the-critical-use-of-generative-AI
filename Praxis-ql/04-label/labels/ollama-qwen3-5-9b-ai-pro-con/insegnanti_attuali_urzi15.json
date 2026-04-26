@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_urzi15.md",
+  "source_name": "insegnanti_attuali_urzi15.md",
+  "title": "Risposta urzi15",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "urzi15",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:18.570239+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Sicuramente, utilizzata per scopi specifici, l'IA può essere un valido supporto per via dell'immediatezza e del rapido riscontro. D'altra parte i nostri alunni non sono preparati ad un uso consapevole, usano l'IA per svolgere i compiti e per copiare senza premunirsi di comprendere i contenuti.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "immediatezza e del rapido riscontro",
+          "reason": "Il partecipante evidenzia la rapidità e l'immediatezza come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "usano l'IA per svolgere i compiti e per copiare senza premunirsi di comprendere i contenuti",
+          "reason": "Il partecipante segnala il rischio di copia e mancanza di comprensione dei contenuti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (supporto immediato) e un contro (uso improprio/copia)."
+    }
+  ]
+}

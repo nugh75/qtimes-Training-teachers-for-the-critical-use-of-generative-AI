@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_obon09.md",
+  "source_name": "studenti_obon09.md",
+  "title": "Risposta obon09",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "obon09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:12.847211+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro che aiuta molto i contro é che sostituisce molte professioni",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta molto",
+          "reason": "Il partecipante indica che l'IA è molto utile."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituisce molte professioni",
+          "reason": "Il partecipante segnala il rischio di sostituzione del ruolo umano."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('aiuta molto') e uno svantaggio ('sostituisce molte professioni')."
+    }
+  ]
+}

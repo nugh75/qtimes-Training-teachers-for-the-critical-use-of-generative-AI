@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_lisi03.md",
+  "source_name": "insegnanti_attuali_lisi03.md",
+  "title": "Risposta lisi03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "lisi03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:31.457442+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: velocizzare alcune procedure, coinvolgimento maggiore degli studenti  Contro: non consente l’elaborazione personale degli studenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare alcune procedure",
+          "reason": "Il partecipante cita la rapidità nell'esecuzione di compiti come vantaggio."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "coinvolgimento maggiore degli studenti",
+          "reason": "Il partecipante indica un aumento dell'engagement degli studenti come beneficio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non consente l’elaborazione personale degli studenti",
+          "reason": "Il partecipante evidenzia la mancanza di spazio per il pensiero autonomo degli studenti."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi (velocità, coinvolgimento) sia svantaggi (mancanza di elaborazione personale)."
+    }
+  ]
+}

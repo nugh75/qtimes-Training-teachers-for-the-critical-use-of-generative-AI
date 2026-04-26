@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti27.md",
+  "source_name": "insegnanti_attuali_etti27.md",
+  "title": "Risposta etti27",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "etti27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:44.102995+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "diventiamo pigri",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "diventiamo pigri",
+          "reason": "Il partecipante afferma che l'uso dell'IA porta a una riduzione dell'impegno mentale."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 1.0,
+      "reason": "La risposta contiene esclusivamente un rischio percepito."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_tore26.md",
+  "source_name": "insegnanti_attuali_tore26.md",
+  "title": "Risposta tore26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "tore26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:50.141649+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "chiedo suggerimenti su come individualizzare i percorsi didattici",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato",
+        "livelli_difficolta"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "chiedo suggerimenti su come individualizzare i percorsi didattici",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per ottenere indicazioni su come differenziare i percorsi didattici, coprendo strategie di scaffolding e livelli di difficoltà."
+    }
+  ]
+}

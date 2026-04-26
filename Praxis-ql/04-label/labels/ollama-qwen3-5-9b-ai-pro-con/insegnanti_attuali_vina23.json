@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_vina23.md",
+  "source_name": "insegnanti_attuali_vina23.md",
+  "title": "Risposta vina23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "vina23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:32.894844+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Tra i pro creare contenuti accattivanti, semplificare la pianificazione di attività che richiederebbero tempi molto lunghi. Tra i contro la possibilità di affidarsi completamente all' AI a sfavore delle capacità individuali.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "creare contenuti accattivanti",
+          "reason": "Il partecipante cita la capacità di generare materiali interessanti."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "semplificare la pianificazione di attività",
+          "reason": "L'IA aiuta a gestire meglio l'organizzazione del lavoro."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "affidarsi completamente all' AI a sfavore delle capacità individuali",
+          "reason": "Il partecipante teme che l'eccessiva dipendenza dall'IA riduca le competenze personali."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente un vantaggio operativo e un rischio legato all'autonomia."
+    }
+  ]
+}

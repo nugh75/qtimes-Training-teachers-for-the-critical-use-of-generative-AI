@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_rigo23.md",
+  "source_name": "insegnanti_futuri_rigo23.md",
+  "title": "Risposta Rigo23",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Rigo23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:47.505714+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono molti. L'intelligenza fornisce molti spunti. Il problema è che può essere utilizzata male dagli studenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "L'intelligenza fornisce molti spunti",
+          "reason": "Il partecipante indica che l'IA offre idee e stimoli creativi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può essere utilizzata male dagli studenti",
+          "reason": "Il partecipante evidenzia il rischio di un uso improprio che porta a una cattiva gestione o dipendenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.7,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('molti spunti') e un rischio ('utilizzata male')."
+    }
+  ]
+}

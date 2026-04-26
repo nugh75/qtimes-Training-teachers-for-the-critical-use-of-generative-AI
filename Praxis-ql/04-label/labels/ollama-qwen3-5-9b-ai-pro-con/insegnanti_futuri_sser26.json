@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_sser26.md",
+  "source_name": "insegnanti_futuri_sser26.md",
+  "title": "Risposta sser26",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "sser26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:56.154855+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: automazione di attività a basso valore aggiunto, risparmio di tempo, velocità nell'elaborazione del materiale bibliografico. Contro: in mancanza di un uso critico, può compromettere la capacità di ragionamento ed essere utilizzata in modo anti-etico.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocità nell'elaborazione del materiale bibliografico",
+          "reason": "Il partecipante evidenzia la rapidità nell'elaborazione dei materiali."
+        },
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "automazione di attività a basso valore aggiunto",
+          "reason": "Il partecipante indica l'automazione di compiti come beneficio organizzativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può compromettere la capacità di ragionamento",
+          "reason": "Il partecipante segnala il rischio di perdita di capacità di ragionamento."
+        },
+        {
+          "category": "privacy_etica",
+          "evidence": "essere utilizzata in modo anti-etico",
+          "reason": "Il partecipante menziona il rischio di utilizzo anti-etico dell'IA."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi che rischi etici e cognitivi."
+    }
+  ]
+}

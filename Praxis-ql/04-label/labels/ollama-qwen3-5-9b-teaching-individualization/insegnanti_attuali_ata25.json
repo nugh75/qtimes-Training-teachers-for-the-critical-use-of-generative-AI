@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ata25.md",
+  "source_name": "insegnanti_attuali_ata25.md",
+  "title": "Risposta ata25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ata25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:33.798772+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "attraverso una didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "scaffolding_guidato",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "didattica digitale integrata in un'ottica UDL e bio-psico-sociale",
+      "confidence": 0.85,
+      "reason": "La risposta cita esplicitamente l'approccio UDL (Universal Design for Learning) e l'ottica bio-psico-sociale, che implicano necessariamente la diversificazione dei percorsi e dei livelli di difficoltà per tutti gli studenti."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_nati19.md",
+  "source_name": "insegnanti_futuri_nati19.md",
+  "title": "Risposta nati19",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "nati19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:22.332150+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: ci dà la possibilità di accedere molto velocemente alle informazioni  Contro: porterà il nostro cervello a lavorare di meno soprattutto per gli studenti che non lo utilizzano rispettando i limiti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "ci dà la possibilità di accedere molto velocemente alle informazioni",
+          "reason": "Il partecipante evidenzia la rapidità di accesso alle informazioni come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "porterà il nostro cervello a lavorare di meno",
+          "reason": "Il partecipante segnala il rischio di un ridotto sforzo cognitivo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

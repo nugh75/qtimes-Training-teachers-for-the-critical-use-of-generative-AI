@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_iali12.md",
+  "source_name": "insegnanti_futuri_iali12.md",
+  "title": "Risposta Iali12",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Iali12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:52.746648+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I contro sicuramente l’utilizzo sbagliato che porta i ragazzi a pensare di far svolgere un lavoro dall’IA al posto loro e quindi fare un copia-incolla non verificando poi la veridicità delle informazioni. I pro un grande aiuto a livello di tempo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "un grande aiuto a livello di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "far svolgere un lavoro dall'IA al posto loro",
+          "reason": "Il partecipante evidenzia il rischio di delegare il lavoro intellettuale all'IA senza verifica."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un pro (tempo) e un contro (uso sbagliato/delega)."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "generated_from": "Praxis-ql/04-label/labels/ollama-qwen3-5-9b-prompt-complexity/all_prompt_complexity.csv",
+  "generated_at": "2026-04-25T07:21:23.264589+00:00",
+  "totals": {
+    "items_total": 384,
+    "cohort_count": 3,
+    "complexity": {
+      "assente": 63,
+      "base": 251,
+      "media": 62,
+      "alta": 8
+    },
+    "specificity": {
+      "assente": 64,
+      "bassa": 250,
+      "media": 61,
+      "alta": 9
+    },
+    "prompt_type": {
+      "richiesta_operativa": 164,
+      "altro": 106,
+      "non_prompt": 64,
+      "domanda_generica": 22,
+      "richiesta_didattica": 15,
+      "richiesta_creativa": 13,
+      "richiesta_valutativa": 0,
+      "meta_prompt": 0
+    },
+    "strategies": {
+      "riassunto": 48,
+      "spiegazione": 24,
+      "semplificazione": 16,
+      "traduzione": 11,
+      "ricerca": 10,
+      "mappa_schema": 6,
+      "correzione": 4,
+      "scrittura": 4,
+      "esempio": 4,
+      "lezione": 2,
+      "pianificazione": 2,
+      "quiz_test": 2,
+      "immagine_video": 1
+    },
+    "avg_word_count": 11.263,
+    "avg_request_count": 1.042,
+    "avg_confidence": 0.676,
+    "features": {
+      "has_role": 4,
+      "has_context": 23,
+      "has_constraints": 22,
+      "has_output_format": 10,
+      "has_audience": 22,
+      "has_evaluation_criteria": 1,
+      "has_iterative_instruction": 1
+    },
+    "feature_share": {
+      "has_role": 1.04,
+      "has_context": 5.99,
+      "has_constraints": 5.73,
+      "has_output_format": 2.6,
+      "has_audience": 5.73,
+      "has_evaluation_criteria": 0.26,
+      "has_iterative_instruction": 0.26
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "insegnanti_in_servizio",
+      "label": "Insegnanti in servizio",
+      "items_total": 159,
+      "complexity": {
+        "assente": 26,
+        "base": 79,
+        "media": 46,
+        "alta": 8
+      },
+      "specificity": {
+        "assente": 27,
+        "bassa": 78,
+        "media": 45,
+        "alta": 9
+      },
+      "prompt_type": {
+        "richiesta_operativa": 57,
+        "altro": 44,
+        "non_prompt": 27,
+        "domanda_generica": 6,
+        "richiesta_didattica": 14,
+        "richiesta_creativa": 11,
+        "richiesta_valutativa": 0,
+        "meta_prompt": 0
+      },
+      "strategies": {
+        "riassunto": 9,
+        "ricerca": 4,
+        "spiegazione": 4,
+        "mappa_schema": 3,
+        "semplificazione": 3,
+        "lezione": 2,
+        "pianificazione": 2,
+        "correzione": 2,
+        "quiz_test": 2,
+        "traduzione": 2,
+        "immagine_video": 1,
+        "scrittura": 1
+      },
+      "avg_word_count": 14.597,
+      "avg_request_count": 1.044,
+      "avg_confidence": 0.673,
+      "features": {
+        "has_role": 3,
+        "has_context": 18,
+        "has_constraints": 16,
+        "has_output_format": 8,
+        "has_audience": 18,
+        "has_evaluation_criteria": 0,
+        "has_iterative_instruction": 1
+      },
+      "feature_share": {
+        "has_role": 1.89,
+        "has_context": 11.32,
+        "has_constraints": 10.06,
+        "has_output_format": 5.03,
+        "has_audience": 11.32,
+        "has_evaluation_criteria": 0.0,
+        "has_iterative_instruction": 0.63
+      }
+    },
+    {
+      "cohort": "insegnanti_pre_service",
+      "label": "Insegnanti pre-service",
+      "items_total": 25,
+      "complexity": {
+        "assente": 10,
+        "base": 11,
+        "media": 4,
+        "alta": 0
+      },
+      "specificity": {
+        "assente": 10,
+        "bassa": 11,
+        "media": 4,
+        "alta": 0
+      },
+      "prompt_type": {
+        "richiesta_operativa": 6,
+        "altro": 7,
+        "non_prompt": 10,
+        "domanda_generica": 1,
+        "richiesta_didattica": 0,
+        "richiesta_creativa": 1,
+        "richiesta_valutativa": 0,
+        "meta_prompt": 0
+      },
+      "strategies": {
+        "riassunto": 1
+      },
+      "avg_word_count": 9.84,
+      "avg_request_count": 1.0,
+      "avg_confidence": 0.696,
+      "features": {
+        "has_role": 0,
+        "has_context": 2,
+        "has_constraints": 2,
+        "has_output_format": 1,
+        "has_audience": 2,
+        "has_evaluation_criteria": 1,
+        "has_iterative_instruction": 0
+      },
+      "feature_share": {
+        "has_role": 0.0,
+        "has_context": 8.0,
+        "has_constraints": 8.0,
+        "has_output_format": 4.0,
+        "has_audience": 8.0,
+        "has_evaluation_criteria": 4.0,
+        "has_iterative_instruction": 0.0
+      }
+    },
+    {
+      "cohort": "studenti",
+      "label": "Studenti",
+      "items_total": 200,
+      "complexity": {
+        "assente": 27,
+        "base": 161,
+        "media": 12,
+        "alta": 0
+      },
+      "specificity": {
+        "assente": 27,
+        "bassa": 161,
+        "media": 12,
+        "alta": 0
+      },
+      "prompt_type": {
+        "richiesta_operativa": 101,
+        "altro": 55,
+        "non_prompt": 27,
+        "domanda_generica": 15,
+        "richiesta_didattica": 1,
+        "richiesta_creativa": 1,
+        "richiesta_valutativa": 0,
+        "meta_prompt": 0
+      },
+      "strategies": {
+        "riassunto": 38,
+        "spiegazione": 20,
+        "semplificazione": 13,
+        "traduzione": 9,
+        "ricerca": 6,
+        "esempio": 4,
+        "scrittura": 3,
+        "mappa_schema": 3,
+        "correzione": 2
+      },
+      "avg_word_count": 8.79,
+      "avg_request_count": 1.045,
+      "avg_confidence": 0.677,
+      "features": {
+        "has_role": 1,
+        "has_context": 3,
+        "has_constraints": 4,
+        "has_output_format": 1,
+        "has_audience": 2,
+        "has_evaluation_criteria": 0,
+        "has_iterative_instruction": 0
+      },
+      "feature_share": {
+        "has_role": 0.5,
+        "has_context": 1.5,
+        "has_constraints": 2.0,
+        "has_output_format": 0.5,
+        "has_audience": 1.0,
+        "has_evaluation_criteria": 0.0,
+        "has_iterative_instruction": 0.0
+      }
+    }
+  ],
+  "feature_labels": {
+    "has_role": "Ruolo",
+    "has_context": "Contesto",
+    "has_constraints": "Vincoli",
+    "has_output_format": "Formato output",
+    "has_audience": "Destinatario",
+    "has_evaluation_criteria": "Criteri valutazione",
+    "has_iterative_instruction": "Iterazione"
+  },
+  "examples": [
+    {
+      "level": "alta",
+      "source_name": "insegnanti_attuali_ella06.md",
+      "record_code": "ELLA06",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "SEI UN DOCENTE DI MATEMATICA DEL SECONDO LICEO .....",
+      "prompt_type": "richiesta_didattica",
+      "strategies": [],
+      "word_count": 8,
+      "confidence": 0.9,
+      "reason": "Definisce ruolo, contesto e destinatario esplicitamente."
+    },
+    {
+      "level": "alta",
+      "source_name": "insegnanti_attuali_vini18.md",
+      "record_code": "vini18",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "Tenendo conto che per questo esercizio la lettera “n” minuscola indica il numero di moli, creami un esercizio incentrato su una titolazione acido forte-base forte (HCl e NaOH) per ricavare la concentrazione di un campione incognito di 50 mL di NaOH al quale sono stati aggiunti X moli (nello specifico 29,7 mL di HCl 0,2 molare colato da una buretta). Come indicatore universale viene utilizzata fenolftaleina. Mostrami i passaggi e spiegami le motivazioni di ogni calcolo.",
+      "prompt_type": "altro",
+      "strategies": [],
+      "word_count": 79,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    },
+    {
+      "level": "alta",
+      "source_name": "insegnanti_attuali_ando20.md",
+      "record_code": "ando20",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "1) Please check the following paragraph: [segue paragrafo in inglese da rivedere] 2) Vorrei che inventassi un task didattico per l'insegnamento dell'italiano, pensato per studenti di livello A2 del QCER. Questo task deve essere svolto on line da un insegnante che interagisce a distanza con due apprendenti. Deve essere un task comunicativo che permetta agli apprendenti di interagire tra loro, ma anche di consultare in Rete materiale scritto, orale o video.",
+      "prompt_type": "altro",
+      "strategies": [],
+      "word_count": 71,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    },
+    {
+      "level": "media",
+      "source_name": "studenti_ippa04.md",
+      "record_code": "IPPA04",
+      "cohort": "studenti",
+      "cohort_label": "Studenti",
+      "answer": "Sto lavorando ad un progetto per *materia*, ho bisogno di produrre un'immagine specifica che mostri due ragazzi che guardano verso la telecamera. L'immagine deve essere realistica. I due ragazzi rappresentati sono in un aula universitaria. Il ragazzo sulla sinistra porta gli occhiali, mentre la ragazza sulla destra ha i capelli afro ed è sorridente. Voglio che tu faccia due cose:  - riproducimi tale immagine seguendo quanto ti ho impostato; - condividimi anche il prompt testuale che hai riprodotto per generare l'immagine.",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "word_count": 79,
+      "confidence": 0.95,
+      "reason": "Richiesta articolata con contesto (aula), vincoli (dettagli visivi) e formato di output richiesto."
+    },
+    {
+      "level": "media",
+      "source_name": "insegnanti_futuri_acca02.md",
+      "record_code": "ACCA02",
+      "cohort": "insegnanti_pre_service",
+      "cohort_label": "Insegnanti pre-service",
+      "answer": "se avessi una classe a cui dovrò sottoporre una verifica chiedere: Devo elaborare una verifica per la mia classe di seconda superiore con tema ciclo dell'acqua, sono riuscita a trattare l'argomento e ti sottopongo il programma che ho seguito, elabora un test dove ci sono 4 domande a risposta multipla e 6 a risposta aperta. cerca di essere chiaro nella domande aperte e dammi una possibile griglia di valutazione.",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "word_count": 69,
+      "confidence": 0.95,
+      "reason": "Richiesta articolata con contesto, destinatario, vincoli, formato e criteri di valutazione."
+    },
+    {
+      "level": "media",
+      "source_name": "studenti_esta02.md",
+      "record_code": "ESTA02",
+      "cohort": "studenti",
+      "cohort_label": "Studenti",
+      "answer": "Di solito gli fornisco istruzioni chiare per evitare errori. Ad esempio, se voglio che mi faccia delle domande su un esame, gli inoltro il file da cui studio e scrivo: “Ciao Chat, genera domande specifiche basandoti esclusivamente sugli argomenti presenti nel file che ti ho inviato, senza inventare nulla e con la massima precisione”.",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "word_count": 54,
+      "confidence": 0.95,
+      "reason": "Prompt con obiettivo, contesto (file) e vincoli (esclusione invenzioni)."
+    },
+    {
+      "level": "base",
+      "source_name": "insegnanti_attuali_etti17.md",
+      "record_code": "etti17",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "Elabora un problema di chimica in cui a partire da questi dati si richiede di calcolare questo determinato parametro.",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "word_count": 19,
+      "confidence": 0.95,
+      "reason": "Richiesta breve con obiettivo chiaro ma senza contesto, vincoli o destinatario."
+    },
+    {
+      "level": "base",
+      "source_name": "studenti_tesi11.md",
+      "record_code": "tesi11",
+      "cohort": "studenti",
+      "cohort_label": "Studenti",
+      "answer": "mi potresti correggere grammaticalmente questi appunti presi a lezione e rielaborare il testo con un linguaggio più fluente ?",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [
+        "correzione",
+        "scrittura"
+      ],
+      "word_count": 18,
+      "confidence": 0.95,
+      "reason": "Richiesta breve con obiettivo di correzione e rielaborazione, senza contesto o vincoli."
+    },
+    {
+      "level": "base",
+      "source_name": "studenti_livi06.md",
+      "record_code": "livi06",
+      "cohort": "studenti",
+      "cohort_label": "Studenti",
+      "answer": "puoi spiegarmi quali sono le differenze tra le scale supplementari e le scale del comportamento?",
+      "prompt_type": "domanda_generica",
+      "strategies": [],
+      "word_count": 15,
+      "confidence": 0.95,
+      "reason": "Richiesta breve diretta senza contesto, vincoli o specifiche aggiuntive."
+    },
+    {
+      "level": "assente",
+      "source_name": "insegnanti_attuali_liciaricci7@gmail.com.md",
+      "record_code": "liciaricci7@gmail.com",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "miei scritti in pdf o word o link di siti web didattici",
+      "prompt_type": "non_prompt",
+      "strategies": [],
+      "word_count": 12,
+      "confidence": 1.0,
+      "reason": "La risposta non contiene un esempio di prompt, ma solo un elenco di file."
+    },
+    {
+      "level": "assente",
+      "source_name": "insegnanti_attuali_adei10.md",
+      "record_code": "adei10",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "software di grafica come: Firefly- Topaz labs",
+      "prompt_type": "non_prompt",
+      "strategies": [],
+      "word_count": 7,
+      "confidence": 1.0,
+      "reason": "La risposta elenca software ma non contiene un esempio di prompt."
+    },
+    {
+      "level": "assente",
+      "source_name": "insegnanti_attuali_assi14.md",
+      "record_code": "assi14",
+      "cohort": "insegnanti_in_servizio",
+      "cohort_label": "Insegnanti in servizio",
+      "answer": "sono in fase di  formazione in merito",
+      "prompt_type": "non_prompt",
+      "strategies": [],
+      "word_count": 7,
+      "confidence": 1.0,
+      "reason": "La risposta non fornisce alcun esempio di prompt."
+    }
+  ]
+}

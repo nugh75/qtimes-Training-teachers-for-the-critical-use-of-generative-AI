@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_enzi01.md",
+  "source_name": "insegnanti_attuali_enzi01.md",
+  "title": "Risposta enzi01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "enzi01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:22:08.649527+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "La mia perplessità e' che gli studenti perdano spirito critico,affidandosi all'IA per la produzione di testi scritti,riassunti,traduzioni,ecc...",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "perdano spirito critico, affidandosi all'IA per la produzione di testi scritti, riassunti, traduzioni, ecc...",
+          "reason": "Il partecipante evidenzia il rischio di perdita di spirito critico e di affidamento eccessivo all'IA per attività cognitive."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta esprime esclusivamente perplessità e rischi legati all'uso dell'IA."
+    }
+  ]
+}

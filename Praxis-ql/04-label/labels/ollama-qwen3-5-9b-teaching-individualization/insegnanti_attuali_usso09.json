@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_usso09.md",
+  "source_name": "insegnanti_attuali_usso09.md",
+  "title": "Risposta usso09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "usso09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:54.404027+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Es. per la ricerca di esempi realistici per svolgere degli esrecizi : es ricerca di valori tabulati di parametri biomedici che si prestino bene ad esempi di crosscorrelazione, ricerca di tabelle dei coefficienti di estinzione molare per simulare un esame spettrofotometrico",
+      "practice_present": true,
+      "strategies": [
+        "esercizi_differenziati",
+        "scaffolding_guidato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "ricerca di esempi realistici per svolgere degli esercizi",
+      "confidence": 0.85,
+      "reason": "L'uso dell'IA per reperire dati specifici (valori biomedici, coefficienti di estinzione) serve a costruire esercizi differenziati e simulazioni mirate per supportare il raggiungimento delle competenze."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_rati06.md",
+  "source_name": "insegnanti_attuali_rati06.md",
+  "title": "Risposta rati06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "rati06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:34.166971+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro permettono di personalizzare gli strumenti di apprendimento . Contro: impoverimenti di processi di comprensione del testo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "personalizzare gli strumenti di apprendimento",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di adattare gli strumenti alle esigenze individuali."
+        }
+      ],
+      "cons": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "impoverimenti di processi di comprensione del testo",
+          "reason": "Il partecipante segnala un rischio legato alla qualità del pensiero e della comprensione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (personalizzazione) e uno svantaggio (impoverimento comprensione)."
+    }
+  ]
+}

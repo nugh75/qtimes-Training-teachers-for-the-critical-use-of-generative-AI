@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_usso09.md",
+  "source_name": "insegnanti_attuali_usso09.md",
+  "title": "Risposta usso09",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "usso09",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:13:23.839335+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_operativa": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 30.0,
+  "avg_confidence": 0.9,
+  "items": [
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Supponiamo di voler spiegare la correlazione multivariata, puoi fornirmi in forma tabulare i valori di quattro parametri biologici tra loro più o meni correlati positivamente o negativamente per 20 campioni?",
+      "metrics": {
+        "char_count": 207,
+        "word_count": 30,
+        "sentence_count": 1,
+        "question_mark_count": 1,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "has_role": false,
+      "has_context": true,
+      "has_constraints": true,
+      "has_output_format": true,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.9,
+      "reason": "Richiesta con obiettivo, vincoli (4 parametri, 20 campioni) e formato tabulare."
+    }
+  ]
+}

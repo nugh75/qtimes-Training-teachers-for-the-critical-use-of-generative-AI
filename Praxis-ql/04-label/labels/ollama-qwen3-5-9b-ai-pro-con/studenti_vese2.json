@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_vese2.md",
+  "source_name": "studenti_vese2.md",
+  "title": "Risposta Vese2",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Vese2",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:22.573147+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro velocità, duttilità, capacità di avere tanti modi diversi per studiare l'argomento  Contro affidabilità delle fonti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocità",
+          "reason": "Il partecipante cita la velocità come vantaggio."
+        },
+        {
+          "category": "personalizzazione",
+          "evidence": "duttìlità",
+          "reason": "Il partecipante indica la duttilità come pro."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "capacità di avere tanti modi diversi per studiare l'argomento",
+          "reason": "Il partecipante evidenzia la capacità di offrire molteplici modalità di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "affidabilità delle fonti",
+          "reason": "Il partecipante segnala problemi relativi all'affidabilità delle fonti."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia pro che contro."
+    }
+  ]
+}

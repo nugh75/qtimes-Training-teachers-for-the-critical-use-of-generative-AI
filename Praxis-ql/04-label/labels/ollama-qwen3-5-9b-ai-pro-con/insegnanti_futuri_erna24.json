@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_erna24.md",
+  "source_name": "insegnanti_futuri_erna24.md",
+  "title": "Risposta erna24",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "erna24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:29:41.915166+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Utile per raccogliere informazioni, fare ricerche ecc...bisogna controllare le risposte per non incorrere in errori, conoscere come comunicare i prompt è fondamentale per non ricevere risposte falsate",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "utile per raccogliere informazioni, fare ricerche ecc...",
+          "reason": "Il partecipante evidenzia l'utilità dell'IA nel supporto alla raccolta dati e alla ricerca."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "bisogna controllare le risposte per non incorrere in errori",
+          "reason": "Il partecipante segnala la necessità di verifica per evitare risposte errate."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "conoscere come comunicare i prompt è fondamentale per non ricevere risposte falsate",
+          "reason": "Il partecipante sottolinea il rischio di risposte non accurate se non si gestisce correttamente l'interazione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio operativo (ricerca) sia rischi legati all'affidabilità e alla gestione dell'interazione."
+    }
+  ]
+}

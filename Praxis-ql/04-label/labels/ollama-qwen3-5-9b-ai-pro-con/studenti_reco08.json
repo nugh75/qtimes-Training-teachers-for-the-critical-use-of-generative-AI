@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_reco08.md",
+  "source_name": "studenti_reco08.md",
+  "title": "Risposta Reco08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Reco08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:55.703665+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "I pro sono che facilità il lavoro e velocizza il processo, i contro sono che le persone non ci mettono più impegno nelle cose che fanno",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilità il lavoro e velocizza il processo",
+          "reason": "Il partecipante evidenzia il vantaggio della velocità e facilitazione del lavoro."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "le persone non ci mettono più impegno nelle cose che fanno",
+          "reason": "Il partecipante segnala una riduzione dell'impegno personale e della dedizione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un pro che un contro."
+    }
+  ]
+}

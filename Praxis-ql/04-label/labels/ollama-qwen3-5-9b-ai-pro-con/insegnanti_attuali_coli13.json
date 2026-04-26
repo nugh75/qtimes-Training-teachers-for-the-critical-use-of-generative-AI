@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_coli13.md",
+  "source_name": "insegnanti_attuali_coli13.md",
+  "title": "Risposta Coli13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Coli13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:06.986913+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro relativi all’utilizzo della IA riguardano un valido supporto nella gestione delle pratiche didattiche, con un consistente risparmio dei tempi nella predisposizione delle lezioni, che risultano più coinvolgenti e stimolanti per gli alunni. I contro implicano il rischio dì un’eccessiva autonomazione del processo di insegnamento-apprendimento.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "supporto nella gestione delle pratiche didattiche",
+          "reason": "L'IA è vista come un valido supporto per la gestione operativa."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "lezioni, che risultano più coinvolgenti e stimolanti",
+          "reason": "L'uso dell'IA permette di creare lezioni più stimolanti per gli alunni."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "consistente risparmio dei tempi",
+          "reason": "Viene evidenziato un risparmio significativo di tempo nella predisposizione."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischio di un'eccessiva autonomazione del processo di insegnamento-apprendimento",
+          "reason": "Il partecipante teme che l'IA possa sostituire il ruolo attivo dell'insegnante nel processo educativo."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi e di coinvolgimento sia un rischio specifico legato all'autonomia del processo."
+    }
+  ]
+}

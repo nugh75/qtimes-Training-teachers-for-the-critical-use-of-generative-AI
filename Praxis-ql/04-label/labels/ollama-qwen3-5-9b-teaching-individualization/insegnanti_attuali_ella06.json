@@ -1,0 +1,32 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ella06.md",
+  "source_name": "insegnanti_attuali_ella06.md",
+  "title": "Risposta ELLA06",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ELLA06",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:56.407204+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "CREARE VERIFICHE PARALLELE CHE COMPRENDANO LE STESSE COMPETENZE . PERCORSI FACILITATI PER BES. PROGETTARE UDA.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa",
+        "valutazione_formativa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "CREARE VERIFICHE PARALLELE CHE COMPRENDANO LE STESSE COMPETENZE. PERCORSI FACILITATI PER BES.",
+      "confidence": 0.95,
+      "reason": "La risposta descrive esplicitamente la creazione di verifiche parallele (livelli di difficoltà diversi) e percorsi facilitati per BES, mirando al raggiungimento delle stesse competenze."
+    }
+  ]
+}

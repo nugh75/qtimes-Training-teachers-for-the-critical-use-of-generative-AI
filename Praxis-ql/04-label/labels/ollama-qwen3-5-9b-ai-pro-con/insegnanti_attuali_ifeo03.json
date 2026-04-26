@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ifeo03.md",
+  "source_name": "insegnanti_attuali_ifeo03.md",
+  "title": "Risposta ifeo03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ifeo03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:29.147951+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: aiuta a capire meglio i concetti di base, per cui è di grande ausilio ai ragazzi con qualche difficoltà di apprendimento. Contro: riduce lo sprone alla creatività e all'approfondimento e non aiuta a sviluppare il pensiero critico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta a capire meglio i concetti di base",
+          "reason": "Il partecipante evidenzia il vantaggio di facilitare la comprensione dei concetti fondamentali."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "di grande ausilio ai ragazzi con qualche difficoltà di apprendimento",
+          "reason": "Il partecipante indica l'ausilio specifico per studenti con difficoltà di apprendimento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "riduce lo sprone alla creatività",
+          "reason": "Il partecipante segnala che l'uso dell'IA diminuisce la spinta alla creatività."
+        },
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non aiuta a sviluppare il pensiero critico",
+          "reason": "Il partecipante nota che l'IA non favorisce lo sviluppo del pensiero critico."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia un beneficio (comprensione e inclusione) sia dei rischi (riduzione creatività e pensiero critico)."
+    }
+  ]
+}

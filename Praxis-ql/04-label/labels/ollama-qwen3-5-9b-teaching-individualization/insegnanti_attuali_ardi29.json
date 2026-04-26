@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ardi29.md",
+  "source_name": "insegnanti_attuali_ardi29.md",
+  "title": "Risposta ARDI29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ARDI29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:45:27.233451+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "La utilizzo per analizzare il rendimento degli studenti identificando i punti di forza e i punti di debolezza, personalizzare il materiale didattico e strategie di insegnamento.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "valutazione_formativa",
+        "feedback_mirato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "analizzare il rendimento degli studenti identificando i punti di forza e i punti di debolezza",
+      "confidence": 0.95,
+      "reason": "L'uso dell'IA per analizzare il rendimento e identificare punti di forza/debolezza mira a differenziare i percorsi per il raggiungimento delle competenze."
+    }
+  ]
+}

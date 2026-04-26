@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_luca14.md",
+  "source_name": "insegnanti_attuali_luca14.md",
+  "title": "Risposta luca14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "luca14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:37.880650+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro può migliorare una situazione già creata , i contro che viene definitivamente sostituita alle capacità creative di ognuno di noi.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "può migliorare una situazione già creata",
+          "reason": "Il partecipante indica che l'IA può migliorare situazioni esistenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "viene definitivamente sostituita alle capacità creative di ognuno di noi",
+          "reason": "Il partecipante segnala il rischio di sostituzione delle capacità creative individuali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (miglioramento) sia un rischio (sostituzione creativa)."
+    }
+  ]
+}

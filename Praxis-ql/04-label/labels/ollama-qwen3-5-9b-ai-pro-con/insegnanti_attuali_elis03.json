@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_elis03.md",
+  "source_name": "insegnanti_attuali_elis03.md",
+  "title": "Risposta Elis03",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Elis03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:29.461981+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'intelligenza artificiale può essere un supporto alla didattica, quindi anche all'educazione, ma non può sostituire unicamente la persona. Nella mia piccola esperienza, ho notato che molti docenti e/o studenti ne fanno un uso improprio, pertanto non sfruttano le loro capacità logico-cognitive. Bisognerebbe informarsi e formarsi sull'AI prima di poterla utilizzate adeguatamente.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "L'intelligenza artificiale può essere un supporto alla didattica",
+          "reason": "Il partecipante indica che l'IA funge da ausilio per la didattica."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "non sfruttano le loro capacità logico-cognitive",
+          "reason": "Il partecipante segnala che l'uso improprio porta a non utilizzare le proprie capacità di pensiero."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "non può sostituire unicamente la persona",
+          "reason": "Il partecipante evidenzia il rischio di sostituire l'interazione umana."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un beneficio (supporto) sia dei rischi (delega cognitiva, sostituzione della persona)."
+    }
+  ]
+}

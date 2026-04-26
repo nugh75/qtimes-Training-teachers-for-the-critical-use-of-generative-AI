@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ileo23.md",
+  "source_name": "insegnanti_attuali_ileo23.md",
+  "title": "Risposta Ileo23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Ileo23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:31.763727+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro comprendere meglio la didattica i contro farne un abuso",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "comprendere meglio la didattica",
+          "reason": "Il partecipante indica che l'IA aiuta a comprendere meglio la didattica."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "farne un abuso",
+          "reason": "Il partecipante segnala il rischio di un uso eccessivo o dipendente dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

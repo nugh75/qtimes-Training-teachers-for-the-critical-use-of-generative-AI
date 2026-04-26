@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_dini08.md",
+  "source_name": "studenti_dini08.md",
+  "title": "Risposta Dini08",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Dini08",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:37.423947+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Tanti pro ci sono e i contro è che puoi essere sgamato dai prof",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "altro",
+          "evidence": "Tanti pro ci sono",
+          "reason": "Il partecipante afferma genericamente l'esistenza di molti vantaggi senza specificare quali."
+        }
+      ],
+      "cons": [
+        {
+          "category": "plagio_autorialita",
+          "evidence": "puoi essere sgamato dai prof",
+          "reason": "Il partecipante indica il rischio di essere scoperti dagli insegnanti nell'uso dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca genericamente dei pro e un rischio specifico legato alla rilevazione dell'uso dell'IA."
+    }
+  ]
+}

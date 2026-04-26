@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_aldi28.md",
+  "source_name": "insegnanti_futuri_aldi28.md",
+  "title": "Risposta Aldi28",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Aldi28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:58.776521+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: facilitazione del lavoro; contro: -",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilitazione del lavoro",
+          "reason": "Il partecipante indica che l'IA facilita il lavoro, suggerendo un vantaggio in termini di efficienza."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro (assente)."
+    }
+  ]
+}

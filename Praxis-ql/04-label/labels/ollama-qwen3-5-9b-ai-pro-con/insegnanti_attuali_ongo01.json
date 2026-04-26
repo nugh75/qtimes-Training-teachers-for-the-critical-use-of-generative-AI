@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ongo01.md",
+  "source_name": "insegnanti_attuali_ongo01.md",
+  "title": "Risposta ongo01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ongo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:26.108897+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Nello stimolare i miei studenti nella creazione di testi o prompt man mano sempre più accurati e precisi per trasformare le loro parole in immagini o libri allustrati",
+      "stance": "solo_pro",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "creazione di testi o prompt man mano sempre più accurati e precisi per trasformare le loro parole in immagini o libri illustrati",
+          "reason": "Il partecipante evidenzia la capacità dell'IA di supportare la creazione di materiali didattici complessi (immagini, libri illustrati) partendo dai testi degli studenti."
+        }
+      ],
+      "cons": [],
+      "pro_count": 1,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un beneficio legato alla produzione di materiali e alla stimolazione creativa."
+    }
+  ]
+}

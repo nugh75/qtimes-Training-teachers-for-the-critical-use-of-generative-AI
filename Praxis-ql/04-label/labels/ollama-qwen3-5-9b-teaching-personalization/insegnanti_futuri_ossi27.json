@@ -1,0 +1,27 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_ossi27.md",
+  "source_name": "insegnanti_futuri_ossi27.md",
+  "title": "Risposta Ossi27",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Ossi27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:44:17.940349+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "Preparo alcune attività con l'aiuto di chatgpt",
+      "practice_present": false,
+      "strategies": [],
+      "target": "non_specificato",
+      "ai_role": "non_specificato",
+      "evidence": "Preparo alcune attività con l'aiuto di chatgpt",
+      "confidence": 0.95,
+      "reason": "La risposta descrive un uso generico dell'IA per preparare attività, senza menzionare strategie di personalizzazione, differenziazione o coltivazione delle potenzialità individuali come richiesto dalla definizione di personalizzazione."
+    }
+  ]
+}

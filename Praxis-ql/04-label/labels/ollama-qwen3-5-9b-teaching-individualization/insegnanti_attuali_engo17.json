@@ -1,0 +1,31 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_engo17.md",
+  "source_name": "insegnanti_attuali_engo17.md",
+  "title": "Risposta Engo17",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Engo17",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:03.308919+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando test a risposte multiple che usino le strategie compensative e dispensative per diversificare l'offerta. Partendo da un test precostituito per normodotati CHIEDO DI ELABORARNE una o più versioni ridotte Che devono comunque essere monitorate e avvalorate da me.",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "semplificazione",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "CHIEDO DI ELABORARNE una o più versioni ridotte",
+      "confidence": 0.95,
+      "reason": "L'insegnante utilizza l'IA per creare versioni semplificate e ridotte di test, integrando strategie compensative e dispensative per diversificare l'offerta formativa."
+    }
+  ]
+}

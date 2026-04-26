@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_21giugno2025.md",
+  "source_name": "insegnanti_attuali_21giugno2025.md",
+  "title": "Risposta 21giugno2025",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "21giugno2025",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:19:34.079108+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Facilita, arricchisce, ma al tempo stesso limita la creatività",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "Facilita, arricchisce",
+          "reason": "Il partecipante indica che l'IA facilita e arricchisce l'esperienza educativa."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "limita la creatività",
+          "reason": "Il partecipante segnala che l'uso dell'IA limita la creatività."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia un beneficio ('facilita, arricchisce') sia un rischio ('limita la creatività')."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_sser26.md",
+  "source_name": "insegnanti_futuri_sser26.md",
+  "title": "Risposta sser26",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "sser26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:27.947641+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per declinare modelli standard in relazione a specifici contesti. Fornito un modello, l'ia può proporre e fornire spunti interessanti, che poi possono essere implementati.",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "suggerimento_strategie",
+      "evidence": "l'ia può proporre e fornire spunti interessanti, che poi possono essere implementati",
+      "confidence": 0.85,
+      "reason": "L'IA viene utilizzata per declinare modelli standard in contesti specifici, fornendo spunti per differenziare l'insegnamento."
+    }
+  ]
+}

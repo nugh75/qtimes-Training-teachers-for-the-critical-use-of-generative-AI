@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_tesi11.md",
+  "source_name": "studenti_tesi11.md",
+  "title": "Risposta tesi11",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "tesi11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:33.787376+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "può essere di grande aiuto ma si rischia di sostituire completamente il lavoro/studio della mente umana o si può diventare pigri",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "grande aiuto",
+          "reason": "Il partecipante indica che l'IA può essere di grande aiuto, implicando un vantaggio nell'efficienza o supporto."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "sostituire completamente il lavoro/studio della mente umana",
+          "reason": "Il partecipante esprime il rischio che l'IA prenda il posto del pensiero umano."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "diventare pigri",
+          "reason": "Il partecipante segnala il rischio di sviluppare una pigrizia o dipendenza dall'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio ('grande aiuto') e due rischi distinti (sostituzione del lavoro mentale e pigrizia)."
+    }
+  ]
+}

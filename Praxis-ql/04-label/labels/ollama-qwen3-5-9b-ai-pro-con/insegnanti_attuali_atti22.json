@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_atti22.md",
+  "source_name": "insegnanti_attuali_atti22.md",
+  "title": "Risposta atti22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "atti22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:29.416450+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono il risparmio di tempo e la possibilità di predisporre attività diversificate, funzionali e innovative.  I contro riguardano il rischio di eccessiva standardizzazione di alcune pratiche come ad esempio quelle valutative e tutte quelle che limitano il pensiero creativo e divergente. L'IA costituisce un supporto alla dittattica e al processo di insegnamento-apprendimento e mai un sostituto.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        },
+        {
+          "category": "produzione_materiali",
+          "evidence": "possibilità di predisporre attività diversificate, funzionali e innovative",
+          "reason": "Il partecipante evidenzia la capacità di creare materiali e attività variate."
+        }
+      ],
+      "cons": [
+        {
+          "category": "standardizzazione",
+          "evidence": "rischio di eccessiva standardizzazione di alcune pratiche",
+          "reason": "Il partecipante segnala il pericolo di uniformare le procedure."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "limitano il pensiero creativo e divergente",
+          "reason": "Il partecipante indica che l'IA può ostacolare la creatività."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca chiaramente sia benefici operativi e di innovazione sia rischi legati alla standardizzazione e alla creatività."
+    }
+  ]
+}

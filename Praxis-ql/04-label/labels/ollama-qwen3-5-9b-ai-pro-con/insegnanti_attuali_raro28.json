@@ -1,0 +1,49 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_raro28.md",
+  "source_name": "insegnanti_attuali_raro28.md",
+  "title": "Risposta raro28",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "raro28",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:32.561180+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L'aspetto positivo è la velocità con cui si possono creare contenuti idonei alla classe o ai singoli alunni ottenendo un approccio più inclusivo; quello negativo potrebbe essere la dipendenza eccessiva che porta ad un inaridimento della creatività, inoltre è necessario un controllo di quanto proposto in quanto potrebbero verificarsi errori o equivoci",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "velocità con cui si possono creare contenuti idonei",
+          "reason": "Il partecipante evidenzia la rapidità nella creazione di materiali didattici."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "ottenendo un approccio più inclusivo",
+          "reason": "Il partecipante cita l'approccio inclusivo come beneficio derivante dai contenuti generati."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "dipendenza eccessiva che porta ad un inaridimento della creatività",
+          "reason": "Il partecipante segnala che l'eccessiva dipendenza riduce la creatività."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "potrebbero verificarsi errori o equivoci",
+          "reason": "Il partecipante avverte il rischio di contenuti inaccurati o fuorvianti."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente sia vantaggi (velocità, inclusione) sia svantaggi (dipendenza, errori)."
+    }
+  ]
+}

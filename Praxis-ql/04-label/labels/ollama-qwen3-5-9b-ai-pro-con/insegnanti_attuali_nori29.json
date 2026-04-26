@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_nori29.md",
+  "source_name": "insegnanti_attuali_nori29.md",
+  "title": "Risposta Nori29",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Nori29",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:11.589940+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Riduzione dei tempi di esecuzione del compito, riduzione dei tempi di accesso al materiale. Uso ed abuso che rende lo studente poco autonomo.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Riduzione dei tempi di esecuzione del compito",
+          "reason": "Il partecipante evidenzia il vantaggio della velocità nell'esecuzione."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "riduzione dei tempi di accesso al materiale",
+          "reason": "Il partecipante segnala un vantaggio legato alla facilità di reperire risorse."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Uso ed abuso che rende lo studente poco autonomo",
+          "reason": "Il partecipante indica il rischio di perdita di autonomia e dipendenza."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi che svantaggi legati all'autonomia."
+    }
+  ]
+}

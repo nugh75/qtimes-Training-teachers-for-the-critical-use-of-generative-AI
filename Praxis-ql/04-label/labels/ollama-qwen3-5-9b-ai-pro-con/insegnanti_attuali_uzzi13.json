@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_uzzi13.md",
+  "source_name": "insegnanti_attuali_uzzi13.md",
+  "title": "Risposta uzzi13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "uzzi13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:25.036419+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che si riescono ad ottenere facilmente molte informazioni in pochissimo tempo. I contro che le informazioni vanno sempre e comunque verificate e che queste spesso, non sono coerenti al 100%",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "si riescono ad ottenere facilmente molte informazioni in pochissimo tempo",
+          "reason": "Il partecipante evidenzia la rapidità di accesso alle informazioni."
+        }
+      ],
+      "cons": [
+        {
+          "category": "affidabilita_errori",
+          "evidence": "le informazioni vanno sempre e comunque verificate",
+          "reason": "Il partecipante segnala la necessità di verifica a causa di possibili errori."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "queste spesso, non sono coerenti al 100%",
+          "reason": "Il partecipante indica una mancanza di coerenza o accuratezza nelle risposte."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio (velocità) e due svantaggi (necessità di verifica e incoerenza)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_roni24.md",
+  "source_name": "insegnanti_attuali_roni24.md",
+  "title": "Risposta roni24",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "roni24",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:55.915856+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "CONTRO: L’AI rischia di sostituirsi agli studenti in alcune pratiche che servono a metabolizzare gli apprendimenti e ad acquisire competenze permanenti come lo svolgimento dei compiti PRO: l’esperienza dell’apprendimento è sicuramente più accattivante per il discente, ma secondo me sarà superficiale e caratterizzato da basi poco solide, pertanto anche questo aspetto diventa un CONTRO",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "l'esperienza dell'apprendimento è sicuramente più accattivante per il discente",
+          "reason": "Il partecipante evidenzia che l'IA rende l'esperienza più accattivante."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "L'AI rischia di sostituirsi agli studenti in alcune pratiche che servono a metabolizzare gli apprendimenti",
+          "reason": "Il partecipante segnala il rischio di sostituzione dell'attività metabolizzante degli apprendimenti."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "sarà superficiale e caratterizzato da basi poco solide",
+          "reason": "Il partecipante teme che l'apprendimento basato sull'IA sia superficiale e privo di basi solide."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca sia un pro (coinvolgimento) sia due contro (delega cognitiva e superficialità)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_solo11.md",
+  "source_name": "studenti_solo11.md",
+  "title": "Risposta Solo11",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Solo11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:37:28.056294+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro che aiuta e diminuisce il tempo, contro che a volte si affida troppo a questa e si perde il senso di imparare delle cose",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "aiuta e diminuisce il tempo",
+          "reason": "Il partecipante evidenzia il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "si affida troppo a questa",
+          "reason": "Il partecipante segnala il rischio di un eccessivo affidamento all'IA."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "si perde il senso di imparare delle cose",
+          "reason": "Il partecipante indica la perdita del senso di apprendimento attivo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e due contro distinti."
+    }
+  ]
+}

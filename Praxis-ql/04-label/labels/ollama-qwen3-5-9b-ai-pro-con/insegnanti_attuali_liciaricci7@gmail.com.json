@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_liciaricci7@gmail.com.md",
+  "source_name": "insegnanti_attuali_liciaricci7@gmail.com.md",
+  "title": "Risposta liciaricci7@gmail.com",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "liciaricci7@gmail.com",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:29.560411+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "per il docente solo pro per realizzare materiali didattici individualizzati e personalizzati; per gli alunni c'è il rischio di addormentare le menti non avendo ancora sviluppato la competenza all'uso critico",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "realizzare materiali didattici individualizzati e personalizzati",
+          "reason": "Il partecipante cita la capacità dell'IA di creare risorse su misura."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "rischio di addormentare le menti non avendo ancora sviluppato la competenza all'uso critico",
+          "reason": "Il partecipante evidenzia il pericolo di atrofizzare il pensiero critico degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca un beneficio specifico per i docenti e un rischio specifico per gli alunni."
+    }
+  ]
+}

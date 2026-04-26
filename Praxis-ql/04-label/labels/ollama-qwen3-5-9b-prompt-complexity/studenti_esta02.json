@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_esta02.md",
+  "source_name": "studenti_esta02.md",
+  "title": "Risposta ESTA02",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ESTA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:15:32.198075+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "media": 1
+  },
+  "specificity_counts": {
+    "media": 1
+  },
+  "prompt_type_counts": {
+    "richiesta_operativa": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 54.0,
+  "avg_confidence": 0.95,
+  "items": [
+    {
+      "index": 3,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Di solito gli fornisco istruzioni chiare per evitare errori. Ad esempio, se voglio che mi faccia delle domande su un esame, gli inoltro il file da cui studio e scrivo: “Ciao Chat, genera domande specifiche basandoti esclusivamente sugli argomenti presenti nel file che ti ho inviato, senza inventare nulla e con la massima precisione”.",
+      "metrics": {
+        "char_count": 335,
+        "word_count": 54,
+        "sentence_count": 2,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "media",
+      "specificity_level": "media",
+      "prompt_type": "richiesta_operativa",
+      "strategies": [],
+      "has_role": false,
+      "has_context": true,
+      "has_constraints": true,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.95,
+      "reason": "Prompt con obiettivo, contesto (file) e vincoli (esclusione invenzioni)."
+    }
+  ]
+}

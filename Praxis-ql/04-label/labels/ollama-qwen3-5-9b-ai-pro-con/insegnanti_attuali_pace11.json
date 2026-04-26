@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_pace11.md",
+  "source_name": "insegnanti_attuali_pace11.md",
+  "title": "Risposta pace11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "pace11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:26:08.060326+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Dipende da quanto utilizzo se ne fa. Come per qualsiasi strategia non bisogna abusarne",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.9,
+      "reason": "La risposta è generica e non elenca benefici o rischi specifici, limitandosi a un avvertimento sull'abuso senza categorizzare pro o contro."
+    }
+  ]
+}

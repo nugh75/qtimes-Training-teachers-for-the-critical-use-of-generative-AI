@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_vito21.md",
+  "source_name": "studenti_vito21.md",
+  "title": "Risposta Vito21",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Vito21",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:38:24.078844+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro si apprende contro fa diminuire la fantasia",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "si apprende",
+          "reason": "Il partecipante indica che l'uso dell'IA favorisce l'apprendimento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "fa diminuire la fantasia",
+          "reason": "Il partecipante segnala che l'uso dell'IA riduce la fantasia."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro ('si apprende') e un contro ('fa diminuire la fantasia')."
+    }
+  ]
+}

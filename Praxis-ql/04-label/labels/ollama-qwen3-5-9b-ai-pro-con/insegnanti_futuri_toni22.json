@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_toni22.md",
+  "source_name": "insegnanti_futuri_toni22.md",
+  "title": "Risposta Toni22",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Toni22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:00.635616+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: rendere più semplice e interattivo l'apprendimento. Contro: arrivare a trascurare le altri fonti di informazioni.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "rendere più semplice e interattivo l'apprendimento",
+          "reason": "Il partecipante evidenzia l'aumento dell'interattività e della semplicità come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "arrivare a trascurare le altri fonti di informazioni",
+          "reason": "Il partecipante segnala il rischio di ignorare altre fonti a favore dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

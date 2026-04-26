@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_poli03.md",
+  "source_name": "insegnanti_futuri_poli03.md",
+  "title": "Risposta Poli03",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "Poli03",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:43.681771+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Contro: utilizzo improprio da parte degli studenti. Viene utilizzata per fare i compiti, verifiche ed  esami senza studiare e/o capire e/o ragionare.  Pro: velocizzare alcuni iter e focalizzarsi sull'obiettivo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "velocizzare alcuni iter",
+          "reason": "Il partecipante cita la capacità di accelerare i processi."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "utilizzata per fare i compiti, verifiche ed esami senza studiare e/o capire e/o ragionare",
+          "reason": "Il partecipante evidenzia il rischio di sostituire lo studio e il ragionamento con l'uso strumentale dell'IA."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

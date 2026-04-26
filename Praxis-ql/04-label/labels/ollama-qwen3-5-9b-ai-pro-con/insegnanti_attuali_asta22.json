@@ -1,0 +1,54 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_asta22.md",
+  "source_name": "insegnanti_attuali_asta22.md",
+  "title": "Risposta asta22",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "asta22",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:20:25.110076+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "L' IA può aiutare nelle vasi fasi della didattica, dalla progettazione, all'attuazione, alla valutazione degli studenti. Può essere utili a smaltire il lavoro e a personalizzare efficacemente l'apprendimento di ogni singolo alunno: Per contro, a mio avviso, può non aiutare nell'empatia e nel rapporto con i ragazzi e, negli stessa, potrebbe condurli ad uno sbagliato utilizzo della tecnologia.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "personalizzare efficacemente l'apprendimento di ogni singolo alunno",
+          "reason": "Il partecipante cita la capacità di adattare l'apprendimento a ogni studente."
+        },
+        {
+          "category": "efficienza_tempo",
+          "evidence": "aiutare a smaltire il lavoro",
+          "reason": "Il partecipante indica un vantaggio nel ridurre il carico di lavoro."
+        },
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiutare nelle varie fasi della didattica, dalla progettazione, all'attuazione, alla valutazione",
+          "reason": "Il partecipante evidenzia il supporto in tutte le fasi del processo educativo."
+        }
+      ],
+      "cons": [
+        {
+          "category": "riduzione_relazione",
+          "evidence": "può non aiutare nell'empatia e nel rapporto con i ragazzi",
+          "reason": "Il partecipante segnala un rischio per l'empatia e la relazione educativa."
+        },
+        {
+          "category": "dipendenza",
+          "evidence": "potrebbe condurli ad uno sbagliato utilizzo della tecnologia",
+          "reason": "Il partecipante teme un uso improprio che porta a una dipendenza o cattiva gestione della tecnologia."
+        }
+      ],
+      "pro_count": 3,
+      "con_count": 2,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente sia vantaggi operativi e pedagogici sia rischi relazionali e di utilizzo."
+    }
+  ]
+}

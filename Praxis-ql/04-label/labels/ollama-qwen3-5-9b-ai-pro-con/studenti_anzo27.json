@@ -1,0 +1,27 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_anzo27.md",
+  "source_name": "studenti_anzo27.md",
+  "title": "Risposta Anzo27",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Anzo27",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:34.280170+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 8,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Il pro è avere un sistema che possa rispondere anche ai dubbi più semplici. Il contro è ovviamente l’utilizzo improprio dello strumento per fare le cose al posto nostro come la produzione di un testo o un lavoro",
+      "stance": "nessuno",
+      "pros": [],
+      "cons": [],
+      "pro_count": 0,
+      "con_count": 0,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}

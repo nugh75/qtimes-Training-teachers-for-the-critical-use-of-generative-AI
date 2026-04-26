@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_handa11.md",
+  "source_name": "insegnanti_attuali_handa11.md",
+  "title": "Risposta Handa11",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Handa11",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:23:01.892982+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro:Facilitazione ricerche; contro: manipolazione psichica",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "Facilitazione ricerche",
+          "reason": "Il partecipante indica che l'IA facilita le attività di ricerca."
+        }
+      ],
+      "cons": [
+        {
+          "category": "privacy_etica",
+          "evidence": "manipolazione psichica",
+          "reason": "Il partecipante segnala il rischio di manipolazione psicologica come contro."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

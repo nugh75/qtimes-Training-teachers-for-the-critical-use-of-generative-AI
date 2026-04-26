@@ -1,0 +1,74 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_como14.md",
+  "source_name": "insegnanti_attuali_como14.md",
+  "title": "Risposta como14",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "como14",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:10.829039+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono: apprendimento personalizzato, feedback immediato, accessibilità e gamification. I contro sono: dipendenza dalla tecnologia, privacy e sicurezza dati, disuguaglianza digitale, mancanza di empatia e bias algoritmico.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "personalizzazione",
+          "evidence": "apprendimento personalizzato",
+          "reason": "Il partecipante cita la capacità di adattare l'insegnamento alle esigenze individuali."
+        },
+        {
+          "category": "feedback_valutazione",
+          "evidence": "feedback immediato",
+          "reason": "Il partecipante evidenzia il vantaggio di ricevere risposte rapide."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "accessibilità",
+          "reason": "Il partecipante menziona il miglioramento dell'accesso alle risorse educative."
+        },
+        {
+          "category": "creativita_coinvolgimento",
+          "evidence": "gamification",
+          "reason": "Il partecipante indica l'uso di elementi ludici per aumentare l'engagement."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "dipendenza dalla tecnologia",
+          "reason": "Il partecipante segnala il rischio di eccessivo affidamento agli strumenti tecnologici."
+        },
+        {
+          "category": "privacy_etica",
+          "evidence": "privacy e sicurezza dati",
+          "reason": "Il partecipante evidenzia i rischi legati alla protezione delle informazioni personali."
+        },
+        {
+          "category": "disuguaglianze",
+          "evidence": "disuguaglianza digitale",
+          "reason": "Il partecipante cita il divario di accesso o competenza tra diversi gruppi sociali."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "mancanza di empatia",
+          "reason": "Il partecipante nota la perdita della componente umana ed empatica nell'interazione."
+        },
+        {
+          "category": "affidabilita_errori",
+          "evidence": "bias algoritmico",
+          "reason": "Il partecipante indica la presenza di pregiudizi intrinseci negli algoritmi che possono distorcere i risultati."
+        }
+      ],
+      "pro_count": 4,
+      "con_count": 5,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente sia una serie di vantaggi che una serie di svantaggi specifici."
+    }
+  ]
+}

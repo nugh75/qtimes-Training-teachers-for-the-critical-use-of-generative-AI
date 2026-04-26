@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ista13.md",
+  "source_name": "insegnanti_attuali_ista13.md",
+  "title": "Risposta ista13",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ista13",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:24:05.827863+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I contro potrebbero essere che i ragazzi dato un compito per evitare di ragionarci la utilizzino come scorciatoia",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "evitare di ragionarci la utilizzino come scorciatoia",
+          "reason": "Il partecipante evidenzia il rischio che gli studenti usino l'IA per evitare il processo di ragionamento."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta menziona esclusivamente un aspetto negativo (uso come scorciatoia)."
+    }
+  ]
+}

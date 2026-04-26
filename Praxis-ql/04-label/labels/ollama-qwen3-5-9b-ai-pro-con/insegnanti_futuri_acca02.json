@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_acca02.md",
+  "source_name": "insegnanti_futuri_acca02.md",
+  "title": "Risposta ACCA02",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "ACCA02",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:53.786142+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i pro sono tantissimi, se usata nel modo corretto aiuta sia il docente che gli alunni, bisogna però saperla usare, quindi i contro purtroppo sono tanti, perchè semplifica anche troppo la vita degli studenti",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "supporto_comprensione",
+          "evidence": "aiuta sia il docente che gli alunni",
+          "reason": "Il partecipante indica che l'IA supporta sia i docenti che gli studenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "semplifica anche troppo la vita degli studenti",
+          "reason": "Il partecipante segnala che l'IA riduce lo sforzo cognitivo degli studenti semplificando eccessivamente il loro percorso."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente sia i vantaggi ('pro') sia i svantaggi ('contro') dell'uso dell'IA."
+    }
+  ]
+}

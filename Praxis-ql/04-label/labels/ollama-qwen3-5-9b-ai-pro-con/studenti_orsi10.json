@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_orsi10.md",
+  "source_name": "studenti_orsi10.md",
+  "title": "Risposta orsi10",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "orsi10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:36:27.317280+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro: facilita le richieste Contro: ci abituiamo a cercare tutto online senza consultare manuali cartacei o altre fonti cartacee",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "facilita le richieste",
+          "reason": "Il partecipante indica che l'IA rende più agevoli le richieste, implicando un guadagno di efficienza."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "ci abituiamo a cercare tutto online senza consultare manuali cartacei o altre fonti cartacee",
+          "reason": "Il partecipante evidenzia il rischio di un'abitudine eccessiva alla ricerca online a discapito delle fonti tradizionali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un pro e un contro."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_ntis26.md",
+  "source_name": "insegnanti_attuali_ntis26.md",
+  "title": "Risposta ntis26",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "ntis26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:47:03.618329+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Per la traduzione dei compiti in lingua inglese per gli studenti con un BES linguistico in quanto stranieri",
+      "practice_present": true,
+      "strategies": [
+        "scaffolding_guidato",
+        "supporti_bes_dsa"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "traduzione dei compiti in lingua inglese per gli studenti con un BES linguistico",
+      "confidence": 0.95,
+      "reason": "L'uso dell'IA per tradurre compiti specifici per studenti stranieri con BES linguistico configura una strategia di individualizzazione tramite semplificazione linguistica e supporto mirato a un sottogruppo."
+    }
+  ]
+}

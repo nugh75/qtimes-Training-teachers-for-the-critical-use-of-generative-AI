@@ -1,0 +1,30 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_nati19.md",
+  "source_name": "insegnanti_futuri_nati19.md",
+  "title": "Risposta nati19",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "nati19",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:48:21.598122+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "Creando riassunti di alcuni argomenti ed esercitazioni",
+      "practice_present": true,
+      "strategies": [
+        "semplificazione",
+        "esercizi_differenziati"
+      ],
+      "target": "sottogruppo",
+      "ai_role": "generazione_materiali",
+      "evidence": "Creando riassunti di alcuni argomenti ed esercitazioni",
+      "confidence": 0.95,
+      "reason": "La creazione di riassunti e esercitazioni implica la semplificazione dei contenuti e la differenziazione degli esercizi per supportare il raggiungimento delle competenze."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "teaching_individualization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_etti10.md",
+  "source_name": "insegnanti_attuali_etti10.md",
+  "title": "Risposta etti10",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "etti10",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:46:18.746338+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In che modo utilizzi l’intelligenza artificiale per individualizzare l’insegnamento? (Nota: l’individualizzazione si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei percorsi di insegnamento.)",
+      "answer": "l'intelligenza artificiale mi permette di creare un'esperienza di apprendimento più personalizzata, efficiente ed efficace, mettendo lo studente al centro del processo educativo. Invece di un approccio \"taglia unica\", posso adattarlo alle sue specifiche necessità e aiutarlo a raggiungere gli obiettivi di apprendimento nel modo migliore per lui.  Quindi nello specifico: contenuti su misura; ritmo di apprendimento adattabile; valutazione individualizzata...",
+      "practice_present": true,
+      "strategies": [
+        "livelli_difficolta",
+        "valutazione_formativa",
+        "feedback_mirato",
+        "scaffolding_guidato"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "contenuti su misura; ritmo di apprendimento adattabile; valutazione individualizzata",
+      "confidence": 0.95,
+      "reason": "La risposta descrive l'adattamento dei contenuti e del ritmo di apprendimento alle specifiche necessità dello studente per raggiungere gli obiettivi."
+    }
+  ]
+}

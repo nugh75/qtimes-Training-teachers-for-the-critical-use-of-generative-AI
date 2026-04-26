@@ -1,0 +1,33 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_oppi12.md",
+  "source_name": "insegnanti_attuali_oppi12.md",
+  "title": "Risposta OPPI12",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "OPPI12",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:35.928360+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 5,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "i ragazzi non devono abusarne",
+      "stance": "solo_contro",
+      "pros": [],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "i ragazzi non devono abusarne",
+          "reason": "Il partecipante evidenzia il rischio di abuso, implicando una potenziale perdita di autonomia o dipendenza."
+        }
+      ],
+      "pro_count": 0,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta menziona esclusivamente un rischio (l'abuso) senza citare benefici."
+    }
+  ]
+}

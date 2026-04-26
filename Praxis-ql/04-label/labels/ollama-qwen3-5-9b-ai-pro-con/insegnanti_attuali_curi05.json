@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_curi05.md",
+  "source_name": "insegnanti_attuali_curi05.md",
+  "title": "Risposta curi05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "curi05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:21:12.617348+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "vantaggi: risparmio di tempo. contro: minore sforzo cognitivo, mancanza dell'interazione sociale",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "minore sforzo cognitivo",
+          "reason": "Il partecipante segnala che l'IA riduce lo sforzo mentale richiesto."
+        },
+        {
+          "category": "riduzione_relazione",
+          "evidence": "mancanza dell'interazione sociale",
+          "reason": "Il partecipante evidenzia la perdita di interazione sociale come svantaggio."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 2,
+      "confidence": 1.0,
+      "reason": "La risposta elenca esplicitamente un pro e due contro specifici."
+    }
+  ]
+}

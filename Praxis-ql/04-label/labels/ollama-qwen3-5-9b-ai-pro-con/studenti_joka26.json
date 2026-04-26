@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_joka26.md",
+  "source_name": "studenti_joka26.md",
+  "title": "Risposta joka26",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "joka26",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:34:53.333648+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 2,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro posso essere che ti auita a fare le mappe su quell argomento e i contro possono essere fai tutto senza imparare niente",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "produzione_materiali",
+          "evidence": "aiuta a fare le mappe su quell argomento",
+          "reason": "Il partecipante indica che l'IA facilita la creazione di mappe concettuali."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "fai tutto senza imparare niente",
+          "reason": "Il partecipante segnala il rischio di delegare completamente il lavoro senza acquisire conoscenze."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (creazione mappe) e uno svantaggio (mancanza di apprendimento)."
+    }
+  ]
+}

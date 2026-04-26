@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_noce25.md",
+  "source_name": "insegnanti_attuali_noce25.md",
+  "title": "Risposta noce25",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "noce25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:25:08.013740+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro se ben usata implementano e potenziano le capacità; i contro se mal utilizzata finisce per azzerare completamente la competenza critica e la riflessione",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "autonomia_organizzazione",
+          "evidence": "implementano e potenziano le capacità",
+          "reason": "Il partecipante indica che l'uso corretto dell'IA potenzia le capacità degli utenti."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "finisce per azzerare completamente la competenza critica e la riflessione",
+          "reason": "Il partecipante segnala che un uso improprio porta alla perdita della competenza critica e della riflessione."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un beneficio (potenziamento capacità) e un rischio (azzeramento competenza critica)."
+    }
+  ]
+}

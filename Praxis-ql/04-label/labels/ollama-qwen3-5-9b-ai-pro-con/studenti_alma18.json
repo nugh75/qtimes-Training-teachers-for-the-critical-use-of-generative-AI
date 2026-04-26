@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_alma18.md",
+  "source_name": "studenti_alma18.md",
+  "title": "Risposta Alma18",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Alma18",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:31:22.709297+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Pro= semplificare lo studio, Contro= può essere utilizzata in maniera sbagliata",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "semplificare lo studio",
+          "reason": "Il partecipante indica che l'IA facilita e velocizza il processo di studio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "può essere utilizzata in maniera sbagliata",
+          "reason": "Il partecipante evidenzia il rischio di un uso improprio che potrebbe portare a una cattiva applicazione o dipendenza."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio ('semplificare') e uno svantaggio ('utilizzata in maniera sbagliata')."
+    }
+  ]
+}

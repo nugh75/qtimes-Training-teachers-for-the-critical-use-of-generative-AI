@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_futuri_lita25.md",
+  "source_name": "insegnanti_futuri_lita25.md",
+  "title": "Risposta lita25",
+  "group": "Insegnanti pre-service",
+  "cohort": "insegnanti_pre_service",
+  "record_code": "lita25",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:30:15.810191+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 3,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "I pro sono che è diventato più facile reperire le informazioni, i contro sono che essendo più facile i ragazzi si impegnano di meno",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "ricerca_informazioni",
+          "evidence": "è diventato più facile reperire le informazioni",
+          "reason": "Il partecipante indica che l'IA facilita l'accesso e la raccolta di dati."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "i ragazzi si impegnano di meno",
+          "reason": "Il partecipante segnala una riduzione dell'impegno e dello sforzo cognitivo degli studenti."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca esplicitamente un vantaggio (facilità di ricerca) e uno svantaggio (ridotto impegno)."
+    }
+  ]
+}

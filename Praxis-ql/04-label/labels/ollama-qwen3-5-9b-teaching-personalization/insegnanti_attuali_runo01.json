@@ -1,0 +1,29 @@
+{
+  "schema_version": "teaching_personalization.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_runo01.md",
+  "source_name": "insegnanti_attuali_runo01.md",
+  "title": "Risposta runo01",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "runo01",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:43:28.966824+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 4,
+      "question": "In che modo utilizzi l’intelligenza artificiale per personalizzare l’insegnamento? (Nota: la personalizzazione si riferisce alle strategie didattiche finalizzate a garantire a ogni studente una propria forma di eccellenza cognitiva, offrendo possibilità elettive per coltivare le proprie potenzialità intellettive.)",
+      "answer": "testi differenziati",
+      "practice_present": true,
+      "strategies": [
+        "materiali_differenziati"
+      ],
+      "target": "singolo_studente",
+      "ai_role": "adattamento_contenuti",
+      "evidence": "testi differenziati",
+      "confidence": 0.95,
+      "reason": "La risposta 'testi differenziati' indica l'uso dell'IA per adattare i materiali in base alle esigenze personali degli studenti."
+    }
+  ]
+}

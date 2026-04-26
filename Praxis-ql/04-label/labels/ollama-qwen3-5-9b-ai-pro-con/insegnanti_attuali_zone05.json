@@ -1,0 +1,44 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_zone05.md",
+  "source_name": "insegnanti_attuali_zone05.md",
+  "title": "Risposta Zone05",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "Zone05",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:28:44.247050+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 9,
+      "question": "In base alla tua esperienza, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nell'educazione?",
+      "answer": "Pro: alleggeriscono il lavoro di noi professori e possono supportare lo studio degli strumenti con dsa Contro: gli studenti ci si affidano troppo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "alleggeriscono il lavoro di noi professori",
+          "reason": "Il partecipante indica che l'IA riduce il carico di lavoro per gli insegnanti."
+        },
+        {
+          "category": "accessibilita_inclusione",
+          "evidence": "supportare lo studio degli strumenti con dsa",
+          "reason": "Il partecipante evidenzia il supporto offerto agli studenti con disturbi specifici dell'apprendimento."
+        }
+      ],
+      "cons": [
+        {
+          "category": "dipendenza",
+          "evidence": "gli studenti ci si affidano troppo",
+          "reason": "Il partecipante segnala il rischio di eccessiva dipendenza degli studenti dall'IA."
+        }
+      ],
+      "pro_count": 2,
+      "con_count": 1,
+      "confidence": 0.95,
+      "reason": "La risposta elenca esplicitamente un vantaggio operativo/inclusivo e un rischio comportamentale."
+    }
+  ]
+}

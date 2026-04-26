@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_musa30.md",
+  "source_name": "studenti_musa30.md",
+  "title": "Risposta Musa30",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "Musa30",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:35:39.659121+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "Fornisce nell’immediato informazioni, aiutando così a risparmiare tempo. Però può limitare le capacità produttive del soggetto.",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "Fornisce nell'immediato informazioni, aiutando così a risparmiare tempo",
+          "reason": "Il partecipante evidenzia il risparmio di tempo come vantaggio immediato."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "Però può limitare le capacità produttive del soggetto",
+          "reason": "Il partecipante segnala il rischio di limitazione delle capacità produttive individuali."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta esplicita sia un beneficio (risparmio tempo) che un rischio (limitazione capacità)."
+    }
+  ]
+}

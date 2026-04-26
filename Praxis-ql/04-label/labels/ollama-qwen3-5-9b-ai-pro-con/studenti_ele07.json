@@ -1,0 +1,39 @@
+{
+  "schema_version": "ai_pro_con.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/studenti_ele07.md",
+  "source_name": "studenti_ele07.md",
+  "title": "Risposta ele07",
+  "group": "Studenti",
+  "cohort": "studenti",
+  "record_code": "ele07",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:32:43.608058+00:00",
+  "item_count": 1,
+  "items": [
+    {
+      "index": 7,
+      "question": "In base alla tua esperiezia, quali sono i pro e i contro dell'uso dell'intelligenza artificiale nello studio?",
+      "answer": "i pro sono ad esempio il risparmio di tempo utilizzato nella ricerca i contro fanno riferimento a un uso maladattivo",
+      "stance": "misto",
+      "pros": [
+        {
+          "category": "efficienza_tempo",
+          "evidence": "risparmio di tempo",
+          "reason": "Il partecipante cita esplicitamente il risparmio di tempo come vantaggio."
+        }
+      ],
+      "cons": [
+        {
+          "category": "delega_cognitiva",
+          "evidence": "uso maladattivo",
+          "reason": "Il partecipante definisce il contro come un 'uso maladattivo', implicando una cattiva gestione o delega del processo cognitivo."
+        }
+      ],
+      "pro_count": 1,
+      "con_count": 1,
+      "confidence": 0.9,
+      "reason": "La risposta elenca chiaramente un pro (risparmio di tempo) e un contro (uso maladattivo)."
+    }
+  ]
+}

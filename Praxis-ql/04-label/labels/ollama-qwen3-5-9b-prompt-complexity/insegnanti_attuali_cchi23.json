@@ -1,0 +1,54 @@
+{
+  "schema_version": "prompt_complexity.v1",
+  "source_file": "/home/nugh75/-qtimes/Praxis-ql/02-corpus/insegnanti_attuali_cchi23.md",
+  "source_name": "insegnanti_attuali_cchi23.md",
+  "title": "Risposta cchi23",
+  "group": "Insegnanti in servizio",
+  "cohort": "insegnanti_in_servizio",
+  "record_code": "cchi23",
+  "host": "http://192.168.129.14:11434",
+  "model": "qwen3.5:9b",
+  "generated_at": "2026-04-25T07:10:54.792920+00:00",
+  "item_count": 1,
+  "complexity_counts": {
+    "alta": 1
+  },
+  "specificity_counts": {
+    "alta": 1
+  },
+  "prompt_type_counts": {
+    "altro": 1
+  },
+  "strategy_counts": {},
+  "avg_word_count": 63.0,
+  "avg_confidence": 0.0,
+  "items": [
+    {
+      "index": 4,
+      "question": "Puoi darci uno o più esempi di prompt che utilizzi? Un prompt è un input di testo che viene fornito a un sistema di intelligenza artificiale o a un modello linguistico per ottenere una risposta o un output generato. In altre parole è porre una domanda o dare un'istruzione a un assistente virtuale o a un chatbot.",
+      "answer": "Ti fornisco il materiale in PDF sull'argomento \"le uova\", ho bisogno di fare una verifica scritta su due file (A-B) di 10 domande a risposta V o F, 10 domande a risposta multipla (con 4 possibili risposte) e 5 domande a completamento dove togli in totale 10 parole. La verifica scritta deve essere somministrata a dei ragazzi di 3° superiore dell'istituto alberghiero.",
+      "metrics": {
+        "char_count": 368,
+        "word_count": 63,
+        "sentence_count": 2,
+        "question_mark_count": 0,
+        "request_count": 1,
+        "has_multiple_requests": false,
+        "is_empty_or_placeholder": false
+      },
+      "complexity_level": "alta",
+      "specificity_level": "alta",
+      "prompt_type": "altro",
+      "strategies": [],
+      "has_role": false,
+      "has_context": false,
+      "has_constraints": false,
+      "has_output_format": false,
+      "has_audience": false,
+      "has_evaluation_criteria": false,
+      "has_iterative_instruction": false,
+      "confidence": 0.0,
+      "reason": "Nessuna classificazione valida restituita dal modello."
+    }
+  ]
+}
